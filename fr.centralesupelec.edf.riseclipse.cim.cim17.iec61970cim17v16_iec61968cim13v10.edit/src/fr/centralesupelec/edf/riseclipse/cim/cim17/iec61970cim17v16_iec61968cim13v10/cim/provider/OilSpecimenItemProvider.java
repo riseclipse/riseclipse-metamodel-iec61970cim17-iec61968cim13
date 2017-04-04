@@ -1,0 +1,190 @@
+/**
+ *  Copyright (c) 2016 CentraleSupélec & EDF.
+ *  All rights reserved. This program and the accompanying materials
+ *  are made available under the terms of the Eclipse Public License v1.0
+ *  which accompanies this distribution, and is available at
+ *  http://www.eclipse.org/legal/epl-v10.html
+ * 
+ *  This file is part of the RiseClipse tool
+ *  
+ *  Contributors:
+ *      Computer Science Department, CentraleSupélec : initial implementation
+ *  Contacts:
+ *      Dominique.Marcadet@centralesupelec.fr
+ * 
+ */
+package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
+
+import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
+import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.OilSpecimen;
+
+import java.util.Collection;
+import java.util.List;
+
+import org.eclipse.emf.common.notify.AdapterFactory;
+import org.eclipse.emf.common.notify.Notification;
+
+import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
+import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
+import org.eclipse.emf.edit.provider.ItemPropertyDescriptor;
+import org.eclipse.emf.edit.provider.ViewerNotification;
+
+/**
+ * This is the item provider adapter for a {@link fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.OilSpecimen} object.
+ * <!-- begin-user-doc -->
+ * <!-- end-user-doc -->
+ * @generated
+ */
+public class OilSpecimenItemProvider extends SpecimenItemProvider {
+    /**
+     * This constructs an instance from a factory and a notifier.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public OilSpecimenItemProvider( AdapterFactory adapterFactory ) {
+        super( adapterFactory );
+    }
+
+    /**
+     * This returns the property descriptors for the adapted class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public List< IItemPropertyDescriptor > getPropertyDescriptors( Object object ) {
+        if( itemPropertyDescriptors == null ) {
+            super.getPropertyDescriptors( object );
+
+            addOilSampleTakenFromPropertyDescriptor( object );
+            addOilSampleTemperaturePropertyDescriptor( object );
+            addOilTemperatureSourcePropertyDescriptor( object );
+            addSampleContainerPropertyDescriptor( object );
+        }
+        return itemPropertyDescriptors;
+    }
+
+    /**
+     * This adds a property descriptor for the Oil Sample Taken From feature.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected void addOilSampleTakenFromPropertyDescriptor( Object object ) {
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(), getString( "_UI_OilSpecimen_oilSampleTakenFrom_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_OilSpecimen_oilSampleTakenFrom_feature",
+                                "_UI_OilSpecimen_type" ),
+                        CimPackage.eINSTANCE.getOilSpecimen_OilSampleTakenFrom(), true, false, false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+    }
+
+    /**
+     * This adds a property descriptor for the Oil Sample Temperature feature.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected void addOilSampleTemperaturePropertyDescriptor( Object object ) {
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(), getString( "_UI_OilSpecimen_oilSampleTemperature_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_OilSpecimen_oilSampleTemperature_feature",
+                                "_UI_OilSpecimen_type" ),
+                        CimPackage.eINSTANCE.getOilSpecimen_OilSampleTemperature(), true, false, false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+    }
+
+    /**
+     * This adds a property descriptor for the Oil Temperature Source feature.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected void addOilTemperatureSourcePropertyDescriptor( Object object ) {
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(), getString( "_UI_OilSpecimen_oilTemperatureSource_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_OilSpecimen_oilTemperatureSource_feature",
+                                "_UI_OilSpecimen_type" ),
+                        CimPackage.eINSTANCE.getOilSpecimen_OilTemperatureSource(), true, false, false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+    }
+
+    /**
+     * This adds a property descriptor for the Sample Container feature.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected void addSampleContainerPropertyDescriptor( Object object ) {
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(), getString( "_UI_OilSpecimen_sampleContainer_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_OilSpecimen_sampleContainer_feature",
+                                "_UI_OilSpecimen_type" ),
+                        CimPackage.eINSTANCE.getOilSpecimen_SampleContainer(), true, false, false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+    }
+
+    /**
+     * This returns OilSpecimen.gif.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public Object getImage( Object object ) {
+        return overlayImage( object, getResourceLocator().getImage( "full/obj16/OilSpecimen" ) );
+    }
+
+    /**
+     * This returns the label text for the adapted class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public String getText( Object object ) {
+        String label = ( ( OilSpecimen ) object ).getName();
+        return label == null || label.length() == 0 ? getString( "_UI_OilSpecimen_type" )
+                : getString( "_UI_OilSpecimen_type" ) + " " + label;
+    }
+
+    /**
+     * This handles model notifications by calling {@link #updateChildren} to update any cached
+     * children and by creating a viewer notification, which it passes to {@link #fireNotifyChanged}.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public void notifyChanged( Notification notification ) {
+        updateChildren( notification );
+
+        switch( notification.getFeatureID( OilSpecimen.class ) ) {
+        case CimPackage.OIL_SPECIMEN__OIL_SAMPLE_TAKEN_FROM:
+        case CimPackage.OIL_SPECIMEN__OIL_SAMPLE_TEMPERATURE:
+        case CimPackage.OIL_SPECIMEN__OIL_TEMPERATURE_SOURCE:
+        case CimPackage.OIL_SPECIMEN__SAMPLE_CONTAINER:
+            fireNotifyChanged( new ViewerNotification( notification, notification.getNotifier(), false, true ) );
+            return;
+        }
+        super.notifyChanged( notification );
+    }
+
+    /**
+     * This adds {@link org.eclipse.emf.edit.command.CommandParameter}s describing the children
+     * that can be created under this object.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected void collectNewChildDescriptors( Collection< Object > newChildDescriptors, Object object ) {
+        super.collectNewChildDescriptors( newChildDescriptors, object );
+    }
+
+}

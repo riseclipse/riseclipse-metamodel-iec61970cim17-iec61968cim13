@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+  Copyright (c) 2016 CentraleSupélec & EDF.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the Eclipse Public License v1.0
+  which accompanies this distribution, and is available at
+  http://www.eclipse.org/legal/epl-v10.html
+ 
+  This file is part of the RiseClipse tool
+  
+  Contributors:
+      Computer Science Department, CentraleSupélec : initial implementation
+  Contacts:
+      Dominique.Marcadet@centralesupelec.fr
+ 
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated iec61970cim17v16_iec61968cim13v10 -->
+      <package
+            uri="http://iec.ch/TC57/2016/CIM-schema-cim17"
+            class="fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage"
+            genModel="model/iec61970cim17v16_iec61968cim13v10.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated iec61970cim17v16_iec61968cim13v10 -->
+      <parser
+            type=""
+            class="fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.util.CimResourceFactoryImpl"/>
+   </extension>
+
+   <extension
+         point="fr.centralesupelec.edf.riseclipse.main.meta_models">
+      <meta_model
+            name="IEC61970 CIM17 (v16) and IEC 61968 CIM13 (v10)"
+            resourceFactory="fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.util.CimResourceFactoryImpl"
+            uri="http://iec.ch/TC57/2016/CIM-schema-cim17">
+      </meta_model>
+   </extension>
+</plugin>

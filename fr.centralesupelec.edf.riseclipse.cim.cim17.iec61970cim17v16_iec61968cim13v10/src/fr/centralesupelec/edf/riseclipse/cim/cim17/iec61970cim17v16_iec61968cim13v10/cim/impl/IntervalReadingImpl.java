@@ -1,0 +1,201 @@
+/**
+ *  Copyright (c) 2016 CentraleSupélec & EDF.
+ *  All rights reserved. This program and the accompanying materials
+ *  are made available under the terms of the Eclipse Public License v1.0
+ *  which accompanies this distribution, and is available at
+ *  http://www.eclipse.org/legal/epl-v10.html
+ * 
+ *  This file is part of the RiseClipse tool
+ *  
+ *  Contributors:
+ *      Computer Science Department, CentraleSupélec : initial implementation
+ *  Contacts:
+ *      Dominique.Marcadet@centralesupelec.fr
+ * 
+ */
+package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.impl;
+
+import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
+import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.IntervalBlock;
+import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.IntervalReading;
+
+import java.util.Collection;
+
+import org.eclipse.emf.common.notify.NotificationChain;
+
+import org.eclipse.emf.common.util.EList;
+
+import org.eclipse.emf.ecore.EClass;
+import org.eclipse.emf.ecore.InternalEObject;
+
+import org.eclipse.emf.ecore.util.EObjectWithInverseEList;
+import org.eclipse.emf.ecore.util.InternalEList;
+
+/**
+ * <!-- begin-user-doc -->
+ * An implementation of the model object '<em><b>Interval Reading</b></em>'.
+ * <!-- end-user-doc -->
+ * <p>
+ * The following features are implemented:
+ * </p>
+ * <ul>
+ *   <li>{@link fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.impl.IntervalReadingImpl#getIntervalBlocks <em>Interval Blocks</em>}</li>
+ * </ul>
+ *
+ * @generated
+ */
+public class IntervalReadingImpl extends BaseReadingImpl implements IntervalReading {
+    /**
+     * The cached value of the '{@link #getIntervalBlocks() <em>Interval Blocks</em>}' reference list.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #getIntervalBlocks()
+     * @generated
+     * @ordered
+     */
+    protected EList< IntervalBlock > intervalBlocks;
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected IntervalReadingImpl() {
+        super();
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    protected EClass eStaticClass() {
+        return CimPackage.eINSTANCE.getIntervalReading();
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public EList< IntervalBlock > getIntervalBlocks() {
+        if( intervalBlocks == null ) {
+            intervalBlocks = new EObjectWithInverseEList.Unsettable.ManyInverse< IntervalBlock >( IntervalBlock.class,
+                    this, CimPackage.INTERVAL_READING__INTERVAL_BLOCKS, CimPackage.INTERVAL_BLOCK__INTERVAL_READINGS );
+        }
+        return intervalBlocks;
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public void unsetIntervalBlocks() {
+        if( intervalBlocks != null ) ( ( InternalEList.Unsettable< ? > ) intervalBlocks ).unset();
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public boolean isSetIntervalBlocks() {
+        return intervalBlocks != null && ( ( InternalEList.Unsettable< ? > ) intervalBlocks ).isSet();
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings( "unchecked" )
+    @Override
+    public NotificationChain eInverseAdd( InternalEObject otherEnd, int featureID, NotificationChain msgs ) {
+        switch( featureID ) {
+        case CimPackage.INTERVAL_READING__INTERVAL_BLOCKS:
+            return ( ( InternalEList< InternalEObject > ) ( InternalEList< ? > ) getIntervalBlocks() )
+                    .basicAdd( otherEnd, msgs );
+        }
+        return super.eInverseAdd( otherEnd, featureID, msgs );
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public NotificationChain eInverseRemove( InternalEObject otherEnd, int featureID, NotificationChain msgs ) {
+        switch( featureID ) {
+        case CimPackage.INTERVAL_READING__INTERVAL_BLOCKS:
+            return ( ( InternalEList< ? > ) getIntervalBlocks() ).basicRemove( otherEnd, msgs );
+        }
+        return super.eInverseRemove( otherEnd, featureID, msgs );
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public Object eGet( int featureID, boolean resolve, boolean coreType ) {
+        switch( featureID ) {
+        case CimPackage.INTERVAL_READING__INTERVAL_BLOCKS:
+            return getIntervalBlocks();
+        }
+        return super.eGet( featureID, resolve, coreType );
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @SuppressWarnings( "unchecked" )
+    @Override
+    public void eSet( int featureID, Object newValue ) {
+        switch( featureID ) {
+        case CimPackage.INTERVAL_READING__INTERVAL_BLOCKS:
+            getIntervalBlocks().clear();
+            getIntervalBlocks().addAll( ( Collection< ? extends IntervalBlock > ) newValue );
+            return;
+        }
+        super.eSet( featureID, newValue );
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public void eUnset( int featureID ) {
+        switch( featureID ) {
+        case CimPackage.INTERVAL_READING__INTERVAL_BLOCKS:
+            unsetIntervalBlocks();
+            return;
+        }
+        super.eUnset( featureID );
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public boolean eIsSet( int featureID ) {
+        switch( featureID ) {
+        case CimPackage.INTERVAL_READING__INTERVAL_BLOCKS:
+            return isSetIntervalBlocks();
+        }
+        return super.eIsSet( featureID );
+    }
+
+} //IntervalReadingImpl
