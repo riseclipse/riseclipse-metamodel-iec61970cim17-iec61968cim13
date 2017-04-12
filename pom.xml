@@ -12,7 +12,7 @@
   
   <parent>
     <groupId>fr.centralesupelec.edf.riseclipse</groupId>
-    <artifactId>fr.centralesupelec.edf.riseclipse.developer.maven</artifactId>
+    <artifactId>fr.centralesupelec.edf.riseclipse.developer.maven-root</artifactId>
     <version>1.0</version>
     <relativePath>../RiseClipseDeveloper/fr.centralesupelec.edf.riseclipse.developer.maven/pom-root.xml</relativePath>
   </parent>
