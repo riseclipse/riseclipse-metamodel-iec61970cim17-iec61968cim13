@@ -7,13 +7,13 @@
  
   <groupId>fr.centralesupelec.edf.riseclipse</groupId>
   <artifactId>RiseClipseMetamodel_iec61970cim17_iec61968cim13</artifactId>
-  <version>1.0</version>
+  <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   
   <parent>
     <groupId>fr.centralesupelec.edf.riseclipse</groupId>
     <artifactId>fr.centralesupelec.edf.riseclipse.developer.maven-root</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <relativePath>../RiseClipseDeveloper/fr.centralesupelec.edf.riseclipse.developer.maven/pom-root.xml</relativePath>
   </parent>
 

@@ -13,7 +13,7 @@
   <parent>
     <groupId>fr.centralesupelec.edf.riseclipse</groupId>
     <artifactId>RiseClipseMetamodel_iec61970cim17_iec61968cim13</artifactId>
-    <version>1.0</version>
+    <version>1.0.0-SNAPSHOT</version>
   </parent>
 
 </project>
