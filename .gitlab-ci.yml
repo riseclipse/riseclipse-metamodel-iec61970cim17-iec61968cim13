@@ -7,10 +7,15 @@ stages:
 build:
   stage: build
   script:
-    - "pushd .."
-    - "if [ -d RiseClipseDeveloper ]; then cd RiseClipseDeveloper ; git pull ; else git clone https://gitlab.centralesupelec.fr/RiseClipseGroup/RiseClipseDeveloper.git ; fi"
-    - "popd"
-    - "mvn clean install"
+    - "mvn clean package"
+  tags:
+    - riseclipse
+
+# deploy is not restricted to master because of dependencies beween plug-ins
+deploy:
+  stage: deploy
+  script:
+    - "mvn deploy"
   tags:
     - riseclipse
 
