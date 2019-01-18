@@ -17,7 +17,6 @@ package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim
 
 import org.eclipse.emf.common.util.URI;
 import org.eclipse.emf.ecore.EObject;
-import org.eclipse.emf.ecore.xmi.XMLLoad;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimObjectWithID;
 
@@ -26,7 +25,7 @@ import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim1
  * The <b>Resource </b> associated with the package.
  * <!-- end-user-doc -->
  * @see fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16.cim.util.CimResourceFactoryImpl
- * @generated
+ * @generated NOT
  */
 public class CimResourceImpl extends fr.centralesupelec.edf.riseclipse.cim.cim17.util.CimResourceImpl {
 
@@ -39,11 +38,6 @@ public class CimResourceImpl extends fr.centralesupelec.edf.riseclipse.cim.cim17
      */
     public CimResourceImpl( URI uri ) {
         super( uri );
-    }
-
-    @Override
-    protected XMLLoad createXMLLoad() {
-        return new CimXMLLoadImpl( createXMLHelper() );
     }
 
     // TODO: why do we need to override it ?
