@@ -645,7 +645,7 @@ public class DERGroupForecastImpl extends IdentifiedObjectImpl implements DERGro
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (capabilityKind: " );
         if( capabilityKindESet )
             result.append( capabilityKind );

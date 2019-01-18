@@ -560,7 +560,7 @@ public class ClearanceDocumentImpl extends SafetyDocumentImpl implements Clearan
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (mustBeDeenergised: " );
         if( mustBeDeenergisedESet )
             result.append( mustBeDeenergised );

@@ -1118,7 +1118,7 @@ public class HydroTurbineImpl extends PrimeMoverImpl implements HydroTurbine {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (gateRateLimit: " );
         if( gateRateLimitESet )
             result.append( gateRateLimit );

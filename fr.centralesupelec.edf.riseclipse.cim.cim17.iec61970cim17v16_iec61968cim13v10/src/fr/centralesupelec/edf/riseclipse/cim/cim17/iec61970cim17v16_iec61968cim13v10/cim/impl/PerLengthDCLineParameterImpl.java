@@ -485,7 +485,7 @@ public class PerLengthDCLineParameterImpl extends PerLengthLineParameterImpl imp
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (capacitance: " );
         if( capacitanceESet )
             result.append( capacitance );

@@ -573,7 +573,7 @@ public class EndDeviceEventTypeImpl extends IdentifiedObjectImpl implements EndD
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (domain: " );
         if( domainESet )
             result.append( domain );

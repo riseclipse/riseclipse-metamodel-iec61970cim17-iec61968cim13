@@ -446,7 +446,8 @@ public class LoadGenericNonLinearImpl extends LoadDynamicsImpl implements LoadGe
     public void setGenericNonLinearLoadModelType( GenericNonLinearLoadModelKind newGenericNonLinearLoadModelType ) {
         GenericNonLinearLoadModelKind oldGenericNonLinearLoadModelType = genericNonLinearLoadModelType;
         genericNonLinearLoadModelType = newGenericNonLinearLoadModelType == null
-                ? GENERIC_NON_LINEAR_LOAD_MODEL_TYPE_EDEFAULT : newGenericNonLinearLoadModelType;
+                ? GENERIC_NON_LINEAR_LOAD_MODEL_TYPE_EDEFAULT
+                : newGenericNonLinearLoadModelType;
         boolean oldGenericNonLinearLoadModelTypeESet = genericNonLinearLoadModelTypeESet;
         genericNonLinearLoadModelTypeESet = true;
         if( eNotificationRequired() ) eNotify( new ENotificationImpl( this, Notification.SET,
@@ -929,7 +930,7 @@ public class LoadGenericNonLinearImpl extends LoadDynamicsImpl implements LoadGe
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (bs: " );
         if( bsESet )
             result.append( bs );

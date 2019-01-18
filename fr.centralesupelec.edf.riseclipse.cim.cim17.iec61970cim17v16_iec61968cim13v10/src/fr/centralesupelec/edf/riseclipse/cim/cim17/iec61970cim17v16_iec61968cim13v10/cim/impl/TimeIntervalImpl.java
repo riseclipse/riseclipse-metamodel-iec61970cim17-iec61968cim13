@@ -296,7 +296,7 @@ public class TimeIntervalImpl extends MinimalEObjectImpl.Container implements Ti
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (end: " );
         if( endESet )
             result.append( end );

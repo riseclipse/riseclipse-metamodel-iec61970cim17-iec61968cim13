@@ -109,7 +109,8 @@ public enum BreakerApplicationKind implements Enumerator {
      * @generated
      * @ordered
      */
-    STEP_UP_TRANSFORMER_BREAKER_PUMPED_STORAGE( 7, "stepUpTransformerBreakerPumpedStorage", "stepUpTransformerBreakerPumpedStorage" ),
+    STEP_UP_TRANSFORMER_BREAKER_PUMPED_STORAGE( 7, "stepUpTransformerBreakerPumpedStorage",
+            "stepUpTransformerBreakerPumpedStorage" ),
 
     /**
      * The '<em><b>Substation Transformer Breaker</b></em>' literal object.

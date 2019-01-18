@@ -377,7 +377,7 @@ public class LineFaultImpl extends FaultImpl implements LineFault {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (lengthFromTerminal1: " );
         if( lengthFromTerminal1ESet )
             result.append( lengthFromTerminal1 );

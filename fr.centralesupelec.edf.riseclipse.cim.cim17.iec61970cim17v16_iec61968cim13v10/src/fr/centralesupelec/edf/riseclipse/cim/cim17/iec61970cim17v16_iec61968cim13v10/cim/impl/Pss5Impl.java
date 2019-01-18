@@ -1643,7 +1643,7 @@ public class Pss5Impl extends PowerSystemStabilizerDynamicsImpl implements Pss5 
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (ctw2: " );
         if( ctw2ESet )
             result.append( ctw2 );

@@ -49,7 +49,8 @@ public enum RemoteSignalKind implements Enumerator {
      * @generated
      * @ordered
      */
-    REMOTE_BUS_VOLTAGE_FREQUENCY_DEVIATION( 1, "remoteBusVoltageFrequencyDeviation", "remoteBusVoltageFrequencyDeviation" ),
+    REMOTE_BUS_VOLTAGE_FREQUENCY_DEVIATION( 1, "remoteBusVoltageFrequencyDeviation",
+            "remoteBusVoltageFrequencyDeviation" ),
 
     /**
      * The '<em><b>Remote Bus Frequency</b></em>' literal object.
@@ -109,7 +110,8 @@ public enum RemoteSignalKind implements Enumerator {
      * @generated
      * @ordered
      */
-    REMOTE_BUS_VOLTAGE_AMPLITUDE_DERIVATIVE( 7, "remoteBusVoltageAmplitudeDerivative", "remoteBusVoltageAmplitudeDerivative" ),
+    REMOTE_BUS_VOLTAGE_AMPLITUDE_DERIVATIVE( 7, "remoteBusVoltageAmplitudeDerivative",
+            "remoteBusVoltageAmplitudeDerivative" ),
 
     /**
      * The '<em><b>Remote Pu Bus Voltage Derivative</b></em>' literal object.

@@ -2093,7 +2093,7 @@ public class ExcAC1AImpl extends ExcitationSystemDynamicsImpl implements ExcAC1A
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (hvlvgates: " );
         if( hvlvgatesESet )
             result.append( hvlvgates );

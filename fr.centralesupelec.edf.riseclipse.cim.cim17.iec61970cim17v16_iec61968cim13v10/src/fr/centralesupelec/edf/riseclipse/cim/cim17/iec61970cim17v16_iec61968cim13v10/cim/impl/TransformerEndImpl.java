@@ -1801,7 +1801,7 @@ public class TransformerEndImpl extends IdentifiedObjectImpl implements Transfor
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (bmagSat: " );
         if( bmagSatESet )
             result.append( bmagSat );

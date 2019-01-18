@@ -1374,7 +1374,7 @@ public class ExcIEEEST6BImpl extends ExcitationSystemDynamicsImpl implements Exc
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (ilr: " );
         if( ilrESet )
             result.append( ilr );

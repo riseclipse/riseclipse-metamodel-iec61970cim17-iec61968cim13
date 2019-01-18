@@ -59,7 +59,8 @@ public enum OilAnalysisMoistureAnalogKind implements Enumerator {
      * @generated
      * @ordered
      */
-    WATER_CONTENT_MONITORED_VIA_CAPACITANCE( 2, "waterContentMonitoredViaCapacitance", "waterContentMonitoredViaCapacitance" ),
+    WATER_CONTENT_MONITORED_VIA_CAPACITANCE( 2, "waterContentMonitoredViaCapacitance",
+            "waterContentMonitoredViaCapacitance" ),
 
     /**
      * The '<em><b>Water Content Monitored Via Aluminum Oxide</b></em>' literal object.
@@ -69,7 +70,8 @@ public enum OilAnalysisMoistureAnalogKind implements Enumerator {
      * @generated
      * @ordered
      */
-    WATER_CONTENT_MONITORED_VIA_ALUMINUM_OXIDE( 3, "waterContentMonitoredViaAluminumOxide", "waterContentMonitoredViaAluminumOxide" ),
+    WATER_CONTENT_MONITORED_VIA_ALUMINUM_OXIDE( 3, "waterContentMonitoredViaAluminumOxide",
+            "waterContentMonitoredViaAluminumOxide" ),
 
     /**
      * The '<em><b>Water Content Monitored Via Other</b></em>' literal object.

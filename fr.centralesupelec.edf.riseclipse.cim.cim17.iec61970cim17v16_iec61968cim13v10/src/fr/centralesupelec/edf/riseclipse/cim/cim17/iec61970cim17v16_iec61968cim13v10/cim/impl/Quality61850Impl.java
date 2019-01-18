@@ -1200,7 +1200,7 @@ public class Quality61850Impl extends CimObjectWithIDImpl implements Quality6185
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (badReference: " );
         if( badReferenceESet )
             result.append( badReference );

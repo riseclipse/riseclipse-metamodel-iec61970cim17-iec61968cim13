@@ -428,7 +428,7 @@ public class TariffProfileImpl extends DocumentImpl implements TariffProfile {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (tariffCycle: " );
         if( tariffCycleESet )
             result.append( tariffCycle );

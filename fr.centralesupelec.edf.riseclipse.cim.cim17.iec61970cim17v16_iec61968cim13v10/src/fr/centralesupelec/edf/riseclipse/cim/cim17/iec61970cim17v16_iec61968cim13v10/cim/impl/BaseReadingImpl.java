@@ -624,7 +624,7 @@ public class BaseReadingImpl extends MeasurementValueImpl implements BaseReading
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (reportedDateTime: " );
         if( reportedDateTimeESet )
             result.append( reportedDateTime );

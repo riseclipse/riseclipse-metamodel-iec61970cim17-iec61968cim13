@@ -608,7 +608,7 @@ public class MerchantAccountImpl extends DocumentImpl implements MerchantAccount
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (currentBalance: " );
         if( currentBalanceESet )
             result.append( currentBalance );

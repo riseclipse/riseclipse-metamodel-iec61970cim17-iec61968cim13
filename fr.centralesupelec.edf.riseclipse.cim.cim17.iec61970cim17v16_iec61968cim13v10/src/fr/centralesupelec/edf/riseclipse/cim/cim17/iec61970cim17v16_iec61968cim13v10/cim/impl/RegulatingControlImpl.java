@@ -1060,7 +1060,7 @@ public class RegulatingControlImpl extends PowerSystemResourceImpl implements Re
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (discrete: " );
         if( discreteESet )
             result.append( discrete );

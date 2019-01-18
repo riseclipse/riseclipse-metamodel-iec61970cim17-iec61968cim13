@@ -563,7 +563,7 @@ public class FrequencyConverterImpl extends RegulatingCondEqImpl implements Freq
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (frequency: " );
         if( frequencyESet )
             result.append( frequency );

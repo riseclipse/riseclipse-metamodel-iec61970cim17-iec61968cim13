@@ -609,7 +609,7 @@ public class TieFlowImpl extends IdentifiedObjectImpl implements TieFlow {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (positiveFlowIn: " );
         if( positiveFlowInESet )
             result.append( positiveFlowIn );

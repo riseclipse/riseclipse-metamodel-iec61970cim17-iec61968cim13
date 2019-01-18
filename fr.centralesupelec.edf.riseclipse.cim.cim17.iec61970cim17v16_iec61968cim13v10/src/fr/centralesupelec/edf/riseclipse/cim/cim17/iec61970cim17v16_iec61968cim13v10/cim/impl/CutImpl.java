@@ -521,7 +521,7 @@ public class CutImpl extends SwitchImpl implements Cut {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (lengthFromTerminal1: " );
         if( lengthFromTerminal1ESet )
             result.append( lengthFromTerminal1 );

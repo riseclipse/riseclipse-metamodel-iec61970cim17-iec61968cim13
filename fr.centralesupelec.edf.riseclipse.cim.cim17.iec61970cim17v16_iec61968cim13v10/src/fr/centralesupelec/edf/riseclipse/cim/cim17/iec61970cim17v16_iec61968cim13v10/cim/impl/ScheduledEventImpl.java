@@ -680,7 +680,7 @@ public class ScheduledEventImpl extends IdentifiedObjectImpl implements Schedule
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (duration: " );
         if( durationESet )
             result.append( duration );

@@ -683,7 +683,7 @@ public class VoltageLevelImpl extends EquipmentContainerImpl implements VoltageL
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (highVoltageLimit: " );
         if( highVoltageLimitESet )
             result.append( highVoltageLimit );

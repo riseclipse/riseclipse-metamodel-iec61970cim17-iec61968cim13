@@ -653,7 +653,7 @@ public class UnderexcLimX1Impl extends UnderexcitationLimiterDynamicsImpl implem
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (k: " );
         if( kESet )
             result.append( k );

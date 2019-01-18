@@ -566,7 +566,7 @@ public class DueImpl extends MinimalEObjectImpl.Container implements Due {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (arrears: " );
         if( arrearsESet )
             result.append( arrears );

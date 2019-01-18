@@ -476,7 +476,7 @@ public class PowerElectronicsUnitImpl extends EquipmentImpl implements PowerElec
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (maxP: " );
         if( maxPESet )
             result.append( maxP );

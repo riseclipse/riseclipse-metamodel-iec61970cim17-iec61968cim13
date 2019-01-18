@@ -483,7 +483,7 @@ public class UsagePointLocationImpl extends LocationImpl implements UsagePointLo
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (accessMethod: " );
         if( accessMethodESet )
             result.append( accessMethod );

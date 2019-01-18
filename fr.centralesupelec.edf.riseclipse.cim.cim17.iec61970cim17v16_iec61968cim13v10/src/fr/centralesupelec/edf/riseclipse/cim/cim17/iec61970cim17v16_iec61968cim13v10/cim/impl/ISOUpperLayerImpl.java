@@ -743,7 +743,7 @@ public class ISOUpperLayerImpl extends TCPAccessPointImpl implements ISOUpperLay
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (aeInvoke: " );
         if( aeInvokeESet )
             result.append( aeInvoke );

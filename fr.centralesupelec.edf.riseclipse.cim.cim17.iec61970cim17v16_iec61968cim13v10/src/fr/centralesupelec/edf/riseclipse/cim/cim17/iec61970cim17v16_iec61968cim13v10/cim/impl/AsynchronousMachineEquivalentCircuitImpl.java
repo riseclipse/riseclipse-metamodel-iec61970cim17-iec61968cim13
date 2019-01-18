@@ -564,7 +564,7 @@ public class AsynchronousMachineEquivalentCircuitImpl extends AsynchronousMachin
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (rr1: " );
         if( rr1ESet )
             result.append( rr1 );

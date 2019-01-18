@@ -390,7 +390,7 @@ public class InUseDateImpl extends MinimalEObjectImpl.Container implements InUse
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (inUseDate: " );
         if( inUseDateESet )
             result.append( inUseDate );

@@ -1874,7 +1874,7 @@ public class WindDynamicsLookupTableImpl extends IdentifiedObjectImpl implements
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (input: " );
         if( inputESet )
             result.append( input );

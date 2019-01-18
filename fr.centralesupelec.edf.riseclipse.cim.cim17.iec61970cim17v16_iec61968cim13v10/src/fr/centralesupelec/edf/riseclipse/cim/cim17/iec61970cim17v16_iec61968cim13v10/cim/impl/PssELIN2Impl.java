@@ -1103,7 +1103,7 @@ public class PssELIN2Impl extends PowerSystemStabilizerDynamicsImpl implements P
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (apss: " );
         if( apssESet )
             result.append( apss );

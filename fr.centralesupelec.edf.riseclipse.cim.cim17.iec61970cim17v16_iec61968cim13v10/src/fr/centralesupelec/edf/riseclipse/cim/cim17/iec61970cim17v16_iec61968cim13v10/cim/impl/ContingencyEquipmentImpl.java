@@ -377,7 +377,7 @@ public class ContingencyEquipmentImpl extends ContingencyElementImpl implements 
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (contingentStatus: " );
         if( contingentStatusESet )
             result.append( contingentStatus );

@@ -300,7 +300,7 @@ public class LaborelecStandardImpl extends MinimalEObjectImpl.Container implemen
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (standardEdition: " );
         if( standardEditionESet )
             result.append( standardEdition );

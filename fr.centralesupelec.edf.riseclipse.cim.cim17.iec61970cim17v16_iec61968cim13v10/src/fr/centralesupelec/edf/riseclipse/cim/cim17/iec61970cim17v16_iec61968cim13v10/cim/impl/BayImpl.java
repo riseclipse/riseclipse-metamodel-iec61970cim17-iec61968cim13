@@ -800,7 +800,7 @@ public class BayImpl extends EquipmentContainerImpl implements Bay {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (bayEnergyMeasFlag: " );
         if( bayEnergyMeasFlagESet )
             result.append( bayEnergyMeasFlag );

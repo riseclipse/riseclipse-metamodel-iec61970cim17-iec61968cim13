@@ -469,7 +469,7 @@ public class SvStatusImpl extends StateVariableImpl implements SvStatus {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (inService: " );
         if( inServiceESet )
             result.append( inService );

@@ -383,7 +383,7 @@ public class VCompIEEEType1Impl extends VoltageCompensatorDynamicsImpl implement
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (rc: " );
         if( rcESet )
             result.append( rc );

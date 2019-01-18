@@ -653,7 +653,7 @@ public class VAdjIEEEImpl extends VoltageAdjusterDynamicsImpl implements VAdjIEE
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (adjslew: " );
         if( adjslewESet )
             result.append( adjslew );

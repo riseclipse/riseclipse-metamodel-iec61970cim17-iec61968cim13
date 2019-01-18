@@ -978,7 +978,7 @@ public class SwitchingStepGroupImpl extends DocumentImpl implements SwitchingSte
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (isFreeSequence: " );
         if( isFreeSequenceESet )
             result.append( isFreeSequence );

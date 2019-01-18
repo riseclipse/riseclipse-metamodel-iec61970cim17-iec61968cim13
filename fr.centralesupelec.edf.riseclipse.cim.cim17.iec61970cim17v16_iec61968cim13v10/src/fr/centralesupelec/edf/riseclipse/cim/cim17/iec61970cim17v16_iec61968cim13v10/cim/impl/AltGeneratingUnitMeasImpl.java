@@ -533,7 +533,7 @@ public class AltGeneratingUnitMeasImpl extends IdentifiedObjectImpl implements A
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (priority: " );
         if( priorityESet )
             result.append( priority );

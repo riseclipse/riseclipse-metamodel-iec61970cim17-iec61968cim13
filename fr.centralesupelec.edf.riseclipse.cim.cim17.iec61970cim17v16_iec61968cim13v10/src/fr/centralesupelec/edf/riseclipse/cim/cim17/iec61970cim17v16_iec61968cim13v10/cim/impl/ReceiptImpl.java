@@ -793,7 +793,7 @@ public class ReceiptImpl extends IdentifiedObjectImpl implements Receipt {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (isBankable: " );
         if( isBankableESet )
             result.append( isBankable );

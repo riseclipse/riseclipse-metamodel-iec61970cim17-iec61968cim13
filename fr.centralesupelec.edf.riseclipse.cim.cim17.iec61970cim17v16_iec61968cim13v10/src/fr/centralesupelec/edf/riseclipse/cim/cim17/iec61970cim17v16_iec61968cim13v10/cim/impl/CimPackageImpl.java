@@ -7178,7 +7178,7 @@ public class CimPackageImpl extends EPackageImpl implements CimPackage {
 
     /**
      * Creates, registers, and initializes the <b>Package</b> for this model, and for any others upon which it depends.
-     * 
+     *
      * <p>This method is used to initialize {@link CimPackage#eINSTANCE} when that field is accessed.
      * Clients should not invoke it directly. Instead, they should simply access that field to obtain the package.
      * <!-- begin-user-doc -->
@@ -7190,9 +7190,10 @@ public class CimPackageImpl extends EPackageImpl implements CimPackage {
         if( isInited ) return ( CimPackage ) EPackage.Registry.INSTANCE.getEPackage( CimPackage.eNS_URI );
 
         // Obtain or create and register package
-        CimPackageImpl theCimPackage = ( CimPackageImpl ) ( EPackage.Registry.INSTANCE
-                .get( eNS_URI ) instanceof CimPackageImpl ? EPackage.Registry.INSTANCE.get( eNS_URI )
-                        : new CimPackageImpl() );
+        Object registeredCimPackage = EPackage.Registry.INSTANCE.get( eNS_URI );
+        CimPackageImpl theCimPackage = registeredCimPackage instanceof CimPackageImpl
+                ? ( CimPackageImpl ) registeredCimPackage
+                : new CimPackageImpl();
 
         isInited = true;
 

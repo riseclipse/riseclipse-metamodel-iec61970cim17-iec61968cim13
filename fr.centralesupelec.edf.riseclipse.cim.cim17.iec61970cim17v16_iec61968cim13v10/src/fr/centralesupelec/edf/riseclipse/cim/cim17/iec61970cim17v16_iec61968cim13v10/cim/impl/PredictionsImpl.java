@@ -1149,7 +1149,7 @@ public class PredictionsImpl extends CimObjectWithIDImpl implements Predictions 
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (confidence: " );
         if( confidenceESet )
             result.append( confidence );

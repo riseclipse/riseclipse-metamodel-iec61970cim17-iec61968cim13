@@ -2908,7 +2908,7 @@ public class Pss2BImpl extends PowerSystemStabilizerDynamicsImpl implements Pss2
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (a: " );
         if( aESet )
             result.append( a );

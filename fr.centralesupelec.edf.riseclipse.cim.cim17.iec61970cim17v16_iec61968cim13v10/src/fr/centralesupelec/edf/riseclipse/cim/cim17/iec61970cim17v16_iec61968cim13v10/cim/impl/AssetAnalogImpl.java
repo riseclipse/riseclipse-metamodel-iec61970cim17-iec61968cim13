@@ -557,7 +557,7 @@ public class AssetAnalogImpl extends AnalogImpl implements AssetAnalog {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (detectionLimit: " );
         if( detectionLimitESet )
             result.append( detectionLimit );

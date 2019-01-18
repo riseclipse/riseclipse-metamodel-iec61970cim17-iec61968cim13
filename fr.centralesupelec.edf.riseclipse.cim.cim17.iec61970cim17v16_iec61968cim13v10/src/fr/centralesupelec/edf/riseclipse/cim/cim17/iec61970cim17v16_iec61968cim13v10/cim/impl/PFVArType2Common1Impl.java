@@ -563,7 +563,7 @@ public class PFVArType2Common1Impl extends PFVArControllerType2DynamicsImpl impl
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (j: " );
         if( jESet )
             result.append( j );

@@ -646,7 +646,7 @@ public class ComFunctionImpl extends EndDeviceFunctionImpl implements ComFunctio
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (amrAddress: " );
         if( amrAddressESet )
             result.append( amrAddress );

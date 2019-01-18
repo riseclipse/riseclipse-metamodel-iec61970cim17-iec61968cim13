@@ -389,7 +389,7 @@ public class GenericDataSetVersionImpl extends CimObjectWithIDImpl implements Ge
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (majorVersion: " );
         if( majorVersionESet )
             result.append( majorVersion );

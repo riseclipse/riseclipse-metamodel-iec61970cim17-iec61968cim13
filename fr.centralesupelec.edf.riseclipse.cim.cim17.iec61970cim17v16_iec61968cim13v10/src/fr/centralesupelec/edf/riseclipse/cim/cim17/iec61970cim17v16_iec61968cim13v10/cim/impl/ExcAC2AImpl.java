@@ -2633,7 +2633,7 @@ public class ExcAC2AImpl extends ExcitationSystemDynamicsImpl implements ExcAC2A
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (hvgate: " );
         if( hvgateESet )
             result.append( hvgate );

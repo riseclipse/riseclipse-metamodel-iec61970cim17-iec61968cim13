@@ -239,7 +239,8 @@ public enum MeasuringPeriodKind implements Enumerator {
      * @generated
      * @ordered
      */
-    ROLLING_BLOCK60_MIN_INTVL30_MIN_SUB_INTVL( 20, "rollingBlock60MinIntvl30MinSubIntvl", "rollingBlock60MinIntvl30MinSubIntvl" ),
+    ROLLING_BLOCK60_MIN_INTVL30_MIN_SUB_INTVL( 20, "rollingBlock60MinIntvl30MinSubIntvl",
+            "rollingBlock60MinIntvl30MinSubIntvl" ),
 
     /**
      * The '<em><b>Rolling Block60 Min Intvl20 Min Sub Intvl</b></em>' literal object.
@@ -249,7 +250,8 @@ public enum MeasuringPeriodKind implements Enumerator {
      * @generated
      * @ordered
      */
-    ROLLING_BLOCK60_MIN_INTVL20_MIN_SUB_INTVL( 21, "rollingBlock60MinIntvl20MinSubIntvl", "rollingBlock60MinIntvl20MinSubIntvl" ),
+    ROLLING_BLOCK60_MIN_INTVL20_MIN_SUB_INTVL( 21, "rollingBlock60MinIntvl20MinSubIntvl",
+            "rollingBlock60MinIntvl20MinSubIntvl" ),
 
     /**
      * The '<em><b>Rolling Block60 Min Intvl15 Min Sub Intvl</b></em>' literal object.
@@ -259,7 +261,8 @@ public enum MeasuringPeriodKind implements Enumerator {
      * @generated
      * @ordered
      */
-    ROLLING_BLOCK60_MIN_INTVL15_MIN_SUB_INTVL( 22, "rollingBlock60MinIntvl15MinSubIntvl", "rollingBlock60MinIntvl15MinSubIntvl" ),
+    ROLLING_BLOCK60_MIN_INTVL15_MIN_SUB_INTVL( 22, "rollingBlock60MinIntvl15MinSubIntvl",
+            "rollingBlock60MinIntvl15MinSubIntvl" ),
 
     /**
      * The '<em><b>Rolling Block60 Min Intvl12 Min Sub Intvl</b></em>' literal object.
@@ -269,7 +272,8 @@ public enum MeasuringPeriodKind implements Enumerator {
      * @generated
      * @ordered
      */
-    ROLLING_BLOCK60_MIN_INTVL12_MIN_SUB_INTVL( 23, "rollingBlock60MinIntvl12MinSubIntvl", "rollingBlock60MinIntvl12MinSubIntvl" ),
+    ROLLING_BLOCK60_MIN_INTVL12_MIN_SUB_INTVL( 23, "rollingBlock60MinIntvl12MinSubIntvl",
+            "rollingBlock60MinIntvl12MinSubIntvl" ),
 
     /**
      * The '<em><b>Rolling Block60 Min Intvl10 Min Sub Intvl</b></em>' literal object.
@@ -279,7 +283,8 @@ public enum MeasuringPeriodKind implements Enumerator {
      * @generated
      * @ordered
      */
-    ROLLING_BLOCK60_MIN_INTVL10_MIN_SUB_INTVL( 24, "rollingBlock60MinIntvl10MinSubIntvl", "rollingBlock60MinIntvl10MinSubIntvl" ),
+    ROLLING_BLOCK60_MIN_INTVL10_MIN_SUB_INTVL( 24, "rollingBlock60MinIntvl10MinSubIntvl",
+            "rollingBlock60MinIntvl10MinSubIntvl" ),
 
     /**
      * The '<em><b>Rolling Block60 Min Intvl6 Min Sub Intvl</b></em>' literal object.
@@ -289,7 +294,8 @@ public enum MeasuringPeriodKind implements Enumerator {
      * @generated
      * @ordered
      */
-    ROLLING_BLOCK60_MIN_INTVL6_MIN_SUB_INTVL( 25, "rollingBlock60MinIntvl6MinSubIntvl", "rollingBlock60MinIntvl6MinSubIntvl" ),
+    ROLLING_BLOCK60_MIN_INTVL6_MIN_SUB_INTVL( 25, "rollingBlock60MinIntvl6MinSubIntvl",
+            "rollingBlock60MinIntvl6MinSubIntvl" ),
 
     /**
      * The '<em><b>Rolling Block60 Min Intvl5 Min Sub Intvl</b></em>' literal object.
@@ -299,7 +305,8 @@ public enum MeasuringPeriodKind implements Enumerator {
      * @generated
      * @ordered
      */
-    ROLLING_BLOCK60_MIN_INTVL5_MIN_SUB_INTVL( 26, "rollingBlock60MinIntvl5MinSubIntvl", "rollingBlock60MinIntvl5MinSubIntvl" ),
+    ROLLING_BLOCK60_MIN_INTVL5_MIN_SUB_INTVL( 26, "rollingBlock60MinIntvl5MinSubIntvl",
+            "rollingBlock60MinIntvl5MinSubIntvl" ),
 
     /**
      * The '<em><b>Rolling Block60 Min Intvl4 Min Sub Intvl</b></em>' literal object.
@@ -309,7 +316,8 @@ public enum MeasuringPeriodKind implements Enumerator {
      * @generated
      * @ordered
      */
-    ROLLING_BLOCK60_MIN_INTVL4_MIN_SUB_INTVL( 27, "rollingBlock60MinIntvl4MinSubIntvl", "rollingBlock60MinIntvl4MinSubIntvl" ),
+    ROLLING_BLOCK60_MIN_INTVL4_MIN_SUB_INTVL( 27, "rollingBlock60MinIntvl4MinSubIntvl",
+            "rollingBlock60MinIntvl4MinSubIntvl" ),
 
     /**
      * The '<em><b>Rolling Block30 Min Intvl15 Min Sub Intvl</b></em>' literal object.
@@ -319,7 +327,8 @@ public enum MeasuringPeriodKind implements Enumerator {
      * @generated
      * @ordered
      */
-    ROLLING_BLOCK30_MIN_INTVL15_MIN_SUB_INTVL( 28, "rollingBlock30MinIntvl15MinSubIntvl", "rollingBlock30MinIntvl15MinSubIntvl" ),
+    ROLLING_BLOCK30_MIN_INTVL15_MIN_SUB_INTVL( 28, "rollingBlock30MinIntvl15MinSubIntvl",
+            "rollingBlock30MinIntvl15MinSubIntvl" ),
 
     /**
      * The '<em><b>Rolling Block30 Min Intvl10 Min Sub Intvl</b></em>' literal object.
@@ -329,7 +338,8 @@ public enum MeasuringPeriodKind implements Enumerator {
      * @generated
      * @ordered
      */
-    ROLLING_BLOCK30_MIN_INTVL10_MIN_SUB_INTVL( 29, "rollingBlock30MinIntvl10MinSubIntvl", "rollingBlock30MinIntvl10MinSubIntvl" ),
+    ROLLING_BLOCK30_MIN_INTVL10_MIN_SUB_INTVL( 29, "rollingBlock30MinIntvl10MinSubIntvl",
+            "rollingBlock30MinIntvl10MinSubIntvl" ),
 
     /**
      * The '<em><b>Rolling Block30 Min Intvl6 Min Sub Intvl</b></em>' literal object.
@@ -339,7 +349,8 @@ public enum MeasuringPeriodKind implements Enumerator {
      * @generated
      * @ordered
      */
-    ROLLING_BLOCK30_MIN_INTVL6_MIN_SUB_INTVL( 30, "rollingBlock30MinIntvl6MinSubIntvl", "rollingBlock30MinIntvl6MinSubIntvl" ),
+    ROLLING_BLOCK30_MIN_INTVL6_MIN_SUB_INTVL( 30, "rollingBlock30MinIntvl6MinSubIntvl",
+            "rollingBlock30MinIntvl6MinSubIntvl" ),
 
     /**
      * The '<em><b>Rolling Block30 Min Intvl5 Min Sub Intvl</b></em>' literal object.
@@ -349,7 +360,8 @@ public enum MeasuringPeriodKind implements Enumerator {
      * @generated
      * @ordered
      */
-    ROLLING_BLOCK30_MIN_INTVL5_MIN_SUB_INTVL( 31, "rollingBlock30MinIntvl5MinSubIntvl", "rollingBlock30MinIntvl5MinSubIntvl" ),
+    ROLLING_BLOCK30_MIN_INTVL5_MIN_SUB_INTVL( 31, "rollingBlock30MinIntvl5MinSubIntvl",
+            "rollingBlock30MinIntvl5MinSubIntvl" ),
 
     /**
      * The '<em><b>Rolling Block30 Min Intvl3 Min Sub Intvl</b></em>' literal object.
@@ -359,7 +371,8 @@ public enum MeasuringPeriodKind implements Enumerator {
      * @generated
      * @ordered
      */
-    ROLLING_BLOCK30_MIN_INTVL3_MIN_SUB_INTVL( 32, "rollingBlock30MinIntvl3MinSubIntvl", "rollingBlock30MinIntvl3MinSubIntvl" ),
+    ROLLING_BLOCK30_MIN_INTVL3_MIN_SUB_INTVL( 32, "rollingBlock30MinIntvl3MinSubIntvl",
+            "rollingBlock30MinIntvl3MinSubIntvl" ),
 
     /**
      * The '<em><b>Rolling Block30 Min Intvl2 Min Sub Intvl</b></em>' literal object.
@@ -369,7 +382,8 @@ public enum MeasuringPeriodKind implements Enumerator {
      * @generated
      * @ordered
      */
-    ROLLING_BLOCK30_MIN_INTVL2_MIN_SUB_INTVL( 33, "rollingBlock30MinIntvl2MinSubIntvl", "rollingBlock30MinIntvl2MinSubIntvl" ),
+    ROLLING_BLOCK30_MIN_INTVL2_MIN_SUB_INTVL( 33, "rollingBlock30MinIntvl2MinSubIntvl",
+            "rollingBlock30MinIntvl2MinSubIntvl" ),
 
     /**
      * The '<em><b>Rolling Block15 Min Intvl5 Min Sub Intvl</b></em>' literal object.
@@ -379,7 +393,8 @@ public enum MeasuringPeriodKind implements Enumerator {
      * @generated
      * @ordered
      */
-    ROLLING_BLOCK15_MIN_INTVL5_MIN_SUB_INTVL( 34, "rollingBlock15MinIntvl5MinSubIntvl", "rollingBlock15MinIntvl5MinSubIntvl" ),
+    ROLLING_BLOCK15_MIN_INTVL5_MIN_SUB_INTVL( 34, "rollingBlock15MinIntvl5MinSubIntvl",
+            "rollingBlock15MinIntvl5MinSubIntvl" ),
 
     /**
      * The '<em><b>Rolling Block15 Min Intvl3 Min Sub Intvl</b></em>' literal object.
@@ -389,7 +404,8 @@ public enum MeasuringPeriodKind implements Enumerator {
      * @generated
      * @ordered
      */
-    ROLLING_BLOCK15_MIN_INTVL3_MIN_SUB_INTVL( 35, "rollingBlock15MinIntvl3MinSubIntvl", "rollingBlock15MinIntvl3MinSubIntvl" ),
+    ROLLING_BLOCK15_MIN_INTVL3_MIN_SUB_INTVL( 35, "rollingBlock15MinIntvl3MinSubIntvl",
+            "rollingBlock15MinIntvl3MinSubIntvl" ),
 
     /**
      * The '<em><b>Rolling Block15 Min Intvl1 Min Sub Intvl</b></em>' literal object.
@@ -399,7 +415,8 @@ public enum MeasuringPeriodKind implements Enumerator {
      * @generated
      * @ordered
      */
-    ROLLING_BLOCK15_MIN_INTVL1_MIN_SUB_INTVL( 36, "rollingBlock15MinIntvl1MinSubIntvl", "rollingBlock15MinIntvl1MinSubIntvl" ),
+    ROLLING_BLOCK15_MIN_INTVL1_MIN_SUB_INTVL( 36, "rollingBlock15MinIntvl1MinSubIntvl",
+            "rollingBlock15MinIntvl1MinSubIntvl" ),
 
     /**
      * The '<em><b>Rolling Block10 Min Intvl5 Min Sub Intvl</b></em>' literal object.
@@ -409,7 +426,8 @@ public enum MeasuringPeriodKind implements Enumerator {
      * @generated
      * @ordered
      */
-    ROLLING_BLOCK10_MIN_INTVL5_MIN_SUB_INTVL( 37, "rollingBlock10MinIntvl5MinSubIntvl", "rollingBlock10MinIntvl5MinSubIntvl" ),
+    ROLLING_BLOCK10_MIN_INTVL5_MIN_SUB_INTVL( 37, "rollingBlock10MinIntvl5MinSubIntvl",
+            "rollingBlock10MinIntvl5MinSubIntvl" ),
 
     /**
      * The '<em><b>Rolling Block10 Min Intvl2 Min Sub Intvl</b></em>' literal object.
@@ -419,7 +437,8 @@ public enum MeasuringPeriodKind implements Enumerator {
      * @generated
      * @ordered
      */
-    ROLLING_BLOCK10_MIN_INTVL2_MIN_SUB_INTVL( 38, "rollingBlock10MinIntvl2MinSubIntvl", "rollingBlock10MinIntvl2MinSubIntvl" ),
+    ROLLING_BLOCK10_MIN_INTVL2_MIN_SUB_INTVL( 38, "rollingBlock10MinIntvl2MinSubIntvl",
+            "rollingBlock10MinIntvl2MinSubIntvl" ),
 
     /**
      * The '<em><b>Rolling Block10 Min Intvl1 Min Sub Intvl</b></em>' literal object.
@@ -429,7 +448,8 @@ public enum MeasuringPeriodKind implements Enumerator {
      * @generated
      * @ordered
      */
-    ROLLING_BLOCK10_MIN_INTVL1_MIN_SUB_INTVL( 39, "rollingBlock10MinIntvl1MinSubIntvl", "rollingBlock10MinIntvl1MinSubIntvl" ),
+    ROLLING_BLOCK10_MIN_INTVL1_MIN_SUB_INTVL( 39, "rollingBlock10MinIntvl1MinSubIntvl",
+            "rollingBlock10MinIntvl1MinSubIntvl" ),
 
     /**
      * The '<em><b>Rolling Block5 Min Intvl1 Min Sub Intvl</b></em>' literal object.
@@ -439,7 +459,8 @@ public enum MeasuringPeriodKind implements Enumerator {
      * @generated
      * @ordered
      */
-    ROLLING_BLOCK5_MIN_INTVL1_MIN_SUB_INTVL( 40, "rollingBlock5MinIntvl1MinSubIntvl", "rollingBlock5MinIntvl1MinSubIntvl" );
+    ROLLING_BLOCK5_MIN_INTVL1_MIN_SUB_INTVL( 40, "rollingBlock5MinIntvl1MinSubIntvl",
+            "rollingBlock5MinIntvl1MinSubIntvl" );
 
     /**
      * The '<em><b>None</b></em>' literal value.

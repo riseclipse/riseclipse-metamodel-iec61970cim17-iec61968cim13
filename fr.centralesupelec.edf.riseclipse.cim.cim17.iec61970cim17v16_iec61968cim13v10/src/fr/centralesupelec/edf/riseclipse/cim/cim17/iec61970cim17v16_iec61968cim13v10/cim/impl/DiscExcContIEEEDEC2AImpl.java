@@ -564,7 +564,7 @@ public class DiscExcContIEEEDEC2AImpl extends DiscontinuousExcitationControlDyna
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (td1: " );
         if( td1ESet )
             result.append( td1 );

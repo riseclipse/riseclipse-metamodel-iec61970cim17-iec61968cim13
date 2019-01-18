@@ -1223,7 +1223,7 @@ public class LoadResponseCharacteristicImpl extends IdentifiedObjectImpl impleme
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (exponentModel: " );
         if( exponentModelESet )
             result.append( exponentModel );

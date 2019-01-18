@@ -638,7 +638,7 @@ public class CAESPlantImpl extends PowerSystemResourceImpl implements CAESPlant 
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (energyStorageCapacity: " );
         if( energyStorageCapacityESet )
             result.append( energyStorageCapacity );

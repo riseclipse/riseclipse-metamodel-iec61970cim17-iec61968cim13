@@ -736,7 +736,7 @@ public class PositionPointImpl extends CimObjectWithIDImpl implements PositionPo
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (groupNumber: " );
         if( groupNumberESet )
             result.append( groupNumber );

@@ -4703,7 +4703,7 @@ public class GovSteamFV4Impl extends TurbineGovernorDynamicsImpl implements GovS
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (cpsmn: " );
         if( cpsmnESet )
             result.append( cpsmn );

@@ -300,7 +300,7 @@ public class TAPPIStandardImpl extends MinimalEObjectImpl.Container implements T
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (standardEdition: " );
         if( standardEditionESet )
             result.append( standardEdition );

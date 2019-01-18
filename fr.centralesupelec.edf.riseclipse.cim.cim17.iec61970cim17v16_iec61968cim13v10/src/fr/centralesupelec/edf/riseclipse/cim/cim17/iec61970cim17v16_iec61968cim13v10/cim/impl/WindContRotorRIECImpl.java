@@ -1088,7 +1088,7 @@ public class WindContRotorRIECImpl extends IdentifiedObjectImpl implements WindC
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (kirr: " );
         if( kirrESet )
             result.append( kirr );

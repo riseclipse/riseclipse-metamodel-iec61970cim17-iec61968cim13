@@ -293,7 +293,7 @@ public class DCShuntImpl extends DCConductingEquipmentImpl implements DCShunt {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (capacitance: " );
         if( capacitanceESet )
             result.append( capacitance );

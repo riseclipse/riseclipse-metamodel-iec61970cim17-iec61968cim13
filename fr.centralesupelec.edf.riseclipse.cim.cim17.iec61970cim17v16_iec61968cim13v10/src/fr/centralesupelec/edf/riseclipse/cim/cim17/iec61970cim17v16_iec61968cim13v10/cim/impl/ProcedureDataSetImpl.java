@@ -801,7 +801,7 @@ public class ProcedureDataSetImpl extends DocumentImpl implements ProcedureDataS
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (completedDateTime: " );
         if( completedDateTimeESet )
             result.append( completedDateTime );

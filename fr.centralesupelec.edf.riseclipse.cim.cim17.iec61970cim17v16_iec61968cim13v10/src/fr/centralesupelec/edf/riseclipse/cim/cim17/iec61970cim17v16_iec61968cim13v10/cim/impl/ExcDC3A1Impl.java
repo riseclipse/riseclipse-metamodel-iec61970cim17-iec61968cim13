@@ -1373,7 +1373,7 @@ public class ExcDC3A1Impl extends ExcitationSystemDynamicsImpl implements ExcDC3
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (exclim: " );
         if( exclimESet )
             result.append( exclim );

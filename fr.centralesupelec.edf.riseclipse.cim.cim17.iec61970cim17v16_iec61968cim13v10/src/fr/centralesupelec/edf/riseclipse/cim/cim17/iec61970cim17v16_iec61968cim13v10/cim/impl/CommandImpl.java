@@ -627,7 +627,7 @@ public class CommandImpl extends ControlImpl implements Command {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (normalValue: " );
         if( normalValueESet )
             result.append( normalValue );

@@ -2131,7 +2131,7 @@ public class AsynchronousMachineImpl extends RotatingMachineImpl implements Asyn
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (asynchronousMachineType: " );
         if( asynchronousMachineTypeESet )
             result.append( asynchronousMachineType );

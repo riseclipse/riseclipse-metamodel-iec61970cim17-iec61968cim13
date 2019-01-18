@@ -3320,7 +3320,7 @@ public class SynchronousMachineImpl extends RotatingMachineImpl implements Synch
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (aVRToManualLag: " );
         if( aVRToManualLagESet )
             result.append( aVRToManualLag );

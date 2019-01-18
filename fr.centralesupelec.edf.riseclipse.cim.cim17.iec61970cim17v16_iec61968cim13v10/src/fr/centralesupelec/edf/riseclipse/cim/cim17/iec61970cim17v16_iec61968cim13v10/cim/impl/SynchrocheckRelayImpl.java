@@ -386,7 +386,7 @@ public class SynchrocheckRelayImpl extends ProtectionEquipmentImpl implements Sy
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (maxAngleDiff: " );
         if( maxAngleDiffESet )
             result.append( maxAngleDiff );

@@ -1077,7 +1077,7 @@ public class SafetyDocumentImpl extends DocumentImpl implements SafetyDocument {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (issuedDateTime: " );
         if( issuedDateTimeESet )
             result.append( issuedDateTime );

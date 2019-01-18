@@ -1828,7 +1828,7 @@ public class PssIEEE3BImpl extends PowerSystemStabilizerDynamicsImpl implements 
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (a1: " );
         if( a1ESet )
             result.append( a1 );

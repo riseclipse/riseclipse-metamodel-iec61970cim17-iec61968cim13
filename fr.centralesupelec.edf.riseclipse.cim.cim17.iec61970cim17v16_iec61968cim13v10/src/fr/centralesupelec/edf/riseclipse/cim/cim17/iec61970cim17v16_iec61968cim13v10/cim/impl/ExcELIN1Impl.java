@@ -1463,7 +1463,7 @@ public class ExcELIN1Impl extends ExcitationSystemDynamicsImpl implements ExcELI
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (dpnf: " );
         if( dpnfESet )
             result.append( dpnf );

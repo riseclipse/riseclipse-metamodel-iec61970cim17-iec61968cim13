@@ -394,7 +394,7 @@ public class OperationalLimitTypeImpl extends IdentifiedObjectImpl implements Op
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (acceptableDuration: " );
         if( acceptableDurationESet )
             result.append( acceptableDuration );

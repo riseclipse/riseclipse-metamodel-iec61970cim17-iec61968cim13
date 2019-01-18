@@ -2388,7 +2388,7 @@ public class WindContQIECImpl extends IdentifiedObjectImpl implements WindContQI
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (iqh1: " );
         if( iqh1ESet )
             result.append( iqh1 );

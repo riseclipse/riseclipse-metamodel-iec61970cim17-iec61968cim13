@@ -819,7 +819,7 @@ public class SpecimenImpl extends IdentifiedObjectImpl implements Specimen {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (ambientTemperatureAtSampling: " );
         if( ambientTemperatureAtSamplingESet )
             result.append( ambientTemperatureAtSampling );

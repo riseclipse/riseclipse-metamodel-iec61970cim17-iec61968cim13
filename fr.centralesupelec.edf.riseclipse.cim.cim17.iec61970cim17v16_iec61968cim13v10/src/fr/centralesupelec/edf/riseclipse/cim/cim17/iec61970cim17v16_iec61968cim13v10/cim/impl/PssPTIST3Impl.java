@@ -3173,7 +3173,7 @@ public class PssPTIST3Impl extends PowerSystemStabilizerDynamicsImpl implements 
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (a0: " );
         if( a0ESet )
             result.append( a0 );

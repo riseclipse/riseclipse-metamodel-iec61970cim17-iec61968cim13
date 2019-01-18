@@ -474,7 +474,7 @@ public class IPAccessPointImpl extends CommunicationLinkImpl implements IPAccess
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (address: " );
         if( addressESet )
             result.append( address );

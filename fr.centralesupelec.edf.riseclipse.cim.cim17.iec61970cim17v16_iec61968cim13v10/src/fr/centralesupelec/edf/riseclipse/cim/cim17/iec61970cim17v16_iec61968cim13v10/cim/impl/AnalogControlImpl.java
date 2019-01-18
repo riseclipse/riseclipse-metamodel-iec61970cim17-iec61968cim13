@@ -464,7 +464,7 @@ public class AnalogControlImpl extends ControlImpl implements AnalogControl {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (maxValue: " );
         if( maxValueESet )
             result.append( maxValue );

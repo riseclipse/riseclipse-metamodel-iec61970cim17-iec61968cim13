@@ -921,7 +921,7 @@ public class PowerTransformerImpl extends ConductingEquipmentImpl implements Pow
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (beforeShCircuitHighestOperatingCurrent: " );
         if( beforeShCircuitHighestOperatingCurrentESet )
             result.append( beforeShCircuitHighestOperatingCurrent );

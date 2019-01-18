@@ -717,7 +717,7 @@ public class TimeScheduleImpl extends DocumentImpl implements TimeSchedule {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (disabled: " );
         if( disabledESet )
             result.append( disabled );

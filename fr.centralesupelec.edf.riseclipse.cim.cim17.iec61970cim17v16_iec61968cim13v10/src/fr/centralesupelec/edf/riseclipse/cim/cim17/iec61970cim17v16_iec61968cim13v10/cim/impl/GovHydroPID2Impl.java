@@ -2095,7 +2095,7 @@ public class GovHydroPID2Impl extends TurbineGovernorDynamicsImpl implements Gov
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (atw: " );
         if( atwESet )
             result.append( atw );

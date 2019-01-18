@@ -1203,7 +1203,7 @@ public class StreetDetailImpl extends MinimalEObjectImpl.Container implements St
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (addressGeneral: " );
         if( addressGeneralESet )
             result.append( addressGeneral );

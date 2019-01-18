@@ -2617,7 +2617,7 @@ public class OutageImpl extends DocumentImpl implements Outage {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (cancelledDateTime: " );
         if( cancelledDateTimeESet )
             result.append( cancelledDateTime );

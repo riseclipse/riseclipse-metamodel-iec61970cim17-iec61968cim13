@@ -823,7 +823,7 @@ public class ProtectionEquipmentImpl extends EquipmentImpl implements Protection
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (highLimit: " );
         if( highLimitESet )
             result.append( highLimit );

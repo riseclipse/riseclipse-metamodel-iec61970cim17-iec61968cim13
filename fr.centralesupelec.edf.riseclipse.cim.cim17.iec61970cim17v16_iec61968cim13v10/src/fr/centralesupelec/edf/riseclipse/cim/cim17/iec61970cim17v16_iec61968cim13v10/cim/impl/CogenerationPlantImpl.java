@@ -819,7 +819,7 @@ public class CogenerationPlantImpl extends PowerSystemResourceImpl implements Co
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (cogenHPSendoutRating: " );
         if( cogenHPSendoutRatingESet )
             result.append( cogenHPSendoutRating );

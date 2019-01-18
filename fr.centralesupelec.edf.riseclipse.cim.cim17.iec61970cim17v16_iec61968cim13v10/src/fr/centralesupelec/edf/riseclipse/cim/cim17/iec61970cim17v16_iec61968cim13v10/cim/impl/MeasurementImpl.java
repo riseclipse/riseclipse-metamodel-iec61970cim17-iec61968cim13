@@ -1324,7 +1324,7 @@ public class MeasurementImpl extends IdentifiedObjectImpl implements Measurement
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (measurementType: " );
         if( measurementTypeESet )
             result.append( measurementType );

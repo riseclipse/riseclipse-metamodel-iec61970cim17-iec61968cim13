@@ -935,7 +935,7 @@ public class BushingInfoImpl extends AssetInfoImpl implements BushingInfo {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (c1Capacitance: " );
         if( c1CapacitanceESet )
             result.append( c1Capacitance );

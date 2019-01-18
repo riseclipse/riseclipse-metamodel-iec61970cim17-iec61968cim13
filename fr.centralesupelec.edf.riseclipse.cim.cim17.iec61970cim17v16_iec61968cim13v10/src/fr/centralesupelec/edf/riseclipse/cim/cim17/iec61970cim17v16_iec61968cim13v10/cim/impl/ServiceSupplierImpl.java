@@ -456,7 +456,7 @@ public class ServiceSupplierImpl extends OrganisationRoleImpl implements Service
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (issuerIdentificationNumber: " );
         if( issuerIdentificationNumberESet )
             result.append( issuerIdentificationNumber );

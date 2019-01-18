@@ -2641,7 +2641,7 @@ public class GovHydroPeltonImpl extends TurbineGovernorDynamicsImpl implements G
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (av0: " );
         if( av0ESet )
             result.append( av0 );

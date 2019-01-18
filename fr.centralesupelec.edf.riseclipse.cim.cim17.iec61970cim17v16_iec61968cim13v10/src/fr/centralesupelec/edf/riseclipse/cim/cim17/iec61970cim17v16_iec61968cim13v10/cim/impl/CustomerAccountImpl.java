@@ -756,7 +756,7 @@ public class CustomerAccountImpl extends DocumentImpl implements CustomerAccount
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (billingCycle: " );
         if( billingCycleESet )
             result.append( billingCycle );

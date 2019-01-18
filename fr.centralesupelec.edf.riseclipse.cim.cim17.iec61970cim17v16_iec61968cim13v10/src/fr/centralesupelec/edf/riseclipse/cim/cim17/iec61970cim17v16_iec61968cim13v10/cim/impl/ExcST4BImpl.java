@@ -1823,7 +1823,7 @@ public class ExcST4BImpl extends ExcitationSystemDynamicsImpl implements ExcST4B
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (kc: " );
         if( kcESet )
             result.append( kc );
