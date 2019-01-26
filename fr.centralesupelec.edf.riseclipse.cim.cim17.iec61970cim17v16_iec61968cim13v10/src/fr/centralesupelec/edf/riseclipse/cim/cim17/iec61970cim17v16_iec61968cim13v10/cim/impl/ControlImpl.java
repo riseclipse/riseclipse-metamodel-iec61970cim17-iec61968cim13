@@ -908,7 +908,7 @@ public class ControlImpl extends IOPointImpl implements Control {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (controlType: " );
         if( controlTypeESet )
             result.append( controlType );

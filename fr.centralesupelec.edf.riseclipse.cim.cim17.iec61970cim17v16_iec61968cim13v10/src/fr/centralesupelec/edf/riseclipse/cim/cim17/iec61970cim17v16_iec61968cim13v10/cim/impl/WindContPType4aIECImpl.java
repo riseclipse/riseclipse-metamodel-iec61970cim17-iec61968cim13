@@ -560,7 +560,7 @@ public class WindContPType4aIECImpl extends IdentifiedObjectImpl implements Wind
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (dpmaxp4a: " );
         if( dpmaxp4aESet )
             result.append( dpmaxp4a );

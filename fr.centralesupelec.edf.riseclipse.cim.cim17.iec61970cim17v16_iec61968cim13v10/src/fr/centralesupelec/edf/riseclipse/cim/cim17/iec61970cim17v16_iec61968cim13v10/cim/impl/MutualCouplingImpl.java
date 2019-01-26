@@ -1152,7 +1152,7 @@ public class MutualCouplingImpl extends IdentifiedObjectImpl implements MutualCo
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (b0ch: " );
         if( b0chESet )
             result.append( b0ch );

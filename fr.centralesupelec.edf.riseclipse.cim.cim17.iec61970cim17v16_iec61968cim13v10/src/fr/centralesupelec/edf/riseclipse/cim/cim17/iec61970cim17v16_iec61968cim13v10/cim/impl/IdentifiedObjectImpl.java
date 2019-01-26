@@ -834,7 +834,7 @@ public class IdentifiedObjectImpl extends CimObjectWithIDImpl implements Identif
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (aliasName: " );
         if( aliasNameESet )
             result.append( aliasName );

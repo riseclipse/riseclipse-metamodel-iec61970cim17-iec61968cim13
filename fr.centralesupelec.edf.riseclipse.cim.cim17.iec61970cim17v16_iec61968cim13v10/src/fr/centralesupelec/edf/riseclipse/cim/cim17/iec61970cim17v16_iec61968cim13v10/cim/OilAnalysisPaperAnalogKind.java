@@ -139,7 +139,8 @@ public enum OilAnalysisPaperAnalogKind implements Enumerator {
      * @generated
      * @ordered
      */
-    SOLID_INSULATION_DIELECTRIC_STRENGTH( 10, "solidInsulationDielectricStrength", "solidInsulationDielectricStrength" ),
+    SOLID_INSULATION_DIELECTRIC_STRENGTH( 10, "solidInsulationDielectricStrength",
+            "solidInsulationDielectricStrength" ),
 
     /**
      * The '<em><b>Acetylfuran</b></em>' literal object.

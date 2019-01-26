@@ -396,7 +396,7 @@ public class StartRampCurveImpl extends CurveImpl implements StartRampCurve {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (hotStandbyRamp: " );
         if( hotStandbyRampESet )
             result.append( hotStandbyRamp );

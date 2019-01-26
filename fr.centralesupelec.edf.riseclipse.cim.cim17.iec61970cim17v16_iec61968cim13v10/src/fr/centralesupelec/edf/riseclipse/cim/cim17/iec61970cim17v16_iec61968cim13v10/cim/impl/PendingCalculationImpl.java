@@ -832,7 +832,7 @@ public class PendingCalculationImpl extends CimObjectWithIDImpl implements Pendi
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (multiplyBeforeAdd: " );
         if( multiplyBeforeAddESet )
             result.append( multiplyBeforeAdd );

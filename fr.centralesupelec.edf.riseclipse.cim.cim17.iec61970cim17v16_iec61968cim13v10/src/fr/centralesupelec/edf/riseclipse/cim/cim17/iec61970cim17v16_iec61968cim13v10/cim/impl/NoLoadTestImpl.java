@@ -740,7 +740,7 @@ public class NoLoadTestImpl extends TransformerTestImpl implements NoLoadTest {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (energisedEndVoltage: " );
         if( energisedEndVoltageESet )
             result.append( energisedEndVoltage );

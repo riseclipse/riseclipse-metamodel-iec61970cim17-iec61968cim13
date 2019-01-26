@@ -301,7 +301,7 @@ public class MaintenanceWorkTaskImpl extends WorkTaskImpl implements Maintenance
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (breakerMaintenanceKind: " );
         if( breakerMaintenanceKindESet )
             result.append( breakerMaintenanceKind );

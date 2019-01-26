@@ -3623,7 +3623,7 @@ public class GovSteam1Impl extends TurbineGovernorDynamicsImpl implements GovSte
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (db1: " );
         if( db1ESet )
             result.append( db1 );

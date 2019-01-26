@@ -446,7 +446,7 @@ public class ReadingImpl extends BaseReadingImpl implements Reading {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (reason: " );
         if( reasonESet )
             result.append( reason );

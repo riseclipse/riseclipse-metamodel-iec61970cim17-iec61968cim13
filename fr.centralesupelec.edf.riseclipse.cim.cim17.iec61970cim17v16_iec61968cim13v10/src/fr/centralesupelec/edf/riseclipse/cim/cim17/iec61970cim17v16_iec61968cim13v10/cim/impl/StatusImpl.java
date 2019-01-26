@@ -476,7 +476,7 @@ public class StatusImpl extends MinimalEObjectImpl.Container implements Status {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (dateTime: " );
         if( dateTimeESet )
             result.append( dateTime );

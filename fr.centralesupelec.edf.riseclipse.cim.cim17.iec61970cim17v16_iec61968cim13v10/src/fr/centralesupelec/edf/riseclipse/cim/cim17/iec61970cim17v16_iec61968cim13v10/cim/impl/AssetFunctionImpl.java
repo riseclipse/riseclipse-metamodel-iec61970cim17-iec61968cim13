@@ -563,7 +563,7 @@ public class AssetFunctionImpl extends IdentifiedObjectImpl implements AssetFunc
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (configID: " );
         if( configIDESet )
             result.append( configID );

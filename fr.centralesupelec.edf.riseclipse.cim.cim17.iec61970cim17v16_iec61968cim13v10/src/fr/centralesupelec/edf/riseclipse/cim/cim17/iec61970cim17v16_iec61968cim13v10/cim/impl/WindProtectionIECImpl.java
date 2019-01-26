@@ -1185,7 +1185,7 @@ public class WindProtectionIECImpl extends IdentifiedObjectImpl implements WindP
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (dfimax: " );
         if( dfimaxESet )
             result.append( dfimax );

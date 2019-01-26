@@ -970,7 +970,7 @@ public class WindMechIECImpl extends IdentifiedObjectImpl implements WindMechIEC
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (cdrt: " );
         if( cdrtESet )
             result.append( cdrt );

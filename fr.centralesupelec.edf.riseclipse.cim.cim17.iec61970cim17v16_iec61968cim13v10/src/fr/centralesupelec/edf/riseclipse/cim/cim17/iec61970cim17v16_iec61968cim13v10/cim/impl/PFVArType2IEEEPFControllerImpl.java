@@ -744,7 +744,7 @@ public class PFVArType2IEEEPFControllerImpl extends PFVArControllerType2Dynamics
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (exlon: " );
         if( exlonESet )
             result.append( exlon );

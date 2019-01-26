@@ -303,7 +303,7 @@ public class HeatRecoveryBoilerImpl extends FossilSteamSupplyImpl implements Hea
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (steamSupplyRating2: " );
         if( steamSupplyRating2ESet )
             result.append( steamSupplyRating2 );

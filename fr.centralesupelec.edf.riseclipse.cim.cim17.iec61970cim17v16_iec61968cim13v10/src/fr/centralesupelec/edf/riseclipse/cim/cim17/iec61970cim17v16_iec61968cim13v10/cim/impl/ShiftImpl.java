@@ -732,7 +732,7 @@ public class ShiftImpl extends IdentifiedObjectImpl implements Shift {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (receiptsGrandTotalBankable: " );
         if( receiptsGrandTotalBankableESet )
             result.append( receiptsGrandTotalBankable );

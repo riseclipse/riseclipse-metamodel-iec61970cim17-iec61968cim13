@@ -476,7 +476,7 @@ public class MaintenanceLocationImpl extends WorkLocationImpl implements Mainten
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (block: " );
         if( blockESet )
             result.append( block );

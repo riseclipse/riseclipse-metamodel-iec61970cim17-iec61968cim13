@@ -1630,7 +1630,7 @@ public class ProductAssetModelImpl extends IdentifiedObjectImpl implements Produ
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (catalogueNumber: " );
         if( catalogueNumberESet )
             result.append( catalogueNumber );

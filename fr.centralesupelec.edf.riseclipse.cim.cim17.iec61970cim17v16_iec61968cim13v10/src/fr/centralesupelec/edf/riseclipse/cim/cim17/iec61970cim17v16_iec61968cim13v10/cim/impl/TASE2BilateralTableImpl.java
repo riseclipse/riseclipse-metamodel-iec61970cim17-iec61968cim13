@@ -486,7 +486,7 @@ public class TASE2BilateralTableImpl extends BilateralExchangeAgreementImpl impl
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (bilateralTableID: " );
         if( bilateralTableIDESet )
             result.append( bilateralTableID );

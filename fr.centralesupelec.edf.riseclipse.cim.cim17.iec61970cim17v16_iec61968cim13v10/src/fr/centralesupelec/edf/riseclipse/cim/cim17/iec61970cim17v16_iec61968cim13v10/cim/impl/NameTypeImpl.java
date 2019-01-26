@@ -538,7 +538,7 @@ public class NameTypeImpl extends CimObjectWithIDImpl implements NameType {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (description: " );
         if( descriptionESet )
             result.append( description );

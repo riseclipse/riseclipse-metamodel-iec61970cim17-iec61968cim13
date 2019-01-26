@@ -1283,7 +1283,7 @@ public class GovSteamFV2Impl extends TurbineGovernorDynamicsImpl implements GovS
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (dt: " );
         if( dtESet )
             result.append( dt );

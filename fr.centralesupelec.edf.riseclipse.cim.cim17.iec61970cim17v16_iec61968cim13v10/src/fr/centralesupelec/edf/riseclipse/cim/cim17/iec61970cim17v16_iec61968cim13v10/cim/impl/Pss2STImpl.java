@@ -1738,7 +1738,7 @@ public class Pss2STImpl extends PowerSystemStabilizerDynamicsImpl implements Pss
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (inputSignal1Type: " );
         if( inputSignal1TypeESet )
             result.append( inputSignal1Type );

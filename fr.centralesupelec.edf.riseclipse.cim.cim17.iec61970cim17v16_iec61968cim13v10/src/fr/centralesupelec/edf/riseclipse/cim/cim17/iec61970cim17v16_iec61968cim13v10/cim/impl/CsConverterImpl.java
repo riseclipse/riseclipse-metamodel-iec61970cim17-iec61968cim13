@@ -1376,7 +1376,7 @@ public class CsConverterImpl extends ACDCConverterImpl implements CsConverter {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (alpha: " );
         if( alphaESet )
             result.append( alpha );

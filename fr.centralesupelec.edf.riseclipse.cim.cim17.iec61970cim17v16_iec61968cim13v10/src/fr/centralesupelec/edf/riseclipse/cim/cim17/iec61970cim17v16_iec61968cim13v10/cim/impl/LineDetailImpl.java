@@ -478,7 +478,7 @@ public class LineDetailImpl extends MinimalEObjectImpl.Container implements Line
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (amount: " );
         if( amountESet )
             result.append( amount );

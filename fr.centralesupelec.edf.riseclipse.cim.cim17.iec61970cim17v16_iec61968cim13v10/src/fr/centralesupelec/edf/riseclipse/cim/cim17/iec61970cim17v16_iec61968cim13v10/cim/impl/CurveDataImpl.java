@@ -644,7 +644,7 @@ public class CurveDataImpl extends CimObjectWithIDImpl implements CurveData {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (xvalue: " );
         if( xvalueESet )
             result.append( xvalue );

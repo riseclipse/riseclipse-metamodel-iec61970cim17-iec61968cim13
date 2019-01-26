@@ -987,7 +987,7 @@ public class HydroPumpImpl extends EquipmentImpl implements HydroPump {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (pumpDischAtMaxHead: " );
         if( pumpDischAtMaxHeadESet )
             result.append( pumpDischAtMaxHead );

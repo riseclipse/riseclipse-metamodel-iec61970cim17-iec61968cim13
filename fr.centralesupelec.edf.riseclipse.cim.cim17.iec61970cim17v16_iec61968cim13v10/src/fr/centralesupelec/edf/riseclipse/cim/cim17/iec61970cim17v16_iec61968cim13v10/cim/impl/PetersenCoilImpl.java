@@ -749,7 +749,7 @@ public class PetersenCoilImpl extends EarthFaultCompensatorImpl implements Peter
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (mode: " );
         if( modeESet )
             result.append( mode );

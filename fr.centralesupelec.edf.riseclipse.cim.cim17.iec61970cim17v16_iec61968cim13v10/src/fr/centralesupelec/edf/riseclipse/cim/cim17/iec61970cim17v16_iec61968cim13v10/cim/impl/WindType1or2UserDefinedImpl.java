@@ -307,7 +307,7 @@ public class WindType1or2UserDefinedImpl extends WindTurbineType1or2DynamicsImpl
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (proprietary: " );
         if( proprietaryESet )
             result.append( proprietary );

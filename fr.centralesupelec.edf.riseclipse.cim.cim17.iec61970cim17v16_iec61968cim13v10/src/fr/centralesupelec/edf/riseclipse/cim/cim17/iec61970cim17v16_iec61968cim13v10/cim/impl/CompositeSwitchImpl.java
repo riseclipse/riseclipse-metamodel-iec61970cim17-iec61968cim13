@@ -302,7 +302,7 @@ public class CompositeSwitchImpl extends EquipmentImpl implements CompositeSwitc
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (compositeSwitchType: " );
         if( compositeSwitchTypeESet )
             result.append( compositeSwitchType );

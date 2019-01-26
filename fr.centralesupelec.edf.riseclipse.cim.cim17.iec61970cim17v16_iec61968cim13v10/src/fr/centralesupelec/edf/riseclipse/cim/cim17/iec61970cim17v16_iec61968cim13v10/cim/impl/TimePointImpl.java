@@ -841,7 +841,7 @@ public class TimePointImpl extends IdentifiedObjectImpl implements TimePoint {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (dateTime: " );
         if( dateTimeESet )
             result.append( dateTime );

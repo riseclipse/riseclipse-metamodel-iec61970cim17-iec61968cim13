@@ -468,7 +468,7 @@ public class TargetLevelScheduleImpl extends CurveImpl implements TargetLevelSch
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (highLevelLimit: " );
         if( highLevelLimitESet )
             result.append( highLevelLimit );

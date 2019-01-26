@@ -1733,7 +1733,7 @@ public class ExcDC1AImpl extends ExcitationSystemDynamicsImpl implements ExcDC1A
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (edfmax: " );
         if( edfmaxESet )
             result.append( edfmax );

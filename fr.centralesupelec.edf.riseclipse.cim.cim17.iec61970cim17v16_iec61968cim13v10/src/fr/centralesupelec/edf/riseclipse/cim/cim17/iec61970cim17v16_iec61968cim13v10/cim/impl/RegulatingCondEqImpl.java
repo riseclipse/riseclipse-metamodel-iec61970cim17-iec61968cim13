@@ -380,7 +380,7 @@ public class RegulatingCondEqImpl extends EnergyConnectionImpl implements Regula
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (controlEnabled: " );
         if( controlEnabledESet )
             result.append( controlEnabled );

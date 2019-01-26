@@ -397,7 +397,7 @@ public class StartIgnFuelCurveImpl extends CurveImpl implements StartIgnFuelCurv
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (ignitionFuelType: " );
         if( ignitionFuelTypeESet )
             result.append( ignitionFuelType );

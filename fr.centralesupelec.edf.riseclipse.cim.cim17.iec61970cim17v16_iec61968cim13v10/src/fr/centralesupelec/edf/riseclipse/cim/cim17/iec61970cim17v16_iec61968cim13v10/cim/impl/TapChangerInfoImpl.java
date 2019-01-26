@@ -1472,7 +1472,7 @@ public class TapChangerInfoImpl extends AssetInfoImpl implements TapChangerInfo 
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (bil: " );
         if( bilESet )
             result.append( bil );

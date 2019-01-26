@@ -551,7 +551,7 @@ public class BaseVoltageImpl extends IdentifiedObjectImpl implements BaseVoltage
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (nominalVoltage: " );
         if( nominalVoltageESet )
             result.append( nominalVoltage );

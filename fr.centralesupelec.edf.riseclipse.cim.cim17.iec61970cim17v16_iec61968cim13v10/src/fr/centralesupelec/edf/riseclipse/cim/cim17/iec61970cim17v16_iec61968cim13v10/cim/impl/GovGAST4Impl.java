@@ -1103,7 +1103,7 @@ public class GovGAST4Impl extends TurbineGovernorDynamicsImpl implements GovGAST
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (bp: " );
         if( bpESet )
             result.append( bp );

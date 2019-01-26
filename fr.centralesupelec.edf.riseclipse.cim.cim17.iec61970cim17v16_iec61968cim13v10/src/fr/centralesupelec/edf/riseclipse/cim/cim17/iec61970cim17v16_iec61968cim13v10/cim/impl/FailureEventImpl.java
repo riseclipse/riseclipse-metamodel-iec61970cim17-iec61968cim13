@@ -1037,7 +1037,7 @@ public class FailureEventImpl extends ActivityRecordImpl implements FailureEvent
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (breakerFailureReason: " );
         if( breakerFailureReasonESet )
             result.append( breakerFailureReason );

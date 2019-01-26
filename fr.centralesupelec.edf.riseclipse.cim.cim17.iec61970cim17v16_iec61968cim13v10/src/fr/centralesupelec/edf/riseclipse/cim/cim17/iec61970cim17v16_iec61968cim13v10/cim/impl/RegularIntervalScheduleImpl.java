@@ -392,7 +392,7 @@ public class RegularIntervalScheduleImpl extends BasicIntervalScheduleImpl imple
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (endTime: " );
         if( endTimeESet )
             result.append( endTime );

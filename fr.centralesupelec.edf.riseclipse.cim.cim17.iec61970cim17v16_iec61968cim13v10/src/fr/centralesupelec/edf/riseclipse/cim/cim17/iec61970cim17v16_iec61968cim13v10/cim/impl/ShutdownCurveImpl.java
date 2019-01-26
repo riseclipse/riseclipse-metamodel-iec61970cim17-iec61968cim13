@@ -477,7 +477,7 @@ public class ShutdownCurveImpl extends CurveImpl implements ShutdownCurve {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (shutdownCost: " );
         if( shutdownCostESet )
             result.append( shutdownCost );

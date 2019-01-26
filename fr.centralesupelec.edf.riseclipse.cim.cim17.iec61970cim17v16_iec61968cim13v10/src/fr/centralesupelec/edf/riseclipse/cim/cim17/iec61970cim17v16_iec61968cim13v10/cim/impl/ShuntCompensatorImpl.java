@@ -1300,7 +1300,7 @@ public class ShuntCompensatorImpl extends RegulatingCondEqImpl implements ShuntC
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (aVRDelay: " );
         if( aVRDelayESet )
             result.append( aVRDelay );

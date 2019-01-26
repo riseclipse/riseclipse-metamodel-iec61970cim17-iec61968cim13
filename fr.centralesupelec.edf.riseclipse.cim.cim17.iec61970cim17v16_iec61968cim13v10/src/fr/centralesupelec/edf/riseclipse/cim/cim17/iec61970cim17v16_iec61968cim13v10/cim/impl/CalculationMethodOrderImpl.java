@@ -542,7 +542,7 @@ public class CalculationMethodOrderImpl extends CimObjectWithIDImpl implements C
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (order: " );
         if( orderESet )
             result.append( order );

@@ -469,7 +469,7 @@ public class WindGenType3aIECImpl extends WindGenType3IECImpl implements WindGen
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (kpc: " );
         if( kpcESet )
             result.append( kpc );

@@ -1283,7 +1283,7 @@ public class ExcAVR2Impl extends ExcitationSystemDynamicsImpl implements ExcAVR2
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (e1: " );
         if( e1ESet )
             result.append( e1 );

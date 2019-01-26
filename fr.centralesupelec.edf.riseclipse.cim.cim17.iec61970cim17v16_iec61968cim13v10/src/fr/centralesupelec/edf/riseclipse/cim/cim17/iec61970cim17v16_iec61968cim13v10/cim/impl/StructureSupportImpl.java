@@ -741,7 +741,7 @@ public class StructureSupportImpl extends AssetImpl implements StructureSupport 
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (anchorRodCount: " );
         if( anchorRodCountESet )
             result.append( anchorRodCount );

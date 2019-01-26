@@ -390,7 +390,7 @@ public class PowerCutZoneImpl extends PowerSystemResourceImpl implements PowerCu
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (cutLevel1: " );
         if( cutLevel1ESet )
             result.append( cutLevel1 );

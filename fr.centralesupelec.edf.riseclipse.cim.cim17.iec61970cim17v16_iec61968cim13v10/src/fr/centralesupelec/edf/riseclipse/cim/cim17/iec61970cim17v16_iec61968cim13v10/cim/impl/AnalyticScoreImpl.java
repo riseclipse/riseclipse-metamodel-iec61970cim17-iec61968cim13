@@ -999,7 +999,7 @@ public class AnalyticScoreImpl extends IdentifiedObjectImpl implements AnalyticS
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (calculationDateTime: " );
         if( calculationDateTimeESet )
             result.append( calculationDateTime );

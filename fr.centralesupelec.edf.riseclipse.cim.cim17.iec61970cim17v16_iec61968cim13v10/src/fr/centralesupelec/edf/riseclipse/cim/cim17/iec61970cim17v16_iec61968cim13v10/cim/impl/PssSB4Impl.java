@@ -1103,7 +1103,7 @@ public class PssSB4Impl extends PowerSystemStabilizerDynamicsImpl implements Pss
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (kx: " );
         if( kxESet )
             result.append( kx );

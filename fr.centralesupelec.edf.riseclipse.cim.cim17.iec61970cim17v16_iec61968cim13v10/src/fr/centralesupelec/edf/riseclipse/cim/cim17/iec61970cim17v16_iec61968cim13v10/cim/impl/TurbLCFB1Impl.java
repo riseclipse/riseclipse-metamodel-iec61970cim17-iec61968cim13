@@ -1195,7 +1195,7 @@ public class TurbLCFB1Impl extends TurbineLoadControllerDynamicsImpl implements 
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (db: " );
         if( dbESet )
             result.append( db );

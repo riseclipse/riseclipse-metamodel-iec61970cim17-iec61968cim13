@@ -2248,7 +2248,7 @@ public class TestStandardImpl extends IdentifiedObjectImpl implements TestStanda
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (testMethod: " );
         if( testMethodESet )
             result.append( testMethod );

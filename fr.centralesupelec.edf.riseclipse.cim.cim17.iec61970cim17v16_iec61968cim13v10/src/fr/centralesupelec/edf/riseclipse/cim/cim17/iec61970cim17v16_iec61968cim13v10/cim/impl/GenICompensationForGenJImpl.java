@@ -624,7 +624,7 @@ public class GenICompensationForGenJImpl extends IdentifiedObjectImpl implements
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (rcij: " );
         if( rcijESet )
             result.append( rcij );

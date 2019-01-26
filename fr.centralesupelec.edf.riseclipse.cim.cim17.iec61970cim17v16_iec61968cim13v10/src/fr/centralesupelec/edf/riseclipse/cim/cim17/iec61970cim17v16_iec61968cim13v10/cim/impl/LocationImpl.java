@@ -1954,7 +1954,7 @@ public class LocationImpl extends IdentifiedObjectImpl implements Location {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (direction: " );
         if( directionESet )
             result.append( direction );

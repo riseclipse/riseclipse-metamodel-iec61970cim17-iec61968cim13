@@ -15,7 +15,6 @@
  */
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.util;
 
-
 import java.util.Map;
 
 import org.eclipse.emf.ecore.EPackage;

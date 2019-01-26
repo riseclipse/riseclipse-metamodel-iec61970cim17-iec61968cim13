@@ -378,7 +378,7 @@ public class TransformerTankEndImpl extends TransformerEndImpl implements Transf
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (phases: " );
         if( phasesESet )
             result.append( phases );

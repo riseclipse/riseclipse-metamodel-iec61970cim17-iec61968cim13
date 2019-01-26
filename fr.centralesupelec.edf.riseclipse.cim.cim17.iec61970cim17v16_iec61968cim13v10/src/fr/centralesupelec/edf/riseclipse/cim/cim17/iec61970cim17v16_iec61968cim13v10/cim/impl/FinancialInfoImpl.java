@@ -1362,7 +1362,7 @@ public class FinancialInfoImpl extends IdentifiedObjectImpl implements Financial
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (account: " );
         if( accountESet )
             result.append( account );

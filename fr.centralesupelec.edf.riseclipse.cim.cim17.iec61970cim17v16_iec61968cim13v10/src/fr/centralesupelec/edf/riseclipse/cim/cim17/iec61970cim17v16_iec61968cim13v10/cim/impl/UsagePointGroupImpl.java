@@ -427,7 +427,7 @@ public class UsagePointGroupImpl extends IdentifiedObjectImpl implements UsagePo
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (type: " );
         if( typeESet )
             result.append( type );

@@ -834,7 +834,7 @@ public class ElectronicAddressImpl extends MinimalEObjectImpl.Container implemen
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (email1: " );
         if( email1ESet )
             result.append( email1 );

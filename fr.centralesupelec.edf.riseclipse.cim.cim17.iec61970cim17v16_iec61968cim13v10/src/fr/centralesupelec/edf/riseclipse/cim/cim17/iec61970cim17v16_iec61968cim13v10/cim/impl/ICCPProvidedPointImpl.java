@@ -480,7 +480,7 @@ public class ICCPProvidedPointImpl extends ProvidedBilateralPointImpl implements
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (accessPriviledge: " );
         if( accessPriviledgeESet )
             result.append( accessPriviledge );

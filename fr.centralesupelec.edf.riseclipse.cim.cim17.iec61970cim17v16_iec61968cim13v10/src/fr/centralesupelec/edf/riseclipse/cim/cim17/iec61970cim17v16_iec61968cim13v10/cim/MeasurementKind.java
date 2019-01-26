@@ -849,7 +849,8 @@ public enum MeasurementKind implements Enumerator {
      * @generated
      * @ordered
      */
-    MFG_ASSIGNED_UNIQUE_COMMUNICATION_ADDRESS( 81, "mfgAssignedUniqueCommunicationAddress", "mfgAssignedUniqueCommunicationAddress" ),
+    MFG_ASSIGNED_UNIQUE_COMMUNICATION_ADDRESS( 81, "mfgAssignedUniqueCommunicationAddress",
+            "mfgAssignedUniqueCommunicationAddress" ),
 
     /**
      * The '<em><b>Multi Cast Address</b></em>' literal object.
@@ -999,7 +1000,8 @@ public enum MeasurementKind implements Enumerator {
      * @generated
      * @ordered
      */
-    IEEE1366_MOMENTARY_INTERRUPTION_EVENT( 96, "ieee1366MomentaryInterruptionEvent", "ieee1366MomentaryInterruptionEvent" ),
+    IEEE1366_MOMENTARY_INTERRUPTION_EVENT( 96, "ieee1366MomentaryInterruptionEvent",
+            "ieee1366MomentaryInterruptionEvent" ),
 
     /**
      * The '<em><b>Ieee1366 Sustained Interruption</b></em>' literal object.

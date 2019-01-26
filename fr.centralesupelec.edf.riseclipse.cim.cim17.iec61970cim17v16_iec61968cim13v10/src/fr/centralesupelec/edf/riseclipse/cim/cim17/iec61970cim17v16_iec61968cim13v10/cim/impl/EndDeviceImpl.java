@@ -1652,7 +1652,7 @@ public class EndDeviceImpl extends AssetContainerImpl implements EndDevice {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (amrSystem: " );
         if( amrSystemESet )
             result.append( amrSystem );

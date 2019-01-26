@@ -555,7 +555,7 @@ public class SvPowerFlowImpl extends StateVariableImpl implements SvPowerFlow {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (p: " );
         if( pESet )
             result.append( p );

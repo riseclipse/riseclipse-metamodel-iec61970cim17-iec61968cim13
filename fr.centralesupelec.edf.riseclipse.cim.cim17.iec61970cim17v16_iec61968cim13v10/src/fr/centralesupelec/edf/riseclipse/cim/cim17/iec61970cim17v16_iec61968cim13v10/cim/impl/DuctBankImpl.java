@@ -300,7 +300,7 @@ public class DuctBankImpl extends AssetContainerImpl implements DuctBank {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (circuitCount: " );
         if( circuitCountESet )
             result.append( circuitCount );

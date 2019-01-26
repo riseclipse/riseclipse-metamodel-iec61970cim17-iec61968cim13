@@ -2543,7 +2543,7 @@ public class ExcAC8BImpl extends ExcitationSystemDynamicsImpl implements ExcAC8B
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (inlim: " );
         if( inlimESet )
             result.append( inlim );

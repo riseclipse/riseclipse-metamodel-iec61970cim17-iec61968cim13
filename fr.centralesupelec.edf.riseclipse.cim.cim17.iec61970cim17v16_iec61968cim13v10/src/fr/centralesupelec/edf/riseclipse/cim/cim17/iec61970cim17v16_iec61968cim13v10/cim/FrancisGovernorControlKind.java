@@ -49,7 +49,8 @@ public enum FrancisGovernorControlKind implements Enumerator {
      * @generated
      * @ordered
      */
-    MECHANIC_HYDRAULIC_TRANSIENT_FEEDBACK( 1, "mechanicHydraulicTransientFeedback", "mechanicHydraulicTransientFeedback" ),
+    MECHANIC_HYDRAULIC_TRANSIENT_FEEDBACK( 1, "mechanicHydraulicTransientFeedback",
+            "mechanicHydraulicTransientFeedback" ),
 
     /**
      * The '<em><b>Electromechanical Electrohydraulic</b></em>' literal object.

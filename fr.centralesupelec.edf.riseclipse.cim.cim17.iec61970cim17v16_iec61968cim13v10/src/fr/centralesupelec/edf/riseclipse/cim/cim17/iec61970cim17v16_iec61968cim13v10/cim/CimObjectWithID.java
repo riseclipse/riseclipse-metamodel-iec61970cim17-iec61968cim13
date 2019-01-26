@@ -48,7 +48,7 @@ public interface CimObjectWithID extends EObject {
      * @see #setID(String)
      * @see fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage#getCimObjectWithID_ID()
      * @model unsettable="true" id="true" required="true"
-     *        extendedMetaData="namespace='http://www.w3.org/1999/02/22-rdf-syntax-ns#' kind='attribute'"
+     *        extendedMetaData="namespace='http://www.w3.org/1999/02/22-rdf-syntax-ns' kind='attribute'"
      * @generated
      */
     String getID();

@@ -389,7 +389,7 @@ public class VehicleImpl extends WorkAssetImpl implements Vehicle {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (odometerReadDateTime: " );
         if( odometerReadDateTimeESet )
             result.append( odometerReadDateTime );

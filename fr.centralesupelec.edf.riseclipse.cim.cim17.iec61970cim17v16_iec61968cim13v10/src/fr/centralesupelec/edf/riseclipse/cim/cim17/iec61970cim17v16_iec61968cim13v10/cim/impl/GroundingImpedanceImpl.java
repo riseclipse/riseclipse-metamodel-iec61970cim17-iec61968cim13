@@ -203,7 +203,7 @@ public class GroundingImpedanceImpl extends EarthFaultCompensatorImpl implements
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (x: " );
         if( xESet )
             result.append( x );

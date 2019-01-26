@@ -5,7 +5,7 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="ID" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
         unsettable="true" iD="true">
       <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
-        <details key="namespace" value="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+        <details key="namespace" value="http://www.w3.org/1999/02/22-rdf-syntax-ns"/>
         <details key="kind" value="attribute"/>
       </eAnnotations>
     </eStructuralFeatures>

@@ -2453,7 +2453,7 @@ public class GovHydroIEEE2Impl extends TurbineGovernorDynamicsImpl implements Go
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (aturb: " );
         if( aturbESet )
             result.append( aturb );

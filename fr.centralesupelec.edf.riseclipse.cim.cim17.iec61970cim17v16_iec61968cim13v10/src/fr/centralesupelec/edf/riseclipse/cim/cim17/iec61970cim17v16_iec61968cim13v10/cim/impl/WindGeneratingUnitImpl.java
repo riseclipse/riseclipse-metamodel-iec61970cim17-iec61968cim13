@@ -206,7 +206,7 @@ public class WindGeneratingUnitImpl extends GeneratingUnitImpl implements WindGe
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (windGenUnitType: " );
         if( windGenUnitTypeESet )
             result.append( windGenUnitType );

@@ -1463,7 +1463,7 @@ public class ExcST2AImpl extends ExcitationSystemDynamicsImpl implements ExcST2A
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (efdmax: " );
         if( efdmaxESet )
             result.append( efdmax );

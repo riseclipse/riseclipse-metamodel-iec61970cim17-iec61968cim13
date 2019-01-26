@@ -365,7 +365,7 @@ public class RemoteUnitImpl extends PowerSystemResourceImpl implements RemoteUni
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (remoteUnitType: " );
         if( remoteUnitTypeESet )
             result.append( remoteUnitType );

@@ -1733,7 +1733,7 @@ public class EndDeviceControlImpl extends IdentifiedObjectImpl implements EndDev
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (drProgramLevel: " );
         if( drProgramLevelESet )
             result.append( drProgramLevel );

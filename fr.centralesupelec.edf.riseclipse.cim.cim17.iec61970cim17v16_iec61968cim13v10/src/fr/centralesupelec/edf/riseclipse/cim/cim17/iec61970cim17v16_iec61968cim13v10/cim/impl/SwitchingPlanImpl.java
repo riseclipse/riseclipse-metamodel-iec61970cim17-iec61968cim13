@@ -660,7 +660,7 @@ public class SwitchingPlanImpl extends SwitchingStepGroupImpl implements Switchi
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (purpose: " );
         if( purposeESet )
             result.append( purpose );

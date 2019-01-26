@@ -1103,7 +1103,7 @@ public class LoadCompositeImpl extends LoadDynamicsImpl implements LoadComposite
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (epfd: " );
         if( epfdESet )
             result.append( epfd );

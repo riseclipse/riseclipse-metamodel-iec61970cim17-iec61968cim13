@@ -2021,7 +2021,7 @@ public class BWRSteamSupplyImpl extends SteamSupplyImpl implements BWRSteamSuppl
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (highPowerLimit: " );
         if( highPowerLimitESet )
             result.append( highPowerLimit );

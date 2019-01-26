@@ -994,7 +994,7 @@ public class ConnectDisconnectFunctionImpl extends EndDeviceFunctionImpl impleme
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (eventCount: " );
         if( eventCountESet )
             result.append( eventCount );

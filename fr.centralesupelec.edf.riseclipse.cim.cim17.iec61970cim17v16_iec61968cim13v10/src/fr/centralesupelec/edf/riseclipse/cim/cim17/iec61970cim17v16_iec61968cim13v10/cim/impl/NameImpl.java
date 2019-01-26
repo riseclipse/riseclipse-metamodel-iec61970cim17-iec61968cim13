@@ -521,7 +521,7 @@ public class NameImpl extends CimObjectWithIDImpl implements Name {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (name: " );
         if( nameESet )
             result.append( name );

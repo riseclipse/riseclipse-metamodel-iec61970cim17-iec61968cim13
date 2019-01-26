@@ -1905,7 +1905,7 @@ public class TransformerEndInfoImpl extends AssetInfoImpl implements Transformer
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (connectionKind: " );
         if( connectionKindESet )
             result.append( connectionKind );

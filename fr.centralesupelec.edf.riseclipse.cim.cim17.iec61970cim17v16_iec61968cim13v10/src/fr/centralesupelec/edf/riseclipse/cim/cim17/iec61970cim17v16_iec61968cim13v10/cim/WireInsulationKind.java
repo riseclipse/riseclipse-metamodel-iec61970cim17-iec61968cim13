@@ -79,7 +79,8 @@ public enum WireInsulationKind implements Enumerator {
      * @generated
      * @ordered
      */
-    TREE_RESISTANT_HIGH_MOLECULAR_WEIGHT_POLYETHYLENE( 4, "treeResistantHighMolecularWeightPolyethylene", "treeResistantHighMolecularWeightPolyethylene" ),
+    TREE_RESISTANT_HIGH_MOLECULAR_WEIGHT_POLYETHYLENE( 4, "treeResistantHighMolecularWeightPolyethylene",
+            "treeResistantHighMolecularWeightPolyethylene" ),
 
     /**
      * The '<em><b>Low Capacitance Rubber</b></em>' literal object.
@@ -189,7 +190,8 @@ public enum WireInsulationKind implements Enumerator {
      * @generated
      * @ordered
      */
-    TREE_RETARDANT_CROSSLINKED_POLYETHYLENE( 15, "treeRetardantCrosslinkedPolyethylene", "treeRetardantCrosslinkedPolyethylene" ),
+    TREE_RETARDANT_CROSSLINKED_POLYETHYLENE( 15, "treeRetardantCrosslinkedPolyethylene",
+            "treeRetardantCrosslinkedPolyethylene" ),
 
     /**
      * The '<em><b>High Pressure Fluid Filled</b></em>' literal object.

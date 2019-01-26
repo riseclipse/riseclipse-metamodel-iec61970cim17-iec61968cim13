@@ -1029,7 +1029,7 @@ public class AuxiliaryAccountImpl extends DocumentImpl implements AuxiliaryAccou
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (balance: " );
         if( balanceESet )
             result.append( balance );

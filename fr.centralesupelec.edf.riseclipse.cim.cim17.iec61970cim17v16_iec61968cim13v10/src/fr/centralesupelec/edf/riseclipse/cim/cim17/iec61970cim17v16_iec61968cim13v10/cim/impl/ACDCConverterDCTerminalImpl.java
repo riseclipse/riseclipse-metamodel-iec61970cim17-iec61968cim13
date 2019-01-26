@@ -380,7 +380,7 @@ public class ACDCConverterDCTerminalImpl extends DCBaseTerminalImpl implements A
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (polarity: " );
         if( polarityESet )
             result.append( polarity );

@@ -834,7 +834,7 @@ public class PFVArType1IEEEPFControllerImpl extends PFVArControllerType1Dynamics
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (ovex: " );
         if( ovexESet )
             result.append( ovex );

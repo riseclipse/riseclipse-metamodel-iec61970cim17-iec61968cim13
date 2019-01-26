@@ -557,7 +557,7 @@ public class SvInjectionImpl extends StateVariableImpl implements SvInjection {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (phase: " );
         if( phaseESet )
             result.append( phase );

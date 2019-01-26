@@ -206,7 +206,7 @@ public class PhaseTapChangerAsymmetricalImpl extends PhaseTapChangerNonLinearImp
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (windingConnectionAngle: " );
         if( windingConnectionAngleESet )
             result.append( windingConnectionAngle );

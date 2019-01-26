@@ -377,7 +377,7 @@ public class DCConverterUnitImpl extends DCEquipmentContainerImpl implements DCC
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (operationMode: " );
         if( operationModeESet )
             result.append( operationMode );

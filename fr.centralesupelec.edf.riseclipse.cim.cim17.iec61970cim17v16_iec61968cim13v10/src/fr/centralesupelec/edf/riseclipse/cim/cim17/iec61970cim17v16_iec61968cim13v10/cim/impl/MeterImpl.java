@@ -551,7 +551,7 @@ public class MeterImpl extends EndDeviceImpl implements Meter {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (formNumber: " );
         if( formNumberESet )
             result.append( formNumber );

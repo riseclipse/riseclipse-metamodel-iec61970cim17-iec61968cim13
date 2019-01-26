@@ -485,7 +485,7 @@ public class OilSpecimenImpl extends SpecimenImpl implements OilSpecimen {
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (oilSampleTakenFrom: " );
         if( oilSampleTakenFromESet )
             result.append( oilSampleTakenFrom );

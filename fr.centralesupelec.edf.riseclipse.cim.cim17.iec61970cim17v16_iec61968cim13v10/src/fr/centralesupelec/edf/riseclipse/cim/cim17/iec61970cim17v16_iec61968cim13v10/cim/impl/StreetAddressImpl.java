@@ -732,7 +732,7 @@ public class StreetAddressImpl extends MinimalEObjectImpl.Container implements S
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (poBox: " );
         if( poBoxESet )
             result.append( poBox );

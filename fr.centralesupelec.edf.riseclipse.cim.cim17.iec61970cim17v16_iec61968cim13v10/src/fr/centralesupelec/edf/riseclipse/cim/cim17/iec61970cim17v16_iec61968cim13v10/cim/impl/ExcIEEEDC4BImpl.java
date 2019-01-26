@@ -1823,7 +1823,7 @@ public class ExcIEEEDC4BImpl extends ExcitationSystemDynamicsImpl implements Exc
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (efd1: " );
         if( efd1ESet )
             result.append( efd1 );

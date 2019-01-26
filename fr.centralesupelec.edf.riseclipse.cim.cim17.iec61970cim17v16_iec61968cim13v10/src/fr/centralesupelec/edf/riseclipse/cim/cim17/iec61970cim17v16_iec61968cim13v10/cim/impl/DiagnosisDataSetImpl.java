@@ -1295,7 +1295,7 @@ public class DiagnosisDataSetImpl extends ProcedureDataSetImpl implements Diagno
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (effect: " );
         if( effectESet )
             result.append( effect );

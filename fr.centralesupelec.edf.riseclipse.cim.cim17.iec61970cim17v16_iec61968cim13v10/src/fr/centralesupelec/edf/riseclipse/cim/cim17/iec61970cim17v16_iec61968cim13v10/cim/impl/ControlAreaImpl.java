@@ -691,7 +691,7 @@ public class ControlAreaImpl extends PowerSystemResourceImpl implements ControlA
     public String toString() {
         if( eIsProxy() ) return super.toString();
 
-        StringBuffer result = new StringBuffer( super.toString() );
+        StringBuilder result = new StringBuilder( super.toString() );
         result.append( " (netInterchange: " );
         if( netInterchangeESet )
             result.append( netInterchange );
