@@ -30,7 +30,7 @@
    <extension point="org.eclipse.emf.ecore.extension_parser">
       <!-- @generated iec61970cim17v16_iec61968cim13v10 -->
       <parser
-            type=""
+            type="cim17"
             class="fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.util.CimResourceFactoryImpl"/>
    </extension>
 

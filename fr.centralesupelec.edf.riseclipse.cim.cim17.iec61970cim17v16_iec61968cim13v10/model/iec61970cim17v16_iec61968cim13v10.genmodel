@@ -10,7 +10,7 @@
   <foreignModel>iec61970cim17v16_iec61968cim13v10.ecore</foreignModel>
   <genPackages prefix="Cim" basePackage="fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10"
       resource="XML" disposableProviderFactory="true" loadInitialization="true" literalsInterface="false"
-      fileExtensions="" ecorePackage="iec61970cim17v16_iec61968cim13v10.ecore#/">
+      fileExtensions="cim17" ecorePackage="iec61970cim17v16_iec61968cim13v10.ecore#/">
     <genEnums typeSafeEnumCompatible="false" ecoreEnum="iec61970cim17v16_iec61968cim13v10.ecore#//OilAnalysisPCBDiscreteKind">
       <genEnumLiterals ecoreEnumLiteral="iec61970cim17v16_iec61968cim13v10.ecore#//OilAnalysisPCBDiscreteKind/testKitPCB"/>
     </genEnums>
