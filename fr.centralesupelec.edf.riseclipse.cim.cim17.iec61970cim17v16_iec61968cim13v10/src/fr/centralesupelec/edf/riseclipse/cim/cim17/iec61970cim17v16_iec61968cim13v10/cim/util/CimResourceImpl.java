@@ -25,7 +25,7 @@ import fr.centralesupelec.edf.riseclipse.cim.cim17.util.AbstractCim17Resource;
  * <!-- begin-user-doc -->
  * The <b>Resource </b> associated with the package.
  * <!-- end-user-doc -->
- * @see fr.centralesupelec.edf.riseclipse.cim.cim17.Cim17ResourceFactory.cim.util.CimResourceFactoryImpl
+ * @see fr.centralesupelec.edf.riseclipse.cim.cim17.AbstractCim17ResourceFactory.cim.util.CimResourceFactoryImpl
  * @generated NOT
  */
 public class CimResourceImpl extends AbstractCim17Resource {

@@ -17,7 +17,7 @@ package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim
 
 import org.eclipse.emf.common.util.URI;
 
-import fr.centralesupelec.edf.riseclipse.cim.cim17.util.Cim17ResourceFactory;
+import fr.centralesupelec.edf.riseclipse.cim.cim17.util.AbstractCim17ResourceFactory;
 
 /**
  * <!-- begin-user-doc -->
@@ -26,7 +26,7 @@ import fr.centralesupelec.edf.riseclipse.cim.cim17.util.Cim17ResourceFactory;
  * @see fr.centralesupelec.edf.riseclipse.cim.cim17.AbstractCim17Resource.cim.util.CimResourceImpl
  * @generated NOT
  */
-public class CimResourceFactoryImpl extends Cim17ResourceFactory {
+public class CimResourceFactoryImpl extends AbstractCim17ResourceFactory {
 
     @Override
     protected CimResourceImpl createCimResource( URI uri ) {
