@@ -45,7 +45,7 @@ public class CimXMLProcessor extends XMLProcessor {
     }
 
     /**
-     * Register for "*" and "xml" file extensions the CimResourceFactoryImpl factory.
+     * Register for "*" and "xml" file extensions the AbstractCimResourceFactory factory.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @generated

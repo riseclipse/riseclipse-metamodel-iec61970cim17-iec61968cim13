@@ -25,9 +25,10 @@ import org.eclipse.emf.common.util.URI;
 import fr.centralesupelec.edf.riseclipse.util.IRiseClipseResource;
 import fr.centralesupelec.edf.riseclipse.util.RiseClipseMetamodel;
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
+import fr.centralesupelec.edf.riseclipse.cim.cim17.util.AbstractCim17ResourceSet;
 
 
-public class CimResourceSetImpl extends fr.centralesupelec.edf.riseclipse.cim.cim17.util.CimResourceSetImpl {
+public class CimResourceSetImpl extends AbstractCim17ResourceSet {
 
     public CimResourceSetImpl( boolean strictContent ) {
         super( strictContent );

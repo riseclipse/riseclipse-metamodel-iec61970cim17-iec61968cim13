@@ -19,9 +19,10 @@
  */
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.util;
 
+import fr.centralesupelec.edf.riseclipse.cim.cim17.util.AbstractCim17ResourceSetFactory;
 import fr.centralesupelec.edf.riseclipse.util.IRiseClipseResourceSet;
 
-public class CimResourceSetFactory extends fr.centralesupelec.edf.riseclipse.cim.cim17.util.CimResourceSetFactory {
+public class CimResourceSetFactory extends AbstractCim17ResourceSetFactory {
 
     public CimResourceSetFactory() {
         super();
