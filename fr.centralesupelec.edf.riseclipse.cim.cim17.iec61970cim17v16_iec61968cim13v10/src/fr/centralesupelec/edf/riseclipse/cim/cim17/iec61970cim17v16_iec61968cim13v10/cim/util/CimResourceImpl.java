@@ -19,15 +19,16 @@ import org.eclipse.emf.common.util.URI;
 import org.eclipse.emf.ecore.EObject;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimObjectWithID;
+import fr.centralesupelec.edf.riseclipse.cim.cim17.util.AbstractCim17Resource;
 
 /**
  * <!-- begin-user-doc -->
  * The <b>Resource </b> associated with the package.
  * <!-- end-user-doc -->
- * @see fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16.cim.util.CimResourceFactoryImpl
+ * @see fr.centralesupelec.edf.riseclipse.cim.cim17.AbstractCim17ResourceFactory.cim.util.CimResourceFactoryImpl
  * @generated NOT
  */
-public class CimResourceImpl extends fr.centralesupelec.edf.riseclipse.cim.cim17.util.CimResourceImpl {
+public class CimResourceImpl extends AbstractCim17Resource {
 
     /**
      * Creates an instance of the resource.
@@ -58,4 +59,4 @@ public class CimResourceImpl extends fr.centralesupelec.edf.riseclipse.cim.cim17
         super.setID( eObject, id );
     }
 
-} // CimResourceImpl
+}

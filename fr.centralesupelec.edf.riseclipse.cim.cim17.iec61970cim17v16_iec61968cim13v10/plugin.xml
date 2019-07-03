@@ -39,6 +39,7 @@
       <meta_model
             name="IEC61970 CIM17 (v16) and IEC 61968 CIM13 (v10)"
             resourceFactory="fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.util.CimResourceFactoryImpl"
+            resourceSetFactory="fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.util.CimResourceSetFactory"
             uri="http://iec.ch/TC57/2016/CIM-schema-cim17">
       </meta_model>
    </extension>
