@@ -6,7 +6,7 @@
   <modelVersion>4.0.0</modelVersion>
  
   <groupId>fr.centralesupelec.edf.riseclipse</groupId>
-  <artifactId>RiseClipseMetamodel_iec61970cim17_iec61968cim13</artifactId>
+  <artifactId>riseclipse-metamodel-iec61970cim17-iec61968cim13</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   
@@ -14,9 +14,15 @@
     <groupId>fr.centralesupelec.edf.riseclipse</groupId>
     <artifactId>fr.centralesupelec.edf.riseclipse.developer.maven</artifactId>
     <version>1.0.8-SNAPSHOT</version>
-    <relativePath>../RiseClipseDeveloper/fr.centralesupelec.edf.riseclipse.developer.maven/pom.xml</relativePath>
+    <relativePath>../riseclipse-developer/fr.centralesupelec.edf.riseclipse.developer.maven/pom.xml</relativePath>
   </parent>
 
+  <scm>
+    <connection>scm:git:git@gitlab-research.centralesupelec.fr:RiseClipseGroup/riseclipse-metamodel-iec61970cim17-iec61968cim13.git</connection>
+    <developerConnection>scm:git:git@gitlab-research.centralesupelec.fr:RiseClipseGroup/riseclipse-metamodel-iec61970cim17-iec61968cim13.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+ 
   <modules>
     <module>fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10</module>
     <module>fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.edit</module>
