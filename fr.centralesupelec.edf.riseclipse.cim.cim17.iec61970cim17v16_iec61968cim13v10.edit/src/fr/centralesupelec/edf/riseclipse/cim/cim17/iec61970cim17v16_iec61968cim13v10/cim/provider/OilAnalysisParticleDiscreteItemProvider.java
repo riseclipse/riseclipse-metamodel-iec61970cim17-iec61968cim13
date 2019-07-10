@@ -76,11 +76,17 @@ public class OilAnalysisParticleDiscreteItemProvider extends AssetDiscreteItemPr
     protected void addKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OilAnalysisParticleDiscrete_kind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OilAnalysisParticleDiscrete_kind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_OilAnalysisParticleDiscrete_kind_feature",
                                 "_UI_OilAnalysisParticleDiscrete_type" ),
-                        CimPackage.eINSTANCE.getOilAnalysisParticleDiscrete_Kind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOilAnalysisParticleDiscrete_Kind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

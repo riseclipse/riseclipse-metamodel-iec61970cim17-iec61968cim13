@@ -83,11 +83,17 @@ public class EnergyConsumerPhaseItemProvider extends PowerSystemResourceItemProv
     protected void addPPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EnergyConsumerPhase_p_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EnergyConsumerPhase_p_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EnergyConsumerPhase_p_feature",
                                 "_UI_EnergyConsumerPhase_type" ),
-                        CimPackage.eINSTANCE.getEnergyConsumerPhase_P(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEnergyConsumerPhase_P(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -99,11 +105,17 @@ public class EnergyConsumerPhaseItemProvider extends PowerSystemResourceItemProv
     protected void addPfixedPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EnergyConsumerPhase_pfixed_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EnergyConsumerPhase_pfixed_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EnergyConsumerPhase_pfixed_feature",
                                 "_UI_EnergyConsumerPhase_type" ),
-                        CimPackage.eINSTANCE.getEnergyConsumerPhase_Pfixed(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEnergyConsumerPhase_Pfixed(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -113,13 +125,19 @@ public class EnergyConsumerPhaseItemProvider extends PowerSystemResourceItemProv
      * @generated
      */
     protected void addPfixedPctPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_EnergyConsumerPhase_pfixedPct_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_EnergyConsumerPhase_pfixedPct_feature",
-                        "_UI_EnergyConsumerPhase_type" ),
-                CimPackage.eINSTANCE.getEnergyConsumerPhase_PfixedPct(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_EnergyConsumerPhase_pfixedPct_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_EnergyConsumerPhase_pfixedPct_feature",
+                                "_UI_EnergyConsumerPhase_type" ),
+                        CimPackage.eINSTANCE.getEnergyConsumerPhase_PfixedPct(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -131,11 +149,17 @@ public class EnergyConsumerPhaseItemProvider extends PowerSystemResourceItemProv
     protected void addPhasePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EnergyConsumerPhase_phase_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EnergyConsumerPhase_phase_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EnergyConsumerPhase_phase_feature",
                                 "_UI_EnergyConsumerPhase_type" ),
-                        CimPackage.eINSTANCE.getEnergyConsumerPhase_Phase(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEnergyConsumerPhase_Phase(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -147,11 +171,17 @@ public class EnergyConsumerPhaseItemProvider extends PowerSystemResourceItemProv
     protected void addQPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EnergyConsumerPhase_q_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EnergyConsumerPhase_q_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EnergyConsumerPhase_q_feature",
                                 "_UI_EnergyConsumerPhase_type" ),
-                        CimPackage.eINSTANCE.getEnergyConsumerPhase_Q(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEnergyConsumerPhase_Q(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -163,11 +193,17 @@ public class EnergyConsumerPhaseItemProvider extends PowerSystemResourceItemProv
     protected void addQfixedPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EnergyConsumerPhase_qfixed_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EnergyConsumerPhase_qfixed_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EnergyConsumerPhase_qfixed_feature",
                                 "_UI_EnergyConsumerPhase_type" ),
-                        CimPackage.eINSTANCE.getEnergyConsumerPhase_Qfixed(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEnergyConsumerPhase_Qfixed(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -177,13 +213,19 @@ public class EnergyConsumerPhaseItemProvider extends PowerSystemResourceItemProv
      * @generated
      */
     protected void addQfixedPctPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_EnergyConsumerPhase_qfixedPct_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_EnergyConsumerPhase_qfixedPct_feature",
-                        "_UI_EnergyConsumerPhase_type" ),
-                CimPackage.eINSTANCE.getEnergyConsumerPhase_QfixedPct(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_EnergyConsumerPhase_qfixedPct_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_EnergyConsumerPhase_qfixedPct_feature",
+                                "_UI_EnergyConsumerPhase_type" ),
+                        CimPackage.eINSTANCE.getEnergyConsumerPhase_QfixedPct(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -193,12 +235,19 @@ public class EnergyConsumerPhaseItemProvider extends PowerSystemResourceItemProv
      * @generated
      */
     protected void addEnergyConsumerPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_EnergyConsumerPhase_EnergyConsumer_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_EnergyConsumerPhase_EnergyConsumer_feature",
-                        "_UI_EnergyConsumerPhase_type" ),
-                CimPackage.eINSTANCE.getEnergyConsumerPhase_EnergyConsumer(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_EnergyConsumerPhase_EnergyConsumer_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_EnergyConsumerPhase_EnergyConsumer_feature", "_UI_EnergyConsumerPhase_type" ),
+                        CimPackage.eINSTANCE.getEnergyConsumerPhase_EnergyConsumer(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

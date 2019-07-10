@@ -74,10 +74,17 @@ public class TransactorItemProvider extends IdentifiedObjectItemProvider {
     protected void addMerchantAccountsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Transactor_MerchantAccounts_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Transactor_MerchantAccounts_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Transactor_MerchantAccounts_feature",
                                 "_UI_Transactor_type" ),
-                        CimPackage.eINSTANCE.getTransactor_MerchantAccounts(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTransactor_MerchantAccounts(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class TransactorItemProvider extends IdentifiedObjectItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

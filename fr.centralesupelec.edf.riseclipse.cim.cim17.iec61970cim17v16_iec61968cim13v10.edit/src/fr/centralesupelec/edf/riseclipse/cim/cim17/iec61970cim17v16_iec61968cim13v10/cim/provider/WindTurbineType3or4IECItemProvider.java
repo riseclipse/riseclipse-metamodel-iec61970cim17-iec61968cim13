@@ -78,11 +78,17 @@ public class WindTurbineType3or4IECItemProvider extends WindTurbineType3or4Dynam
      */
     protected void addWindContCurrLimIECPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindTurbineType3or4IEC_WindContCurrLimIEC_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_WindTurbineType3or4IEC_WindContCurrLimIEC_feature", "_UI_WindTurbineType3or4IEC_type" ),
-                CimPackage.eINSTANCE.getWindTurbineType3or4IEC_WindContCurrLimIEC(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getWindTurbineType3or4IEC_WindContCurrLimIEC(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -94,11 +100,17 @@ public class WindTurbineType3or4IECItemProvider extends WindTurbineType3or4Dynam
      */
     protected void addWindRefFrameRotIECPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindTurbineType3or4IEC_WindRefFrameRotIEC_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_WindTurbineType3or4IEC_WindRefFrameRotIEC_feature", "_UI_WindTurbineType3or4IEC_type" ),
-                CimPackage.eINSTANCE.getWindTurbineType3or4IEC_WindRefFrameRotIEC(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getWindTurbineType3or4IEC_WindRefFrameRotIEC(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -110,11 +122,17 @@ public class WindTurbineType3or4IECItemProvider extends WindTurbineType3or4Dynam
      */
     protected void addWindProtectionIECPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindTurbineType3or4IEC_WindProtectionIEC_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_WindTurbineType3or4IEC_WindProtectionIEC_feature",
                         "_UI_WindTurbineType3or4IEC_type" ),
-                CimPackage.eINSTANCE.getWindTurbineType3or4IEC_WindProtectionIEC(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getWindTurbineType3or4IEC_WindProtectionIEC(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -126,11 +144,17 @@ public class WindTurbineType3or4IECItemProvider extends WindTurbineType3or4Dynam
      */
     protected void addWindContQLimIECPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindTurbineType3or4IEC_WindContQLimIEC_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_WindTurbineType3or4IEC_WindContQLimIEC_feature",
                         "_UI_WindTurbineType3or4IEC_type" ),
-                CimPackage.eINSTANCE.getWindTurbineType3or4IEC_WindContQLimIEC(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getWindTurbineType3or4IEC_WindContQLimIEC(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -141,12 +165,19 @@ public class WindTurbineType3or4IECItemProvider extends WindTurbineType3or4Dynam
      * @generated
      */
     protected void addWIndContQIECPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindTurbineType3or4IEC_WIndContQIEC_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_WindTurbineType3or4IEC_WIndContQIEC_feature",
-                        "_UI_WindTurbineType3or4IEC_type" ),
-                CimPackage.eINSTANCE.getWindTurbineType3or4IEC_WIndContQIEC(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindTurbineType3or4IEC_WIndContQIEC_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_WindTurbineType3or4IEC_WIndContQIEC_feature", "_UI_WindTurbineType3or4IEC_type" ),
+                        CimPackage.eINSTANCE.getWindTurbineType3or4IEC_WIndContQIEC(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -157,11 +188,17 @@ public class WindTurbineType3or4IECItemProvider extends WindTurbineType3or4Dynam
      */
     protected void addWindContQPQULimIECPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindTurbineType3or4IEC_WindContQPQULimIEC_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_WindTurbineType3or4IEC_WindContQPQULimIEC_feature", "_UI_WindTurbineType3or4IEC_type" ),
-                CimPackage.eINSTANCE.getWindTurbineType3or4IEC_WindContQPQULimIEC(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getWindTurbineType3or4IEC_WindContQPQULimIEC(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -199,7 +236,6 @@ public class WindTurbineType3or4IECItemProvider extends WindTurbineType3or4Dynam
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

@@ -78,11 +78,17 @@ public class MeterMultiplierItemProvider extends IdentifiedObjectItemProvider {
     protected void addKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_MeterMultiplier_kind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_MeterMultiplier_kind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_MeterMultiplier_kind_feature",
                                 "_UI_MeterMultiplier_type" ),
-                        CimPackage.eINSTANCE.getMeterMultiplier_Kind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getMeterMultiplier_Kind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,11 +100,17 @@ public class MeterMultiplierItemProvider extends IdentifiedObjectItemProvider {
     protected void addValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_MeterMultiplier_value_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_MeterMultiplier_value_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_MeterMultiplier_value_feature",
                                 "_UI_MeterMultiplier_type" ),
-                        CimPackage.eINSTANCE.getMeterMultiplier_Value(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getMeterMultiplier_Value(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -110,10 +122,17 @@ public class MeterMultiplierItemProvider extends IdentifiedObjectItemProvider {
     protected void addMeterPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_MeterMultiplier_Meter_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_MeterMultiplier_Meter_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_MeterMultiplier_Meter_feature",
                                 "_UI_MeterMultiplier_type" ),
-                        CimPackage.eINSTANCE.getMeterMultiplier_Meter(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getMeterMultiplier_Meter(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

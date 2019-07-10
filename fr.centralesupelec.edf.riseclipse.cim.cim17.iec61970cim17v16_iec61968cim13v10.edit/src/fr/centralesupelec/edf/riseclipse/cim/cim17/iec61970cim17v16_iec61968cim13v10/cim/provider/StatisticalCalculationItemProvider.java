@@ -77,12 +77,18 @@ public class StatisticalCalculationItemProvider extends IdentifiedObjectItemProv
      */
     protected void addCalculationModePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_StatisticalCalculation_calculationMode_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_StatisticalCalculation_calculationMode_feature",
                         "_UI_StatisticalCalculation_type" ),
-                CimPackage.eINSTANCE.getStatisticalCalculation_CalculationMode(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getStatisticalCalculation_CalculationMode(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -93,12 +99,18 @@ public class StatisticalCalculationItemProvider extends IdentifiedObjectItemProv
      */
     protected void addCalculationTechniquePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_StatisticalCalculation_calculationTechnique_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_StatisticalCalculation_calculationTechnique_feature", "_UI_StatisticalCalculation_type" ),
-                CimPackage.eINSTANCE.getStatisticalCalculation_CalculationTechnique(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getStatisticalCalculation_CalculationTechnique(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -110,12 +122,18 @@ public class StatisticalCalculationItemProvider extends IdentifiedObjectItemProv
     protected void addCalculationMethodOrderPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_StatisticalCalculation_CalculationMethodOrder_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_StatisticalCalculation_CalculationMethodOrder_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_StatisticalCalculation_CalculationMethodOrder_feature",
                                 "_UI_StatisticalCalculation_type" ),
-                        CimPackage.eINSTANCE.getStatisticalCalculation_CalculationMethodOrder(), true, false, true,
-                        null, null, null ) );
+                        CimPackage.eINSTANCE.getStatisticalCalculation_CalculationMethodOrder(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

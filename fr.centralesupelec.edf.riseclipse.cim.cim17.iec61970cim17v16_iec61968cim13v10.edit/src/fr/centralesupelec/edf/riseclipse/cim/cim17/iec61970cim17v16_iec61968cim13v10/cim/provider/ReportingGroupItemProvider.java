@@ -75,12 +75,19 @@ public class ReportingGroupItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addReportingSuperGroupPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ReportingGroup_ReportingSuperGroup_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ReportingGroup_ReportingSuperGroup_feature",
-                        "_UI_ReportingGroup_type" ),
-                CimPackage.eINSTANCE.getReportingGroup_ReportingSuperGroup(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ReportingGroup_ReportingSuperGroup_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ReportingGroup_ReportingSuperGroup_feature", "_UI_ReportingGroup_type" ),
+                        CimPackage.eINSTANCE.getReportingGroup_ReportingSuperGroup(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -92,10 +99,17 @@ public class ReportingGroupItemProvider extends IdentifiedObjectItemProvider {
     protected void addBusNameMarkerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ReportingGroup_BusNameMarker_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ReportingGroup_BusNameMarker_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ReportingGroup_BusNameMarker_feature",
                                 "_UI_ReportingGroup_type" ),
-                        CimPackage.eINSTANCE.getReportingGroup_BusNameMarker(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getReportingGroup_BusNameMarker(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -107,10 +121,16 @@ public class ReportingGroupItemProvider extends IdentifiedObjectItemProvider {
     protected void addTopologicalNodePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ReportingGroup_TopologicalNode_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ReportingGroup_TopologicalNode_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ReportingGroup_TopologicalNode_feature",
                                 "_UI_ReportingGroup_type" ),
-                        CimPackage.eINSTANCE.getReportingGroup_TopologicalNode(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getReportingGroup_TopologicalNode(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -121,12 +141,19 @@ public class ReportingGroupItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addPowerSystemResourcePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ReportingGroup_PowerSystemResource_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ReportingGroup_PowerSystemResource_feature",
-                        "_UI_ReportingGroup_type" ),
-                CimPackage.eINSTANCE.getReportingGroup_PowerSystemResource(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ReportingGroup_PowerSystemResource_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ReportingGroup_PowerSystemResource_feature", "_UI_ReportingGroup_type" ),
+                        CimPackage.eINSTANCE.getReportingGroup_PowerSystemResource(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -163,7 +190,6 @@ public class ReportingGroupItemProvider extends IdentifiedObjectItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

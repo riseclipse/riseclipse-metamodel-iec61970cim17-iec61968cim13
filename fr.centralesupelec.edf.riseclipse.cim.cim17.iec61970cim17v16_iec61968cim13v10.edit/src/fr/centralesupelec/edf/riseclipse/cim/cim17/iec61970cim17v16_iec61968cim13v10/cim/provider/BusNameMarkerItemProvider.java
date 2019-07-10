@@ -79,11 +79,17 @@ public class BusNameMarkerItemProvider extends IdentifiedObjectItemProvider {
     protected void addPriorityPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_BusNameMarker_priority_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_BusNameMarker_priority_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_BusNameMarker_priority_feature",
                                 "_UI_BusNameMarker_type" ),
-                        CimPackage.eINSTANCE.getBusNameMarker_Priority(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getBusNameMarker_Priority(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,10 +101,16 @@ public class BusNameMarkerItemProvider extends IdentifiedObjectItemProvider {
     protected void addTopologicalNodePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_BusNameMarker_TopologicalNode_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_BusNameMarker_TopologicalNode_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_BusNameMarker_TopologicalNode_feature",
                                 "_UI_BusNameMarker_type" ),
-                        CimPackage.eINSTANCE.getBusNameMarker_TopologicalNode(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getBusNameMarker_TopologicalNode(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -111,10 +123,17 @@ public class BusNameMarkerItemProvider extends IdentifiedObjectItemProvider {
     protected void addReportingGroupPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_BusNameMarker_ReportingGroup_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_BusNameMarker_ReportingGroup_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_BusNameMarker_ReportingGroup_feature",
                                 "_UI_BusNameMarker_type" ),
-                        CimPackage.eINSTANCE.getBusNameMarker_ReportingGroup(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getBusNameMarker_ReportingGroup(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -126,10 +145,17 @@ public class BusNameMarkerItemProvider extends IdentifiedObjectItemProvider {
     protected void addTerminalPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_BusNameMarker_Terminal_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_BusNameMarker_Terminal_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_BusNameMarker_Terminal_feature",
                                 "_UI_BusNameMarker_type" ),
-                        CimPackage.eINSTANCE.getBusNameMarker_Terminal(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getBusNameMarker_Terminal(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

@@ -74,10 +74,17 @@ public class ChangeSetItemProvider extends DataSetItemProvider {
     protected void addChangeSetMemberPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ChangeSet_ChangeSetMember_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ChangeSet_ChangeSetMember_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ChangeSet_ChangeSetMember_feature",
                                 "_UI_ChangeSet_type" ),
-                        CimPackage.eINSTANCE.getChangeSet_ChangeSetMember(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getChangeSet_ChangeSetMember(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class ChangeSetItemProvider extends DataSetItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

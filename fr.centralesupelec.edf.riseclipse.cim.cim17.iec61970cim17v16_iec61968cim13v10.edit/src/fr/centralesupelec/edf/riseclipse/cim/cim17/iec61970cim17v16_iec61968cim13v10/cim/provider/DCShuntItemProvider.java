@@ -77,11 +77,17 @@ public class DCShuntItemProvider extends DCConductingEquipmentItemProvider {
     protected void addCapacitancePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DCShunt_capacitance_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DCShunt_capacitance_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DCShunt_capacitance_feature",
                                 "_UI_DCShunt_type" ),
-                        CimPackage.eINSTANCE.getDCShunt_Capacitance(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDCShunt_Capacitance(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,11 +99,17 @@ public class DCShuntItemProvider extends DCConductingEquipmentItemProvider {
     protected void addResistancePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DCShunt_resistance_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DCShunt_resistance_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DCShunt_resistance_feature",
                                 "_UI_DCShunt_type" ),
-                        CimPackage.eINSTANCE.getDCShunt_Resistance(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDCShunt_Resistance(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

@@ -77,11 +77,17 @@ public class HeatRecoveryBoilerItemProvider extends FossilSteamSupplyItemProvide
     protected void addSteamSupplyRating2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_HeatRecoveryBoiler_steamSupplyRating2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_HeatRecoveryBoiler_steamSupplyRating2_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_HeatRecoveryBoiler_steamSupplyRating2_feature", "_UI_HeatRecoveryBoiler_type" ),
-                        CimPackage.eINSTANCE.getHeatRecoveryBoiler_SteamSupplyRating2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getHeatRecoveryBoiler_SteamSupplyRating2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,10 +99,16 @@ public class HeatRecoveryBoilerItemProvider extends FossilSteamSupplyItemProvide
     protected void addCombustionTurbinesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_HeatRecoveryBoiler_CombustionTurbines_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_HeatRecoveryBoiler_CombustionTurbines_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_HeatRecoveryBoiler_CombustionTurbines_feature", "_UI_HeatRecoveryBoiler_type" ),
-                        CimPackage.eINSTANCE.getHeatRecoveryBoiler_CombustionTurbines(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getHeatRecoveryBoiler_CombustionTurbines(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 

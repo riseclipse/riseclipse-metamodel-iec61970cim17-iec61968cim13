@@ -85,11 +85,17 @@ public class DiagramObjectItemProvider extends IdentifiedObjectItemProvider {
     protected void addDrawingOrderPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiagramObject_drawingOrder_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiagramObject_drawingOrder_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiagramObject_drawingOrder_feature",
                                 "_UI_DiagramObject_type" ),
-                        CimPackage.eINSTANCE.getDiagramObject_DrawingOrder(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiagramObject_DrawingOrder(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -101,11 +107,17 @@ public class DiagramObjectItemProvider extends IdentifiedObjectItemProvider {
     protected void addIsPolygonPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiagramObject_isPolygon_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiagramObject_isPolygon_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiagramObject_isPolygon_feature",
                                 "_UI_DiagramObject_type" ),
-                        CimPackage.eINSTANCE.getDiagramObject_IsPolygon(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiagramObject_IsPolygon(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -117,11 +129,17 @@ public class DiagramObjectItemProvider extends IdentifiedObjectItemProvider {
     protected void addOffsetXPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiagramObject_offsetX_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiagramObject_offsetX_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiagramObject_offsetX_feature",
                                 "_UI_DiagramObject_type" ),
-                        CimPackage.eINSTANCE.getDiagramObject_OffsetX(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiagramObject_OffsetX(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -133,11 +151,17 @@ public class DiagramObjectItemProvider extends IdentifiedObjectItemProvider {
     protected void addOffsetYPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiagramObject_offsetY_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiagramObject_offsetY_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiagramObject_offsetY_feature",
                                 "_UI_DiagramObject_type" ),
-                        CimPackage.eINSTANCE.getDiagramObject_OffsetY(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiagramObject_OffsetY(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -149,11 +173,17 @@ public class DiagramObjectItemProvider extends IdentifiedObjectItemProvider {
     protected void addRotationPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiagramObject_rotation_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiagramObject_rotation_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiagramObject_rotation_feature",
                                 "_UI_DiagramObject_type" ),
-                        CimPackage.eINSTANCE.getDiagramObject_Rotation(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiagramObject_Rotation(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -165,10 +195,17 @@ public class DiagramObjectItemProvider extends IdentifiedObjectItemProvider {
     protected void addDiagramPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiagramObject_Diagram_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiagramObject_Diagram_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiagramObject_Diagram_feature",
                                 "_UI_DiagramObject_type" ),
-                        CimPackage.eINSTANCE.getDiagramObject_Diagram(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getDiagramObject_Diagram(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -180,10 +217,16 @@ public class DiagramObjectItemProvider extends IdentifiedObjectItemProvider {
     protected void addDiagramObjectStylePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiagramObject_DiagramObjectStyle_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiagramObject_DiagramObjectStyle_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiagramObject_DiagramObjectStyle_feature",
                                 "_UI_DiagramObject_type" ),
-                        CimPackage.eINSTANCE.getDiagramObject_DiagramObjectStyle(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getDiagramObject_DiagramObjectStyle(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -196,10 +239,16 @@ public class DiagramObjectItemProvider extends IdentifiedObjectItemProvider {
     protected void addIdentifiedObjectPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiagramObject_IdentifiedObject_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiagramObject_IdentifiedObject_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiagramObject_IdentifiedObject_feature",
                                 "_UI_DiagramObject_type" ),
-                        CimPackage.eINSTANCE.getDiagramObject_IdentifiedObject(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getDiagramObject_IdentifiedObject(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -210,12 +259,19 @@ public class DiagramObjectItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addDiagramObjectPointsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_DiagramObject_DiagramObjectPoints_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_DiagramObject_DiagramObjectPoints_feature",
-                        "_UI_DiagramObject_type" ),
-                CimPackage.eINSTANCE.getDiagramObject_DiagramObjectPoints(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_DiagramObject_DiagramObjectPoints_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_DiagramObject_DiagramObjectPoints_feature", "_UI_DiagramObject_type" ),
+                        CimPackage.eINSTANCE.getDiagramObject_DiagramObjectPoints(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -227,10 +283,16 @@ public class DiagramObjectItemProvider extends IdentifiedObjectItemProvider {
     protected void addVisibilityLayersPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiagramObject_VisibilityLayers_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiagramObject_VisibilityLayers_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiagramObject_VisibilityLayers_feature",
                                 "_UI_DiagramObject_type" ),
-                        CimPackage.eINSTANCE.getDiagramObject_VisibilityLayers(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getDiagramObject_VisibilityLayers(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 

@@ -74,12 +74,18 @@ public class GrossToNetActivePowerCurveItemProvider extends CurveItemProvider {
     protected void addGeneratingUnitPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GrossToNetActivePowerCurve_GeneratingUnit_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GrossToNetActivePowerCurve_GeneratingUnit_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_GrossToNetActivePowerCurve_GeneratingUnit_feature",
                                 "_UI_GrossToNetActivePowerCurve_type" ),
-                        CimPackage.eINSTANCE.getGrossToNetActivePowerCurve_GeneratingUnit(), true, false, true, null,
-                        null, null ) );
+                        CimPackage.eINSTANCE.getGrossToNetActivePowerCurve_GeneratingUnit(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -116,7 +122,6 @@ public class GrossToNetActivePowerCurveItemProvider extends CurveItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

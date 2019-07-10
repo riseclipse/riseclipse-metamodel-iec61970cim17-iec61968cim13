@@ -75,13 +75,19 @@ public class DCConductingEquipmentItemProvider extends EquipmentItemProvider {
      * @generated
      */
     protected void addRatedUdcPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_DCConductingEquipment_ratedUdc_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_DCConductingEquipment_ratedUdc_feature",
-                        "_UI_DCConductingEquipment_type" ),
-                CimPackage.eINSTANCE.getDCConductingEquipment_RatedUdc(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_DCConductingEquipment_ratedUdc_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_DCConductingEquipment_ratedUdc_feature",
+                                "_UI_DCConductingEquipment_type" ),
+                        CimPackage.eINSTANCE.getDCConductingEquipment_RatedUdc(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -91,12 +97,19 @@ public class DCConductingEquipmentItemProvider extends EquipmentItemProvider {
      * @generated
      */
     protected void addDCTerminalsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_DCConductingEquipment_DCTerminals_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_DCConductingEquipment_DCTerminals_feature",
-                        "_UI_DCConductingEquipment_type" ),
-                CimPackage.eINSTANCE.getDCConductingEquipment_DCTerminals(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_DCConductingEquipment_DCTerminals_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_DCConductingEquipment_DCTerminals_feature", "_UI_DCConductingEquipment_type" ),
+                        CimPackage.eINSTANCE.getDCConductingEquipment_DCTerminals(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

@@ -74,10 +74,17 @@ public class LoadDynamicsItemProvider extends IdentifiedObjectItemProvider {
     protected void addEnergyConsumerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadDynamics_EnergyConsumer_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadDynamics_EnergyConsumer_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadDynamics_EnergyConsumer_feature",
                                 "_UI_LoadDynamics_type" ),
-                        CimPackage.eINSTANCE.getLoadDynamics_EnergyConsumer(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getLoadDynamics_EnergyConsumer(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class LoadDynamicsItemProvider extends IdentifiedObjectItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

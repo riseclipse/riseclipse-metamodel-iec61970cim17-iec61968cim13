@@ -74,14 +74,20 @@ public class ControlAreaGeneratingUnitItemProvider extends IdentifiedObjectItemP
      * @generated
      */
     protected void addAltGeneratingUnitMeasPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ControlAreaGeneratingUnit_AltGeneratingUnitMeas_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_ControlAreaGeneratingUnit_AltGeneratingUnitMeas_feature",
-                        "_UI_ControlAreaGeneratingUnit_type" ),
-                CimPackage.eINSTANCE.getControlAreaGeneratingUnit_AltGeneratingUnitMeas(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ControlAreaGeneratingUnit_AltGeneratingUnitMeas_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ControlAreaGeneratingUnit_AltGeneratingUnitMeas_feature",
+                                "_UI_ControlAreaGeneratingUnit_type" ),
+                        CimPackage.eINSTANCE.getControlAreaGeneratingUnit_AltGeneratingUnitMeas(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -92,11 +98,17 @@ public class ControlAreaGeneratingUnitItemProvider extends IdentifiedObjectItemP
      */
     protected void addControlAreaPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ControlAreaGeneratingUnit_ControlArea_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ControlAreaGeneratingUnit_ControlArea_feature",
                         "_UI_ControlAreaGeneratingUnit_type" ),
-                CimPackage.eINSTANCE.getControlAreaGeneratingUnit_ControlArea(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getControlAreaGeneratingUnit_ControlArea(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -108,11 +120,17 @@ public class ControlAreaGeneratingUnitItemProvider extends IdentifiedObjectItemP
      */
     protected void addGeneratingUnitPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ControlAreaGeneratingUnit_GeneratingUnit_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ControlAreaGeneratingUnit_GeneratingUnit_feature",
                         "_UI_ControlAreaGeneratingUnit_type" ),
-                CimPackage.eINSTANCE.getControlAreaGeneratingUnit_GeneratingUnit(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getControlAreaGeneratingUnit_GeneratingUnit(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -150,7 +168,6 @@ public class ControlAreaGeneratingUnitItemProvider extends IdentifiedObjectItemP
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

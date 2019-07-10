@@ -74,10 +74,17 @@ public class AggregateScoreItemProvider extends AnalyticScoreItemProvider {
     protected void addAnalyticScorePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AggregateScore_AnalyticScore_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AggregateScore_AnalyticScore_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AggregateScore_AnalyticScore_feature",
                                 "_UI_AggregateScore_type" ),
-                        CimPackage.eINSTANCE.getAggregateScore_AnalyticScore(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAggregateScore_AnalyticScore(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class AggregateScoreItemProvider extends AnalyticScoreItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

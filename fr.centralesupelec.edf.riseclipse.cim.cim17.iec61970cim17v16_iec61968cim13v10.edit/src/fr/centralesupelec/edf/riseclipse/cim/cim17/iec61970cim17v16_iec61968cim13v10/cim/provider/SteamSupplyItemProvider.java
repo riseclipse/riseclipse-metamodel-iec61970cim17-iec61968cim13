@@ -77,11 +77,17 @@ public class SteamSupplyItemProvider extends PowerSystemResourceItemProvider {
     protected void addSteamSupplyRatingPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SteamSupply_steamSupplyRating_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SteamSupply_steamSupplyRating_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SteamSupply_steamSupplyRating_feature",
                                 "_UI_SteamSupply_type" ),
-                        CimPackage.eINSTANCE.getSteamSupply_SteamSupplyRating(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSteamSupply_SteamSupplyRating(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,10 +99,17 @@ public class SteamSupplyItemProvider extends PowerSystemResourceItemProvider {
     protected void addSteamTurbinesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SteamSupply_SteamTurbines_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SteamSupply_SteamTurbines_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SteamSupply_SteamTurbines_feature",
                                 "_UI_SteamSupply_type" ),
-                        CimPackage.eINSTANCE.getSteamSupply_SteamTurbines(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSteamSupply_SteamTurbines(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

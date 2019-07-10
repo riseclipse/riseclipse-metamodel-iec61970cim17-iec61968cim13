@@ -79,11 +79,17 @@ public class MechLoad1ItemProvider extends MechanicalLoadDynamicsItemProvider {
     protected void addAPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_MechLoad1_a_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_MechLoad1_a_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_MechLoad1_a_feature",
                                 "_UI_MechLoad1_type" ),
-                        CimPackage.eINSTANCE.getMechLoad1_A(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getMechLoad1_A(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,11 +101,17 @@ public class MechLoad1ItemProvider extends MechanicalLoadDynamicsItemProvider {
     protected void addBPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_MechLoad1_b_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_MechLoad1_b_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_MechLoad1_b_feature",
                                 "_UI_MechLoad1_type" ),
-                        CimPackage.eINSTANCE.getMechLoad1_B(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getMechLoad1_B(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,11 +123,17 @@ public class MechLoad1ItemProvider extends MechanicalLoadDynamicsItemProvider {
     protected void addDPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_MechLoad1_d_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_MechLoad1_d_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_MechLoad1_d_feature",
                                 "_UI_MechLoad1_type" ),
-                        CimPackage.eINSTANCE.getMechLoad1_D(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getMechLoad1_D(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -127,11 +145,17 @@ public class MechLoad1ItemProvider extends MechanicalLoadDynamicsItemProvider {
     protected void addEPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_MechLoad1_e_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_MechLoad1_e_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_MechLoad1_e_feature",
                                 "_UI_MechLoad1_type" ),
-                        CimPackage.eINSTANCE.getMechLoad1_E(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getMechLoad1_E(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

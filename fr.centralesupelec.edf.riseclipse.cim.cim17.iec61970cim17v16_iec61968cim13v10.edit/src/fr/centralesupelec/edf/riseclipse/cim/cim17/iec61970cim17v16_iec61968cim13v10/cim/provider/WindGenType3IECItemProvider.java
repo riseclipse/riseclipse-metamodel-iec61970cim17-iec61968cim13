@@ -79,11 +79,17 @@ public class WindGenType3IECItemProvider extends IdentifiedObjectItemProvider {
     protected void addDipmaxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindGenType3IEC_dipmax_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindGenType3IEC_dipmax_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindGenType3IEC_dipmax_feature",
                                 "_UI_WindGenType3IEC_type" ),
-                        CimPackage.eINSTANCE.getWindGenType3IEC_Dipmax(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindGenType3IEC_Dipmax(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,11 +101,17 @@ public class WindGenType3IECItemProvider extends IdentifiedObjectItemProvider {
     protected void addDiqmaxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindGenType3IEC_diqmax_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindGenType3IEC_diqmax_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindGenType3IEC_diqmax_feature",
                                 "_UI_WindGenType3IEC_type" ),
-                        CimPackage.eINSTANCE.getWindGenType3IEC_Diqmax(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindGenType3IEC_Diqmax(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,11 +123,17 @@ public class WindGenType3IECItemProvider extends IdentifiedObjectItemProvider {
     protected void addXsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindGenType3IEC_xs_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindGenType3IEC_xs_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindGenType3IEC_xs_feature",
                                 "_UI_WindGenType3IEC_type" ),
-                        CimPackage.eINSTANCE.getWindGenType3IEC_Xs(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindGenType3IEC_Xs(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -125,12 +143,19 @@ public class WindGenType3IECItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addWindTurbineType3IECPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindGenType3IEC_WindTurbineType3IEC_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_WindGenType3IEC_WindTurbineType3IEC_feature",
-                        "_UI_WindGenType3IEC_type" ),
-                CimPackage.eINSTANCE.getWindGenType3IEC_WindTurbineType3IEC(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindGenType3IEC_WindTurbineType3IEC_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_WindGenType3IEC_WindTurbineType3IEC_feature", "_UI_WindGenType3IEC_type" ),
+                        CimPackage.eINSTANCE.getWindGenType3IEC_WindTurbineType3IEC(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

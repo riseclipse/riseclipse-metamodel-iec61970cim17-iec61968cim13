@@ -82,11 +82,17 @@ public class ProcedureItemProvider extends DocumentItemProvider {
     protected void addInstructionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Procedure_instruction_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Procedure_instruction_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Procedure_instruction_feature",
                                 "_UI_Procedure_type" ),
-                        CimPackage.eINSTANCE.getProcedure_Instruction(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getProcedure_Instruction(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -98,11 +104,17 @@ public class ProcedureItemProvider extends DocumentItemProvider {
     protected void addKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Procedure_kind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Procedure_kind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Procedure_kind_feature",
                                 "_UI_Procedure_type" ),
-                        CimPackage.eINSTANCE.getProcedure_Kind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getProcedure_Kind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,11 +126,17 @@ public class ProcedureItemProvider extends DocumentItemProvider {
     protected void addSequenceNumberPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Procedure_sequenceNumber_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Procedure_sequenceNumber_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Procedure_sequenceNumber_feature",
                                 "_UI_Procedure_type" ),
-                        CimPackage.eINSTANCE.getProcedure_SequenceNumber(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getProcedure_SequenceNumber(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -130,10 +148,17 @@ public class ProcedureItemProvider extends DocumentItemProvider {
     protected void addAssetsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Procedure_Assets_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Procedure_Assets_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Procedure_Assets_feature",
                                 "_UI_Procedure_type" ),
-                        CimPackage.eINSTANCE.getProcedure_Assets(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getProcedure_Assets(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -145,10 +170,17 @@ public class ProcedureItemProvider extends DocumentItemProvider {
     protected void addLimitsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Procedure_Limits_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Procedure_Limits_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Procedure_Limits_feature",
                                 "_UI_Procedure_type" ),
-                        CimPackage.eINSTANCE.getProcedure_Limits(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getProcedure_Limits(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -160,10 +192,17 @@ public class ProcedureItemProvider extends DocumentItemProvider {
     protected void addMeasurementsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Procedure_Measurements_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Procedure_Measurements_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Procedure_Measurements_feature",
                                 "_UI_Procedure_type" ),
-                        CimPackage.eINSTANCE.getProcedure_Measurements(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getProcedure_Measurements(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -175,10 +214,17 @@ public class ProcedureItemProvider extends DocumentItemProvider {
     protected void addProcedureDataSetsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Procedure_ProcedureDataSets_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Procedure_ProcedureDataSets_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Procedure_ProcedureDataSets_feature",
                                 "_UI_Procedure_type" ),
-                        CimPackage.eINSTANCE.getProcedure_ProcedureDataSets(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getProcedure_ProcedureDataSets(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -249,8 +295,8 @@ public class ProcedureItemProvider extends DocumentItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

@@ -72,12 +72,19 @@ public class DiagramObjectStyleItemProvider extends IdentifiedObjectItemProvider
      * @generated
      */
     protected void addStyledObjectsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_DiagramObjectStyle_StyledObjects_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_DiagramObjectStyle_StyledObjects_feature",
-                        "_UI_DiagramObjectStyle_type" ),
-                CimPackage.eINSTANCE.getDiagramObjectStyle_StyledObjects(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_DiagramObjectStyle_StyledObjects_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_DiagramObjectStyle_StyledObjects_feature",
+                                "_UI_DiagramObjectStyle_type" ),
+                        CimPackage.eINSTANCE.getDiagramObjectStyle_StyledObjects(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class DiagramObjectStyleItemProvider extends IdentifiedObjectItemProvider
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

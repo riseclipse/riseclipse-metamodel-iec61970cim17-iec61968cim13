@@ -76,11 +76,17 @@ public class EarthFaultCompensatorItemProvider extends ConductingEquipmentItemPr
     protected void addRPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EarthFaultCompensator_r_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EarthFaultCompensator_r_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EarthFaultCompensator_r_feature",
                                 "_UI_EarthFaultCompensator_type" ),
-                        CimPackage.eINSTANCE.getEarthFaultCompensator_R(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEarthFaultCompensator_R(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

@@ -78,10 +78,17 @@ public class CashierItemProvider extends IdentifiedObjectItemProvider {
     protected void addCashierShiftsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Cashier_CashierShifts_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Cashier_CashierShifts_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Cashier_CashierShifts_feature",
                                 "_UI_Cashier_type" ),
-                        CimPackage.eINSTANCE.getCashier_CashierShifts(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCashier_CashierShifts(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

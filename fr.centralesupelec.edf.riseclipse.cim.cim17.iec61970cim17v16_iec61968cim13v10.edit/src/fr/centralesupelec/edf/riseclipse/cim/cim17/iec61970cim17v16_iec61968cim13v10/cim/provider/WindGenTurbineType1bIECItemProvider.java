@@ -74,12 +74,18 @@ public class WindGenTurbineType1bIECItemProvider extends WindTurbineType1or2IECI
     protected void addWindPitchContPowerIECPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindGenTurbineType1bIEC_WindPitchContPowerIEC_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindGenTurbineType1bIEC_WindPitchContPowerIEC_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_WindGenTurbineType1bIEC_WindPitchContPowerIEC_feature",
                                 "_UI_WindGenTurbineType1bIEC_type" ),
-                        CimPackage.eINSTANCE.getWindGenTurbineType1bIEC_WindPitchContPowerIEC(), true, false, true,
-                        null, null, null ) );
+                        CimPackage.eINSTANCE.getWindGenTurbineType1bIEC_WindPitchContPowerIEC(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -116,7 +122,6 @@ public class WindGenTurbineType1bIECItemProvider extends WindTurbineType1or2IECI
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

@@ -78,11 +78,17 @@ public class RemoteUnitItemProvider extends PowerSystemResourceItemProvider {
     protected void addRemoteUnitTypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RemoteUnit_remoteUnitType_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RemoteUnit_remoteUnitType_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RemoteUnit_remoteUnitType_feature",
                                 "_UI_RemoteUnit_type" ),
-                        CimPackage.eINSTANCE.getRemoteUnit_RemoteUnitType(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getRemoteUnit_RemoteUnitType(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,10 +100,16 @@ public class RemoteUnitItemProvider extends PowerSystemResourceItemProvider {
     protected void addCommunicationLinksPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RemoteUnit_CommunicationLinks_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RemoteUnit_CommunicationLinks_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RemoteUnit_CommunicationLinks_feature",
                                 "_UI_RemoteUnit_type" ),
-                        CimPackage.eINSTANCE.getRemoteUnit_CommunicationLinks(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getRemoteUnit_CommunicationLinks(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -110,10 +122,17 @@ public class RemoteUnitItemProvider extends PowerSystemResourceItemProvider {
     protected void addRemotePointsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RemoteUnit_RemotePoints_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RemoteUnit_RemotePoints_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RemoteUnit_RemotePoints_feature",
                                 "_UI_RemoteUnit_type" ),
-                        CimPackage.eINSTANCE.getRemoteUnit_RemotePoints(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getRemoteUnit_RemotePoints(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

@@ -77,12 +77,18 @@ public class OverexcitationLimiterUserDefinedItemProvider extends Overexcitation
     protected void addProprietaryPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OverexcitationLimiterUserDefined_proprietary_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OverexcitationLimiterUserDefined_proprietary_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_OverexcitationLimiterUserDefined_proprietary_feature",
                                 "_UI_OverexcitationLimiterUserDefined_type" ),
-                        CimPackage.eINSTANCE.getOverexcitationLimiterUserDefined_Proprietary(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOverexcitationLimiterUserDefined_Proprietary(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -92,14 +98,20 @@ public class OverexcitationLimiterUserDefinedItemProvider extends Overexcitation
      * @generated
      */
     protected void addProprietaryParameterDynamicsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_OverexcitationLimiterUserDefined_ProprietaryParameterDynamics_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_OverexcitationLimiterUserDefined_ProprietaryParameterDynamics_feature",
-                        "_UI_OverexcitationLimiterUserDefined_type" ),
-                CimPackage.eINSTANCE.getOverexcitationLimiterUserDefined_ProprietaryParameterDynamics(), true, false,
-                true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_OverexcitationLimiterUserDefined_ProprietaryParameterDynamics_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_OverexcitationLimiterUserDefined_ProprietaryParameterDynamics_feature",
+                                "_UI_OverexcitationLimiterUserDefined_type" ),
+                        CimPackage.eINSTANCE.getOverexcitationLimiterUserDefined_ProprietaryParameterDynamics(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

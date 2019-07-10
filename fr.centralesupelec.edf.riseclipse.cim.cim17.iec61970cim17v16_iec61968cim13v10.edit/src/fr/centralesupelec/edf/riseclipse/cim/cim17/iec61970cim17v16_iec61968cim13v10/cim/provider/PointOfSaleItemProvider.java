@@ -77,11 +77,17 @@ public class PointOfSaleItemProvider extends IdentifiedObjectItemProvider {
     protected void addLocationPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PointOfSale_location_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PointOfSale_location_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PointOfSale_location_feature",
                                 "_UI_PointOfSale_type" ),
-                        CimPackage.eINSTANCE.getPointOfSale_Location(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPointOfSale_Location(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,10 +99,17 @@ public class PointOfSaleItemProvider extends IdentifiedObjectItemProvider {
     protected void addCashierShiftsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PointOfSale_CashierShifts_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PointOfSale_CashierShifts_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PointOfSale_CashierShifts_feature",
                                 "_UI_PointOfSale_type" ),
-                        CimPackage.eINSTANCE.getPointOfSale_CashierShifts(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getPointOfSale_CashierShifts(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

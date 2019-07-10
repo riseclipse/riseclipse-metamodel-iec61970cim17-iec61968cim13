@@ -81,11 +81,17 @@ public class BayItemProvider extends EquipmentContainerItemProvider {
     protected void addBayEnergyMeasFlagPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Bay_bayEnergyMeasFlag_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Bay_bayEnergyMeasFlag_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Bay_bayEnergyMeasFlag_feature",
                                 "_UI_Bay_type" ),
-                        CimPackage.eINSTANCE.getBay_BayEnergyMeasFlag(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getBay_BayEnergyMeasFlag(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -97,11 +103,17 @@ public class BayItemProvider extends EquipmentContainerItemProvider {
     protected void addBayPowerMeasFlagPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Bay_bayPowerMeasFlag_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Bay_bayPowerMeasFlag_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Bay_bayPowerMeasFlag_feature",
                                 "_UI_Bay_type" ),
-                        CimPackage.eINSTANCE.getBay_BayPowerMeasFlag(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getBay_BayPowerMeasFlag(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -113,11 +125,17 @@ public class BayItemProvider extends EquipmentContainerItemProvider {
     protected void addBreakerConfigurationPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Bay_breakerConfiguration_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Bay_breakerConfiguration_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Bay_breakerConfiguration_feature",
                                 "_UI_Bay_type" ),
-                        CimPackage.eINSTANCE.getBay_BreakerConfiguration(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getBay_BreakerConfiguration(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -129,11 +147,17 @@ public class BayItemProvider extends EquipmentContainerItemProvider {
     protected void addBusBarConfigurationPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Bay_busBarConfiguration_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Bay_busBarConfiguration_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Bay_busBarConfiguration_feature",
                                 "_UI_Bay_type" ),
-                        CimPackage.eINSTANCE.getBay_BusBarConfiguration(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getBay_BusBarConfiguration(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -145,10 +169,17 @@ public class BayItemProvider extends EquipmentContainerItemProvider {
     protected void addVoltageLevelPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Bay_VoltageLevel_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Bay_VoltageLevel_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Bay_VoltageLevel_feature",
                                 "_UI_Bay_type" ),
-                        CimPackage.eINSTANCE.getBay_VoltageLevel(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getBay_VoltageLevel(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -160,9 +191,16 @@ public class BayItemProvider extends EquipmentContainerItemProvider {
     protected void addSubstationPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Bay_Substation_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Bay_Substation_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Bay_Substation_feature", "_UI_Bay_type" ),
-                        CimPackage.eINSTANCE.getBay_Substation(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getBay_Substation(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

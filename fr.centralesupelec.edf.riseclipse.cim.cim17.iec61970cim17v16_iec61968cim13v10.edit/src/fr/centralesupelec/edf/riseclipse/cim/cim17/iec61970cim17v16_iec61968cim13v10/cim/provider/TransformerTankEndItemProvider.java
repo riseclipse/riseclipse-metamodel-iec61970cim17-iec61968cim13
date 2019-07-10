@@ -77,11 +77,17 @@ public class TransformerTankEndItemProvider extends TransformerEndItemProvider {
     protected void addPhasesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TransformerTankEnd_phases_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerTankEnd_phases_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TransformerTankEnd_phases_feature",
                                 "_UI_TransformerTankEnd_type" ),
-                        CimPackage.eINSTANCE.getTransformerTankEnd_Phases(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTransformerTankEnd_Phases(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -91,12 +97,19 @@ public class TransformerTankEndItemProvider extends TransformerEndItemProvider {
      * @generated
      */
     protected void addTransformerTankPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TransformerTankEnd_TransformerTank_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TransformerTankEnd_TransformerTank_feature",
-                        "_UI_TransformerTankEnd_type" ),
-                CimPackage.eINSTANCE.getTransformerTankEnd_TransformerTank(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerTankEnd_TransformerTank_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_TransformerTankEnd_TransformerTank_feature", "_UI_TransformerTankEnd_type" ),
+                        CimPackage.eINSTANCE.getTransformerTankEnd_TransformerTank(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

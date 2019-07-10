@@ -73,14 +73,20 @@ public class OperationsSafetySupervisorItemProvider extends OperatorItemProvider
      * @generated
      */
     protected void addIssuedSafetyDocumentsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_OperationsSafetySupervisor_IssuedSafetyDocuments_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_OperationsSafetySupervisor_IssuedSafetyDocuments_feature",
-                        "_UI_OperationsSafetySupervisor_type" ),
-                CimPackage.eINSTANCE.getOperationsSafetySupervisor_IssuedSafetyDocuments(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_OperationsSafetySupervisor_IssuedSafetyDocuments_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_OperationsSafetySupervisor_IssuedSafetyDocuments_feature",
+                                "_UI_OperationsSafetySupervisor_type" ),
+                        CimPackage.eINSTANCE.getOperationsSafetySupervisor_IssuedSafetyDocuments(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -90,14 +96,20 @@ public class OperationsSafetySupervisorItemProvider extends OperatorItemProvider
      * @generated
      */
     protected void addReleasedSafetyDocumentsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_OperationsSafetySupervisor_ReleasedSafetyDocuments_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_OperationsSafetySupervisor_ReleasedSafetyDocuments_feature",
-                        "_UI_OperationsSafetySupervisor_type" ),
-                CimPackage.eINSTANCE.getOperationsSafetySupervisor_ReleasedSafetyDocuments(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_OperationsSafetySupervisor_ReleasedSafetyDocuments_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_OperationsSafetySupervisor_ReleasedSafetyDocuments_feature",
+                                "_UI_OperationsSafetySupervisor_type" ),
+                        CimPackage.eINSTANCE.getOperationsSafetySupervisor_ReleasedSafetyDocuments(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -134,7 +146,6 @@ public class OperationsSafetySupervisorItemProvider extends OperatorItemProvider
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

@@ -76,12 +76,18 @@ public class IncrementalHeatRateCurveItemProvider extends CurveItemProvider {
      */
     protected void addIsNetGrossPPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_IncrementalHeatRateCurve_isNetGrossP_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_IncrementalHeatRateCurve_isNetGrossP_feature",
                         "_UI_IncrementalHeatRateCurve_type" ),
-                CimPackage.eINSTANCE.getIncrementalHeatRateCurve_IsNetGrossP(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getIncrementalHeatRateCurve_IsNetGrossP(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -93,12 +99,18 @@ public class IncrementalHeatRateCurveItemProvider extends CurveItemProvider {
     protected void addThermalGeneratingUnitPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_IncrementalHeatRateCurve_ThermalGeneratingUnit_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_IncrementalHeatRateCurve_ThermalGeneratingUnit_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_IncrementalHeatRateCurve_ThermalGeneratingUnit_feature",
                                 "_UI_IncrementalHeatRateCurve_type" ),
-                        CimPackage.eINSTANCE.getIncrementalHeatRateCurve_ThermalGeneratingUnit(), true, false, true,
-                        null, null, null ) );
+                        CimPackage.eINSTANCE.getIncrementalHeatRateCurve_ThermalGeneratingUnit(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

@@ -97,11 +97,17 @@ public class ExcIEEEAC6AItemProvider extends ExcitationSystemDynamicsItemProvide
     protected void addKaPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcIEEEAC6A_ka_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcIEEEAC6A_ka_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcIEEEAC6A_ka_feature",
                                 "_UI_ExcIEEEAC6A_type" ),
-                        CimPackage.eINSTANCE.getExcIEEEAC6A_Ka(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcIEEEAC6A_Ka(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -113,11 +119,17 @@ public class ExcIEEEAC6AItemProvider extends ExcitationSystemDynamicsItemProvide
     protected void addKcPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcIEEEAC6A_kc_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcIEEEAC6A_kc_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcIEEEAC6A_kc_feature",
                                 "_UI_ExcIEEEAC6A_type" ),
-                        CimPackage.eINSTANCE.getExcIEEEAC6A_Kc(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcIEEEAC6A_Kc(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -129,11 +141,17 @@ public class ExcIEEEAC6AItemProvider extends ExcitationSystemDynamicsItemProvide
     protected void addKdPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcIEEEAC6A_kd_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcIEEEAC6A_kd_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcIEEEAC6A_kd_feature",
                                 "_UI_ExcIEEEAC6A_type" ),
-                        CimPackage.eINSTANCE.getExcIEEEAC6A_Kd(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcIEEEAC6A_Kd(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -145,11 +163,17 @@ public class ExcIEEEAC6AItemProvider extends ExcitationSystemDynamicsItemProvide
     protected void addKePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcIEEEAC6A_ke_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcIEEEAC6A_ke_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcIEEEAC6A_ke_feature",
                                 "_UI_ExcIEEEAC6A_type" ),
-                        CimPackage.eINSTANCE.getExcIEEEAC6A_Ke(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcIEEEAC6A_Ke(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -161,11 +185,17 @@ public class ExcIEEEAC6AItemProvider extends ExcitationSystemDynamicsItemProvide
     protected void addKhPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcIEEEAC6A_kh_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcIEEEAC6A_kh_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcIEEEAC6A_kh_feature",
                                 "_UI_ExcIEEEAC6A_type" ),
-                        CimPackage.eINSTANCE.getExcIEEEAC6A_Kh(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcIEEEAC6A_Kh(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -177,11 +207,17 @@ public class ExcIEEEAC6AItemProvider extends ExcitationSystemDynamicsItemProvide
     protected void addSeve1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcIEEEAC6A_seve1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcIEEEAC6A_seve1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcIEEEAC6A_seve1_feature",
                                 "_UI_ExcIEEEAC6A_type" ),
-                        CimPackage.eINSTANCE.getExcIEEEAC6A_Seve1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcIEEEAC6A_Seve1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -193,11 +229,17 @@ public class ExcIEEEAC6AItemProvider extends ExcitationSystemDynamicsItemProvide
     protected void addSeve2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcIEEEAC6A_seve2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcIEEEAC6A_seve2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcIEEEAC6A_seve2_feature",
                                 "_UI_ExcIEEEAC6A_type" ),
-                        CimPackage.eINSTANCE.getExcIEEEAC6A_Seve2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcIEEEAC6A_Seve2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -209,11 +251,17 @@ public class ExcIEEEAC6AItemProvider extends ExcitationSystemDynamicsItemProvide
     protected void addTaPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcIEEEAC6A_ta_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcIEEEAC6A_ta_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcIEEEAC6A_ta_feature",
                                 "_UI_ExcIEEEAC6A_type" ),
-                        CimPackage.eINSTANCE.getExcIEEEAC6A_Ta(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcIEEEAC6A_Ta(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -225,11 +273,17 @@ public class ExcIEEEAC6AItemProvider extends ExcitationSystemDynamicsItemProvide
     protected void addTbPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcIEEEAC6A_tb_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcIEEEAC6A_tb_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcIEEEAC6A_tb_feature",
                                 "_UI_ExcIEEEAC6A_type" ),
-                        CimPackage.eINSTANCE.getExcIEEEAC6A_Tb(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcIEEEAC6A_Tb(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -241,11 +295,17 @@ public class ExcIEEEAC6AItemProvider extends ExcitationSystemDynamicsItemProvide
     protected void addTcPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcIEEEAC6A_tc_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcIEEEAC6A_tc_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcIEEEAC6A_tc_feature",
                                 "_UI_ExcIEEEAC6A_type" ),
-                        CimPackage.eINSTANCE.getExcIEEEAC6A_Tc(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcIEEEAC6A_Tc(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -257,11 +317,17 @@ public class ExcIEEEAC6AItemProvider extends ExcitationSystemDynamicsItemProvide
     protected void addTePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcIEEEAC6A_te_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcIEEEAC6A_te_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcIEEEAC6A_te_feature",
                                 "_UI_ExcIEEEAC6A_type" ),
-                        CimPackage.eINSTANCE.getExcIEEEAC6A_Te(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcIEEEAC6A_Te(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -273,11 +339,17 @@ public class ExcIEEEAC6AItemProvider extends ExcitationSystemDynamicsItemProvide
     protected void addThPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcIEEEAC6A_th_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcIEEEAC6A_th_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcIEEEAC6A_th_feature",
                                 "_UI_ExcIEEEAC6A_type" ),
-                        CimPackage.eINSTANCE.getExcIEEEAC6A_Th(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcIEEEAC6A_Th(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -289,11 +361,17 @@ public class ExcIEEEAC6AItemProvider extends ExcitationSystemDynamicsItemProvide
     protected void addTjPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcIEEEAC6A_tj_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcIEEEAC6A_tj_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcIEEEAC6A_tj_feature",
                                 "_UI_ExcIEEEAC6A_type" ),
-                        CimPackage.eINSTANCE.getExcIEEEAC6A_Tj(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcIEEEAC6A_Tj(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -305,11 +383,17 @@ public class ExcIEEEAC6AItemProvider extends ExcitationSystemDynamicsItemProvide
     protected void addTkPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcIEEEAC6A_tk_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcIEEEAC6A_tk_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcIEEEAC6A_tk_feature",
                                 "_UI_ExcIEEEAC6A_type" ),
-                        CimPackage.eINSTANCE.getExcIEEEAC6A_Tk(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcIEEEAC6A_Tk(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -321,11 +405,17 @@ public class ExcIEEEAC6AItemProvider extends ExcitationSystemDynamicsItemProvide
     protected void addVamaxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcIEEEAC6A_vamax_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcIEEEAC6A_vamax_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcIEEEAC6A_vamax_feature",
                                 "_UI_ExcIEEEAC6A_type" ),
-                        CimPackage.eINSTANCE.getExcIEEEAC6A_Vamax(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcIEEEAC6A_Vamax(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -337,11 +427,17 @@ public class ExcIEEEAC6AItemProvider extends ExcitationSystemDynamicsItemProvide
     protected void addVaminPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcIEEEAC6A_vamin_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcIEEEAC6A_vamin_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcIEEEAC6A_vamin_feature",
                                 "_UI_ExcIEEEAC6A_type" ),
-                        CimPackage.eINSTANCE.getExcIEEEAC6A_Vamin(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcIEEEAC6A_Vamin(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -353,11 +449,17 @@ public class ExcIEEEAC6AItemProvider extends ExcitationSystemDynamicsItemProvide
     protected void addVe1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcIEEEAC6A_ve1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcIEEEAC6A_ve1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcIEEEAC6A_ve1_feature",
                                 "_UI_ExcIEEEAC6A_type" ),
-                        CimPackage.eINSTANCE.getExcIEEEAC6A_Ve1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcIEEEAC6A_Ve1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -369,11 +471,17 @@ public class ExcIEEEAC6AItemProvider extends ExcitationSystemDynamicsItemProvide
     protected void addVe2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcIEEEAC6A_ve2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcIEEEAC6A_ve2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcIEEEAC6A_ve2_feature",
                                 "_UI_ExcIEEEAC6A_type" ),
-                        CimPackage.eINSTANCE.getExcIEEEAC6A_Ve2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcIEEEAC6A_Ve2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -385,11 +493,17 @@ public class ExcIEEEAC6AItemProvider extends ExcitationSystemDynamicsItemProvide
     protected void addVfelimPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcIEEEAC6A_vfelim_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcIEEEAC6A_vfelim_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcIEEEAC6A_vfelim_feature",
                                 "_UI_ExcIEEEAC6A_type" ),
-                        CimPackage.eINSTANCE.getExcIEEEAC6A_Vfelim(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcIEEEAC6A_Vfelim(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -401,11 +515,17 @@ public class ExcIEEEAC6AItemProvider extends ExcitationSystemDynamicsItemProvide
     protected void addVhmaxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcIEEEAC6A_vhmax_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcIEEEAC6A_vhmax_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcIEEEAC6A_vhmax_feature",
                                 "_UI_ExcIEEEAC6A_type" ),
-                        CimPackage.eINSTANCE.getExcIEEEAC6A_Vhmax(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcIEEEAC6A_Vhmax(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -417,11 +537,17 @@ public class ExcIEEEAC6AItemProvider extends ExcitationSystemDynamicsItemProvide
     protected void addVrmaxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcIEEEAC6A_vrmax_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcIEEEAC6A_vrmax_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcIEEEAC6A_vrmax_feature",
                                 "_UI_ExcIEEEAC6A_type" ),
-                        CimPackage.eINSTANCE.getExcIEEEAC6A_Vrmax(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcIEEEAC6A_Vrmax(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -433,11 +559,17 @@ public class ExcIEEEAC6AItemProvider extends ExcitationSystemDynamicsItemProvide
     protected void addVrminPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcIEEEAC6A_vrmin_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcIEEEAC6A_vrmin_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcIEEEAC6A_vrmin_feature",
                                 "_UI_ExcIEEEAC6A_type" ),
-                        CimPackage.eINSTANCE.getExcIEEEAC6A_Vrmin(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcIEEEAC6A_Vrmin(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

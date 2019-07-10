@@ -77,11 +77,17 @@ public class CombinedCyclePlantItemProvider extends PowerSystemResourceItemProvi
     protected void addCombCyclePlantRatingPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CombinedCyclePlant_combCyclePlantRating_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CombinedCyclePlant_combCyclePlantRating_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_CombinedCyclePlant_combCyclePlantRating_feature", "_UI_CombinedCyclePlant_type" ),
-                        CimPackage.eINSTANCE.getCombinedCyclePlant_CombCyclePlantRating(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCombinedCyclePlant_CombCyclePlantRating(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -92,11 +98,17 @@ public class CombinedCyclePlantItemProvider extends PowerSystemResourceItemProvi
      */
     protected void addThermalGeneratingUnitsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_CombinedCyclePlant_ThermalGeneratingUnits_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_CombinedCyclePlant_ThermalGeneratingUnits_feature", "_UI_CombinedCyclePlant_type" ),
-                CimPackage.eINSTANCE.getCombinedCyclePlant_ThermalGeneratingUnits(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getCombinedCyclePlant_ThermalGeneratingUnits(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 

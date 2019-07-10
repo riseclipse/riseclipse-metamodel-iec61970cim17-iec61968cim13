@@ -74,11 +74,17 @@ public class FieldSafetySupervisorItemProvider extends CrewMemberItemProvider {
      */
     protected void addIssuedSafetyDocumentsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_FieldSafetySupervisor_IssuedSafetyDocuments_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_FieldSafetySupervisor_IssuedSafetyDocuments_feature", "_UI_FieldSafetySupervisor_type" ),
-                CimPackage.eINSTANCE.getFieldSafetySupervisor_IssuedSafetyDocuments(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getFieldSafetySupervisor_IssuedSafetyDocuments(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -90,11 +96,17 @@ public class FieldSafetySupervisorItemProvider extends CrewMemberItemProvider {
      */
     protected void addReleasedSafetyDocumentsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_FieldSafetySupervisor_ReleasedSafetyDocuments_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_FieldSafetySupervisor_ReleasedSafetyDocuments_feature", "_UI_FieldSafetySupervisor_type" ),
-                CimPackage.eINSTANCE.getFieldSafetySupervisor_ReleasedSafetyDocuments(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getFieldSafetySupervisor_ReleasedSafetyDocuments(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -132,7 +144,6 @@ public class FieldSafetySupervisorItemProvider extends CrewMemberItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

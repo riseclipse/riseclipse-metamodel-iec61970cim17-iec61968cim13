@@ -77,11 +77,17 @@ public class TransformerTestItemProvider extends IdentifiedObjectItemProvider {
     protected void addBasePowerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TransformerTest_basePower_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerTest_basePower_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TransformerTest_basePower_feature",
                                 "_UI_TransformerTest_type" ),
-                        CimPackage.eINSTANCE.getTransformerTest_BasePower(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTransformerTest_BasePower(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,11 +99,17 @@ public class TransformerTestItemProvider extends IdentifiedObjectItemProvider {
     protected void addTemperaturePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TransformerTest_temperature_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerTest_temperature_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TransformerTest_temperature_feature",
                                 "_UI_TransformerTest_type" ),
-                        CimPackage.eINSTANCE.getTransformerTest_Temperature(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTransformerTest_Temperature(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

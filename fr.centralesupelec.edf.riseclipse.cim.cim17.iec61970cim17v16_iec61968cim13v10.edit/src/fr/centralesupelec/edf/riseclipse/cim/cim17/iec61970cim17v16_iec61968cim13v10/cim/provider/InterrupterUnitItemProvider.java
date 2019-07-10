@@ -72,12 +72,19 @@ public class InterrupterUnitItemProvider extends AssetItemProvider {
      * @generated
      */
     protected void addOperatingMechanismPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_InterrupterUnit_OperatingMechanism_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_InterrupterUnit_OperatingMechanism_feature",
-                        "_UI_InterrupterUnit_type" ),
-                CimPackage.eINSTANCE.getInterrupterUnit_OperatingMechanism(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_InterrupterUnit_OperatingMechanism_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_InterrupterUnit_OperatingMechanism_feature", "_UI_InterrupterUnit_type" ),
+                        CimPackage.eINSTANCE.getInterrupterUnit_OperatingMechanism(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class InterrupterUnitItemProvider extends AssetItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

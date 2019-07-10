@@ -79,11 +79,17 @@ public class SwitchActionItemProvider extends SwitchingStepItemProvider {
     protected void addKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SwitchAction_kind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchAction_kind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SwitchAction_kind_feature",
                                 "_UI_SwitchAction_type" ),
-                        CimPackage.eINSTANCE.getSwitchAction_Kind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSwitchAction_Kind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,10 +101,17 @@ public class SwitchActionItemProvider extends SwitchingStepItemProvider {
     protected void addOperatedSwitchPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SwitchAction_OperatedSwitch_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchAction_OperatedSwitch_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SwitchAction_OperatedSwitch_feature",
                                 "_UI_SwitchAction_type" ),
-                        CimPackage.eINSTANCE.getSwitchAction_OperatedSwitch(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSwitchAction_OperatedSwitch(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -110,10 +123,16 @@ public class SwitchActionItemProvider extends SwitchingStepItemProvider {
     protected void addSwitchingStepGroupPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SwitchAction_SwitchingStepGroup_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchAction_SwitchingStepGroup_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SwitchAction_SwitchingStepGroup_feature",
                                 "_UI_SwitchAction_type" ),
-                        CimPackage.eINSTANCE.getSwitchAction_SwitchingStepGroup(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getSwitchAction_SwitchingStepGroup(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -126,10 +145,17 @@ public class SwitchActionItemProvider extends SwitchingStepItemProvider {
     protected void addPlannedOutagePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SwitchAction_PlannedOutage_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchAction_PlannedOutage_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SwitchAction_PlannedOutage_feature",
                                 "_UI_SwitchAction_type" ),
-                        CimPackage.eINSTANCE.getSwitchAction_PlannedOutage(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSwitchAction_PlannedOutage(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

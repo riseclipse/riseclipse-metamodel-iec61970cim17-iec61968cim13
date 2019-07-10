@@ -75,10 +75,16 @@ public class RegulationScheduleItemProvider extends SeasonDayTypeScheduleItemPro
     protected void addVoltageControlZonesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RegulationSchedule_VoltageControlZones_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RegulationSchedule_VoltageControlZones_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_RegulationSchedule_VoltageControlZones_feature", "_UI_RegulationSchedule_type" ),
-                        CimPackage.eINSTANCE.getRegulationSchedule_VoltageControlZones(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getRegulationSchedule_VoltageControlZones(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -89,12 +95,19 @@ public class RegulationScheduleItemProvider extends SeasonDayTypeScheduleItemPro
      * @generated
      */
     protected void addRegulatingControlPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_RegulationSchedule_RegulatingControl_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_RegulationSchedule_RegulatingControl_feature",
-                        "_UI_RegulationSchedule_type" ),
-                CimPackage.eINSTANCE.getRegulationSchedule_RegulatingControl(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_RegulationSchedule_RegulatingControl_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_RegulationSchedule_RegulatingControl_feature", "_UI_RegulationSchedule_type" ),
+                        CimPackage.eINSTANCE.getRegulationSchedule_RegulatingControl(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -131,7 +144,6 @@ public class RegulationScheduleItemProvider extends SeasonDayTypeScheduleItemPro
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

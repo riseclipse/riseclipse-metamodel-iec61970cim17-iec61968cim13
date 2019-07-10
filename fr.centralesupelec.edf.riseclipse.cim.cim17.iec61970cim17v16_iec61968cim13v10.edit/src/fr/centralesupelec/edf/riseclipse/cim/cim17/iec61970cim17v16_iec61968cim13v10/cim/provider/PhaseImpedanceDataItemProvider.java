@@ -82,11 +82,17 @@ public class PhaseImpedanceDataItemProvider extends CimObjectWithIDItemProvider 
     protected void addBPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PhaseImpedanceData_b_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PhaseImpedanceData_b_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PhaseImpedanceData_b_feature",
                                 "_UI_PhaseImpedanceData_type" ),
-                        CimPackage.eINSTANCE.getPhaseImpedanceData_B(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPhaseImpedanceData_B(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -98,11 +104,17 @@ public class PhaseImpedanceDataItemProvider extends CimObjectWithIDItemProvider 
     protected void addFromPhasePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PhaseImpedanceData_fromPhase_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PhaseImpedanceData_fromPhase_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PhaseImpedanceData_fromPhase_feature",
                                 "_UI_PhaseImpedanceData_type" ),
-                        CimPackage.eINSTANCE.getPhaseImpedanceData_FromPhase(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPhaseImpedanceData_FromPhase(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,11 +126,17 @@ public class PhaseImpedanceDataItemProvider extends CimObjectWithIDItemProvider 
     protected void addGPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PhaseImpedanceData_g_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PhaseImpedanceData_g_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PhaseImpedanceData_g_feature",
                                 "_UI_PhaseImpedanceData_type" ),
-                        CimPackage.eINSTANCE.getPhaseImpedanceData_G(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPhaseImpedanceData_G(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -130,11 +148,17 @@ public class PhaseImpedanceDataItemProvider extends CimObjectWithIDItemProvider 
     protected void addRPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PhaseImpedanceData_r_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PhaseImpedanceData_r_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PhaseImpedanceData_r_feature",
                                 "_UI_PhaseImpedanceData_type" ),
-                        CimPackage.eINSTANCE.getPhaseImpedanceData_R(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPhaseImpedanceData_R(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -146,11 +170,17 @@ public class PhaseImpedanceDataItemProvider extends CimObjectWithIDItemProvider 
     protected void addToPhasePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PhaseImpedanceData_toPhase_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PhaseImpedanceData_toPhase_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PhaseImpedanceData_toPhase_feature",
                                 "_UI_PhaseImpedanceData_type" ),
-                        CimPackage.eINSTANCE.getPhaseImpedanceData_ToPhase(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPhaseImpedanceData_ToPhase(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -162,11 +192,17 @@ public class PhaseImpedanceDataItemProvider extends CimObjectWithIDItemProvider 
     protected void addXPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PhaseImpedanceData_x_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PhaseImpedanceData_x_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PhaseImpedanceData_x_feature",
                                 "_UI_PhaseImpedanceData_type" ),
-                        CimPackage.eINSTANCE.getPhaseImpedanceData_X(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPhaseImpedanceData_X(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -176,12 +212,19 @@ public class PhaseImpedanceDataItemProvider extends CimObjectWithIDItemProvider 
      * @generated
      */
     protected void addPhaseImpedancePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PhaseImpedanceData_PhaseImpedance_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PhaseImpedanceData_PhaseImpedance_feature",
-                        "_UI_PhaseImpedanceData_type" ),
-                CimPackage.eINSTANCE.getPhaseImpedanceData_PhaseImpedance(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PhaseImpedanceData_PhaseImpedance_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PhaseImpedanceData_PhaseImpedance_feature", "_UI_PhaseImpedanceData_type" ),
+                        CimPackage.eINSTANCE.getPhaseImpedanceData_PhaseImpedance(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

@@ -75,10 +75,16 @@ public class WireAssemblyInfoItemProvider extends AssetInfoItemProvider {
     protected void addWirePhaseInfoPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireAssemblyInfo_WirePhaseInfo_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireAssemblyInfo_WirePhaseInfo_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireAssemblyInfo_WirePhaseInfo_feature",
                                 "_UI_WireAssemblyInfo_type" ),
-                        CimPackage.eINSTANCE.getWireAssemblyInfo_WirePhaseInfo(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getWireAssemblyInfo_WirePhaseInfo(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -91,11 +97,17 @@ public class WireAssemblyInfoItemProvider extends AssetInfoItemProvider {
     protected void addPerLengthLineParameterPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireAssemblyInfo_PerLengthLineParameter_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireAssemblyInfo_PerLengthLineParameter_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_WireAssemblyInfo_PerLengthLineParameter_feature", "_UI_WireAssemblyInfo_type" ),
-                        CimPackage.eINSTANCE.getWireAssemblyInfo_PerLengthLineParameter(), true, false, true, null,
-                        null, null ) );
+                        CimPackage.eINSTANCE.getWireAssemblyInfo_PerLengthLineParameter(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -132,7 +144,6 @@ public class WireAssemblyInfoItemProvider extends AssetInfoItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

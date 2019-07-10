@@ -83,13 +83,19 @@ public class WindPitchContPowerIECItemProvider extends IdentifiedObjectItemProvi
      * @generated
      */
     protected void addDpmaxPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindPitchContPowerIEC_dpmax_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_WindPitchContPowerIEC_dpmax_feature",
-                        "_UI_WindPitchContPowerIEC_type" ),
-                CimPackage.eINSTANCE.getWindPitchContPowerIEC_Dpmax(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindPitchContPowerIEC_dpmax_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_WindPitchContPowerIEC_dpmax_feature",
+                                "_UI_WindPitchContPowerIEC_type" ),
+                        CimPackage.eINSTANCE.getWindPitchContPowerIEC_Dpmax(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -99,13 +105,19 @@ public class WindPitchContPowerIECItemProvider extends IdentifiedObjectItemProvi
      * @generated
      */
     protected void addDpminPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindPitchContPowerIEC_dpmin_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_WindPitchContPowerIEC_dpmin_feature",
-                        "_UI_WindPitchContPowerIEC_type" ),
-                CimPackage.eINSTANCE.getWindPitchContPowerIEC_Dpmin(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindPitchContPowerIEC_dpmin_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_WindPitchContPowerIEC_dpmin_feature",
+                                "_UI_WindPitchContPowerIEC_type" ),
+                        CimPackage.eINSTANCE.getWindPitchContPowerIEC_Dpmin(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -115,13 +127,19 @@ public class WindPitchContPowerIECItemProvider extends IdentifiedObjectItemProvi
      * @generated
      */
     protected void addPminPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindPitchContPowerIEC_pmin_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_WindPitchContPowerIEC_pmin_feature",
-                        "_UI_WindPitchContPowerIEC_type" ),
-                CimPackage.eINSTANCE.getWindPitchContPowerIEC_Pmin(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindPitchContPowerIEC_pmin_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_WindPitchContPowerIEC_pmin_feature",
+                                "_UI_WindPitchContPowerIEC_type" ),
+                        CimPackage.eINSTANCE.getWindPitchContPowerIEC_Pmin(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -131,13 +149,19 @@ public class WindPitchContPowerIECItemProvider extends IdentifiedObjectItemProvi
      * @generated
      */
     protected void addPsetPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindPitchContPowerIEC_pset_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_WindPitchContPowerIEC_pset_feature",
-                        "_UI_WindPitchContPowerIEC_type" ),
-                CimPackage.eINSTANCE.getWindPitchContPowerIEC_Pset(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindPitchContPowerIEC_pset_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_WindPitchContPowerIEC_pset_feature",
+                                "_UI_WindPitchContPowerIEC_type" ),
+                        CimPackage.eINSTANCE.getWindPitchContPowerIEC_Pset(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -149,11 +173,17 @@ public class WindPitchContPowerIECItemProvider extends IdentifiedObjectItemProvi
     protected void addT1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindPitchContPowerIEC_t1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindPitchContPowerIEC_t1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindPitchContPowerIEC_t1_feature",
                                 "_UI_WindPitchContPowerIEC_type" ),
-                        CimPackage.eINSTANCE.getWindPitchContPowerIEC_T1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindPitchContPowerIEC_T1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -165,11 +195,17 @@ public class WindPitchContPowerIECItemProvider extends IdentifiedObjectItemProvi
     protected void addTrPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindPitchContPowerIEC_tr_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindPitchContPowerIEC_tr_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindPitchContPowerIEC_tr_feature",
                                 "_UI_WindPitchContPowerIEC_type" ),
-                        CimPackage.eINSTANCE.getWindPitchContPowerIEC_Tr(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindPitchContPowerIEC_Tr(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -179,13 +215,19 @@ public class WindPitchContPowerIECItemProvider extends IdentifiedObjectItemProvi
      * @generated
      */
     protected void addUuvrtPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindPitchContPowerIEC_uuvrt_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_WindPitchContPowerIEC_uuvrt_feature",
-                        "_UI_WindPitchContPowerIEC_type" ),
-                CimPackage.eINSTANCE.getWindPitchContPowerIEC_Uuvrt(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindPitchContPowerIEC_uuvrt_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_WindPitchContPowerIEC_uuvrt_feature",
+                                "_UI_WindPitchContPowerIEC_type" ),
+                        CimPackage.eINSTANCE.getWindPitchContPowerIEC_Uuvrt(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -196,11 +238,17 @@ public class WindPitchContPowerIECItemProvider extends IdentifiedObjectItemProvi
      */
     protected void addWindDynamicsLookupTablePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindPitchContPowerIEC_WindDynamicsLookupTable_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_WindPitchContPowerIEC_WindDynamicsLookupTable_feature", "_UI_WindPitchContPowerIEC_type" ),
-                CimPackage.eINSTANCE.getWindPitchContPowerIEC_WindDynamicsLookupTable(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getWindPitchContPowerIEC_WindDynamicsLookupTable(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -212,11 +260,17 @@ public class WindPitchContPowerIECItemProvider extends IdentifiedObjectItemProvi
      */
     protected void addWindGenTurbineType2IECPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindPitchContPowerIEC_WindGenTurbineType2IEC_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_WindPitchContPowerIEC_WindGenTurbineType2IEC_feature", "_UI_WindPitchContPowerIEC_type" ),
-                CimPackage.eINSTANCE.getWindPitchContPowerIEC_WindGenTurbineType2IEC(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getWindPitchContPowerIEC_WindGenTurbineType2IEC(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -228,11 +282,17 @@ public class WindPitchContPowerIECItemProvider extends IdentifiedObjectItemProvi
      */
     protected void addWindGenTurbineType1bIECPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindPitchContPowerIEC_WindGenTurbineType1bIEC_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_WindPitchContPowerIEC_WindGenTurbineType1bIEC_feature", "_UI_WindPitchContPowerIEC_type" ),
-                CimPackage.eINSTANCE.getWindPitchContPowerIEC_WindGenTurbineType1bIEC(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getWindPitchContPowerIEC_WindGenTurbineType1bIEC(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 

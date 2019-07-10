@@ -81,12 +81,18 @@ public class FuelAllocationScheduleItemProvider extends CurveItemProvider {
      */
     protected void addFuelAllocationEndDatePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_FuelAllocationSchedule_fuelAllocationEndDate_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_FuelAllocationSchedule_fuelAllocationEndDate_feature", "_UI_FuelAllocationSchedule_type" ),
-                CimPackage.eINSTANCE.getFuelAllocationSchedule_FuelAllocationEndDate(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getFuelAllocationSchedule_FuelAllocationEndDate(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -98,12 +104,18 @@ public class FuelAllocationScheduleItemProvider extends CurveItemProvider {
     protected void addFuelAllocationStartDatePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FuelAllocationSchedule_fuelAllocationStartDate_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FuelAllocationSchedule_fuelAllocationStartDate_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_FuelAllocationSchedule_fuelAllocationStartDate_feature",
                                 "_UI_FuelAllocationSchedule_type" ),
-                        CimPackage.eINSTANCE.getFuelAllocationSchedule_FuelAllocationStartDate(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFuelAllocationSchedule_FuelAllocationStartDate(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -113,13 +125,19 @@ public class FuelAllocationScheduleItemProvider extends CurveItemProvider {
      * @generated
      */
     protected void addFuelTypePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_FuelAllocationSchedule_fuelType_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_FuelAllocationSchedule_fuelType_feature",
-                        "_UI_FuelAllocationSchedule_type" ),
-                CimPackage.eINSTANCE.getFuelAllocationSchedule_FuelType(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_FuelAllocationSchedule_fuelType_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_FuelAllocationSchedule_fuelType_feature",
+                                "_UI_FuelAllocationSchedule_type" ),
+                        CimPackage.eINSTANCE.getFuelAllocationSchedule_FuelType(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -130,12 +148,18 @@ public class FuelAllocationScheduleItemProvider extends CurveItemProvider {
      */
     protected void addMaxFuelAllocationPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_FuelAllocationSchedule_maxFuelAllocation_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_FuelAllocationSchedule_maxFuelAllocation_feature",
                         "_UI_FuelAllocationSchedule_type" ),
-                CimPackage.eINSTANCE.getFuelAllocationSchedule_MaxFuelAllocation(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getFuelAllocationSchedule_MaxFuelAllocation(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -146,12 +170,18 @@ public class FuelAllocationScheduleItemProvider extends CurveItemProvider {
      */
     protected void addMinFuelAllocationPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_FuelAllocationSchedule_minFuelAllocation_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_FuelAllocationSchedule_minFuelAllocation_feature",
                         "_UI_FuelAllocationSchedule_type" ),
-                CimPackage.eINSTANCE.getFuelAllocationSchedule_MinFuelAllocation(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getFuelAllocationSchedule_MinFuelAllocation(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -162,11 +192,17 @@ public class FuelAllocationScheduleItemProvider extends CurveItemProvider {
      */
     protected void addThermalGeneratingUnitPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_FuelAllocationSchedule_ThermalGeneratingUnit_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_FuelAllocationSchedule_ThermalGeneratingUnit_feature", "_UI_FuelAllocationSchedule_type" ),
-                CimPackage.eINSTANCE.getFuelAllocationSchedule_ThermalGeneratingUnit(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getFuelAllocationSchedule_ThermalGeneratingUnit(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -177,12 +213,19 @@ public class FuelAllocationScheduleItemProvider extends CurveItemProvider {
      * @generated
      */
     protected void addFossilFuelPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_FuelAllocationSchedule_FossilFuel_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_FuelAllocationSchedule_FossilFuel_feature",
-                        "_UI_FuelAllocationSchedule_type" ),
-                CimPackage.eINSTANCE.getFuelAllocationSchedule_FossilFuel(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_FuelAllocationSchedule_FossilFuel_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_FuelAllocationSchedule_FossilFuel_feature", "_UI_FuelAllocationSchedule_type" ),
+                        CimPackage.eINSTANCE.getFuelAllocationSchedule_FossilFuel(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

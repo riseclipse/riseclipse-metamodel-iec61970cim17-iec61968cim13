@@ -74,10 +74,16 @@ public class OutageScheduleItemProvider extends DocumentItemProvider {
     protected void addPlannedOutagesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OutageSchedule_PlannedOutages_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OutageSchedule_PlannedOutages_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_OutageSchedule_PlannedOutages_feature",
                                 "_UI_OutageSchedule_type" ),
-                        CimPackage.eINSTANCE.getOutageSchedule_PlannedOutages(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getOutageSchedule_PlannedOutages(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -115,7 +121,6 @@ public class OutageScheduleItemProvider extends DocumentItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**
@@ -141,8 +146,8 @@ public class OutageScheduleItemProvider extends DocumentItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

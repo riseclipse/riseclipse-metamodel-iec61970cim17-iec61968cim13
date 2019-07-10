@@ -79,10 +79,16 @@ public class HazardItemProvider extends IdentifiedObjectItemProvider {
     protected void addTypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Hazard_type_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Hazard_type_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Hazard_type_feature", "_UI_Hazard_type" ),
-                        CimPackage.eINSTANCE.getHazard_Type(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getHazard_Type(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -172,8 +178,8 @@ public class HazardItemProvider extends IdentifiedObjectItemProvider {
     protected void collectNewChildDescriptors( Collection< Object > newChildDescriptors, Object object ) {
         super.collectNewChildDescriptors( newChildDescriptors, object );
 
-        newChildDescriptors.add(
-                createChildParameter( CimPackage.eINSTANCE.getHazard_Status(), CimFactory.eINSTANCE.createStatus() ) );
+        newChildDescriptors.add( createChildParameter( CimPackage.eINSTANCE.getHazard_Status(),
+                CimFactory.eINSTANCE.createStatus() ) );
     }
 
 }

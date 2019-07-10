@@ -78,11 +78,17 @@ public class InstanceSetItemProvider extends DataSetItemProvider {
     protected void addMinorVersionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_InstanceSet_minorVersion_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_InstanceSet_minorVersion_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_InstanceSet_minorVersion_feature",
                                 "_UI_InstanceSet_type" ),
-                        CimPackage.eINSTANCE.getInstanceSet_MinorVersion(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getInstanceSet_MinorVersion(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,11 +100,17 @@ public class InstanceSetItemProvider extends DataSetItemProvider {
     protected void addVersionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_InstanceSet_version_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_InstanceSet_version_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_InstanceSet_version_feature",
                                 "_UI_InstanceSet_type" ),
-                        CimPackage.eINSTANCE.getInstanceSet_Version(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getInstanceSet_Version(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -110,10 +122,16 @@ public class InstanceSetItemProvider extends DataSetItemProvider {
     protected void addInstanceSetMemberPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_InstanceSet_InstanceSetMember_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_InstanceSet_InstanceSetMember_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_InstanceSet_InstanceSetMember_feature",
                                 "_UI_InstanceSet_type" ),
-                        CimPackage.eINSTANCE.getInstanceSet_InstanceSetMember(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getInstanceSet_InstanceSetMember(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 

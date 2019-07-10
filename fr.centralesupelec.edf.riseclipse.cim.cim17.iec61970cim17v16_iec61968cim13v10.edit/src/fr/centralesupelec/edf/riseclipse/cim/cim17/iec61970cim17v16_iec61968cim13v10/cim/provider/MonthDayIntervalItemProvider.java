@@ -86,11 +86,17 @@ public class MonthDayIntervalItemProvider extends ItemProviderAdapter implements
     protected void addEndPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_MonthDayInterval_end_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_MonthDayInterval_end_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_MonthDayInterval_end_feature",
                                 "_UI_MonthDayInterval_type" ),
-                        CimPackage.eINSTANCE.getMonthDayInterval_End(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getMonthDayInterval_End(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -102,11 +108,17 @@ public class MonthDayIntervalItemProvider extends ItemProviderAdapter implements
     protected void addStartPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_MonthDayInterval_start_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_MonthDayInterval_start_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_MonthDayInterval_start_feature",
                                 "_UI_MonthDayInterval_type" ),
-                        CimPackage.eINSTANCE.getMonthDayInterval_Start(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getMonthDayInterval_Start(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

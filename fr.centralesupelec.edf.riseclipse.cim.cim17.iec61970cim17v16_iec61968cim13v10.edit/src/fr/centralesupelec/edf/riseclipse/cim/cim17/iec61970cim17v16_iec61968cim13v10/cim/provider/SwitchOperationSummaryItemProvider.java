@@ -82,12 +82,18 @@ public class SwitchOperationSummaryItemProvider extends IdentifiedObjectItemProv
     protected void addLifetimeFaultOperationsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SwitchOperationSummary_lifetimeFaultOperations_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchOperationSummary_lifetimeFaultOperations_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_SwitchOperationSummary_lifetimeFaultOperations_feature",
                                 "_UI_SwitchOperationSummary_type" ),
-                        CimPackage.eINSTANCE.getSwitchOperationSummary_LifetimeFaultOperations(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSwitchOperationSummary_LifetimeFaultOperations(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -98,12 +104,18 @@ public class SwitchOperationSummaryItemProvider extends IdentifiedObjectItemProv
      */
     protected void addLifetimeMotorStartsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_SwitchOperationSummary_lifetimeMotorStarts_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_SwitchOperationSummary_lifetimeMotorStarts_feature", "_UI_SwitchOperationSummary_type" ),
-                CimPackage.eINSTANCE.getSwitchOperationSummary_LifetimeMotorStarts(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getSwitchOperationSummary_LifetimeMotorStarts(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -115,12 +127,18 @@ public class SwitchOperationSummaryItemProvider extends IdentifiedObjectItemProv
     protected void addLifetimeTotalOperationsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SwitchOperationSummary_lifetimeTotalOperations_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchOperationSummary_lifetimeTotalOperations_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_SwitchOperationSummary_lifetimeTotalOperations_feature",
                                 "_UI_SwitchOperationSummary_type" ),
-                        CimPackage.eINSTANCE.getSwitchOperationSummary_LifetimeTotalOperations(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSwitchOperationSummary_LifetimeTotalOperations(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -130,14 +148,20 @@ public class SwitchOperationSummaryItemProvider extends IdentifiedObjectItemProv
      * @generated
      */
     protected void addMostRecentFaultOperationDatePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SwitchOperationSummary_mostRecentFaultOperationDate_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_SwitchOperationSummary_mostRecentFaultOperationDate_feature",
-                        "_UI_SwitchOperationSummary_type" ),
-                CimPackage.eINSTANCE.getSwitchOperationSummary_MostRecentFaultOperationDate(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchOperationSummary_mostRecentFaultOperationDate_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_SwitchOperationSummary_mostRecentFaultOperationDate_feature",
+                                "_UI_SwitchOperationSummary_type" ),
+                        CimPackage.eINSTANCE.getSwitchOperationSummary_MostRecentFaultOperationDate(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -147,14 +171,20 @@ public class SwitchOperationSummaryItemProvider extends IdentifiedObjectItemProv
      * @generated
      */
     protected void addMostRecentMotorStartDatePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SwitchOperationSummary_mostRecentMotorStartDate_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_SwitchOperationSummary_mostRecentMotorStartDate_feature",
-                        "_UI_SwitchOperationSummary_type" ),
-                CimPackage.eINSTANCE.getSwitchOperationSummary_MostRecentMotorStartDate(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchOperationSummary_mostRecentMotorStartDate_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_SwitchOperationSummary_mostRecentMotorStartDate_feature",
+                                "_UI_SwitchOperationSummary_type" ),
+                        CimPackage.eINSTANCE.getSwitchOperationSummary_MostRecentMotorStartDate(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -166,12 +196,18 @@ public class SwitchOperationSummaryItemProvider extends IdentifiedObjectItemProv
     protected void addMostRecentOperationDatePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SwitchOperationSummary_mostRecentOperationDate_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchOperationSummary_mostRecentOperationDate_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_SwitchOperationSummary_mostRecentOperationDate_feature",
                                 "_UI_SwitchOperationSummary_type" ),
-                        CimPackage.eINSTANCE.getSwitchOperationSummary_MostRecentOperationDate(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSwitchOperationSummary_MostRecentOperationDate(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -181,12 +217,19 @@ public class SwitchOperationSummaryItemProvider extends IdentifiedObjectItemProv
      * @generated
      */
     protected void addBreakerPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SwitchOperationSummary_Breaker_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SwitchOperationSummary_Breaker_feature",
-                        "_UI_SwitchOperationSummary_type" ),
-                CimPackage.eINSTANCE.getSwitchOperationSummary_Breaker(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchOperationSummary_Breaker_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_SwitchOperationSummary_Breaker_feature",
+                                "_UI_SwitchOperationSummary_type" ),
+                        CimPackage.eINSTANCE.getSwitchOperationSummary_Breaker(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

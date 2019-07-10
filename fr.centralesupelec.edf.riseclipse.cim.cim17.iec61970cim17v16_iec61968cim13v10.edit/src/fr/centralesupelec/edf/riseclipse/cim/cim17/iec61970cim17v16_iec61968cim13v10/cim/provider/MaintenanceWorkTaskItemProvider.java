@@ -76,12 +76,18 @@ public class MaintenanceWorkTaskItemProvider extends WorkTaskItemProvider {
      */
     protected void addBreakerMaintenanceKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_MaintenanceWorkTask_breakerMaintenanceKind_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_MaintenanceWorkTask_breakerMaintenanceKind_feature", "_UI_MaintenanceWorkTask_type" ),
-                CimPackage.eINSTANCE.getMaintenanceWorkTask_BreakerMaintenanceKind(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getMaintenanceWorkTask_BreakerMaintenanceKind(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -92,12 +98,18 @@ public class MaintenanceWorkTaskItemProvider extends WorkTaskItemProvider {
      */
     protected void addTransformerMaintenanceKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_MaintenanceWorkTask_transformerMaintenanceKind_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_MaintenanceWorkTask_transformerMaintenanceKind_feature", "_UI_MaintenanceWorkTask_type" ),
-                CimPackage.eINSTANCE.getMaintenanceWorkTask_TransformerMaintenanceKind(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getMaintenanceWorkTask_TransformerMaintenanceKind(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -167,8 +179,8 @@ public class MaintenanceWorkTaskItemProvider extends WorkTaskItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

@@ -81,11 +81,17 @@ public class ServiceLocationItemProvider extends WorkLocationItemProvider {
     protected void addAccessMethodPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ServiceLocation_accessMethod_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ServiceLocation_accessMethod_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ServiceLocation_accessMethod_feature",
                                 "_UI_ServiceLocation_type" ),
-                        CimPackage.eINSTANCE.getServiceLocation_AccessMethod(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getServiceLocation_AccessMethod(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -97,11 +103,17 @@ public class ServiceLocationItemProvider extends WorkLocationItemProvider {
     protected void addNeedsInspectionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ServiceLocation_needsInspection_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ServiceLocation_needsInspection_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ServiceLocation_needsInspection_feature",
                                 "_UI_ServiceLocation_type" ),
-                        CimPackage.eINSTANCE.getServiceLocation_NeedsInspection(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getServiceLocation_NeedsInspection(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,13 +123,19 @@ public class ServiceLocationItemProvider extends WorkLocationItemProvider {
      * @generated
      */
     protected void addSiteAccessProblemPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ServiceLocation_siteAccessProblem_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ServiceLocation_siteAccessProblem_feature",
-                        "_UI_ServiceLocation_type" ),
-                CimPackage.eINSTANCE.getServiceLocation_SiteAccessProblem(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ServiceLocation_siteAccessProblem_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ServiceLocation_siteAccessProblem_feature", "_UI_ServiceLocation_type" ),
+                        CimPackage.eINSTANCE.getServiceLocation_SiteAccessProblem(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -129,10 +147,17 @@ public class ServiceLocationItemProvider extends WorkLocationItemProvider {
     protected void addUsagePointsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ServiceLocation_UsagePoints_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ServiceLocation_UsagePoints_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ServiceLocation_UsagePoints_feature",
                                 "_UI_ServiceLocation_type" ),
-                        CimPackage.eINSTANCE.getServiceLocation_UsagePoints(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getServiceLocation_UsagePoints(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -142,12 +167,19 @@ public class ServiceLocationItemProvider extends WorkLocationItemProvider {
      * @generated
      */
     protected void addCustomerAgreementsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ServiceLocation_CustomerAgreements_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ServiceLocation_CustomerAgreements_feature",
-                        "_UI_ServiceLocation_type" ),
-                CimPackage.eINSTANCE.getServiceLocation_CustomerAgreements(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ServiceLocation_CustomerAgreements_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ServiceLocation_CustomerAgreements_feature", "_UI_ServiceLocation_type" ),
+                        CimPackage.eINSTANCE.getServiceLocation_CustomerAgreements(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -159,10 +191,17 @@ public class ServiceLocationItemProvider extends WorkLocationItemProvider {
     protected void addEndDevicesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ServiceLocation_EndDevices_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ServiceLocation_EndDevices_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ServiceLocation_EndDevices_feature",
                                 "_UI_ServiceLocation_type" ),
-                        CimPackage.eINSTANCE.getServiceLocation_EndDevices(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getServiceLocation_EndDevices(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -233,10 +272,10 @@ public class ServiceLocationItemProvider extends WorkLocationItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getLocation_MainAddress()
-                || childFeature == CimPackage.eINSTANCE.getLocation_SecondaryAddress()
-                || childFeature == CimPackage.eINSTANCE.getLocation_Phone1()
-                || childFeature == CimPackage.eINSTANCE.getLocation_Phone2();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getLocation_MainAddress() ||
+                childFeature == CimPackage.eINSTANCE.getLocation_SecondaryAddress() ||
+                childFeature == CimPackage.eINSTANCE.getLocation_Phone1() ||
+                childFeature == CimPackage.eINSTANCE.getLocation_Phone2();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

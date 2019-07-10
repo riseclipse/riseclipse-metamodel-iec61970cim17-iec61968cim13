@@ -79,11 +79,17 @@ public class WirePositionItemProvider extends IdentifiedObjectItemProvider {
     protected void addXCoordPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WirePosition_xCoord_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WirePosition_xCoord_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WirePosition_xCoord_feature",
                                 "_UI_WirePosition_type" ),
-                        CimPackage.eINSTANCE.getWirePosition_XCoord(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWirePosition_XCoord(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,11 +101,17 @@ public class WirePositionItemProvider extends IdentifiedObjectItemProvider {
     protected void addYCoordPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WirePosition_yCoord_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WirePosition_yCoord_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WirePosition_yCoord_feature",
                                 "_UI_WirePosition_type" ),
-                        CimPackage.eINSTANCE.getWirePosition_YCoord(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWirePosition_YCoord(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,10 +123,17 @@ public class WirePositionItemProvider extends IdentifiedObjectItemProvider {
     protected void addWireSpacingInfoPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WirePosition_WireSpacingInfo_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WirePosition_WireSpacingInfo_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WirePosition_WireSpacingInfo_feature",
                                 "_UI_WirePosition_type" ),
-                        CimPackage.eINSTANCE.getWirePosition_WireSpacingInfo(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getWirePosition_WireSpacingInfo(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -126,10 +145,17 @@ public class WirePositionItemProvider extends IdentifiedObjectItemProvider {
     protected void addWirePhaseInfoPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WirePosition_WirePhaseInfo_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WirePosition_WirePhaseInfo_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WirePosition_WirePhaseInfo_feature",
                                 "_UI_WirePosition_type" ),
-                        CimPackage.eINSTANCE.getWirePosition_WirePhaseInfo(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getWirePosition_WirePhaseInfo(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

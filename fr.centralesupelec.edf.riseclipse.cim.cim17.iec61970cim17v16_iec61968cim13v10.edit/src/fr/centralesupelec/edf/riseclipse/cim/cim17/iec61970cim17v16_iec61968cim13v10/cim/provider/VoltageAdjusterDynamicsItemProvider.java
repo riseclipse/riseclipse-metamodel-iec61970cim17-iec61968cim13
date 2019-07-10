@@ -72,14 +72,20 @@ public class VoltageAdjusterDynamicsItemProvider extends DynamicsFunctionBlockIt
      * @generated
      */
     protected void addPFVArControllerType1DynamicsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_VoltageAdjusterDynamics_PFVArControllerType1Dynamics_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_VoltageAdjusterDynamics_PFVArControllerType1Dynamics_feature",
-                        "_UI_VoltageAdjusterDynamics_type" ),
-                CimPackage.eINSTANCE.getVoltageAdjusterDynamics_PFVArControllerType1Dynamics(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_VoltageAdjusterDynamics_PFVArControllerType1Dynamics_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_VoltageAdjusterDynamics_PFVArControllerType1Dynamics_feature",
+                                "_UI_VoltageAdjusterDynamics_type" ),
+                        CimPackage.eINSTANCE.getVoltageAdjusterDynamics_PFVArControllerType1Dynamics(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -116,7 +122,6 @@ public class VoltageAdjusterDynamicsItemProvider extends DynamicsFunctionBlockIt
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

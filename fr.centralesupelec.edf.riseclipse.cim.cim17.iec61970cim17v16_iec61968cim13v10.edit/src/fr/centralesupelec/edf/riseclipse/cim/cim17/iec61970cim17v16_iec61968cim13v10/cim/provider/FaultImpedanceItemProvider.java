@@ -88,11 +88,17 @@ public class FaultImpedanceItemProvider extends ItemProviderAdapter implements I
     protected void addRGroundPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FaultImpedance_rGround_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FaultImpedance_rGround_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FaultImpedance_rGround_feature",
                                 "_UI_FaultImpedance_type" ),
-                        CimPackage.eINSTANCE.getFaultImpedance_RGround(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFaultImpedance_RGround(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -104,11 +110,17 @@ public class FaultImpedanceItemProvider extends ItemProviderAdapter implements I
     protected void addRLineToLinePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FaultImpedance_rLineToLine_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FaultImpedance_rLineToLine_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FaultImpedance_rLineToLine_feature",
                                 "_UI_FaultImpedance_type" ),
-                        CimPackage.eINSTANCE.getFaultImpedance_RLineToLine(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFaultImpedance_RLineToLine(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -120,11 +132,17 @@ public class FaultImpedanceItemProvider extends ItemProviderAdapter implements I
     protected void addXGroundPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FaultImpedance_xGround_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FaultImpedance_xGround_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FaultImpedance_xGround_feature",
                                 "_UI_FaultImpedance_type" ),
-                        CimPackage.eINSTANCE.getFaultImpedance_XGround(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFaultImpedance_XGround(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -136,11 +154,17 @@ public class FaultImpedanceItemProvider extends ItemProviderAdapter implements I
     protected void addXLineToLinePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FaultImpedance_xLineToLine_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FaultImpedance_xLineToLine_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FaultImpedance_xLineToLine_feature",
                                 "_UI_FaultImpedance_type" ),
-                        CimPackage.eINSTANCE.getFaultImpedance_XLineToLine(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFaultImpedance_XLineToLine(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

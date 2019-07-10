@@ -96,7 +96,6 @@ public class OverheadWireInfoItemProvider extends WireInfoItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

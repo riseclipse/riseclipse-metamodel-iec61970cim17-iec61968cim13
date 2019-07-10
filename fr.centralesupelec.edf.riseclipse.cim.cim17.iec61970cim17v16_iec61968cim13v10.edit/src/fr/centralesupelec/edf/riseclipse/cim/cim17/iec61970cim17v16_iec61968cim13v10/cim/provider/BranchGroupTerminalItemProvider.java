@@ -76,13 +76,19 @@ public class BranchGroupTerminalItemProvider extends CimObjectWithIDItemProvider
      * @generated
      */
     protected void addPositiveFlowInPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_BranchGroupTerminal_positiveFlowIn_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_BranchGroupTerminal_positiveFlowIn_feature",
-                        "_UI_BranchGroupTerminal_type" ),
-                CimPackage.eINSTANCE.getBranchGroupTerminal_PositiveFlowIn(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_BranchGroupTerminal_positiveFlowIn_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_BranchGroupTerminal_positiveFlowIn_feature", "_UI_BranchGroupTerminal_type" ),
+                        CimPackage.eINSTANCE.getBranchGroupTerminal_PositiveFlowIn(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -92,12 +98,19 @@ public class BranchGroupTerminalItemProvider extends CimObjectWithIDItemProvider
      * @generated
      */
     protected void addBranchGroupPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_BranchGroupTerminal_BranchGroup_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_BranchGroupTerminal_BranchGroup_feature",
-                        "_UI_BranchGroupTerminal_type" ),
-                CimPackage.eINSTANCE.getBranchGroupTerminal_BranchGroup(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_BranchGroupTerminal_BranchGroup_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_BranchGroupTerminal_BranchGroup_feature",
+                                "_UI_BranchGroupTerminal_type" ),
+                        CimPackage.eINSTANCE.getBranchGroupTerminal_BranchGroup(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -109,10 +122,17 @@ public class BranchGroupTerminalItemProvider extends CimObjectWithIDItemProvider
     protected void addTerminalPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_BranchGroupTerminal_Terminal_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_BranchGroupTerminal_Terminal_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_BranchGroupTerminal_Terminal_feature",
                                 "_UI_BranchGroupTerminal_type" ),
-                        CimPackage.eINSTANCE.getBranchGroupTerminal_Terminal(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getBranchGroupTerminal_Terminal(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

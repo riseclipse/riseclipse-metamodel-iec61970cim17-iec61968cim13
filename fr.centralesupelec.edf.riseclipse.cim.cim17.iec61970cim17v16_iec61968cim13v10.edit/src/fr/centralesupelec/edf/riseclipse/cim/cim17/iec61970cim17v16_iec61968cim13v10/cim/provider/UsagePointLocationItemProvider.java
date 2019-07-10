@@ -77,13 +77,19 @@ public class UsagePointLocationItemProvider extends LocationItemProvider {
      * @generated
      */
     protected void addAccessMethodPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_UsagePointLocation_accessMethod_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_UsagePointLocation_accessMethod_feature",
-                        "_UI_UsagePointLocation_type" ),
-                CimPackage.eINSTANCE.getUsagePointLocation_AccessMethod(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_UsagePointLocation_accessMethod_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_UsagePointLocation_accessMethod_feature",
+                                "_UI_UsagePointLocation_type" ),
+                        CimPackage.eINSTANCE.getUsagePointLocation_AccessMethod(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,11 +101,17 @@ public class UsagePointLocationItemProvider extends LocationItemProvider {
     protected void addRemarkPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_UsagePointLocation_remark_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_UsagePointLocation_remark_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_UsagePointLocation_remark_feature",
                                 "_UI_UsagePointLocation_type" ),
-                        CimPackage.eINSTANCE.getUsagePointLocation_Remark(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getUsagePointLocation_Remark(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -109,13 +121,19 @@ public class UsagePointLocationItemProvider extends LocationItemProvider {
      * @generated
      */
     protected void addSiteAccessProblemPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_UsagePointLocation_siteAccessProblem_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_UsagePointLocation_siteAccessProblem_feature",
-                        "_UI_UsagePointLocation_type" ),
-                CimPackage.eINSTANCE.getUsagePointLocation_SiteAccessProblem(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_UsagePointLocation_siteAccessProblem_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_UsagePointLocation_siteAccessProblem_feature", "_UI_UsagePointLocation_type" ),
+                        CimPackage.eINSTANCE.getUsagePointLocation_SiteAccessProblem(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -125,12 +143,19 @@ public class UsagePointLocationItemProvider extends LocationItemProvider {
      * @generated
      */
     protected void addUsagePointsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_UsagePointLocation_UsagePoints_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_UsagePointLocation_UsagePoints_feature",
-                        "_UI_UsagePointLocation_type" ),
-                CimPackage.eINSTANCE.getUsagePointLocation_UsagePoints(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_UsagePointLocation_UsagePoints_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_UsagePointLocation_UsagePoints_feature",
+                                "_UI_UsagePointLocation_type" ),
+                        CimPackage.eINSTANCE.getUsagePointLocation_UsagePoints(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -201,10 +226,10 @@ public class UsagePointLocationItemProvider extends LocationItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getLocation_MainAddress()
-                || childFeature == CimPackage.eINSTANCE.getLocation_SecondaryAddress()
-                || childFeature == CimPackage.eINSTANCE.getLocation_Phone1()
-                || childFeature == CimPackage.eINSTANCE.getLocation_Phone2();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getLocation_MainAddress() ||
+                childFeature == CimPackage.eINSTANCE.getLocation_SecondaryAddress() ||
+                childFeature == CimPackage.eINSTANCE.getLocation_Phone1() ||
+                childFeature == CimPackage.eINSTANCE.getLocation_Phone2();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

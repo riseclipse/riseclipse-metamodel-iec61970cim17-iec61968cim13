@@ -79,11 +79,17 @@ public class WindGenType3bIECItemProvider extends WindGenType3IECItemProvider {
     protected void addMwtcwpPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindGenType3bIEC_mwtcwp_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindGenType3bIEC_mwtcwp_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindGenType3bIEC_mwtcwp_feature",
                                 "_UI_WindGenType3bIEC_type" ),
-                        CimPackage.eINSTANCE.getWindGenType3bIEC_Mwtcwp(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindGenType3bIEC_Mwtcwp(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,11 +101,17 @@ public class WindGenType3bIECItemProvider extends WindGenType3IECItemProvider {
     protected void addTgPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindGenType3bIEC_tg_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindGenType3bIEC_tg_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindGenType3bIEC_tg_feature",
                                 "_UI_WindGenType3bIEC_type" ),
-                        CimPackage.eINSTANCE.getWindGenType3bIEC_Tg(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindGenType3bIEC_Tg(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,11 +123,17 @@ public class WindGenType3bIECItemProvider extends WindGenType3IECItemProvider {
     protected void addTwoPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindGenType3bIEC_two_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindGenType3bIEC_two_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindGenType3bIEC_two_feature",
                                 "_UI_WindGenType3bIEC_type" ),
-                        CimPackage.eINSTANCE.getWindGenType3bIEC_Two(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindGenType3bIEC_Two(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -127,11 +145,17 @@ public class WindGenType3bIECItemProvider extends WindGenType3IECItemProvider {
     protected void addWindDynamicsLookupTablePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindGenType3bIEC_WindDynamicsLookupTable_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindGenType3bIEC_WindDynamicsLookupTable_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_WindGenType3bIEC_WindDynamicsLookupTable_feature", "_UI_WindGenType3bIEC_type" ),
-                        CimPackage.eINSTANCE.getWindGenType3bIEC_WindDynamicsLookupTable(), true, false, true, null,
-                        null, null ) );
+                        CimPackage.eINSTANCE.getWindGenType3bIEC_WindDynamicsLookupTable(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

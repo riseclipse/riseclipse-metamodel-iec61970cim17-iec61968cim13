@@ -72,12 +72,19 @@ public class ReportingSuperGroupItemProvider extends IdentifiedObjectItemProvide
      * @generated
      */
     protected void addReportingGroupPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ReportingSuperGroup_ReportingGroup_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ReportingSuperGroup_ReportingGroup_feature",
-                        "_UI_ReportingSuperGroup_type" ),
-                CimPackage.eINSTANCE.getReportingSuperGroup_ReportingGroup(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ReportingSuperGroup_ReportingGroup_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ReportingSuperGroup_ReportingGroup_feature", "_UI_ReportingSuperGroup_type" ),
+                        CimPackage.eINSTANCE.getReportingSuperGroup_ReportingGroup(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class ReportingSuperGroupItemProvider extends IdentifiedObjectItemProvide
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

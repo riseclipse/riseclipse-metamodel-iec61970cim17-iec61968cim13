@@ -91,10 +91,16 @@ public class DueItemProvider extends ItemProviderAdapter implements IEditingDoma
     protected void addArrearsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Due_arrears_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Due_arrears_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Due_arrears_feature", "_UI_Due_type" ),
-                        CimPackage.eINSTANCE.getDue_Arrears(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDue_Arrears(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -106,10 +112,16 @@ public class DueItemProvider extends ItemProviderAdapter implements IEditingDoma
     protected void addChargesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Due_charges_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Due_charges_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Due_charges_feature", "_UI_Due_type" ),
-                        CimPackage.eINSTANCE.getDue_Charges(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDue_Charges(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -121,10 +133,16 @@ public class DueItemProvider extends ItemProviderAdapter implements IEditingDoma
     protected void addCurrentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Due_current_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Due_current_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Due_current_feature", "_UI_Due_type" ),
-                        CimPackage.eINSTANCE.getDue_Current(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDue_Current(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -136,10 +154,16 @@ public class DueItemProvider extends ItemProviderAdapter implements IEditingDoma
     protected void addInterestPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Due_interest_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Due_interest_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Due_interest_feature", "_UI_Due_type" ),
-                        CimPackage.eINSTANCE.getDue_Interest(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDue_Interest(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -151,10 +175,16 @@ public class DueItemProvider extends ItemProviderAdapter implements IEditingDoma
     protected void addPrinciplePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Due_principle_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Due_principle_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Due_principle_feature", "_UI_Due_type" ),
-                        CimPackage.eINSTANCE.getDue_Principle(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDue_Principle(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

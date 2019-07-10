@@ -74,11 +74,17 @@ public class StringMeasurementItemProvider extends MeasurementItemProvider {
     protected void addStringMeasurementValuesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_StringMeasurement_StringMeasurementValues_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_StringMeasurement_StringMeasurementValues_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_StringMeasurement_StringMeasurementValues_feature", "_UI_StringMeasurement_type" ),
-                        CimPackage.eINSTANCE.getStringMeasurement_StringMeasurementValues(), true, false, true, null,
-                        null, null ) );
+                        CimPackage.eINSTANCE.getStringMeasurement_StringMeasurementValues(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -115,7 +121,6 @@ public class StringMeasurementItemProvider extends MeasurementItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

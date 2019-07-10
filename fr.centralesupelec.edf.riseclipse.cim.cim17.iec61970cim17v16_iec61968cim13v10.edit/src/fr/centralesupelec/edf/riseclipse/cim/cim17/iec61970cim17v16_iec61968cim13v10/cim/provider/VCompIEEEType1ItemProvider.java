@@ -78,11 +78,17 @@ public class VCompIEEEType1ItemProvider extends VoltageCompensatorDynamicsItemPr
     protected void addRcPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_VCompIEEEType1_rc_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_VCompIEEEType1_rc_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_VCompIEEEType1_rc_feature",
                                 "_UI_VCompIEEEType1_type" ),
-                        CimPackage.eINSTANCE.getVCompIEEEType1_Rc(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getVCompIEEEType1_Rc(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,11 +100,17 @@ public class VCompIEEEType1ItemProvider extends VoltageCompensatorDynamicsItemPr
     protected void addTrPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_VCompIEEEType1_tr_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_VCompIEEEType1_tr_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_VCompIEEEType1_tr_feature",
                                 "_UI_VCompIEEEType1_type" ),
-                        CimPackage.eINSTANCE.getVCompIEEEType1_Tr(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getVCompIEEEType1_Tr(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -110,11 +122,17 @@ public class VCompIEEEType1ItemProvider extends VoltageCompensatorDynamicsItemPr
     protected void addXcPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_VCompIEEEType1_xc_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_VCompIEEEType1_xc_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_VCompIEEEType1_xc_feature",
                                 "_UI_VCompIEEEType1_type" ),
-                        CimPackage.eINSTANCE.getVCompIEEEType1_Xc(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getVCompIEEEType1_Xc(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

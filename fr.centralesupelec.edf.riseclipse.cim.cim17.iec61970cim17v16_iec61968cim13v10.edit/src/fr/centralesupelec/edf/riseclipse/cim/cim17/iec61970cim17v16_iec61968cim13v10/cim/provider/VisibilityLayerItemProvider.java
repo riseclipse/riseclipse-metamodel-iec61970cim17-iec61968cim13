@@ -77,11 +77,17 @@ public class VisibilityLayerItemProvider extends IdentifiedObjectItemProvider {
     protected void addDrawingOrderPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_VisibilityLayer_drawingOrder_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_VisibilityLayer_drawingOrder_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_VisibilityLayer_drawingOrder_feature",
                                 "_UI_VisibilityLayer_type" ),
-                        CimPackage.eINSTANCE.getVisibilityLayer_DrawingOrder(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getVisibilityLayer_DrawingOrder(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,10 +99,16 @@ public class VisibilityLayerItemProvider extends IdentifiedObjectItemProvider {
     protected void addVisibleObjectsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_VisibilityLayer_VisibleObjects_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_VisibilityLayer_VisibleObjects_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_VisibilityLayer_VisibleObjects_feature",
                                 "_UI_VisibilityLayer_type" ),
-                        CimPackage.eINSTANCE.getVisibilityLayer_VisibleObjects(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getVisibilityLayer_VisibleObjects(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 

@@ -81,12 +81,18 @@ public class PFVArType2IEEEVArControllerItemProvider extends PFVArControllerType
      */
     protected void addExlonPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_PFVArType2IEEEVArController_exlon_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_PFVArType2IEEEVArController_exlon_feature",
                         "_UI_PFVArType2IEEEVArController_type" ),
-                CimPackage.eINSTANCE.getPFVArType2IEEEVArController_Exlon(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getPFVArType2IEEEVArController_Exlon(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -98,11 +104,17 @@ public class PFVArType2IEEEVArControllerItemProvider extends PFVArControllerType
     protected void addKiPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PFVArType2IEEEVArController_ki_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PFVArType2IEEEVArController_ki_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PFVArType2IEEEVArController_ki_feature",
                                 "_UI_PFVArType2IEEEVArController_type" ),
-                        CimPackage.eINSTANCE.getPFVArType2IEEEVArController_Ki(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPFVArType2IEEEVArController_Ki(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,11 +126,17 @@ public class PFVArType2IEEEVArControllerItemProvider extends PFVArControllerType
     protected void addKpPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PFVArType2IEEEVArController_kp_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PFVArType2IEEEVArController_kp_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PFVArType2IEEEVArController_kp_feature",
                                 "_UI_PFVArType2IEEEVArController_type" ),
-                        CimPackage.eINSTANCE.getPFVArType2IEEEVArController_Kp(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPFVArType2IEEEVArController_Kp(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -130,11 +148,17 @@ public class PFVArType2IEEEVArControllerItemProvider extends PFVArControllerType
     protected void addQrefPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PFVArType2IEEEVArController_qref_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PFVArType2IEEEVArController_qref_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PFVArType2IEEEVArController_qref_feature",
                                 "_UI_PFVArType2IEEEVArController_type" ),
-                        CimPackage.eINSTANCE.getPFVArType2IEEEVArController_Qref(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPFVArType2IEEEVArController_Qref(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -145,12 +169,18 @@ public class PFVArType2IEEEVArControllerItemProvider extends PFVArControllerType
      */
     protected void addVclmtPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_PFVArType2IEEEVArController_vclmt_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_PFVArType2IEEEVArController_vclmt_feature",
                         "_UI_PFVArType2IEEEVArController_type" ),
-                CimPackage.eINSTANCE.getPFVArType2IEEEVArController_Vclmt(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getPFVArType2IEEEVArController_Vclmt(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -162,11 +192,17 @@ public class PFVArType2IEEEVArControllerItemProvider extends PFVArControllerType
     protected void addVrefPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PFVArType2IEEEVArController_vref_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PFVArType2IEEEVArController_vref_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PFVArType2IEEEVArController_vref_feature",
                                 "_UI_PFVArType2IEEEVArController_type" ),
-                        CimPackage.eINSTANCE.getPFVArType2IEEEVArController_Vref(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPFVArType2IEEEVArController_Vref(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -178,11 +214,17 @@ public class PFVArType2IEEEVArControllerItemProvider extends PFVArControllerType
     protected void addVsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PFVArType2IEEEVArController_vs_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PFVArType2IEEEVArController_vs_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PFVArType2IEEEVArController_vs_feature",
                                 "_UI_PFVArType2IEEEVArController_type" ),
-                        CimPackage.eINSTANCE.getPFVArType2IEEEVArController_Vs(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPFVArType2IEEEVArController_Vs(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

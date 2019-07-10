@@ -74,13 +74,19 @@ public class WindGeneratingUnitItemProvider extends GeneratingUnitItemProvider {
      * @generated
      */
     protected void addWindGenUnitTypePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindGeneratingUnit_windGenUnitType_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_WindGeneratingUnit_windGenUnitType_feature",
-                        "_UI_WindGeneratingUnit_type" ),
-                CimPackage.eINSTANCE.getWindGeneratingUnit_WindGenUnitType(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindGeneratingUnit_windGenUnitType_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_WindGeneratingUnit_windGenUnitType_feature", "_UI_WindGeneratingUnit_type" ),
+                        CimPackage.eINSTANCE.getWindGeneratingUnit_WindGenUnitType(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

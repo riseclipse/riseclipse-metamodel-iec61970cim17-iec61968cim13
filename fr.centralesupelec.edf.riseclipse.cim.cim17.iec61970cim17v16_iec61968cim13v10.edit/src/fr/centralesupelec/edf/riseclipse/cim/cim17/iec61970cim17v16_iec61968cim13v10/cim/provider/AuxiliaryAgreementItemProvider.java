@@ -84,13 +84,19 @@ public class AuxiliaryAgreementItemProvider extends AgreementItemProvider {
      * @generated
      */
     protected void addArrearsInterestPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_AuxiliaryAgreement_arrearsInterest_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_AuxiliaryAgreement_arrearsInterest_feature",
-                        "_UI_AuxiliaryAgreement_type" ),
-                CimPackage.eINSTANCE.getAuxiliaryAgreement_ArrearsInterest(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_AuxiliaryAgreement_arrearsInterest_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_AuxiliaryAgreement_arrearsInterest_feature", "_UI_AuxiliaryAgreement_type" ),
+                        CimPackage.eINSTANCE.getAuxiliaryAgreement_ArrearsInterest(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -102,11 +108,17 @@ public class AuxiliaryAgreementItemProvider extends AgreementItemProvider {
     protected void addAuxCyclePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AuxiliaryAgreement_auxCycle_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AuxiliaryAgreement_auxCycle_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AuxiliaryAgreement_auxCycle_feature",
                                 "_UI_AuxiliaryAgreement_type" ),
-                        CimPackage.eINSTANCE.getAuxiliaryAgreement_AuxCycle(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAuxiliaryAgreement_AuxCycle(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -116,13 +128,19 @@ public class AuxiliaryAgreementItemProvider extends AgreementItemProvider {
      * @generated
      */
     protected void addAuxPriorityCodePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_AuxiliaryAgreement_auxPriorityCode_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_AuxiliaryAgreement_auxPriorityCode_feature",
-                        "_UI_AuxiliaryAgreement_type" ),
-                CimPackage.eINSTANCE.getAuxiliaryAgreement_AuxPriorityCode(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_AuxiliaryAgreement_auxPriorityCode_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_AuxiliaryAgreement_auxPriorityCode_feature", "_UI_AuxiliaryAgreement_type" ),
+                        CimPackage.eINSTANCE.getAuxiliaryAgreement_AuxPriorityCode(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -132,13 +150,19 @@ public class AuxiliaryAgreementItemProvider extends AgreementItemProvider {
      * @generated
      */
     protected void addFixedAmountPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_AuxiliaryAgreement_fixedAmount_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_AuxiliaryAgreement_fixedAmount_feature",
-                        "_UI_AuxiliaryAgreement_type" ),
-                CimPackage.eINSTANCE.getAuxiliaryAgreement_FixedAmount(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_AuxiliaryAgreement_fixedAmount_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_AuxiliaryAgreement_fixedAmount_feature",
+                                "_UI_AuxiliaryAgreement_type" ),
+                        CimPackage.eINSTANCE.getAuxiliaryAgreement_FixedAmount(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -150,11 +174,17 @@ public class AuxiliaryAgreementItemProvider extends AgreementItemProvider {
     protected void addMinAmountPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AuxiliaryAgreement_minAmount_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AuxiliaryAgreement_minAmount_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AuxiliaryAgreement_minAmount_feature",
                                 "_UI_AuxiliaryAgreement_type" ),
-                        CimPackage.eINSTANCE.getAuxiliaryAgreement_MinAmount(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAuxiliaryAgreement_MinAmount(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -166,11 +196,17 @@ public class AuxiliaryAgreementItemProvider extends AgreementItemProvider {
     protected void addPayCyclePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AuxiliaryAgreement_payCycle_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AuxiliaryAgreement_payCycle_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AuxiliaryAgreement_payCycle_feature",
                                 "_UI_AuxiliaryAgreement_type" ),
-                        CimPackage.eINSTANCE.getAuxiliaryAgreement_PayCycle(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAuxiliaryAgreement_PayCycle(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -182,11 +218,17 @@ public class AuxiliaryAgreementItemProvider extends AgreementItemProvider {
     protected void addSubTypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AuxiliaryAgreement_subType_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AuxiliaryAgreement_subType_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AuxiliaryAgreement_subType_feature",
                                 "_UI_AuxiliaryAgreement_type" ),
-                        CimPackage.eINSTANCE.getAuxiliaryAgreement_SubType(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAuxiliaryAgreement_SubType(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -196,13 +238,19 @@ public class AuxiliaryAgreementItemProvider extends AgreementItemProvider {
      * @generated
      */
     protected void addVendPortionPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_AuxiliaryAgreement_vendPortion_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_AuxiliaryAgreement_vendPortion_feature",
-                        "_UI_AuxiliaryAgreement_type" ),
-                CimPackage.eINSTANCE.getAuxiliaryAgreement_VendPortion(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_AuxiliaryAgreement_vendPortion_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_AuxiliaryAgreement_vendPortion_feature",
+                                "_UI_AuxiliaryAgreement_type" ),
+                        CimPackage.eINSTANCE.getAuxiliaryAgreement_VendPortion(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -212,13 +260,19 @@ public class AuxiliaryAgreementItemProvider extends AgreementItemProvider {
      * @generated
      */
     protected void addVendPortionArrearPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_AuxiliaryAgreement_vendPortionArrear_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_AuxiliaryAgreement_vendPortionArrear_feature",
-                        "_UI_AuxiliaryAgreement_type" ),
-                CimPackage.eINSTANCE.getAuxiliaryAgreement_VendPortionArrear(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_AuxiliaryAgreement_vendPortionArrear_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_AuxiliaryAgreement_vendPortionArrear_feature", "_UI_AuxiliaryAgreement_type" ),
+                        CimPackage.eINSTANCE.getAuxiliaryAgreement_VendPortionArrear(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -228,12 +282,19 @@ public class AuxiliaryAgreementItemProvider extends AgreementItemProvider {
      * @generated
      */
     protected void addAuxiliaryAccountsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_AuxiliaryAgreement_AuxiliaryAccounts_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_AuxiliaryAgreement_AuxiliaryAccounts_feature",
-                        "_UI_AuxiliaryAgreement_type" ),
-                CimPackage.eINSTANCE.getAuxiliaryAgreement_AuxiliaryAccounts(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_AuxiliaryAgreement_AuxiliaryAccounts_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_AuxiliaryAgreement_AuxiliaryAccounts_feature", "_UI_AuxiliaryAgreement_type" ),
+                        CimPackage.eINSTANCE.getAuxiliaryAgreement_AuxiliaryAccounts(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -243,12 +304,19 @@ public class AuxiliaryAgreementItemProvider extends AgreementItemProvider {
      * @generated
      */
     protected void addCustomerAgreementPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_AuxiliaryAgreement_CustomerAgreement_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_AuxiliaryAgreement_CustomerAgreement_feature",
-                        "_UI_AuxiliaryAgreement_type" ),
-                CimPackage.eINSTANCE.getAuxiliaryAgreement_CustomerAgreement(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_AuxiliaryAgreement_CustomerAgreement_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_AuxiliaryAgreement_CustomerAgreement_feature", "_UI_AuxiliaryAgreement_type" ),
+                        CimPackage.eINSTANCE.getAuxiliaryAgreement_CustomerAgreement(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -325,8 +393,8 @@ public class AuxiliaryAgreementItemProvider extends AgreementItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

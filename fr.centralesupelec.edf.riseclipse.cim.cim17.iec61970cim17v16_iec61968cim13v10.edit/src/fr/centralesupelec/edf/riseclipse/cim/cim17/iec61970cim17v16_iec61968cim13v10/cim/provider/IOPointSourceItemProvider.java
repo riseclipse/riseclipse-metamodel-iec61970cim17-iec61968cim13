@@ -74,10 +74,17 @@ public class IOPointSourceItemProvider extends MeasurementValueSourceItemProvide
     protected void addIOPointPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_IOPointSource_IOPoint_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_IOPointSource_IOPoint_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_IOPointSource_IOPoint_feature",
                                 "_UI_IOPointSource_type" ),
-                        CimPackage.eINSTANCE.getIOPointSource_IOPoint(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getIOPointSource_IOPoint(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class IOPointSourceItemProvider extends MeasurementValueSourceItemProvide
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

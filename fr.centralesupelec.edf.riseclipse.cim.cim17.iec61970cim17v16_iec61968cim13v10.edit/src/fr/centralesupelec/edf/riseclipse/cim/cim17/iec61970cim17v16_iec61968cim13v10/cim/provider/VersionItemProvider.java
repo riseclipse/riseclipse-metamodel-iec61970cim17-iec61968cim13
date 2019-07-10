@@ -89,11 +89,17 @@ public class VersionItemProvider extends ItemProviderAdapter implements IEditing
     protected void addDatePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Version_date_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Version_date_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Version_date_feature",
                                 "_UI_Version_type" ),
-                        CimPackage.eINSTANCE.getVersion_Date(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getVersion_Date(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -105,11 +111,17 @@ public class VersionItemProvider extends ItemProviderAdapter implements IEditing
     protected void addMajorPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Version_major_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Version_major_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Version_major_feature",
                                 "_UI_Version_type" ),
-                        CimPackage.eINSTANCE.getVersion_Major(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getVersion_Major(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -121,11 +133,17 @@ public class VersionItemProvider extends ItemProviderAdapter implements IEditing
     protected void addMinorPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Version_minor_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Version_minor_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Version_minor_feature",
                                 "_UI_Version_type" ),
-                        CimPackage.eINSTANCE.getVersion_Minor(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getVersion_Minor(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -137,11 +155,17 @@ public class VersionItemProvider extends ItemProviderAdapter implements IEditing
     protected void addRevisionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Version_revision_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Version_revision_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Version_revision_feature",
                                 "_UI_Version_type" ),
-                        CimPackage.eINSTANCE.getVersion_Revision(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getVersion_Revision(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

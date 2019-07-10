@@ -77,11 +77,17 @@ public class WorkTimeScheduleItemProvider extends TimeScheduleItemProvider {
     protected void addKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WorkTimeSchedule_kind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WorkTimeSchedule_kind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WorkTimeSchedule_kind_feature",
                                 "_UI_WorkTimeSchedule_type" ),
-                        CimPackage.eINSTANCE.getWorkTimeSchedule_Kind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWorkTimeSchedule_Kind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,10 +99,17 @@ public class WorkTimeScheduleItemProvider extends TimeScheduleItemProvider {
     protected void addBaseWorkPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WorkTimeSchedule_BaseWork_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WorkTimeSchedule_BaseWork_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WorkTimeSchedule_BaseWork_feature",
                                 "_UI_WorkTimeSchedule_type" ),
-                        CimPackage.eINSTANCE.getWorkTimeSchedule_BaseWork(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getWorkTimeSchedule_BaseWork(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -165,8 +178,8 @@ public class WorkTimeScheduleItemProvider extends TimeScheduleItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

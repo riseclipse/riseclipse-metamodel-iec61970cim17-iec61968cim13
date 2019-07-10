@@ -76,13 +76,19 @@ public class RegularIntervalScheduleItemProvider extends BasicIntervalScheduleIt
      * @generated
      */
     protected void addEndTimePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_RegularIntervalSchedule_endTime_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_RegularIntervalSchedule_endTime_feature",
-                        "_UI_RegularIntervalSchedule_type" ),
-                CimPackage.eINSTANCE.getRegularIntervalSchedule_EndTime(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_RegularIntervalSchedule_endTime_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_RegularIntervalSchedule_endTime_feature",
+                                "_UI_RegularIntervalSchedule_type" ),
+                        CimPackage.eINSTANCE.getRegularIntervalSchedule_EndTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,11 +100,17 @@ public class RegularIntervalScheduleItemProvider extends BasicIntervalScheduleIt
     protected void addTimeStepPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RegularIntervalSchedule_timeStep_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RegularIntervalSchedule_timeStep_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RegularIntervalSchedule_timeStep_feature",
                                 "_UI_RegularIntervalSchedule_type" ),
-                        CimPackage.eINSTANCE.getRegularIntervalSchedule_TimeStep(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getRegularIntervalSchedule_TimeStep(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -108,12 +120,19 @@ public class RegularIntervalScheduleItemProvider extends BasicIntervalScheduleIt
      * @generated
      */
     protected void addTimePointsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_RegularIntervalSchedule_TimePoints_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_RegularIntervalSchedule_TimePoints_feature",
-                        "_UI_RegularIntervalSchedule_type" ),
-                CimPackage.eINSTANCE.getRegularIntervalSchedule_TimePoints(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_RegularIntervalSchedule_TimePoints_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_RegularIntervalSchedule_TimePoints_feature", "_UI_RegularIntervalSchedule_type" ),
+                        CimPackage.eINSTANCE.getRegularIntervalSchedule_TimePoints(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

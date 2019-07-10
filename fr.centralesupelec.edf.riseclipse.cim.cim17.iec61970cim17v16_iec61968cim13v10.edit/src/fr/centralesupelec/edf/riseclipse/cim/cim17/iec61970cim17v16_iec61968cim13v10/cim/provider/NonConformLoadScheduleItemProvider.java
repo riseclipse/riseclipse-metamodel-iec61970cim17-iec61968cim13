@@ -73,11 +73,17 @@ public class NonConformLoadScheduleItemProvider extends SeasonDayTypeScheduleIte
      */
     protected void addNonConformLoadGroupPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_NonConformLoadSchedule_NonConformLoadGroup_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_NonConformLoadSchedule_NonConformLoadGroup_feature", "_UI_NonConformLoadSchedule_type" ),
-                CimPackage.eINSTANCE.getNonConformLoadSchedule_NonConformLoadGroup(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getNonConformLoadSchedule_NonConformLoadGroup(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -115,7 +121,6 @@ public class NonConformLoadScheduleItemProvider extends SeasonDayTypeScheduleIte
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

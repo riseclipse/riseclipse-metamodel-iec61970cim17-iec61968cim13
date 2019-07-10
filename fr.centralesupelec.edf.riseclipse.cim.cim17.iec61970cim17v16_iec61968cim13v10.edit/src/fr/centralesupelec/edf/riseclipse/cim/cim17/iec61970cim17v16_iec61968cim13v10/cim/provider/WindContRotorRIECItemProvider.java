@@ -85,11 +85,17 @@ public class WindContRotorRIECItemProvider extends IdentifiedObjectItemProvider 
     protected void addKirrPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContRotorRIEC_kirr_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContRotorRIEC_kirr_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContRotorRIEC_kirr_feature",
                                 "_UI_WindContRotorRIEC_type" ),
-                        CimPackage.eINSTANCE.getWindContRotorRIEC_Kirr(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContRotorRIEC_Kirr(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -101,11 +107,17 @@ public class WindContRotorRIECItemProvider extends IdentifiedObjectItemProvider 
     protected void addKomegafiltPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContRotorRIEC_komegafilt_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContRotorRIEC_komegafilt_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContRotorRIEC_komegafilt_feature",
                                 "_UI_WindContRotorRIEC_type" ),
-                        CimPackage.eINSTANCE.getWindContRotorRIEC_Komegafilt(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContRotorRIEC_Komegafilt(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -117,11 +129,17 @@ public class WindContRotorRIECItemProvider extends IdentifiedObjectItemProvider 
     protected void addKpfiltPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContRotorRIEC_kpfilt_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContRotorRIEC_kpfilt_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContRotorRIEC_kpfilt_feature",
                                 "_UI_WindContRotorRIEC_type" ),
-                        CimPackage.eINSTANCE.getWindContRotorRIEC_Kpfilt(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContRotorRIEC_Kpfilt(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -133,11 +151,17 @@ public class WindContRotorRIECItemProvider extends IdentifiedObjectItemProvider 
     protected void addKprrPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContRotorRIEC_kprr_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContRotorRIEC_kprr_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContRotorRIEC_kprr_feature",
                                 "_UI_WindContRotorRIEC_type" ),
-                        CimPackage.eINSTANCE.getWindContRotorRIEC_Kprr(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContRotorRIEC_Kprr(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -149,11 +173,17 @@ public class WindContRotorRIECItemProvider extends IdentifiedObjectItemProvider 
     protected void addRmaxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContRotorRIEC_rmax_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContRotorRIEC_rmax_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContRotorRIEC_rmax_feature",
                                 "_UI_WindContRotorRIEC_type" ),
-                        CimPackage.eINSTANCE.getWindContRotorRIEC_Rmax(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContRotorRIEC_Rmax(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -165,11 +195,17 @@ public class WindContRotorRIECItemProvider extends IdentifiedObjectItemProvider 
     protected void addRminPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContRotorRIEC_rmin_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContRotorRIEC_rmin_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContRotorRIEC_rmin_feature",
                                 "_UI_WindContRotorRIEC_type" ),
-                        CimPackage.eINSTANCE.getWindContRotorRIEC_Rmin(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContRotorRIEC_Rmin(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -179,13 +215,19 @@ public class WindContRotorRIECItemProvider extends IdentifiedObjectItemProvider 
      * @generated
      */
     protected void addTomegafiltrrPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindContRotorRIEC_tomegafiltrr_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_WindContRotorRIEC_tomegafiltrr_feature",
-                        "_UI_WindContRotorRIEC_type" ),
-                CimPackage.eINSTANCE.getWindContRotorRIEC_Tomegafiltrr(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindContRotorRIEC_tomegafiltrr_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_WindContRotorRIEC_tomegafiltrr_feature",
+                                "_UI_WindContRotorRIEC_type" ),
+                        CimPackage.eINSTANCE.getWindContRotorRIEC_Tomegafiltrr(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -197,11 +239,17 @@ public class WindContRotorRIECItemProvider extends IdentifiedObjectItemProvider 
     protected void addTpfiltrrPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContRotorRIEC_tpfiltrr_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContRotorRIEC_tpfiltrr_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContRotorRIEC_tpfiltrr_feature",
                                 "_UI_WindContRotorRIEC_type" ),
-                        CimPackage.eINSTANCE.getWindContRotorRIEC_Tpfiltrr(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContRotorRIEC_Tpfiltrr(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -213,11 +261,17 @@ public class WindContRotorRIECItemProvider extends IdentifiedObjectItemProvider 
     protected void addWindGenTurbineType2IECPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContRotorRIEC_WindGenTurbineType2IEC_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContRotorRIEC_WindGenTurbineType2IEC_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_WindContRotorRIEC_WindGenTurbineType2IEC_feature", "_UI_WindContRotorRIEC_type" ),
-                        CimPackage.eINSTANCE.getWindContRotorRIEC_WindGenTurbineType2IEC(), true, false, true, null,
-                        null, null ) );
+                        CimPackage.eINSTANCE.getWindContRotorRIEC_WindGenTurbineType2IEC(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -229,11 +283,17 @@ public class WindContRotorRIECItemProvider extends IdentifiedObjectItemProvider 
     protected void addWindDynamicsLookupTablePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContRotorRIEC_WindDynamicsLookupTable_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContRotorRIEC_WindDynamicsLookupTable_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_WindContRotorRIEC_WindDynamicsLookupTable_feature", "_UI_WindContRotorRIEC_type" ),
-                        CimPackage.eINSTANCE.getWindContRotorRIEC_WindDynamicsLookupTable(), true, false, true, null,
-                        null, null ) );
+                        CimPackage.eINSTANCE.getWindContRotorRIEC_WindDynamicsLookupTable(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

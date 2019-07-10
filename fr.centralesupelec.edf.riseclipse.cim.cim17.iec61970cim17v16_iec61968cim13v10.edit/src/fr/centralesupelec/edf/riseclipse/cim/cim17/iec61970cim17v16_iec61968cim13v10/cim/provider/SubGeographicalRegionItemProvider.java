@@ -77,10 +77,17 @@ public class SubGeographicalRegionItemProvider extends IdentifiedObjectItemProvi
     protected void addLinesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SubGeographicalRegion_Lines_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SubGeographicalRegion_Lines_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SubGeographicalRegion_Lines_feature",
                                 "_UI_SubGeographicalRegion_type" ),
-                        CimPackage.eINSTANCE.getSubGeographicalRegion_Lines(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSubGeographicalRegion_Lines(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -90,12 +97,19 @@ public class SubGeographicalRegionItemProvider extends IdentifiedObjectItemProvi
      * @generated
      */
     protected void addSubstationsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SubGeographicalRegion_Substations_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SubGeographicalRegion_Substations_feature",
-                        "_UI_SubGeographicalRegion_type" ),
-                CimPackage.eINSTANCE.getSubGeographicalRegion_Substations(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SubGeographicalRegion_Substations_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_SubGeographicalRegion_Substations_feature", "_UI_SubGeographicalRegion_type" ),
+                        CimPackage.eINSTANCE.getSubGeographicalRegion_Substations(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -105,12 +119,19 @@ public class SubGeographicalRegionItemProvider extends IdentifiedObjectItemProvi
      * @generated
      */
     protected void addDCLinesPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SubGeographicalRegion_DCLines_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SubGeographicalRegion_DCLines_feature",
-                        "_UI_SubGeographicalRegion_type" ),
-                CimPackage.eINSTANCE.getSubGeographicalRegion_DCLines(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SubGeographicalRegion_DCLines_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_SubGeographicalRegion_DCLines_feature",
+                                "_UI_SubGeographicalRegion_type" ),
+                        CimPackage.eINSTANCE.getSubGeographicalRegion_DCLines(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -122,10 +143,17 @@ public class SubGeographicalRegionItemProvider extends IdentifiedObjectItemProvi
     protected void addRegionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SubGeographicalRegion_Region_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SubGeographicalRegion_Region_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SubGeographicalRegion_Region_feature",
                                 "_UI_SubGeographicalRegion_type" ),
-                        CimPackage.eINSTANCE.getSubGeographicalRegion_Region(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSubGeographicalRegion_Region(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -162,7 +190,6 @@ public class SubGeographicalRegionItemProvider extends IdentifiedObjectItemProvi
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

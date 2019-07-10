@@ -73,12 +73,19 @@ public class DERGroupDispatchItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addDERCapabilitiesPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_DERGroupDispatch_DERCapabilities_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_DERGroupDispatch_DERCapabilities_feature",
-                        "_UI_DERGroupDispatch_type" ),
-                CimPackage.eINSTANCE.getDERGroupDispatch_DERCapabilities(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_DERGroupDispatch_DERCapabilities_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_DERGroupDispatch_DERCapabilities_feature",
+                                "_UI_DERGroupDispatch_type" ),
+                        CimPackage.eINSTANCE.getDERGroupDispatch_DERCapabilities(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -88,12 +95,19 @@ public class DERGroupDispatchItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addEndDeviceGroupPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_DERGroupDispatch_EndDeviceGroup_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_DERGroupDispatch_EndDeviceGroup_feature",
-                        "_UI_DERGroupDispatch_type" ),
-                CimPackage.eINSTANCE.getDERGroupDispatch_EndDeviceGroup(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_DERGroupDispatch_EndDeviceGroup_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_DERGroupDispatch_EndDeviceGroup_feature",
+                                "_UI_DERGroupDispatch_type" ),
+                        CimPackage.eINSTANCE.getDERGroupDispatch_EndDeviceGroup(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -130,7 +144,6 @@ public class DERGroupDispatchItemProvider extends IdentifiedObjectItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

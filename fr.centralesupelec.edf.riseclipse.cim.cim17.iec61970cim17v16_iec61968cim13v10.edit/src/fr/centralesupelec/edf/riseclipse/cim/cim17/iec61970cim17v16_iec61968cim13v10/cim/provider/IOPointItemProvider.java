@@ -75,10 +75,17 @@ public class IOPointItemProvider extends IdentifiedObjectItemProvider {
     protected void addIOPointSourcePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_IOPoint_IOPointSource_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_IOPoint_IOPointSource_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_IOPoint_IOPointSource_feature",
                                 "_UI_IOPoint_type" ),
-                        CimPackage.eINSTANCE.getIOPoint_IOPointSource(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getIOPoint_IOPointSource(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -90,10 +97,17 @@ public class IOPointItemProvider extends IdentifiedObjectItemProvider {
     protected void addBilateralToIOPointPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_IOPoint_BilateralToIOPoint_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_IOPoint_BilateralToIOPoint_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_IOPoint_BilateralToIOPoint_feature",
                                 "_UI_IOPoint_type" ),
-                        CimPackage.eINSTANCE.getIOPoint_BilateralToIOPoint(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getIOPoint_BilateralToIOPoint(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -130,7 +144,6 @@ public class IOPointItemProvider extends IdentifiedObjectItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

@@ -96,7 +96,6 @@ public class DocumentPersonRoleItemProvider extends PersonRoleItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

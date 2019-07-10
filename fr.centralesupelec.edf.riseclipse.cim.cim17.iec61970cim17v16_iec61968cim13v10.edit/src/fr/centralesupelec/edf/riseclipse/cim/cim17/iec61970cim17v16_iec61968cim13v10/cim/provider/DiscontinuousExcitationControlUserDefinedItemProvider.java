@@ -76,14 +76,20 @@ public class DiscontinuousExcitationControlUserDefinedItemProvider
      * @generated
      */
     protected void addProprietaryPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_DiscontinuousExcitationControlUserDefined_proprietary_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_DiscontinuousExcitationControlUserDefined_proprietary_feature",
-                        "_UI_DiscontinuousExcitationControlUserDefined_type" ),
-                CimPackage.eINSTANCE.getDiscontinuousExcitationControlUserDefined_Proprietary(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_DiscontinuousExcitationControlUserDefined_proprietary_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_DiscontinuousExcitationControlUserDefined_proprietary_feature",
+                                "_UI_DiscontinuousExcitationControlUserDefined_type" ),
+                        CimPackage.eINSTANCE.getDiscontinuousExcitationControlUserDefined_Proprietary(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,13 +100,19 @@ public class DiscontinuousExcitationControlUserDefinedItemProvider
      */
     protected void addProprietaryParameterDynamicsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_DiscontinuousExcitationControlUserDefined_ProprietaryParameterDynamics_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_DiscontinuousExcitationControlUserDefined_ProprietaryParameterDynamics_feature",
                         "_UI_DiscontinuousExcitationControlUserDefined_type" ),
-                CimPackage.eINSTANCE.getDiscontinuousExcitationControlUserDefined_ProprietaryParameterDynamics(), true,
-                false, true, null, null, null ) );
+                CimPackage.eINSTANCE.getDiscontinuousExcitationControlUserDefined_ProprietaryParameterDynamics(),
+                true,
+                false,
+                true,
+                null,
+                null,
+                null ) );
     }
 
     /**

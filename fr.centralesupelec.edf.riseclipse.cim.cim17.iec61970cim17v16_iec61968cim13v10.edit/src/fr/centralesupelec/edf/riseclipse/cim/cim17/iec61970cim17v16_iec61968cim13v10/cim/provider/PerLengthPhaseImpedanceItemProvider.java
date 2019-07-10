@@ -76,12 +76,18 @@ public class PerLengthPhaseImpedanceItemProvider extends PerLengthImpedanceItemP
      */
     protected void addConductorCountPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_PerLengthPhaseImpedance_conductorCount_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_PerLengthPhaseImpedance_conductorCount_feature",
                         "_UI_PerLengthPhaseImpedance_type" ),
-                CimPackage.eINSTANCE.getPerLengthPhaseImpedance_ConductorCount(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getPerLengthPhaseImpedance_ConductorCount(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -92,11 +98,17 @@ public class PerLengthPhaseImpedanceItemProvider extends PerLengthImpedanceItemP
      */
     protected void addPhaseImpedanceDataPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_PerLengthPhaseImpedance_PhaseImpedanceData_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_PerLengthPhaseImpedance_PhaseImpedanceData_feature", "_UI_PerLengthPhaseImpedance_type" ),
-                CimPackage.eINSTANCE.getPerLengthPhaseImpedance_PhaseImpedanceData(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getPerLengthPhaseImpedance_PhaseImpedanceData(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 

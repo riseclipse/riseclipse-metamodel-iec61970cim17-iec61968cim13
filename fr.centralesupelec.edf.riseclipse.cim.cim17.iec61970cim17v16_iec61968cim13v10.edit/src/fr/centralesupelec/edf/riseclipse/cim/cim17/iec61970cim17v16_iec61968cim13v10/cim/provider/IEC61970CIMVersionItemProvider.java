@@ -77,11 +77,17 @@ public class IEC61970CIMVersionItemProvider extends CimObjectWithIDItemProvider 
     protected void addDatePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_IEC61970CIMVersion_date_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_IEC61970CIMVersion_date_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_IEC61970CIMVersion_date_feature",
                                 "_UI_IEC61970CIMVersion_type" ),
-                        CimPackage.eINSTANCE.getIEC61970CIMVersion_Date(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getIEC61970CIMVersion_Date(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,11 +99,17 @@ public class IEC61970CIMVersionItemProvider extends CimObjectWithIDItemProvider 
     protected void addVersionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_IEC61970CIMVersion_version_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_IEC61970CIMVersion_version_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_IEC61970CIMVersion_version_feature",
                                 "_UI_IEC61970CIMVersion_type" ),
-                        CimPackage.eINSTANCE.getIEC61970CIMVersion_Version(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getIEC61970CIMVersion_Version(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

@@ -75,11 +75,17 @@ public class TransformerTankInfoItemProvider extends AssetInfoItemProvider {
     protected void addTransformerEndInfosPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TransformerTankInfo_TransformerEndInfos_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerTankInfo_TransformerEndInfos_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_TransformerTankInfo_TransformerEndInfos_feature", "_UI_TransformerTankInfo_type" ),
-                        CimPackage.eINSTANCE.getTransformerTankInfo_TransformerEndInfos(), true, false, true, null,
-                        null, null ) );
+                        CimPackage.eINSTANCE.getTransformerTankInfo_TransformerEndInfos(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -90,11 +96,17 @@ public class TransformerTankInfoItemProvider extends AssetInfoItemProvider {
      */
     protected void addPowerTransformerInfoPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_TransformerTankInfo_PowerTransformerInfo_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_TransformerTankInfo_PowerTransformerInfo_feature",
                         "_UI_TransformerTankInfo_type" ),
-                CimPackage.eINSTANCE.getTransformerTankInfo_PowerTransformerInfo(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getTransformerTankInfo_PowerTransformerInfo(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -132,7 +144,6 @@ public class TransformerTankInfoItemProvider extends AssetInfoItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

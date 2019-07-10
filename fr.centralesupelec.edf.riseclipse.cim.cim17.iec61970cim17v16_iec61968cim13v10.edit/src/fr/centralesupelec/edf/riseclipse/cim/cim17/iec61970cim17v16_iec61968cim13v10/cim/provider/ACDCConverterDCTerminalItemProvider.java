@@ -77,11 +77,17 @@ public class ACDCConverterDCTerminalItemProvider extends DCBaseTerminalItemProvi
     protected void addPolarityPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ACDCConverterDCTerminal_polarity_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ACDCConverterDCTerminal_polarity_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ACDCConverterDCTerminal_polarity_feature",
                                 "_UI_ACDCConverterDCTerminal_type" ),
-                        CimPackage.eINSTANCE.getACDCConverterDCTerminal_Polarity(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getACDCConverterDCTerminal_Polarity(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,12 +99,18 @@ public class ACDCConverterDCTerminalItemProvider extends DCBaseTerminalItemProvi
     protected void addDCConductingEquipmentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ACDCConverterDCTerminal_DCConductingEquipment_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ACDCConverterDCTerminal_DCConductingEquipment_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_ACDCConverterDCTerminal_DCConductingEquipment_feature",
                                 "_UI_ACDCConverterDCTerminal_type" ),
-                        CimPackage.eINSTANCE.getACDCConverterDCTerminal_DCConductingEquipment(), true, false, true,
-                        null, null, null ) );
+                        CimPackage.eINSTANCE.getACDCConverterDCTerminal_DCConductingEquipment(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

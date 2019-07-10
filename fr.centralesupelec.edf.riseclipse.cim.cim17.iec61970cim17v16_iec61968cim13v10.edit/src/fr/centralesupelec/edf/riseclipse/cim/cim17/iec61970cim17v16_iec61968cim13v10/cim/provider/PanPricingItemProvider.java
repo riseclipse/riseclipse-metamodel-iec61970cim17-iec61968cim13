@@ -77,11 +77,17 @@ public class PanPricingItemProvider extends EndDeviceActionItemProvider {
     protected void addProviderIDPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PanPricing_providerID_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PanPricing_providerID_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PanPricing_providerID_feature",
                                 "_UI_PanPricing_type" ),
-                        CimPackage.eINSTANCE.getPanPricing_ProviderID(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPanPricing_ProviderID(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,10 +99,17 @@ public class PanPricingItemProvider extends EndDeviceActionItemProvider {
     protected void addPanPricingDetailsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PanPricing_PanPricingDetails_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PanPricing_PanPricingDetails_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PanPricing_PanPricingDetails_feature",
                                 "_UI_PanPricing_type" ),
-                        CimPackage.eINSTANCE.getPanPricing_PanPricingDetails(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getPanPricing_PanPricingDetails(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

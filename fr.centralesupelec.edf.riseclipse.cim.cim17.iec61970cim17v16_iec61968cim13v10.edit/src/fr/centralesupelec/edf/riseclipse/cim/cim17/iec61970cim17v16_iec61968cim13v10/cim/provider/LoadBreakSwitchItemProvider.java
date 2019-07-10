@@ -96,7 +96,6 @@ public class LoadBreakSwitchItemProvider extends ProtectedSwitchItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

@@ -74,10 +74,17 @@ public class WorkLocationItemProvider extends LocationItemProvider {
     protected void addBaseWorksPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WorkLocation_BaseWorks_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WorkLocation_BaseWorks_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WorkLocation_BaseWorks_feature",
                                 "_UI_WorkLocation_type" ),
-                        CimPackage.eINSTANCE.getWorkLocation_BaseWorks(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getWorkLocation_BaseWorks(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class WorkLocationItemProvider extends LocationItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**
@@ -140,10 +146,10 @@ public class WorkLocationItemProvider extends LocationItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getLocation_MainAddress()
-                || childFeature == CimPackage.eINSTANCE.getLocation_SecondaryAddress()
-                || childFeature == CimPackage.eINSTANCE.getLocation_Phone1()
-                || childFeature == CimPackage.eINSTANCE.getLocation_Phone2();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getLocation_MainAddress() ||
+                childFeature == CimPackage.eINSTANCE.getLocation_SecondaryAddress() ||
+                childFeature == CimPackage.eINSTANCE.getLocation_Phone1() ||
+                childFeature == CimPackage.eINSTANCE.getLocation_Phone2();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

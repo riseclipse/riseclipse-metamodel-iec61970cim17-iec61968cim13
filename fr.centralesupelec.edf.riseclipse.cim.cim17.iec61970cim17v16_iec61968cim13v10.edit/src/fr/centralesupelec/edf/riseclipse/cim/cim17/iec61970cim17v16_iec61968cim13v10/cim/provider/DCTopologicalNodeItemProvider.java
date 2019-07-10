@@ -77,10 +77,17 @@ public class DCTopologicalNodeItemProvider extends IdentifiedObjectItemProvider 
     protected void addDCNodesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DCTopologicalNode_DCNodes_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DCTopologicalNode_DCNodes_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DCTopologicalNode_DCNodes_feature",
                                 "_UI_DCTopologicalNode_type" ),
-                        CimPackage.eINSTANCE.getDCTopologicalNode_DCNodes(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getDCTopologicalNode_DCNodes(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -92,10 +99,16 @@ public class DCTopologicalNodeItemProvider extends IdentifiedObjectItemProvider 
     protected void addDCTerminalsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DCTopologicalNode_DCTerminals_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DCTopologicalNode_DCTerminals_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DCTopologicalNode_DCTerminals_feature",
                                 "_UI_DCTopologicalNode_type" ),
-                        CimPackage.eINSTANCE.getDCTopologicalNode_DCTerminals(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getDCTopologicalNode_DCTerminals(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -106,13 +119,19 @@ public class DCTopologicalNodeItemProvider extends IdentifiedObjectItemProvider 
      * @generated
      */
     protected void addDCTopologicalIslandPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_DCTopologicalNode_DCTopologicalIsland_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_DCTopologicalNode_DCTopologicalIsland_feature",
-                        "_UI_DCTopologicalNode_type" ),
-                CimPackage.eINSTANCE.getDCTopologicalNode_DCTopologicalIsland(), true, false, true, null, null,
-                null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_DCTopologicalNode_DCTopologicalIsland_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_DCTopologicalNode_DCTopologicalIsland_feature", "_UI_DCTopologicalNode_type" ),
+                        CimPackage.eINSTANCE.getDCTopologicalNode_DCTopologicalIsland(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -124,10 +143,16 @@ public class DCTopologicalNodeItemProvider extends IdentifiedObjectItemProvider 
     protected void addDCEquipmentContainerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DCTopologicalNode_DCEquipmentContainer_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DCTopologicalNode_DCEquipmentContainer_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_DCTopologicalNode_DCEquipmentContainer_feature", "_UI_DCTopologicalNode_type" ),
-                        CimPackage.eINSTANCE.getDCTopologicalNode_DCEquipmentContainer(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getDCTopologicalNode_DCEquipmentContainer(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -165,7 +190,6 @@ public class DCTopologicalNodeItemProvider extends IdentifiedObjectItemProvider 
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

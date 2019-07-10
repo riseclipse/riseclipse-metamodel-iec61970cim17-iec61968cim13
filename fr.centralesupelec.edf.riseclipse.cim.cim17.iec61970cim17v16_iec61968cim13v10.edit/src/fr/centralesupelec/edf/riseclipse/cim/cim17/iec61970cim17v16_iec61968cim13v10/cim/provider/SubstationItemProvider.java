@@ -77,10 +77,17 @@ public class SubstationItemProvider extends EquipmentContainerItemProvider {
     protected void addRegionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Substation_Region_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Substation_Region_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Substation_Region_feature",
                                 "_UI_Substation_type" ),
-                        CimPackage.eINSTANCE.getSubstation_Region(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSubstation_Region(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -92,10 +99,17 @@ public class SubstationItemProvider extends EquipmentContainerItemProvider {
     protected void addDCConverterUnitPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Substation_DCConverterUnit_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Substation_DCConverterUnit_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Substation_DCConverterUnit_feature",
                                 "_UI_Substation_type" ),
-                        CimPackage.eINSTANCE.getSubstation_DCConverterUnit(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSubstation_DCConverterUnit(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -107,10 +121,17 @@ public class SubstationItemProvider extends EquipmentContainerItemProvider {
     protected void addVoltageLevelsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Substation_VoltageLevels_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Substation_VoltageLevels_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Substation_VoltageLevels_feature",
                                 "_UI_Substation_type" ),
-                        CimPackage.eINSTANCE.getSubstation_VoltageLevels(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSubstation_VoltageLevels(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -122,10 +143,17 @@ public class SubstationItemProvider extends EquipmentContainerItemProvider {
     protected void addBaysPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Substation_Bays_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Substation_Bays_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Substation_Bays_feature",
                                 "_UI_Substation_type" ),
-                        CimPackage.eINSTANCE.getSubstation_Bays(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSubstation_Bays(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -162,7 +190,6 @@ public class SubstationItemProvider extends EquipmentContainerItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

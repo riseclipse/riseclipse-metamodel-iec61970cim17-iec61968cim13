@@ -75,13 +75,19 @@ public class WindPlantUserDefinedItemProvider extends WindPlantDynamicsItemProvi
      * @generated
      */
     protected void addProprietaryPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindPlantUserDefined_proprietary_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_WindPlantUserDefined_proprietary_feature",
-                        "_UI_WindPlantUserDefined_type" ),
-                CimPackage.eINSTANCE.getWindPlantUserDefined_Proprietary(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindPlantUserDefined_proprietary_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_WindPlantUserDefined_proprietary_feature",
+                                "_UI_WindPlantUserDefined_type" ),
+                        CimPackage.eINSTANCE.getWindPlantUserDefined_Proprietary(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -91,14 +97,20 @@ public class WindPlantUserDefinedItemProvider extends WindPlantDynamicsItemProvi
      * @generated
      */
     protected void addProprietaryParameterDynamicsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindPlantUserDefined_ProprietaryParameterDynamics_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_WindPlantUserDefined_ProprietaryParameterDynamics_feature",
-                        "_UI_WindPlantUserDefined_type" ),
-                CimPackage.eINSTANCE.getWindPlantUserDefined_ProprietaryParameterDynamics(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindPlantUserDefined_ProprietaryParameterDynamics_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_WindPlantUserDefined_ProprietaryParameterDynamics_feature",
+                                "_UI_WindPlantUserDefined_type" ),
+                        CimPackage.eINSTANCE.getWindPlantUserDefined_ProprietaryParameterDynamics(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

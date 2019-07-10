@@ -78,11 +78,17 @@ public class TagActionItemProvider extends SwitchingStepItemProvider {
     protected void addKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TagAction_kind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TagAction_kind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TagAction_kind_feature",
                                 "_UI_TagAction_type" ),
-                        CimPackage.eINSTANCE.getTagAction_Kind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTagAction_Kind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,10 +100,17 @@ public class TagActionItemProvider extends SwitchingStepItemProvider {
     protected void addSwitchingStepGroupPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TagAction_SwitchingStepGroup_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TagAction_SwitchingStepGroup_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TagAction_SwitchingStepGroup_feature",
                                 "_UI_TagAction_type" ),
-                        CimPackage.eINSTANCE.getTagAction_SwitchingStepGroup(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTagAction_SwitchingStepGroup(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -109,10 +122,17 @@ public class TagActionItemProvider extends SwitchingStepItemProvider {
     protected void addOperationalTagPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TagAction_OperationalTag_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TagAction_OperationalTag_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TagAction_OperationalTag_feature",
                                 "_UI_TagAction_type" ),
-                        CimPackage.eINSTANCE.getTagAction_OperationalTag(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTagAction_OperationalTag(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

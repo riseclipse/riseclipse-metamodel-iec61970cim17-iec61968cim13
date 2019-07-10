@@ -81,11 +81,17 @@ public class BaseVoltageItemProvider extends IdentifiedObjectItemProvider {
     protected void addNominalVoltagePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_BaseVoltage_nominalVoltage_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_BaseVoltage_nominalVoltage_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_BaseVoltage_nominalVoltage_feature",
                                 "_UI_BaseVoltage_type" ),
-                        CimPackage.eINSTANCE.getBaseVoltage_NominalVoltage(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getBaseVoltage_NominalVoltage(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -97,10 +103,17 @@ public class BaseVoltageItemProvider extends IdentifiedObjectItemProvider {
     protected void addVoltageLevelPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_BaseVoltage_VoltageLevel_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_BaseVoltage_VoltageLevel_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_BaseVoltage_VoltageLevel_feature",
                                 "_UI_BaseVoltage_type" ),
-                        CimPackage.eINSTANCE.getBaseVoltage_VoltageLevel(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getBaseVoltage_VoltageLevel(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -112,10 +125,17 @@ public class BaseVoltageItemProvider extends IdentifiedObjectItemProvider {
     protected void addTopologicalNodePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_BaseVoltage_TopologicalNode_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_BaseVoltage_TopologicalNode_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_BaseVoltage_TopologicalNode_feature",
                                 "_UI_BaseVoltage_type" ),
-                        CimPackage.eINSTANCE.getBaseVoltage_TopologicalNode(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getBaseVoltage_TopologicalNode(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -127,10 +147,17 @@ public class BaseVoltageItemProvider extends IdentifiedObjectItemProvider {
     protected void addTransformerEndsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_BaseVoltage_TransformerEnds_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_BaseVoltage_TransformerEnds_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_BaseVoltage_TransformerEnds_feature",
                                 "_UI_BaseVoltage_type" ),
-                        CimPackage.eINSTANCE.getBaseVoltage_TransformerEnds(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getBaseVoltage_TransformerEnds(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -140,12 +167,19 @@ public class BaseVoltageItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addNetworkAssetDeploymentPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_BaseVoltage_NetworkAssetDeployment_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_BaseVoltage_NetworkAssetDeployment_feature",
-                        "_UI_BaseVoltage_type" ),
-                CimPackage.eINSTANCE.getBaseVoltage_NetworkAssetDeployment(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_BaseVoltage_NetworkAssetDeployment_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_BaseVoltage_NetworkAssetDeployment_feature", "_UI_BaseVoltage_type" ),
+                        CimPackage.eINSTANCE.getBaseVoltage_NetworkAssetDeployment(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -157,10 +191,16 @@ public class BaseVoltageItemProvider extends IdentifiedObjectItemProvider {
     protected void addConductingEquipmentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_BaseVoltage_ConductingEquipment_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_BaseVoltage_ConductingEquipment_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_BaseVoltage_ConductingEquipment_feature",
                                 "_UI_BaseVoltage_type" ),
-                        CimPackage.eINSTANCE.getBaseVoltage_ConductingEquipment(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getBaseVoltage_ConductingEquipment(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 

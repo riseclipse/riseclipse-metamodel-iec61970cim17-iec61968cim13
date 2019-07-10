@@ -89,11 +89,17 @@ public class PowerElectronicsConnectionItemProvider extends RegulatingCondEqItem
     protected void addMaxQPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PowerElectronicsConnection_maxQ_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PowerElectronicsConnection_maxQ_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PowerElectronicsConnection_maxQ_feature",
                                 "_UI_PowerElectronicsConnection_type" ),
-                        CimPackage.eINSTANCE.getPowerElectronicsConnection_MaxQ(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPowerElectronicsConnection_MaxQ(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -105,11 +111,17 @@ public class PowerElectronicsConnectionItemProvider extends RegulatingCondEqItem
     protected void addMinQPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PowerElectronicsConnection_minQ_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PowerElectronicsConnection_minQ_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PowerElectronicsConnection_minQ_feature",
                                 "_UI_PowerElectronicsConnection_type" ),
-                        CimPackage.eINSTANCE.getPowerElectronicsConnection_MinQ(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPowerElectronicsConnection_MinQ(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -119,13 +131,19 @@ public class PowerElectronicsConnectionItemProvider extends RegulatingCondEqItem
      * @generated
      */
     protected void addPPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PowerElectronicsConnection_p_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PowerElectronicsConnection_p_feature",
-                        "_UI_PowerElectronicsConnection_type" ),
-                CimPackage.eINSTANCE.getPowerElectronicsConnection_P(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PowerElectronicsConnection_p_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_PowerElectronicsConnection_p_feature",
+                                "_UI_PowerElectronicsConnection_type" ),
+                        CimPackage.eINSTANCE.getPowerElectronicsConnection_P(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -135,13 +153,19 @@ public class PowerElectronicsConnectionItemProvider extends RegulatingCondEqItem
      * @generated
      */
     protected void addQPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PowerElectronicsConnection_q_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PowerElectronicsConnection_q_feature",
-                        "_UI_PowerElectronicsConnection_type" ),
-                CimPackage.eINSTANCE.getPowerElectronicsConnection_Q(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PowerElectronicsConnection_q_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_PowerElectronicsConnection_q_feature",
+                                "_UI_PowerElectronicsConnection_type" ),
+                        CimPackage.eINSTANCE.getPowerElectronicsConnection_Q(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -151,13 +175,19 @@ public class PowerElectronicsConnectionItemProvider extends RegulatingCondEqItem
      * @generated
      */
     protected void addRPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PowerElectronicsConnection_r_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PowerElectronicsConnection_r_feature",
-                        "_UI_PowerElectronicsConnection_type" ),
-                CimPackage.eINSTANCE.getPowerElectronicsConnection_R(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PowerElectronicsConnection_r_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_PowerElectronicsConnection_r_feature",
+                                "_UI_PowerElectronicsConnection_type" ),
+                        CimPackage.eINSTANCE.getPowerElectronicsConnection_R(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -169,11 +199,17 @@ public class PowerElectronicsConnectionItemProvider extends RegulatingCondEqItem
     protected void addR0PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PowerElectronicsConnection_r0_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PowerElectronicsConnection_r0_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PowerElectronicsConnection_r0_feature",
                                 "_UI_PowerElectronicsConnection_type" ),
-                        CimPackage.eINSTANCE.getPowerElectronicsConnection_R0(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPowerElectronicsConnection_R0(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -184,12 +220,18 @@ public class PowerElectronicsConnectionItemProvider extends RegulatingCondEqItem
      */
     protected void addRatedSPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_PowerElectronicsConnection_ratedS_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_PowerElectronicsConnection_ratedS_feature",
                         "_UI_PowerElectronicsConnection_type" ),
-                CimPackage.eINSTANCE.getPowerElectronicsConnection_RatedS(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getPowerElectronicsConnection_RatedS(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -200,12 +242,18 @@ public class PowerElectronicsConnectionItemProvider extends RegulatingCondEqItem
      */
     protected void addRatedUPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_PowerElectronicsConnection_ratedU_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_PowerElectronicsConnection_ratedU_feature",
                         "_UI_PowerElectronicsConnection_type" ),
-                CimPackage.eINSTANCE.getPowerElectronicsConnection_RatedU(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getPowerElectronicsConnection_RatedU(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -217,11 +265,17 @@ public class PowerElectronicsConnectionItemProvider extends RegulatingCondEqItem
     protected void addRnPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PowerElectronicsConnection_rn_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PowerElectronicsConnection_rn_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PowerElectronicsConnection_rn_feature",
                                 "_UI_PowerElectronicsConnection_type" ),
-                        CimPackage.eINSTANCE.getPowerElectronicsConnection_Rn(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPowerElectronicsConnection_Rn(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -231,13 +285,19 @@ public class PowerElectronicsConnectionItemProvider extends RegulatingCondEqItem
      * @generated
      */
     protected void addXPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PowerElectronicsConnection_x_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PowerElectronicsConnection_x_feature",
-                        "_UI_PowerElectronicsConnection_type" ),
-                CimPackage.eINSTANCE.getPowerElectronicsConnection_X(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PowerElectronicsConnection_x_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_PowerElectronicsConnection_x_feature",
+                                "_UI_PowerElectronicsConnection_type" ),
+                        CimPackage.eINSTANCE.getPowerElectronicsConnection_X(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -249,11 +309,17 @@ public class PowerElectronicsConnectionItemProvider extends RegulatingCondEqItem
     protected void addX0PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PowerElectronicsConnection_x0_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PowerElectronicsConnection_x0_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PowerElectronicsConnection_x0_feature",
                                 "_UI_PowerElectronicsConnection_type" ),
-                        CimPackage.eINSTANCE.getPowerElectronicsConnection_X0(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPowerElectronicsConnection_X0(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -265,11 +331,17 @@ public class PowerElectronicsConnectionItemProvider extends RegulatingCondEqItem
     protected void addXnPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PowerElectronicsConnection_xn_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PowerElectronicsConnection_xn_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PowerElectronicsConnection_xn_feature",
                                 "_UI_PowerElectronicsConnection_type" ),
-                        CimPackage.eINSTANCE.getPowerElectronicsConnection_Xn(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPowerElectronicsConnection_Xn(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -281,12 +353,18 @@ public class PowerElectronicsConnectionItemProvider extends RegulatingCondEqItem
     protected void addWindTurbineType3or4PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PowerElectronicsConnection_WindTurbineType3or4_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PowerElectronicsConnection_WindTurbineType3or4_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_PowerElectronicsConnection_WindTurbineType3or4_feature",
                                 "_UI_PowerElectronicsConnection_type" ),
-                        CimPackage.eINSTANCE.getPowerElectronicsConnection_WindTurbineType3or4(), true, false, true,
-                        null, null, null ) );
+                        CimPackage.eINSTANCE.getPowerElectronicsConnection_WindTurbineType3or4(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -296,14 +374,20 @@ public class PowerElectronicsConnectionItemProvider extends RegulatingCondEqItem
      * @generated
      */
     protected void addPowerElectronicsUnitPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PowerElectronicsConnection_PowerElectronicsUnit_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_PowerElectronicsConnection_PowerElectronicsUnit_feature",
-                        "_UI_PowerElectronicsConnection_type" ),
-                CimPackage.eINSTANCE.getPowerElectronicsConnection_PowerElectronicsUnit(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PowerElectronicsConnection_PowerElectronicsUnit_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PowerElectronicsConnection_PowerElectronicsUnit_feature",
+                                "_UI_PowerElectronicsConnection_type" ),
+                        CimPackage.eINSTANCE.getPowerElectronicsConnection_PowerElectronicsUnit(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

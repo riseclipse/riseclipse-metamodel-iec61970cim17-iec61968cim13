@@ -77,11 +77,17 @@ public class StartRampCurveItemProvider extends CurveItemProvider {
     protected void addHotStandbyRampPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_StartRampCurve_hotStandbyRamp_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_StartRampCurve_hotStandbyRamp_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_StartRampCurve_hotStandbyRamp_feature",
                                 "_UI_StartRampCurve_type" ),
-                        CimPackage.eINSTANCE.getStartRampCurve_HotStandbyRamp(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getStartRampCurve_HotStandbyRamp(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,10 +99,17 @@ public class StartRampCurveItemProvider extends CurveItemProvider {
     protected void addStartupModelPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_StartRampCurve_StartupModel_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_StartRampCurve_StartupModel_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_StartRampCurve_StartupModel_feature",
                                 "_UI_StartRampCurve_type" ),
-                        CimPackage.eINSTANCE.getStartRampCurve_StartupModel(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getStartRampCurve_StartupModel(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

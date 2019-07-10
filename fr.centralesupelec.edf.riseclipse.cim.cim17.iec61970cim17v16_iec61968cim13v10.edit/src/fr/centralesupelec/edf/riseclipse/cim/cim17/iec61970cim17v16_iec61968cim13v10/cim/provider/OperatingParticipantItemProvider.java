@@ -72,12 +72,19 @@ public class OperatingParticipantItemProvider extends IdentifiedObjectItemProvid
      * @generated
      */
     protected void addOperatingSharePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_OperatingParticipant_OperatingShare_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_OperatingParticipant_OperatingShare_feature",
-                        "_UI_OperatingParticipant_type" ),
-                CimPackage.eINSTANCE.getOperatingParticipant_OperatingShare(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_OperatingParticipant_OperatingShare_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_OperatingParticipant_OperatingShare_feature", "_UI_OperatingParticipant_type" ),
+                        CimPackage.eINSTANCE.getOperatingParticipant_OperatingShare(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class OperatingParticipantItemProvider extends IdentifiedObjectItemProvid
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

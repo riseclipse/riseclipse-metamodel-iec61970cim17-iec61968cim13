@@ -77,11 +77,17 @@ public class StreetlightItemProvider extends AssetItemProvider {
     protected void addArmLengthPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Streetlight_armLength_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Streetlight_armLength_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Streetlight_armLength_feature",
                                 "_UI_Streetlight_type" ),
-                        CimPackage.eINSTANCE.getStreetlight_ArmLength(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getStreetlight_ArmLength(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,11 +99,17 @@ public class StreetlightItemProvider extends AssetItemProvider {
     protected void addLightRatingPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Streetlight_lightRating_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Streetlight_lightRating_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Streetlight_lightRating_feature",
                                 "_UI_Streetlight_type" ),
-                        CimPackage.eINSTANCE.getStreetlight_LightRating(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getStreetlight_LightRating(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

@@ -79,11 +79,17 @@ public class ComModuleItemProvider extends AssetItemProvider {
     protected void addAmrSystemPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ComModule_amrSystem_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ComModule_amrSystem_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ComModule_amrSystem_feature",
                                 "_UI_ComModule_type" ),
-                        CimPackage.eINSTANCE.getComModule_AmrSystem(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getComModule_AmrSystem(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,11 +101,17 @@ public class ComModuleItemProvider extends AssetItemProvider {
     protected void addSupportsAutonomousDstPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ComModule_supportsAutonomousDst_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ComModule_supportsAutonomousDst_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ComModule_supportsAutonomousDst_feature",
                                 "_UI_ComModule_type" ),
-                        CimPackage.eINSTANCE.getComModule_SupportsAutonomousDst(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getComModule_SupportsAutonomousDst(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,11 +123,17 @@ public class ComModuleItemProvider extends AssetItemProvider {
     protected void addTimeZoneOffsetPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ComModule_timeZoneOffset_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ComModule_timeZoneOffset_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ComModule_timeZoneOffset_feature",
                                 "_UI_ComModule_type" ),
-                        CimPackage.eINSTANCE.getComModule_TimeZoneOffset(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getComModule_TimeZoneOffset(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -127,10 +145,17 @@ public class ComModuleItemProvider extends AssetItemProvider {
     protected void addComFunctionsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ComModule_ComFunctions_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ComModule_ComFunctions_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ComModule_ComFunctions_feature",
                                 "_UI_ComModule_type" ),
-                        CimPackage.eINSTANCE.getComModule_ComFunctions(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getComModule_ComFunctions(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

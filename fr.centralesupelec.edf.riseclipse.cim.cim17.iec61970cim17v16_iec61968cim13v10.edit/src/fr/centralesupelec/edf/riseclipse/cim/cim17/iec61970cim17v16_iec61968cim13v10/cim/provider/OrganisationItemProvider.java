@@ -79,10 +79,17 @@ public class OrganisationItemProvider extends IdentifiedObjectItemProvider {
     protected void addRolesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Organisation_Roles_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Organisation_Roles_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Organisation_Roles_feature",
                                 "_UI_Organisation_type" ),
-                        CimPackage.eINSTANCE.getOrganisation_Roles(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getOrganisation_Roles(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,10 +101,16 @@ public class OrganisationItemProvider extends IdentifiedObjectItemProvider {
     protected void addParentOrganisationPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Organisation_ParentOrganisation_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Organisation_ParentOrganisation_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Organisation_ParentOrganisation_feature",
                                 "_UI_Organisation_type" ),
-                        CimPackage.eINSTANCE.getOrganisation_ParentOrganisation(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getOrganisation_ParentOrganisation(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -220,10 +233,10 @@ public class OrganisationItemProvider extends IdentifiedObjectItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getOrganisation_Phone1()
-                || childFeature == CimPackage.eINSTANCE.getOrganisation_Phone2()
-                || childFeature == CimPackage.eINSTANCE.getOrganisation_PostalAddress()
-                || childFeature == CimPackage.eINSTANCE.getOrganisation_StreetAddress();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getOrganisation_Phone1() ||
+                childFeature == CimPackage.eINSTANCE.getOrganisation_Phone2() ||
+                childFeature == CimPackage.eINSTANCE.getOrganisation_PostalAddress() ||
+                childFeature == CimPackage.eINSTANCE.getOrganisation_StreetAddress();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

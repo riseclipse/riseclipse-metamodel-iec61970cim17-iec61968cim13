@@ -83,11 +83,17 @@ public class AuxiliaryAccountItemProvider extends DocumentItemProvider {
     protected void addBalancePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AuxiliaryAccount_balance_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AuxiliaryAccount_balance_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AuxiliaryAccount_balance_feature",
                                 "_UI_AuxiliaryAccount_type" ),
-                        CimPackage.eINSTANCE.getAuxiliaryAccount_Balance(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAuxiliaryAccount_Balance(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -97,13 +103,19 @@ public class AuxiliaryAccountItemProvider extends DocumentItemProvider {
      * @generated
      */
     protected void addPrincipleAmountPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_AuxiliaryAccount_principleAmount_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_AuxiliaryAccount_principleAmount_feature",
-                        "_UI_AuxiliaryAccount_type" ),
-                CimPackage.eINSTANCE.getAuxiliaryAccount_PrincipleAmount(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_AuxiliaryAccount_principleAmount_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_AuxiliaryAccount_principleAmount_feature",
+                                "_UI_AuxiliaryAccount_type" ),
+                        CimPackage.eINSTANCE.getAuxiliaryAccount_PrincipleAmount(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -113,12 +125,19 @@ public class AuxiliaryAccountItemProvider extends DocumentItemProvider {
      * @generated
      */
     protected void addAuxiliaryAgreementPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_AuxiliaryAccount_AuxiliaryAgreement_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_AuxiliaryAccount_AuxiliaryAgreement_feature",
-                        "_UI_AuxiliaryAccount_type" ),
-                CimPackage.eINSTANCE.getAuxiliaryAccount_AuxiliaryAgreement(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_AuxiliaryAccount_AuxiliaryAgreement_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_AuxiliaryAccount_AuxiliaryAgreement_feature", "_UI_AuxiliaryAccount_type" ),
+                        CimPackage.eINSTANCE.getAuxiliaryAccount_AuxiliaryAgreement(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -128,12 +147,19 @@ public class AuxiliaryAccountItemProvider extends DocumentItemProvider {
      * @generated
      */
     protected void addPaymentTransactionsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_AuxiliaryAccount_PaymentTransactions_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_AuxiliaryAccount_PaymentTransactions_feature",
-                        "_UI_AuxiliaryAccount_type" ),
-                CimPackage.eINSTANCE.getAuxiliaryAccount_PaymentTransactions(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_AuxiliaryAccount_PaymentTransactions_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_AuxiliaryAccount_PaymentTransactions_feature", "_UI_AuxiliaryAccount_type" ),
+                        CimPackage.eINSTANCE.getAuxiliaryAccount_PaymentTransactions(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -145,10 +171,17 @@ public class AuxiliaryAccountItemProvider extends DocumentItemProvider {
     protected void addChargesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AuxiliaryAccount_Charges_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AuxiliaryAccount_Charges_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AuxiliaryAccount_Charges_feature",
                                 "_UI_AuxiliaryAccount_type" ),
-                        CimPackage.eINSTANCE.getAuxiliaryAccount_Charges(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAuxiliaryAccount_Charges(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -264,10 +297,10 @@ public class AuxiliaryAccountItemProvider extends DocumentItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status()
-                || childFeature == CimPackage.eINSTANCE.getAuxiliaryAccount_LastCredit()
-                || childFeature == CimPackage.eINSTANCE.getAuxiliaryAccount_LastDebit();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status() ||
+                childFeature == CimPackage.eINSTANCE.getAuxiliaryAccount_LastCredit() ||
+                childFeature == CimPackage.eINSTANCE.getAuxiliaryAccount_LastDebit();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

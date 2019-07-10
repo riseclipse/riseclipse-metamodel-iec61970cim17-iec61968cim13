@@ -75,10 +75,17 @@ public class SubLoadAreaItemProvider extends EnergyAreaItemProvider {
     protected void addLoadGroupsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SubLoadArea_LoadGroups_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SubLoadArea_LoadGroups_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SubLoadArea_LoadGroups_feature",
                                 "_UI_SubLoadArea_type" ),
-                        CimPackage.eINSTANCE.getSubLoadArea_LoadGroups(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSubLoadArea_LoadGroups(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -90,10 +97,17 @@ public class SubLoadAreaItemProvider extends EnergyAreaItemProvider {
     protected void addLoadAreaPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SubLoadArea_LoadArea_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SubLoadArea_LoadArea_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SubLoadArea_LoadArea_feature",
                                 "_UI_SubLoadArea_type" ),
-                        CimPackage.eINSTANCE.getSubLoadArea_LoadArea(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSubLoadArea_LoadArea(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -130,7 +144,6 @@ public class SubLoadAreaItemProvider extends EnergyAreaItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

@@ -78,11 +78,17 @@ public class WindContQLimIECItemProvider extends IdentifiedObjectItemProvider {
     protected void addQmaxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContQLimIEC_qmax_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContQLimIEC_qmax_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContQLimIEC_qmax_feature",
                                 "_UI_WindContQLimIEC_type" ),
-                        CimPackage.eINSTANCE.getWindContQLimIEC_Qmax(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContQLimIEC_Qmax(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,11 +100,17 @@ public class WindContQLimIECItemProvider extends IdentifiedObjectItemProvider {
     protected void addQminPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContQLimIEC_qmin_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContQLimIEC_qmin_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContQLimIEC_qmin_feature",
                                 "_UI_WindContQLimIEC_type" ),
-                        CimPackage.eINSTANCE.getWindContQLimIEC_Qmin(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContQLimIEC_Qmin(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -108,13 +120,19 @@ public class WindContQLimIECItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addWindTurbineType3or4IECPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindContQLimIEC_WindTurbineType3or4IEC_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_WindContQLimIEC_WindTurbineType3or4IEC_feature",
-                        "_UI_WindContQLimIEC_type" ),
-                CimPackage.eINSTANCE.getWindContQLimIEC_WindTurbineType3or4IEC(), true, false, true, null, null,
-                null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindContQLimIEC_WindTurbineType3or4IEC_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_WindContQLimIEC_WindTurbineType3or4IEC_feature", "_UI_WindContQLimIEC_type" ),
+                        CimPackage.eINSTANCE.getWindContQLimIEC_WindTurbineType3or4IEC(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

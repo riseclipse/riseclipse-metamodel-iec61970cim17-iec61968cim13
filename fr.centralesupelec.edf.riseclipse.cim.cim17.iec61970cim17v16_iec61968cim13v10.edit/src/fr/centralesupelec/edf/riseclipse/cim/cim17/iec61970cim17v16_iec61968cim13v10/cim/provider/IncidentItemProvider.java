@@ -83,11 +83,17 @@ public class IncidentItemProvider extends DocumentItemProvider {
     protected void addCausePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Incident_cause_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Incident_cause_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Incident_cause_feature",
                                 "_UI_Incident_type" ),
-                        CimPackage.eINSTANCE.getIncident_Cause(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getIncident_Cause(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -99,10 +105,17 @@ public class IncidentItemProvider extends DocumentItemProvider {
     protected void addWorksPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Incident_Works_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Incident_Works_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Incident_Works_feature",
                                 "_UI_Incident_type" ),
-                        CimPackage.eINSTANCE.getIncident_Works(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getIncident_Works(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,10 +127,17 @@ public class IncidentItemProvider extends DocumentItemProvider {
     protected void addOutagePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Incident_Outage_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Incident_Outage_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Incident_Outage_feature",
                                 "_UI_Incident_type" ),
-                        CimPackage.eINSTANCE.getIncident_Outage(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getIncident_Outage(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -129,10 +149,16 @@ public class IncidentItemProvider extends DocumentItemProvider {
     protected void addCustomerNotificationsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Incident_CustomerNotifications_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Incident_CustomerNotifications_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Incident_CustomerNotifications_feature",
                                 "_UI_Incident_type" ),
-                        CimPackage.eINSTANCE.getIncident_CustomerNotifications(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getIncident_CustomerNotifications(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -145,10 +171,17 @@ public class IncidentItemProvider extends DocumentItemProvider {
     protected void addTroubleTicketsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Incident_TroubleTickets_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Incident_TroubleTickets_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Incident_TroubleTickets_feature",
                                 "_UI_Incident_type" ),
-                        CimPackage.eINSTANCE.getIncident_TroubleTickets(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getIncident_TroubleTickets(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -160,10 +193,17 @@ public class IncidentItemProvider extends DocumentItemProvider {
     protected void addLocationPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Incident_Location_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Incident_Location_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Incident_Location_feature",
                                 "_UI_Incident_type" ),
-                        CimPackage.eINSTANCE.getIncident_Location(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getIncident_Location(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -175,10 +215,17 @@ public class IncidentItemProvider extends DocumentItemProvider {
     protected void addOwnerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Incident_Owner_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Incident_Owner_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Incident_Owner_feature",
                                 "_UI_Incident_type" ),
-                        CimPackage.eINSTANCE.getIncident_Owner(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getIncident_Owner(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -190,10 +237,17 @@ public class IncidentItemProvider extends DocumentItemProvider {
     protected void addHazardsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Incident_Hazards_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Incident_Hazards_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Incident_Hazards_feature",
                                 "_UI_Incident_type" ),
-                        CimPackage.eINSTANCE.getIncident_Hazards(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getIncident_Hazards(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -262,8 +316,8 @@ public class IncidentItemProvider extends DocumentItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

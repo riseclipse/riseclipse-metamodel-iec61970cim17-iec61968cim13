@@ -89,11 +89,17 @@ public class StatusItemProvider extends ItemProviderAdapter implements IEditingD
     protected void addDateTimePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Status_dateTime_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Status_dateTime_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Status_dateTime_feature",
                                 "_UI_Status_type" ),
-                        CimPackage.eINSTANCE.getStatus_DateTime(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getStatus_DateTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -105,11 +111,17 @@ public class StatusItemProvider extends ItemProviderAdapter implements IEditingD
     protected void addReasonPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Status_reason_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Status_reason_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Status_reason_feature",
                                 "_UI_Status_type" ),
-                        CimPackage.eINSTANCE.getStatus_Reason(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getStatus_Reason(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -121,11 +133,17 @@ public class StatusItemProvider extends ItemProviderAdapter implements IEditingD
     protected void addRemarkPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Status_remark_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Status_remark_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Status_remark_feature",
                                 "_UI_Status_type" ),
-                        CimPackage.eINSTANCE.getStatus_Remark(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getStatus_Remark(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -137,11 +155,17 @@ public class StatusItemProvider extends ItemProviderAdapter implements IEditingD
     protected void addValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Status_value_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Status_value_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Status_value_feature",
                                 "_UI_Status_type" ),
-                        CimPackage.eINSTANCE.getStatus_Value(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getStatus_Value(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

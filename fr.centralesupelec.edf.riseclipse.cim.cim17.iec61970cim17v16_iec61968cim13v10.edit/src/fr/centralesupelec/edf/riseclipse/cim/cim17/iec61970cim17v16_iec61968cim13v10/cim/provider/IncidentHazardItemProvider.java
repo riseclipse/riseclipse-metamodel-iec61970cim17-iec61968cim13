@@ -75,10 +75,17 @@ public class IncidentHazardItemProvider extends HazardItemProvider {
     protected void addIncidentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_IncidentHazard_Incident_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_IncidentHazard_Incident_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_IncidentHazard_Incident_feature",
                                 "_UI_IncidentHazard_type" ),
-                        CimPackage.eINSTANCE.getIncidentHazard_Incident(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getIncidentHazard_Incident(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -90,10 +97,17 @@ public class IncidentHazardItemProvider extends HazardItemProvider {
     protected void addTroubleTicketPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_IncidentHazard_TroubleTicket_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_IncidentHazard_TroubleTicket_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_IncidentHazard_TroubleTicket_feature",
                                 "_UI_IncidentHazard_type" ),
-                        CimPackage.eINSTANCE.getIncidentHazard_TroubleTicket(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getIncidentHazard_TroubleTicket(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -130,7 +144,6 @@ public class IncidentHazardItemProvider extends HazardItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

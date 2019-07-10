@@ -77,13 +77,19 @@ public class RatioTapChangerItemProvider extends TapChangerItemProvider {
      * @generated
      */
     protected void addStepVoltageIncrementPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_RatioTapChanger_stepVoltageIncrement_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_RatioTapChanger_stepVoltageIncrement_feature",
-                        "_UI_RatioTapChanger_type" ),
-                CimPackage.eINSTANCE.getRatioTapChanger_StepVoltageIncrement(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_RatioTapChanger_stepVoltageIncrement_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_RatioTapChanger_stepVoltageIncrement_feature", "_UI_RatioTapChanger_type" ),
+                        CimPackage.eINSTANCE.getRatioTapChanger_StepVoltageIncrement(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,11 +101,17 @@ public class RatioTapChangerItemProvider extends TapChangerItemProvider {
     protected void addTculControlModePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RatioTapChanger_tculControlMode_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RatioTapChanger_tculControlMode_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RatioTapChanger_tculControlMode_feature",
                                 "_UI_RatioTapChanger_type" ),
-                        CimPackage.eINSTANCE.getRatioTapChanger_TculControlMode(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getRatioTapChanger_TculControlMode(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,10 +123,16 @@ public class RatioTapChangerItemProvider extends TapChangerItemProvider {
     protected void addTransformerEndPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RatioTapChanger_TransformerEnd_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RatioTapChanger_TransformerEnd_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RatioTapChanger_TransformerEnd_feature",
                                 "_UI_RatioTapChanger_type" ),
-                        CimPackage.eINSTANCE.getRatioTapChanger_TransformerEnd(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getRatioTapChanger_TransformerEnd(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -125,12 +143,19 @@ public class RatioTapChangerItemProvider extends TapChangerItemProvider {
      * @generated
      */
     protected void addRatioTapChangerTablePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_RatioTapChanger_RatioTapChangerTable_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_RatioTapChanger_RatioTapChangerTable_feature",
-                        "_UI_RatioTapChanger_type" ),
-                CimPackage.eINSTANCE.getRatioTapChanger_RatioTapChangerTable(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_RatioTapChanger_RatioTapChangerTable_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_RatioTapChanger_RatioTapChangerTable_feature", "_UI_RatioTapChanger_type" ),
+                        CimPackage.eINSTANCE.getRatioTapChanger_RatioTapChangerTable(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

@@ -72,14 +72,20 @@ public class NonlinearShuntCompensatorItemProvider extends ShuntCompensatorItemP
      * @generated
      */
     protected void addNonlinearShuntCompensatorPointsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_NonlinearShuntCompensator_NonlinearShuntCompensatorPoints_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_NonlinearShuntCompensator_NonlinearShuntCompensatorPoints_feature",
-                        "_UI_NonlinearShuntCompensator_type" ),
-                CimPackage.eINSTANCE.getNonlinearShuntCompensator_NonlinearShuntCompensatorPoints(), true, false, true,
-                null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_NonlinearShuntCompensator_NonlinearShuntCompensatorPoints_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_NonlinearShuntCompensator_NonlinearShuntCompensatorPoints_feature",
+                                "_UI_NonlinearShuntCompensator_type" ),
+                        CimPackage.eINSTANCE.getNonlinearShuntCompensator_NonlinearShuntCompensatorPoints(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -116,7 +122,6 @@ public class NonlinearShuntCompensatorItemProvider extends ShuntCompensatorItemP
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

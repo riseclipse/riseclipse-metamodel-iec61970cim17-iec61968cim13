@@ -90,11 +90,17 @@ public class TapChangerInfoItemProvider extends AssetInfoItemProvider {
     protected void addBilPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TapChangerInfo_bil_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TapChangerInfo_bil_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TapChangerInfo_bil_feature",
                                 "_UI_TapChangerInfo_type" ),
-                        CimPackage.eINSTANCE.getTapChangerInfo_Bil(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTapChangerInfo_Bil(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -106,11 +112,17 @@ public class TapChangerInfoItemProvider extends AssetInfoItemProvider {
     protected void addCtRatingPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TapChangerInfo_ctRating_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TapChangerInfo_ctRating_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TapChangerInfo_ctRating_feature",
                                 "_UI_TapChangerInfo_type" ),
-                        CimPackage.eINSTANCE.getTapChangerInfo_CtRating(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTapChangerInfo_CtRating(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -122,11 +134,17 @@ public class TapChangerInfoItemProvider extends AssetInfoItemProvider {
     protected void addCtRatioPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TapChangerInfo_ctRatio_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TapChangerInfo_ctRatio_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TapChangerInfo_ctRatio_feature",
                                 "_UI_TapChangerInfo_type" ),
-                        CimPackage.eINSTANCE.getTapChangerInfo_CtRatio(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTapChangerInfo_CtRatio(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -138,11 +156,17 @@ public class TapChangerInfoItemProvider extends AssetInfoItemProvider {
     protected void addFrequencyPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TapChangerInfo_frequency_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TapChangerInfo_frequency_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TapChangerInfo_frequency_feature",
                                 "_UI_TapChangerInfo_type" ),
-                        CimPackage.eINSTANCE.getTapChangerInfo_Frequency(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTapChangerInfo_Frequency(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -154,11 +178,17 @@ public class TapChangerInfoItemProvider extends AssetInfoItemProvider {
     protected void addHighStepPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TapChangerInfo_highStep_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TapChangerInfo_highStep_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TapChangerInfo_highStep_feature",
                                 "_UI_TapChangerInfo_type" ),
-                        CimPackage.eINSTANCE.getTapChangerInfo_HighStep(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTapChangerInfo_HighStep(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -170,11 +200,17 @@ public class TapChangerInfoItemProvider extends AssetInfoItemProvider {
     protected void addIsTculPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TapChangerInfo_isTcul_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TapChangerInfo_isTcul_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TapChangerInfo_isTcul_feature",
                                 "_UI_TapChangerInfo_type" ),
-                        CimPackage.eINSTANCE.getTapChangerInfo_IsTcul(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTapChangerInfo_IsTcul(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -186,11 +222,17 @@ public class TapChangerInfoItemProvider extends AssetInfoItemProvider {
     protected void addLowStepPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TapChangerInfo_lowStep_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TapChangerInfo_lowStep_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TapChangerInfo_lowStep_feature",
                                 "_UI_TapChangerInfo_type" ),
-                        CimPackage.eINSTANCE.getTapChangerInfo_LowStep(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTapChangerInfo_LowStep(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -202,11 +244,17 @@ public class TapChangerInfoItemProvider extends AssetInfoItemProvider {
     protected void addNeutralStepPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TapChangerInfo_neutralStep_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TapChangerInfo_neutralStep_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TapChangerInfo_neutralStep_feature",
                                 "_UI_TapChangerInfo_type" ),
-                        CimPackage.eINSTANCE.getTapChangerInfo_NeutralStep(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTapChangerInfo_NeutralStep(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -218,11 +266,17 @@ public class TapChangerInfoItemProvider extends AssetInfoItemProvider {
     protected void addNeutralUPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TapChangerInfo_neutralU_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TapChangerInfo_neutralU_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TapChangerInfo_neutralU_feature",
                                 "_UI_TapChangerInfo_type" ),
-                        CimPackage.eINSTANCE.getTapChangerInfo_NeutralU(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTapChangerInfo_NeutralU(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -234,11 +288,17 @@ public class TapChangerInfoItemProvider extends AssetInfoItemProvider {
     protected void addPtRatioPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TapChangerInfo_ptRatio_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TapChangerInfo_ptRatio_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TapChangerInfo_ptRatio_feature",
                                 "_UI_TapChangerInfo_type" ),
-                        CimPackage.eINSTANCE.getTapChangerInfo_PtRatio(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTapChangerInfo_PtRatio(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -248,13 +308,19 @@ public class TapChangerInfoItemProvider extends AssetInfoItemProvider {
      * @generated
      */
     protected void addRatedApparentPowerPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TapChangerInfo_ratedApparentPower_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TapChangerInfo_ratedApparentPower_feature",
-                        "_UI_TapChangerInfo_type" ),
-                CimPackage.eINSTANCE.getTapChangerInfo_RatedApparentPower(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TapChangerInfo_ratedApparentPower_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_TapChangerInfo_ratedApparentPower_feature", "_UI_TapChangerInfo_type" ),
+                        CimPackage.eINSTANCE.getTapChangerInfo_RatedApparentPower(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -266,11 +332,17 @@ public class TapChangerInfoItemProvider extends AssetInfoItemProvider {
     protected void addRatedCurrentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TapChangerInfo_ratedCurrent_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TapChangerInfo_ratedCurrent_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TapChangerInfo_ratedCurrent_feature",
                                 "_UI_TapChangerInfo_type" ),
-                        CimPackage.eINSTANCE.getTapChangerInfo_RatedCurrent(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTapChangerInfo_RatedCurrent(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -282,11 +354,17 @@ public class TapChangerInfoItemProvider extends AssetInfoItemProvider {
     protected void addRatedVoltagePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TapChangerInfo_ratedVoltage_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TapChangerInfo_ratedVoltage_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TapChangerInfo_ratedVoltage_feature",
                                 "_UI_TapChangerInfo_type" ),
-                        CimPackage.eINSTANCE.getTapChangerInfo_RatedVoltage(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTapChangerInfo_RatedVoltage(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -296,13 +374,19 @@ public class TapChangerInfoItemProvider extends AssetInfoItemProvider {
      * @generated
      */
     protected void addStepPhaseIncrementPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TapChangerInfo_stepPhaseIncrement_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TapChangerInfo_stepPhaseIncrement_feature",
-                        "_UI_TapChangerInfo_type" ),
-                CimPackage.eINSTANCE.getTapChangerInfo_StepPhaseIncrement(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TapChangerInfo_stepPhaseIncrement_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_TapChangerInfo_stepPhaseIncrement_feature", "_UI_TapChangerInfo_type" ),
+                        CimPackage.eINSTANCE.getTapChangerInfo_StepPhaseIncrement(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -312,13 +396,19 @@ public class TapChangerInfoItemProvider extends AssetInfoItemProvider {
      * @generated
      */
     protected void addStepVoltageIncrementPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TapChangerInfo_stepVoltageIncrement_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TapChangerInfo_stepVoltageIncrement_feature",
-                        "_UI_TapChangerInfo_type" ),
-                CimPackage.eINSTANCE.getTapChangerInfo_StepVoltageIncrement(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TapChangerInfo_stepVoltageIncrement_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_TapChangerInfo_stepVoltageIncrement_feature", "_UI_TapChangerInfo_type" ),
+                        CimPackage.eINSTANCE.getTapChangerInfo_StepVoltageIncrement(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

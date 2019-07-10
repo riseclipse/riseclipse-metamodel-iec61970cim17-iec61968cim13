@@ -85,11 +85,17 @@ public class CimObjectWithIDItemProvider extends ItemProviderAdapter implements 
     protected void addIDPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CimObjectWithID_ID_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CimObjectWithID_ID_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CimObjectWithID_ID_feature",
                                 "_UI_CimObjectWithID_type" ),
-                        CimPackage.eINSTANCE.getCimObjectWithID_ID(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCimObjectWithID_ID(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

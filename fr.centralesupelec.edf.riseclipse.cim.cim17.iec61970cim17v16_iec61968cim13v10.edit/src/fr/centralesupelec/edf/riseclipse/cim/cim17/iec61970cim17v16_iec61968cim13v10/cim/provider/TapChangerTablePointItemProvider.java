@@ -81,11 +81,17 @@ public class TapChangerTablePointItemProvider extends CimObjectWithIDItemProvide
     protected void addBPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TapChangerTablePoint_b_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TapChangerTablePoint_b_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TapChangerTablePoint_b_feature",
                                 "_UI_TapChangerTablePoint_type" ),
-                        CimPackage.eINSTANCE.getTapChangerTablePoint_B(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTapChangerTablePoint_B(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -97,11 +103,17 @@ public class TapChangerTablePointItemProvider extends CimObjectWithIDItemProvide
     protected void addGPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TapChangerTablePoint_g_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TapChangerTablePoint_g_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TapChangerTablePoint_g_feature",
                                 "_UI_TapChangerTablePoint_type" ),
-                        CimPackage.eINSTANCE.getTapChangerTablePoint_G(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTapChangerTablePoint_G(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -113,11 +125,17 @@ public class TapChangerTablePointItemProvider extends CimObjectWithIDItemProvide
     protected void addRPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TapChangerTablePoint_r_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TapChangerTablePoint_r_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TapChangerTablePoint_r_feature",
                                 "_UI_TapChangerTablePoint_type" ),
-                        CimPackage.eINSTANCE.getTapChangerTablePoint_R(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTapChangerTablePoint_R(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -129,11 +147,17 @@ public class TapChangerTablePointItemProvider extends CimObjectWithIDItemProvide
     protected void addRatioPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TapChangerTablePoint_ratio_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TapChangerTablePoint_ratio_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TapChangerTablePoint_ratio_feature",
                                 "_UI_TapChangerTablePoint_type" ),
-                        CimPackage.eINSTANCE.getTapChangerTablePoint_Ratio(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTapChangerTablePoint_Ratio(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -145,11 +169,17 @@ public class TapChangerTablePointItemProvider extends CimObjectWithIDItemProvide
     protected void addStepPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TapChangerTablePoint_step_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TapChangerTablePoint_step_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TapChangerTablePoint_step_feature",
                                 "_UI_TapChangerTablePoint_type" ),
-                        CimPackage.eINSTANCE.getTapChangerTablePoint_Step(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTapChangerTablePoint_Step(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -161,11 +191,17 @@ public class TapChangerTablePointItemProvider extends CimObjectWithIDItemProvide
     protected void addXPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TapChangerTablePoint_x_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TapChangerTablePoint_x_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TapChangerTablePoint_x_feature",
                                 "_UI_TapChangerTablePoint_type" ),
-                        CimPackage.eINSTANCE.getTapChangerTablePoint_X(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTapChangerTablePoint_X(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

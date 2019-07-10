@@ -81,13 +81,19 @@ public class CustomerNotificationItemProvider extends CimObjectWithIDItemProvide
      * @generated
      */
     protected void addContactTypePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CustomerNotification_contactType_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CustomerNotification_contactType_feature",
-                        "_UI_CustomerNotification_type" ),
-                CimPackage.eINSTANCE.getCustomerNotification_ContactType(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CustomerNotification_contactType_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_CustomerNotification_contactType_feature",
+                                "_UI_CustomerNotification_type" ),
+                        CimPackage.eINSTANCE.getCustomerNotification_ContactType(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -97,13 +103,19 @@ public class CustomerNotificationItemProvider extends CimObjectWithIDItemProvide
      * @generated
      */
     protected void addContactValuePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CustomerNotification_contactValue_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CustomerNotification_contactValue_feature",
-                        "_UI_CustomerNotification_type" ),
-                CimPackage.eINSTANCE.getCustomerNotification_ContactValue(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CustomerNotification_contactValue_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_CustomerNotification_contactValue_feature", "_UI_CustomerNotification_type" ),
+                        CimPackage.eINSTANCE.getCustomerNotification_ContactValue(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,12 +126,18 @@ public class CustomerNotificationItemProvider extends CimObjectWithIDItemProvide
      */
     protected void addEarliestDateTimeToCallPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_CustomerNotification_earliestDateTimeToCall_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_CustomerNotification_earliestDateTimeToCall_feature", "_UI_CustomerNotification_type" ),
-                CimPackage.eINSTANCE.getCustomerNotification_EarliestDateTimeToCall(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getCustomerNotification_EarliestDateTimeToCall(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -130,12 +148,18 @@ public class CustomerNotificationItemProvider extends CimObjectWithIDItemProvide
      */
     protected void addLatestDateTimeToCallPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_CustomerNotification_latestDateTimeToCall_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_CustomerNotification_latestDateTimeToCall_feature", "_UI_CustomerNotification_type" ),
-                CimPackage.eINSTANCE.getCustomerNotification_LatestDateTimeToCall(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getCustomerNotification_LatestDateTimeToCall(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -145,13 +169,19 @@ public class CustomerNotificationItemProvider extends CimObjectWithIDItemProvide
      * @generated
      */
     protected void addTriggerPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CustomerNotification_trigger_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CustomerNotification_trigger_feature",
-                        "_UI_CustomerNotification_type" ),
-                CimPackage.eINSTANCE.getCustomerNotification_Trigger(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CustomerNotification_trigger_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_CustomerNotification_trigger_feature",
+                                "_UI_CustomerNotification_type" ),
+                        CimPackage.eINSTANCE.getCustomerNotification_Trigger(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -161,12 +191,19 @@ public class CustomerNotificationItemProvider extends CimObjectWithIDItemProvide
      * @generated
      */
     protected void addTroubleTicketsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CustomerNotification_TroubleTickets_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CustomerNotification_TroubleTickets_feature",
-                        "_UI_CustomerNotification_type" ),
-                CimPackage.eINSTANCE.getCustomerNotification_TroubleTickets(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CustomerNotification_TroubleTickets_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_CustomerNotification_TroubleTickets_feature", "_UI_CustomerNotification_type" ),
+                        CimPackage.eINSTANCE.getCustomerNotification_TroubleTickets(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -176,12 +213,19 @@ public class CustomerNotificationItemProvider extends CimObjectWithIDItemProvide
      * @generated
      */
     protected void addCustomerPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CustomerNotification_Customer_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CustomerNotification_Customer_feature",
-                        "_UI_CustomerNotification_type" ),
-                CimPackage.eINSTANCE.getCustomerNotification_Customer(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CustomerNotification_Customer_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_CustomerNotification_Customer_feature",
+                                "_UI_CustomerNotification_type" ),
+                        CimPackage.eINSTANCE.getCustomerNotification_Customer(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -191,12 +235,19 @@ public class CustomerNotificationItemProvider extends CimObjectWithIDItemProvide
      * @generated
      */
     protected void addIncidentPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CustomerNotification_Incident_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CustomerNotification_Incident_feature",
-                        "_UI_CustomerNotification_type" ),
-                CimPackage.eINSTANCE.getCustomerNotification_Incident(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CustomerNotification_Incident_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_CustomerNotification_Incident_feature",
+                                "_UI_CustomerNotification_type" ),
+                        CimPackage.eINSTANCE.getCustomerNotification_Incident(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

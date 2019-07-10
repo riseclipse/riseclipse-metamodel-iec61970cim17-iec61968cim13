@@ -75,10 +75,17 @@ public class AuthorItemProvider extends DocumentPersonRoleItemProvider {
     protected void addDocumentsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Author_Documents_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Author_Documents_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Author_Documents_feature",
                                 "_UI_Author_type" ),
-                        CimPackage.eINSTANCE.getAuthor_Documents(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAuthor_Documents(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -90,10 +97,17 @@ public class AuthorItemProvider extends DocumentPersonRoleItemProvider {
     protected void addActivityRecordsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Author_ActivityRecords_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Author_ActivityRecords_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Author_ActivityRecords_feature",
                                 "_UI_Author_type" ),
-                        CimPackage.eINSTANCE.getAuthor_ActivityRecords(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAuthor_ActivityRecords(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -130,7 +144,6 @@ public class AuthorItemProvider extends DocumentPersonRoleItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

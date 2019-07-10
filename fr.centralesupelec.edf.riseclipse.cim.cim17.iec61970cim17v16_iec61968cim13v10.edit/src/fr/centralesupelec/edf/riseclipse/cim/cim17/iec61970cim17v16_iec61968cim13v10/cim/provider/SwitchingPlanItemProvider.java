@@ -81,11 +81,17 @@ public class SwitchingPlanItemProvider extends SwitchingStepGroupItemProvider {
     protected void addPurposePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SwitchingPlan_purpose_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchingPlan_purpose_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SwitchingPlan_purpose_feature",
                                 "_UI_SwitchingPlan_type" ),
-                        CimPackage.eINSTANCE.getSwitchingPlan_Purpose(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSwitchingPlan_Purpose(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -97,11 +103,17 @@ public class SwitchingPlanItemProvider extends SwitchingStepGroupItemProvider {
     protected void addRankPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SwitchingPlan_rank_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchingPlan_rank_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SwitchingPlan_rank_feature",
                                 "_UI_SwitchingPlan_type" ),
-                        CimPackage.eINSTANCE.getSwitchingPlan_Rank(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSwitchingPlan_Rank(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -113,10 +125,17 @@ public class SwitchingPlanItemProvider extends SwitchingStepGroupItemProvider {
     protected void addOutagePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SwitchingPlan_Outage_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchingPlan_Outage_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SwitchingPlan_Outage_feature",
                                 "_UI_SwitchingPlan_type" ),
-                        CimPackage.eINSTANCE.getSwitchingPlan_Outage(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSwitchingPlan_Outage(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -126,12 +145,19 @@ public class SwitchingPlanItemProvider extends SwitchingStepGroupItemProvider {
      * @generated
      */
     protected void addSwitchingStepGroupsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SwitchingPlan_SwitchingStepGroups_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SwitchingPlan_SwitchingStepGroups_feature",
-                        "_UI_SwitchingPlan_type" ),
-                CimPackage.eINSTANCE.getSwitchingPlan_SwitchingStepGroups(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchingPlan_SwitchingStepGroups_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_SwitchingPlan_SwitchingStepGroups_feature", "_UI_SwitchingPlan_type" ),
+                        CimPackage.eINSTANCE.getSwitchingPlan_SwitchingStepGroups(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -143,10 +169,17 @@ public class SwitchingPlanItemProvider extends SwitchingStepGroupItemProvider {
     protected void addWorkTasksPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SwitchingPlan_WorkTasks_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchingPlan_WorkTasks_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SwitchingPlan_WorkTasks_feature",
                                 "_UI_SwitchingPlan_type" ),
-                        CimPackage.eINSTANCE.getSwitchingPlan_WorkTasks(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSwitchingPlan_WorkTasks(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -158,10 +191,16 @@ public class SwitchingPlanItemProvider extends SwitchingStepGroupItemProvider {
     protected void addSafetyDocumentsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SwitchingPlan_SafetyDocuments_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchingPlan_SafetyDocuments_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SwitchingPlan_SafetyDocuments_feature",
                                 "_UI_SwitchingPlan_type" ),
-                        CimPackage.eINSTANCE.getSwitchingPlan_SafetyDocuments(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getSwitchingPlan_SafetyDocuments(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -232,8 +271,8 @@ public class SwitchingPlanItemProvider extends SwitchingStepGroupItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

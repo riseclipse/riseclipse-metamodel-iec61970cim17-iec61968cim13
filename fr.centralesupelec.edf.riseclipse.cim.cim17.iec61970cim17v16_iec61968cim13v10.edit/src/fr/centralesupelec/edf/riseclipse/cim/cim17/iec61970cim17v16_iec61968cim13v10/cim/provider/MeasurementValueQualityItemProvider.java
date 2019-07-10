@@ -73,11 +73,17 @@ public class MeasurementValueQualityItemProvider extends Quality61850ItemProvide
      */
     protected void addMeasurementValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_MeasurementValueQuality_MeasurementValue_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_MeasurementValueQuality_MeasurementValue_feature",
                         "_UI_MeasurementValueQuality_type" ),
-                CimPackage.eINSTANCE.getMeasurementValueQuality_MeasurementValue(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getMeasurementValueQuality_MeasurementValue(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -115,7 +121,6 @@ public class MeasurementValueQualityItemProvider extends Quality61850ItemProvide
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

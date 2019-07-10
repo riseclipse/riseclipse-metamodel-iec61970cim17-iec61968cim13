@@ -75,13 +75,19 @@ public class StartMainFuelCurveItemProvider extends CurveItemProvider {
      * @generated
      */
     protected void addMainFuelTypePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_StartMainFuelCurve_mainFuelType_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_StartMainFuelCurve_mainFuelType_feature",
-                        "_UI_StartMainFuelCurve_type" ),
-                CimPackage.eINSTANCE.getStartMainFuelCurve_MainFuelType(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_StartMainFuelCurve_mainFuelType_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_StartMainFuelCurve_mainFuelType_feature",
+                                "_UI_StartMainFuelCurve_type" ),
+                        CimPackage.eINSTANCE.getStartMainFuelCurve_MainFuelType(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -91,12 +97,19 @@ public class StartMainFuelCurveItemProvider extends CurveItemProvider {
      * @generated
      */
     protected void addStartupModelPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_StartMainFuelCurve_StartupModel_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_StartMainFuelCurve_StartupModel_feature",
-                        "_UI_StartMainFuelCurve_type" ),
-                CimPackage.eINSTANCE.getStartMainFuelCurve_StartupModel(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_StartMainFuelCurve_StartupModel_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_StartMainFuelCurve_StartupModel_feature",
+                                "_UI_StartMainFuelCurve_type" ),
+                        CimPackage.eINSTANCE.getStartMainFuelCurve_StartupModel(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

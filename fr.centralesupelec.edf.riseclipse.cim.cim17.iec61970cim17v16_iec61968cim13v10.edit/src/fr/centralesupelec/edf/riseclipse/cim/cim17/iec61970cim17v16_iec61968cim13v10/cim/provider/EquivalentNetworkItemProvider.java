@@ -74,10 +74,16 @@ public class EquivalentNetworkItemProvider extends ConnectivityNodeContainerItem
     protected void addEquivalentEquipmentsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EquivalentNetwork_EquivalentEquipments_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EquivalentNetwork_EquivalentEquipments_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_EquivalentNetwork_EquivalentEquipments_feature", "_UI_EquivalentNetwork_type" ),
-                        CimPackage.eINSTANCE.getEquivalentNetwork_EquivalentEquipments(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getEquivalentNetwork_EquivalentEquipments(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -115,7 +121,6 @@ public class EquivalentNetworkItemProvider extends ConnectivityNodeContainerItem
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

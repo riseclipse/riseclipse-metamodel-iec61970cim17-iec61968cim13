@@ -89,11 +89,17 @@ public class DecimalQuantityItemProvider extends ItemProviderAdapter implements 
     protected void addCurrencyPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DecimalQuantity_currency_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DecimalQuantity_currency_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DecimalQuantity_currency_feature",
                                 "_UI_DecimalQuantity_type" ),
-                        CimPackage.eINSTANCE.getDecimalQuantity_Currency(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDecimalQuantity_Currency(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -105,11 +111,17 @@ public class DecimalQuantityItemProvider extends ItemProviderAdapter implements 
     protected void addMultiplierPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DecimalQuantity_multiplier_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DecimalQuantity_multiplier_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DecimalQuantity_multiplier_feature",
                                 "_UI_DecimalQuantity_type" ),
-                        CimPackage.eINSTANCE.getDecimalQuantity_Multiplier(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDecimalQuantity_Multiplier(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -121,11 +133,17 @@ public class DecimalQuantityItemProvider extends ItemProviderAdapter implements 
     protected void addUnitPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DecimalQuantity_unit_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DecimalQuantity_unit_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DecimalQuantity_unit_feature",
                                 "_UI_DecimalQuantity_type" ),
-                        CimPackage.eINSTANCE.getDecimalQuantity_Unit(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDecimalQuantity_Unit(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -137,11 +155,17 @@ public class DecimalQuantityItemProvider extends ItemProviderAdapter implements 
     protected void addValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DecimalQuantity_value_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DecimalQuantity_value_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DecimalQuantity_value_feature",
                                 "_UI_DecimalQuantity_type" ),
-                        CimPackage.eINSTANCE.getDecimalQuantity_Value(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDecimalQuantity_Value(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

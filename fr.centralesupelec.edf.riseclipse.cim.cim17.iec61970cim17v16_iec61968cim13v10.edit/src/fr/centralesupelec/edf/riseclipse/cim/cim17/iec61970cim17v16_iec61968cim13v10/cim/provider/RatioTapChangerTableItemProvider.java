@@ -74,11 +74,17 @@ public class RatioTapChangerTableItemProvider extends IdentifiedObjectItemProvid
      */
     protected void addRatioTapChangerTablePointPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_RatioTapChangerTable_RatioTapChangerTablePoint_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_RatioTapChangerTable_RatioTapChangerTablePoint_feature", "_UI_RatioTapChangerTable_type" ),
-                CimPackage.eINSTANCE.getRatioTapChangerTable_RatioTapChangerTablePoint(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getRatioTapChangerTable_RatioTapChangerTablePoint(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -89,12 +95,19 @@ public class RatioTapChangerTableItemProvider extends IdentifiedObjectItemProvid
      * @generated
      */
     protected void addRatioTapChangerPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_RatioTapChangerTable_RatioTapChanger_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_RatioTapChangerTable_RatioTapChanger_feature",
-                        "_UI_RatioTapChangerTable_type" ),
-                CimPackage.eINSTANCE.getRatioTapChangerTable_RatioTapChanger(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_RatioTapChangerTable_RatioTapChanger_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_RatioTapChangerTable_RatioTapChanger_feature", "_UI_RatioTapChangerTable_type" ),
+                        CimPackage.eINSTANCE.getRatioTapChangerTable_RatioTapChanger(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -131,7 +144,6 @@ public class RatioTapChangerTableItemProvider extends IdentifiedObjectItemProvid
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

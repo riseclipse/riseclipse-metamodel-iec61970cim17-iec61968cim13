@@ -74,12 +74,19 @@ public class WindTurbineType4bIECItemProvider extends WindTurbineType4IECItemPro
      * @generated
      */
     protected void addWindGenType4IECPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindTurbineType4bIEC_WindGenType4IEC_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_WindTurbineType4bIEC_WindGenType4IEC_feature",
-                        "_UI_WindTurbineType4bIEC_type" ),
-                CimPackage.eINSTANCE.getWindTurbineType4bIEC_WindGenType4IEC(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindTurbineType4bIEC_WindGenType4IEC_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_WindTurbineType4bIEC_WindGenType4IEC_feature", "_UI_WindTurbineType4bIEC_type" ),
+                        CimPackage.eINSTANCE.getWindTurbineType4bIEC_WindGenType4IEC(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -89,12 +96,19 @@ public class WindTurbineType4bIECItemProvider extends WindTurbineType4IECItemPro
      * @generated
      */
     protected void addWindMechIECPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindTurbineType4bIEC_WindMechIEC_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_WindTurbineType4bIEC_WindMechIEC_feature",
-                        "_UI_WindTurbineType4bIEC_type" ),
-                CimPackage.eINSTANCE.getWindTurbineType4bIEC_WindMechIEC(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindTurbineType4bIEC_WindMechIEC_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_WindTurbineType4bIEC_WindMechIEC_feature",
+                                "_UI_WindTurbineType4bIEC_type" ),
+                        CimPackage.eINSTANCE.getWindTurbineType4bIEC_WindMechIEC(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -105,11 +119,17 @@ public class WindTurbineType4bIECItemProvider extends WindTurbineType4IECItemPro
      */
     protected void addWindContPType4bIECPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindTurbineType4bIEC_WindContPType4bIEC_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_WindTurbineType4bIEC_WindContPType4bIEC_feature",
                         "_UI_WindTurbineType4bIEC_type" ),
-                CimPackage.eINSTANCE.getWindTurbineType4bIEC_WindContPType4bIEC(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getWindTurbineType4bIEC_WindContPType4bIEC(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -147,7 +167,6 @@ public class WindTurbineType4bIECItemProvider extends WindTurbineType4IECItemPro
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

@@ -74,10 +74,16 @@ public class InstanceSetMemberItemProvider extends DataSetMemberItemProvider {
     protected void addInstanceSetPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_InstanceSetMember_InstanceSet_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_InstanceSetMember_InstanceSet_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_InstanceSetMember_InstanceSet_feature",
                                 "_UI_InstanceSetMember_type" ),
-                        CimPackage.eINSTANCE.getInstanceSetMember_InstanceSet(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getInstanceSetMember_InstanceSet(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -115,7 +121,6 @@ public class InstanceSetMemberItemProvider extends DataSetMemberItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

@@ -74,13 +74,19 @@ public class OilAnalysisFluidDiscreteItemProvider extends AssetDiscreteItemProvi
      * @generated
      */
     protected void addKindPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_OilAnalysisFluidDiscrete_kind_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_OilAnalysisFluidDiscrete_kind_feature",
-                        "_UI_OilAnalysisFluidDiscrete_type" ),
-                CimPackage.eINSTANCE.getOilAnalysisFluidDiscrete_Kind(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_OilAnalysisFluidDiscrete_kind_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_OilAnalysisFluidDiscrete_kind_feature",
+                                "_UI_OilAnalysisFluidDiscrete_type" ),
+                        CimPackage.eINSTANCE.getOilAnalysisFluidDiscrete_Kind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

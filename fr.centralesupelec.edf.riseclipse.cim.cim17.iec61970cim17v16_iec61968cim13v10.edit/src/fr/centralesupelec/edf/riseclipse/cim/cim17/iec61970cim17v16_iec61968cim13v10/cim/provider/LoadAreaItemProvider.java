@@ -74,10 +74,17 @@ public class LoadAreaItemProvider extends EnergyAreaItemProvider {
     protected void addSubLoadAreasPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadArea_SubLoadAreas_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadArea_SubLoadAreas_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadArea_SubLoadAreas_feature",
                                 "_UI_LoadArea_type" ),
-                        CimPackage.eINSTANCE.getLoadArea_SubLoadAreas(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getLoadArea_SubLoadAreas(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class LoadAreaItemProvider extends EnergyAreaItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

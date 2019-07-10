@@ -87,11 +87,17 @@ public class Quality61850ItemProvider extends CimObjectWithIDItemProvider {
     protected void addBadReferencePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Quality61850_badReference_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Quality61850_badReference_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Quality61850_badReference_feature",
                                 "_UI_Quality61850_type" ),
-                        CimPackage.eINSTANCE.getQuality61850_BadReference(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getQuality61850_BadReference(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -103,11 +109,17 @@ public class Quality61850ItemProvider extends CimObjectWithIDItemProvider {
     protected void addEstimatorReplacedPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Quality61850_estimatorReplaced_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Quality61850_estimatorReplaced_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Quality61850_estimatorReplaced_feature",
                                 "_UI_Quality61850_type" ),
-                        CimPackage.eINSTANCE.getQuality61850_EstimatorReplaced(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getQuality61850_EstimatorReplaced(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -119,11 +131,17 @@ public class Quality61850ItemProvider extends CimObjectWithIDItemProvider {
     protected void addFailurePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Quality61850_failure_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Quality61850_failure_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Quality61850_failure_feature",
                                 "_UI_Quality61850_type" ),
-                        CimPackage.eINSTANCE.getQuality61850_Failure(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getQuality61850_Failure(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -135,11 +153,17 @@ public class Quality61850ItemProvider extends CimObjectWithIDItemProvider {
     protected void addOldDataPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Quality61850_oldData_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Quality61850_oldData_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Quality61850_oldData_feature",
                                 "_UI_Quality61850_type" ),
-                        CimPackage.eINSTANCE.getQuality61850_OldData(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getQuality61850_OldData(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -151,11 +175,17 @@ public class Quality61850ItemProvider extends CimObjectWithIDItemProvider {
     protected void addOperatorBlockedPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Quality61850_operatorBlocked_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Quality61850_operatorBlocked_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Quality61850_operatorBlocked_feature",
                                 "_UI_Quality61850_type" ),
-                        CimPackage.eINSTANCE.getQuality61850_OperatorBlocked(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getQuality61850_OperatorBlocked(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -167,11 +197,17 @@ public class Quality61850ItemProvider extends CimObjectWithIDItemProvider {
     protected void addOscillatoryPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Quality61850_oscillatory_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Quality61850_oscillatory_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Quality61850_oscillatory_feature",
                                 "_UI_Quality61850_type" ),
-                        CimPackage.eINSTANCE.getQuality61850_Oscillatory(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getQuality61850_Oscillatory(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -183,11 +219,17 @@ public class Quality61850ItemProvider extends CimObjectWithIDItemProvider {
     protected void addOutOfRangePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Quality61850_outOfRange_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Quality61850_outOfRange_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Quality61850_outOfRange_feature",
                                 "_UI_Quality61850_type" ),
-                        CimPackage.eINSTANCE.getQuality61850_OutOfRange(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getQuality61850_OutOfRange(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -199,11 +241,17 @@ public class Quality61850ItemProvider extends CimObjectWithIDItemProvider {
     protected void addOverFlowPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Quality61850_overFlow_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Quality61850_overFlow_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Quality61850_overFlow_feature",
                                 "_UI_Quality61850_type" ),
-                        CimPackage.eINSTANCE.getQuality61850_OverFlow(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getQuality61850_OverFlow(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -215,11 +263,17 @@ public class Quality61850ItemProvider extends CimObjectWithIDItemProvider {
     protected void addSourcePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Quality61850_source_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Quality61850_source_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Quality61850_source_feature",
                                 "_UI_Quality61850_type" ),
-                        CimPackage.eINSTANCE.getQuality61850_Source(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getQuality61850_Source(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -231,11 +285,17 @@ public class Quality61850ItemProvider extends CimObjectWithIDItemProvider {
     protected void addSuspectPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Quality61850_suspect_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Quality61850_suspect_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Quality61850_suspect_feature",
                                 "_UI_Quality61850_type" ),
-                        CimPackage.eINSTANCE.getQuality61850_Suspect(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getQuality61850_Suspect(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -247,11 +307,17 @@ public class Quality61850ItemProvider extends CimObjectWithIDItemProvider {
     protected void addTestPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Quality61850_test_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Quality61850_test_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Quality61850_test_feature",
                                 "_UI_Quality61850_type" ),
-                        CimPackage.eINSTANCE.getQuality61850_Test(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getQuality61850_Test(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -263,11 +329,17 @@ public class Quality61850ItemProvider extends CimObjectWithIDItemProvider {
     protected void addValidityPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Quality61850_validity_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Quality61850_validity_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Quality61850_validity_feature",
                                 "_UI_Quality61850_type" ),
-                        CimPackage.eINSTANCE.getQuality61850_Validity(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getQuality61850_Validity(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

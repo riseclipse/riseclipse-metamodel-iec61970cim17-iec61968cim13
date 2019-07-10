@@ -77,11 +77,17 @@ public class AssetLocationHazardItemProvider extends HazardItemProvider {
     protected void addKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AssetLocationHazard_kind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AssetLocationHazard_kind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AssetLocationHazard_kind_feature",
                                 "_UI_AssetLocationHazard_type" ),
-                        CimPackage.eINSTANCE.getAssetLocationHazard_Kind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAssetLocationHazard_Kind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -91,12 +97,19 @@ public class AssetLocationHazardItemProvider extends HazardItemProvider {
      * @generated
      */
     protected void addLocationsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_AssetLocationHazard_Locations_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_AssetLocationHazard_Locations_feature",
-                        "_UI_AssetLocationHazard_type" ),
-                CimPackage.eINSTANCE.getAssetLocationHazard_Locations(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_AssetLocationHazard_Locations_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_AssetLocationHazard_Locations_feature",
+                                "_UI_AssetLocationHazard_type" ),
+                        CimPackage.eINSTANCE.getAssetLocationHazard_Locations(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

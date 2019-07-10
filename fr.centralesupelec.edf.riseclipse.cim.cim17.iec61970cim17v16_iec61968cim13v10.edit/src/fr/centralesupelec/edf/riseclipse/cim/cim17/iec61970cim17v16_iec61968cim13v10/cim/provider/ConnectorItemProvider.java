@@ -96,7 +96,6 @@ public class ConnectorItemProvider extends ConductingEquipmentItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

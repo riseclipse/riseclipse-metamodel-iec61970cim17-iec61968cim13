@@ -85,11 +85,17 @@ public class MeterReadingItemProvider extends IdentifiedObjectItemProvider {
     protected void addIsCoincidentTriggerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_MeterReading_isCoincidentTrigger_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_MeterReading_isCoincidentTrigger_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_MeterReading_isCoincidentTrigger_feature",
                                 "_UI_MeterReading_type" ),
-                        CimPackage.eINSTANCE.getMeterReading_IsCoincidentTrigger(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getMeterReading_IsCoincidentTrigger(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -101,10 +107,16 @@ public class MeterReadingItemProvider extends IdentifiedObjectItemProvider {
     protected void addCustomerAgreementPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_MeterReading_CustomerAgreement_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_MeterReading_CustomerAgreement_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_MeterReading_CustomerAgreement_feature",
                                 "_UI_MeterReading_type" ),
-                        CimPackage.eINSTANCE.getMeterReading_CustomerAgreement(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getMeterReading_CustomerAgreement(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -117,10 +129,17 @@ public class MeterReadingItemProvider extends IdentifiedObjectItemProvider {
     protected void addIntervalBlocksPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_MeterReading_IntervalBlocks_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_MeterReading_IntervalBlocks_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_MeterReading_IntervalBlocks_feature",
                                 "_UI_MeterReading_type" ),
-                        CimPackage.eINSTANCE.getMeterReading_IntervalBlocks(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getMeterReading_IntervalBlocks(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -132,10 +151,17 @@ public class MeterReadingItemProvider extends IdentifiedObjectItemProvider {
     protected void addUsagePointPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_MeterReading_UsagePoint_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_MeterReading_UsagePoint_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_MeterReading_UsagePoint_feature",
                                 "_UI_MeterReading_type" ),
-                        CimPackage.eINSTANCE.getMeterReading_UsagePoint(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getMeterReading_UsagePoint(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -147,10 +173,17 @@ public class MeterReadingItemProvider extends IdentifiedObjectItemProvider {
     protected void addEndDeviceEventsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_MeterReading_EndDeviceEvents_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_MeterReading_EndDeviceEvents_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_MeterReading_EndDeviceEvents_feature",
                                 "_UI_MeterReading_type" ),
-                        CimPackage.eINSTANCE.getMeterReading_EndDeviceEvents(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getMeterReading_EndDeviceEvents(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -162,10 +195,17 @@ public class MeterReadingItemProvider extends IdentifiedObjectItemProvider {
     protected void addReadingsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_MeterReading_Readings_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_MeterReading_Readings_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_MeterReading_Readings_feature",
                                 "_UI_MeterReading_type" ),
-                        CimPackage.eINSTANCE.getMeterReading_Readings(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getMeterReading_Readings(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -177,10 +217,17 @@ public class MeterReadingItemProvider extends IdentifiedObjectItemProvider {
     protected void addMeterPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_MeterReading_Meter_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_MeterReading_Meter_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_MeterReading_Meter_feature",
                                 "_UI_MeterReading_type" ),
-                        CimPackage.eINSTANCE.getMeterReading_Meter(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getMeterReading_Meter(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

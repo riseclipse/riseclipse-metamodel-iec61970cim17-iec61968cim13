@@ -73,11 +73,17 @@ public class PhaseTapChangerTabularItemProvider extends PhaseTapChangerItemProvi
      */
     protected void addPhaseTapChangerTablePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_PhaseTapChangerTabular_PhaseTapChangerTable_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_PhaseTapChangerTabular_PhaseTapChangerTable_feature", "_UI_PhaseTapChangerTabular_type" ),
-                CimPackage.eINSTANCE.getPhaseTapChangerTabular_PhaseTapChangerTable(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getPhaseTapChangerTabular_PhaseTapChangerTable(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -115,7 +121,6 @@ public class PhaseTapChangerTabularItemProvider extends PhaseTapChangerItemProvi
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

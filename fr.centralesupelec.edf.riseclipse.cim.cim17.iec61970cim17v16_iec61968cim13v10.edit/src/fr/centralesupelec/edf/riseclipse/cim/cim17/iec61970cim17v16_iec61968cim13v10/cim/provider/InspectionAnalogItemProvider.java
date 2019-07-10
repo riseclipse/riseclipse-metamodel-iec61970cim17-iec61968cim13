@@ -76,11 +76,17 @@ public class InspectionAnalogItemProvider extends AssetAnalogItemProvider {
     protected void addKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_InspectionAnalog_kind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_InspectionAnalog_kind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_InspectionAnalog_kind_feature",
                                 "_UI_InspectionAnalog_type" ),
-                        CimPackage.eINSTANCE.getInspectionAnalog_Kind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getInspectionAnalog_Kind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

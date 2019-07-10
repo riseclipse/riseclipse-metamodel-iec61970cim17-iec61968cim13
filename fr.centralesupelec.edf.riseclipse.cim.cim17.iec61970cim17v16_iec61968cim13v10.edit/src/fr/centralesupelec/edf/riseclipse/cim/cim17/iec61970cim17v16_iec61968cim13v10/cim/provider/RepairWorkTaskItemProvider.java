@@ -77,11 +77,17 @@ public class RepairWorkTaskItemProvider extends WorkTaskItemProvider {
     protected void addEmergencyPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RepairWorkTask_emergency_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RepairWorkTask_emergency_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RepairWorkTask_emergency_feature",
                                 "_UI_RepairWorkTask_type" ),
-                        CimPackage.eINSTANCE.getRepairWorkTask_Emergency(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getRepairWorkTask_Emergency(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,10 +99,16 @@ public class RepairWorkTaskItemProvider extends WorkTaskItemProvider {
     protected void addBreakerRepairItemPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RepairWorkTask_BreakerRepairItem_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RepairWorkTask_BreakerRepairItem_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RepairWorkTask_BreakerRepairItem_feature",
                                 "_UI_RepairWorkTask_type" ),
-                        CimPackage.eINSTANCE.getRepairWorkTask_BreakerRepairItem(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getRepairWorkTask_BreakerRepairItem(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -166,8 +178,8 @@ public class RepairWorkTaskItemProvider extends WorkTaskItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

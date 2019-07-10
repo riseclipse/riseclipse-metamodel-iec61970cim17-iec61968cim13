@@ -74,13 +74,19 @@ public class OilAnalysisPCBDiscreteItemProvider extends AssetDiscreteItemProvide
      * @generated
      */
     protected void addKindPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_OilAnalysisPCBDiscrete_kind_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_OilAnalysisPCBDiscrete_kind_feature",
-                        "_UI_OilAnalysisPCBDiscrete_type" ),
-                CimPackage.eINSTANCE.getOilAnalysisPCBDiscrete_Kind(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_OilAnalysisPCBDiscrete_kind_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_OilAnalysisPCBDiscrete_kind_feature",
+                                "_UI_OilAnalysisPCBDiscrete_type" ),
+                        CimPackage.eINSTANCE.getOilAnalysisPCBDiscrete_Kind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

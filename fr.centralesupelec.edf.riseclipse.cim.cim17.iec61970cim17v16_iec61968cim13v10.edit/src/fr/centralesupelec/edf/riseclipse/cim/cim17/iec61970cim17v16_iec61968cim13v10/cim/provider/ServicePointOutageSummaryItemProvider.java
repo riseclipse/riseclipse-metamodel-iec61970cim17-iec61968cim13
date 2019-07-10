@@ -85,12 +85,18 @@ public class ServicePointOutageSummaryItemProvider extends ItemProviderAdapter i
      */
     protected void addCriticalCountPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ServicePointOutageSummary_criticalCount_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ServicePointOutageSummary_criticalCount_feature",
                         "_UI_ServicePointOutageSummary_type" ),
-                CimPackage.eINSTANCE.getServicePointOutageSummary_CriticalCount(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getServicePointOutageSummary_CriticalCount(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -101,12 +107,18 @@ public class ServicePointOutageSummaryItemProvider extends ItemProviderAdapter i
      */
     protected void addTotalCountPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ServicePointOutageSummary_totalCount_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ServicePointOutageSummary_totalCount_feature",
                         "_UI_ServicePointOutageSummary_type" ),
-                CimPackage.eINSTANCE.getServicePointOutageSummary_TotalCount(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getServicePointOutageSummary_TotalCount(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**

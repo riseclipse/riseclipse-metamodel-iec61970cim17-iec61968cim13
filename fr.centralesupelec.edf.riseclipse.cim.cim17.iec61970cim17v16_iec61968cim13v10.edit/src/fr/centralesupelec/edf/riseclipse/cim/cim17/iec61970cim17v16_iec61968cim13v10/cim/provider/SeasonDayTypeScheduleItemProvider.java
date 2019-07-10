@@ -73,12 +73,19 @@ public class SeasonDayTypeScheduleItemProvider extends RegularIntervalScheduleIt
      * @generated
      */
     protected void addDayTypePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SeasonDayTypeSchedule_DayType_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SeasonDayTypeSchedule_DayType_feature",
-                        "_UI_SeasonDayTypeSchedule_type" ),
-                CimPackage.eINSTANCE.getSeasonDayTypeSchedule_DayType(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SeasonDayTypeSchedule_DayType_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_SeasonDayTypeSchedule_DayType_feature",
+                                "_UI_SeasonDayTypeSchedule_type" ),
+                        CimPackage.eINSTANCE.getSeasonDayTypeSchedule_DayType(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -90,10 +97,17 @@ public class SeasonDayTypeScheduleItemProvider extends RegularIntervalScheduleIt
     protected void addSeasonPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SeasonDayTypeSchedule_Season_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SeasonDayTypeSchedule_Season_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SeasonDayTypeSchedule_Season_feature",
                                 "_UI_SeasonDayTypeSchedule_type" ),
-                        CimPackage.eINSTANCE.getSeasonDayTypeSchedule_Season(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSeasonDayTypeSchedule_Season(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -130,7 +144,6 @@ public class SeasonDayTypeScheduleItemProvider extends RegularIntervalScheduleIt
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

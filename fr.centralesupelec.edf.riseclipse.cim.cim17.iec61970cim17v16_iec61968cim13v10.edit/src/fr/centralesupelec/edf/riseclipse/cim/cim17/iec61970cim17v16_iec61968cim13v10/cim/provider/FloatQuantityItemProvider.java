@@ -88,11 +88,17 @@ public class FloatQuantityItemProvider extends ItemProviderAdapter implements IE
     protected void addMultiplierPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FloatQuantity_multiplier_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FloatQuantity_multiplier_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FloatQuantity_multiplier_feature",
                                 "_UI_FloatQuantity_type" ),
-                        CimPackage.eINSTANCE.getFloatQuantity_Multiplier(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFloatQuantity_Multiplier(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -104,11 +110,17 @@ public class FloatQuantityItemProvider extends ItemProviderAdapter implements IE
     protected void addUnitPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FloatQuantity_unit_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FloatQuantity_unit_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FloatQuantity_unit_feature",
                                 "_UI_FloatQuantity_type" ),
-                        CimPackage.eINSTANCE.getFloatQuantity_Unit(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFloatQuantity_Unit(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -120,11 +132,17 @@ public class FloatQuantityItemProvider extends ItemProviderAdapter implements IE
     protected void addValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FloatQuantity_value_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FloatQuantity_value_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FloatQuantity_value_feature",
                                 "_UI_FloatQuantity_type" ),
-                        CimPackage.eINSTANCE.getFloatQuantity_Value(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFloatQuantity_Value(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

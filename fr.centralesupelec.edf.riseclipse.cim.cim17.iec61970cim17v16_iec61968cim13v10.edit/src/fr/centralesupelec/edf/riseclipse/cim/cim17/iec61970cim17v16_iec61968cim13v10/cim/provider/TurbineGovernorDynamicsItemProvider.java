@@ -74,14 +74,20 @@ public class TurbineGovernorDynamicsItemProvider extends DynamicsFunctionBlockIt
      * @generated
      */
     protected void addTurbineLoadControllerDynamicsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TurbineGovernorDynamics_TurbineLoadControllerDynamics_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_TurbineGovernorDynamics_TurbineLoadControllerDynamics_feature",
-                        "_UI_TurbineGovernorDynamics_type" ),
-                CimPackage.eINSTANCE.getTurbineGovernorDynamics_TurbineLoadControllerDynamics(), true, false, true,
-                null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TurbineGovernorDynamics_TurbineLoadControllerDynamics_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_TurbineGovernorDynamics_TurbineLoadControllerDynamics_feature",
+                                "_UI_TurbineGovernorDynamics_type" ),
+                        CimPackage.eINSTANCE.getTurbineGovernorDynamics_TurbineLoadControllerDynamics(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -91,14 +97,20 @@ public class TurbineGovernorDynamicsItemProvider extends DynamicsFunctionBlockIt
      * @generated
      */
     protected void addAsynchronousMachineDynamicsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TurbineGovernorDynamics_AsynchronousMachineDynamics_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_TurbineGovernorDynamics_AsynchronousMachineDynamics_feature",
-                        "_UI_TurbineGovernorDynamics_type" ),
-                CimPackage.eINSTANCE.getTurbineGovernorDynamics_AsynchronousMachineDynamics(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TurbineGovernorDynamics_AsynchronousMachineDynamics_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_TurbineGovernorDynamics_AsynchronousMachineDynamics_feature",
+                                "_UI_TurbineGovernorDynamics_type" ),
+                        CimPackage.eINSTANCE.getTurbineGovernorDynamics_AsynchronousMachineDynamics(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -108,14 +120,20 @@ public class TurbineGovernorDynamicsItemProvider extends DynamicsFunctionBlockIt
      * @generated
      */
     protected void addSynchronousMachineDynamicsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TurbineGovernorDynamics_SynchronousMachineDynamics_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_TurbineGovernorDynamics_SynchronousMachineDynamics_feature",
-                        "_UI_TurbineGovernorDynamics_type" ),
-                CimPackage.eINSTANCE.getTurbineGovernorDynamics_SynchronousMachineDynamics(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TurbineGovernorDynamics_SynchronousMachineDynamics_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_TurbineGovernorDynamics_SynchronousMachineDynamics_feature",
+                                "_UI_TurbineGovernorDynamics_type" ),
+                        CimPackage.eINSTANCE.getTurbineGovernorDynamics_SynchronousMachineDynamics(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -152,7 +170,6 @@ public class TurbineGovernorDynamicsItemProvider extends DynamicsFunctionBlockIt
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

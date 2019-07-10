@@ -79,11 +79,17 @@ public class OilSpecimenItemProvider extends SpecimenItemProvider {
     protected void addOilSampleTakenFromPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OilSpecimen_oilSampleTakenFrom_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OilSpecimen_oilSampleTakenFrom_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_OilSpecimen_oilSampleTakenFrom_feature",
                                 "_UI_OilSpecimen_type" ),
-                        CimPackage.eINSTANCE.getOilSpecimen_OilSampleTakenFrom(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOilSpecimen_OilSampleTakenFrom(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,11 +101,17 @@ public class OilSpecimenItemProvider extends SpecimenItemProvider {
     protected void addOilSampleTemperaturePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OilSpecimen_oilSampleTemperature_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OilSpecimen_oilSampleTemperature_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_OilSpecimen_oilSampleTemperature_feature",
                                 "_UI_OilSpecimen_type" ),
-                        CimPackage.eINSTANCE.getOilSpecimen_OilSampleTemperature(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOilSpecimen_OilSampleTemperature(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,11 +123,17 @@ public class OilSpecimenItemProvider extends SpecimenItemProvider {
     protected void addOilTemperatureSourcePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OilSpecimen_oilTemperatureSource_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OilSpecimen_oilTemperatureSource_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_OilSpecimen_oilTemperatureSource_feature",
                                 "_UI_OilSpecimen_type" ),
-                        CimPackage.eINSTANCE.getOilSpecimen_OilTemperatureSource(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOilSpecimen_OilTemperatureSource(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -127,11 +145,17 @@ public class OilSpecimenItemProvider extends SpecimenItemProvider {
     protected void addSampleContainerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OilSpecimen_sampleContainer_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OilSpecimen_sampleContainer_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_OilSpecimen_sampleContainer_feature",
                                 "_UI_OilSpecimen_type" ),
-                        CimPackage.eINSTANCE.getOilSpecimen_SampleContainer(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOilSpecimen_SampleContainer(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

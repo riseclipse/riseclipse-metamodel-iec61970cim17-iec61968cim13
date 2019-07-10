@@ -80,11 +80,17 @@ public class ACDCTerminalItemProvider extends IdentifiedObjectItemProvider {
     protected void addConnectedPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ACDCTerminal_connected_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ACDCTerminal_connected_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ACDCTerminal_connected_feature",
                                 "_UI_ACDCTerminal_type" ),
-                        CimPackage.eINSTANCE.getACDCTerminal_Connected(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getACDCTerminal_Connected(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -96,11 +102,17 @@ public class ACDCTerminalItemProvider extends IdentifiedObjectItemProvider {
     protected void addSequenceNumberPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ACDCTerminal_sequenceNumber_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ACDCTerminal_sequenceNumber_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ACDCTerminal_sequenceNumber_feature",
                                 "_UI_ACDCTerminal_type" ),
-                        CimPackage.eINSTANCE.getACDCTerminal_SequenceNumber(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getACDCTerminal_SequenceNumber(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -112,10 +124,16 @@ public class ACDCTerminalItemProvider extends IdentifiedObjectItemProvider {
     protected void addOperationalLimitSetPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ACDCTerminal_OperationalLimitSet_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ACDCTerminal_OperationalLimitSet_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ACDCTerminal_OperationalLimitSet_feature",
                                 "_UI_ACDCTerminal_type" ),
-                        CimPackage.eINSTANCE.getACDCTerminal_OperationalLimitSet(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getACDCTerminal_OperationalLimitSet(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -128,10 +146,17 @@ public class ACDCTerminalItemProvider extends IdentifiedObjectItemProvider {
     protected void addMeasurementsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ACDCTerminal_Measurements_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ACDCTerminal_Measurements_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ACDCTerminal_Measurements_feature",
                                 "_UI_ACDCTerminal_type" ),
-                        CimPackage.eINSTANCE.getACDCTerminal_Measurements(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getACDCTerminal_Measurements(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -143,10 +168,17 @@ public class ACDCTerminalItemProvider extends IdentifiedObjectItemProvider {
     protected void addBusNameMarkerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ACDCTerminal_BusNameMarker_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ACDCTerminal_BusNameMarker_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ACDCTerminal_BusNameMarker_feature",
                                 "_UI_ACDCTerminal_type" ),
-                        CimPackage.eINSTANCE.getACDCTerminal_BusNameMarker(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getACDCTerminal_BusNameMarker(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

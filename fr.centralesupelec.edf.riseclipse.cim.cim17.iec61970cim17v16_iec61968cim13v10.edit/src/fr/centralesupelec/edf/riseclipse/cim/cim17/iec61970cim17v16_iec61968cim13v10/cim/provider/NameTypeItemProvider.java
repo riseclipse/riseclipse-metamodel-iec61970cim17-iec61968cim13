@@ -79,11 +79,17 @@ public class NameTypeItemProvider extends CimObjectWithIDItemProvider {
     protected void addDescriptionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_NameType_description_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_NameType_description_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_NameType_description_feature",
                                 "_UI_NameType_type" ),
-                        CimPackage.eINSTANCE.getNameType_Description(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getNameType_Description(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,11 +101,17 @@ public class NameTypeItemProvider extends CimObjectWithIDItemProvider {
     protected void addNamePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_NameType_name_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_NameType_name_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_NameType_name_feature",
                                 "_UI_NameType_type" ),
-                        CimPackage.eINSTANCE.getNameType_Name(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getNameType_Name(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,10 +123,17 @@ public class NameTypeItemProvider extends CimObjectWithIDItemProvider {
     protected void addNameTypeAuthorityPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_NameType_NameTypeAuthority_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_NameType_NameTypeAuthority_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_NameType_NameTypeAuthority_feature",
                                 "_UI_NameType_type" ),
-                        CimPackage.eINSTANCE.getNameType_NameTypeAuthority(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getNameType_NameTypeAuthority(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -126,10 +145,17 @@ public class NameTypeItemProvider extends CimObjectWithIDItemProvider {
     protected void addNamesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_NameType_Names_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_NameType_Names_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_NameType_Names_feature",
                                 "_UI_NameType_type" ),
-                        CimPackage.eINSTANCE.getNameType_Names(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getNameType_Names(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

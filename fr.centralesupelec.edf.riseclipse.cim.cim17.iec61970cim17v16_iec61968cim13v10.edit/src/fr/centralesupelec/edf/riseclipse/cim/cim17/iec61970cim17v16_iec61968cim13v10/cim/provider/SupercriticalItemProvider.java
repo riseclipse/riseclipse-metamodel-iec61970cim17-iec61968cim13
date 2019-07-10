@@ -96,7 +96,6 @@ public class SupercriticalItemProvider extends FossilSteamSupplyItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

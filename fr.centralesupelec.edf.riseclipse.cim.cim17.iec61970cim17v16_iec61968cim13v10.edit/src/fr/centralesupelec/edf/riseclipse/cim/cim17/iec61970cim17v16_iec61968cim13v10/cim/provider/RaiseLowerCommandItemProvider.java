@@ -72,12 +72,19 @@ public class RaiseLowerCommandItemProvider extends AnalogControlItemProvider {
      * @generated
      */
     protected void addValueAliasSetPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_RaiseLowerCommand_ValueAliasSet_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_RaiseLowerCommand_ValueAliasSet_feature",
-                        "_UI_RaiseLowerCommand_type" ),
-                CimPackage.eINSTANCE.getRaiseLowerCommand_ValueAliasSet(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_RaiseLowerCommand_ValueAliasSet_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_RaiseLowerCommand_ValueAliasSet_feature",
+                                "_UI_RaiseLowerCommand_type" ),
+                        CimPackage.eINSTANCE.getRaiseLowerCommand_ValueAliasSet(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class RaiseLowerCommandItemProvider extends AnalogControlItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

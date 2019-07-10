@@ -96,7 +96,6 @@ public class ComMediaItemProvider extends AssetItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

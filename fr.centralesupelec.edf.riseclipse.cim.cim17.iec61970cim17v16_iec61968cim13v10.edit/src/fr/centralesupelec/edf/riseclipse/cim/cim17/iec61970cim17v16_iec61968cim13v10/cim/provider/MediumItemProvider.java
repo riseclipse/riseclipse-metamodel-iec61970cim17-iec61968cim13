@@ -78,10 +78,16 @@ public class MediumItemProvider extends IdentifiedObjectItemProvider {
     protected void addKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Medium_kind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Medium_kind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Medium_kind_feature", "_UI_Medium_type" ),
-                        CimPackage.eINSTANCE.getMedium_Kind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getMedium_Kind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,11 +99,17 @@ public class MediumItemProvider extends IdentifiedObjectItemProvider {
     protected void addVolumeSpecPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Medium_volumeSpec_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Medium_volumeSpec_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Medium_volumeSpec_feature",
                                 "_UI_Medium_type" ),
-                        CimPackage.eINSTANCE.getMedium_VolumeSpec(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getMedium_VolumeSpec(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -109,10 +121,17 @@ public class MediumItemProvider extends IdentifiedObjectItemProvider {
     protected void addAssetPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Medium_Asset_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Medium_Asset_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Medium_Asset_feature",
                                 "_UI_Medium_type" ),
-                        CimPackage.eINSTANCE.getMedium_Asset(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getMedium_Asset(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

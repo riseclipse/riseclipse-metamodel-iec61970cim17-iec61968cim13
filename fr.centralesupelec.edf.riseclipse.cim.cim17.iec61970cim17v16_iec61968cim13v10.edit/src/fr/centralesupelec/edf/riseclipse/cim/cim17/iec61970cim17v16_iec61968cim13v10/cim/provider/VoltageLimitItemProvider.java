@@ -76,11 +76,17 @@ public class VoltageLimitItemProvider extends OperationalLimitItemProvider {
     protected void addValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_VoltageLimit_value_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_VoltageLimit_value_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_VoltageLimit_value_feature",
                                 "_UI_VoltageLimit_type" ),
-                        CimPackage.eINSTANCE.getVoltageLimit_Value(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getVoltageLimit_Value(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

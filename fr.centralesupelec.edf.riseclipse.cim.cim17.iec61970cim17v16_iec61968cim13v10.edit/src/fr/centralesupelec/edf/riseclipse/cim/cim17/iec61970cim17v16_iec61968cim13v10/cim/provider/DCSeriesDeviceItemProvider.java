@@ -77,11 +77,17 @@ public class DCSeriesDeviceItemProvider extends DCConductingEquipmentItemProvide
     protected void addInductancePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DCSeriesDevice_inductance_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DCSeriesDevice_inductance_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DCSeriesDevice_inductance_feature",
                                 "_UI_DCSeriesDevice_type" ),
-                        CimPackage.eINSTANCE.getDCSeriesDevice_Inductance(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDCSeriesDevice_Inductance(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,11 +99,17 @@ public class DCSeriesDeviceItemProvider extends DCConductingEquipmentItemProvide
     protected void addResistancePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DCSeriesDevice_resistance_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DCSeriesDevice_resistance_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DCSeriesDevice_resistance_feature",
                                 "_UI_DCSeriesDevice_type" ),
-                        CimPackage.eINSTANCE.getDCSeriesDevice_Resistance(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDCSeriesDevice_Resistance(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

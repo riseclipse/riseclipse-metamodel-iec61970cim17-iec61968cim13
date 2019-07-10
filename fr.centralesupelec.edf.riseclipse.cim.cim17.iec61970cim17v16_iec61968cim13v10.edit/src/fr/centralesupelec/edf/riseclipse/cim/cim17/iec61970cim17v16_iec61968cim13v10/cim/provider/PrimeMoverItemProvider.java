@@ -77,11 +77,17 @@ public class PrimeMoverItemProvider extends PowerSystemResourceItemProvider {
     protected void addPrimeMoverRatingPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PrimeMover_primeMoverRating_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PrimeMover_primeMoverRating_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PrimeMover_primeMoverRating_feature",
                                 "_UI_PrimeMover_type" ),
-                        CimPackage.eINSTANCE.getPrimeMover_PrimeMoverRating(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPrimeMover_PrimeMoverRating(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,10 +99,16 @@ public class PrimeMoverItemProvider extends PowerSystemResourceItemProvider {
     protected void addSynchronousMachinesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PrimeMover_SynchronousMachines_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PrimeMover_SynchronousMachines_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PrimeMover_SynchronousMachines_feature",
                                 "_UI_PrimeMover_type" ),
-                        CimPackage.eINSTANCE.getPrimeMover_SynchronousMachines(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getPrimeMover_SynchronousMachines(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 

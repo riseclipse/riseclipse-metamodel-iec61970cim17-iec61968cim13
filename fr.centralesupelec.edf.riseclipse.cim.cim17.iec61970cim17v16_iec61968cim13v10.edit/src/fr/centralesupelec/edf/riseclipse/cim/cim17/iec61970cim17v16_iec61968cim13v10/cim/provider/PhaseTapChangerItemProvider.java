@@ -74,10 +74,16 @@ public class PhaseTapChangerItemProvider extends TapChangerItemProvider {
     protected void addTransformerEndPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PhaseTapChanger_TransformerEnd_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PhaseTapChanger_TransformerEnd_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PhaseTapChanger_TransformerEnd_feature",
                                 "_UI_PhaseTapChanger_type" ),
-                        CimPackage.eINSTANCE.getPhaseTapChanger_TransformerEnd(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getPhaseTapChanger_TransformerEnd(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -115,7 +121,6 @@ public class PhaseTapChangerItemProvider extends TapChangerItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

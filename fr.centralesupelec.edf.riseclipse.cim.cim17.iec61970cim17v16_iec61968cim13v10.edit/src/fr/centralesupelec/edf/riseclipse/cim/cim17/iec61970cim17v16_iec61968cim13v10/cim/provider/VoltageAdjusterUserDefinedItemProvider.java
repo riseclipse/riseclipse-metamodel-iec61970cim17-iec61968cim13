@@ -76,12 +76,18 @@ public class VoltageAdjusterUserDefinedItemProvider extends VoltageAdjusterDynam
      */
     protected void addProprietaryPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_VoltageAdjusterUserDefined_proprietary_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_VoltageAdjusterUserDefined_proprietary_feature",
                         "_UI_VoltageAdjusterUserDefined_type" ),
-                CimPackage.eINSTANCE.getVoltageAdjusterUserDefined_Proprietary(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getVoltageAdjusterUserDefined_Proprietary(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -91,14 +97,20 @@ public class VoltageAdjusterUserDefinedItemProvider extends VoltageAdjusterDynam
      * @generated
      */
     protected void addProprietaryParameterDynamicsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_VoltageAdjusterUserDefined_ProprietaryParameterDynamics_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_VoltageAdjusterUserDefined_ProprietaryParameterDynamics_feature",
-                        "_UI_VoltageAdjusterUserDefined_type" ),
-                CimPackage.eINSTANCE.getVoltageAdjusterUserDefined_ProprietaryParameterDynamics(), true, false, true,
-                null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_VoltageAdjusterUserDefined_ProprietaryParameterDynamics_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_VoltageAdjusterUserDefined_ProprietaryParameterDynamics_feature",
+                                "_UI_VoltageAdjusterUserDefined_type" ),
+                        CimPackage.eINSTANCE.getVoltageAdjusterUserDefined_ProprietaryParameterDynamics(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

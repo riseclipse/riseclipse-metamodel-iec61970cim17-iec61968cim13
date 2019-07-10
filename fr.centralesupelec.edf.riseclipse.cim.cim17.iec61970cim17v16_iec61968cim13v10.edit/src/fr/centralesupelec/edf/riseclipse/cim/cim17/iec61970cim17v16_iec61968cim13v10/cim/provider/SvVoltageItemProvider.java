@@ -79,11 +79,17 @@ public class SvVoltageItemProvider extends StateVariableItemProvider {
     protected void addAnglePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SvVoltage_angle_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SvVoltage_angle_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SvVoltage_angle_feature",
                                 "_UI_SvVoltage_type" ),
-                        CimPackage.eINSTANCE.getSvVoltage_Angle(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSvVoltage_Angle(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,11 +101,17 @@ public class SvVoltageItemProvider extends StateVariableItemProvider {
     protected void addPhasePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SvVoltage_phase_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SvVoltage_phase_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SvVoltage_phase_feature",
                                 "_UI_SvVoltage_type" ),
-                        CimPackage.eINSTANCE.getSvVoltage_Phase(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSvVoltage_Phase(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,11 +123,17 @@ public class SvVoltageItemProvider extends StateVariableItemProvider {
     protected void addVPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SvVoltage_v_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SvVoltage_v_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SvVoltage_v_feature",
                                 "_UI_SvVoltage_type" ),
-                        CimPackage.eINSTANCE.getSvVoltage_V(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSvVoltage_V(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -127,10 +145,17 @@ public class SvVoltageItemProvider extends StateVariableItemProvider {
     protected void addTopologicalNodePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SvVoltage_TopologicalNode_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SvVoltage_TopologicalNode_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SvVoltage_TopologicalNode_feature",
                                 "_UI_SvVoltage_type" ),
-                        CimPackage.eINSTANCE.getSvVoltage_TopologicalNode(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSvVoltage_TopologicalNode(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

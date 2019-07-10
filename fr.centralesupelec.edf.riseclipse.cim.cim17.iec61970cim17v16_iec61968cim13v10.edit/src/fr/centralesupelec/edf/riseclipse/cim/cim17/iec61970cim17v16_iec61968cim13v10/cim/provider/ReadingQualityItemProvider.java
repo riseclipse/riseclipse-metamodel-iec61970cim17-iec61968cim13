@@ -80,11 +80,17 @@ public class ReadingQualityItemProvider extends CimObjectWithIDItemProvider {
     protected void addCommentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ReadingQuality_comment_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ReadingQuality_comment_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ReadingQuality_comment_feature",
                                 "_UI_ReadingQuality_type" ),
-                        CimPackage.eINSTANCE.getReadingQuality_Comment(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getReadingQuality_Comment(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -96,11 +102,17 @@ public class ReadingQualityItemProvider extends CimObjectWithIDItemProvider {
     protected void addSourcePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ReadingQuality_source_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ReadingQuality_source_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ReadingQuality_source_feature",
                                 "_UI_ReadingQuality_type" ),
-                        CimPackage.eINSTANCE.getReadingQuality_Source(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getReadingQuality_Source(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -112,11 +124,17 @@ public class ReadingQualityItemProvider extends CimObjectWithIDItemProvider {
     protected void addTimeStampPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ReadingQuality_timeStamp_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ReadingQuality_timeStamp_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ReadingQuality_timeStamp_feature",
                                 "_UI_ReadingQuality_type" ),
-                        CimPackage.eINSTANCE.getReadingQuality_TimeStamp(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getReadingQuality_TimeStamp(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -128,10 +146,17 @@ public class ReadingQualityItemProvider extends CimObjectWithIDItemProvider {
     protected void addReadingPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ReadingQuality_Reading_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ReadingQuality_Reading_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ReadingQuality_Reading_feature",
                                 "_UI_ReadingQuality_type" ),
-                        CimPackage.eINSTANCE.getReadingQuality_Reading(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getReadingQuality_Reading(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -141,12 +166,19 @@ public class ReadingQualityItemProvider extends CimObjectWithIDItemProvider {
      * @generated
      */
     protected void addReadingQualityTypePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ReadingQuality_ReadingQualityType_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ReadingQuality_ReadingQualityType_feature",
-                        "_UI_ReadingQuality_type" ),
-                CimPackage.eINSTANCE.getReadingQuality_ReadingQualityType(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ReadingQuality_ReadingQualityType_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ReadingQuality_ReadingQualityType_feature", "_UI_ReadingQuality_type" ),
+                        CimPackage.eINSTANCE.getReadingQuality_ReadingQualityType(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

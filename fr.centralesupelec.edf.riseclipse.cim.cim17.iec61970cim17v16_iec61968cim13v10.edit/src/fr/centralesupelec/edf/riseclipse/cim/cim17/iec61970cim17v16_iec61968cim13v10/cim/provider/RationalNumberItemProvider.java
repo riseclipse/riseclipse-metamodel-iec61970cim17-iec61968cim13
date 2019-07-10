@@ -86,11 +86,17 @@ public class RationalNumberItemProvider extends ItemProviderAdapter implements I
     protected void addDenominatorPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RationalNumber_denominator_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RationalNumber_denominator_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RationalNumber_denominator_feature",
                                 "_UI_RationalNumber_type" ),
-                        CimPackage.eINSTANCE.getRationalNumber_Denominator(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getRationalNumber_Denominator(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -102,11 +108,17 @@ public class RationalNumberItemProvider extends ItemProviderAdapter implements I
     protected void addNumeratorPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RationalNumber_numerator_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RationalNumber_numerator_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RationalNumber_numerator_feature",
                                 "_UI_RationalNumber_type" ),
-                        CimPackage.eINSTANCE.getRationalNumber_Numerator(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getRationalNumber_Numerator(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

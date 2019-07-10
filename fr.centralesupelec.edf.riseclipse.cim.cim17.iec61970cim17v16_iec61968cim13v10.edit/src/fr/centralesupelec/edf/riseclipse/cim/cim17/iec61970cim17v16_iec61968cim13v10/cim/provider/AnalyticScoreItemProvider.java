@@ -80,13 +80,19 @@ public class AnalyticScoreItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addCalculationDateTimePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_AnalyticScore_calculationDateTime_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_AnalyticScore_calculationDateTime_feature",
-                        "_UI_AnalyticScore_type" ),
-                CimPackage.eINSTANCE.getAnalyticScore_CalculationDateTime(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_AnalyticScore_calculationDateTime_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_AnalyticScore_calculationDateTime_feature", "_UI_AnalyticScore_type" ),
+                        CimPackage.eINSTANCE.getAnalyticScore_CalculationDateTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -98,11 +104,17 @@ public class AnalyticScoreItemProvider extends IdentifiedObjectItemProvider {
     protected void addEffectiveDateTimePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AnalyticScore_effectiveDateTime_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AnalyticScore_effectiveDateTime_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AnalyticScore_effectiveDateTime_feature",
                                 "_UI_AnalyticScore_type" ),
-                        CimPackage.eINSTANCE.getAnalyticScore_EffectiveDateTime(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAnalyticScore_EffectiveDateTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,11 +126,17 @@ public class AnalyticScoreItemProvider extends IdentifiedObjectItemProvider {
     protected void addValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AnalyticScore_value_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AnalyticScore_value_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AnalyticScore_value_feature",
                                 "_UI_AnalyticScore_type" ),
-                        CimPackage.eINSTANCE.getAnalyticScore_Value(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAnalyticScore_Value(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -130,10 +148,17 @@ public class AnalyticScoreItemProvider extends IdentifiedObjectItemProvider {
     protected void addAssetGroupPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AnalyticScore_AssetGroup_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AnalyticScore_AssetGroup_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AnalyticScore_AssetGroup_feature",
                                 "_UI_AnalyticScore_type" ),
-                        CimPackage.eINSTANCE.getAnalyticScore_AssetGroup(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAnalyticScore_AssetGroup(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -143,12 +168,19 @@ public class AnalyticScoreItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addAssetAggregateScorePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_AnalyticScore_AssetAggregateScore_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_AnalyticScore_AssetAggregateScore_feature",
-                        "_UI_AnalyticScore_type" ),
-                CimPackage.eINSTANCE.getAnalyticScore_AssetAggregateScore(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_AnalyticScore_AssetAggregateScore_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_AnalyticScore_AssetAggregateScore_feature", "_UI_AnalyticScore_type" ),
+                        CimPackage.eINSTANCE.getAnalyticScore_AssetAggregateScore(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -160,10 +192,17 @@ public class AnalyticScoreItemProvider extends IdentifiedObjectItemProvider {
     protected void addAnalyticPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AnalyticScore_Analytic_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AnalyticScore_Analytic_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AnalyticScore_Analytic_feature",
                                 "_UI_AnalyticScore_type" ),
-                        CimPackage.eINSTANCE.getAnalyticScore_Analytic(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAnalyticScore_Analytic(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -175,10 +214,17 @@ public class AnalyticScoreItemProvider extends IdentifiedObjectItemProvider {
     protected void addAssetPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AnalyticScore_Asset_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AnalyticScore_Asset_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AnalyticScore_Asset_feature",
                                 "_UI_AnalyticScore_type" ),
-                        CimPackage.eINSTANCE.getAnalyticScore_Asset(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAnalyticScore_Asset(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

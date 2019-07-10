@@ -74,11 +74,17 @@ public class WindGenTurbineType2IECItemProvider extends WindTurbineType1or2IECIt
      */
     protected void addWindContRotorRIECPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindGenTurbineType2IEC_WindContRotorRIEC_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_WindGenTurbineType2IEC_WindContRotorRIEC_feature",
                         "_UI_WindGenTurbineType2IEC_type" ),
-                CimPackage.eINSTANCE.getWindGenTurbineType2IEC_WindContRotorRIEC(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getWindGenTurbineType2IEC_WindContRotorRIEC(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -90,11 +96,17 @@ public class WindGenTurbineType2IECItemProvider extends WindTurbineType1or2IECIt
      */
     protected void addWindPitchContPowerIECPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindGenTurbineType2IEC_WindPitchContPowerIEC_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_WindGenTurbineType2IEC_WindPitchContPowerIEC_feature", "_UI_WindGenTurbineType2IEC_type" ),
-                CimPackage.eINSTANCE.getWindGenTurbineType2IEC_WindPitchContPowerIEC(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getWindGenTurbineType2IEC_WindPitchContPowerIEC(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -132,7 +144,6 @@ public class WindGenTurbineType2IECItemProvider extends WindTurbineType1or2IECIt
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

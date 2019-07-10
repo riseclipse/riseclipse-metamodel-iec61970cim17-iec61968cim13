@@ -79,11 +79,17 @@ public class IrregularTimePointItemProvider extends CimObjectWithIDItemProvider 
     protected void addTimePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_IrregularTimePoint_time_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_IrregularTimePoint_time_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_IrregularTimePoint_time_feature",
                                 "_UI_IrregularTimePoint_type" ),
-                        CimPackage.eINSTANCE.getIrregularTimePoint_Time(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getIrregularTimePoint_Time(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,11 +101,17 @@ public class IrregularTimePointItemProvider extends CimObjectWithIDItemProvider 
     protected void addValue1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_IrregularTimePoint_value1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_IrregularTimePoint_value1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_IrregularTimePoint_value1_feature",
                                 "_UI_IrregularTimePoint_type" ),
-                        CimPackage.eINSTANCE.getIrregularTimePoint_Value1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getIrregularTimePoint_Value1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,11 +123,17 @@ public class IrregularTimePointItemProvider extends CimObjectWithIDItemProvider 
     protected void addValue2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_IrregularTimePoint_value2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_IrregularTimePoint_value2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_IrregularTimePoint_value2_feature",
                                 "_UI_IrregularTimePoint_type" ),
-                        CimPackage.eINSTANCE.getIrregularTimePoint_Value2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getIrregularTimePoint_Value2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -125,12 +143,19 @@ public class IrregularTimePointItemProvider extends CimObjectWithIDItemProvider 
      * @generated
      */
     protected void addIntervalSchedulePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_IrregularTimePoint_IntervalSchedule_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_IrregularTimePoint_IntervalSchedule_feature",
-                        "_UI_IrregularTimePoint_type" ),
-                CimPackage.eINSTANCE.getIrregularTimePoint_IntervalSchedule(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_IrregularTimePoint_IntervalSchedule_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_IrregularTimePoint_IntervalSchedule_feature", "_UI_IrregularTimePoint_type" ),
+                        CimPackage.eINSTANCE.getIrregularTimePoint_IntervalSchedule(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

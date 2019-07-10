@@ -73,12 +73,19 @@ public class WindTurbineType1or2IECItemProvider extends WindTurbineType1or2Dynam
      * @generated
      */
     protected void addWindMechIECPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindTurbineType1or2IEC_WindMechIEC_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_WindTurbineType1or2IEC_WindMechIEC_feature",
-                        "_UI_WindTurbineType1or2IEC_type" ),
-                CimPackage.eINSTANCE.getWindTurbineType1or2IEC_WindMechIEC(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindTurbineType1or2IEC_WindMechIEC_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_WindTurbineType1or2IEC_WindMechIEC_feature", "_UI_WindTurbineType1or2IEC_type" ),
+                        CimPackage.eINSTANCE.getWindTurbineType1or2IEC_WindMechIEC(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -89,11 +96,17 @@ public class WindTurbineType1or2IECItemProvider extends WindTurbineType1or2Dynam
      */
     protected void addWindProtectionIECPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindTurbineType1or2IEC_WindProtectionIEC_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_WindTurbineType1or2IEC_WindProtectionIEC_feature",
                         "_UI_WindTurbineType1or2IEC_type" ),
-                CimPackage.eINSTANCE.getWindTurbineType1or2IEC_WindProtectionIEC(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getWindTurbineType1or2IEC_WindProtectionIEC(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -131,7 +144,6 @@ public class WindTurbineType1or2IECItemProvider extends WindTurbineType1or2Dynam
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

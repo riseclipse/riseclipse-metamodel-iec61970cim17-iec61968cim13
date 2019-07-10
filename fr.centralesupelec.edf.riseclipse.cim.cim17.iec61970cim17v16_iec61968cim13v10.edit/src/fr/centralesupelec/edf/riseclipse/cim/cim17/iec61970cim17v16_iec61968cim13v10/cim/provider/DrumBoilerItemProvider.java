@@ -76,11 +76,17 @@ public class DrumBoilerItemProvider extends FossilSteamSupplyItemProvider {
     protected void addDrumBoilerRatingPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DrumBoiler_drumBoilerRating_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DrumBoiler_drumBoilerRating_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DrumBoiler_drumBoilerRating_feature",
                                 "_UI_DrumBoiler_type" ),
-                        CimPackage.eINSTANCE.getDrumBoiler_DrumBoilerRating(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDrumBoiler_DrumBoilerRating(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

@@ -79,12 +79,18 @@ public class AccountNotificationItemProvider extends CimObjectWithIDItemProvider
      */
     protected void addCustomerNotificationTypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_AccountNotification_customerNotificationType_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_AccountNotification_customerNotificationType_feature", "_UI_AccountNotification_type" ),
-                CimPackage.eINSTANCE.getAccountNotification_CustomerNotificationType(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getAccountNotification_CustomerNotificationType(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -94,13 +100,19 @@ public class AccountNotificationItemProvider extends CimObjectWithIDItemProvider
      * @generated
      */
     protected void addMethodTypePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_AccountNotification_methodType_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_AccountNotification_methodType_feature",
-                        "_UI_AccountNotification_type" ),
-                CimPackage.eINSTANCE.getAccountNotification_MethodType(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_AccountNotification_methodType_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_AccountNotification_methodType_feature",
+                                "_UI_AccountNotification_type" ),
+                        CimPackage.eINSTANCE.getAccountNotification_MethodType(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -112,11 +124,17 @@ public class AccountNotificationItemProvider extends CimObjectWithIDItemProvider
     protected void addNotePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AccountNotification_note_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AccountNotification_note_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AccountNotification_note_feature",
                                 "_UI_AccountNotification_type" ),
-                        CimPackage.eINSTANCE.getAccountNotification_Note(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAccountNotification_Note(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -128,11 +146,17 @@ public class AccountNotificationItemProvider extends CimObjectWithIDItemProvider
     protected void addTimePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AccountNotification_time_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AccountNotification_time_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AccountNotification_time_feature",
                                 "_UI_AccountNotification_type" ),
-                        CimPackage.eINSTANCE.getAccountNotification_Time(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAccountNotification_Time(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -142,12 +166,19 @@ public class AccountNotificationItemProvider extends CimObjectWithIDItemProvider
      * @generated
      */
     protected void addCustomerAccountPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_AccountNotification_CustomerAccount_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_AccountNotification_CustomerAccount_feature",
-                        "_UI_AccountNotification_type" ),
-                CimPackage.eINSTANCE.getAccountNotification_CustomerAccount(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_AccountNotification_CustomerAccount_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_AccountNotification_CustomerAccount_feature", "_UI_AccountNotification_type" ),
+                        CimPackage.eINSTANCE.getAccountNotification_CustomerAccount(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

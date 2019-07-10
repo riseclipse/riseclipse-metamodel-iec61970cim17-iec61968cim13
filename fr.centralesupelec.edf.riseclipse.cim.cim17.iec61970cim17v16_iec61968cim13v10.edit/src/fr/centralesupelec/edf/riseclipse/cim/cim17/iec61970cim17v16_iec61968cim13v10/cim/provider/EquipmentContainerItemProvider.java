@@ -72,12 +72,19 @@ public class EquipmentContainerItemProvider extends ConnectivityNodeContainerIte
      * @generated
      */
     protected void addEquipmentsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_EquipmentContainer_Equipments_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_EquipmentContainer_Equipments_feature",
-                        "_UI_EquipmentContainer_type" ),
-                CimPackage.eINSTANCE.getEquipmentContainer_Equipments(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_EquipmentContainer_Equipments_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_EquipmentContainer_Equipments_feature",
+                                "_UI_EquipmentContainer_type" ),
+                        CimPackage.eINSTANCE.getEquipmentContainer_Equipments(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class EquipmentContainerItemProvider extends ConnectivityNodeContainerIte
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

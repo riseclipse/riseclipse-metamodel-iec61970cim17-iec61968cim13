@@ -75,10 +75,17 @@ public class CrewMemberItemProvider extends OperationPersonRoleItemProvider {
     protected void addSwitchingStepsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CrewMember_SwitchingSteps_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CrewMember_SwitchingSteps_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CrewMember_SwitchingSteps_feature",
                                 "_UI_CrewMember_type" ),
-                        CimPackage.eINSTANCE.getCrewMember_SwitchingSteps(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCrewMember_SwitchingSteps(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -90,10 +97,17 @@ public class CrewMemberItemProvider extends OperationPersonRoleItemProvider {
     protected void addCrewPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CrewMember_Crew_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CrewMember_Crew_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CrewMember_Crew_feature",
                                 "_UI_CrewMember_type" ),
-                        CimPackage.eINSTANCE.getCrewMember_Crew(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCrewMember_Crew(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -130,7 +144,6 @@ public class CrewMemberItemProvider extends OperationPersonRoleItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

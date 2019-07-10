@@ -72,12 +72,19 @@ public class VsCapabilityCurveItemProvider extends CurveItemProvider {
      * @generated
      */
     protected void addVsConverterDCSidesPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_VsCapabilityCurve_VsConverterDCSides_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_VsCapabilityCurve_VsConverterDCSides_feature",
-                        "_UI_VsCapabilityCurve_type" ),
-                CimPackage.eINSTANCE.getVsCapabilityCurve_VsConverterDCSides(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_VsCapabilityCurve_VsConverterDCSides_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_VsCapabilityCurve_VsConverterDCSides_feature", "_UI_VsCapabilityCurve_type" ),
+                        CimPackage.eINSTANCE.getVsCapabilityCurve_VsConverterDCSides(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class VsCapabilityCurveItemProvider extends CurveItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

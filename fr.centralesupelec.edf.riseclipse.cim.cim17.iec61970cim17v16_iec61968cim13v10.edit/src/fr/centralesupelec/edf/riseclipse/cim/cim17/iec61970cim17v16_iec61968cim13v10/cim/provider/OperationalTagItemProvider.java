@@ -76,10 +76,17 @@ public class OperationalTagItemProvider extends DocumentItemProvider {
     protected void addTagActionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OperationalTag_TagAction_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OperationalTag_TagAction_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_OperationalTag_TagAction_feature",
                                 "_UI_OperationalTag_type" ),
-                        CimPackage.eINSTANCE.getOperationalTag_TagAction(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getOperationalTag_TagAction(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -91,10 +98,17 @@ public class OperationalTagItemProvider extends DocumentItemProvider {
     protected void addAssetPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OperationalTag_Asset_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OperationalTag_Asset_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_OperationalTag_Asset_feature",
                                 "_UI_OperationalTag_type" ),
-                        CimPackage.eINSTANCE.getOperationalTag_Asset(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getOperationalTag_Asset(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -104,12 +118,19 @@ public class OperationalTagItemProvider extends DocumentItemProvider {
      * @generated
      */
     protected void addPowerSystemResourcePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_OperationalTag_PowerSystemResource_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_OperationalTag_PowerSystemResource_feature",
-                        "_UI_OperationalTag_type" ),
-                CimPackage.eINSTANCE.getOperationalTag_PowerSystemResource(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_OperationalTag_PowerSystemResource_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_OperationalTag_PowerSystemResource_feature", "_UI_OperationalTag_type" ),
+                        CimPackage.eINSTANCE.getOperationalTag_PowerSystemResource(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -146,7 +167,6 @@ public class OperationalTagItemProvider extends DocumentItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**
@@ -172,8 +192,8 @@ public class OperationalTagItemProvider extends DocumentItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

@@ -78,11 +78,17 @@ public class RepairItemItemProvider extends CimObjectWithIDItemProvider {
     protected void addBreakerRepairItemPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RepairItem_breakerRepairItem_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RepairItem_breakerRepairItem_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RepairItem_breakerRepairItem_feature",
                                 "_UI_RepairItem_type" ),
-                        CimPackage.eINSTANCE.getRepairItem_BreakerRepairItem(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getRepairItem_BreakerRepairItem(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,11 +100,17 @@ public class RepairItemItemProvider extends CimObjectWithIDItemProvider {
     protected void addTransformerRepairItemPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RepairItem_transformerRepairItem_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RepairItem_transformerRepairItem_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RepairItem_transformerRepairItem_feature",
                                 "_UI_RepairItem_type" ),
-                        CimPackage.eINSTANCE.getRepairItem_TransformerRepairItem(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getRepairItem_TransformerRepairItem(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -110,10 +122,17 @@ public class RepairItemItemProvider extends CimObjectWithIDItemProvider {
     protected void addRepairWorkTaskPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RepairItem_RepairWorkTask_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RepairItem_RepairWorkTask_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RepairItem_RepairWorkTask_feature",
                                 "_UI_RepairItem_type" ),
-                        CimPackage.eINSTANCE.getRepairItem_RepairWorkTask(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getRepairItem_RepairWorkTask(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

@@ -90,11 +90,17 @@ public class ACLineSegmentItemProvider extends ConductorItemProvider {
     protected void addB0chPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ACLineSegment_b0ch_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ACLineSegment_b0ch_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ACLineSegment_b0ch_feature",
                                 "_UI_ACLineSegment_type" ),
-                        CimPackage.eINSTANCE.getACLineSegment_B0ch(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getACLineSegment_B0ch(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -106,11 +112,17 @@ public class ACLineSegmentItemProvider extends ConductorItemProvider {
     protected void addBchPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ACLineSegment_bch_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ACLineSegment_bch_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ACLineSegment_bch_feature",
                                 "_UI_ACLineSegment_type" ),
-                        CimPackage.eINSTANCE.getACLineSegment_Bch(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getACLineSegment_Bch(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -122,11 +134,17 @@ public class ACLineSegmentItemProvider extends ConductorItemProvider {
     protected void addG0chPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ACLineSegment_g0ch_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ACLineSegment_g0ch_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ACLineSegment_g0ch_feature",
                                 "_UI_ACLineSegment_type" ),
-                        CimPackage.eINSTANCE.getACLineSegment_G0ch(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getACLineSegment_G0ch(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -138,11 +156,17 @@ public class ACLineSegmentItemProvider extends ConductorItemProvider {
     protected void addGchPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ACLineSegment_gch_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ACLineSegment_gch_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ACLineSegment_gch_feature",
                                 "_UI_ACLineSegment_type" ),
-                        CimPackage.eINSTANCE.getACLineSegment_Gch(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getACLineSegment_Gch(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -154,11 +178,17 @@ public class ACLineSegmentItemProvider extends ConductorItemProvider {
     protected void addRPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ACLineSegment_r_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ACLineSegment_r_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ACLineSegment_r_feature",
                                 "_UI_ACLineSegment_type" ),
-                        CimPackage.eINSTANCE.getACLineSegment_R(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getACLineSegment_R(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -170,11 +200,17 @@ public class ACLineSegmentItemProvider extends ConductorItemProvider {
     protected void addR0PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ACLineSegment_r0_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ACLineSegment_r0_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ACLineSegment_r0_feature",
                                 "_UI_ACLineSegment_type" ),
-                        CimPackage.eINSTANCE.getACLineSegment_R0(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getACLineSegment_R0(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -184,13 +220,19 @@ public class ACLineSegmentItemProvider extends ConductorItemProvider {
      * @generated
      */
     protected void addShortCircuitEndTemperaturePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ACLineSegment_shortCircuitEndTemperature_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ACLineSegment_shortCircuitEndTemperature_feature",
-                        "_UI_ACLineSegment_type" ),
-                CimPackage.eINSTANCE.getACLineSegment_ShortCircuitEndTemperature(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ACLineSegment_shortCircuitEndTemperature_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ACLineSegment_shortCircuitEndTemperature_feature", "_UI_ACLineSegment_type" ),
+                        CimPackage.eINSTANCE.getACLineSegment_ShortCircuitEndTemperature(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -202,11 +244,17 @@ public class ACLineSegmentItemProvider extends ConductorItemProvider {
     protected void addXPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ACLineSegment_x_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ACLineSegment_x_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ACLineSegment_x_feature",
                                 "_UI_ACLineSegment_type" ),
-                        CimPackage.eINSTANCE.getACLineSegment_X(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getACLineSegment_X(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -218,11 +266,17 @@ public class ACLineSegmentItemProvider extends ConductorItemProvider {
     protected void addX0PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ACLineSegment_x0_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ACLineSegment_x0_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ACLineSegment_x0_feature",
                                 "_UI_ACLineSegment_type" ),
-                        CimPackage.eINSTANCE.getACLineSegment_X0(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getACLineSegment_X0(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -234,10 +288,17 @@ public class ACLineSegmentItemProvider extends ConductorItemProvider {
     protected void addLineFaultsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ACLineSegment_LineFaults_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ACLineSegment_LineFaults_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ACLineSegment_LineFaults_feature",
                                 "_UI_ACLineSegment_type" ),
-                        CimPackage.eINSTANCE.getACLineSegment_LineFaults(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getACLineSegment_LineFaults(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -249,10 +310,17 @@ public class ACLineSegmentItemProvider extends ConductorItemProvider {
     protected void addClampPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ACLineSegment_Clamp_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ACLineSegment_Clamp_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ACLineSegment_Clamp_feature",
                                 "_UI_ACLineSegment_type" ),
-                        CimPackage.eINSTANCE.getACLineSegment_Clamp(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getACLineSegment_Clamp(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -264,10 +332,16 @@ public class ACLineSegmentItemProvider extends ConductorItemProvider {
     protected void addPerLengthImpedancePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ACLineSegment_PerLengthImpedance_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ACLineSegment_PerLengthImpedance_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ACLineSegment_PerLengthImpedance_feature",
                                 "_UI_ACLineSegment_type" ),
-                        CimPackage.eINSTANCE.getACLineSegment_PerLengthImpedance(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getACLineSegment_PerLengthImpedance(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -278,12 +352,19 @@ public class ACLineSegmentItemProvider extends ConductorItemProvider {
      * @generated
      */
     protected void addLineGroundingActionPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ACLineSegment_LineGroundingAction_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ACLineSegment_LineGroundingAction_feature",
-                        "_UI_ACLineSegment_type" ),
-                CimPackage.eINSTANCE.getACLineSegment_LineGroundingAction(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ACLineSegment_LineGroundingAction_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ACLineSegment_LineGroundingAction_feature", "_UI_ACLineSegment_type" ),
+                        CimPackage.eINSTANCE.getACLineSegment_LineGroundingAction(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -295,10 +376,17 @@ public class ACLineSegmentItemProvider extends ConductorItemProvider {
     protected void addCutPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ACLineSegment_Cut_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ACLineSegment_Cut_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ACLineSegment_Cut_feature",
                                 "_UI_ACLineSegment_type" ),
-                        CimPackage.eINSTANCE.getACLineSegment_Cut(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getACLineSegment_Cut(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -310,10 +398,16 @@ public class ACLineSegmentItemProvider extends ConductorItemProvider {
     protected void addLineJumpingActionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ACLineSegment_LineJumpingAction_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ACLineSegment_LineJumpingAction_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ACLineSegment_LineJumpingAction_feature",
                                 "_UI_ACLineSegment_type" ),
-                        CimPackage.eINSTANCE.getACLineSegment_LineJumpingAction(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getACLineSegment_LineJumpingAction(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 

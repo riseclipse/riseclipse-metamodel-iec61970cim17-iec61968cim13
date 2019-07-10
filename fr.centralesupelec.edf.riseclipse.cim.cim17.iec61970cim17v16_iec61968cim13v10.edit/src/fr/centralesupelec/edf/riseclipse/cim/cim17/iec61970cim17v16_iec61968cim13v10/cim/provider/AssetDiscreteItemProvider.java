@@ -74,10 +74,17 @@ public class AssetDiscreteItemProvider extends DiscreteItemProvider {
     protected void addTestStandardPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AssetDiscrete_TestStandard_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AssetDiscrete_TestStandard_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AssetDiscrete_TestStandard_feature",
                                 "_UI_AssetDiscrete_type" ),
-                        CimPackage.eINSTANCE.getAssetDiscrete_TestStandard(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAssetDiscrete_TestStandard(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class AssetDiscreteItemProvider extends DiscreteItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

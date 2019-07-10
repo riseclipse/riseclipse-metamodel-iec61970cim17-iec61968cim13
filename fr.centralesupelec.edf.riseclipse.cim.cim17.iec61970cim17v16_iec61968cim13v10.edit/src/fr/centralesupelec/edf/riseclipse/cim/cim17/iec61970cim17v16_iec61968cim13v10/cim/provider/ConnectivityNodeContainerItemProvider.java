@@ -75,12 +75,18 @@ public class ConnectivityNodeContainerItemProvider extends PowerSystemResourceIt
     protected void addConnectivityNodesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ConnectivityNodeContainer_ConnectivityNodes_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ConnectivityNodeContainer_ConnectivityNodes_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_ConnectivityNodeContainer_ConnectivityNodes_feature",
                                 "_UI_ConnectivityNodeContainer_type" ),
-                        CimPackage.eINSTANCE.getConnectivityNodeContainer_ConnectivityNodes(), true, false, true, null,
-                        null, null ) );
+                        CimPackage.eINSTANCE.getConnectivityNodeContainer_ConnectivityNodes(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -91,11 +97,17 @@ public class ConnectivityNodeContainerItemProvider extends PowerSystemResourceIt
      */
     protected void addTopologicalNodePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ConnectivityNodeContainer_TopologicalNode_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_ConnectivityNodeContainer_TopologicalNode_feature", "_UI_ConnectivityNodeContainer_type" ),
-                CimPackage.eINSTANCE.getConnectivityNodeContainer_TopologicalNode(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getConnectivityNodeContainer_TopologicalNode(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -133,7 +145,6 @@ public class ConnectivityNodeContainerItemProvider extends PowerSystemResourceIt
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

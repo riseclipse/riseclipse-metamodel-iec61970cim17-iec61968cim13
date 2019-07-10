@@ -84,13 +84,19 @@ public class WindContPitchAngleIECItemProvider extends IdentifiedObjectItemProvi
      * @generated
      */
     protected void addDthetamaxPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindContPitchAngleIEC_dthetamax_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_WindContPitchAngleIEC_dthetamax_feature",
-                        "_UI_WindContPitchAngleIEC_type" ),
-                CimPackage.eINSTANCE.getWindContPitchAngleIEC_Dthetamax(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPitchAngleIEC_dthetamax_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_WindContPitchAngleIEC_dthetamax_feature",
+                                "_UI_WindContPitchAngleIEC_type" ),
+                        CimPackage.eINSTANCE.getWindContPitchAngleIEC_Dthetamax(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -100,13 +106,19 @@ public class WindContPitchAngleIECItemProvider extends IdentifiedObjectItemProvi
      * @generated
      */
     protected void addDthetaminPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindContPitchAngleIEC_dthetamin_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_WindContPitchAngleIEC_dthetamin_feature",
-                        "_UI_WindContPitchAngleIEC_type" ),
-                CimPackage.eINSTANCE.getWindContPitchAngleIEC_Dthetamin(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPitchAngleIEC_dthetamin_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_WindContPitchAngleIEC_dthetamin_feature",
+                                "_UI_WindContPitchAngleIEC_type" ),
+                        CimPackage.eINSTANCE.getWindContPitchAngleIEC_Dthetamin(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -118,11 +130,17 @@ public class WindContPitchAngleIECItemProvider extends IdentifiedObjectItemProvi
     protected void addKicPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContPitchAngleIEC_kic_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPitchAngleIEC_kic_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContPitchAngleIEC_kic_feature",
                                 "_UI_WindContPitchAngleIEC_type" ),
-                        CimPackage.eINSTANCE.getWindContPitchAngleIEC_Kic(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContPitchAngleIEC_Kic(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -132,13 +150,19 @@ public class WindContPitchAngleIECItemProvider extends IdentifiedObjectItemProvi
      * @generated
      */
     protected void addKiomegaPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindContPitchAngleIEC_kiomega_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_WindContPitchAngleIEC_kiomega_feature",
-                        "_UI_WindContPitchAngleIEC_type" ),
-                CimPackage.eINSTANCE.getWindContPitchAngleIEC_Kiomega(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPitchAngleIEC_kiomega_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_WindContPitchAngleIEC_kiomega_feature",
+                                "_UI_WindContPitchAngleIEC_type" ),
+                        CimPackage.eINSTANCE.getWindContPitchAngleIEC_Kiomega(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -150,11 +174,17 @@ public class WindContPitchAngleIECItemProvider extends IdentifiedObjectItemProvi
     protected void addKpcPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContPitchAngleIEC_kpc_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPitchAngleIEC_kpc_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContPitchAngleIEC_kpc_feature",
                                 "_UI_WindContPitchAngleIEC_type" ),
-                        CimPackage.eINSTANCE.getWindContPitchAngleIEC_Kpc(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContPitchAngleIEC_Kpc(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -164,13 +194,19 @@ public class WindContPitchAngleIECItemProvider extends IdentifiedObjectItemProvi
      * @generated
      */
     protected void addKpomegaPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindContPitchAngleIEC_kpomega_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_WindContPitchAngleIEC_kpomega_feature",
-                        "_UI_WindContPitchAngleIEC_type" ),
-                CimPackage.eINSTANCE.getWindContPitchAngleIEC_Kpomega(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPitchAngleIEC_kpomega_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_WindContPitchAngleIEC_kpomega_feature",
+                                "_UI_WindContPitchAngleIEC_type" ),
+                        CimPackage.eINSTANCE.getWindContPitchAngleIEC_Kpomega(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -182,11 +218,17 @@ public class WindContPitchAngleIECItemProvider extends IdentifiedObjectItemProvi
     protected void addKpxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContPitchAngleIEC_kpx_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPitchAngleIEC_kpx_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContPitchAngleIEC_kpx_feature",
                                 "_UI_WindContPitchAngleIEC_type" ),
-                        CimPackage.eINSTANCE.getWindContPitchAngleIEC_Kpx(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContPitchAngleIEC_Kpx(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -196,13 +238,19 @@ public class WindContPitchAngleIECItemProvider extends IdentifiedObjectItemProvi
      * @generated
      */
     protected void addThetamaxPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindContPitchAngleIEC_thetamax_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_WindContPitchAngleIEC_thetamax_feature",
-                        "_UI_WindContPitchAngleIEC_type" ),
-                CimPackage.eINSTANCE.getWindContPitchAngleIEC_Thetamax(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPitchAngleIEC_thetamax_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_WindContPitchAngleIEC_thetamax_feature",
+                                "_UI_WindContPitchAngleIEC_type" ),
+                        CimPackage.eINSTANCE.getWindContPitchAngleIEC_Thetamax(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -212,13 +260,19 @@ public class WindContPitchAngleIECItemProvider extends IdentifiedObjectItemProvi
      * @generated
      */
     protected void addThetaminPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindContPitchAngleIEC_thetamin_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_WindContPitchAngleIEC_thetamin_feature",
-                        "_UI_WindContPitchAngleIEC_type" ),
-                CimPackage.eINSTANCE.getWindContPitchAngleIEC_Thetamin(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPitchAngleIEC_thetamin_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_WindContPitchAngleIEC_thetamin_feature",
+                                "_UI_WindContPitchAngleIEC_type" ),
+                        CimPackage.eINSTANCE.getWindContPitchAngleIEC_Thetamin(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -228,13 +282,19 @@ public class WindContPitchAngleIECItemProvider extends IdentifiedObjectItemProvi
      * @generated
      */
     protected void addTthetaPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindContPitchAngleIEC_ttheta_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_WindContPitchAngleIEC_ttheta_feature",
-                        "_UI_WindContPitchAngleIEC_type" ),
-                CimPackage.eINSTANCE.getWindContPitchAngleIEC_Ttheta(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPitchAngleIEC_ttheta_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_WindContPitchAngleIEC_ttheta_feature",
+                                "_UI_WindContPitchAngleIEC_type" ),
+                        CimPackage.eINSTANCE.getWindContPitchAngleIEC_Ttheta(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -245,11 +305,17 @@ public class WindContPitchAngleIECItemProvider extends IdentifiedObjectItemProvi
      */
     protected void addWindTurbineType3IECPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindContPitchAngleIEC_WindTurbineType3IEC_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_WindContPitchAngleIEC_WindTurbineType3IEC_feature", "_UI_WindContPitchAngleIEC_type" ),
-                CimPackage.eINSTANCE.getWindContPitchAngleIEC_WindTurbineType3IEC(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getWindContPitchAngleIEC_WindTurbineType3IEC(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 

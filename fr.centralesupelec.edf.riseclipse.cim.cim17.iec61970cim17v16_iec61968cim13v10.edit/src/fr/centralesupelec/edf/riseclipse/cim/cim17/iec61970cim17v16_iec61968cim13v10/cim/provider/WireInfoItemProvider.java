@@ -91,11 +91,17 @@ public class WireInfoItemProvider extends AssetInfoItemProvider {
     protected void addCoreRadiusPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireInfo_coreRadius_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireInfo_coreRadius_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireInfo_coreRadius_feature",
                                 "_UI_WireInfo_type" ),
-                        CimPackage.eINSTANCE.getWireInfo_CoreRadius(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWireInfo_CoreRadius(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -107,11 +113,17 @@ public class WireInfoItemProvider extends AssetInfoItemProvider {
     protected void addCoreStrandCountPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireInfo_coreStrandCount_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireInfo_coreStrandCount_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireInfo_coreStrandCount_feature",
                                 "_UI_WireInfo_type" ),
-                        CimPackage.eINSTANCE.getWireInfo_CoreStrandCount(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWireInfo_CoreStrandCount(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -123,11 +135,17 @@ public class WireInfoItemProvider extends AssetInfoItemProvider {
     protected void addGmrPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireInfo_gmr_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireInfo_gmr_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireInfo_gmr_feature",
                                 "_UI_WireInfo_type" ),
-                        CimPackage.eINSTANCE.getWireInfo_Gmr(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWireInfo_Gmr(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -139,11 +157,17 @@ public class WireInfoItemProvider extends AssetInfoItemProvider {
     protected void addInsulatedPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireInfo_insulated_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireInfo_insulated_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireInfo_insulated_feature",
                                 "_UI_WireInfo_type" ),
-                        CimPackage.eINSTANCE.getWireInfo_Insulated(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWireInfo_Insulated(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -155,11 +179,17 @@ public class WireInfoItemProvider extends AssetInfoItemProvider {
     protected void addInsulationMaterialPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireInfo_insulationMaterial_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireInfo_insulationMaterial_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireInfo_insulationMaterial_feature",
                                 "_UI_WireInfo_type" ),
-                        CimPackage.eINSTANCE.getWireInfo_InsulationMaterial(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWireInfo_InsulationMaterial(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -171,11 +201,17 @@ public class WireInfoItemProvider extends AssetInfoItemProvider {
     protected void addInsulationThicknessPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireInfo_insulationThickness_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireInfo_insulationThickness_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireInfo_insulationThickness_feature",
                                 "_UI_WireInfo_type" ),
-                        CimPackage.eINSTANCE.getWireInfo_InsulationThickness(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWireInfo_InsulationThickness(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -187,11 +223,17 @@ public class WireInfoItemProvider extends AssetInfoItemProvider {
     protected void addMaterialPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireInfo_material_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireInfo_material_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireInfo_material_feature",
                                 "_UI_WireInfo_type" ),
-                        CimPackage.eINSTANCE.getWireInfo_Material(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWireInfo_Material(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -203,11 +245,17 @@ public class WireInfoItemProvider extends AssetInfoItemProvider {
     protected void addRAC25PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireInfo_rAC25_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireInfo_rAC25_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireInfo_rAC25_feature",
                                 "_UI_WireInfo_type" ),
-                        CimPackage.eINSTANCE.getWireInfo_RAC25(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWireInfo_RAC25(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -219,11 +267,17 @@ public class WireInfoItemProvider extends AssetInfoItemProvider {
     protected void addRAC50PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireInfo_rAC50_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireInfo_rAC50_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireInfo_rAC50_feature",
                                 "_UI_WireInfo_type" ),
-                        CimPackage.eINSTANCE.getWireInfo_RAC50(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWireInfo_RAC50(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -235,11 +289,17 @@ public class WireInfoItemProvider extends AssetInfoItemProvider {
     protected void addRAC75PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireInfo_rAC75_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireInfo_rAC75_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireInfo_rAC75_feature",
                                 "_UI_WireInfo_type" ),
-                        CimPackage.eINSTANCE.getWireInfo_RAC75(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWireInfo_RAC75(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -251,11 +311,17 @@ public class WireInfoItemProvider extends AssetInfoItemProvider {
     protected void addRadiusPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireInfo_radius_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireInfo_radius_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireInfo_radius_feature",
                                 "_UI_WireInfo_type" ),
-                        CimPackage.eINSTANCE.getWireInfo_Radius(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWireInfo_Radius(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -267,11 +333,17 @@ public class WireInfoItemProvider extends AssetInfoItemProvider {
     protected void addRatedCurrentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireInfo_ratedCurrent_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireInfo_ratedCurrent_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireInfo_ratedCurrent_feature",
                                 "_UI_WireInfo_type" ),
-                        CimPackage.eINSTANCE.getWireInfo_RatedCurrent(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWireInfo_RatedCurrent(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -283,11 +355,17 @@ public class WireInfoItemProvider extends AssetInfoItemProvider {
     protected void addRDC20PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireInfo_rDC20_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireInfo_rDC20_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireInfo_rDC20_feature",
                                 "_UI_WireInfo_type" ),
-                        CimPackage.eINSTANCE.getWireInfo_RDC20(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWireInfo_RDC20(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -299,11 +377,17 @@ public class WireInfoItemProvider extends AssetInfoItemProvider {
     protected void addSizeDescriptionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireInfo_sizeDescription_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireInfo_sizeDescription_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireInfo_sizeDescription_feature",
                                 "_UI_WireInfo_type" ),
-                        CimPackage.eINSTANCE.getWireInfo_SizeDescription(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWireInfo_SizeDescription(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -315,11 +399,17 @@ public class WireInfoItemProvider extends AssetInfoItemProvider {
     protected void addStrandCountPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireInfo_strandCount_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireInfo_strandCount_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireInfo_strandCount_feature",
                                 "_UI_WireInfo_type" ),
-                        CimPackage.eINSTANCE.getWireInfo_StrandCount(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWireInfo_StrandCount(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -331,10 +421,17 @@ public class WireInfoItemProvider extends AssetInfoItemProvider {
     protected void addWirePhaseInfoPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireInfo_WirePhaseInfo_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireInfo_WirePhaseInfo_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireInfo_WirePhaseInfo_feature",
                                 "_UI_WireInfo_type" ),
-                        CimPackage.eINSTANCE.getWireInfo_WirePhaseInfo(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getWireInfo_WirePhaseInfo(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

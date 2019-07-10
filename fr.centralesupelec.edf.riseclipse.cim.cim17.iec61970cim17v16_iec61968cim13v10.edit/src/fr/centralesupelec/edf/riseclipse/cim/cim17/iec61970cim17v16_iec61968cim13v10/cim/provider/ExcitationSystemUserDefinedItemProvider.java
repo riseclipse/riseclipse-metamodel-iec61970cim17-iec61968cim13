@@ -76,12 +76,18 @@ public class ExcitationSystemUserDefinedItemProvider extends ExcitationSystemDyn
      */
     protected void addProprietaryPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ExcitationSystemUserDefined_proprietary_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ExcitationSystemUserDefined_proprietary_feature",
                         "_UI_ExcitationSystemUserDefined_type" ),
-                CimPackage.eINSTANCE.getExcitationSystemUserDefined_Proprietary(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getExcitationSystemUserDefined_Proprietary(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -91,14 +97,20 @@ public class ExcitationSystemUserDefinedItemProvider extends ExcitationSystemDyn
      * @generated
      */
     protected void addProprietaryParameterDynamicsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ExcitationSystemUserDefined_ProprietaryParameterDynamics_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_ExcitationSystemUserDefined_ProprietaryParameterDynamics_feature",
-                        "_UI_ExcitationSystemUserDefined_type" ),
-                CimPackage.eINSTANCE.getExcitationSystemUserDefined_ProprietaryParameterDynamics(), true, false, true,
-                null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ExcitationSystemUserDefined_ProprietaryParameterDynamics_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ExcitationSystemUserDefined_ProprietaryParameterDynamics_feature",
+                                "_UI_ExcitationSystemUserDefined_type" ),
+                        CimPackage.eINSTANCE.getExcitationSystemUserDefined_ProprietaryParameterDynamics(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

@@ -80,11 +80,17 @@ public class ComFunctionItemProvider extends EndDeviceFunctionItemProvider {
     protected void addAmrAddressPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ComFunction_amrAddress_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ComFunction_amrAddress_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ComFunction_amrAddress_feature",
                                 "_UI_ComFunction_type" ),
-                        CimPackage.eINSTANCE.getComFunction_AmrAddress(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getComFunction_AmrAddress(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -96,11 +102,17 @@ public class ComFunctionItemProvider extends EndDeviceFunctionItemProvider {
     protected void addAmrRouterPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ComFunction_amrRouter_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ComFunction_amrRouter_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ComFunction_amrRouter_feature",
                                 "_UI_ComFunction_type" ),
-                        CimPackage.eINSTANCE.getComFunction_AmrRouter(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getComFunction_AmrRouter(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -112,11 +124,17 @@ public class ComFunctionItemProvider extends EndDeviceFunctionItemProvider {
     protected void addDirectionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ComFunction_direction_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ComFunction_direction_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ComFunction_direction_feature",
                                 "_UI_ComFunction_type" ),
-                        CimPackage.eINSTANCE.getComFunction_Direction(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getComFunction_Direction(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -128,11 +146,17 @@ public class ComFunctionItemProvider extends EndDeviceFunctionItemProvider {
     protected void addTechnologyPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ComFunction_technology_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ComFunction_technology_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ComFunction_technology_feature",
                                 "_UI_ComFunction_type" ),
-                        CimPackage.eINSTANCE.getComFunction_Technology(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getComFunction_Technology(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -144,10 +168,17 @@ public class ComFunctionItemProvider extends EndDeviceFunctionItemProvider {
     protected void addComModulePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ComFunction_ComModule_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ComFunction_ComModule_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ComFunction_ComModule_feature",
                                 "_UI_ComFunction_type" ),
-                        CimPackage.eINSTANCE.getComFunction_ComModule(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getComFunction_ComModule(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

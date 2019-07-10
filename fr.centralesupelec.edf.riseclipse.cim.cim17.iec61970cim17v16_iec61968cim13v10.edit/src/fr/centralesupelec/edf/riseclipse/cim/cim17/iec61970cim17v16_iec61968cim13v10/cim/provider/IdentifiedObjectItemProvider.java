@@ -83,11 +83,17 @@ public class IdentifiedObjectItemProvider extends CimObjectWithIDItemProvider {
     protected void addAliasNamePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_IdentifiedObject_aliasName_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_IdentifiedObject_aliasName_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_IdentifiedObject_aliasName_feature",
                                 "_UI_IdentifiedObject_type" ),
-                        CimPackage.eINSTANCE.getIdentifiedObject_AliasName(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getIdentifiedObject_AliasName(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -99,11 +105,17 @@ public class IdentifiedObjectItemProvider extends CimObjectWithIDItemProvider {
     protected void addDescriptionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_IdentifiedObject_description_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_IdentifiedObject_description_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_IdentifiedObject_description_feature",
                                 "_UI_IdentifiedObject_type" ),
-                        CimPackage.eINSTANCE.getIdentifiedObject_Description(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getIdentifiedObject_Description(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -115,11 +127,17 @@ public class IdentifiedObjectItemProvider extends CimObjectWithIDItemProvider {
     protected void addMRIDPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_IdentifiedObject_mRID_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_IdentifiedObject_mRID_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_IdentifiedObject_mRID_feature",
                                 "_UI_IdentifiedObject_type" ),
-                        CimPackage.eINSTANCE.getIdentifiedObject_MRID(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getIdentifiedObject_MRID(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -131,11 +149,17 @@ public class IdentifiedObjectItemProvider extends CimObjectWithIDItemProvider {
     protected void addNamePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_IdentifiedObject_name_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_IdentifiedObject_name_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_IdentifiedObject_name_feature",
                                 "_UI_IdentifiedObject_type" ),
-                        CimPackage.eINSTANCE.getIdentifiedObject_Name(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getIdentifiedObject_Name(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -147,10 +171,17 @@ public class IdentifiedObjectItemProvider extends CimObjectWithIDItemProvider {
     protected void addNamesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_IdentifiedObject_Names_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_IdentifiedObject_Names_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_IdentifiedObject_Names_feature",
                                 "_UI_IdentifiedObject_type" ),
-                        CimPackage.eINSTANCE.getIdentifiedObject_Names(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getIdentifiedObject_Names(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -160,12 +191,19 @@ public class IdentifiedObjectItemProvider extends CimObjectWithIDItemProvider {
      * @generated
      */
     protected void addDiagramObjectsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_IdentifiedObject_DiagramObjects_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_IdentifiedObject_DiagramObjects_feature",
-                        "_UI_IdentifiedObject_type" ),
-                CimPackage.eINSTANCE.getIdentifiedObject_DiagramObjects(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_IdentifiedObject_DiagramObjects_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_IdentifiedObject_DiagramObjects_feature",
+                                "_UI_IdentifiedObject_type" ),
+                        CimPackage.eINSTANCE.getIdentifiedObject_DiagramObjects(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -177,11 +215,17 @@ public class IdentifiedObjectItemProvider extends CimObjectWithIDItemProvider {
     protected void addPropertiesCIMDataObjectPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_IdentifiedObject_PropertiesCIMDataObject_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_IdentifiedObject_PropertiesCIMDataObject_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_IdentifiedObject_PropertiesCIMDataObject_feature", "_UI_IdentifiedObject_type" ),
-                        CimPackage.eINSTANCE.getIdentifiedObject_PropertiesCIMDataObject(), true, false, true, null,
-                        null, null ) );
+                        CimPackage.eINSTANCE.getIdentifiedObject_PropertiesCIMDataObject(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -193,11 +237,17 @@ public class IdentifiedObjectItemProvider extends CimObjectWithIDItemProvider {
     protected void addTargetingCIMDataObjectPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_IdentifiedObject_TargetingCIMDataObject_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_IdentifiedObject_TargetingCIMDataObject_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_IdentifiedObject_TargetingCIMDataObject_feature", "_UI_IdentifiedObject_type" ),
-                        CimPackage.eINSTANCE.getIdentifiedObject_TargetingCIMDataObject(), true, false, true, null,
-                        null, null ) );
+                        CimPackage.eINSTANCE.getIdentifiedObject_TargetingCIMDataObject(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

@@ -78,11 +78,17 @@ public class SvStatusItemProvider extends StateVariableItemProvider {
     protected void addInServicePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SvStatus_inService_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SvStatus_inService_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SvStatus_inService_feature",
                                 "_UI_SvStatus_type" ),
-                        CimPackage.eINSTANCE.getSvStatus_InService(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSvStatus_InService(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,11 +100,17 @@ public class SvStatusItemProvider extends StateVariableItemProvider {
     protected void addPhasePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SvStatus_phase_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SvStatus_phase_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SvStatus_phase_feature",
                                 "_UI_SvStatus_type" ),
-                        CimPackage.eINSTANCE.getSvStatus_Phase(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSvStatus_Phase(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -110,10 +122,17 @@ public class SvStatusItemProvider extends StateVariableItemProvider {
     protected void addConductingEquipmentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SvStatus_ConductingEquipment_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SvStatus_ConductingEquipment_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SvStatus_ConductingEquipment_feature",
                                 "_UI_SvStatus_type" ),
-                        CimPackage.eINSTANCE.getSvStatus_ConductingEquipment(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSvStatus_ConductingEquipment(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

@@ -79,11 +79,17 @@ public class EmissionCurveItemProvider extends CurveItemProvider {
     protected void addEmissionContentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EmissionCurve_emissionContent_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EmissionCurve_emissionContent_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EmissionCurve_emissionContent_feature",
                                 "_UI_EmissionCurve_type" ),
-                        CimPackage.eINSTANCE.getEmissionCurve_EmissionContent(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEmissionCurve_EmissionContent(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,11 +101,17 @@ public class EmissionCurveItemProvider extends CurveItemProvider {
     protected void addEmissionTypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EmissionCurve_emissionType_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EmissionCurve_emissionType_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EmissionCurve_emissionType_feature",
                                 "_UI_EmissionCurve_type" ),
-                        CimPackage.eINSTANCE.getEmissionCurve_EmissionType(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEmissionCurve_EmissionType(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,11 +123,17 @@ public class EmissionCurveItemProvider extends CurveItemProvider {
     protected void addIsNetGrossPPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EmissionCurve_isNetGrossP_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EmissionCurve_isNetGrossP_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EmissionCurve_isNetGrossP_feature",
                                 "_UI_EmissionCurve_type" ),
-                        CimPackage.eINSTANCE.getEmissionCurve_IsNetGrossP(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEmissionCurve_IsNetGrossP(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -125,12 +143,19 @@ public class EmissionCurveItemProvider extends CurveItemProvider {
      * @generated
      */
     protected void addThermalGeneratingUnitPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_EmissionCurve_ThermalGeneratingUnit_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_EmissionCurve_ThermalGeneratingUnit_feature",
-                        "_UI_EmissionCurve_type" ),
-                CimPackage.eINSTANCE.getEmissionCurve_ThermalGeneratingUnit(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_EmissionCurve_ThermalGeneratingUnit_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_EmissionCurve_ThermalGeneratingUnit_feature", "_UI_EmissionCurve_type" ),
+                        CimPackage.eINSTANCE.getEmissionCurve_ThermalGeneratingUnit(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

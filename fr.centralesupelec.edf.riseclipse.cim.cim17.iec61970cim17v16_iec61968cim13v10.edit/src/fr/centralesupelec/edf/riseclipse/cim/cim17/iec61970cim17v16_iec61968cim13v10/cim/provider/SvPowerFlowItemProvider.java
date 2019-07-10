@@ -79,11 +79,17 @@ public class SvPowerFlowItemProvider extends StateVariableItemProvider {
     protected void addPPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SvPowerFlow_p_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SvPowerFlow_p_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SvPowerFlow_p_feature",
                                 "_UI_SvPowerFlow_type" ),
-                        CimPackage.eINSTANCE.getSvPowerFlow_P(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSvPowerFlow_P(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,11 +101,17 @@ public class SvPowerFlowItemProvider extends StateVariableItemProvider {
     protected void addPhasePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SvPowerFlow_phase_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SvPowerFlow_phase_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SvPowerFlow_phase_feature",
                                 "_UI_SvPowerFlow_type" ),
-                        CimPackage.eINSTANCE.getSvPowerFlow_Phase(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSvPowerFlow_Phase(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,11 +123,17 @@ public class SvPowerFlowItemProvider extends StateVariableItemProvider {
     protected void addQPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SvPowerFlow_q_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SvPowerFlow_q_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SvPowerFlow_q_feature",
                                 "_UI_SvPowerFlow_type" ),
-                        CimPackage.eINSTANCE.getSvPowerFlow_Q(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSvPowerFlow_Q(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -127,10 +145,17 @@ public class SvPowerFlowItemProvider extends StateVariableItemProvider {
     protected void addTerminalPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SvPowerFlow_Terminal_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SvPowerFlow_Terminal_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SvPowerFlow_Terminal_feature",
                                 "_UI_SvPowerFlow_type" ),
-                        CimPackage.eINSTANCE.getSvPowerFlow_Terminal(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSvPowerFlow_Terminal(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

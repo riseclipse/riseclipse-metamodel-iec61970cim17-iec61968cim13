@@ -74,10 +74,17 @@ public class IssuerItemProvider extends DocumentPersonRoleItemProvider {
     protected void addDocumentsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Issuer_Documents_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Issuer_Documents_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Issuer_Documents_feature",
                                 "_UI_Issuer_type" ),
-                        CimPackage.eINSTANCE.getIssuer_Documents(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getIssuer_Documents(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class IssuerItemProvider extends DocumentPersonRoleItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

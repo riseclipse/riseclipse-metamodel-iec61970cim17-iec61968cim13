@@ -78,12 +78,18 @@ public class SynchronousMachineDetailedItemProvider extends SynchronousMachineDy
      */
     protected void addEfdBaseRatioPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_SynchronousMachineDetailed_efdBaseRatio_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachineDetailed_efdBaseRatio_feature",
                         "_UI_SynchronousMachineDetailed_type" ),
-                CimPackage.eINSTANCE.getSynchronousMachineDetailed_EfdBaseRatio(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getSynchronousMachineDetailed_EfdBaseRatio(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -94,12 +100,18 @@ public class SynchronousMachineDetailedItemProvider extends SynchronousMachineDy
      */
     protected void addIfdBaseTypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_SynchronousMachineDetailed_ifdBaseType_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachineDetailed_ifdBaseType_feature",
                         "_UI_SynchronousMachineDetailed_type" ),
-                CimPackage.eINSTANCE.getSynchronousMachineDetailed_IfdBaseType(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getSynchronousMachineDetailed_IfdBaseType(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -109,14 +121,20 @@ public class SynchronousMachineDetailedItemProvider extends SynchronousMachineDy
      * @generated
      */
     protected void addSaturationFactor120QAxisPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SynchronousMachineDetailed_saturationFactor120QAxis_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_SynchronousMachineDetailed_saturationFactor120QAxis_feature",
-                        "_UI_SynchronousMachineDetailed_type" ),
-                CimPackage.eINSTANCE.getSynchronousMachineDetailed_SaturationFactor120QAxis(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachineDetailed_saturationFactor120QAxis_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_SynchronousMachineDetailed_saturationFactor120QAxis_feature",
+                                "_UI_SynchronousMachineDetailed_type" ),
+                        CimPackage.eINSTANCE.getSynchronousMachineDetailed_SaturationFactor120QAxis(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -126,14 +144,20 @@ public class SynchronousMachineDetailedItemProvider extends SynchronousMachineDy
      * @generated
      */
     protected void addSaturationFactorQAxisPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SynchronousMachineDetailed_saturationFactorQAxis_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_SynchronousMachineDetailed_saturationFactorQAxis_feature",
-                        "_UI_SynchronousMachineDetailed_type" ),
-                CimPackage.eINSTANCE.getSynchronousMachineDetailed_SaturationFactorQAxis(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachineDetailed_saturationFactorQAxis_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_SynchronousMachineDetailed_saturationFactorQAxis_feature",
+                                "_UI_SynchronousMachineDetailed_type" ),
+                        CimPackage.eINSTANCE.getSynchronousMachineDetailed_SaturationFactorQAxis(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

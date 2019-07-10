@@ -77,11 +77,17 @@ public class VCompIEEEType2ItemProvider extends VoltageCompensatorDynamicsItemPr
     protected void addTrPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_VCompIEEEType2_tr_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_VCompIEEEType2_tr_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_VCompIEEEType2_tr_feature",
                                 "_UI_VCompIEEEType2_type" ),
-                        CimPackage.eINSTANCE.getVCompIEEEType2_Tr(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getVCompIEEEType2_Tr(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -91,13 +97,19 @@ public class VCompIEEEType2ItemProvider extends VoltageCompensatorDynamicsItemPr
      * @generated
      */
     protected void addGenICompensationForGenJPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_VCompIEEEType2_GenICompensationForGenJ_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_VCompIEEEType2_GenICompensationForGenJ_feature",
-                        "_UI_VCompIEEEType2_type" ),
-                CimPackage.eINSTANCE.getVCompIEEEType2_GenICompensationForGenJ(), true, false, true, null, null,
-                null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_VCompIEEEType2_GenICompensationForGenJ_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_VCompIEEEType2_GenICompensationForGenJ_feature", "_UI_VCompIEEEType2_type" ),
+                        CimPackage.eINSTANCE.getVCompIEEEType2_GenICompensationForGenJ(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

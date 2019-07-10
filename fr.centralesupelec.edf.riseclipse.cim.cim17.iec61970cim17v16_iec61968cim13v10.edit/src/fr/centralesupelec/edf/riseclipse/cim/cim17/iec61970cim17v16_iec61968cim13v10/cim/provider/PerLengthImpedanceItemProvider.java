@@ -72,12 +72,19 @@ public class PerLengthImpedanceItemProvider extends PerLengthLineParameterItemPr
      * @generated
      */
     protected void addACLineSegmentsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PerLengthImpedance_ACLineSegments_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PerLengthImpedance_ACLineSegments_feature",
-                        "_UI_PerLengthImpedance_type" ),
-                CimPackage.eINSTANCE.getPerLengthImpedance_ACLineSegments(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PerLengthImpedance_ACLineSegments_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PerLengthImpedance_ACLineSegments_feature", "_UI_PerLengthImpedance_type" ),
+                        CimPackage.eINSTANCE.getPerLengthImpedance_ACLineSegments(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class PerLengthImpedanceItemProvider extends PerLengthLineParameterItemPr
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

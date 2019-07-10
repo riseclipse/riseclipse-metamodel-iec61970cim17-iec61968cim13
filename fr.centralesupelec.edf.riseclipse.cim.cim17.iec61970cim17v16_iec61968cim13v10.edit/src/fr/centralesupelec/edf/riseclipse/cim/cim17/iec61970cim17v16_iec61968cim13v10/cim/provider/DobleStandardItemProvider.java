@@ -87,11 +87,17 @@ public class DobleStandardItemProvider extends ItemProviderAdapter implements IE
     protected void addStandardEditionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DobleStandard_standardEdition_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DobleStandard_standardEdition_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DobleStandard_standardEdition_feature",
                                 "_UI_DobleStandard_type" ),
-                        CimPackage.eINSTANCE.getDobleStandard_StandardEdition(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDobleStandard_StandardEdition(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -103,11 +109,17 @@ public class DobleStandardItemProvider extends ItemProviderAdapter implements IE
     protected void addStandardNumberPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DobleStandard_standardNumber_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DobleStandard_standardNumber_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DobleStandard_standardNumber_feature",
                                 "_UI_DobleStandard_type" ),
-                        CimPackage.eINSTANCE.getDobleStandard_StandardNumber(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDobleStandard_StandardNumber(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

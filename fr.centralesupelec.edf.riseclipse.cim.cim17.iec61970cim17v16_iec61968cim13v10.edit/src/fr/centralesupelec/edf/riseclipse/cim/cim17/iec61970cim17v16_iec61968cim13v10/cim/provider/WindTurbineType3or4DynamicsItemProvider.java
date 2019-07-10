@@ -76,12 +76,18 @@ public class WindTurbineType3or4DynamicsItemProvider extends DynamicsFunctionBlo
     protected void addRemoteInputSignalPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindTurbineType3or4Dynamics_RemoteInputSignal_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindTurbineType3or4Dynamics_RemoteInputSignal_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_WindTurbineType3or4Dynamics_RemoteInputSignal_feature",
                                 "_UI_WindTurbineType3or4Dynamics_type" ),
-                        CimPackage.eINSTANCE.getWindTurbineType3or4Dynamics_RemoteInputSignal(), true, false, true,
-                        null, null, null ) );
+                        CimPackage.eINSTANCE.getWindTurbineType3or4Dynamics_RemoteInputSignal(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -91,14 +97,20 @@ public class WindTurbineType3or4DynamicsItemProvider extends DynamicsFunctionBlo
      * @generated
      */
     protected void addPowerElectronicsConnectionPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindTurbineType3or4Dynamics_PowerElectronicsConnection_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_WindTurbineType3or4Dynamics_PowerElectronicsConnection_feature",
-                        "_UI_WindTurbineType3or4Dynamics_type" ),
-                CimPackage.eINSTANCE.getWindTurbineType3or4Dynamics_PowerElectronicsConnection(), true, false, true,
-                null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindTurbineType3or4Dynamics_PowerElectronicsConnection_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_WindTurbineType3or4Dynamics_PowerElectronicsConnection_feature",
+                                "_UI_WindTurbineType3or4Dynamics_type" ),
+                        CimPackage.eINSTANCE.getWindTurbineType3or4Dynamics_PowerElectronicsConnection(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -110,12 +122,18 @@ public class WindTurbineType3or4DynamicsItemProvider extends DynamicsFunctionBlo
     protected void addWindPlantDynamicsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindTurbineType3or4Dynamics_WindPlantDynamics_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindTurbineType3or4Dynamics_WindPlantDynamics_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_WindTurbineType3or4Dynamics_WindPlantDynamics_feature",
                                 "_UI_WindTurbineType3or4Dynamics_type" ),
-                        CimPackage.eINSTANCE.getWindTurbineType3or4Dynamics_WindPlantDynamics(), true, false, true,
-                        null, null, null ) );
+                        CimPackage.eINSTANCE.getWindTurbineType3or4Dynamics_WindPlantDynamics(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -152,7 +170,6 @@ public class WindTurbineType3or4DynamicsItemProvider extends DynamicsFunctionBlo
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

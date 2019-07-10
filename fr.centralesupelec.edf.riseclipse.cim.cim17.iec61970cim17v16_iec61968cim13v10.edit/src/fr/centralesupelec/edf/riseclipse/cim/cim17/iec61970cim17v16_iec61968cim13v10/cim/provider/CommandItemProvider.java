@@ -79,11 +79,17 @@ public class CommandItemProvider extends ControlItemProvider {
     protected void addNormalValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Command_normalValue_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Command_normalValue_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Command_normalValue_feature",
                                 "_UI_Command_type" ),
-                        CimPackage.eINSTANCE.getCommand_NormalValue(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCommand_NormalValue(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,11 +101,17 @@ public class CommandItemProvider extends ControlItemProvider {
     protected void addValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Command_value_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Command_value_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Command_value_feature",
                                 "_UI_Command_type" ),
-                        CimPackage.eINSTANCE.getCommand_Value(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCommand_Value(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,10 +123,17 @@ public class CommandItemProvider extends ControlItemProvider {
     protected void addDiscreteValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Command_DiscreteValue_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Command_DiscreteValue_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Command_DiscreteValue_feature",
                                 "_UI_Command_type" ),
-                        CimPackage.eINSTANCE.getCommand_DiscreteValue(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCommand_DiscreteValue(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -126,10 +145,17 @@ public class CommandItemProvider extends ControlItemProvider {
     protected void addValueAliasSetPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Command_ValueAliasSet_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Command_ValueAliasSet_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Command_ValueAliasSet_feature",
                                 "_UI_Command_type" ),
-                        CimPackage.eINSTANCE.getCommand_ValueAliasSet(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCommand_ValueAliasSet(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

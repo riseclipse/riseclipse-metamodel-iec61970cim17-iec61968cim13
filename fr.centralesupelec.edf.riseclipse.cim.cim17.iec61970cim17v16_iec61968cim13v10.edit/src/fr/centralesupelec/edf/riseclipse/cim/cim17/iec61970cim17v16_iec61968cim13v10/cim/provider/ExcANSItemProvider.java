@@ -89,11 +89,17 @@ public class ExcANSItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addBlintPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcANS_blint_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcANS_blint_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcANS_blint_feature",
                                 "_UI_ExcANS_type" ),
-                        CimPackage.eINSTANCE.getExcANS_Blint(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcANS_Blint(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -105,10 +111,16 @@ public class ExcANSItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addIfmnPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcANS_ifmn_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcANS_ifmn_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcANS_ifmn_feature", "_UI_ExcANS_type" ),
-                        CimPackage.eINSTANCE.getExcANS_Ifmn(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcANS_Ifmn(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -120,10 +132,16 @@ public class ExcANSItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addIfmxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcANS_ifmx_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcANS_ifmx_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcANS_ifmx_feature", "_UI_ExcANS_type" ),
-                        CimPackage.eINSTANCE.getExcANS_Ifmx(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcANS_Ifmx(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -135,10 +153,16 @@ public class ExcANSItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addK2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcANS_k2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcANS_k2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcANS_k2_feature", "_UI_ExcANS_type" ),
-                        CimPackage.eINSTANCE.getExcANS_K2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcANS_K2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -150,10 +174,16 @@ public class ExcANSItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addK3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcANS_k3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcANS_k3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcANS_k3_feature", "_UI_ExcANS_type" ),
-                        CimPackage.eINSTANCE.getExcANS_K3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcANS_K3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -165,10 +195,16 @@ public class ExcANSItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addKcePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcANS_kce_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcANS_kce_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcANS_kce_feature", "_UI_ExcANS_type" ),
-                        CimPackage.eINSTANCE.getExcANS_Kce(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcANS_Kce(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -180,11 +216,17 @@ public class ExcANSItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addKrveccPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcANS_krvecc_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcANS_krvecc_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcANS_krvecc_feature",
                                 "_UI_ExcANS_type" ),
-                        CimPackage.eINSTANCE.getExcANS_Krvecc(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcANS_Krvecc(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -196,11 +238,17 @@ public class ExcANSItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addKvfifPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcANS_kvfif_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcANS_kvfif_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcANS_kvfif_feature",
                                 "_UI_ExcANS_type" ),
-                        CimPackage.eINSTANCE.getExcANS_Kvfif(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcANS_Kvfif(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -212,10 +260,16 @@ public class ExcANSItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addT1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcANS_t1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcANS_t1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcANS_t1_feature", "_UI_ExcANS_type" ),
-                        CimPackage.eINSTANCE.getExcANS_T1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcANS_T1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -227,10 +281,16 @@ public class ExcANSItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addT2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcANS_t2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcANS_t2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcANS_t2_feature", "_UI_ExcANS_type" ),
-                        CimPackage.eINSTANCE.getExcANS_T2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcANS_T2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -242,10 +302,16 @@ public class ExcANSItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addT3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcANS_t3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcANS_t3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcANS_t3_feature", "_UI_ExcANS_type" ),
-                        CimPackage.eINSTANCE.getExcANS_T3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcANS_T3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -257,10 +323,16 @@ public class ExcANSItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addTbPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcANS_tb_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcANS_tb_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcANS_tb_feature", "_UI_ExcANS_type" ),
-                        CimPackage.eINSTANCE.getExcANS_Tb(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcANS_Tb(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -272,10 +344,16 @@ public class ExcANSItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addVrmnPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcANS_vrmn_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcANS_vrmn_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcANS_vrmn_feature", "_UI_ExcANS_type" ),
-                        CimPackage.eINSTANCE.getExcANS_Vrmn(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcANS_Vrmn(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -287,10 +365,16 @@ public class ExcANSItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addVrmxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcANS_vrmx_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcANS_vrmx_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcANS_vrmx_feature", "_UI_ExcANS_type" ),
-                        CimPackage.eINSTANCE.getExcANS_Vrmx(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcANS_Vrmx(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

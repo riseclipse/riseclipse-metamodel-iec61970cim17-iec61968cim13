@@ -81,11 +81,17 @@ public class NoLoadTestItemProvider extends TransformerTestItemProvider {
     protected void addEnergisedEndVoltagePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_NoLoadTest_energisedEndVoltage_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_NoLoadTest_energisedEndVoltage_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_NoLoadTest_energisedEndVoltage_feature",
                                 "_UI_NoLoadTest_type" ),
-                        CimPackage.eINSTANCE.getNoLoadTest_EnergisedEndVoltage(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getNoLoadTest_EnergisedEndVoltage(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -97,11 +103,17 @@ public class NoLoadTestItemProvider extends TransformerTestItemProvider {
     protected void addExcitingCurrentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_NoLoadTest_excitingCurrent_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_NoLoadTest_excitingCurrent_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_NoLoadTest_excitingCurrent_feature",
                                 "_UI_NoLoadTest_type" ),
-                        CimPackage.eINSTANCE.getNoLoadTest_ExcitingCurrent(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getNoLoadTest_ExcitingCurrent(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -113,11 +125,17 @@ public class NoLoadTestItemProvider extends TransformerTestItemProvider {
     protected void addExcitingCurrentZeroPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_NoLoadTest_excitingCurrentZero_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_NoLoadTest_excitingCurrentZero_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_NoLoadTest_excitingCurrentZero_feature",
                                 "_UI_NoLoadTest_type" ),
-                        CimPackage.eINSTANCE.getNoLoadTest_ExcitingCurrentZero(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getNoLoadTest_ExcitingCurrentZero(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -129,11 +147,17 @@ public class NoLoadTestItemProvider extends TransformerTestItemProvider {
     protected void addLossPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_NoLoadTest_loss_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_NoLoadTest_loss_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_NoLoadTest_loss_feature",
                                 "_UI_NoLoadTest_type" ),
-                        CimPackage.eINSTANCE.getNoLoadTest_Loss(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getNoLoadTest_Loss(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -145,11 +169,17 @@ public class NoLoadTestItemProvider extends TransformerTestItemProvider {
     protected void addLossZeroPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_NoLoadTest_lossZero_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_NoLoadTest_lossZero_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_NoLoadTest_lossZero_feature",
                                 "_UI_NoLoadTest_type" ),
-                        CimPackage.eINSTANCE.getNoLoadTest_LossZero(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getNoLoadTest_LossZero(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -161,10 +191,17 @@ public class NoLoadTestItemProvider extends TransformerTestItemProvider {
     protected void addEnergisedEndPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_NoLoadTest_EnergisedEnd_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_NoLoadTest_EnergisedEnd_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_NoLoadTest_EnergisedEnd_feature",
                                 "_UI_NoLoadTest_type" ),
-                        CimPackage.eINSTANCE.getNoLoadTest_EnergisedEnd(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getNoLoadTest_EnergisedEnd(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

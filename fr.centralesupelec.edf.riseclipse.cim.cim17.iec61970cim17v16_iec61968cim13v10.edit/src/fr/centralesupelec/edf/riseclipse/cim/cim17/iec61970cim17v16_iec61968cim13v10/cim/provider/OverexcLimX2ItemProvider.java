@@ -86,11 +86,17 @@ public class OverexcLimX2ItemProvider extends OverexcitationLimiterDynamicsItemP
     protected void addEfd1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OverexcLimX2_efd1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OverexcLimX2_efd1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_OverexcLimX2_efd1_feature",
                                 "_UI_OverexcLimX2_type" ),
-                        CimPackage.eINSTANCE.getOverexcLimX2_Efd1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOverexcLimX2_Efd1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -102,11 +108,17 @@ public class OverexcLimX2ItemProvider extends OverexcitationLimiterDynamicsItemP
     protected void addEfd2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OverexcLimX2_efd2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OverexcLimX2_efd2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_OverexcLimX2_efd2_feature",
                                 "_UI_OverexcLimX2_type" ),
-                        CimPackage.eINSTANCE.getOverexcLimX2_Efd2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOverexcLimX2_Efd2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -118,11 +130,17 @@ public class OverexcLimX2ItemProvider extends OverexcitationLimiterDynamicsItemP
     protected void addEfd3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OverexcLimX2_efd3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OverexcLimX2_efd3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_OverexcLimX2_efd3_feature",
                                 "_UI_OverexcLimX2_type" ),
-                        CimPackage.eINSTANCE.getOverexcLimX2_Efd3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOverexcLimX2_Efd3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -134,11 +152,17 @@ public class OverexcLimX2ItemProvider extends OverexcitationLimiterDynamicsItemP
     protected void addEfddesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OverexcLimX2_efddes_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OverexcLimX2_efddes_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_OverexcLimX2_efddes_feature",
                                 "_UI_OverexcLimX2_type" ),
-                        CimPackage.eINSTANCE.getOverexcLimX2_Efddes(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOverexcLimX2_Efddes(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -150,11 +174,17 @@ public class OverexcLimX2ItemProvider extends OverexcitationLimiterDynamicsItemP
     protected void addEfdratedPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OverexcLimX2_efdrated_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OverexcLimX2_efdrated_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_OverexcLimX2_efdrated_feature",
                                 "_UI_OverexcLimX2_type" ),
-                        CimPackage.eINSTANCE.getOverexcLimX2_Efdrated(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOverexcLimX2_Efdrated(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -166,11 +196,17 @@ public class OverexcLimX2ItemProvider extends OverexcitationLimiterDynamicsItemP
     protected void addKmxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OverexcLimX2_kmx_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OverexcLimX2_kmx_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_OverexcLimX2_kmx_feature",
                                 "_UI_OverexcLimX2_type" ),
-                        CimPackage.eINSTANCE.getOverexcLimX2_Kmx(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOverexcLimX2_Kmx(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -182,11 +218,17 @@ public class OverexcLimX2ItemProvider extends OverexcitationLimiterDynamicsItemP
     protected void addMPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OverexcLimX2_m_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OverexcLimX2_m_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_OverexcLimX2_m_feature",
                                 "_UI_OverexcLimX2_type" ),
-                        CimPackage.eINSTANCE.getOverexcLimX2_M(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOverexcLimX2_M(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -198,11 +240,17 @@ public class OverexcLimX2ItemProvider extends OverexcitationLimiterDynamicsItemP
     protected void addT1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OverexcLimX2_t1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OverexcLimX2_t1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_OverexcLimX2_t1_feature",
                                 "_UI_OverexcLimX2_type" ),
-                        CimPackage.eINSTANCE.getOverexcLimX2_T1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOverexcLimX2_T1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -214,11 +262,17 @@ public class OverexcLimX2ItemProvider extends OverexcitationLimiterDynamicsItemP
     protected void addT2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OverexcLimX2_t2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OverexcLimX2_t2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_OverexcLimX2_t2_feature",
                                 "_UI_OverexcLimX2_type" ),
-                        CimPackage.eINSTANCE.getOverexcLimX2_T2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOverexcLimX2_T2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -230,11 +284,17 @@ public class OverexcLimX2ItemProvider extends OverexcitationLimiterDynamicsItemP
     protected void addT3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OverexcLimX2_t3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OverexcLimX2_t3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_OverexcLimX2_t3_feature",
                                 "_UI_OverexcLimX2_type" ),
-                        CimPackage.eINSTANCE.getOverexcLimX2_T3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOverexcLimX2_T3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -246,11 +306,17 @@ public class OverexcLimX2ItemProvider extends OverexcitationLimiterDynamicsItemP
     protected void addVlowPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OverexcLimX2_vlow_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OverexcLimX2_vlow_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_OverexcLimX2_vlow_feature",
                                 "_UI_OverexcLimX2_type" ),
-                        CimPackage.eINSTANCE.getOverexcLimX2_Vlow(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOverexcLimX2_Vlow(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

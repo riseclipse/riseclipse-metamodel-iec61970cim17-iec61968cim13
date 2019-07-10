@@ -73,12 +73,19 @@ public class NonConformLoadGroupItemProvider extends LoadGroupItemProvider {
      * @generated
      */
     protected void addEnergyConsumersPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_NonConformLoadGroup_EnergyConsumers_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_NonConformLoadGroup_EnergyConsumers_feature",
-                        "_UI_NonConformLoadGroup_type" ),
-                CimPackage.eINSTANCE.getNonConformLoadGroup_EnergyConsumers(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_NonConformLoadGroup_EnergyConsumers_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_NonConformLoadGroup_EnergyConsumers_feature", "_UI_NonConformLoadGroup_type" ),
+                        CimPackage.eINSTANCE.getNonConformLoadGroup_EnergyConsumers(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -89,11 +96,17 @@ public class NonConformLoadGroupItemProvider extends LoadGroupItemProvider {
      */
     protected void addNonConformLoadSchedulesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_NonConformLoadGroup_NonConformLoadSchedules_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_NonConformLoadGroup_NonConformLoadSchedules_feature", "_UI_NonConformLoadGroup_type" ),
-                CimPackage.eINSTANCE.getNonConformLoadGroup_NonConformLoadSchedules(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getNonConformLoadGroup_NonConformLoadSchedules(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -131,7 +144,6 @@ public class NonConformLoadGroupItemProvider extends LoadGroupItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

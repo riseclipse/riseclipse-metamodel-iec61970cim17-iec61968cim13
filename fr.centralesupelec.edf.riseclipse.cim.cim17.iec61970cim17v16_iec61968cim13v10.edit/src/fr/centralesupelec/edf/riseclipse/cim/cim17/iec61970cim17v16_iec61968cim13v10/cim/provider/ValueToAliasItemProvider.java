@@ -77,11 +77,17 @@ public class ValueToAliasItemProvider extends IdentifiedObjectItemProvider {
     protected void addValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ValueToAlias_value_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ValueToAlias_value_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ValueToAlias_value_feature",
                                 "_UI_ValueToAlias_type" ),
-                        CimPackage.eINSTANCE.getValueToAlias_Value(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getValueToAlias_Value(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,10 +99,17 @@ public class ValueToAliasItemProvider extends IdentifiedObjectItemProvider {
     protected void addValueAliasSetPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ValueToAlias_ValueAliasSet_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ValueToAlias_ValueAliasSet_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ValueToAlias_ValueAliasSet_feature",
                                 "_UI_ValueToAlias_type" ),
-                        CimPackage.eINSTANCE.getValueToAlias_ValueAliasSet(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getValueToAlias_ValueAliasSet(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

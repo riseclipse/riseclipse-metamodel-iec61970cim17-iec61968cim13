@@ -78,11 +78,17 @@ public class CutItemProvider extends SwitchItemProvider {
     protected void addLengthFromTerminal1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Cut_lengthFromTerminal1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Cut_lengthFromTerminal1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Cut_lengthFromTerminal1_feature",
                                 "_UI_Cut_type" ),
-                        CimPackage.eINSTANCE.getCut_LengthFromTerminal1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCut_LengthFromTerminal1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,10 +100,17 @@ public class CutItemProvider extends SwitchItemProvider {
     protected void addACLineSegmentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Cut_ACLineSegment_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Cut_ACLineSegment_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Cut_ACLineSegment_feature",
                                 "_UI_Cut_type" ),
-                        CimPackage.eINSTANCE.getCut_ACLineSegment(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCut_ACLineSegment(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -109,9 +122,16 @@ public class CutItemProvider extends SwitchItemProvider {
     protected void addCutActionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Cut_CutAction_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Cut_CutAction_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Cut_CutAction_feature", "_UI_Cut_type" ),
-                        CimPackage.eINSTANCE.getCut_CutAction(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCut_CutAction(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

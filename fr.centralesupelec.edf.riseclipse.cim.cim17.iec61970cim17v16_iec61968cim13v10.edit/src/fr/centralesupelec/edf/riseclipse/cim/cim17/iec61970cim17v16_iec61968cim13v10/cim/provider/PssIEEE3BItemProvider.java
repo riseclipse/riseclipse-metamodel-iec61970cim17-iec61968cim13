@@ -94,11 +94,17 @@ public class PssIEEE3BItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addA1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssIEEE3B_a1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssIEEE3B_a1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssIEEE3B_a1_feature",
                                 "_UI_PssIEEE3B_type" ),
-                        CimPackage.eINSTANCE.getPssIEEE3B_A1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssIEEE3B_A1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -110,11 +116,17 @@ public class PssIEEE3BItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addA2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssIEEE3B_a2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssIEEE3B_a2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssIEEE3B_a2_feature",
                                 "_UI_PssIEEE3B_type" ),
-                        CimPackage.eINSTANCE.getPssIEEE3B_A2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssIEEE3B_A2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -126,11 +138,17 @@ public class PssIEEE3BItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addA3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssIEEE3B_a3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssIEEE3B_a3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssIEEE3B_a3_feature",
                                 "_UI_PssIEEE3B_type" ),
-                        CimPackage.eINSTANCE.getPssIEEE3B_A3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssIEEE3B_A3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -142,11 +160,17 @@ public class PssIEEE3BItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addA4PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssIEEE3B_a4_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssIEEE3B_a4_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssIEEE3B_a4_feature",
                                 "_UI_PssIEEE3B_type" ),
-                        CimPackage.eINSTANCE.getPssIEEE3B_A4(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssIEEE3B_A4(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -158,11 +182,17 @@ public class PssIEEE3BItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addA5PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssIEEE3B_a5_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssIEEE3B_a5_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssIEEE3B_a5_feature",
                                 "_UI_PssIEEE3B_type" ),
-                        CimPackage.eINSTANCE.getPssIEEE3B_A5(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssIEEE3B_A5(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -174,11 +204,17 @@ public class PssIEEE3BItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addA6PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssIEEE3B_a6_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssIEEE3B_a6_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssIEEE3B_a6_feature",
                                 "_UI_PssIEEE3B_type" ),
-                        CimPackage.eINSTANCE.getPssIEEE3B_A6(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssIEEE3B_A6(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -190,11 +226,17 @@ public class PssIEEE3BItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addA7PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssIEEE3B_a7_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssIEEE3B_a7_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssIEEE3B_a7_feature",
                                 "_UI_PssIEEE3B_type" ),
-                        CimPackage.eINSTANCE.getPssIEEE3B_A7(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssIEEE3B_A7(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -206,11 +248,17 @@ public class PssIEEE3BItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addA8PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssIEEE3B_a8_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssIEEE3B_a8_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssIEEE3B_a8_feature",
                                 "_UI_PssIEEE3B_type" ),
-                        CimPackage.eINSTANCE.getPssIEEE3B_A8(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssIEEE3B_A8(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -222,11 +270,17 @@ public class PssIEEE3BItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addInputSignal1TypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssIEEE3B_inputSignal1Type_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssIEEE3B_inputSignal1Type_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssIEEE3B_inputSignal1Type_feature",
                                 "_UI_PssIEEE3B_type" ),
-                        CimPackage.eINSTANCE.getPssIEEE3B_InputSignal1Type(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssIEEE3B_InputSignal1Type(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -238,11 +292,17 @@ public class PssIEEE3BItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addInputSignal2TypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssIEEE3B_inputSignal2Type_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssIEEE3B_inputSignal2Type_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssIEEE3B_inputSignal2Type_feature",
                                 "_UI_PssIEEE3B_type" ),
-                        CimPackage.eINSTANCE.getPssIEEE3B_InputSignal2Type(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssIEEE3B_InputSignal2Type(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -254,11 +314,17 @@ public class PssIEEE3BItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addKs1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssIEEE3B_ks1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssIEEE3B_ks1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssIEEE3B_ks1_feature",
                                 "_UI_PssIEEE3B_type" ),
-                        CimPackage.eINSTANCE.getPssIEEE3B_Ks1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssIEEE3B_Ks1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -270,11 +336,17 @@ public class PssIEEE3BItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addKs2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssIEEE3B_ks2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssIEEE3B_ks2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssIEEE3B_ks2_feature",
                                 "_UI_PssIEEE3B_type" ),
-                        CimPackage.eINSTANCE.getPssIEEE3B_Ks2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssIEEE3B_Ks2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -286,11 +358,17 @@ public class PssIEEE3BItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addT1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssIEEE3B_t1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssIEEE3B_t1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssIEEE3B_t1_feature",
                                 "_UI_PssIEEE3B_type" ),
-                        CimPackage.eINSTANCE.getPssIEEE3B_T1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssIEEE3B_T1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -302,11 +380,17 @@ public class PssIEEE3BItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addT2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssIEEE3B_t2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssIEEE3B_t2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssIEEE3B_t2_feature",
                                 "_UI_PssIEEE3B_type" ),
-                        CimPackage.eINSTANCE.getPssIEEE3B_T2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssIEEE3B_T2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -318,11 +402,17 @@ public class PssIEEE3BItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addTw1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssIEEE3B_tw1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssIEEE3B_tw1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssIEEE3B_tw1_feature",
                                 "_UI_PssIEEE3B_type" ),
-                        CimPackage.eINSTANCE.getPssIEEE3B_Tw1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssIEEE3B_Tw1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -334,11 +424,17 @@ public class PssIEEE3BItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addTw2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssIEEE3B_tw2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssIEEE3B_tw2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssIEEE3B_tw2_feature",
                                 "_UI_PssIEEE3B_type" ),
-                        CimPackage.eINSTANCE.getPssIEEE3B_Tw2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssIEEE3B_Tw2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -350,11 +446,17 @@ public class PssIEEE3BItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addTw3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssIEEE3B_tw3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssIEEE3B_tw3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssIEEE3B_tw3_feature",
                                 "_UI_PssIEEE3B_type" ),
-                        CimPackage.eINSTANCE.getPssIEEE3B_Tw3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssIEEE3B_Tw3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -366,11 +468,17 @@ public class PssIEEE3BItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addVstmaxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssIEEE3B_vstmax_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssIEEE3B_vstmax_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssIEEE3B_vstmax_feature",
                                 "_UI_PssIEEE3B_type" ),
-                        CimPackage.eINSTANCE.getPssIEEE3B_Vstmax(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssIEEE3B_Vstmax(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -382,11 +490,17 @@ public class PssIEEE3BItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addVstminPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssIEEE3B_vstmin_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssIEEE3B_vstmin_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssIEEE3B_vstmin_feature",
                                 "_UI_PssIEEE3B_type" ),
-                        CimPackage.eINSTANCE.getPssIEEE3B_Vstmin(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssIEEE3B_Vstmin(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

@@ -79,11 +79,17 @@ public class PanDisplayItemProvider extends EndDeviceActionItemProvider {
     protected void addConfirmationRequiredPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PanDisplay_confirmationRequired_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PanDisplay_confirmationRequired_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PanDisplay_confirmationRequired_feature",
                                 "_UI_PanDisplay_type" ),
-                        CimPackage.eINSTANCE.getPanDisplay_ConfirmationRequired(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPanDisplay_ConfirmationRequired(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,11 +101,17 @@ public class PanDisplayItemProvider extends EndDeviceActionItemProvider {
     protected void addPriorityPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PanDisplay_priority_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PanDisplay_priority_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PanDisplay_priority_feature",
                                 "_UI_PanDisplay_type" ),
-                        CimPackage.eINSTANCE.getPanDisplay_Priority(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPanDisplay_Priority(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,11 +123,17 @@ public class PanDisplayItemProvider extends EndDeviceActionItemProvider {
     protected void addTextMessagePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PanDisplay_textMessage_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PanDisplay_textMessage_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PanDisplay_textMessage_feature",
                                 "_UI_PanDisplay_type" ),
-                        CimPackage.eINSTANCE.getPanDisplay_TextMessage(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPanDisplay_TextMessage(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -127,11 +145,17 @@ public class PanDisplayItemProvider extends EndDeviceActionItemProvider {
     protected void addTransmissionModePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PanDisplay_transmissionMode_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PanDisplay_transmissionMode_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PanDisplay_transmissionMode_feature",
                                 "_UI_PanDisplay_type" ),
-                        CimPackage.eINSTANCE.getPanDisplay_TransmissionMode(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPanDisplay_TransmissionMode(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

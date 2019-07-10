@@ -90,11 +90,17 @@ public class EndDeviceTimingItemProvider extends ItemProviderAdapter implements 
     protected void addDurationPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EndDeviceTiming_duration_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceTiming_duration_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceTiming_duration_feature",
                                 "_UI_EndDeviceTiming_type" ),
-                        CimPackage.eINSTANCE.getEndDeviceTiming_Duration(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEndDeviceTiming_Duration(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -104,13 +110,19 @@ public class EndDeviceTimingItemProvider extends ItemProviderAdapter implements 
      * @generated
      */
     protected void addDurationIndefinitePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_EndDeviceTiming_durationIndefinite_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceTiming_durationIndefinite_feature",
-                        "_UI_EndDeviceTiming_type" ),
-                CimPackage.eINSTANCE.getEndDeviceTiming_DurationIndefinite(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceTiming_durationIndefinite_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_EndDeviceTiming_durationIndefinite_feature", "_UI_EndDeviceTiming_type" ),
+                        CimPackage.eINSTANCE.getEndDeviceTiming_DurationIndefinite(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -122,11 +134,17 @@ public class EndDeviceTimingItemProvider extends ItemProviderAdapter implements 
     protected void addRandomisationPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EndDeviceTiming_randomisation_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceTiming_randomisation_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceTiming_randomisation_feature",
                                 "_UI_EndDeviceTiming_type" ),
-                        CimPackage.eINSTANCE.getEndDeviceTiming_Randomisation(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEndDeviceTiming_Randomisation(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

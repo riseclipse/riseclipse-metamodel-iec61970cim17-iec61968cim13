@@ -96,7 +96,6 @@ public class PostLineSensorItemProvider extends SensorItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

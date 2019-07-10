@@ -75,13 +75,19 @@ public class RequestedCapabilityItemProvider extends DERCapabilitiesItemProvider
      * @generated
      */
     protected void addCapabilityKindPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_RequestedCapability_capabilityKind_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_RequestedCapability_capabilityKind_feature",
-                        "_UI_RequestedCapability_type" ),
-                CimPackage.eINSTANCE.getRequestedCapability_CapabilityKind(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_RequestedCapability_capabilityKind_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_RequestedCapability_capabilityKind_feature", "_UI_RequestedCapability_type" ),
+                        CimPackage.eINSTANCE.getRequestedCapability_CapabilityKind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,11 +99,17 @@ public class RequestedCapabilityItemProvider extends DERCapabilitiesItemProvider
     protected void addValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RequestedCapability_value_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RequestedCapability_value_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RequestedCapability_value_feature",
                                 "_UI_RequestedCapability_type" ),
-                        CimPackage.eINSTANCE.getRequestedCapability_Value(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getRequestedCapability_Value(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

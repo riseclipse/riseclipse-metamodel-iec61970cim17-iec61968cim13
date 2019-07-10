@@ -77,11 +77,17 @@ public class DCConverterUnitItemProvider extends DCEquipmentContainerItemProvide
     protected void addOperationModePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DCConverterUnit_operationMode_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DCConverterUnit_operationMode_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DCConverterUnit_operationMode_feature",
                                 "_UI_DCConverterUnit_type" ),
-                        CimPackage.eINSTANCE.getDCConverterUnit_OperationMode(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDCConverterUnit_OperationMode(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,10 +99,17 @@ public class DCConverterUnitItemProvider extends DCEquipmentContainerItemProvide
     protected void addSubstationPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DCConverterUnit_Substation_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DCConverterUnit_Substation_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DCConverterUnit_Substation_feature",
                                 "_UI_DCConverterUnit_type" ),
-                        CimPackage.eINSTANCE.getDCConverterUnit_Substation(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getDCConverterUnit_Substation(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

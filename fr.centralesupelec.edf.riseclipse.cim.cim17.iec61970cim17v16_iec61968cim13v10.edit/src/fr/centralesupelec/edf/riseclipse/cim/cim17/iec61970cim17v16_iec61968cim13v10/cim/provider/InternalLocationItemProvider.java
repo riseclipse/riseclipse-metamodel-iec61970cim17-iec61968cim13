@@ -79,11 +79,17 @@ public class InternalLocationItemProvider extends WorkLocationItemProvider {
     protected void addBuildingNamePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_InternalLocation_buildingName_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_InternalLocation_buildingName_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_InternalLocation_buildingName_feature",
                                 "_UI_InternalLocation_type" ),
-                        CimPackage.eINSTANCE.getInternalLocation_BuildingName(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getInternalLocation_BuildingName(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,13 +99,19 @@ public class InternalLocationItemProvider extends WorkLocationItemProvider {
      * @generated
      */
     protected void addBuildingNumberPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_InternalLocation_buildingNumber_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_InternalLocation_buildingNumber_feature",
-                        "_UI_InternalLocation_type" ),
-                CimPackage.eINSTANCE.getInternalLocation_BuildingNumber(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_InternalLocation_buildingNumber_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_InternalLocation_buildingNumber_feature",
+                                "_UI_InternalLocation_type" ),
+                        CimPackage.eINSTANCE.getInternalLocation_BuildingNumber(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,11 +123,17 @@ public class InternalLocationItemProvider extends WorkLocationItemProvider {
     protected void addFloorPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_InternalLocation_floor_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_InternalLocation_floor_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_InternalLocation_floor_feature",
                                 "_UI_InternalLocation_type" ),
-                        CimPackage.eINSTANCE.getInternalLocation_Floor(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getInternalLocation_Floor(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -127,11 +145,17 @@ public class InternalLocationItemProvider extends WorkLocationItemProvider {
     protected void addRoomNumberPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_InternalLocation_roomNumber_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_InternalLocation_roomNumber_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_InternalLocation_roomNumber_feature",
                                 "_UI_InternalLocation_type" ),
-                        CimPackage.eINSTANCE.getInternalLocation_RoomNumber(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getInternalLocation_RoomNumber(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -203,10 +227,10 @@ public class InternalLocationItemProvider extends WorkLocationItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getLocation_MainAddress()
-                || childFeature == CimPackage.eINSTANCE.getLocation_SecondaryAddress()
-                || childFeature == CimPackage.eINSTANCE.getLocation_Phone1()
-                || childFeature == CimPackage.eINSTANCE.getLocation_Phone2();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getLocation_MainAddress() ||
+                childFeature == CimPackage.eINSTANCE.getLocation_SecondaryAddress() ||
+                childFeature == CimPackage.eINSTANCE.getLocation_Phone1() ||
+                childFeature == CimPackage.eINSTANCE.getLocation_Phone2();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

@@ -73,13 +73,19 @@ public class ConformLoadGroupItemProvider extends LoadGroupItemProvider {
      * @generated
      */
     protected void addConformLoadSchedulesPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ConformLoadGroup_ConformLoadSchedules_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ConformLoadGroup_ConformLoadSchedules_feature",
-                        "_UI_ConformLoadGroup_type" ),
-                CimPackage.eINSTANCE.getConformLoadGroup_ConformLoadSchedules(), true, false, true, null, null,
-                null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ConformLoadGroup_ConformLoadSchedules_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ConformLoadGroup_ConformLoadSchedules_feature", "_UI_ConformLoadGroup_type" ),
+                        CimPackage.eINSTANCE.getConformLoadGroup_ConformLoadSchedules(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -89,12 +95,19 @@ public class ConformLoadGroupItemProvider extends LoadGroupItemProvider {
      * @generated
      */
     protected void addEnergyConsumersPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ConformLoadGroup_EnergyConsumers_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ConformLoadGroup_EnergyConsumers_feature",
-                        "_UI_ConformLoadGroup_type" ),
-                CimPackage.eINSTANCE.getConformLoadGroup_EnergyConsumers(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ConformLoadGroup_EnergyConsumers_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_ConformLoadGroup_EnergyConsumers_feature",
+                                "_UI_ConformLoadGroup_type" ),
+                        CimPackage.eINSTANCE.getConformLoadGroup_EnergyConsumers(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -131,7 +144,6 @@ public class ConformLoadGroupItemProvider extends LoadGroupItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

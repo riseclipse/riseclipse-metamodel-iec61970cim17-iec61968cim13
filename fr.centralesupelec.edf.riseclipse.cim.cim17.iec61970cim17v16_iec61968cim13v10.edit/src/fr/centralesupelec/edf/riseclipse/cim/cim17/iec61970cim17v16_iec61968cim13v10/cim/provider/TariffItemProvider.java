@@ -79,11 +79,17 @@ public class TariffItemProvider extends DocumentItemProvider {
     protected void addEndDatePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Tariff_endDate_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Tariff_endDate_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Tariff_endDate_feature",
                                 "_UI_Tariff_type" ),
-                        CimPackage.eINSTANCE.getTariff_EndDate(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTariff_EndDate(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,11 +101,17 @@ public class TariffItemProvider extends DocumentItemProvider {
     protected void addStartDatePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Tariff_startDate_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Tariff_startDate_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Tariff_startDate_feature",
                                 "_UI_Tariff_type" ),
-                        CimPackage.eINSTANCE.getTariff_StartDate(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTariff_StartDate(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,10 +123,17 @@ public class TariffItemProvider extends DocumentItemProvider {
     protected void addTariffProfilesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Tariff_TariffProfiles_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Tariff_TariffProfiles_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Tariff_TariffProfiles_feature",
                                 "_UI_Tariff_type" ),
-                        CimPackage.eINSTANCE.getTariff_TariffProfiles(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTariff_TariffProfiles(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -126,10 +145,17 @@ public class TariffItemProvider extends DocumentItemProvider {
     protected void addPricingStructuresPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Tariff_PricingStructures_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Tariff_PricingStructures_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Tariff_PricingStructures_feature",
                                 "_UI_Tariff_type" ),
-                        CimPackage.eINSTANCE.getTariff_PricingStructures(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTariff_PricingStructures(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -199,8 +225,8 @@ public class TariffItemProvider extends DocumentItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

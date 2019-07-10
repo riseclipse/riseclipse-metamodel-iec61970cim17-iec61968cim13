@@ -83,11 +83,17 @@ public class ShiftItemProvider extends IdentifiedObjectItemProvider {
     protected void addReceiptsGrandTotalBankablePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Shift_receiptsGrandTotalBankable_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Shift_receiptsGrandTotalBankable_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Shift_receiptsGrandTotalBankable_feature",
                                 "_UI_Shift_type" ),
-                        CimPackage.eINSTANCE.getShift_ReceiptsGrandTotalBankable(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getShift_ReceiptsGrandTotalBankable(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -97,13 +103,19 @@ public class ShiftItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addReceiptsGrandTotalNonBankablePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_Shift_receiptsGrandTotalNonBankable_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_Shift_receiptsGrandTotalNonBankable_feature",
-                        "_UI_Shift_type" ),
-                CimPackage.eINSTANCE.getShift_ReceiptsGrandTotalNonBankable(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_Shift_receiptsGrandTotalNonBankable_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_Shift_receiptsGrandTotalNonBankable_feature", "_UI_Shift_type" ),
+                        CimPackage.eINSTANCE.getShift_ReceiptsGrandTotalNonBankable(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -115,11 +127,17 @@ public class ShiftItemProvider extends IdentifiedObjectItemProvider {
     protected void addReceiptsGrandTotalRoundingPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Shift_receiptsGrandTotalRounding_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Shift_receiptsGrandTotalRounding_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Shift_receiptsGrandTotalRounding_feature",
                                 "_UI_Shift_type" ),
-                        CimPackage.eINSTANCE.getShift_ReceiptsGrandTotalRounding(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getShift_ReceiptsGrandTotalRounding(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -131,11 +149,17 @@ public class ShiftItemProvider extends IdentifiedObjectItemProvider {
     protected void addTransactionsGrandTotalPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Shift_transactionsGrandTotal_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Shift_transactionsGrandTotal_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Shift_transactionsGrandTotal_feature",
                                 "_UI_Shift_type" ),
-                        CimPackage.eINSTANCE.getShift_TransactionsGrandTotal(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getShift_TransactionsGrandTotal(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -145,13 +169,19 @@ public class ShiftItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addTransactionsGrandTotalRoundingPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_Shift_transactionsGrandTotalRounding_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_Shift_transactionsGrandTotalRounding_feature",
-                        "_UI_Shift_type" ),
-                CimPackage.eINSTANCE.getShift_TransactionsGrandTotalRounding(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_Shift_transactionsGrandTotalRounding_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_Shift_transactionsGrandTotalRounding_feature", "_UI_Shift_type" ),
+                        CimPackage.eINSTANCE.getShift_TransactionsGrandTotalRounding(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

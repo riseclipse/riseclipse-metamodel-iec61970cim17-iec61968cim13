@@ -76,12 +76,18 @@ public class PFVArControllerType1DynamicsItemProvider extends DynamicsFunctionBl
     protected void addRemoteInputSignalPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PFVArControllerType1Dynamics_RemoteInputSignal_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PFVArControllerType1Dynamics_RemoteInputSignal_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_PFVArControllerType1Dynamics_RemoteInputSignal_feature",
                                 "_UI_PFVArControllerType1Dynamics_type" ),
-                        CimPackage.eINSTANCE.getPFVArControllerType1Dynamics_RemoteInputSignal(), true, false, true,
-                        null, null, null ) );
+                        CimPackage.eINSTANCE.getPFVArControllerType1Dynamics_RemoteInputSignal(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -91,14 +97,20 @@ public class PFVArControllerType1DynamicsItemProvider extends DynamicsFunctionBl
      * @generated
      */
     protected void addExcitationSystemDynamicsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PFVArControllerType1Dynamics_ExcitationSystemDynamics_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_PFVArControllerType1Dynamics_ExcitationSystemDynamics_feature",
-                        "_UI_PFVArControllerType1Dynamics_type" ),
-                CimPackage.eINSTANCE.getPFVArControllerType1Dynamics_ExcitationSystemDynamics(), true, false, true,
-                null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PFVArControllerType1Dynamics_ExcitationSystemDynamics_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PFVArControllerType1Dynamics_ExcitationSystemDynamics_feature",
+                                "_UI_PFVArControllerType1Dynamics_type" ),
+                        CimPackage.eINSTANCE.getPFVArControllerType1Dynamics_ExcitationSystemDynamics(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -108,14 +120,20 @@ public class PFVArControllerType1DynamicsItemProvider extends DynamicsFunctionBl
      * @generated
      */
     protected void addVoltageAdjusterDynamicsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PFVArControllerType1Dynamics_VoltageAdjusterDynamics_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_PFVArControllerType1Dynamics_VoltageAdjusterDynamics_feature",
-                        "_UI_PFVArControllerType1Dynamics_type" ),
-                CimPackage.eINSTANCE.getPFVArControllerType1Dynamics_VoltageAdjusterDynamics(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PFVArControllerType1Dynamics_VoltageAdjusterDynamics_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PFVArControllerType1Dynamics_VoltageAdjusterDynamics_feature",
+                                "_UI_PFVArControllerType1Dynamics_type" ),
+                        CimPackage.eINSTANCE.getPFVArControllerType1Dynamics_VoltageAdjusterDynamics(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -152,7 +170,6 @@ public class PFVArControllerType1DynamicsItemProvider extends DynamicsFunctionBl
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

@@ -77,11 +77,17 @@ public class TCPAccessPointItemProvider extends IPAccessPointItemProvider {
     protected void addKeepAliveTimePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TCPAccessPoint_keepAliveTime_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TCPAccessPoint_keepAliveTime_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TCPAccessPoint_keepAliveTime_feature",
                                 "_UI_TCPAccessPoint_type" ),
-                        CimPackage.eINSTANCE.getTCPAccessPoint_KeepAliveTime(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTCPAccessPoint_KeepAliveTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,11 +99,17 @@ public class TCPAccessPointItemProvider extends IPAccessPointItemProvider {
     protected void addPortPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TCPAccessPoint_port_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TCPAccessPoint_port_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TCPAccessPoint_port_feature",
                                 "_UI_TCPAccessPoint_type" ),
-                        CimPackage.eINSTANCE.getTCPAccessPoint_Port(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTCPAccessPoint_Port(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

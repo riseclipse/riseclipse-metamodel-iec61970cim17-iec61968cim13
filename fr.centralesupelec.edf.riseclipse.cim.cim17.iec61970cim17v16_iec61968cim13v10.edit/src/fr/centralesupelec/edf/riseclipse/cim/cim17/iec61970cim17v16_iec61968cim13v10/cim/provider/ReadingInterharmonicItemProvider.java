@@ -84,13 +84,19 @@ public class ReadingInterharmonicItemProvider extends ItemProviderAdapter implem
      * @generated
      */
     protected void addDenominatorPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ReadingInterharmonic_denominator_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ReadingInterharmonic_denominator_feature",
-                        "_UI_ReadingInterharmonic_type" ),
-                CimPackage.eINSTANCE.getReadingInterharmonic_Denominator(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ReadingInterharmonic_denominator_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_ReadingInterharmonic_denominator_feature",
+                                "_UI_ReadingInterharmonic_type" ),
+                        CimPackage.eINSTANCE.getReadingInterharmonic_Denominator(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -100,13 +106,19 @@ public class ReadingInterharmonicItemProvider extends ItemProviderAdapter implem
      * @generated
      */
     protected void addNumeratorPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ReadingInterharmonic_numerator_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ReadingInterharmonic_numerator_feature",
-                        "_UI_ReadingInterharmonic_type" ),
-                CimPackage.eINSTANCE.getReadingInterharmonic_Numerator(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ReadingInterharmonic_numerator_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_ReadingInterharmonic_numerator_feature",
+                                "_UI_ReadingInterharmonic_type" ),
+                        CimPackage.eINSTANCE.getReadingInterharmonic_Numerator(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

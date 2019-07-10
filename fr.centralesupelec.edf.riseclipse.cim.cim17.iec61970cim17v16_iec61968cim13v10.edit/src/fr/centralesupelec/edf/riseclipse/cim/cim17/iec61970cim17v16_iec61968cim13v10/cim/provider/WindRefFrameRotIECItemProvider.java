@@ -79,11 +79,17 @@ public class WindRefFrameRotIECItemProvider extends IdentifiedObjectItemProvider
     protected void addTpllPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindRefFrameRotIEC_tpll_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindRefFrameRotIEC_tpll_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindRefFrameRotIEC_tpll_feature",
                                 "_UI_WindRefFrameRotIEC_type" ),
-                        CimPackage.eINSTANCE.getWindRefFrameRotIEC_Tpll(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindRefFrameRotIEC_Tpll(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,11 +101,17 @@ public class WindRefFrameRotIECItemProvider extends IdentifiedObjectItemProvider
     protected void addUpll1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindRefFrameRotIEC_upll1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindRefFrameRotIEC_upll1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindRefFrameRotIEC_upll1_feature",
                                 "_UI_WindRefFrameRotIEC_type" ),
-                        CimPackage.eINSTANCE.getWindRefFrameRotIEC_Upll1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindRefFrameRotIEC_Upll1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,11 +123,17 @@ public class WindRefFrameRotIECItemProvider extends IdentifiedObjectItemProvider
     protected void addUpll2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindRefFrameRotIEC_upll2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindRefFrameRotIEC_upll2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindRefFrameRotIEC_upll2_feature",
                                 "_UI_WindRefFrameRotIEC_type" ),
-                        CimPackage.eINSTANCE.getWindRefFrameRotIEC_Upll2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindRefFrameRotIEC_Upll2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -126,11 +144,17 @@ public class WindRefFrameRotIECItemProvider extends IdentifiedObjectItemProvider
      */
     protected void addWindTurbineType3or4IECPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindRefFrameRotIEC_WindTurbineType3or4IEC_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_WindRefFrameRotIEC_WindTurbineType3or4IEC_feature", "_UI_WindRefFrameRotIEC_type" ),
-                CimPackage.eINSTANCE.getWindRefFrameRotIEC_WindTurbineType3or4IEC(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getWindRefFrameRotIEC_WindTurbineType3or4IEC(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 

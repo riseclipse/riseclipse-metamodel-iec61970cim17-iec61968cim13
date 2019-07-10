@@ -80,13 +80,19 @@ public class SpecimenItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addAmbientTemperatureAtSamplingPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_Specimen_ambientTemperatureAtSampling_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_Specimen_ambientTemperatureAtSampling_feature",
-                        "_UI_Specimen_type" ),
-                CimPackage.eINSTANCE.getSpecimen_AmbientTemperatureAtSampling(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_Specimen_ambientTemperatureAtSampling_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_Specimen_ambientTemperatureAtSampling_feature", "_UI_Specimen_type" ),
+                        CimPackage.eINSTANCE.getSpecimen_AmbientTemperatureAtSampling(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -98,11 +104,17 @@ public class SpecimenItemProvider extends IdentifiedObjectItemProvider {
     protected void addHumidityAtSamplingPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Specimen_humidityAtSampling_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Specimen_humidityAtSampling_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Specimen_humidityAtSampling_feature",
                                 "_UI_Specimen_type" ),
-                        CimPackage.eINSTANCE.getSpecimen_HumidityAtSampling(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSpecimen_HumidityAtSampling(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,11 +126,17 @@ public class SpecimenItemProvider extends IdentifiedObjectItemProvider {
     protected void addSpecimenIDPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Specimen_specimenID_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Specimen_specimenID_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Specimen_specimenID_feature",
                                 "_UI_Specimen_type" ),
-                        CimPackage.eINSTANCE.getSpecimen_SpecimenID(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSpecimen_SpecimenID(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -130,11 +148,17 @@ public class SpecimenItemProvider extends IdentifiedObjectItemProvider {
     protected void addSpecimenSampleDateTimePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Specimen_specimenSampleDateTime_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Specimen_specimenSampleDateTime_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Specimen_specimenSampleDateTime_feature",
                                 "_UI_Specimen_type" ),
-                        CimPackage.eINSTANCE.getSpecimen_SpecimenSampleDateTime(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSpecimen_SpecimenSampleDateTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -146,11 +170,17 @@ public class SpecimenItemProvider extends IdentifiedObjectItemProvider {
     protected void addSpecimenToLabDateTimePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Specimen_specimenToLabDateTime_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Specimen_specimenToLabDateTime_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Specimen_specimenToLabDateTime_feature",
                                 "_UI_Specimen_type" ),
-                        CimPackage.eINSTANCE.getSpecimen_SpecimenToLabDateTime(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSpecimen_SpecimenToLabDateTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -162,10 +192,17 @@ public class SpecimenItemProvider extends IdentifiedObjectItemProvider {
     protected void addLabTestDataSetPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Specimen_LabTestDataSet_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Specimen_LabTestDataSet_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Specimen_LabTestDataSet_feature",
                                 "_UI_Specimen_type" ),
-                        CimPackage.eINSTANCE.getSpecimen_LabTestDataSet(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSpecimen_LabTestDataSet(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -177,10 +214,16 @@ public class SpecimenItemProvider extends IdentifiedObjectItemProvider {
     protected void addAssetTestSampleTakerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Specimen_AssetTestSampleTaker_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Specimen_AssetTestSampleTaker_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Specimen_AssetTestSampleTaker_feature",
                                 "_UI_Specimen_type" ),
-                        CimPackage.eINSTANCE.getSpecimen_AssetTestSampleTaker(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getSpecimen_AssetTestSampleTaker(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 

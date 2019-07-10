@@ -79,11 +79,17 @@ public class UsagePointGroupItemProvider extends IdentifiedObjectItemProvider {
     protected void addTypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_UsagePointGroup_type_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_UsagePointGroup_type_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_UsagePointGroup_type_feature",
                                 "_UI_UsagePointGroup_type" ),
-                        CimPackage.eINSTANCE.getUsagePointGroup_Type(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getUsagePointGroup_Type(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,12 +99,19 @@ public class UsagePointGroupItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addEndDeviceControlsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_UsagePointGroup_EndDeviceControls_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_UsagePointGroup_EndDeviceControls_feature",
-                        "_UI_UsagePointGroup_type" ),
-                CimPackage.eINSTANCE.getUsagePointGroup_EndDeviceControls(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_UsagePointGroup_EndDeviceControls_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_UsagePointGroup_EndDeviceControls_feature", "_UI_UsagePointGroup_type" ),
+                        CimPackage.eINSTANCE.getUsagePointGroup_EndDeviceControls(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -110,10 +123,17 @@ public class UsagePointGroupItemProvider extends IdentifiedObjectItemProvider {
     protected void addUsagePointsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_UsagePointGroup_UsagePoints_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_UsagePointGroup_UsagePoints_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_UsagePointGroup_UsagePoints_feature",
                                 "_UI_UsagePointGroup_type" ),
-                        CimPackage.eINSTANCE.getUsagePointGroup_UsagePoints(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getUsagePointGroup_UsagePoints(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -123,13 +143,19 @@ public class UsagePointGroupItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addDemandResponseProgramsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_UsagePointGroup_DemandResponsePrograms_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_UsagePointGroup_DemandResponsePrograms_feature",
-                        "_UI_UsagePointGroup_type" ),
-                CimPackage.eINSTANCE.getUsagePointGroup_DemandResponsePrograms(), true, false, true, null, null,
-                null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_UsagePointGroup_DemandResponsePrograms_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_UsagePointGroup_DemandResponsePrograms_feature", "_UI_UsagePointGroup_type" ),
+                        CimPackage.eINSTANCE.getUsagePointGroup_DemandResponsePrograms(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

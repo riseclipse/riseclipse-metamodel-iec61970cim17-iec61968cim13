@@ -79,11 +79,17 @@ public class SvInjectionItemProvider extends StateVariableItemProvider {
     protected void addPhasePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SvInjection_phase_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SvInjection_phase_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SvInjection_phase_feature",
                                 "_UI_SvInjection_type" ),
-                        CimPackage.eINSTANCE.getSvInjection_Phase(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSvInjection_Phase(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,11 +101,17 @@ public class SvInjectionItemProvider extends StateVariableItemProvider {
     protected void addPInjectionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SvInjection_pInjection_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SvInjection_pInjection_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SvInjection_pInjection_feature",
                                 "_UI_SvInjection_type" ),
-                        CimPackage.eINSTANCE.getSvInjection_PInjection(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSvInjection_PInjection(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,11 +123,17 @@ public class SvInjectionItemProvider extends StateVariableItemProvider {
     protected void addQInjectionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SvInjection_qInjection_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SvInjection_qInjection_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SvInjection_qInjection_feature",
                                 "_UI_SvInjection_type" ),
-                        CimPackage.eINSTANCE.getSvInjection_QInjection(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSvInjection_QInjection(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -127,10 +145,17 @@ public class SvInjectionItemProvider extends StateVariableItemProvider {
     protected void addTopologicalNodePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SvInjection_TopologicalNode_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SvInjection_TopologicalNode_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SvInjection_TopologicalNode_feature",
                                 "_UI_SvInjection_type" ),
-                        CimPackage.eINSTANCE.getSvInjection_TopologicalNode(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSvInjection_TopologicalNode(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

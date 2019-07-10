@@ -76,13 +76,19 @@ public class SynchrocheckRelayItemProvider extends ProtectionEquipmentItemProvid
      * @generated
      */
     protected void addMaxAngleDiffPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SynchrocheckRelay_maxAngleDiff_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SynchrocheckRelay_maxAngleDiff_feature",
-                        "_UI_SynchrocheckRelay_type" ),
-                CimPackage.eINSTANCE.getSynchrocheckRelay_MaxAngleDiff(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SynchrocheckRelay_maxAngleDiff_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_SynchrocheckRelay_maxAngleDiff_feature",
+                                "_UI_SynchrocheckRelay_type" ),
+                        CimPackage.eINSTANCE.getSynchrocheckRelay_MaxAngleDiff(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,11 +100,17 @@ public class SynchrocheckRelayItemProvider extends ProtectionEquipmentItemProvid
     protected void addMaxFreqDiffPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SynchrocheckRelay_maxFreqDiff_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SynchrocheckRelay_maxFreqDiff_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SynchrocheckRelay_maxFreqDiff_feature",
                                 "_UI_SynchrocheckRelay_type" ),
-                        CimPackage.eINSTANCE.getSynchrocheckRelay_MaxFreqDiff(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSynchrocheckRelay_MaxFreqDiff(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -110,11 +122,17 @@ public class SynchrocheckRelayItemProvider extends ProtectionEquipmentItemProvid
     protected void addMaxVoltDiffPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SynchrocheckRelay_maxVoltDiff_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SynchrocheckRelay_maxVoltDiff_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SynchrocheckRelay_maxVoltDiff_feature",
                                 "_UI_SynchrocheckRelay_type" ),
-                        CimPackage.eINSTANCE.getSynchrocheckRelay_MaxVoltDiff(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSynchrocheckRelay_MaxVoltDiff(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

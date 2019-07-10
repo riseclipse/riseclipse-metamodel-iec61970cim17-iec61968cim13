@@ -77,11 +77,17 @@ public class EnergySourcePhaseItemProvider extends PowerSystemResourceItemProvid
     protected void addPhasePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EnergySourcePhase_phase_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EnergySourcePhase_phase_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EnergySourcePhase_phase_feature",
                                 "_UI_EnergySourcePhase_type" ),
-                        CimPackage.eINSTANCE.getEnergySourcePhase_Phase(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEnergySourcePhase_Phase(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -91,12 +97,19 @@ public class EnergySourcePhaseItemProvider extends PowerSystemResourceItemProvid
      * @generated
      */
     protected void addEnergySourcePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_EnergySourcePhase_EnergySource_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_EnergySourcePhase_EnergySource_feature",
-                        "_UI_EnergySourcePhase_type" ),
-                CimPackage.eINSTANCE.getEnergySourcePhase_EnergySource(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_EnergySourcePhase_EnergySource_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_EnergySourcePhase_EnergySource_feature",
+                                "_UI_EnergySourcePhase_type" ),
+                        CimPackage.eINSTANCE.getEnergySourcePhase_EnergySource(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

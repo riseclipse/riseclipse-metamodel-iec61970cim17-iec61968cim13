@@ -76,12 +76,18 @@ public class LinearShuntCompensatorPhaseItemProvider extends ShuntCompensatorPha
      */
     protected void addBPerSectionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_LinearShuntCompensatorPhase_bPerSection_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_LinearShuntCompensatorPhase_bPerSection_feature",
                         "_UI_LinearShuntCompensatorPhase_type" ),
-                CimPackage.eINSTANCE.getLinearShuntCompensatorPhase_BPerSection(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getLinearShuntCompensatorPhase_BPerSection(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -92,12 +98,18 @@ public class LinearShuntCompensatorPhaseItemProvider extends ShuntCompensatorPha
      */
     protected void addGPerSectionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_LinearShuntCompensatorPhase_gPerSection_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_LinearShuntCompensatorPhase_gPerSection_feature",
                         "_UI_LinearShuntCompensatorPhase_type" ),
-                CimPackage.eINSTANCE.getLinearShuntCompensatorPhase_GPerSection(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getLinearShuntCompensatorPhase_GPerSection(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**

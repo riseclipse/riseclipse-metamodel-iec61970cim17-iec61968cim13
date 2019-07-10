@@ -73,14 +73,20 @@ public class DiscontinuousExcitationControlDynamicsItemProvider extends Dynamics
      * @generated
      */
     protected void addRemoteInputSignalPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_DiscontinuousExcitationControlDynamics_RemoteInputSignal_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_DiscontinuousExcitationControlDynamics_RemoteInputSignal_feature",
-                        "_UI_DiscontinuousExcitationControlDynamics_type" ),
-                CimPackage.eINSTANCE.getDiscontinuousExcitationControlDynamics_RemoteInputSignal(), true, false, true,
-                null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_DiscontinuousExcitationControlDynamics_RemoteInputSignal_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_DiscontinuousExcitationControlDynamics_RemoteInputSignal_feature",
+                                "_UI_DiscontinuousExcitationControlDynamics_type" ),
+                        CimPackage.eINSTANCE.getDiscontinuousExcitationControlDynamics_RemoteInputSignal(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -90,14 +96,20 @@ public class DiscontinuousExcitationControlDynamicsItemProvider extends Dynamics
      * @generated
      */
     protected void addExcitationSystemDynamicsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_DiscontinuousExcitationControlDynamics_ExcitationSystemDynamics_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_DiscontinuousExcitationControlDynamics_ExcitationSystemDynamics_feature",
-                        "_UI_DiscontinuousExcitationControlDynamics_type" ),
-                CimPackage.eINSTANCE.getDiscontinuousExcitationControlDynamics_ExcitationSystemDynamics(), true, false,
-                true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_DiscontinuousExcitationControlDynamics_ExcitationSystemDynamics_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_DiscontinuousExcitationControlDynamics_ExcitationSystemDynamics_feature",
+                                "_UI_DiscontinuousExcitationControlDynamics_type" ),
+                        CimPackage.eINSTANCE.getDiscontinuousExcitationControlDynamics_ExcitationSystemDynamics(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -135,7 +147,6 @@ public class DiscontinuousExcitationControlDynamicsItemProvider extends Dynamics
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

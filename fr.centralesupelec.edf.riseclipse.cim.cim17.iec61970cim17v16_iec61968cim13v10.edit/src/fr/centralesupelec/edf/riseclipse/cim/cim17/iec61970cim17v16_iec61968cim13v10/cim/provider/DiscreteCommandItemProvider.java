@@ -96,7 +96,6 @@ public class DiscreteCommandItemProvider extends CommandItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

@@ -75,10 +75,17 @@ public class DCEquipmentContainerItemProvider extends EquipmentContainerItemProv
     protected void addDCNodesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DCEquipmentContainer_DCNodes_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DCEquipmentContainer_DCNodes_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DCEquipmentContainer_DCNodes_feature",
                                 "_UI_DCEquipmentContainer_type" ),
-                        CimPackage.eINSTANCE.getDCEquipmentContainer_DCNodes(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getDCEquipmentContainer_DCNodes(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -90,10 +97,16 @@ public class DCEquipmentContainerItemProvider extends EquipmentContainerItemProv
     protected void addDCTopologicalNodePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DCEquipmentContainer_DCTopologicalNode_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DCEquipmentContainer_DCTopologicalNode_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_DCEquipmentContainer_DCTopologicalNode_feature", "_UI_DCEquipmentContainer_type" ),
-                        CimPackage.eINSTANCE.getDCEquipmentContainer_DCTopologicalNode(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getDCEquipmentContainer_DCTopologicalNode(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -131,7 +144,6 @@ public class DCEquipmentContainerItemProvider extends EquipmentContainerItemProv
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

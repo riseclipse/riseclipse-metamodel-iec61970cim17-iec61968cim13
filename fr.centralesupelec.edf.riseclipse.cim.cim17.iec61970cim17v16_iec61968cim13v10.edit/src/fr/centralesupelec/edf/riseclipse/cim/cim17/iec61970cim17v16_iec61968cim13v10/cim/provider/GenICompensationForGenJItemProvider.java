@@ -77,13 +77,19 @@ public class GenICompensationForGenJItemProvider extends IdentifiedObjectItemPro
      * @generated
      */
     protected void addRcijPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_GenICompensationForGenJ_rcij_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_GenICompensationForGenJ_rcij_feature",
-                        "_UI_GenICompensationForGenJ_type" ),
-                CimPackage.eINSTANCE.getGenICompensationForGenJ_Rcij(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_GenICompensationForGenJ_rcij_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_GenICompensationForGenJ_rcij_feature",
+                                "_UI_GenICompensationForGenJ_type" ),
+                        CimPackage.eINSTANCE.getGenICompensationForGenJ_Rcij(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,13 +99,19 @@ public class GenICompensationForGenJItemProvider extends IdentifiedObjectItemPro
      * @generated
      */
     protected void addXcijPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_GenICompensationForGenJ_xcij_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_GenICompensationForGenJ_xcij_feature",
-                        "_UI_GenICompensationForGenJ_type" ),
-                CimPackage.eINSTANCE.getGenICompensationForGenJ_Xcij(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_GenICompensationForGenJ_xcij_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_GenICompensationForGenJ_xcij_feature",
+                                "_UI_GenICompensationForGenJ_type" ),
+                        CimPackage.eINSTANCE.getGenICompensationForGenJ_Xcij(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -110,11 +122,17 @@ public class GenICompensationForGenJItemProvider extends IdentifiedObjectItemPro
      */
     protected void addVcompIEEEType2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_GenICompensationForGenJ_VcompIEEEType2_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_GenICompensationForGenJ_VcompIEEEType2_feature",
                         "_UI_GenICompensationForGenJ_type" ),
-                CimPackage.eINSTANCE.getGenICompensationForGenJ_VcompIEEEType2(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getGenICompensationForGenJ_VcompIEEEType2(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -125,14 +143,20 @@ public class GenICompensationForGenJItemProvider extends IdentifiedObjectItemPro
      * @generated
      */
     protected void addSynchronousMachineDynamicsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_GenICompensationForGenJ_SynchronousMachineDynamics_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_GenICompensationForGenJ_SynchronousMachineDynamics_feature",
-                        "_UI_GenICompensationForGenJ_type" ),
-                CimPackage.eINSTANCE.getGenICompensationForGenJ_SynchronousMachineDynamics(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_GenICompensationForGenJ_SynchronousMachineDynamics_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_GenICompensationForGenJ_SynchronousMachineDynamics_feature",
+                                "_UI_GenICompensationForGenJ_type" ),
+                        CimPackage.eINSTANCE.getGenICompensationForGenJ_SynchronousMachineDynamics(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

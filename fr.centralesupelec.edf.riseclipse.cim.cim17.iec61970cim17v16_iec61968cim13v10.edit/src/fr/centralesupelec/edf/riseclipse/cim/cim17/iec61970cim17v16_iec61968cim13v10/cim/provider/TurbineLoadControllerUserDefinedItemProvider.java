@@ -77,12 +77,18 @@ public class TurbineLoadControllerUserDefinedItemProvider extends TurbineLoadCon
     protected void addProprietaryPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TurbineLoadControllerUserDefined_proprietary_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TurbineLoadControllerUserDefined_proprietary_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_TurbineLoadControllerUserDefined_proprietary_feature",
                                 "_UI_TurbineLoadControllerUserDefined_type" ),
-                        CimPackage.eINSTANCE.getTurbineLoadControllerUserDefined_Proprietary(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTurbineLoadControllerUserDefined_Proprietary(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -92,14 +98,20 @@ public class TurbineLoadControllerUserDefinedItemProvider extends TurbineLoadCon
      * @generated
      */
     protected void addProprietaryParameterDynamicsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TurbineLoadControllerUserDefined_ProprietaryParameterDynamics_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_TurbineLoadControllerUserDefined_ProprietaryParameterDynamics_feature",
-                        "_UI_TurbineLoadControllerUserDefined_type" ),
-                CimPackage.eINSTANCE.getTurbineLoadControllerUserDefined_ProprietaryParameterDynamics(), true, false,
-                true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TurbineLoadControllerUserDefined_ProprietaryParameterDynamics_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_TurbineLoadControllerUserDefined_ProprietaryParameterDynamics_feature",
+                                "_UI_TurbineLoadControllerUserDefined_type" ),
+                        CimPackage.eINSTANCE.getTurbineLoadControllerUserDefined_ProprietaryParameterDynamics(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

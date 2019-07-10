@@ -80,13 +80,19 @@ public class PendingCalculationItemProvider extends CimObjectWithIDItemProvider 
      * @generated
      */
     protected void addMultiplyBeforeAddPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PendingCalculation_multiplyBeforeAdd_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PendingCalculation_multiplyBeforeAdd_feature",
-                        "_UI_PendingCalculation_type" ),
-                CimPackage.eINSTANCE.getPendingCalculation_MultiplyBeforeAdd(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PendingCalculation_multiplyBeforeAdd_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PendingCalculation_multiplyBeforeAdd_feature", "_UI_PendingCalculation_type" ),
+                        CimPackage.eINSTANCE.getPendingCalculation_MultiplyBeforeAdd(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -98,11 +104,17 @@ public class PendingCalculationItemProvider extends CimObjectWithIDItemProvider 
     protected void addOffsetPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PendingCalculation_offset_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PendingCalculation_offset_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PendingCalculation_offset_feature",
                                 "_UI_PendingCalculation_type" ),
-                        CimPackage.eINSTANCE.getPendingCalculation_Offset(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPendingCalculation_Offset(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -112,13 +124,19 @@ public class PendingCalculationItemProvider extends CimObjectWithIDItemProvider 
      * @generated
      */
     protected void addScalarDenominatorPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PendingCalculation_scalarDenominator_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PendingCalculation_scalarDenominator_feature",
-                        "_UI_PendingCalculation_type" ),
-                CimPackage.eINSTANCE.getPendingCalculation_ScalarDenominator(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PendingCalculation_scalarDenominator_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PendingCalculation_scalarDenominator_feature", "_UI_PendingCalculation_type" ),
+                        CimPackage.eINSTANCE.getPendingCalculation_ScalarDenominator(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -128,13 +146,19 @@ public class PendingCalculationItemProvider extends CimObjectWithIDItemProvider 
      * @generated
      */
     protected void addScalarFloatPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PendingCalculation_scalarFloat_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PendingCalculation_scalarFloat_feature",
-                        "_UI_PendingCalculation_type" ),
-                CimPackage.eINSTANCE.getPendingCalculation_ScalarFloat(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PendingCalculation_scalarFloat_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_PendingCalculation_scalarFloat_feature",
+                                "_UI_PendingCalculation_type" ),
+                        CimPackage.eINSTANCE.getPendingCalculation_ScalarFloat(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -144,13 +168,19 @@ public class PendingCalculationItemProvider extends CimObjectWithIDItemProvider 
      * @generated
      */
     protected void addScalarNumeratorPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PendingCalculation_scalarNumerator_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PendingCalculation_scalarNumerator_feature",
-                        "_UI_PendingCalculation_type" ),
-                CimPackage.eINSTANCE.getPendingCalculation_ScalarNumerator(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PendingCalculation_scalarNumerator_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PendingCalculation_scalarNumerator_feature", "_UI_PendingCalculation_type" ),
+                        CimPackage.eINSTANCE.getPendingCalculation_ScalarNumerator(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -160,12 +190,19 @@ public class PendingCalculationItemProvider extends CimObjectWithIDItemProvider 
      * @generated
      */
     protected void addReadingTypePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PendingCalculation_ReadingType_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PendingCalculation_ReadingType_feature",
-                        "_UI_PendingCalculation_type" ),
-                CimPackage.eINSTANCE.getPendingCalculation_ReadingType(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PendingCalculation_ReadingType_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_PendingCalculation_ReadingType_feature",
+                                "_UI_PendingCalculation_type" ),
+                        CimPackage.eINSTANCE.getPendingCalculation_ReadingType(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -175,12 +212,19 @@ public class PendingCalculationItemProvider extends CimObjectWithIDItemProvider 
      * @generated
      */
     protected void addIntervalBlocksPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PendingCalculation_IntervalBlocks_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PendingCalculation_IntervalBlocks_feature",
-                        "_UI_PendingCalculation_type" ),
-                CimPackage.eINSTANCE.getPendingCalculation_IntervalBlocks(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PendingCalculation_IntervalBlocks_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PendingCalculation_IntervalBlocks_feature", "_UI_PendingCalculation_type" ),
+                        CimPackage.eINSTANCE.getPendingCalculation_IntervalBlocks(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

@@ -78,11 +78,17 @@ public class AccumulatorItemProvider extends MeasurementItemProvider {
     protected void addMaxValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Accumulator_maxValue_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Accumulator_maxValue_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Accumulator_maxValue_feature",
                                 "_UI_Accumulator_type" ),
-                        CimPackage.eINSTANCE.getAccumulator_MaxValue(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAccumulator_MaxValue(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,10 +100,16 @@ public class AccumulatorItemProvider extends MeasurementItemProvider {
     protected void addAccumulatorValuesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Accumulator_AccumulatorValues_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Accumulator_AccumulatorValues_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Accumulator_AccumulatorValues_feature",
                                 "_UI_Accumulator_type" ),
-                        CimPackage.eINSTANCE.getAccumulator_AccumulatorValues(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getAccumulator_AccumulatorValues(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -110,10 +122,17 @@ public class AccumulatorItemProvider extends MeasurementItemProvider {
     protected void addLimitSetsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Accumulator_LimitSets_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Accumulator_LimitSets_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Accumulator_LimitSets_feature",
                                 "_UI_Accumulator_type" ),
-                        CimPackage.eINSTANCE.getAccumulator_LimitSets(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAccumulator_LimitSets(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

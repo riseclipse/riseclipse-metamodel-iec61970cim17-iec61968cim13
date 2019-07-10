@@ -77,11 +77,17 @@ public class PhaseTapChangerTablePointItemProvider extends TapChangerTablePointI
     protected void addAnglePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PhaseTapChangerTablePoint_angle_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PhaseTapChangerTablePoint_angle_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PhaseTapChangerTablePoint_angle_feature",
                                 "_UI_PhaseTapChangerTablePoint_type" ),
-                        CimPackage.eINSTANCE.getPhaseTapChangerTablePoint_Angle(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPhaseTapChangerTablePoint_Angle(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,12 +99,18 @@ public class PhaseTapChangerTablePointItemProvider extends TapChangerTablePointI
     protected void addPhaseTapChangerTablePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PhaseTapChangerTablePoint_PhaseTapChangerTable_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PhaseTapChangerTablePoint_PhaseTapChangerTable_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_PhaseTapChangerTablePoint_PhaseTapChangerTable_feature",
                                 "_UI_PhaseTapChangerTablePoint_type" ),
-                        CimPackage.eINSTANCE.getPhaseTapChangerTablePoint_PhaseTapChangerTable(), true, false, true,
-                        null, null, null ) );
+                        CimPackage.eINSTANCE.getPhaseTapChangerTablePoint_PhaseTapChangerTable(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

@@ -77,13 +77,19 @@ public class RegularTimePointItemProvider extends CimObjectWithIDItemProvider {
      * @generated
      */
     protected void addSequenceNumberPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_RegularTimePoint_sequenceNumber_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_RegularTimePoint_sequenceNumber_feature",
-                        "_UI_RegularTimePoint_type" ),
-                CimPackage.eINSTANCE.getRegularTimePoint_SequenceNumber(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_RegularTimePoint_sequenceNumber_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_RegularTimePoint_sequenceNumber_feature",
+                                "_UI_RegularTimePoint_type" ),
+                        CimPackage.eINSTANCE.getRegularTimePoint_SequenceNumber(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,11 +101,17 @@ public class RegularTimePointItemProvider extends CimObjectWithIDItemProvider {
     protected void addValue1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RegularTimePoint_value1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RegularTimePoint_value1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RegularTimePoint_value1_feature",
                                 "_UI_RegularTimePoint_type" ),
-                        CimPackage.eINSTANCE.getRegularTimePoint_Value1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getRegularTimePoint_Value1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,11 +123,17 @@ public class RegularTimePointItemProvider extends CimObjectWithIDItemProvider {
     protected void addValue2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RegularTimePoint_value2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RegularTimePoint_value2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RegularTimePoint_value2_feature",
                                 "_UI_RegularTimePoint_type" ),
-                        CimPackage.eINSTANCE.getRegularTimePoint_Value2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getRegularTimePoint_Value2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -125,12 +143,19 @@ public class RegularTimePointItemProvider extends CimObjectWithIDItemProvider {
      * @generated
      */
     protected void addIntervalSchedulePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_RegularTimePoint_IntervalSchedule_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_RegularTimePoint_IntervalSchedule_feature",
-                        "_UI_RegularTimePoint_type" ),
-                CimPackage.eINSTANCE.getRegularTimePoint_IntervalSchedule(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_RegularTimePoint_IntervalSchedule_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_RegularTimePoint_IntervalSchedule_feature", "_UI_RegularTimePoint_type" ),
+                        CimPackage.eINSTANCE.getRegularTimePoint_IntervalSchedule(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

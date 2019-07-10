@@ -80,11 +80,17 @@ public class RemoteSourceItemProvider extends RemotePointItemProvider {
     protected void addDeadbandPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RemoteSource_deadband_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RemoteSource_deadband_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RemoteSource_deadband_feature",
                                 "_UI_RemoteSource_type" ),
-                        CimPackage.eINSTANCE.getRemoteSource_Deadband(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getRemoteSource_Deadband(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -96,11 +102,17 @@ public class RemoteSourceItemProvider extends RemotePointItemProvider {
     protected void addScanIntervalPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RemoteSource_scanInterval_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RemoteSource_scanInterval_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RemoteSource_scanInterval_feature",
                                 "_UI_RemoteSource_type" ),
-                        CimPackage.eINSTANCE.getRemoteSource_ScanInterval(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getRemoteSource_ScanInterval(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -112,11 +124,17 @@ public class RemoteSourceItemProvider extends RemotePointItemProvider {
     protected void addSensorMaximumPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RemoteSource_sensorMaximum_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RemoteSource_sensorMaximum_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RemoteSource_sensorMaximum_feature",
                                 "_UI_RemoteSource_type" ),
-                        CimPackage.eINSTANCE.getRemoteSource_SensorMaximum(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getRemoteSource_SensorMaximum(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -128,11 +146,17 @@ public class RemoteSourceItemProvider extends RemotePointItemProvider {
     protected void addSensorMinimumPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RemoteSource_sensorMinimum_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RemoteSource_sensorMinimum_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RemoteSource_sensorMinimum_feature",
                                 "_UI_RemoteSource_type" ),
-                        CimPackage.eINSTANCE.getRemoteSource_SensorMinimum(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getRemoteSource_SensorMinimum(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -144,10 +168,16 @@ public class RemoteSourceItemProvider extends RemotePointItemProvider {
     protected void addMeasurementValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RemoteSource_MeasurementValue_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RemoteSource_MeasurementValue_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RemoteSource_MeasurementValue_feature",
                                 "_UI_RemoteSource_type" ),
-                        CimPackage.eINSTANCE.getRemoteSource_MeasurementValue(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getRemoteSource_MeasurementValue(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 

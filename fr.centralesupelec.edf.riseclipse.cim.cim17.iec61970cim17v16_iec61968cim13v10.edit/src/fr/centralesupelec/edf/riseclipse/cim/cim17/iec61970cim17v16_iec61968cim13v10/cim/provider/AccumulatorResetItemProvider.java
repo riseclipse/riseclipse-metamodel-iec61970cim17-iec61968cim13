@@ -72,12 +72,19 @@ public class AccumulatorResetItemProvider extends ControlItemProvider {
      * @generated
      */
     protected void addAccumulatorValuePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_AccumulatorReset_AccumulatorValue_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_AccumulatorReset_AccumulatorValue_feature",
-                        "_UI_AccumulatorReset_type" ),
-                CimPackage.eINSTANCE.getAccumulatorReset_AccumulatorValue(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_AccumulatorReset_AccumulatorValue_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_AccumulatorReset_AccumulatorValue_feature", "_UI_AccumulatorReset_type" ),
+                        CimPackage.eINSTANCE.getAccumulatorReset_AccumulatorValue(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class AccumulatorResetItemProvider extends ControlItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

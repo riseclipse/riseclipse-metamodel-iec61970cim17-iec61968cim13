@@ -88,11 +88,17 @@ public class PredictionsItemProvider extends CimObjectWithIDItemProvider {
     protected void addConfidencePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Predictions_confidence_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Predictions_confidence_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Predictions_confidence_feature",
                                 "_UI_Predictions_type" ),
-                        CimPackage.eINSTANCE.getPredictions_Confidence(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPredictions_Confidence(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -104,11 +110,17 @@ public class PredictionsItemProvider extends CimObjectWithIDItemProvider {
     protected void addMaxActivePowerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Predictions_maxActivePower_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Predictions_maxActivePower_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Predictions_maxActivePower_feature",
                                 "_UI_Predictions_type" ),
-                        CimPackage.eINSTANCE.getPredictions_MaxActivePower(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPredictions_MaxActivePower(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -120,11 +132,17 @@ public class PredictionsItemProvider extends CimObjectWithIDItemProvider {
     protected void addMaxApparentPowerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Predictions_maxApparentPower_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Predictions_maxApparentPower_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Predictions_maxApparentPower_feature",
                                 "_UI_Predictions_type" ),
-                        CimPackage.eINSTANCE.getPredictions_MaxApparentPower(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPredictions_MaxApparentPower(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -136,11 +154,17 @@ public class PredictionsItemProvider extends CimObjectWithIDItemProvider {
     protected void addMaxReactivePowerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Predictions_maxReactivePower_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Predictions_maxReactivePower_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Predictions_maxReactivePower_feature",
                                 "_UI_Predictions_type" ),
-                        CimPackage.eINSTANCE.getPredictions_MaxReactivePower(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPredictions_MaxReactivePower(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -152,11 +176,17 @@ public class PredictionsItemProvider extends CimObjectWithIDItemProvider {
     protected void addMinActivePowerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Predictions_minActivePower_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Predictions_minActivePower_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Predictions_minActivePower_feature",
                                 "_UI_Predictions_type" ),
-                        CimPackage.eINSTANCE.getPredictions_MinActivePower(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPredictions_MinActivePower(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -168,11 +198,17 @@ public class PredictionsItemProvider extends CimObjectWithIDItemProvider {
     protected void addMinApparentPowerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Predictions_minApparentPower_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Predictions_minApparentPower_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Predictions_minApparentPower_feature",
                                 "_UI_Predictions_type" ),
-                        CimPackage.eINSTANCE.getPredictions_MinApparentPower(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPredictions_MinApparentPower(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -184,11 +220,17 @@ public class PredictionsItemProvider extends CimObjectWithIDItemProvider {
     protected void addMinReactivePowerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Predictions_minReactivePower_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Predictions_minReactivePower_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Predictions_minReactivePower_feature",
                                 "_UI_Predictions_type" ),
-                        CimPackage.eINSTANCE.getPredictions_MinReactivePower(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPredictions_MinReactivePower(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -200,11 +242,17 @@ public class PredictionsItemProvider extends CimObjectWithIDItemProvider {
     protected void addSequencePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Predictions_sequence_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Predictions_sequence_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Predictions_sequence_feature",
                                 "_UI_Predictions_type" ),
-                        CimPackage.eINSTANCE.getPredictions_Sequence(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPredictions_Sequence(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -216,10 +264,17 @@ public class PredictionsItemProvider extends CimObjectWithIDItemProvider {
     protected void addOtherCapabilityPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Predictions_OtherCapability_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Predictions_OtherCapability_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Predictions_OtherCapability_feature",
                                 "_UI_Predictions_type" ),
-                        CimPackage.eINSTANCE.getPredictions_OtherCapability(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getPredictions_OtherCapability(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -231,10 +286,17 @@ public class PredictionsItemProvider extends CimObjectWithIDItemProvider {
     protected void addDERGroupForecastPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Predictions_DERGroupForecast_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Predictions_DERGroupForecast_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Predictions_DERGroupForecast_feature",
                                 "_UI_Predictions_type" ),
-                        CimPackage.eINSTANCE.getPredictions_DERGroupForecast(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getPredictions_DERGroupForecast(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

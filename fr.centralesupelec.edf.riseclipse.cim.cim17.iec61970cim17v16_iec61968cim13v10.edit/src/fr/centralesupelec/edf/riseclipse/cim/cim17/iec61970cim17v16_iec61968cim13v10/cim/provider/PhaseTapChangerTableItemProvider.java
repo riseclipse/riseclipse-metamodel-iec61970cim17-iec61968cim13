@@ -74,11 +74,17 @@ public class PhaseTapChangerTableItemProvider extends IdentifiedObjectItemProvid
      */
     protected void addPhaseTapChangerTabularPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_PhaseTapChangerTable_PhaseTapChangerTabular_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_PhaseTapChangerTable_PhaseTapChangerTabular_feature", "_UI_PhaseTapChangerTable_type" ),
-                CimPackage.eINSTANCE.getPhaseTapChangerTable_PhaseTapChangerTabular(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getPhaseTapChangerTable_PhaseTapChangerTabular(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -90,11 +96,17 @@ public class PhaseTapChangerTableItemProvider extends IdentifiedObjectItemProvid
      */
     protected void addPhaseTapChangerTablePointPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_PhaseTapChangerTable_PhaseTapChangerTablePoint_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_PhaseTapChangerTable_PhaseTapChangerTablePoint_feature", "_UI_PhaseTapChangerTable_type" ),
-                CimPackage.eINSTANCE.getPhaseTapChangerTable_PhaseTapChangerTablePoint(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getPhaseTapChangerTable_PhaseTapChangerTablePoint(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -132,7 +144,6 @@ public class PhaseTapChangerTableItemProvider extends IdentifiedObjectItemProvid
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

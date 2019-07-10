@@ -77,11 +77,17 @@ public class DCGroundItemProvider extends DCConductingEquipmentItemProvider {
     protected void addInductancePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DCGround_inductance_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DCGround_inductance_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DCGround_inductance_feature",
                                 "_UI_DCGround_type" ),
-                        CimPackage.eINSTANCE.getDCGround_Inductance(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDCGround_Inductance(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,11 +99,17 @@ public class DCGroundItemProvider extends DCConductingEquipmentItemProvider {
     protected void addRPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DCGround_r_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DCGround_r_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DCGround_r_feature",
                                 "_UI_DCGround_type" ),
-                        CimPackage.eINSTANCE.getDCGround_R(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDCGround_R(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

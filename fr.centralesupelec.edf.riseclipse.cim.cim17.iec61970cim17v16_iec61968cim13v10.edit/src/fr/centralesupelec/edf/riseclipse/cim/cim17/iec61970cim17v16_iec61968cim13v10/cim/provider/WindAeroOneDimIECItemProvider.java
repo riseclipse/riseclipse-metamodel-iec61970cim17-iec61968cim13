@@ -78,11 +78,17 @@ public class WindAeroOneDimIECItemProvider extends IdentifiedObjectItemProvider 
     protected void addKaPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindAeroOneDimIEC_ka_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindAeroOneDimIEC_ka_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindAeroOneDimIEC_ka_feature",
                                 "_UI_WindAeroOneDimIEC_type" ),
-                        CimPackage.eINSTANCE.getWindAeroOneDimIEC_Ka(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindAeroOneDimIEC_Ka(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,11 +100,17 @@ public class WindAeroOneDimIECItemProvider extends IdentifiedObjectItemProvider 
     protected void addThetaomegaPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindAeroOneDimIEC_thetaomega_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindAeroOneDimIEC_thetaomega_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindAeroOneDimIEC_thetaomega_feature",
                                 "_UI_WindAeroOneDimIEC_type" ),
-                        CimPackage.eINSTANCE.getWindAeroOneDimIEC_Thetaomega(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindAeroOneDimIEC_Thetaomega(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -108,13 +120,19 @@ public class WindAeroOneDimIECItemProvider extends IdentifiedObjectItemProvider 
      * @generated
      */
     protected void addWindTurbineType3IECPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindAeroOneDimIEC_WindTurbineType3IEC_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_WindAeroOneDimIEC_WindTurbineType3IEC_feature",
-                        "_UI_WindAeroOneDimIEC_type" ),
-                CimPackage.eINSTANCE.getWindAeroOneDimIEC_WindTurbineType3IEC(), true, false, true, null, null,
-                null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindAeroOneDimIEC_WindTurbineType3IEC_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_WindAeroOneDimIEC_WindTurbineType3IEC_feature", "_UI_WindAeroOneDimIEC_type" ),
+                        CimPackage.eINSTANCE.getWindAeroOneDimIEC_WindTurbineType3IEC(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

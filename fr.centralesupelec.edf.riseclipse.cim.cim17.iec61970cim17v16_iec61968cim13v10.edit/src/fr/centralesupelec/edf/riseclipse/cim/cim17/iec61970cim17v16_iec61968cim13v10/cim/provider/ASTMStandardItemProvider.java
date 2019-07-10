@@ -87,11 +87,17 @@ public class ASTMStandardItemProvider extends ItemProviderAdapter implements IEd
     protected void addStandardEditionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ASTMStandard_standardEdition_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ASTMStandard_standardEdition_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ASTMStandard_standardEdition_feature",
                                 "_UI_ASTMStandard_type" ),
-                        CimPackage.eINSTANCE.getASTMStandard_StandardEdition(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getASTMStandard_StandardEdition(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -103,11 +109,17 @@ public class ASTMStandardItemProvider extends ItemProviderAdapter implements IEd
     protected void addStandardNumberPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ASTMStandard_standardNumber_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ASTMStandard_standardNumber_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ASTMStandard_standardNumber_feature",
                                 "_UI_ASTMStandard_type" ),
-                        CimPackage.eINSTANCE.getASTMStandard_StandardNumber(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getASTMStandard_StandardNumber(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

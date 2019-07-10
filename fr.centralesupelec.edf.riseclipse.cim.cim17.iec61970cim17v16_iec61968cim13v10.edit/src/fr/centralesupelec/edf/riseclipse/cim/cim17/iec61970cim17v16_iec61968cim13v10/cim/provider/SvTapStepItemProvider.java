@@ -77,11 +77,17 @@ public class SvTapStepItemProvider extends StateVariableItemProvider {
     protected void addPositionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SvTapStep_position_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SvTapStep_position_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SvTapStep_position_feature",
                                 "_UI_SvTapStep_type" ),
-                        CimPackage.eINSTANCE.getSvTapStep_Position(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSvTapStep_Position(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,10 +99,17 @@ public class SvTapStepItemProvider extends StateVariableItemProvider {
     protected void addTapChangerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SvTapStep_TapChanger_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SvTapStep_TapChanger_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SvTapStep_TapChanger_feature",
                                 "_UI_SvTapStep_type" ),
-                        CimPackage.eINSTANCE.getSvTapStep_TapChanger(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSvTapStep_TapChanger(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

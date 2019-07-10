@@ -74,10 +74,16 @@ public class EquivalentEquipmentItemProvider extends ConductingEquipmentItemProv
     protected void addEquivalentNetworkPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EquivalentEquipment_EquivalentNetwork_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EquivalentEquipment_EquivalentNetwork_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_EquivalentEquipment_EquivalentNetwork_feature", "_UI_EquivalentEquipment_type" ),
-                        CimPackage.eINSTANCE.getEquivalentEquipment_EquivalentNetwork(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getEquivalentEquipment_EquivalentNetwork(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -115,7 +121,6 @@ public class EquivalentEquipmentItemProvider extends ConductingEquipmentItemProv
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

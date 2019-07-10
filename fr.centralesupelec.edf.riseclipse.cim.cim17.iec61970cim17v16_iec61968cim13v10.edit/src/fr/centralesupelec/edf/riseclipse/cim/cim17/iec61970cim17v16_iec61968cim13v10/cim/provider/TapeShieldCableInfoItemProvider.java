@@ -77,11 +77,17 @@ public class TapeShieldCableInfoItemProvider extends CableInfoItemProvider {
     protected void addTapeLapPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TapeShieldCableInfo_tapeLap_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TapeShieldCableInfo_tapeLap_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TapeShieldCableInfo_tapeLap_feature",
                                 "_UI_TapeShieldCableInfo_type" ),
-                        CimPackage.eINSTANCE.getTapeShieldCableInfo_TapeLap(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTapeShieldCableInfo_TapeLap(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -91,13 +97,19 @@ public class TapeShieldCableInfoItemProvider extends CableInfoItemProvider {
      * @generated
      */
     protected void addTapeThicknessPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TapeShieldCableInfo_tapeThickness_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TapeShieldCableInfo_tapeThickness_feature",
-                        "_UI_TapeShieldCableInfo_type" ),
-                CimPackage.eINSTANCE.getTapeShieldCableInfo_TapeThickness(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TapeShieldCableInfo_tapeThickness_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_TapeShieldCableInfo_tapeThickness_feature", "_UI_TapeShieldCableInfo_type" ),
+                        CimPackage.eINSTANCE.getTapeShieldCableInfo_TapeThickness(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

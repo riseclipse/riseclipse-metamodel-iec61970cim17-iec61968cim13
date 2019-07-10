@@ -78,11 +78,17 @@ public class RecloseSequenceItemProvider extends IdentifiedObjectItemProvider {
     protected void addRecloseDelayPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RecloseSequence_recloseDelay_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RecloseSequence_recloseDelay_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RecloseSequence_recloseDelay_feature",
                                 "_UI_RecloseSequence_type" ),
-                        CimPackage.eINSTANCE.getRecloseSequence_RecloseDelay(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getRecloseSequence_RecloseDelay(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,11 +100,17 @@ public class RecloseSequenceItemProvider extends IdentifiedObjectItemProvider {
     protected void addRecloseStepPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RecloseSequence_recloseStep_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RecloseSequence_recloseStep_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RecloseSequence_recloseStep_feature",
                                 "_UI_RecloseSequence_type" ),
-                        CimPackage.eINSTANCE.getRecloseSequence_RecloseStep(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getRecloseSequence_RecloseStep(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -110,10 +122,16 @@ public class RecloseSequenceItemProvider extends IdentifiedObjectItemProvider {
     protected void addProtectedSwitchPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RecloseSequence_ProtectedSwitch_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RecloseSequence_ProtectedSwitch_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RecloseSequence_ProtectedSwitch_feature",
                                 "_UI_RecloseSequence_type" ),
-                        CimPackage.eINSTANCE.getRecloseSequence_ProtectedSwitch(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getRecloseSequence_ProtectedSwitch(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 

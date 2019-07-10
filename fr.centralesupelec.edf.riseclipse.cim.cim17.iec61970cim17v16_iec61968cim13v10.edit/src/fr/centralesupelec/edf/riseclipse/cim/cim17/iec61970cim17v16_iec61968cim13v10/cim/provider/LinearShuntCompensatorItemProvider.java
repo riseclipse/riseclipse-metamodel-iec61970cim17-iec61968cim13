@@ -79,11 +79,17 @@ public class LinearShuntCompensatorItemProvider extends ShuntCompensatorItemProv
     protected void addB0PerSectionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LinearShuntCompensator_b0PerSection_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LinearShuntCompensator_b0PerSection_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_LinearShuntCompensator_b0PerSection_feature", "_UI_LinearShuntCompensator_type" ),
-                        CimPackage.eINSTANCE.getLinearShuntCompensator_B0PerSection(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLinearShuntCompensator_B0PerSection(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,11 +101,17 @@ public class LinearShuntCompensatorItemProvider extends ShuntCompensatorItemProv
     protected void addBPerSectionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LinearShuntCompensator_bPerSection_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LinearShuntCompensator_bPerSection_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_LinearShuntCompensator_bPerSection_feature", "_UI_LinearShuntCompensator_type" ),
-                        CimPackage.eINSTANCE.getLinearShuntCompensator_BPerSection(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLinearShuntCompensator_BPerSection(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,11 +123,17 @@ public class LinearShuntCompensatorItemProvider extends ShuntCompensatorItemProv
     protected void addG0PerSectionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LinearShuntCompensator_g0PerSection_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LinearShuntCompensator_g0PerSection_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_LinearShuntCompensator_g0PerSection_feature", "_UI_LinearShuntCompensator_type" ),
-                        CimPackage.eINSTANCE.getLinearShuntCompensator_G0PerSection(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLinearShuntCompensator_G0PerSection(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -127,11 +145,17 @@ public class LinearShuntCompensatorItemProvider extends ShuntCompensatorItemProv
     protected void addGPerSectionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LinearShuntCompensator_gPerSection_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LinearShuntCompensator_gPerSection_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_LinearShuntCompensator_gPerSection_feature", "_UI_LinearShuntCompensator_type" ),
-                        CimPackage.eINSTANCE.getLinearShuntCompensator_GPerSection(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLinearShuntCompensator_GPerSection(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

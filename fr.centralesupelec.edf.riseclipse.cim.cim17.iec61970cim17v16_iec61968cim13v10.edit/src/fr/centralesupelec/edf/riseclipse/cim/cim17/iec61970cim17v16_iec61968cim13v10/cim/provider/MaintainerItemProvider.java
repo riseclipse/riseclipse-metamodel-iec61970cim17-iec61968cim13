@@ -96,7 +96,6 @@ public class MaintainerItemProvider extends AssetOrganisationRoleItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

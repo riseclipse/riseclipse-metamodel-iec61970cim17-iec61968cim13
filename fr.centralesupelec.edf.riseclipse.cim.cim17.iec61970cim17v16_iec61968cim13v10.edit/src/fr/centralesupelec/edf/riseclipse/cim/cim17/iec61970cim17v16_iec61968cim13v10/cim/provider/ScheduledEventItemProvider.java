@@ -82,11 +82,17 @@ public class ScheduledEventItemProvider extends IdentifiedObjectItemProvider {
     protected void addDurationPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ScheduledEvent_duration_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ScheduledEvent_duration_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ScheduledEvent_duration_feature",
                                 "_UI_ScheduledEvent_type" ),
-                        CimPackage.eINSTANCE.getScheduledEvent_Duration(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getScheduledEvent_Duration(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -98,11 +104,17 @@ public class ScheduledEventItemProvider extends IdentifiedObjectItemProvider {
     protected void addTypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ScheduledEvent_type_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ScheduledEvent_type_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ScheduledEvent_type_feature",
                                 "_UI_ScheduledEvent_type" ),
-                        CimPackage.eINSTANCE.getScheduledEvent_Type(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getScheduledEvent_Type(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,10 +126,17 @@ public class ScheduledEventItemProvider extends IdentifiedObjectItemProvider {
     protected void addAssetsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ScheduledEvent_Assets_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ScheduledEvent_Assets_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ScheduledEvent_Assets_feature",
                                 "_UI_ScheduledEvent_type" ),
-                        CimPackage.eINSTANCE.getScheduledEvent_Assets(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getScheduledEvent_Assets(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -127,12 +146,19 @@ public class ScheduledEventItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addScheduledEventDataPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ScheduledEvent_ScheduledEventData_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ScheduledEvent_ScheduledEventData_feature",
-                        "_UI_ScheduledEvent_type" ),
-                CimPackage.eINSTANCE.getScheduledEvent_ScheduledEventData(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ScheduledEvent_ScheduledEventData_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ScheduledEvent_ScheduledEventData_feature", "_UI_ScheduledEvent_type" ),
+                        CimPackage.eINSTANCE.getScheduledEvent_ScheduledEventData(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

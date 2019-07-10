@@ -76,11 +76,17 @@ public class LimitSetItemProvider extends IdentifiedObjectItemProvider {
     protected void addIsPercentageLimitsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LimitSet_isPercentageLimits_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LimitSet_isPercentageLimits_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LimitSet_isPercentageLimits_feature",
                                 "_UI_LimitSet_type" ),
-                        CimPackage.eINSTANCE.getLimitSet_IsPercentageLimits(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLimitSet_IsPercentageLimits(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

@@ -77,11 +77,17 @@ public class ContingencyEquipmentItemProvider extends ContingencyElementItemProv
     protected void addContingentStatusPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ContingencyEquipment_contingentStatus_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ContingencyEquipment_contingentStatus_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_ContingencyEquipment_contingentStatus_feature", "_UI_ContingencyEquipment_type" ),
-                        CimPackage.eINSTANCE.getContingencyEquipment_ContingentStatus(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getContingencyEquipment_ContingentStatus(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -91,12 +97,19 @@ public class ContingencyEquipmentItemProvider extends ContingencyElementItemProv
      * @generated
      */
     protected void addEquipmentPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ContingencyEquipment_Equipment_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ContingencyEquipment_Equipment_feature",
-                        "_UI_ContingencyEquipment_type" ),
-                CimPackage.eINSTANCE.getContingencyEquipment_Equipment(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ContingencyEquipment_Equipment_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_ContingencyEquipment_Equipment_feature",
+                                "_UI_ContingencyEquipment_type" ),
+                        CimPackage.eINSTANCE.getContingencyEquipment_Equipment(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

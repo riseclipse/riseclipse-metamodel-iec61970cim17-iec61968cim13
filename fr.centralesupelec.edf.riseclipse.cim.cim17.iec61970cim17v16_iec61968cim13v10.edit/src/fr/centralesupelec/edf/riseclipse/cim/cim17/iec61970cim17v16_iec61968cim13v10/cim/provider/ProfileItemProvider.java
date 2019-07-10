@@ -74,10 +74,17 @@ public class ProfileItemProvider extends IdentifiedObjectItemProvider {
     protected void addDataSetPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Profile_DataSet_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Profile_DataSet_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Profile_DataSet_feature",
                                 "_UI_Profile_type" ),
-                        CimPackage.eINSTANCE.getProfile_DataSet(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getProfile_DataSet(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class ProfileItemProvider extends IdentifiedObjectItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

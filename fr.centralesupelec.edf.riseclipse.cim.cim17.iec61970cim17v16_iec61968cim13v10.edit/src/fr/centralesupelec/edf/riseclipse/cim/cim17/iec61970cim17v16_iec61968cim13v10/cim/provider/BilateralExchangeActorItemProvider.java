@@ -76,11 +76,17 @@ public class BilateralExchangeActorItemProvider extends IdentifiedObjectItemProv
      */
     protected void addCommunicationLinkPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_BilateralExchangeActor_CommunicationLink_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_BilateralExchangeActor_CommunicationLink_feature",
                         "_UI_BilateralExchangeActor_type" ),
-                CimPackage.eINSTANCE.getBilateralExchangeActor_CommunicationLink(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getBilateralExchangeActor_CommunicationLink(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -91,14 +97,20 @@ public class BilateralExchangeActorItemProvider extends IdentifiedObjectItemProv
      * @generated
      */
     protected void addProviderBilateralExchangePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_BilateralExchangeActor_ProviderBilateralExchange_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_BilateralExchangeActor_ProviderBilateralExchange_feature",
-                        "_UI_BilateralExchangeActor_type" ),
-                CimPackage.eINSTANCE.getBilateralExchangeActor_ProviderBilateralExchange(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_BilateralExchangeActor_ProviderBilateralExchange_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_BilateralExchangeActor_ProviderBilateralExchange_feature",
+                                "_UI_BilateralExchangeActor_type" ),
+                        CimPackage.eINSTANCE.getBilateralExchangeActor_ProviderBilateralExchange(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -108,14 +120,20 @@ public class BilateralExchangeActorItemProvider extends IdentifiedObjectItemProv
      * @generated
      */
     protected void addProvidedBilateralIOPointPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_BilateralExchangeActor_ProvidedBilateralIOPoint_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_BilateralExchangeActor_ProvidedBilateralIOPoint_feature",
-                        "_UI_BilateralExchangeActor_type" ),
-                CimPackage.eINSTANCE.getBilateralExchangeActor_ProvidedBilateralIOPoint(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_BilateralExchangeActor_ProvidedBilateralIOPoint_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_BilateralExchangeActor_ProvidedBilateralIOPoint_feature",
+                                "_UI_BilateralExchangeActor_type" ),
+                        CimPackage.eINSTANCE.getBilateralExchangeActor_ProvidedBilateralIOPoint(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -125,14 +143,20 @@ public class BilateralExchangeActorItemProvider extends IdentifiedObjectItemProv
      * @generated
      */
     protected void addConsumerBilateralExchangePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_BilateralExchangeActor_ConsumerBilateralExchange_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_BilateralExchangeActor_ConsumerBilateralExchange_feature",
-                        "_UI_BilateralExchangeActor_type" ),
-                CimPackage.eINSTANCE.getBilateralExchangeActor_ConsumerBilateralExchange(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_BilateralExchangeActor_ConsumerBilateralExchange_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_BilateralExchangeActor_ConsumerBilateralExchange_feature",
+                                "_UI_BilateralExchangeActor_type" ),
+                        CimPackage.eINSTANCE.getBilateralExchangeActor_ConsumerBilateralExchange(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -169,7 +193,6 @@ public class BilateralExchangeActorItemProvider extends IdentifiedObjectItemProv
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

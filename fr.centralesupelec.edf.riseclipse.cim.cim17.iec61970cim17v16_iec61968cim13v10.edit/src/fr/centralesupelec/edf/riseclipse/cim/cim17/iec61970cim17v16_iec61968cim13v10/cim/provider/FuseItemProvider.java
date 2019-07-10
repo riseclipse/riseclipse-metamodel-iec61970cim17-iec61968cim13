@@ -96,7 +96,6 @@ public class FuseItemProvider extends SwitchItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

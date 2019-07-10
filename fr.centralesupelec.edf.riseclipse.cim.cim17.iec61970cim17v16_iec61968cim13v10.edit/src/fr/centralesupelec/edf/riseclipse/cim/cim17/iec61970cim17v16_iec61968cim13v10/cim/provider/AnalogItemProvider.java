@@ -81,11 +81,17 @@ public class AnalogItemProvider extends MeasurementItemProvider {
     protected void addMaxValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Analog_maxValue_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Analog_maxValue_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Analog_maxValue_feature",
                                 "_UI_Analog_type" ),
-                        CimPackage.eINSTANCE.getAnalog_MaxValue(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAnalog_MaxValue(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -97,11 +103,17 @@ public class AnalogItemProvider extends MeasurementItemProvider {
     protected void addMinValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Analog_minValue_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Analog_minValue_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Analog_minValue_feature",
                                 "_UI_Analog_type" ),
-                        CimPackage.eINSTANCE.getAnalog_MinValue(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAnalog_MinValue(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -113,11 +125,17 @@ public class AnalogItemProvider extends MeasurementItemProvider {
     protected void addNormalValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Analog_normalValue_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Analog_normalValue_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Analog_normalValue_feature",
                                 "_UI_Analog_type" ),
-                        CimPackage.eINSTANCE.getAnalog_NormalValue(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAnalog_NormalValue(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -129,11 +147,17 @@ public class AnalogItemProvider extends MeasurementItemProvider {
     protected void addPositiveFlowInPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Analog_positiveFlowIn_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Analog_positiveFlowIn_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Analog_positiveFlowIn_feature",
                                 "_UI_Analog_type" ),
-                        CimPackage.eINSTANCE.getAnalog_PositiveFlowIn(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAnalog_PositiveFlowIn(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -145,10 +169,17 @@ public class AnalogItemProvider extends MeasurementItemProvider {
     protected void addAnalogValuesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Analog_AnalogValues_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Analog_AnalogValues_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Analog_AnalogValues_feature",
                                 "_UI_Analog_type" ),
-                        CimPackage.eINSTANCE.getAnalog_AnalogValues(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAnalog_AnalogValues(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -160,10 +191,17 @@ public class AnalogItemProvider extends MeasurementItemProvider {
     protected void addLimitSetsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Analog_LimitSets_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Analog_LimitSets_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Analog_LimitSets_feature",
                                 "_UI_Analog_type" ),
-                        CimPackage.eINSTANCE.getAnalog_LimitSets(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAnalog_LimitSets(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

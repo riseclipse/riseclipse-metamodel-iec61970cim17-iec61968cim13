@@ -89,11 +89,17 @@ public class StreetAddressItemProvider extends ItemProviderAdapter implements IE
     protected void addPoBoxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_StreetAddress_poBox_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_StreetAddress_poBox_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_StreetAddress_poBox_feature",
                                 "_UI_StreetAddress_type" ),
-                        CimPackage.eINSTANCE.getStreetAddress_PoBox(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getStreetAddress_PoBox(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -105,11 +111,17 @@ public class StreetAddressItemProvider extends ItemProviderAdapter implements IE
     protected void addPostalCodePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_StreetAddress_postalCode_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_StreetAddress_postalCode_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_StreetAddress_postalCode_feature",
                                 "_UI_StreetAddress_type" ),
-                        CimPackage.eINSTANCE.getStreetAddress_PostalCode(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getStreetAddress_PostalCode(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

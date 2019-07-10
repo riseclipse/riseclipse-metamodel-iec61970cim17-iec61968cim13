@@ -79,11 +79,17 @@ public class AssetAnalogItemProvider extends AnalogItemProvider {
     protected void addDetectionLimitPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AssetAnalog_detectionLimit_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AssetAnalog_detectionLimit_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AssetAnalog_detectionLimit_feature",
                                 "_UI_AssetAnalog_type" ),
-                        CimPackage.eINSTANCE.getAssetAnalog_DetectionLimit(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAssetAnalog_DetectionLimit(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,11 +101,17 @@ public class AssetAnalogItemProvider extends AnalogItemProvider {
     protected void addPrecisionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AssetAnalog_precision_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AssetAnalog_precision_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AssetAnalog_precision_feature",
                                 "_UI_AssetAnalog_type" ),
-                        CimPackage.eINSTANCE.getAssetAnalog_Precision(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAssetAnalog_Precision(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,11 +123,17 @@ public class AssetAnalogItemProvider extends AnalogItemProvider {
     protected void addReportingTemperaturePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AssetAnalog_reportingTemperature_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AssetAnalog_reportingTemperature_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AssetAnalog_reportingTemperature_feature",
                                 "_UI_AssetAnalog_type" ),
-                        CimPackage.eINSTANCE.getAssetAnalog_ReportingTemperature(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAssetAnalog_ReportingTemperature(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -127,10 +145,17 @@ public class AssetAnalogItemProvider extends AnalogItemProvider {
     protected void addTestStandardPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AssetAnalog_TestStandard_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AssetAnalog_TestStandard_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AssetAnalog_TestStandard_feature",
                                 "_UI_AssetAnalog_type" ),
-                        CimPackage.eINSTANCE.getAssetAnalog_TestStandard(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAssetAnalog_TestStandard(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

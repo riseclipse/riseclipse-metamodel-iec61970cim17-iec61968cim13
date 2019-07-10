@@ -82,11 +82,17 @@ public class BaseReadingItemProvider extends MeasurementValueItemProvider {
     protected void addReportedDateTimePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_BaseReading_reportedDateTime_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_BaseReading_reportedDateTime_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_BaseReading_reportedDateTime_feature",
                                 "_UI_BaseReading_type" ),
-                        CimPackage.eINSTANCE.getBaseReading_ReportedDateTime(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getBaseReading_ReportedDateTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -98,11 +104,17 @@ public class BaseReadingItemProvider extends MeasurementValueItemProvider {
     protected void addSourcePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_BaseReading_source_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_BaseReading_source_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_BaseReading_source_feature",
                                 "_UI_BaseReading_type" ),
-                        CimPackage.eINSTANCE.getBaseReading_Source(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getBaseReading_Source(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,11 +126,17 @@ public class BaseReadingItemProvider extends MeasurementValueItemProvider {
     protected void addValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_BaseReading_value_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_BaseReading_value_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_BaseReading_value_feature",
                                 "_UI_BaseReading_type" ),
-                        CimPackage.eINSTANCE.getBaseReading_Value(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getBaseReading_Value(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -130,10 +148,17 @@ public class BaseReadingItemProvider extends MeasurementValueItemProvider {
     protected void addReadingQualitiesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_BaseReading_ReadingQualities_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_BaseReading_ReadingQualities_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_BaseReading_ReadingQualities_feature",
                                 "_UI_BaseReading_type" ),
-                        CimPackage.eINSTANCE.getBaseReading_ReadingQualities(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getBaseReading_ReadingQualities(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

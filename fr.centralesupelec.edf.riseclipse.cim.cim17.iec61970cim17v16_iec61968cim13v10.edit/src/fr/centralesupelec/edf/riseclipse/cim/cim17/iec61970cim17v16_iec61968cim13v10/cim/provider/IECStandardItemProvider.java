@@ -87,11 +87,17 @@ public class IECStandardItemProvider extends ItemProviderAdapter implements IEdi
     protected void addStandardEditionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_IECStandard_standardEdition_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_IECStandard_standardEdition_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_IECStandard_standardEdition_feature",
                                 "_UI_IECStandard_type" ),
-                        CimPackage.eINSTANCE.getIECStandard_StandardEdition(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getIECStandard_StandardEdition(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -103,11 +109,17 @@ public class IECStandardItemProvider extends ItemProviderAdapter implements IEdi
     protected void addStandardNumberPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_IECStandard_standardNumber_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_IECStandard_standardNumber_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_IECStandard_standardNumber_feature",
                                 "_UI_IECStandard_type" ),
-                        CimPackage.eINSTANCE.getIECStandard_StandardNumber(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getIECStandard_StandardNumber(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

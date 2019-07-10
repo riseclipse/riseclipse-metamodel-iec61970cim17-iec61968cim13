@@ -76,13 +76,19 @@ public class MetrologyRequirementItemProvider extends IdentifiedObjectItemProvid
      * @generated
      */
     protected void addReasonPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_MetrologyRequirement_reason_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_MetrologyRequirement_reason_feature",
-                        "_UI_MetrologyRequirement_type" ),
-                CimPackage.eINSTANCE.getMetrologyRequirement_Reason(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_MetrologyRequirement_reason_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_MetrologyRequirement_reason_feature",
+                                "_UI_MetrologyRequirement_type" ),
+                        CimPackage.eINSTANCE.getMetrologyRequirement_Reason(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -92,12 +98,19 @@ public class MetrologyRequirementItemProvider extends IdentifiedObjectItemProvid
      * @generated
      */
     protected void addUsagePointsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_MetrologyRequirement_UsagePoints_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_MetrologyRequirement_UsagePoints_feature",
-                        "_UI_MetrologyRequirement_type" ),
-                CimPackage.eINSTANCE.getMetrologyRequirement_UsagePoints(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_MetrologyRequirement_UsagePoints_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_MetrologyRequirement_UsagePoints_feature",
+                                "_UI_MetrologyRequirement_type" ),
+                        CimPackage.eINSTANCE.getMetrologyRequirement_UsagePoints(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -107,12 +120,19 @@ public class MetrologyRequirementItemProvider extends IdentifiedObjectItemProvid
      * @generated
      */
     protected void addReadingTypesPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_MetrologyRequirement_ReadingTypes_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_MetrologyRequirement_ReadingTypes_feature",
-                        "_UI_MetrologyRequirement_type" ),
-                CimPackage.eINSTANCE.getMetrologyRequirement_ReadingTypes(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_MetrologyRequirement_ReadingTypes_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_MetrologyRequirement_ReadingTypes_feature", "_UI_MetrologyRequirement_type" ),
+                        CimPackage.eINSTANCE.getMetrologyRequirement_ReadingTypes(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

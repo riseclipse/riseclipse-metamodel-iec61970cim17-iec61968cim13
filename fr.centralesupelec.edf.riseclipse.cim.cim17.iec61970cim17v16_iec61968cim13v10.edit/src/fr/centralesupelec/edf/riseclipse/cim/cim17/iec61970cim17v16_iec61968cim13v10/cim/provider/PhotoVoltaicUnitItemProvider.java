@@ -96,7 +96,6 @@ public class PhotoVoltaicUnitItemProvider extends PowerElectronicsUnitItemProvid
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

@@ -73,14 +73,20 @@ public class UnderexcitationLimiterDynamicsItemProvider extends DynamicsFunction
      * @generated
      */
     protected void addRemoteInputSignalPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_UnderexcitationLimiterDynamics_RemoteInputSignal_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_UnderexcitationLimiterDynamics_RemoteInputSignal_feature",
-                        "_UI_UnderexcitationLimiterDynamics_type" ),
-                CimPackage.eINSTANCE.getUnderexcitationLimiterDynamics_RemoteInputSignal(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_UnderexcitationLimiterDynamics_RemoteInputSignal_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_UnderexcitationLimiterDynamics_RemoteInputSignal_feature",
+                                "_UI_UnderexcitationLimiterDynamics_type" ),
+                        CimPackage.eINSTANCE.getUnderexcitationLimiterDynamics_RemoteInputSignal(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -90,14 +96,20 @@ public class UnderexcitationLimiterDynamicsItemProvider extends DynamicsFunction
      * @generated
      */
     protected void addExcitationSystemDynamicsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_UnderexcitationLimiterDynamics_ExcitationSystemDynamics_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_UnderexcitationLimiterDynamics_ExcitationSystemDynamics_feature",
-                        "_UI_UnderexcitationLimiterDynamics_type" ),
-                CimPackage.eINSTANCE.getUnderexcitationLimiterDynamics_ExcitationSystemDynamics(), true, false, true,
-                null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_UnderexcitationLimiterDynamics_ExcitationSystemDynamics_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_UnderexcitationLimiterDynamics_ExcitationSystemDynamics_feature",
+                                "_UI_UnderexcitationLimiterDynamics_type" ),
+                        CimPackage.eINSTANCE.getUnderexcitationLimiterDynamics_ExcitationSystemDynamics(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -134,7 +146,6 @@ public class UnderexcitationLimiterDynamicsItemProvider extends DynamicsFunction
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

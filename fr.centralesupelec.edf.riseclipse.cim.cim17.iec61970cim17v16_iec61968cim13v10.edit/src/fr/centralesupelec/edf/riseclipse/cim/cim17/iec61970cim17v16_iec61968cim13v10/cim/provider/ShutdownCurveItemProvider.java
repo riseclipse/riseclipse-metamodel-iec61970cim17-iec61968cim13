@@ -78,11 +78,17 @@ public class ShutdownCurveItemProvider extends CurveItemProvider {
     protected void addShutdownCostPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ShutdownCurve_shutdownCost_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ShutdownCurve_shutdownCost_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ShutdownCurve_shutdownCost_feature",
                                 "_UI_ShutdownCurve_type" ),
-                        CimPackage.eINSTANCE.getShutdownCurve_ShutdownCost(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getShutdownCurve_ShutdownCost(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,11 +100,17 @@ public class ShutdownCurveItemProvider extends CurveItemProvider {
     protected void addShutdownDatePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ShutdownCurve_shutdownDate_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ShutdownCurve_shutdownDate_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ShutdownCurve_shutdownDate_feature",
                                 "_UI_ShutdownCurve_type" ),
-                        CimPackage.eINSTANCE.getShutdownCurve_ShutdownDate(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getShutdownCurve_ShutdownDate(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -108,12 +120,19 @@ public class ShutdownCurveItemProvider extends CurveItemProvider {
      * @generated
      */
     protected void addThermalGeneratingUnitPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ShutdownCurve_ThermalGeneratingUnit_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ShutdownCurve_ThermalGeneratingUnit_feature",
-                        "_UI_ShutdownCurve_type" ),
-                CimPackage.eINSTANCE.getShutdownCurve_ThermalGeneratingUnit(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ShutdownCurve_ThermalGeneratingUnit_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ShutdownCurve_ThermalGeneratingUnit_feature", "_UI_ShutdownCurve_type" ),
+                        CimPackage.eINSTANCE.getShutdownCurve_ThermalGeneratingUnit(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

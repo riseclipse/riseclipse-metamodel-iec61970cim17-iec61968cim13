@@ -74,10 +74,17 @@ public class SwitchScheduleItemProvider extends SeasonDayTypeScheduleItemProvide
     protected void addSwitchPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SwitchSchedule_Switch_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchSchedule_Switch_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SwitchSchedule_Switch_feature",
                                 "_UI_SwitchSchedule_type" ),
-                        CimPackage.eINSTANCE.getSwitchSchedule_Switch(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSwitchSchedule_Switch(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class SwitchScheduleItemProvider extends SeasonDayTypeScheduleItemProvide
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

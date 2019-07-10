@@ -76,12 +76,18 @@ public class SvShuntCompensatorSectionsItemProvider extends StateVariableItemPro
      */
     protected void addSectionsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_SvShuntCompensatorSections_sections_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_SvShuntCompensatorSections_sections_feature",
                         "_UI_SvShuntCompensatorSections_type" ),
-                CimPackage.eINSTANCE.getSvShuntCompensatorSections_Sections(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getSvShuntCompensatorSections_Sections(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -93,12 +99,18 @@ public class SvShuntCompensatorSectionsItemProvider extends StateVariableItemPro
     protected void addShuntCompensatorPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SvShuntCompensatorSections_ShuntCompensator_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SvShuntCompensatorSections_ShuntCompensator_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_SvShuntCompensatorSections_ShuntCompensator_feature",
                                 "_UI_SvShuntCompensatorSections_type" ),
-                        CimPackage.eINSTANCE.getSvShuntCompensatorSections_ShuntCompensator(), true, false, true, null,
-                        null, null ) );
+                        CimPackage.eINSTANCE.getSvShuntCompensatorSections_ShuntCompensator(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

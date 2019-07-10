@@ -78,11 +78,17 @@ public class AltTieMeasItemProvider extends IdentifiedObjectItemProvider {
     protected void addPriorityPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AltTieMeas_priority_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AltTieMeas_priority_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AltTieMeas_priority_feature",
                                 "_UI_AltTieMeas_type" ),
-                        CimPackage.eINSTANCE.getAltTieMeas_Priority(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAltTieMeas_Priority(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,10 +100,17 @@ public class AltTieMeasItemProvider extends IdentifiedObjectItemProvider {
     protected void addAnalogValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AltTieMeas_AnalogValue_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AltTieMeas_AnalogValue_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AltTieMeas_AnalogValue_feature",
                                 "_UI_AltTieMeas_type" ),
-                        CimPackage.eINSTANCE.getAltTieMeas_AnalogValue(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAltTieMeas_AnalogValue(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -109,10 +122,17 @@ public class AltTieMeasItemProvider extends IdentifiedObjectItemProvider {
     protected void addTieFlowPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AltTieMeas_TieFlow_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AltTieMeas_TieFlow_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AltTieMeas_TieFlow_feature",
                                 "_UI_AltTieMeas_type" ),
-                        CimPackage.eINSTANCE.getAltTieMeas_TieFlow(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAltTieMeas_TieFlow(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

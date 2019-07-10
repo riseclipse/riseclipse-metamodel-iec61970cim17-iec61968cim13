@@ -77,11 +77,17 @@ public class DuctBankItemProvider extends AssetContainerItemProvider {
     protected void addCircuitCountPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DuctBank_circuitCount_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DuctBank_circuitCount_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DuctBank_circuitCount_feature",
                                 "_UI_DuctBank_type" ),
-                        CimPackage.eINSTANCE.getDuctBank_CircuitCount(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDuctBank_CircuitCount(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,10 +99,17 @@ public class DuctBankItemProvider extends AssetContainerItemProvider {
     protected void addWireSpacingInfosPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DuctBank_WireSpacingInfos_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DuctBank_WireSpacingInfos_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DuctBank_WireSpacingInfos_feature",
                                 "_UI_DuctBank_type" ),
-                        CimPackage.eINSTANCE.getDuctBank_WireSpacingInfos(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getDuctBank_WireSpacingInfos(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

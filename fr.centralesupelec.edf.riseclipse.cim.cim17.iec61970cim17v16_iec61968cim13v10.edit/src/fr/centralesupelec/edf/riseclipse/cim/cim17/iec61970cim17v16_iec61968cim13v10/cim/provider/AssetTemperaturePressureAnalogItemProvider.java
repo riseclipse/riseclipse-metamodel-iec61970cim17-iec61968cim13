@@ -75,12 +75,18 @@ public class AssetTemperaturePressureAnalogItemProvider extends AssetAnalogItemP
      */
     protected void addKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_AssetTemperaturePressureAnalog_kind_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_AssetTemperaturePressureAnalog_kind_feature",
                         "_UI_AssetTemperaturePressureAnalog_type" ),
-                CimPackage.eINSTANCE.getAssetTemperaturePressureAnalog_Kind(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getAssetTemperaturePressureAnalog_Kind(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**

@@ -73,11 +73,17 @@ public class PowerTransformerInfoItemProvider extends AssetInfoItemProvider {
      */
     protected void addTransformerTankInfosPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_PowerTransformerInfo_TransformerTankInfos_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_PowerTransformerInfo_TransformerTankInfos_feature", "_UI_PowerTransformerInfo_type" ),
-                CimPackage.eINSTANCE.getPowerTransformerInfo_TransformerTankInfos(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getPowerTransformerInfo_TransformerTankInfos(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -115,7 +121,6 @@ public class PowerTransformerInfoItemProvider extends AssetInfoItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

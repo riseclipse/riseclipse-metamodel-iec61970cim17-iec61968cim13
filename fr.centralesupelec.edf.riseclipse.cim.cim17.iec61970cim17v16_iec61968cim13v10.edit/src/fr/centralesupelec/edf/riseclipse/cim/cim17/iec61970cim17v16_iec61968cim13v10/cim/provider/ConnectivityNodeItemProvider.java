@@ -76,10 +76,17 @@ public class ConnectivityNodeItemProvider extends IdentifiedObjectItemProvider {
     protected void addTerminalsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ConnectivityNode_Terminals_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ConnectivityNode_Terminals_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ConnectivityNode_Terminals_feature",
                                 "_UI_ConnectivityNode_type" ),
-                        CimPackage.eINSTANCE.getConnectivityNode_Terminals(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getConnectivityNode_Terminals(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -89,12 +96,19 @@ public class ConnectivityNodeItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addTopologicalNodePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ConnectivityNode_TopologicalNode_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ConnectivityNode_TopologicalNode_feature",
-                        "_UI_ConnectivityNode_type" ),
-                CimPackage.eINSTANCE.getConnectivityNode_TopologicalNode(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ConnectivityNode_TopologicalNode_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_ConnectivityNode_TopologicalNode_feature",
+                                "_UI_ConnectivityNode_type" ),
+                        CimPackage.eINSTANCE.getConnectivityNode_TopologicalNode(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -106,11 +120,17 @@ public class ConnectivityNodeItemProvider extends IdentifiedObjectItemProvider {
     protected void addConnectivityNodeContainerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ConnectivityNode_ConnectivityNodeContainer_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ConnectivityNode_ConnectivityNodeContainer_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_ConnectivityNode_ConnectivityNodeContainer_feature", "_UI_ConnectivityNode_type" ),
-                        CimPackage.eINSTANCE.getConnectivityNode_ConnectivityNodeContainer(), true, false, true, null,
-                        null, null ) );
+                        CimPackage.eINSTANCE.getConnectivityNode_ConnectivityNodeContainer(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -147,7 +167,6 @@ public class ConnectivityNodeItemProvider extends IdentifiedObjectItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

@@ -82,11 +82,17 @@ public class TimePointItemProvider extends IdentifiedObjectItemProvider {
     protected void addDateTimePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TimePoint_dateTime_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TimePoint_dateTime_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TimePoint_dateTime_feature",
                                 "_UI_TimePoint_type" ),
-                        CimPackage.eINSTANCE.getTimePoint_DateTime(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTimePoint_DateTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -98,11 +104,17 @@ public class TimePointItemProvider extends IdentifiedObjectItemProvider {
     protected void addRelativeTimeIntervalPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TimePoint_relativeTimeInterval_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TimePoint_relativeTimeInterval_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TimePoint_relativeTimeInterval_feature",
                                 "_UI_TimePoint_type" ),
-                        CimPackage.eINSTANCE.getTimePoint_RelativeTimeInterval(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTimePoint_RelativeTimeInterval(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,11 +126,17 @@ public class TimePointItemProvider extends IdentifiedObjectItemProvider {
     protected void addSequenceNumberPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TimePoint_sequenceNumber_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TimePoint_sequenceNumber_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TimePoint_sequenceNumber_feature",
                                 "_UI_TimePoint_type" ),
-                        CimPackage.eINSTANCE.getTimePoint_SequenceNumber(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTimePoint_SequenceNumber(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -130,10 +148,17 @@ public class TimePointItemProvider extends IdentifiedObjectItemProvider {
     protected void addTimeSchedulePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TimePoint_TimeSchedule_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TimePoint_TimeSchedule_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TimePoint_TimeSchedule_feature",
                                 "_UI_TimePoint_type" ),
-                        CimPackage.eINSTANCE.getTimePoint_TimeSchedule(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTimePoint_TimeSchedule(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

@@ -85,10 +85,16 @@ public class ChargeItemProvider extends IdentifiedObjectItemProvider {
     protected void addKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Charge_kind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Charge_kind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Charge_kind_feature", "_UI_Charge_type" ),
-                        CimPackage.eINSTANCE.getCharge_Kind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCharge_Kind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -100,11 +106,17 @@ public class ChargeItemProvider extends IdentifiedObjectItemProvider {
     protected void addVariablePortionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Charge_variablePortion_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Charge_variablePortion_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Charge_variablePortion_feature",
                                 "_UI_Charge_type" ),
-                        CimPackage.eINSTANCE.getCharge_VariablePortion(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCharge_VariablePortion(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -116,10 +128,17 @@ public class ChargeItemProvider extends IdentifiedObjectItemProvider {
     protected void addParentChargePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Charge_ParentCharge_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Charge_ParentCharge_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Charge_ParentCharge_feature",
                                 "_UI_Charge_type" ),
-                        CimPackage.eINSTANCE.getCharge_ParentCharge(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCharge_ParentCharge(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -131,10 +150,17 @@ public class ChargeItemProvider extends IdentifiedObjectItemProvider {
     protected void addTimeTariffIntervalsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Charge_TimeTariffIntervals_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Charge_TimeTariffIntervals_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Charge_TimeTariffIntervals_feature",
                                 "_UI_Charge_type" ),
-                        CimPackage.eINSTANCE.getCharge_TimeTariffIntervals(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCharge_TimeTariffIntervals(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -146,10 +172,17 @@ public class ChargeItemProvider extends IdentifiedObjectItemProvider {
     protected void addAuxiliaryAccountsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Charge_AuxiliaryAccounts_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Charge_AuxiliaryAccounts_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Charge_AuxiliaryAccounts_feature",
                                 "_UI_Charge_type" ),
-                        CimPackage.eINSTANCE.getCharge_AuxiliaryAccounts(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCharge_AuxiliaryAccounts(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -161,10 +194,17 @@ public class ChargeItemProvider extends IdentifiedObjectItemProvider {
     protected void addChildChargesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Charge_ChildCharges_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Charge_ChildCharges_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Charge_ChildCharges_feature",
                                 "_UI_Charge_type" ),
-                        CimPackage.eINSTANCE.getCharge_ChildCharges(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCharge_ChildCharges(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -174,12 +214,19 @@ public class ChargeItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addConsumptionTariffIntervalsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_Charge_ConsumptionTariffIntervals_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_Charge_ConsumptionTariffIntervals_feature",
-                        "_UI_Charge_type" ),
-                CimPackage.eINSTANCE.getCharge_ConsumptionTariffIntervals(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_Charge_ConsumptionTariffIntervals_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_Charge_ConsumptionTariffIntervals_feature", "_UI_Charge_type" ),
+                        CimPackage.eINSTANCE.getCharge_ConsumptionTariffIntervals(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

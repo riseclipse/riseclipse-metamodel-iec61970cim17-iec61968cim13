@@ -74,10 +74,17 @@ public class EnergyAreaItemProvider extends IdentifiedObjectItemProvider {
     protected void addControlAreaPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EnergyArea_ControlArea_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EnergyArea_ControlArea_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EnergyArea_ControlArea_feature",
                                 "_UI_EnergyArea_type" ),
-                        CimPackage.eINSTANCE.getEnergyArea_ControlArea(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getEnergyArea_ControlArea(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class EnergyAreaItemProvider extends IdentifiedObjectItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

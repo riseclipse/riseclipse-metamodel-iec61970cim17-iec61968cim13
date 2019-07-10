@@ -75,10 +75,17 @@ public class LoadAggregateItemProvider extends LoadDynamicsItemProvider {
     protected void addLoadStaticPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadAggregate_LoadStatic_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadAggregate_LoadStatic_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadAggregate_LoadStatic_feature",
                                 "_UI_LoadAggregate_type" ),
-                        CimPackage.eINSTANCE.getLoadAggregate_LoadStatic(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getLoadAggregate_LoadStatic(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -90,10 +97,17 @@ public class LoadAggregateItemProvider extends LoadDynamicsItemProvider {
     protected void addLoadMotorPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadAggregate_LoadMotor_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadAggregate_LoadMotor_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadAggregate_LoadMotor_feature",
                                 "_UI_LoadAggregate_type" ),
-                        CimPackage.eINSTANCE.getLoadAggregate_LoadMotor(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getLoadAggregate_LoadMotor(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -130,7 +144,6 @@ public class LoadAggregateItemProvider extends LoadDynamicsItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

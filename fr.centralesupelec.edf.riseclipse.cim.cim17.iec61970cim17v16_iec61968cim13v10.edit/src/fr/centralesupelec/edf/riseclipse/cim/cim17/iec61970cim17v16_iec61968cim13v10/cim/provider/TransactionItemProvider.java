@@ -93,11 +93,17 @@ public class TransactionItemProvider extends IdentifiedObjectItemProvider {
     protected void addDiverseReferencePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Transaction_diverseReference_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Transaction_diverseReference_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Transaction_diverseReference_feature",
                                 "_UI_Transaction_type" ),
-                        CimPackage.eINSTANCE.getTransaction_DiverseReference(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTransaction_DiverseReference(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -109,11 +115,17 @@ public class TransactionItemProvider extends IdentifiedObjectItemProvider {
     protected void addDonorReferencePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Transaction_donorReference_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Transaction_donorReference_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Transaction_donorReference_feature",
                                 "_UI_Transaction_type" ),
-                        CimPackage.eINSTANCE.getTransaction_DonorReference(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTransaction_DonorReference(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -125,11 +137,17 @@ public class TransactionItemProvider extends IdentifiedObjectItemProvider {
     protected void addKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Transaction_kind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Transaction_kind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Transaction_kind_feature",
                                 "_UI_Transaction_type" ),
-                        CimPackage.eINSTANCE.getTransaction_Kind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTransaction_Kind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -141,11 +159,17 @@ public class TransactionItemProvider extends IdentifiedObjectItemProvider {
     protected void addReceiverReferencePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Transaction_receiverReference_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Transaction_receiverReference_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Transaction_receiverReference_feature",
                                 "_UI_Transaction_type" ),
-                        CimPackage.eINSTANCE.getTransaction_ReceiverReference(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTransaction_ReceiverReference(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -157,11 +181,17 @@ public class TransactionItemProvider extends IdentifiedObjectItemProvider {
     protected void addReversedIdPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Transaction_reversedId_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Transaction_reversedId_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Transaction_reversedId_feature",
                                 "_UI_Transaction_type" ),
-                        CimPackage.eINSTANCE.getTransaction_ReversedId(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTransaction_ReversedId(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -173,11 +203,17 @@ public class TransactionItemProvider extends IdentifiedObjectItemProvider {
     protected void addServiceUnitsEnergyPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Transaction_serviceUnitsEnergy_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Transaction_serviceUnitsEnergy_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Transaction_serviceUnitsEnergy_feature",
                                 "_UI_Transaction_type" ),
-                        CimPackage.eINSTANCE.getTransaction_ServiceUnitsEnergy(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTransaction_ServiceUnitsEnergy(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -189,11 +225,17 @@ public class TransactionItemProvider extends IdentifiedObjectItemProvider {
     protected void addServiceUnitsErrorPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Transaction_serviceUnitsError_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Transaction_serviceUnitsError_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Transaction_serviceUnitsError_feature",
                                 "_UI_Transaction_type" ),
-                        CimPackage.eINSTANCE.getTransaction_ServiceUnitsError(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTransaction_ServiceUnitsError(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -205,10 +247,17 @@ public class TransactionItemProvider extends IdentifiedObjectItemProvider {
     protected void addVendorShiftPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Transaction_VendorShift_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Transaction_VendorShift_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Transaction_VendorShift_feature",
                                 "_UI_Transaction_type" ),
-                        CimPackage.eINSTANCE.getTransaction_VendorShift(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTransaction_VendorShift(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -220,10 +269,17 @@ public class TransactionItemProvider extends IdentifiedObjectItemProvider {
     protected void addCustomerAccountPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Transaction_CustomerAccount_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Transaction_CustomerAccount_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Transaction_CustomerAccount_feature",
                                 "_UI_Transaction_type" ),
-                        CimPackage.eINSTANCE.getTransaction_CustomerAccount(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTransaction_CustomerAccount(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -235,10 +291,17 @@ public class TransactionItemProvider extends IdentifiedObjectItemProvider {
     protected void addReceiptPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Transaction_Receipt_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Transaction_Receipt_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Transaction_Receipt_feature",
                                 "_UI_Transaction_type" ),
-                        CimPackage.eINSTANCE.getTransaction_Receipt(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTransaction_Receipt(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -250,10 +313,17 @@ public class TransactionItemProvider extends IdentifiedObjectItemProvider {
     protected void addAuxiliaryAccountPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Transaction_AuxiliaryAccount_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Transaction_AuxiliaryAccount_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Transaction_AuxiliaryAccount_feature",
                                 "_UI_Transaction_type" ),
-                        CimPackage.eINSTANCE.getTransaction_AuxiliaryAccount(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTransaction_AuxiliaryAccount(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -265,10 +335,17 @@ public class TransactionItemProvider extends IdentifiedObjectItemProvider {
     protected void addPricingStructurePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Transaction_PricingStructure_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Transaction_PricingStructure_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Transaction_PricingStructure_feature",
                                 "_UI_Transaction_type" ),
-                        CimPackage.eINSTANCE.getTransaction_PricingStructure(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTransaction_PricingStructure(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -280,10 +357,17 @@ public class TransactionItemProvider extends IdentifiedObjectItemProvider {
     protected void addUserAttributesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Transaction_UserAttributes_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Transaction_UserAttributes_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Transaction_UserAttributes_feature",
                                 "_UI_Transaction_type" ),
-                        CimPackage.eINSTANCE.getTransaction_UserAttributes(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTransaction_UserAttributes(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -295,10 +379,17 @@ public class TransactionItemProvider extends IdentifiedObjectItemProvider {
     protected void addMeterPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Transaction_Meter_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Transaction_Meter_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Transaction_Meter_feature",
                                 "_UI_Transaction_type" ),
-                        CimPackage.eINSTANCE.getTransaction_Meter(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTransaction_Meter(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -310,10 +401,17 @@ public class TransactionItemProvider extends IdentifiedObjectItemProvider {
     protected void addCashierShiftPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Transaction_CashierShift_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Transaction_CashierShift_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Transaction_CashierShift_feature",
                                 "_UI_Transaction_type" ),
-                        CimPackage.eINSTANCE.getTransaction_CashierShift(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTransaction_CashierShift(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

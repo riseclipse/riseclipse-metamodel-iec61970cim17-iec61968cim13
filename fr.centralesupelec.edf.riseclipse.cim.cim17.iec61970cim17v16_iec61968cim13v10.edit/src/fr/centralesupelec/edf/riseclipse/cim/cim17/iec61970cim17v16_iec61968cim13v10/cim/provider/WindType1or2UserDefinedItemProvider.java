@@ -77,11 +77,17 @@ public class WindType1or2UserDefinedItemProvider extends WindTurbineType1or2Dyna
     protected void addProprietaryPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindType1or2UserDefined_proprietary_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindType1or2UserDefined_proprietary_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_WindType1or2UserDefined_proprietary_feature", "_UI_WindType1or2UserDefined_type" ),
-                        CimPackage.eINSTANCE.getWindType1or2UserDefined_Proprietary(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindType1or2UserDefined_Proprietary(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -91,14 +97,20 @@ public class WindType1or2UserDefinedItemProvider extends WindTurbineType1or2Dyna
      * @generated
      */
     protected void addProprietaryParameterDynamicsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindType1or2UserDefined_ProprietaryParameterDynamics_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_WindType1or2UserDefined_ProprietaryParameterDynamics_feature",
-                        "_UI_WindType1or2UserDefined_type" ),
-                CimPackage.eINSTANCE.getWindType1or2UserDefined_ProprietaryParameterDynamics(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindType1or2UserDefined_ProprietaryParameterDynamics_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_WindType1or2UserDefined_ProprietaryParameterDynamics_feature",
+                                "_UI_WindType1or2UserDefined_type" ),
+                        CimPackage.eINSTANCE.getWindType1or2UserDefined_ProprietaryParameterDynamics(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

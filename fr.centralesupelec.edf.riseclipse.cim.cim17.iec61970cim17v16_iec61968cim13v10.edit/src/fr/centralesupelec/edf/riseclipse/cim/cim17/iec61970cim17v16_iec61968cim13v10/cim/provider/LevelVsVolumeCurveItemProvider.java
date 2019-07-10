@@ -74,10 +74,17 @@ public class LevelVsVolumeCurveItemProvider extends CurveItemProvider {
     protected void addReservoirPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LevelVsVolumeCurve_Reservoir_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LevelVsVolumeCurve_Reservoir_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LevelVsVolumeCurve_Reservoir_feature",
                                 "_UI_LevelVsVolumeCurve_type" ),
-                        CimPackage.eINSTANCE.getLevelVsVolumeCurve_Reservoir(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getLevelVsVolumeCurve_Reservoir(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class LevelVsVolumeCurveItemProvider extends CurveItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

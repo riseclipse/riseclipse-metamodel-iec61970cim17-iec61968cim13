@@ -75,13 +75,19 @@ public class RegulatingCondEqItemProvider extends EnergyConnectionItemProvider {
      * @generated
      */
     protected void addControlEnabledPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_RegulatingCondEq_controlEnabled_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_RegulatingCondEq_controlEnabled_feature",
-                        "_UI_RegulatingCondEq_type" ),
-                CimPackage.eINSTANCE.getRegulatingCondEq_ControlEnabled(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_RegulatingCondEq_controlEnabled_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_RegulatingCondEq_controlEnabled_feature",
+                                "_UI_RegulatingCondEq_type" ),
+                        CimPackage.eINSTANCE.getRegulatingCondEq_ControlEnabled(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -91,12 +97,19 @@ public class RegulatingCondEqItemProvider extends EnergyConnectionItemProvider {
      * @generated
      */
     protected void addRegulatingControlPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_RegulatingCondEq_RegulatingControl_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_RegulatingCondEq_RegulatingControl_feature",
-                        "_UI_RegulatingCondEq_type" ),
-                CimPackage.eINSTANCE.getRegulatingCondEq_RegulatingControl(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_RegulatingCondEq_RegulatingControl_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_RegulatingCondEq_RegulatingControl_feature", "_UI_RegulatingCondEq_type" ),
+                        CimPackage.eINSTANCE.getRegulatingCondEq_RegulatingControl(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

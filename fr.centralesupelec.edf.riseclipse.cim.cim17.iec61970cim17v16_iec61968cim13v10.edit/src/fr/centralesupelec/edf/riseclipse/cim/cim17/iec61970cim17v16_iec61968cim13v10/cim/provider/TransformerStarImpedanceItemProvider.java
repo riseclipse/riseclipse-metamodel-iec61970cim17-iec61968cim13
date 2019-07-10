@@ -79,13 +79,19 @@ public class TransformerStarImpedanceItemProvider extends IdentifiedObjectItemPr
      * @generated
      */
     protected void addRPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TransformerStarImpedance_r_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TransformerStarImpedance_r_feature",
-                        "_UI_TransformerStarImpedance_type" ),
-                CimPackage.eINSTANCE.getTransformerStarImpedance_R(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerStarImpedance_r_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_TransformerStarImpedance_r_feature",
+                                "_UI_TransformerStarImpedance_type" ),
+                        CimPackage.eINSTANCE.getTransformerStarImpedance_R(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,13 +101,19 @@ public class TransformerStarImpedanceItemProvider extends IdentifiedObjectItemPr
      * @generated
      */
     protected void addR0PropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TransformerStarImpedance_r0_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TransformerStarImpedance_r0_feature",
-                        "_UI_TransformerStarImpedance_type" ),
-                CimPackage.eINSTANCE.getTransformerStarImpedance_R0(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerStarImpedance_r0_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_TransformerStarImpedance_r0_feature",
+                                "_UI_TransformerStarImpedance_type" ),
+                        CimPackage.eINSTANCE.getTransformerStarImpedance_R0(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,13 +123,19 @@ public class TransformerStarImpedanceItemProvider extends IdentifiedObjectItemPr
      * @generated
      */
     protected void addXPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TransformerStarImpedance_x_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TransformerStarImpedance_x_feature",
-                        "_UI_TransformerStarImpedance_type" ),
-                CimPackage.eINSTANCE.getTransformerStarImpedance_X(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerStarImpedance_x_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_TransformerStarImpedance_x_feature",
+                                "_UI_TransformerStarImpedance_type" ),
+                        CimPackage.eINSTANCE.getTransformerStarImpedance_X(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -127,13 +145,19 @@ public class TransformerStarImpedanceItemProvider extends IdentifiedObjectItemPr
      * @generated
      */
     protected void addX0PropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TransformerStarImpedance_x0_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TransformerStarImpedance_x0_feature",
-                        "_UI_TransformerStarImpedance_type" ),
-                CimPackage.eINSTANCE.getTransformerStarImpedance_X0(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerStarImpedance_x0_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_TransformerStarImpedance_x0_feature",
+                                "_UI_TransformerStarImpedance_type" ),
+                        CimPackage.eINSTANCE.getTransformerStarImpedance_X0(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -144,11 +168,17 @@ public class TransformerStarImpedanceItemProvider extends IdentifiedObjectItemPr
      */
     protected void addTransformerEndPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_TransformerStarImpedance_TransformerEnd_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_TransformerStarImpedance_TransformerEnd_feature",
                         "_UI_TransformerStarImpedance_type" ),
-                CimPackage.eINSTANCE.getTransformerStarImpedance_TransformerEnd(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getTransformerStarImpedance_TransformerEnd(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -161,12 +191,18 @@ public class TransformerStarImpedanceItemProvider extends IdentifiedObjectItemPr
     protected void addTransformerEndInfoPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TransformerStarImpedance_TransformerEndInfo_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerStarImpedance_TransformerEndInfo_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_TransformerStarImpedance_TransformerEndInfo_feature",
                                 "_UI_TransformerStarImpedance_type" ),
-                        CimPackage.eINSTANCE.getTransformerStarImpedance_TransformerEndInfo(), true, false, true, null,
-                        null, null ) );
+                        CimPackage.eINSTANCE.getTransformerStarImpedance_TransformerEndInfo(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

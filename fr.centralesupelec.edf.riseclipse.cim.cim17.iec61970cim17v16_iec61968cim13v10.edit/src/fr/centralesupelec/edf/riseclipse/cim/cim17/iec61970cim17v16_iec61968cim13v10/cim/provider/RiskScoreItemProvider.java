@@ -77,11 +77,17 @@ public class RiskScoreItemProvider extends AggregateScoreItemProvider {
     protected void addKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RiskScore_kind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RiskScore_kind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RiskScore_kind_feature",
                                 "_UI_RiskScore_type" ),
-                        CimPackage.eINSTANCE.getRiskScore_Kind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getRiskScore_Kind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,10 +99,17 @@ public class RiskScoreItemProvider extends AggregateScoreItemProvider {
     protected void addAssetHealthScorePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RiskScore_AssetHealthScore_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RiskScore_AssetHealthScore_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RiskScore_AssetHealthScore_feature",
                                 "_UI_RiskScore_type" ),
-                        CimPackage.eINSTANCE.getRiskScore_AssetHealthScore(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getRiskScore_AssetHealthScore(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

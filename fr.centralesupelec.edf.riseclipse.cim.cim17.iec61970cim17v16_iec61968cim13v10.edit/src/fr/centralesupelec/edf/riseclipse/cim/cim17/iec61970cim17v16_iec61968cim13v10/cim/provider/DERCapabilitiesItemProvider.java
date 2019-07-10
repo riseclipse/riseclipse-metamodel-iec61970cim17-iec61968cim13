@@ -72,12 +72,19 @@ public class DERCapabilitiesItemProvider extends CimObjectWithIDItemProvider {
      * @generated
      */
     protected void addDERGroupDispatchPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_DERCapabilities_DERGroupDispatch_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_DERCapabilities_DERGroupDispatch_feature",
-                        "_UI_DERCapabilities_type" ),
-                CimPackage.eINSTANCE.getDERCapabilities_DERGroupDispatch(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_DERCapabilities_DERGroupDispatch_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_DERCapabilities_DERGroupDispatch_feature",
+                                "_UI_DERCapabilities_type" ),
+                        CimPackage.eINSTANCE.getDERCapabilities_DERGroupDispatch(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class DERCapabilitiesItemProvider extends CimObjectWithIDItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

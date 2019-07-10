@@ -78,13 +78,19 @@ public class CurrentTransformerItemProvider extends SensorItemProvider {
      * @generated
      */
     protected void addAccuracyClassPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CurrentTransformer_accuracyClass_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CurrentTransformer_accuracyClass_feature",
-                        "_UI_CurrentTransformer_type" ),
-                CimPackage.eINSTANCE.getCurrentTransformer_AccuracyClass(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CurrentTransformer_accuracyClass_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_CurrentTransformer_accuracyClass_feature",
+                                "_UI_CurrentTransformer_type" ),
+                        CimPackage.eINSTANCE.getCurrentTransformer_AccuracyClass(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,13 +100,19 @@ public class CurrentTransformerItemProvider extends SensorItemProvider {
      * @generated
      */
     protected void addAccuracyLimitPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CurrentTransformer_accuracyLimit_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CurrentTransformer_accuracyLimit_feature",
-                        "_UI_CurrentTransformer_type" ),
-                CimPackage.eINSTANCE.getCurrentTransformer_AccuracyLimit(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CurrentTransformer_accuracyLimit_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_CurrentTransformer_accuracyLimit_feature",
+                                "_UI_CurrentTransformer_type" ),
+                        CimPackage.eINSTANCE.getCurrentTransformer_AccuracyLimit(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -110,13 +122,19 @@ public class CurrentTransformerItemProvider extends SensorItemProvider {
      * @generated
      */
     protected void addCoreBurdenPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CurrentTransformer_coreBurden_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CurrentTransformer_coreBurden_feature",
-                        "_UI_CurrentTransformer_type" ),
-                CimPackage.eINSTANCE.getCurrentTransformer_CoreBurden(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CurrentTransformer_coreBurden_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_CurrentTransformer_coreBurden_feature",
+                                "_UI_CurrentTransformer_type" ),
+                        CimPackage.eINSTANCE.getCurrentTransformer_CoreBurden(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -128,11 +146,17 @@ public class CurrentTransformerItemProvider extends SensorItemProvider {
     protected void addCtClassPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CurrentTransformer_ctClass_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CurrentTransformer_ctClass_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CurrentTransformer_ctClass_feature",
                                 "_UI_CurrentTransformer_type" ),
-                        CimPackage.eINSTANCE.getCurrentTransformer_CtClass(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCurrentTransformer_CtClass(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -144,11 +168,17 @@ public class CurrentTransformerItemProvider extends SensorItemProvider {
     protected void addUsagePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CurrentTransformer_usage_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CurrentTransformer_usage_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CurrentTransformer_usage_feature",
                                 "_UI_CurrentTransformer_type" ),
-                        CimPackage.eINSTANCE.getCurrentTransformer_Usage(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCurrentTransformer_Usage(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

@@ -74,10 +74,17 @@ public class FaultCauseTypeItemProvider extends IdentifiedObjectItemProvider {
     protected void addFaultsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FaultCauseType_Faults_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FaultCauseType_Faults_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FaultCauseType_Faults_feature",
                                 "_UI_FaultCauseType_type" ),
-                        CimPackage.eINSTANCE.getFaultCauseType_Faults(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getFaultCauseType_Faults(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class FaultCauseTypeItemProvider extends IdentifiedObjectItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

@@ -83,11 +83,17 @@ public class TestStandardItemProvider extends IdentifiedObjectItemProvider {
     protected void addTestMethodPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TestStandard_testMethod_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TestStandard_testMethod_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TestStandard_testMethod_feature",
                                 "_UI_TestStandard_type" ),
-                        CimPackage.eINSTANCE.getTestStandard_TestMethod(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTestStandard_TestMethod(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -99,11 +105,17 @@ public class TestStandardItemProvider extends IdentifiedObjectItemProvider {
     protected void addTestVariantPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TestStandard_testVariant_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TestStandard_testVariant_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TestStandard_testVariant_feature",
                                 "_UI_TestStandard_type" ),
-                        CimPackage.eINSTANCE.getTestStandard_TestVariant(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTestStandard_TestVariant(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -115,10 +127,17 @@ public class TestStandardItemProvider extends IdentifiedObjectItemProvider {
     protected void addAssetStringPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TestStandard_AssetString_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TestStandard_AssetString_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TestStandard_AssetString_feature",
                                 "_UI_TestStandard_type" ),
-                        CimPackage.eINSTANCE.getTestStandard_AssetString(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTestStandard_AssetString(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -130,10 +149,17 @@ public class TestStandardItemProvider extends IdentifiedObjectItemProvider {
     protected void addAssetDiscretePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TestStandard_AssetDiscrete_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TestStandard_AssetDiscrete_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TestStandard_AssetDiscrete_feature",
                                 "_UI_TestStandard_type" ),
-                        CimPackage.eINSTANCE.getTestStandard_AssetDiscrete(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTestStandard_AssetDiscrete(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -145,10 +171,17 @@ public class TestStandardItemProvider extends IdentifiedObjectItemProvider {
     protected void addAssetAnalogPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TestStandard_AssetAnalog_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TestStandard_AssetAnalog_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TestStandard_AssetAnalog_feature",
                                 "_UI_TestStandard_type" ),
-                        CimPackage.eINSTANCE.getTestStandard_AssetAnalog(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTestStandard_AssetAnalog(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

@@ -73,11 +73,17 @@ public class CTTempActivePowerCurveItemProvider extends CurveItemProvider {
      */
     protected void addCombustionTurbinePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_CTTempActivePowerCurve_CombustionTurbine_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_CTTempActivePowerCurve_CombustionTurbine_feature",
                         "_UI_CTTempActivePowerCurve_type" ),
-                CimPackage.eINSTANCE.getCTTempActivePowerCurve_CombustionTurbine(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getCTTempActivePowerCurve_CombustionTurbine(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -115,7 +121,6 @@ public class CTTempActivePowerCurveItemProvider extends CurveItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

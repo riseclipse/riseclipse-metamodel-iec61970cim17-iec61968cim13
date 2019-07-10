@@ -77,11 +77,17 @@ public class ContingencyItemProvider extends IdentifiedObjectItemProvider {
     protected void addMustStudyPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Contingency_mustStudy_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Contingency_mustStudy_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Contingency_mustStudy_feature",
                                 "_UI_Contingency_type" ),
-                        CimPackage.eINSTANCE.getContingency_MustStudy(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getContingency_MustStudy(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,10 +99,16 @@ public class ContingencyItemProvider extends IdentifiedObjectItemProvider {
     protected void addContingencyElementPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Contingency_ContingencyElement_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Contingency_ContingencyElement_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Contingency_ContingencyElement_feature",
                                 "_UI_Contingency_type" ),
-                        CimPackage.eINSTANCE.getContingency_ContingencyElement(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getContingency_ContingencyElement(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 

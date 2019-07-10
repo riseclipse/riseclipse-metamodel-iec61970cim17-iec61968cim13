@@ -74,10 +74,16 @@ public class DCTerminalItemProvider extends DCBaseTerminalItemProvider {
     protected void addDCConductingEquipmentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DCTerminal_DCConductingEquipment_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DCTerminal_DCConductingEquipment_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DCTerminal_DCConductingEquipment_feature",
                                 "_UI_DCTerminal_type" ),
-                        CimPackage.eINSTANCE.getDCTerminal_DCConductingEquipment(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getDCTerminal_DCConductingEquipment(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -115,7 +121,6 @@ public class DCTerminalItemProvider extends DCBaseTerminalItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

@@ -109,11 +109,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addA0PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_a0_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_a0_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_a0_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_A0(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_A0(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -125,11 +131,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addA1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_a1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_a1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_a1_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_A1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_A1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -141,11 +153,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addA2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_a2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_a2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_a2_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_A2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_A2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -157,11 +175,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addA3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_a3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_a3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_a3_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_A3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_A3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -173,11 +197,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addA4PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_a4_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_a4_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_a4_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_A4(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_A4(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -189,11 +219,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addA5PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_a5_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_a5_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_a5_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_A5(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_A5(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -205,11 +241,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addAlPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_al_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_al_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_al_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_Al(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_Al(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -221,11 +263,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addAthresPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_athres_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_athres_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_athres_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_Athres(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_Athres(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -237,11 +285,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addB0PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_b0_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_b0_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_b0_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_B0(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_B0(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -253,11 +307,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addB1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_b1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_b1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_b1_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_B1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_B1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -269,11 +329,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addB2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_b2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_b2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_b2_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_B2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_B2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -285,11 +351,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addB3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_b3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_b3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_b3_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_B3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_B3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -301,11 +373,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addB4PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_b4_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_b4_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_b4_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_B4(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_B4(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -317,11 +395,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addB5PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_b5_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_b5_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_b5_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_B5(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_B5(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -333,11 +417,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addDlPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_dl_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_dl_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_dl_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_Dl(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_Dl(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -349,11 +439,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addDtcPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_dtc_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_dtc_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_dtc_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_Dtc(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_Dtc(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -365,11 +461,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addDtfPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_dtf_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_dtf_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_dtf_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_Dtf(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_Dtf(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -381,11 +483,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addDtpPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_dtp_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_dtp_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_dtp_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_Dtp(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_Dtp(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -397,11 +505,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addIswPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_isw_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_isw_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_isw_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_Isw(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_Isw(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -413,11 +527,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addKPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_k_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_k_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_k_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_K(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_K(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -429,11 +549,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addLthresPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_lthres_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_lthres_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_lthres_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_Lthres(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_Lthres(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -445,11 +571,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addMPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_m_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_m_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_m_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_M(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_M(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -461,11 +593,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addNavPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_nav_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_nav_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_nav_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_Nav(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_Nav(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -477,11 +615,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addNclPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_ncl_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_ncl_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_ncl_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_Ncl(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_Ncl(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -493,11 +637,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addNcrPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_ncr_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_ncr_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_ncr_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_Ncr(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_Ncr(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -509,11 +659,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addPminPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_pmin_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_pmin_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_pmin_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_Pmin(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_Pmin(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -525,11 +681,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addT1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_t1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_t1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_t1_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_T1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_T1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -541,11 +703,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addT2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_t2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_t2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_t2_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_T2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_T2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -557,11 +725,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addT3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_t3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_t3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_t3_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_T3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_T3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -573,11 +747,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addT4PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_t4_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_t4_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_t4_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_T4(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_T4(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -589,11 +769,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addT5PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_t5_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_t5_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_t5_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_T5(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_T5(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -605,11 +791,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addT6PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_t6_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_t6_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_t6_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_T6(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_T6(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -621,11 +813,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addTfPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_tf_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_tf_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_tf_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_Tf(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_Tf(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -637,11 +835,17 @@ public class PssPTIST3ItemProvider extends PowerSystemStabilizerDynamicsItemProv
     protected void addTpPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PssPTIST3_tp_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PssPTIST3_tp_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PssPTIST3_tp_feature",
                                 "_UI_PssPTIST3_type" ),
-                        CimPackage.eINSTANCE.getPssPTIST3_Tp(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPssPTIST3_Tp(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

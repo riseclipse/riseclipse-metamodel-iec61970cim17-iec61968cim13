@@ -78,11 +78,17 @@ public class EnergySourceActionItemProvider extends SwitchingStepItemProvider {
     protected void addKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EnergySourceAction_kind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EnergySourceAction_kind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EnergySourceAction_kind_feature",
                                 "_UI_EnergySourceAction_type" ),
-                        CimPackage.eINSTANCE.getEnergySourceAction_Kind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEnergySourceAction_Kind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,10 +100,16 @@ public class EnergySourceActionItemProvider extends SwitchingStepItemProvider {
     protected void addSwitchingStepGroupPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EnergySourceAction_SwitchingStepGroup_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EnergySourceAction_SwitchingStepGroup_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_EnergySourceAction_SwitchingStepGroup_feature", "_UI_EnergySourceAction_type" ),
-                        CimPackage.eINSTANCE.getEnergySourceAction_SwitchingStepGroup(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getEnergySourceAction_SwitchingStepGroup(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -108,12 +120,19 @@ public class EnergySourceActionItemProvider extends SwitchingStepItemProvider {
      * @generated
      */
     protected void addEnergySourcePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_EnergySourceAction_EnergySource_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_EnergySourceAction_EnergySource_feature",
-                        "_UI_EnergySourceAction_type" ),
-                CimPackage.eINSTANCE.getEnergySourceAction_EnergySource(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_EnergySourceAction_EnergySource_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_EnergySourceAction_EnergySource_feature",
+                                "_UI_EnergySourceAction_type" ),
+                        CimPackage.eINSTANCE.getEnergySourceAction_EnergySource(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

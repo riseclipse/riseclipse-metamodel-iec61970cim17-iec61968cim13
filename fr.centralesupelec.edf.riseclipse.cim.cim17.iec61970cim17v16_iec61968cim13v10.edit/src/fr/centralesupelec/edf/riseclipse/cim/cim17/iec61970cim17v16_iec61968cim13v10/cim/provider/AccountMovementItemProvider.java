@@ -89,11 +89,17 @@ public class AccountMovementItemProvider extends ItemProviderAdapter implements 
     protected void addAmountPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AccountMovement_amount_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AccountMovement_amount_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AccountMovement_amount_feature",
                                 "_UI_AccountMovement_type" ),
-                        CimPackage.eINSTANCE.getAccountMovement_Amount(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAccountMovement_Amount(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -105,11 +111,17 @@ public class AccountMovementItemProvider extends ItemProviderAdapter implements 
     protected void addDateTimePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AccountMovement_dateTime_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AccountMovement_dateTime_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AccountMovement_dateTime_feature",
                                 "_UI_AccountMovement_type" ),
-                        CimPackage.eINSTANCE.getAccountMovement_DateTime(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAccountMovement_DateTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -121,11 +133,17 @@ public class AccountMovementItemProvider extends ItemProviderAdapter implements 
     protected void addReasonPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AccountMovement_reason_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AccountMovement_reason_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AccountMovement_reason_feature",
                                 "_UI_AccountMovement_type" ),
-                        CimPackage.eINSTANCE.getAccountMovement_Reason(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAccountMovement_Reason(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

@@ -80,11 +80,17 @@ public class EndDeviceEventTypeItemProvider extends IdentifiedObjectItemProvider
     protected void addDomainPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EndDeviceEventType_domain_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceEventType_domain_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceEventType_domain_feature",
                                 "_UI_EndDeviceEventType_type" ),
-                        CimPackage.eINSTANCE.getEndDeviceEventType_Domain(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEndDeviceEventType_Domain(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,13 +100,19 @@ public class EndDeviceEventTypeItemProvider extends IdentifiedObjectItemProvider
      * @generated
      */
     protected void addEventOrActionPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_EndDeviceEventType_eventOrAction_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceEventType_eventOrAction_feature",
-                        "_UI_EndDeviceEventType_type" ),
-                CimPackage.eINSTANCE.getEndDeviceEventType_EventOrAction(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceEventType_eventOrAction_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceEventType_eventOrAction_feature",
+                                "_UI_EndDeviceEventType_type" ),
+                        CimPackage.eINSTANCE.getEndDeviceEventType_EventOrAction(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -112,11 +124,17 @@ public class EndDeviceEventTypeItemProvider extends IdentifiedObjectItemProvider
     protected void addSubDomainPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EndDeviceEventType_subDomain_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceEventType_subDomain_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceEventType_subDomain_feature",
                                 "_UI_EndDeviceEventType_type" ),
-                        CimPackage.eINSTANCE.getEndDeviceEventType_SubDomain(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEndDeviceEventType_SubDomain(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -128,11 +146,17 @@ public class EndDeviceEventTypeItemProvider extends IdentifiedObjectItemProvider
     protected void addTypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EndDeviceEventType_type_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceEventType_type_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceEventType_type_feature",
                                 "_UI_EndDeviceEventType_type" ),
-                        CimPackage.eINSTANCE.getEndDeviceEventType_Type(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEndDeviceEventType_Type(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -142,12 +166,19 @@ public class EndDeviceEventTypeItemProvider extends IdentifiedObjectItemProvider
      * @generated
      */
     protected void addEndDeviceEventsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_EndDeviceEventType_EndDeviceEvents_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceEventType_EndDeviceEvents_feature",
-                        "_UI_EndDeviceEventType_type" ),
-                CimPackage.eINSTANCE.getEndDeviceEventType_EndDeviceEvents(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceEventType_EndDeviceEvents_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_EndDeviceEventType_EndDeviceEvents_feature", "_UI_EndDeviceEventType_type" ),
+                        CimPackage.eINSTANCE.getEndDeviceEventType_EndDeviceEvents(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

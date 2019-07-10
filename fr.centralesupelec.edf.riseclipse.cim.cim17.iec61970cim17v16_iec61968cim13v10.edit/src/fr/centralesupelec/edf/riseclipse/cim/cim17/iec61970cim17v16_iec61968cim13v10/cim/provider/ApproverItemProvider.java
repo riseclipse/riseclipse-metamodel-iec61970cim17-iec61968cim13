@@ -74,10 +74,17 @@ public class ApproverItemProvider extends DocumentPersonRoleItemProvider {
     protected void addDocumentsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Approver_Documents_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Approver_Documents_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Approver_Documents_feature",
                                 "_UI_Approver_type" ),
-                        CimPackage.eINSTANCE.getApprover_Documents(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getApprover_Documents(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class ApproverItemProvider extends DocumentPersonRoleItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

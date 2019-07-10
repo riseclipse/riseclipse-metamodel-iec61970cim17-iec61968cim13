@@ -80,13 +80,19 @@ public class MeasurementValueItemProvider extends IOPointItemProvider {
      * @generated
      */
     protected void addSensorAccuracyPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_MeasurementValue_sensorAccuracy_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_MeasurementValue_sensorAccuracy_feature",
-                        "_UI_MeasurementValue_type" ),
-                CimPackage.eINSTANCE.getMeasurementValue_SensorAccuracy(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_MeasurementValue_sensorAccuracy_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_MeasurementValue_sensorAccuracy_feature",
+                                "_UI_MeasurementValue_type" ),
+                        CimPackage.eINSTANCE.getMeasurementValue_SensorAccuracy(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -98,11 +104,17 @@ public class MeasurementValueItemProvider extends IOPointItemProvider {
     protected void addTimeStampPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_MeasurementValue_timeStamp_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_MeasurementValue_timeStamp_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_MeasurementValue_timeStamp_feature",
                                 "_UI_MeasurementValue_type" ),
-                        CimPackage.eINSTANCE.getMeasurementValue_TimeStamp(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getMeasurementValue_TimeStamp(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -113,11 +125,17 @@ public class MeasurementValueItemProvider extends IOPointItemProvider {
      */
     protected void addCalculationMethodHierarchyPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_MeasurementValue_CalculationMethodHierarchy_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_MeasurementValue_CalculationMethodHierarchy_feature", "_UI_MeasurementValue_type" ),
-                CimPackage.eINSTANCE.getMeasurementValue_CalculationMethodHierarchy(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getMeasurementValue_CalculationMethodHierarchy(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -130,11 +148,17 @@ public class MeasurementValueItemProvider extends IOPointItemProvider {
     protected void addMeasurementValueSourcePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_MeasurementValue_MeasurementValueSource_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_MeasurementValue_MeasurementValueSource_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_MeasurementValue_MeasurementValueSource_feature", "_UI_MeasurementValue_type" ),
-                        CimPackage.eINSTANCE.getMeasurementValue_MeasurementValueSource(), true, false, true, null,
-                        null, null ) );
+                        CimPackage.eINSTANCE.getMeasurementValue_MeasurementValueSource(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -144,12 +168,19 @@ public class MeasurementValueItemProvider extends IOPointItemProvider {
      * @generated
      */
     protected void addProcedureDataSetPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_MeasurementValue_ProcedureDataSet_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_MeasurementValue_ProcedureDataSet_feature",
-                        "_UI_MeasurementValue_type" ),
-                CimPackage.eINSTANCE.getMeasurementValue_ProcedureDataSet(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_MeasurementValue_ProcedureDataSet_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_MeasurementValue_ProcedureDataSet_feature", "_UI_MeasurementValue_type" ),
+                        CimPackage.eINSTANCE.getMeasurementValue_ProcedureDataSet(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -161,10 +192,16 @@ public class MeasurementValueItemProvider extends IOPointItemProvider {
     protected void addRemoteSourcePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_MeasurementValue_RemoteSource_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_MeasurementValue_RemoteSource_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_MeasurementValue_RemoteSource_feature",
                                 "_UI_MeasurementValue_type" ),
-                        CimPackage.eINSTANCE.getMeasurementValue_RemoteSource(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getMeasurementValue_RemoteSource(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -177,11 +214,17 @@ public class MeasurementValueItemProvider extends IOPointItemProvider {
     protected void addMeasurementValueQualityPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_MeasurementValue_MeasurementValueQuality_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_MeasurementValue_MeasurementValueQuality_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_MeasurementValue_MeasurementValueQuality_feature", "_UI_MeasurementValue_type" ),
-                        CimPackage.eINSTANCE.getMeasurementValue_MeasurementValueQuality(), true, false, true, null,
-                        null, null ) );
+                        CimPackage.eINSTANCE.getMeasurementValue_MeasurementValueQuality(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

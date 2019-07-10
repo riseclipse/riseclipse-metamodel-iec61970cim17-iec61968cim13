@@ -83,11 +83,17 @@ public class EndDeviceInfoItemProvider extends AssetInfoItemProvider {
     protected void addIsSolidStatePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EndDeviceInfo_isSolidState_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceInfo_isSolidState_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceInfo_isSolidState_feature",
                                 "_UI_EndDeviceInfo_type" ),
-                        CimPackage.eINSTANCE.getEndDeviceInfo_IsSolidState(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEndDeviceInfo_IsSolidState(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -99,11 +105,17 @@ public class EndDeviceInfoItemProvider extends AssetInfoItemProvider {
     protected void addPhaseCountPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EndDeviceInfo_phaseCount_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceInfo_phaseCount_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceInfo_phaseCount_feature",
                                 "_UI_EndDeviceInfo_type" ),
-                        CimPackage.eINSTANCE.getEndDeviceInfo_PhaseCount(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEndDeviceInfo_PhaseCount(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -115,11 +127,17 @@ public class EndDeviceInfoItemProvider extends AssetInfoItemProvider {
     protected void addRatedCurrentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EndDeviceInfo_ratedCurrent_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceInfo_ratedCurrent_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceInfo_ratedCurrent_feature",
                                 "_UI_EndDeviceInfo_type" ),
-                        CimPackage.eINSTANCE.getEndDeviceInfo_RatedCurrent(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEndDeviceInfo_RatedCurrent(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -131,11 +149,17 @@ public class EndDeviceInfoItemProvider extends AssetInfoItemProvider {
     protected void addRatedVoltagePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EndDeviceInfo_ratedVoltage_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceInfo_ratedVoltage_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceInfo_ratedVoltage_feature",
                                 "_UI_EndDeviceInfo_type" ),
-                        CimPackage.eINSTANCE.getEndDeviceInfo_RatedVoltage(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEndDeviceInfo_RatedVoltage(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -147,10 +171,17 @@ public class EndDeviceInfoItemProvider extends AssetInfoItemProvider {
     protected void addEndDevicesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EndDeviceInfo_EndDevices_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceInfo_EndDevices_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceInfo_EndDevices_feature",
                                 "_UI_EndDeviceInfo_type" ),
-                        CimPackage.eINSTANCE.getEndDeviceInfo_EndDevices(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getEndDeviceInfo_EndDevices(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

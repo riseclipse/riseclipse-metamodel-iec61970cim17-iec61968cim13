@@ -74,10 +74,17 @@ public class TapScheduleItemProvider extends SeasonDayTypeScheduleItemProvider {
     protected void addTapChangerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TapSchedule_TapChanger_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TapSchedule_TapChanger_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TapSchedule_TapChanger_feature",
                                 "_UI_TapSchedule_type" ),
-                        CimPackage.eINSTANCE.getTapSchedule_TapChanger(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTapSchedule_TapChanger(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class TapScheduleItemProvider extends SeasonDayTypeScheduleItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

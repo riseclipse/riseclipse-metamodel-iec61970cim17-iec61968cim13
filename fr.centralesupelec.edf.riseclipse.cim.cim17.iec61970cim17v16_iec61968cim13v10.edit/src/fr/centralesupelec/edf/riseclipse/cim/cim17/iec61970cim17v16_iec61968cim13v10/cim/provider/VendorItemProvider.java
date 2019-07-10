@@ -74,10 +74,17 @@ public class VendorItemProvider extends IdentifiedObjectItemProvider {
     protected void addVendorShiftsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Vendor_VendorShifts_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Vendor_VendorShifts_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Vendor_VendorShifts_feature",
                                 "_UI_Vendor_type" ),
-                        CimPackage.eINSTANCE.getVendor_VendorShifts(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getVendor_VendorShifts(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class VendorItemProvider extends IdentifiedObjectItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

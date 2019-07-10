@@ -77,12 +77,19 @@ public class OperationalRestrictionItemProvider extends DocumentItemProvider {
      * @generated
      */
     protected void addEquipmentsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_OperationalRestriction_Equipments_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_OperationalRestriction_Equipments_feature",
-                        "_UI_OperationalRestriction_type" ),
-                CimPackage.eINSTANCE.getOperationalRestriction_Equipments(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_OperationalRestriction_Equipments_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_OperationalRestriction_Equipments_feature", "_UI_OperationalRestriction_type" ),
+                        CimPackage.eINSTANCE.getOperationalRestriction_Equipments(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,11 +100,17 @@ public class OperationalRestrictionItemProvider extends DocumentItemProvider {
      */
     protected void addProductAssetModelPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_OperationalRestriction_ProductAssetModel_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_OperationalRestriction_ProductAssetModel_feature",
                         "_UI_OperationalRestriction_type" ),
-                CimPackage.eINSTANCE.getOperationalRestriction_ProductAssetModel(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getOperationalRestriction_ProductAssetModel(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -205,8 +218,8 @@ public class OperationalRestrictionItemProvider extends DocumentItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

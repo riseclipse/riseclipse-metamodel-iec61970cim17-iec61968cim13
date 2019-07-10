@@ -74,10 +74,16 @@ public class SteamSendoutScheduleItemProvider extends RegularIntervalScheduleIte
     protected void addCogenerationPlantPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SteamSendoutSchedule_CogenerationPlant_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SteamSendoutSchedule_CogenerationPlant_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_SteamSendoutSchedule_CogenerationPlant_feature", "_UI_SteamSendoutSchedule_type" ),
-                        CimPackage.eINSTANCE.getSteamSendoutSchedule_CogenerationPlant(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getSteamSendoutSchedule_CogenerationPlant(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -115,7 +121,6 @@ public class SteamSendoutScheduleItemProvider extends RegularIntervalScheduleIte
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

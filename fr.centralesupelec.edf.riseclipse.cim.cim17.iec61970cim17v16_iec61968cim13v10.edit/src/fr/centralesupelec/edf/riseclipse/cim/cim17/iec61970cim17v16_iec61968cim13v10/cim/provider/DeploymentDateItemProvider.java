@@ -90,11 +90,17 @@ public class DeploymentDateItemProvider extends ItemProviderAdapter implements I
     protected void addInServiceDatePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DeploymentDate_inServiceDate_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DeploymentDate_inServiceDate_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DeploymentDate_inServiceDate_feature",
                                 "_UI_DeploymentDate_type" ),
-                        CimPackage.eINSTANCE.getDeploymentDate_InServiceDate(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDeploymentDate_InServiceDate(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -106,11 +112,17 @@ public class DeploymentDateItemProvider extends ItemProviderAdapter implements I
     protected void addInstalledDatePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DeploymentDate_installedDate_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DeploymentDate_installedDate_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DeploymentDate_installedDate_feature",
                                 "_UI_DeploymentDate_type" ),
-                        CimPackage.eINSTANCE.getDeploymentDate_InstalledDate(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDeploymentDate_InstalledDate(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -120,13 +132,19 @@ public class DeploymentDateItemProvider extends ItemProviderAdapter implements I
      * @generated
      */
     protected void addNotYetInstalledDatePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_DeploymentDate_notYetInstalledDate_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_DeploymentDate_notYetInstalledDate_feature",
-                        "_UI_DeploymentDate_type" ),
-                CimPackage.eINSTANCE.getDeploymentDate_NotYetInstalledDate(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_DeploymentDate_notYetInstalledDate_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_DeploymentDate_notYetInstalledDate_feature", "_UI_DeploymentDate_type" ),
+                        CimPackage.eINSTANCE.getDeploymentDate_NotYetInstalledDate(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -138,11 +156,17 @@ public class DeploymentDateItemProvider extends ItemProviderAdapter implements I
     protected void addOutOfServiceDatePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DeploymentDate_outOfServiceDate_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DeploymentDate_outOfServiceDate_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DeploymentDate_outOfServiceDate_feature",
                                 "_UI_DeploymentDate_type" ),
-                        CimPackage.eINSTANCE.getDeploymentDate_OutOfServiceDate(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDeploymentDate_OutOfServiceDate(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -154,11 +178,17 @@ public class DeploymentDateItemProvider extends ItemProviderAdapter implements I
     protected void addRemovedDatePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DeploymentDate_removedDate_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DeploymentDate_removedDate_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DeploymentDate_removedDate_feature",
                                 "_UI_DeploymentDate_type" ),
-                        CimPackage.eINSTANCE.getDeploymentDate_RemovedDate(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDeploymentDate_RemovedDate(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

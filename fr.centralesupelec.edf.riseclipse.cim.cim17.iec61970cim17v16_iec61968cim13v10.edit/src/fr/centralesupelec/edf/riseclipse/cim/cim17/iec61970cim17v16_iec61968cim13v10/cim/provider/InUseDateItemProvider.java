@@ -88,11 +88,17 @@ public class InUseDateItemProvider extends ItemProviderAdapter implements IEditi
     protected void addInUseDatePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_InUseDate_inUseDate_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_InUseDate_inUseDate_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_InUseDate_inUseDate_feature",
                                 "_UI_InUseDate_type" ),
-                        CimPackage.eINSTANCE.getInUseDate_InUseDate(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getInUseDate_InUseDate(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -104,11 +110,17 @@ public class InUseDateItemProvider extends ItemProviderAdapter implements IEditi
     protected void addNotReadyForUseDatePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_InUseDate_notReadyForUseDate_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_InUseDate_notReadyForUseDate_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_InUseDate_notReadyForUseDate_feature",
                                 "_UI_InUseDate_type" ),
-                        CimPackage.eINSTANCE.getInUseDate_NotReadyForUseDate(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getInUseDate_NotReadyForUseDate(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -120,11 +132,17 @@ public class InUseDateItemProvider extends ItemProviderAdapter implements IEditi
     protected void addReadyForUseDatePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_InUseDate_readyForUseDate_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_InUseDate_readyForUseDate_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_InUseDate_readyForUseDate_feature",
                                 "_UI_InUseDate_type" ),
-                        CimPackage.eINSTANCE.getInUseDate_ReadyForUseDate(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getInUseDate_ReadyForUseDate(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

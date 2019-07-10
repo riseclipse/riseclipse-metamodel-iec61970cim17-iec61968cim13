@@ -76,11 +76,17 @@ public class JointItemProvider extends AssetItemProvider {
     protected void addInsulationPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Joint_insulation_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Joint_insulation_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Joint_insulation_feature",
                                 "_UI_Joint_type" ),
-                        CimPackage.eINSTANCE.getJoint_Insulation(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getJoint_Insulation(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

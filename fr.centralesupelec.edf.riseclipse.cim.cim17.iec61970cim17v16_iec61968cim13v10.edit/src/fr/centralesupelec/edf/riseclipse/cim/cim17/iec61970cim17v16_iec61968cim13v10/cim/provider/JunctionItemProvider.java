@@ -96,7 +96,6 @@ public class JunctionItemProvider extends ConnectorItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

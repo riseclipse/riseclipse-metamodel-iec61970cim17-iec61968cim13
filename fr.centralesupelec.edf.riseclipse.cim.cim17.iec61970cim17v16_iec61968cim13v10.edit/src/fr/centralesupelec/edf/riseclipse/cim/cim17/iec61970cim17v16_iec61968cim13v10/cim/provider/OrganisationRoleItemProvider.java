@@ -73,12 +73,19 @@ public class OrganisationRoleItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addConfigurationEventsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_OrganisationRole_ConfigurationEvents_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_OrganisationRole_ConfigurationEvents_feature",
-                        "_UI_OrganisationRole_type" ),
-                CimPackage.eINSTANCE.getOrganisationRole_ConfigurationEvents(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_OrganisationRole_ConfigurationEvents_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_OrganisationRole_ConfigurationEvents_feature", "_UI_OrganisationRole_type" ),
+                        CimPackage.eINSTANCE.getOrganisationRole_ConfigurationEvents(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -90,10 +97,16 @@ public class OrganisationRoleItemProvider extends IdentifiedObjectItemProvider {
     protected void addOrganisationPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OrganisationRole_Organisation_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OrganisationRole_Organisation_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_OrganisationRole_Organisation_feature",
                                 "_UI_OrganisationRole_type" ),
-                        CimPackage.eINSTANCE.getOrganisationRole_Organisation(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getOrganisationRole_Organisation(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -131,7 +144,6 @@ public class OrganisationRoleItemProvider extends IdentifiedObjectItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

@@ -76,11 +76,17 @@ public class BaseFrequencyItemProvider extends IdentifiedObjectItemProvider {
     protected void addFrequencyPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_BaseFrequency_frequency_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_BaseFrequency_frequency_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_BaseFrequency_frequency_feature",
                                 "_UI_BaseFrequency_type" ),
-                        CimPackage.eINSTANCE.getBaseFrequency_Frequency(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getBaseFrequency_Frequency(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

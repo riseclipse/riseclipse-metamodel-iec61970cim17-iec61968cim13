@@ -92,11 +92,17 @@ public class TelephoneNumberItemProvider extends ItemProviderAdapter implements 
     protected void addAreaCodePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TelephoneNumber_areaCode_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TelephoneNumber_areaCode_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TelephoneNumber_areaCode_feature",
                                 "_UI_TelephoneNumber_type" ),
-                        CimPackage.eINSTANCE.getTelephoneNumber_AreaCode(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTelephoneNumber_AreaCode(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -108,11 +114,17 @@ public class TelephoneNumberItemProvider extends ItemProviderAdapter implements 
     protected void addCityCodePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TelephoneNumber_cityCode_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TelephoneNumber_cityCode_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TelephoneNumber_cityCode_feature",
                                 "_UI_TelephoneNumber_type" ),
-                        CimPackage.eINSTANCE.getTelephoneNumber_CityCode(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTelephoneNumber_CityCode(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -124,11 +136,17 @@ public class TelephoneNumberItemProvider extends ItemProviderAdapter implements 
     protected void addCountryCodePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TelephoneNumber_countryCode_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TelephoneNumber_countryCode_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TelephoneNumber_countryCode_feature",
                                 "_UI_TelephoneNumber_type" ),
-                        CimPackage.eINSTANCE.getTelephoneNumber_CountryCode(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTelephoneNumber_CountryCode(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -140,11 +158,17 @@ public class TelephoneNumberItemProvider extends ItemProviderAdapter implements 
     protected void addDialOutPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TelephoneNumber_dialOut_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TelephoneNumber_dialOut_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TelephoneNumber_dialOut_feature",
                                 "_UI_TelephoneNumber_type" ),
-                        CimPackage.eINSTANCE.getTelephoneNumber_DialOut(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTelephoneNumber_DialOut(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -156,11 +180,17 @@ public class TelephoneNumberItemProvider extends ItemProviderAdapter implements 
     protected void addExtensionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TelephoneNumber_extension_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TelephoneNumber_extension_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TelephoneNumber_extension_feature",
                                 "_UI_TelephoneNumber_type" ),
-                        CimPackage.eINSTANCE.getTelephoneNumber_Extension(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTelephoneNumber_Extension(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -170,13 +200,19 @@ public class TelephoneNumberItemProvider extends ItemProviderAdapter implements 
      * @generated
      */
     protected void addInternationalPrefixPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TelephoneNumber_internationalPrefix_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TelephoneNumber_internationalPrefix_feature",
-                        "_UI_TelephoneNumber_type" ),
-                CimPackage.eINSTANCE.getTelephoneNumber_InternationalPrefix(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TelephoneNumber_internationalPrefix_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_TelephoneNumber_internationalPrefix_feature", "_UI_TelephoneNumber_type" ),
+                        CimPackage.eINSTANCE.getTelephoneNumber_InternationalPrefix(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -188,11 +224,17 @@ public class TelephoneNumberItemProvider extends ItemProviderAdapter implements 
     protected void addItuPhonePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TelephoneNumber_ituPhone_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TelephoneNumber_ituPhone_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TelephoneNumber_ituPhone_feature",
                                 "_UI_TelephoneNumber_type" ),
-                        CimPackage.eINSTANCE.getTelephoneNumber_ItuPhone(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTelephoneNumber_ItuPhone(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -204,11 +246,17 @@ public class TelephoneNumberItemProvider extends ItemProviderAdapter implements 
     protected void addLocalNumberPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TelephoneNumber_localNumber_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TelephoneNumber_localNumber_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TelephoneNumber_localNumber_feature",
                                 "_UI_TelephoneNumber_type" ),
-                        CimPackage.eINSTANCE.getTelephoneNumber_LocalNumber(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTelephoneNumber_LocalNumber(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

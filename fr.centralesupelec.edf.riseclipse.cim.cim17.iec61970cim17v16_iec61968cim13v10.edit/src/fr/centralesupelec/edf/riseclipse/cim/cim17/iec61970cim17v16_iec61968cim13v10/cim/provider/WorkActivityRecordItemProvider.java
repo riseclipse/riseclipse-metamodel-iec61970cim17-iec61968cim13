@@ -75,13 +75,19 @@ public class WorkActivityRecordItemProvider extends ActivityRecordItemProvider {
      * @generated
      */
     protected void addPercentCompletePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WorkActivityRecord_percentComplete_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_WorkActivityRecord_percentComplete_feature",
-                        "_UI_WorkActivityRecord_type" ),
-                CimPackage.eINSTANCE.getWorkActivityRecord_PercentComplete(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WorkActivityRecord_percentComplete_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_WorkActivityRecord_percentComplete_feature", "_UI_WorkActivityRecord_type" ),
+                        CimPackage.eINSTANCE.getWorkActivityRecord_PercentComplete(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,10 +99,17 @@ public class WorkActivityRecordItemProvider extends ActivityRecordItemProvider {
     protected void addBaseWorkPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WorkActivityRecord_BaseWork_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WorkActivityRecord_BaseWork_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WorkActivityRecord_BaseWork_feature",
                                 "_UI_WorkActivityRecord_type" ),
-                        CimPackage.eINSTANCE.getWorkActivityRecord_BaseWork(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getWorkActivityRecord_BaseWork(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

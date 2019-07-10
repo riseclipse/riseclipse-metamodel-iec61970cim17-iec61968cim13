@@ -80,11 +80,17 @@ public class CashierShiftItemProvider extends ShiftItemProvider {
     protected void addCashFloatPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CashierShift_cashFloat_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CashierShift_cashFloat_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CashierShift_cashFloat_feature",
                                 "_UI_CashierShift_type" ),
-                        CimPackage.eINSTANCE.getCashierShift_CashFloat(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCashierShift_CashFloat(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -96,10 +102,17 @@ public class CashierShiftItemProvider extends ShiftItemProvider {
     protected void addTransactionsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CashierShift_Transactions_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CashierShift_Transactions_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CashierShift_Transactions_feature",
                                 "_UI_CashierShift_type" ),
-                        CimPackage.eINSTANCE.getCashierShift_Transactions(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCashierShift_Transactions(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,10 +124,17 @@ public class CashierShiftItemProvider extends ShiftItemProvider {
     protected void addCashierPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CashierShift_Cashier_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CashierShift_Cashier_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CashierShift_Cashier_feature",
                                 "_UI_CashierShift_type" ),
-                        CimPackage.eINSTANCE.getCashierShift_Cashier(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCashierShift_Cashier(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -126,10 +146,17 @@ public class CashierShiftItemProvider extends ShiftItemProvider {
     protected void addPointOfSalePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CashierShift_PointOfSale_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CashierShift_PointOfSale_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CashierShift_PointOfSale_feature",
                                 "_UI_CashierShift_type" ),
-                        CimPackage.eINSTANCE.getCashierShift_PointOfSale(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCashierShift_PointOfSale(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -141,10 +168,17 @@ public class CashierShiftItemProvider extends ShiftItemProvider {
     protected void addReceiptsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CashierShift_Receipts_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CashierShift_Receipts_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CashierShift_Receipts_feature",
                                 "_UI_CashierShift_type" ),
-                        CimPackage.eINSTANCE.getCashierShift_Receipts(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCashierShift_Receipts(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

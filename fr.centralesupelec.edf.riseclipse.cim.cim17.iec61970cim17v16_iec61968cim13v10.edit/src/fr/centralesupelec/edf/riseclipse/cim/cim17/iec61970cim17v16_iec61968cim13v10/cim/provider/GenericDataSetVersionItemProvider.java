@@ -78,11 +78,17 @@ public class GenericDataSetVersionItemProvider extends CimObjectWithIDItemProvid
     protected void addMajorVersionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GenericDataSetVersion_majorVersion_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GenericDataSetVersion_majorVersion_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_GenericDataSetVersion_majorVersion_feature", "_UI_GenericDataSetVersion_type" ),
-                        CimPackage.eINSTANCE.getGenericDataSetVersion_MajorVersion(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGenericDataSetVersion_MajorVersion(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,11 +100,17 @@ public class GenericDataSetVersionItemProvider extends CimObjectWithIDItemProvid
     protected void addMinorVersionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GenericDataSetVersion_minorVersion_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GenericDataSetVersion_minorVersion_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_GenericDataSetVersion_minorVersion_feature", "_UI_GenericDataSetVersion_type" ),
-                        CimPackage.eINSTANCE.getGenericDataSetVersion_MinorVersion(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGenericDataSetVersion_MinorVersion(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -108,13 +120,19 @@ public class GenericDataSetVersionItemProvider extends CimObjectWithIDItemProvid
      * @generated
      */
     protected void addPublishedPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_GenericDataSetVersion_published_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_GenericDataSetVersion_published_feature",
-                        "_UI_GenericDataSetVersion_type" ),
-                CimPackage.eINSTANCE.getGenericDataSetVersion_Published(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_GenericDataSetVersion_published_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_GenericDataSetVersion_published_feature",
+                                "_UI_GenericDataSetVersion_type" ),
+                        CimPackage.eINSTANCE.getGenericDataSetVersion_Published(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

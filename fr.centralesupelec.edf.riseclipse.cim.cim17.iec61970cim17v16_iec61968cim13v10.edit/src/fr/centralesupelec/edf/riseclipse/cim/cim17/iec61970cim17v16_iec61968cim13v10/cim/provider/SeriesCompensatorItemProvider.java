@@ -82,11 +82,17 @@ public class SeriesCompensatorItemProvider extends ConductingEquipmentItemProvid
     protected void addRPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SeriesCompensator_r_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SeriesCompensator_r_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SeriesCompensator_r_feature",
                                 "_UI_SeriesCompensator_type" ),
-                        CimPackage.eINSTANCE.getSeriesCompensator_R(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSeriesCompensator_R(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -98,11 +104,17 @@ public class SeriesCompensatorItemProvider extends ConductingEquipmentItemProvid
     protected void addR0PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SeriesCompensator_r0_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SeriesCompensator_r0_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SeriesCompensator_r0_feature",
                                 "_UI_SeriesCompensator_type" ),
-                        CimPackage.eINSTANCE.getSeriesCompensator_R0(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSeriesCompensator_R0(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -112,13 +124,19 @@ public class SeriesCompensatorItemProvider extends ConductingEquipmentItemProvid
      * @generated
      */
     protected void addVaristorPresentPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SeriesCompensator_varistorPresent_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SeriesCompensator_varistorPresent_feature",
-                        "_UI_SeriesCompensator_type" ),
-                CimPackage.eINSTANCE.getSeriesCompensator_VaristorPresent(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SeriesCompensator_varistorPresent_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_SeriesCompensator_varistorPresent_feature", "_UI_SeriesCompensator_type" ),
+                        CimPackage.eINSTANCE.getSeriesCompensator_VaristorPresent(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -130,11 +148,17 @@ public class SeriesCompensatorItemProvider extends ConductingEquipmentItemProvid
     protected void addVaristorRatedCurrentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SeriesCompensator_varistorRatedCurrent_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SeriesCompensator_varistorRatedCurrent_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_SeriesCompensator_varistorRatedCurrent_feature", "_UI_SeriesCompensator_type" ),
-                        CimPackage.eINSTANCE.getSeriesCompensator_VaristorRatedCurrent(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSeriesCompensator_VaristorRatedCurrent(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -145,12 +169,18 @@ public class SeriesCompensatorItemProvider extends ConductingEquipmentItemProvid
      */
     protected void addVaristorVoltageThresholdPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_SeriesCompensator_varistorVoltageThreshold_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_SeriesCompensator_varistorVoltageThreshold_feature", "_UI_SeriesCompensator_type" ),
-                CimPackage.eINSTANCE.getSeriesCompensator_VaristorVoltageThreshold(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getSeriesCompensator_VaristorVoltageThreshold(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -162,11 +192,17 @@ public class SeriesCompensatorItemProvider extends ConductingEquipmentItemProvid
     protected void addXPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SeriesCompensator_x_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SeriesCompensator_x_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SeriesCompensator_x_feature",
                                 "_UI_SeriesCompensator_type" ),
-                        CimPackage.eINSTANCE.getSeriesCompensator_X(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSeriesCompensator_X(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -178,11 +214,17 @@ public class SeriesCompensatorItemProvider extends ConductingEquipmentItemProvid
     protected void addX0PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SeriesCompensator_x0_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SeriesCompensator_x0_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SeriesCompensator_x0_feature",
                                 "_UI_SeriesCompensator_type" ),
-                        CimPackage.eINSTANCE.getSeriesCompensator_X0(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSeriesCompensator_X0(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

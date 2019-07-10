@@ -74,10 +74,17 @@ public class EquipmentFaultItemProvider extends FaultItemProvider {
     protected void addTerminalPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EquipmentFault_Terminal_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EquipmentFault_Terminal_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EquipmentFault_Terminal_feature",
                                 "_UI_EquipmentFault_type" ),
-                        CimPackage.eINSTANCE.getEquipmentFault_Terminal(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getEquipmentFault_Terminal(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class EquipmentFaultItemProvider extends FaultItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

@@ -77,12 +77,18 @@ public class PhaseTapChangerLinearItemProvider extends PhaseTapChangerItemProvid
      */
     protected void addStepPhaseShiftIncrementPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_PhaseTapChangerLinear_stepPhaseShiftIncrement_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_PhaseTapChangerLinear_stepPhaseShiftIncrement_feature", "_UI_PhaseTapChangerLinear_type" ),
-                CimPackage.eINSTANCE.getPhaseTapChangerLinear_StepPhaseShiftIncrement(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getPhaseTapChangerLinear_StepPhaseShiftIncrement(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -92,13 +98,19 @@ public class PhaseTapChangerLinearItemProvider extends PhaseTapChangerItemProvid
      * @generated
      */
     protected void addXMaxPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PhaseTapChangerLinear_xMax_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PhaseTapChangerLinear_xMax_feature",
-                        "_UI_PhaseTapChangerLinear_type" ),
-                CimPackage.eINSTANCE.getPhaseTapChangerLinear_XMax(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PhaseTapChangerLinear_xMax_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_PhaseTapChangerLinear_xMax_feature",
+                                "_UI_PhaseTapChangerLinear_type" ),
+                        CimPackage.eINSTANCE.getPhaseTapChangerLinear_XMax(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -108,13 +120,19 @@ public class PhaseTapChangerLinearItemProvider extends PhaseTapChangerItemProvid
      * @generated
      */
     protected void addXMinPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PhaseTapChangerLinear_xMin_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PhaseTapChangerLinear_xMin_feature",
-                        "_UI_PhaseTapChangerLinear_type" ),
-                CimPackage.eINSTANCE.getPhaseTapChangerLinear_XMin(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PhaseTapChangerLinear_xMin_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_PhaseTapChangerLinear_xMin_feature",
+                                "_UI_PhaseTapChangerLinear_type" ),
+                        CimPackage.eINSTANCE.getPhaseTapChangerLinear_XMin(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

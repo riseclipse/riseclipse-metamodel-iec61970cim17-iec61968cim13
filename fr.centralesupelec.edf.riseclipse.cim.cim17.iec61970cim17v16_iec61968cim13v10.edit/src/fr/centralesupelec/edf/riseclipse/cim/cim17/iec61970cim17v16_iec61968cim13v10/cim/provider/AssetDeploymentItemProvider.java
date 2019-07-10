@@ -83,13 +83,19 @@ public class AssetDeploymentItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addBreakerApplicationPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_AssetDeployment_breakerApplication_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_AssetDeployment_breakerApplication_feature",
-                        "_UI_AssetDeployment_type" ),
-                CimPackage.eINSTANCE.getAssetDeployment_BreakerApplication(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_AssetDeployment_breakerApplication_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_AssetDeployment_breakerApplication_feature", "_UI_AssetDeployment_type" ),
+                        CimPackage.eINSTANCE.getAssetDeployment_BreakerApplication(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -101,11 +107,17 @@ public class AssetDeploymentItemProvider extends IdentifiedObjectItemProvider {
     protected void addDeploymentStatePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AssetDeployment_deploymentState_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AssetDeployment_deploymentState_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AssetDeployment_deploymentState_feature",
                                 "_UI_AssetDeployment_type" ),
-                        CimPackage.eINSTANCE.getAssetDeployment_DeploymentState(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAssetDeployment_DeploymentState(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -117,11 +129,17 @@ public class AssetDeploymentItemProvider extends IdentifiedObjectItemProvider {
     protected void addFacilityKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AssetDeployment_facilityKind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AssetDeployment_facilityKind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AssetDeployment_facilityKind_feature",
                                 "_UI_AssetDeployment_type" ),
-                        CimPackage.eINSTANCE.getAssetDeployment_FacilityKind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAssetDeployment_FacilityKind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -131,13 +149,19 @@ public class AssetDeploymentItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addLikelihoodOfFailurePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_AssetDeployment_likelihoodOfFailure_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_AssetDeployment_likelihoodOfFailure_feature",
-                        "_UI_AssetDeployment_type" ),
-                CimPackage.eINSTANCE.getAssetDeployment_LikelihoodOfFailure(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_AssetDeployment_likelihoodOfFailure_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_AssetDeployment_likelihoodOfFailure_feature", "_UI_AssetDeployment_type" ),
+                        CimPackage.eINSTANCE.getAssetDeployment_LikelihoodOfFailure(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -147,13 +171,19 @@ public class AssetDeploymentItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addTransformerApplicationPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_AssetDeployment_transformerApplication_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_AssetDeployment_transformerApplication_feature",
-                        "_UI_AssetDeployment_type" ),
-                CimPackage.eINSTANCE.getAssetDeployment_TransformerApplication(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_AssetDeployment_transformerApplication_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_AssetDeployment_transformerApplication_feature", "_UI_AssetDeployment_type" ),
+                        CimPackage.eINSTANCE.getAssetDeployment_TransformerApplication(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -165,10 +195,17 @@ public class AssetDeploymentItemProvider extends IdentifiedObjectItemProvider {
     protected void addBaseVoltagePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AssetDeployment_BaseVoltage_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AssetDeployment_BaseVoltage_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AssetDeployment_BaseVoltage_feature",
                                 "_UI_AssetDeployment_type" ),
-                        CimPackage.eINSTANCE.getAssetDeployment_BaseVoltage(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAssetDeployment_BaseVoltage(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -180,10 +217,17 @@ public class AssetDeploymentItemProvider extends IdentifiedObjectItemProvider {
     protected void addAssetPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AssetDeployment_Asset_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AssetDeployment_Asset_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AssetDeployment_Asset_feature",
                                 "_UI_AssetDeployment_type" ),
-                        CimPackage.eINSTANCE.getAssetDeployment_Asset(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAssetDeployment_Asset(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

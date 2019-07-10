@@ -72,12 +72,19 @@ public class AssetTestSampleTakerItemProvider extends AssetOrganisationRoleItemP
      * @generated
      */
     protected void addSpecimenPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_AssetTestSampleTaker_Specimen_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_AssetTestSampleTaker_Specimen_feature",
-                        "_UI_AssetTestSampleTaker_type" ),
-                CimPackage.eINSTANCE.getAssetTestSampleTaker_Specimen(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_AssetTestSampleTaker_Specimen_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_AssetTestSampleTaker_Specimen_feature",
+                                "_UI_AssetTestSampleTaker_type" ),
+                        CimPackage.eINSTANCE.getAssetTestSampleTaker_Specimen(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class AssetTestSampleTakerItemProvider extends AssetOrganisationRoleItemP
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

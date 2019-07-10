@@ -75,13 +75,19 @@ public class BusbarSectionInfoItemProvider extends AssetInfoItemProvider {
      * @generated
      */
     protected void addRatedCurrentPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_BusbarSectionInfo_ratedCurrent_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_BusbarSectionInfo_ratedCurrent_feature",
-                        "_UI_BusbarSectionInfo_type" ),
-                CimPackage.eINSTANCE.getBusbarSectionInfo_RatedCurrent(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_BusbarSectionInfo_ratedCurrent_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_BusbarSectionInfo_ratedCurrent_feature",
+                                "_UI_BusbarSectionInfo_type" ),
+                        CimPackage.eINSTANCE.getBusbarSectionInfo_RatedCurrent(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -91,13 +97,19 @@ public class BusbarSectionInfoItemProvider extends AssetInfoItemProvider {
      * @generated
      */
     protected void addRatedVoltagePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_BusbarSectionInfo_ratedVoltage_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_BusbarSectionInfo_ratedVoltage_feature",
-                        "_UI_BusbarSectionInfo_type" ),
-                CimPackage.eINSTANCE.getBusbarSectionInfo_RatedVoltage(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_BusbarSectionInfo_ratedVoltage_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_BusbarSectionInfo_ratedVoltage_feature",
+                                "_UI_BusbarSectionInfo_type" ),
+                        CimPackage.eINSTANCE.getBusbarSectionInfo_RatedVoltage(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

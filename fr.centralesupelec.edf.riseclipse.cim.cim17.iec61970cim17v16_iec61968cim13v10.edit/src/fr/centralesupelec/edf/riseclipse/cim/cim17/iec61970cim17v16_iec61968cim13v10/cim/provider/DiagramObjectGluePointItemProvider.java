@@ -73,11 +73,17 @@ public class DiagramObjectGluePointItemProvider extends CimObjectWithIDItemProvi
      */
     protected void addDiagramObjectPointsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_DiagramObjectGluePoint_DiagramObjectPoints_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_DiagramObjectGluePoint_DiagramObjectPoints_feature", "_UI_DiagramObjectGluePoint_type" ),
-                CimPackage.eINSTANCE.getDiagramObjectGluePoint_DiagramObjectPoints(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getDiagramObjectGluePoint_DiagramObjectPoints(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -115,7 +121,6 @@ public class DiagramObjectGluePointItemProvider extends CimObjectWithIDItemProvi
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

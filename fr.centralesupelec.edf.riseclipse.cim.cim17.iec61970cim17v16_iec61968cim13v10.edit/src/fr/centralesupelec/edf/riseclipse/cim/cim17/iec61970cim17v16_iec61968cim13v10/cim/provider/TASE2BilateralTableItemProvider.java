@@ -79,11 +79,17 @@ public class TASE2BilateralTableItemProvider extends BilateralExchangeAgreementI
     protected void addBilateralTableIDPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TASE2BilateralTable_bilateralTableID_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TASE2BilateralTable_bilateralTableID_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_TASE2BilateralTable_bilateralTableID_feature", "_UI_TASE2BilateralTable_type" ),
-                        CimPackage.eINSTANCE.getTASE2BilateralTable_BilateralTableID(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTASE2BilateralTable_BilateralTableID(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,12 +100,18 @@ public class TASE2BilateralTableItemProvider extends BilateralExchangeAgreementI
      */
     protected void addBilateralTableVersionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_TASE2BilateralTable_bilateralTableVersion_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_TASE2BilateralTable_bilateralTableVersion_feature", "_UI_TASE2BilateralTable_type" ),
-                CimPackage.eINSTANCE.getTASE2BilateralTable_BilateralTableVersion(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getTASE2BilateralTable_BilateralTableVersion(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -109,13 +121,19 @@ public class TASE2BilateralTableItemProvider extends BilateralExchangeAgreementI
      * @generated
      */
     protected void addTase2versionPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TASE2BilateralTable_tase2version_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TASE2BilateralTable_tase2version_feature",
-                        "_UI_TASE2BilateralTable_type" ),
-                CimPackage.eINSTANCE.getTASE2BilateralTable_Tase2version(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TASE2BilateralTable_tase2version_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_TASE2BilateralTable_tase2version_feature",
+                                "_UI_TASE2BilateralTable_type" ),
+                        CimPackage.eINSTANCE.getTASE2BilateralTable_Tase2version(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -126,11 +144,17 @@ public class TASE2BilateralTableItemProvider extends BilateralExchangeAgreementI
      */
     protected void addICCPInformationMessagePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_TASE2BilateralTable_ICCPInformationMessage_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_TASE2BilateralTable_ICCPInformationMessage_feature", "_UI_TASE2BilateralTable_type" ),
-                CimPackage.eINSTANCE.getTASE2BilateralTable_ICCPInformationMessage(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getTASE2BilateralTable_ICCPInformationMessage(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 

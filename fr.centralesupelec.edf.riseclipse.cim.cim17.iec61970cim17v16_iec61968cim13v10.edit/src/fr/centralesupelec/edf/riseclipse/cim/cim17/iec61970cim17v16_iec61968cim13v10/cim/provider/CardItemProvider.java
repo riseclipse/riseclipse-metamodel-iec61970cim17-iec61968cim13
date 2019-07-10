@@ -80,11 +80,17 @@ public class CardItemProvider extends CimObjectWithIDItemProvider {
     protected void addAccountHolderNamePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Card_accountHolderName_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Card_accountHolderName_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Card_accountHolderName_feature",
                                 "_UI_Card_type" ),
-                        CimPackage.eINSTANCE.getCard_AccountHolderName(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCard_AccountHolderName(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -96,10 +102,16 @@ public class CardItemProvider extends CimObjectWithIDItemProvider {
     protected void addCvNumberPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Card_cvNumber_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Card_cvNumber_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Card_cvNumber_feature", "_UI_Card_type" ),
-                        CimPackage.eINSTANCE.getCard_CvNumber(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCard_CvNumber(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,11 +123,17 @@ public class CardItemProvider extends CimObjectWithIDItemProvider {
     protected void addExpiryDatePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Card_expiryDate_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Card_expiryDate_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Card_expiryDate_feature",
                                 "_UI_Card_type" ),
-                        CimPackage.eINSTANCE.getCard_ExpiryDate(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCard_ExpiryDate(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -127,10 +145,16 @@ public class CardItemProvider extends CimObjectWithIDItemProvider {
     protected void addPanPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Card_pan_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Card_pan_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Card_pan_feature", "_UI_Card_type" ),
-                        CimPackage.eINSTANCE.getCard_Pan(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCard_Pan(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -142,9 +166,16 @@ public class CardItemProvider extends CimObjectWithIDItemProvider {
     protected void addTenderPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Card_Tender_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Card_Tender_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Card_Tender_feature", "_UI_Card_type" ),
-                        CimPackage.eINSTANCE.getCard_Tender(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCard_Tender(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

@@ -78,12 +78,18 @@ public class EstimatedRestorationTimeItemProvider extends CimObjectWithIDItemPro
      */
     protected void addConfidenceKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_EstimatedRestorationTime_confidenceKind_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_EstimatedRestorationTime_confidenceKind_feature",
                         "_UI_EstimatedRestorationTime_type" ),
-                CimPackage.eINSTANCE.getEstimatedRestorationTime_ConfidenceKind(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getEstimatedRestorationTime_ConfidenceKind(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -93,13 +99,19 @@ public class EstimatedRestorationTimeItemProvider extends CimObjectWithIDItemPro
      * @generated
      */
     protected void addErtPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_EstimatedRestorationTime_ert_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_EstimatedRestorationTime_ert_feature",
-                        "_UI_EstimatedRestorationTime_type" ),
-                CimPackage.eINSTANCE.getEstimatedRestorationTime_Ert(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_EstimatedRestorationTime_ert_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_EstimatedRestorationTime_ert_feature",
+                                "_UI_EstimatedRestorationTime_type" ),
+                        CimPackage.eINSTANCE.getEstimatedRestorationTime_Ert(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,11 +123,17 @@ public class EstimatedRestorationTimeItemProvider extends CimObjectWithIDItemPro
     protected void addErtSourcePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EstimatedRestorationTime_ertSource_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EstimatedRestorationTime_ertSource_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_EstimatedRestorationTime_ertSource_feature", "_UI_EstimatedRestorationTime_type" ),
-                        CimPackage.eINSTANCE.getEstimatedRestorationTime_ErtSource(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEstimatedRestorationTime_ErtSource(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -125,12 +143,19 @@ public class EstimatedRestorationTimeItemProvider extends CimObjectWithIDItemPro
      * @generated
      */
     protected void addOutagePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_EstimatedRestorationTime_Outage_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_EstimatedRestorationTime_Outage_feature",
-                        "_UI_EstimatedRestorationTime_type" ),
-                CimPackage.eINSTANCE.getEstimatedRestorationTime_Outage(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_EstimatedRestorationTime_Outage_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_EstimatedRestorationTime_Outage_feature",
+                                "_UI_EstimatedRestorationTime_type" ),
+                        CimPackage.eINSTANCE.getEstimatedRestorationTime_Outage(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

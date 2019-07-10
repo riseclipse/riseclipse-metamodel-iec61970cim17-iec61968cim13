@@ -74,10 +74,16 @@ public class GenericActionItemProvider extends SwitchingStepItemProvider {
     protected void addSwitchingStepGroupPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GenericAction_SwitchingStepGroup_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GenericAction_SwitchingStepGroup_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GenericAction_SwitchingStepGroup_feature",
                                 "_UI_GenericAction_type" ),
-                        CimPackage.eINSTANCE.getGenericAction_SwitchingStepGroup(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getGenericAction_SwitchingStepGroup(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -115,7 +121,6 @@ public class GenericActionItemProvider extends SwitchingStepItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

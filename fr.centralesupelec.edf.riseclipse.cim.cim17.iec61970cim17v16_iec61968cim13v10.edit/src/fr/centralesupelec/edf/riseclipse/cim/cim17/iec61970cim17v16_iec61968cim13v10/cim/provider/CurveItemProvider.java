@@ -85,11 +85,17 @@ public class CurveItemProvider extends IdentifiedObjectItemProvider {
     protected void addCurveStylePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Curve_curveStyle_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Curve_curveStyle_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Curve_curveStyle_feature",
                                 "_UI_Curve_type" ),
-                        CimPackage.eINSTANCE.getCurve_CurveStyle(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCurve_CurveStyle(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -101,11 +107,17 @@ public class CurveItemProvider extends IdentifiedObjectItemProvider {
     protected void addXMultiplierPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Curve_xMultiplier_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Curve_xMultiplier_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Curve_xMultiplier_feature",
                                 "_UI_Curve_type" ),
-                        CimPackage.eINSTANCE.getCurve_XMultiplier(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCurve_XMultiplier(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -117,10 +129,16 @@ public class CurveItemProvider extends IdentifiedObjectItemProvider {
     protected void addXUnitPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Curve_xUnit_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Curve_xUnit_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Curve_xUnit_feature", "_UI_Curve_type" ),
-                        CimPackage.eINSTANCE.getCurve_XUnit(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCurve_XUnit(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -132,11 +150,17 @@ public class CurveItemProvider extends IdentifiedObjectItemProvider {
     protected void addY1MultiplierPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Curve_y1Multiplier_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Curve_y1Multiplier_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Curve_y1Multiplier_feature",
                                 "_UI_Curve_type" ),
-                        CimPackage.eINSTANCE.getCurve_Y1Multiplier(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCurve_Y1Multiplier(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -148,10 +172,16 @@ public class CurveItemProvider extends IdentifiedObjectItemProvider {
     protected void addY1UnitPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Curve_y1Unit_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Curve_y1Unit_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Curve_y1Unit_feature", "_UI_Curve_type" ),
-                        CimPackage.eINSTANCE.getCurve_Y1Unit(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCurve_Y1Unit(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -163,11 +193,17 @@ public class CurveItemProvider extends IdentifiedObjectItemProvider {
     protected void addY2MultiplierPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Curve_y2Multiplier_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Curve_y2Multiplier_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Curve_y2Multiplier_feature",
                                 "_UI_Curve_type" ),
-                        CimPackage.eINSTANCE.getCurve_Y2Multiplier(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCurve_Y2Multiplier(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -179,10 +215,16 @@ public class CurveItemProvider extends IdentifiedObjectItemProvider {
     protected void addY2UnitPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Curve_y2Unit_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Curve_y2Unit_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Curve_y2Unit_feature", "_UI_Curve_type" ),
-                        CimPackage.eINSTANCE.getCurve_Y2Unit(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCurve_Y2Unit(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -194,11 +236,17 @@ public class CurveItemProvider extends IdentifiedObjectItemProvider {
     protected void addY3MultiplierPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Curve_y3Multiplier_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Curve_y3Multiplier_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Curve_y3Multiplier_feature",
                                 "_UI_Curve_type" ),
-                        CimPackage.eINSTANCE.getCurve_Y3Multiplier(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCurve_Y3Multiplier(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -210,10 +258,16 @@ public class CurveItemProvider extends IdentifiedObjectItemProvider {
     protected void addY3UnitPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Curve_y3Unit_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Curve_y3Unit_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Curve_y3Unit_feature", "_UI_Curve_type" ),
-                        CimPackage.eINSTANCE.getCurve_Y3Unit(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCurve_Y3Unit(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -225,10 +279,17 @@ public class CurveItemProvider extends IdentifiedObjectItemProvider {
     protected void addCurveDatasPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Curve_CurveDatas_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Curve_CurveDatas_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Curve_CurveDatas_feature",
                                 "_UI_Curve_type" ),
-                        CimPackage.eINSTANCE.getCurve_CurveDatas(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCurve_CurveDatas(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

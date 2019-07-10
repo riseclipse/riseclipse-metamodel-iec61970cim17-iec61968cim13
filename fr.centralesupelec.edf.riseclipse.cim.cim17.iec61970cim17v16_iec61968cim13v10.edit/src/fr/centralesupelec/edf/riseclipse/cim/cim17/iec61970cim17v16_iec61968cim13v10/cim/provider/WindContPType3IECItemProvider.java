@@ -100,11 +100,17 @@ public class WindContPType3IECItemProvider extends IdentifiedObjectItemProvider 
     protected void addDpmaxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContPType3IEC_dpmax_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPType3IEC_dpmax_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContPType3IEC_dpmax_feature",
                                 "_UI_WindContPType3IEC_type" ),
-                        CimPackage.eINSTANCE.getWindContPType3IEC_Dpmax(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContPType3IEC_Dpmax(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -116,11 +122,17 @@ public class WindContPType3IECItemProvider extends IdentifiedObjectItemProvider 
     protected void addDprefmaxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContPType3IEC_dprefmax_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPType3IEC_dprefmax_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContPType3IEC_dprefmax_feature",
                                 "_UI_WindContPType3IEC_type" ),
-                        CimPackage.eINSTANCE.getWindContPType3IEC_Dprefmax(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContPType3IEC_Dprefmax(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -132,11 +144,17 @@ public class WindContPType3IECItemProvider extends IdentifiedObjectItemProvider 
     protected void addDprefminPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContPType3IEC_dprefmin_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPType3IEC_dprefmin_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContPType3IEC_dprefmin_feature",
                                 "_UI_WindContPType3IEC_type" ),
-                        CimPackage.eINSTANCE.getWindContPType3IEC_Dprefmin(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContPType3IEC_Dprefmin(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -148,11 +166,17 @@ public class WindContPType3IECItemProvider extends IdentifiedObjectItemProvider 
     protected void addDthetamaxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContPType3IEC_dthetamax_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPType3IEC_dthetamax_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContPType3IEC_dthetamax_feature",
                                 "_UI_WindContPType3IEC_type" ),
-                        CimPackage.eINSTANCE.getWindContPType3IEC_Dthetamax(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContPType3IEC_Dthetamax(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -162,13 +186,19 @@ public class WindContPType3IECItemProvider extends IdentifiedObjectItemProvider 
      * @generated
      */
     protected void addDthetamaxuvrtPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindContPType3IEC_dthetamaxuvrt_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_WindContPType3IEC_dthetamaxuvrt_feature",
-                        "_UI_WindContPType3IEC_type" ),
-                CimPackage.eINSTANCE.getWindContPType3IEC_Dthetamaxuvrt(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPType3IEC_dthetamaxuvrt_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_WindContPType3IEC_dthetamaxuvrt_feature",
+                                "_UI_WindContPType3IEC_type" ),
+                        CimPackage.eINSTANCE.getWindContPType3IEC_Dthetamaxuvrt(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -180,11 +210,17 @@ public class WindContPType3IECItemProvider extends IdentifiedObjectItemProvider 
     protected void addKdtdPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContPType3IEC_kdtd_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPType3IEC_kdtd_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContPType3IEC_kdtd_feature",
                                 "_UI_WindContPType3IEC_type" ),
-                        CimPackage.eINSTANCE.getWindContPType3IEC_Kdtd(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContPType3IEC_Kdtd(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -196,11 +232,17 @@ public class WindContPType3IECItemProvider extends IdentifiedObjectItemProvider 
     protected void addKipPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContPType3IEC_kip_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPType3IEC_kip_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContPType3IEC_kip_feature",
                                 "_UI_WindContPType3IEC_type" ),
-                        CimPackage.eINSTANCE.getWindContPType3IEC_Kip(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContPType3IEC_Kip(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -212,11 +254,17 @@ public class WindContPType3IECItemProvider extends IdentifiedObjectItemProvider 
     protected void addKppPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContPType3IEC_kpp_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPType3IEC_kpp_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContPType3IEC_kpp_feature",
                                 "_UI_WindContPType3IEC_type" ),
-                        CimPackage.eINSTANCE.getWindContPType3IEC_Kpp(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContPType3IEC_Kpp(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -228,11 +276,17 @@ public class WindContPType3IECItemProvider extends IdentifiedObjectItemProvider 
     protected void addMpuvrtPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContPType3IEC_mpuvrt_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPType3IEC_mpuvrt_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContPType3IEC_mpuvrt_feature",
                                 "_UI_WindContPType3IEC_type" ),
-                        CimPackage.eINSTANCE.getWindContPType3IEC_Mpuvrt(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContPType3IEC_Mpuvrt(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -244,11 +298,17 @@ public class WindContPType3IECItemProvider extends IdentifiedObjectItemProvider 
     protected void addOmegaoffsetPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContPType3IEC_omegaoffset_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPType3IEC_omegaoffset_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContPType3IEC_omegaoffset_feature",
                                 "_UI_WindContPType3IEC_type" ),
-                        CimPackage.eINSTANCE.getWindContPType3IEC_Omegaoffset(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContPType3IEC_Omegaoffset(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -260,11 +320,17 @@ public class WindContPType3IECItemProvider extends IdentifiedObjectItemProvider 
     protected void addPdtdmaxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContPType3IEC_pdtdmax_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPType3IEC_pdtdmax_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContPType3IEC_pdtdmax_feature",
                                 "_UI_WindContPType3IEC_type" ),
-                        CimPackage.eINSTANCE.getWindContPType3IEC_Pdtdmax(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContPType3IEC_Pdtdmax(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -276,11 +342,17 @@ public class WindContPType3IECItemProvider extends IdentifiedObjectItemProvider 
     protected void addTdvsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContPType3IEC_tdvs_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPType3IEC_tdvs_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContPType3IEC_tdvs_feature",
                                 "_UI_WindContPType3IEC_type" ),
-                        CimPackage.eINSTANCE.getWindContPType3IEC_Tdvs(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContPType3IEC_Tdvs(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -292,11 +364,17 @@ public class WindContPType3IECItemProvider extends IdentifiedObjectItemProvider 
     protected void addThetaeminPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContPType3IEC_thetaemin_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPType3IEC_thetaemin_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContPType3IEC_thetaemin_feature",
                                 "_UI_WindContPType3IEC_type" ),
-                        CimPackage.eINSTANCE.getWindContPType3IEC_Thetaemin(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContPType3IEC_Thetaemin(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -308,11 +386,17 @@ public class WindContPType3IECItemProvider extends IdentifiedObjectItemProvider 
     protected void addThetauscalePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContPType3IEC_thetauscale_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPType3IEC_thetauscale_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContPType3IEC_thetauscale_feature",
                                 "_UI_WindContPType3IEC_type" ),
-                        CimPackage.eINSTANCE.getWindContPType3IEC_Thetauscale(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContPType3IEC_Thetauscale(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -322,13 +406,19 @@ public class WindContPType3IECItemProvider extends IdentifiedObjectItemProvider 
      * @generated
      */
     protected void addTomegafiltp3PropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindContPType3IEC_tomegafiltp3_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_WindContPType3IEC_tomegafiltp3_feature",
-                        "_UI_WindContPType3IEC_type" ),
-                CimPackage.eINSTANCE.getWindContPType3IEC_Tomegafiltp3(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPType3IEC_tomegafiltp3_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_WindContPType3IEC_tomegafiltp3_feature",
+                                "_UI_WindContPType3IEC_type" ),
+                        CimPackage.eINSTANCE.getWindContPType3IEC_Tomegafiltp3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -340,11 +430,17 @@ public class WindContPType3IECItemProvider extends IdentifiedObjectItemProvider 
     protected void addTpfiltp3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContPType3IEC_tpfiltp3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPType3IEC_tpfiltp3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContPType3IEC_tpfiltp3_feature",
                                 "_UI_WindContPType3IEC_type" ),
-                        CimPackage.eINSTANCE.getWindContPType3IEC_Tpfiltp3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContPType3IEC_Tpfiltp3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -356,11 +452,17 @@ public class WindContPType3IECItemProvider extends IdentifiedObjectItemProvider 
     protected void addTpordPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContPType3IEC_tpord_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPType3IEC_tpord_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContPType3IEC_tpord_feature",
                                 "_UI_WindContPType3IEC_type" ),
-                        CimPackage.eINSTANCE.getWindContPType3IEC_Tpord(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContPType3IEC_Tpord(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -372,11 +474,17 @@ public class WindContPType3IECItemProvider extends IdentifiedObjectItemProvider 
     protected void addTufiltp3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContPType3IEC_tufiltp3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPType3IEC_tufiltp3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContPType3IEC_tufiltp3_feature",
                                 "_UI_WindContPType3IEC_type" ),
-                        CimPackage.eINSTANCE.getWindContPType3IEC_Tufiltp3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContPType3IEC_Tufiltp3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -388,11 +496,17 @@ public class WindContPType3IECItemProvider extends IdentifiedObjectItemProvider 
     protected void addTwrefPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContPType3IEC_twref_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPType3IEC_twref_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContPType3IEC_twref_feature",
                                 "_UI_WindContPType3IEC_type" ),
-                        CimPackage.eINSTANCE.getWindContPType3IEC_Twref(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContPType3IEC_Twref(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -404,11 +518,17 @@ public class WindContPType3IECItemProvider extends IdentifiedObjectItemProvider 
     protected void addUdvsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContPType3IEC_udvs_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPType3IEC_udvs_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContPType3IEC_udvs_feature",
                                 "_UI_WindContPType3IEC_type" ),
-                        CimPackage.eINSTANCE.getWindContPType3IEC_Udvs(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContPType3IEC_Udvs(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -420,11 +540,17 @@ public class WindContPType3IECItemProvider extends IdentifiedObjectItemProvider 
     protected void addUpdipPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContPType3IEC_updip_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPType3IEC_updip_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContPType3IEC_updip_feature",
                                 "_UI_WindContPType3IEC_type" ),
-                        CimPackage.eINSTANCE.getWindContPType3IEC_Updip(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContPType3IEC_Updip(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -436,11 +562,17 @@ public class WindContPType3IECItemProvider extends IdentifiedObjectItemProvider 
     protected void addWdtdPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContPType3IEC_wdtd_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPType3IEC_wdtd_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContPType3IEC_wdtd_feature",
                                 "_UI_WindContPType3IEC_type" ),
-                        CimPackage.eINSTANCE.getWindContPType3IEC_Wdtd(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContPType3IEC_Wdtd(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -452,11 +584,17 @@ public class WindContPType3IECItemProvider extends IdentifiedObjectItemProvider 
     protected void addZetaPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContPType3IEC_zeta_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPType3IEC_zeta_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContPType3IEC_zeta_feature",
                                 "_UI_WindContPType3IEC_type" ),
-                        CimPackage.eINSTANCE.getWindContPType3IEC_Zeta(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContPType3IEC_Zeta(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -468,11 +606,17 @@ public class WindContPType3IECItemProvider extends IdentifiedObjectItemProvider 
     protected void addWindDynamicsLookupTablePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContPType3IEC_WindDynamicsLookupTable_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPType3IEC_WindDynamicsLookupTable_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_WindContPType3IEC_WindDynamicsLookupTable_feature", "_UI_WindContPType3IEC_type" ),
-                        CimPackage.eINSTANCE.getWindContPType3IEC_WindDynamicsLookupTable(), true, false, true, null,
-                        null, null ) );
+                        CimPackage.eINSTANCE.getWindContPType3IEC_WindDynamicsLookupTable(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -482,13 +626,19 @@ public class WindContPType3IECItemProvider extends IdentifiedObjectItemProvider 
      * @generated
      */
     protected void addWindTurbineType3IECPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindContPType3IEC_WindTurbineType3IEC_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_WindContPType3IEC_WindTurbineType3IEC_feature",
-                        "_UI_WindContPType3IEC_type" ),
-                CimPackage.eINSTANCE.getWindContPType3IEC_WindTurbineType3IEC(), true, false, true, null, null,
-                null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPType3IEC_WindTurbineType3IEC_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_WindContPType3IEC_WindTurbineType3IEC_feature", "_UI_WindContPType3IEC_type" ),
+                        CimPackage.eINSTANCE.getWindContPType3IEC_WindTurbineType3IEC(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

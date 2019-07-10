@@ -89,11 +89,17 @@ public class CsConverterItemProvider extends ACDCConverterItemProvider {
     protected void addAlphaPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CsConverter_alpha_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CsConverter_alpha_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CsConverter_alpha_feature",
                                 "_UI_CsConverter_type" ),
-                        CimPackage.eINSTANCE.getCsConverter_Alpha(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCsConverter_Alpha(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -105,11 +111,17 @@ public class CsConverterItemProvider extends ACDCConverterItemProvider {
     protected void addGammaPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CsConverter_gamma_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CsConverter_gamma_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CsConverter_gamma_feature",
                                 "_UI_CsConverter_type" ),
-                        CimPackage.eINSTANCE.getCsConverter_Gamma(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCsConverter_Gamma(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -121,11 +133,17 @@ public class CsConverterItemProvider extends ACDCConverterItemProvider {
     protected void addMaxAlphaPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CsConverter_maxAlpha_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CsConverter_maxAlpha_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CsConverter_maxAlpha_feature",
                                 "_UI_CsConverter_type" ),
-                        CimPackage.eINSTANCE.getCsConverter_MaxAlpha(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCsConverter_MaxAlpha(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -137,11 +155,17 @@ public class CsConverterItemProvider extends ACDCConverterItemProvider {
     protected void addMaxGammaPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CsConverter_maxGamma_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CsConverter_maxGamma_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CsConverter_maxGamma_feature",
                                 "_UI_CsConverter_type" ),
-                        CimPackage.eINSTANCE.getCsConverter_MaxGamma(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCsConverter_MaxGamma(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -153,11 +177,17 @@ public class CsConverterItemProvider extends ACDCConverterItemProvider {
     protected void addMaxIdcPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CsConverter_maxIdc_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CsConverter_maxIdc_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CsConverter_maxIdc_feature",
                                 "_UI_CsConverter_type" ),
-                        CimPackage.eINSTANCE.getCsConverter_MaxIdc(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCsConverter_MaxIdc(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -169,11 +199,17 @@ public class CsConverterItemProvider extends ACDCConverterItemProvider {
     protected void addMinAlphaPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CsConverter_minAlpha_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CsConverter_minAlpha_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CsConverter_minAlpha_feature",
                                 "_UI_CsConverter_type" ),
-                        CimPackage.eINSTANCE.getCsConverter_MinAlpha(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCsConverter_MinAlpha(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -185,11 +221,17 @@ public class CsConverterItemProvider extends ACDCConverterItemProvider {
     protected void addMinGammaPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CsConverter_minGamma_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CsConverter_minGamma_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CsConverter_minGamma_feature",
                                 "_UI_CsConverter_type" ),
-                        CimPackage.eINSTANCE.getCsConverter_MinGamma(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCsConverter_MinGamma(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -201,11 +243,17 @@ public class CsConverterItemProvider extends ACDCConverterItemProvider {
     protected void addMinIdcPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CsConverter_minIdc_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CsConverter_minIdc_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CsConverter_minIdc_feature",
                                 "_UI_CsConverter_type" ),
-                        CimPackage.eINSTANCE.getCsConverter_MinIdc(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCsConverter_MinIdc(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -217,11 +265,17 @@ public class CsConverterItemProvider extends ACDCConverterItemProvider {
     protected void addOperatingModePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CsConverter_operatingMode_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CsConverter_operatingMode_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CsConverter_operatingMode_feature",
                                 "_UI_CsConverter_type" ),
-                        CimPackage.eINSTANCE.getCsConverter_OperatingMode(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCsConverter_OperatingMode(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -233,11 +287,17 @@ public class CsConverterItemProvider extends ACDCConverterItemProvider {
     protected void addPPccControlPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CsConverter_pPccControl_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CsConverter_pPccControl_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CsConverter_pPccControl_feature",
                                 "_UI_CsConverter_type" ),
-                        CimPackage.eINSTANCE.getCsConverter_PPccControl(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCsConverter_PPccControl(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -249,11 +309,17 @@ public class CsConverterItemProvider extends ACDCConverterItemProvider {
     protected void addRatedIdcPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CsConverter_ratedIdc_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CsConverter_ratedIdc_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CsConverter_ratedIdc_feature",
                                 "_UI_CsConverter_type" ),
-                        CimPackage.eINSTANCE.getCsConverter_RatedIdc(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCsConverter_RatedIdc(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -265,11 +331,17 @@ public class CsConverterItemProvider extends ACDCConverterItemProvider {
     protected void addTargetAlphaPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CsConverter_targetAlpha_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CsConverter_targetAlpha_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CsConverter_targetAlpha_feature",
                                 "_UI_CsConverter_type" ),
-                        CimPackage.eINSTANCE.getCsConverter_TargetAlpha(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCsConverter_TargetAlpha(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -281,11 +353,17 @@ public class CsConverterItemProvider extends ACDCConverterItemProvider {
     protected void addTargetGammaPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CsConverter_targetGamma_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CsConverter_targetGamma_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CsConverter_targetGamma_feature",
                                 "_UI_CsConverter_type" ),
-                        CimPackage.eINSTANCE.getCsConverter_TargetGamma(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCsConverter_TargetGamma(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -297,11 +375,17 @@ public class CsConverterItemProvider extends ACDCConverterItemProvider {
     protected void addTargetIdcPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CsConverter_targetIdc_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CsConverter_targetIdc_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CsConverter_targetIdc_feature",
                                 "_UI_CsConverter_type" ),
-                        CimPackage.eINSTANCE.getCsConverter_TargetIdc(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCsConverter_TargetIdc(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

@@ -74,10 +74,16 @@ public class IntervalReadingItemProvider extends BaseReadingItemProvider {
     protected void addIntervalBlocksPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_IntervalReading_IntervalBlocks_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_IntervalReading_IntervalBlocks_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_IntervalReading_IntervalBlocks_feature",
                                 "_UI_IntervalReading_type" ),
-                        CimPackage.eINSTANCE.getIntervalReading_IntervalBlocks(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getIntervalReading_IntervalBlocks(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -115,7 +121,6 @@ public class IntervalReadingItemProvider extends BaseReadingItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

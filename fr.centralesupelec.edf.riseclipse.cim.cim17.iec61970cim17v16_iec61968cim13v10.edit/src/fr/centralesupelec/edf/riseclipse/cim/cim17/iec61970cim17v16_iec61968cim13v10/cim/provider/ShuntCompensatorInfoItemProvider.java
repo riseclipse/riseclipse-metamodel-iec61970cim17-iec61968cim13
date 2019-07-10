@@ -77,13 +77,19 @@ public class ShuntCompensatorInfoItemProvider extends AssetInfoItemProvider {
      * @generated
      */
     protected void addMaxPowerLossPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ShuntCompensatorInfo_maxPowerLoss_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ShuntCompensatorInfo_maxPowerLoss_feature",
-                        "_UI_ShuntCompensatorInfo_type" ),
-                CimPackage.eINSTANCE.getShuntCompensatorInfo_MaxPowerLoss(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ShuntCompensatorInfo_maxPowerLoss_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ShuntCompensatorInfo_maxPowerLoss_feature", "_UI_ShuntCompensatorInfo_type" ),
+                        CimPackage.eINSTANCE.getShuntCompensatorInfo_MaxPowerLoss(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,13 +99,19 @@ public class ShuntCompensatorInfoItemProvider extends AssetInfoItemProvider {
      * @generated
      */
     protected void addRatedCurrentPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ShuntCompensatorInfo_ratedCurrent_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ShuntCompensatorInfo_ratedCurrent_feature",
-                        "_UI_ShuntCompensatorInfo_type" ),
-                CimPackage.eINSTANCE.getShuntCompensatorInfo_RatedCurrent(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ShuntCompensatorInfo_ratedCurrent_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ShuntCompensatorInfo_ratedCurrent_feature", "_UI_ShuntCompensatorInfo_type" ),
+                        CimPackage.eINSTANCE.getShuntCompensatorInfo_RatedCurrent(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -110,12 +122,18 @@ public class ShuntCompensatorInfoItemProvider extends AssetInfoItemProvider {
      */
     protected void addRatedReactivePowerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ShuntCompensatorInfo_ratedReactivePower_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ShuntCompensatorInfo_ratedReactivePower_feature",
                         "_UI_ShuntCompensatorInfo_type" ),
-                CimPackage.eINSTANCE.getShuntCompensatorInfo_RatedReactivePower(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getShuntCompensatorInfo_RatedReactivePower(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -125,13 +143,19 @@ public class ShuntCompensatorInfoItemProvider extends AssetInfoItemProvider {
      * @generated
      */
     protected void addRatedVoltagePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ShuntCompensatorInfo_ratedVoltage_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ShuntCompensatorInfo_ratedVoltage_feature",
-                        "_UI_ShuntCompensatorInfo_type" ),
-                CimPackage.eINSTANCE.getShuntCompensatorInfo_RatedVoltage(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ShuntCompensatorInfo_ratedVoltage_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ShuntCompensatorInfo_ratedVoltage_feature", "_UI_ShuntCompensatorInfo_type" ),
+                        CimPackage.eINSTANCE.getShuntCompensatorInfo_RatedVoltage(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

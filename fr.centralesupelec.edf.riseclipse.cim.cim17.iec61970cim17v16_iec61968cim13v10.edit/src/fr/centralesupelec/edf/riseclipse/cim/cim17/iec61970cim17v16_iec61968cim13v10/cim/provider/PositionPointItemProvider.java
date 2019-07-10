@@ -81,11 +81,17 @@ public class PositionPointItemProvider extends CimObjectWithIDItemProvider {
     protected void addGroupNumberPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PositionPoint_groupNumber_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PositionPoint_groupNumber_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PositionPoint_groupNumber_feature",
                                 "_UI_PositionPoint_type" ),
-                        CimPackage.eINSTANCE.getPositionPoint_GroupNumber(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPositionPoint_GroupNumber(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -97,11 +103,17 @@ public class PositionPointItemProvider extends CimObjectWithIDItemProvider {
     protected void addSequenceNumberPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PositionPoint_sequenceNumber_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PositionPoint_sequenceNumber_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PositionPoint_sequenceNumber_feature",
                                 "_UI_PositionPoint_type" ),
-                        CimPackage.eINSTANCE.getPositionPoint_SequenceNumber(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPositionPoint_SequenceNumber(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -113,11 +125,17 @@ public class PositionPointItemProvider extends CimObjectWithIDItemProvider {
     protected void addXPositionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PositionPoint_xPosition_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PositionPoint_xPosition_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PositionPoint_xPosition_feature",
                                 "_UI_PositionPoint_type" ),
-                        CimPackage.eINSTANCE.getPositionPoint_XPosition(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPositionPoint_XPosition(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -129,11 +147,17 @@ public class PositionPointItemProvider extends CimObjectWithIDItemProvider {
     protected void addYPositionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PositionPoint_yPosition_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PositionPoint_yPosition_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PositionPoint_yPosition_feature",
                                 "_UI_PositionPoint_type" ),
-                        CimPackage.eINSTANCE.getPositionPoint_YPosition(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPositionPoint_YPosition(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -145,11 +169,17 @@ public class PositionPointItemProvider extends CimObjectWithIDItemProvider {
     protected void addZPositionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PositionPoint_zPosition_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PositionPoint_zPosition_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PositionPoint_zPosition_feature",
                                 "_UI_PositionPoint_type" ),
-                        CimPackage.eINSTANCE.getPositionPoint_ZPosition(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPositionPoint_ZPosition(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -161,10 +191,17 @@ public class PositionPointItemProvider extends CimObjectWithIDItemProvider {
     protected void addLocationPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PositionPoint_Location_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PositionPoint_Location_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PositionPoint_Location_feature",
                                 "_UI_PositionPoint_type" ),
-                        CimPackage.eINSTANCE.getPositionPoint_Location(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getPositionPoint_Location(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

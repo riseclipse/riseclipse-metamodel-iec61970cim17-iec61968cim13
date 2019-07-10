@@ -74,10 +74,17 @@ public class AssetOwnerItemProvider extends AssetOrganisationRoleItemProvider {
     protected void addOwnershipsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AssetOwner_Ownerships_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AssetOwner_Ownerships_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AssetOwner_Ownerships_feature",
                                 "_UI_AssetOwner_type" ),
-                        CimPackage.eINSTANCE.getAssetOwner_Ownerships(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAssetOwner_Ownerships(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class AssetOwnerItemProvider extends AssetOrganisationRoleItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

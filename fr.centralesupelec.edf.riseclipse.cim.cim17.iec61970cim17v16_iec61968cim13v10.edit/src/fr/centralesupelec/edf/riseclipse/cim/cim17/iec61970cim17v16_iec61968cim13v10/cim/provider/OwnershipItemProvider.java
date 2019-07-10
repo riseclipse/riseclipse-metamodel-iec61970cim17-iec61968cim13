@@ -78,11 +78,17 @@ public class OwnershipItemProvider extends IdentifiedObjectItemProvider {
     protected void addSharePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Ownership_share_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Ownership_share_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Ownership_share_feature",
                                 "_UI_Ownership_type" ),
-                        CimPackage.eINSTANCE.getOwnership_Share(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOwnership_Share(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,10 +100,17 @@ public class OwnershipItemProvider extends IdentifiedObjectItemProvider {
     protected void addAssetOwnerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Ownership_AssetOwner_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Ownership_AssetOwner_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Ownership_AssetOwner_feature",
                                 "_UI_Ownership_type" ),
-                        CimPackage.eINSTANCE.getOwnership_AssetOwner(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getOwnership_AssetOwner(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -109,10 +122,17 @@ public class OwnershipItemProvider extends IdentifiedObjectItemProvider {
     protected void addAssetPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Ownership_Asset_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Ownership_Asset_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Ownership_Asset_feature",
                                 "_UI_Ownership_type" ),
-                        CimPackage.eINSTANCE.getOwnership_Asset(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getOwnership_Asset(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

@@ -78,11 +78,17 @@ public class ChannelItemProvider extends IdentifiedObjectItemProvider {
     protected void addIsVirtualPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Channel_isVirtual_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Channel_isVirtual_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Channel_isVirtual_feature",
                                 "_UI_Channel_type" ),
-                        CimPackage.eINSTANCE.getChannel_IsVirtual(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getChannel_IsVirtual(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,10 +100,17 @@ public class ChannelItemProvider extends IdentifiedObjectItemProvider {
     protected void addReadingTypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Channel_ReadingType_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Channel_ReadingType_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Channel_ReadingType_feature",
                                 "_UI_Channel_type" ),
-                        CimPackage.eINSTANCE.getChannel_ReadingType(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getChannel_ReadingType(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -109,10 +122,17 @@ public class ChannelItemProvider extends IdentifiedObjectItemProvider {
     protected void addRegisterPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Channel_Register_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Channel_Register_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Channel_Register_feature",
                                 "_UI_Channel_type" ),
-                        CimPackage.eINSTANCE.getChannel_Register(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getChannel_Register(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

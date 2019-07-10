@@ -76,10 +76,17 @@ public class MeterWorkTaskItemProvider extends WorkTaskItemProvider {
     protected void addMeterPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_MeterWorkTask_Meter_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_MeterWorkTask_Meter_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_MeterWorkTask_Meter_feature",
                                 "_UI_MeterWorkTask_type" ),
-                        CimPackage.eINSTANCE.getMeterWorkTask_Meter(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getMeterWorkTask_Meter(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -91,10 +98,17 @@ public class MeterWorkTaskItemProvider extends WorkTaskItemProvider {
     protected void addUsagePointPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_MeterWorkTask_UsagePoint_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_MeterWorkTask_UsagePoint_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_MeterWorkTask_UsagePoint_feature",
                                 "_UI_MeterWorkTask_type" ),
-                        CimPackage.eINSTANCE.getMeterWorkTask_UsagePoint(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getMeterWorkTask_UsagePoint(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -106,10 +120,17 @@ public class MeterWorkTaskItemProvider extends WorkTaskItemProvider {
     protected void addOldMeterPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_MeterWorkTask_OldMeter_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_MeterWorkTask_OldMeter_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_MeterWorkTask_OldMeter_feature",
                                 "_UI_MeterWorkTask_type" ),
-                        CimPackage.eINSTANCE.getMeterWorkTask_OldMeter(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getMeterWorkTask_OldMeter(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -146,7 +167,6 @@ public class MeterWorkTaskItemProvider extends WorkTaskItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**
@@ -172,8 +192,8 @@ public class MeterWorkTaskItemProvider extends WorkTaskItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

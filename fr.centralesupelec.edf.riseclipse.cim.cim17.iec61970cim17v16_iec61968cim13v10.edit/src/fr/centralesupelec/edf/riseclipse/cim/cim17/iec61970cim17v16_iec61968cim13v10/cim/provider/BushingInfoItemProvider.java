@@ -84,11 +84,17 @@ public class BushingInfoItemProvider extends AssetInfoItemProvider {
     protected void addC1CapacitancePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_BushingInfo_c1Capacitance_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_BushingInfo_c1Capacitance_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_BushingInfo_c1Capacitance_feature",
                                 "_UI_BushingInfo_type" ),
-                        CimPackage.eINSTANCE.getBushingInfo_C1Capacitance(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getBushingInfo_C1Capacitance(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -100,11 +106,17 @@ public class BushingInfoItemProvider extends AssetInfoItemProvider {
     protected void addC1PowerFactorPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_BushingInfo_c1PowerFactor_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_BushingInfo_c1PowerFactor_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_BushingInfo_c1PowerFactor_feature",
                                 "_UI_BushingInfo_type" ),
-                        CimPackage.eINSTANCE.getBushingInfo_C1PowerFactor(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getBushingInfo_C1PowerFactor(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -116,11 +128,17 @@ public class BushingInfoItemProvider extends AssetInfoItemProvider {
     protected void addC2CapacitancePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_BushingInfo_c2Capacitance_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_BushingInfo_c2Capacitance_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_BushingInfo_c2Capacitance_feature",
                                 "_UI_BushingInfo_type" ),
-                        CimPackage.eINSTANCE.getBushingInfo_C2Capacitance(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getBushingInfo_C2Capacitance(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -132,11 +150,17 @@ public class BushingInfoItemProvider extends AssetInfoItemProvider {
     protected void addC2PowerFactorPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_BushingInfo_c2PowerFactor_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_BushingInfo_c2PowerFactor_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_BushingInfo_c2PowerFactor_feature",
                                 "_UI_BushingInfo_type" ),
-                        CimPackage.eINSTANCE.getBushingInfo_C2PowerFactor(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getBushingInfo_C2PowerFactor(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -148,11 +172,17 @@ public class BushingInfoItemProvider extends AssetInfoItemProvider {
     protected void addInsulationKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_BushingInfo_insulationKind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_BushingInfo_insulationKind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_BushingInfo_insulationKind_feature",
                                 "_UI_BushingInfo_type" ),
-                        CimPackage.eINSTANCE.getBushingInfo_InsulationKind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getBushingInfo_InsulationKind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -164,11 +194,17 @@ public class BushingInfoItemProvider extends AssetInfoItemProvider {
     protected void addRatedCurrentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_BushingInfo_ratedCurrent_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_BushingInfo_ratedCurrent_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_BushingInfo_ratedCurrent_feature",
                                 "_UI_BushingInfo_type" ),
-                        CimPackage.eINSTANCE.getBushingInfo_RatedCurrent(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getBushingInfo_RatedCurrent(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -178,13 +214,19 @@ public class BushingInfoItemProvider extends AssetInfoItemProvider {
      * @generated
      */
     protected void addRatedImpulseWithstandVoltagePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_BushingInfo_ratedImpulseWithstandVoltage_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_BushingInfo_ratedImpulseWithstandVoltage_feature",
-                        "_UI_BushingInfo_type" ),
-                CimPackage.eINSTANCE.getBushingInfo_RatedImpulseWithstandVoltage(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_BushingInfo_ratedImpulseWithstandVoltage_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_BushingInfo_ratedImpulseWithstandVoltage_feature", "_UI_BushingInfo_type" ),
+                        CimPackage.eINSTANCE.getBushingInfo_RatedImpulseWithstandVoltage(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -194,13 +236,19 @@ public class BushingInfoItemProvider extends AssetInfoItemProvider {
      * @generated
      */
     protected void addRatedLineToGroundVoltagePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_BushingInfo_ratedLineToGroundVoltage_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_BushingInfo_ratedLineToGroundVoltage_feature",
-                        "_UI_BushingInfo_type" ),
-                CimPackage.eINSTANCE.getBushingInfo_RatedLineToGroundVoltage(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_BushingInfo_ratedLineToGroundVoltage_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_BushingInfo_ratedLineToGroundVoltage_feature", "_UI_BushingInfo_type" ),
+                        CimPackage.eINSTANCE.getBushingInfo_RatedLineToGroundVoltage(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -212,11 +260,17 @@ public class BushingInfoItemProvider extends AssetInfoItemProvider {
     protected void addRatedVoltagePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_BushingInfo_ratedVoltage_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_BushingInfo_ratedVoltage_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_BushingInfo_ratedVoltage_feature",
                                 "_UI_BushingInfo_type" ),
-                        CimPackage.eINSTANCE.getBushingInfo_RatedVoltage(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getBushingInfo_RatedVoltage(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

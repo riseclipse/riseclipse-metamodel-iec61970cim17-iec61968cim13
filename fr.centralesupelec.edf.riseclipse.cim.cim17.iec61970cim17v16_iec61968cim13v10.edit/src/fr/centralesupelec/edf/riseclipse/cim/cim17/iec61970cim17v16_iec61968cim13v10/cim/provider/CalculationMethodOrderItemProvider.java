@@ -76,13 +76,19 @@ public class CalculationMethodOrderItemProvider extends CimObjectWithIDItemProvi
      * @generated
      */
     protected void addOrderPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CalculationMethodOrder_order_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CalculationMethodOrder_order_feature",
-                        "_UI_CalculationMethodOrder_type" ),
-                CimPackage.eINSTANCE.getCalculationMethodOrder_Order(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CalculationMethodOrder_order_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_CalculationMethodOrder_order_feature",
+                                "_UI_CalculationMethodOrder_type" ),
+                        CimPackage.eINSTANCE.getCalculationMethodOrder_Order(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -92,14 +98,20 @@ public class CalculationMethodOrderItemProvider extends CimObjectWithIDItemProvi
      * @generated
      */
     protected void addCalculationMethodHierarchyPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CalculationMethodOrder_CalculationMethodHierarchy_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_CalculationMethodOrder_CalculationMethodHierarchy_feature",
-                        "_UI_CalculationMethodOrder_type" ),
-                CimPackage.eINSTANCE.getCalculationMethodOrder_CalculationMethodHierarchy(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CalculationMethodOrder_CalculationMethodHierarchy_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_CalculationMethodOrder_CalculationMethodHierarchy_feature",
+                                "_UI_CalculationMethodOrder_type" ),
+                        CimPackage.eINSTANCE.getCalculationMethodOrder_CalculationMethodHierarchy(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -110,11 +122,17 @@ public class CalculationMethodOrderItemProvider extends CimObjectWithIDItemProvi
      */
     protected void addStatisicalCalculationPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_CalculationMethodOrder_StatisicalCalculation_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_CalculationMethodOrder_StatisicalCalculation_feature", "_UI_CalculationMethodOrder_type" ),
-                CimPackage.eINSTANCE.getCalculationMethodOrder_StatisicalCalculation(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getCalculationMethodOrder_StatisicalCalculation(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 

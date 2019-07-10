@@ -78,11 +78,17 @@ public class ServiceMultiplierItemProvider extends IdentifiedObjectItemProvider 
     protected void addKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ServiceMultiplier_kind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ServiceMultiplier_kind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ServiceMultiplier_kind_feature",
                                 "_UI_ServiceMultiplier_type" ),
-                        CimPackage.eINSTANCE.getServiceMultiplier_Kind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getServiceMultiplier_Kind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,11 +100,17 @@ public class ServiceMultiplierItemProvider extends IdentifiedObjectItemProvider 
     protected void addValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ServiceMultiplier_value_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ServiceMultiplier_value_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ServiceMultiplier_value_feature",
                                 "_UI_ServiceMultiplier_type" ),
-                        CimPackage.eINSTANCE.getServiceMultiplier_Value(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getServiceMultiplier_Value(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -110,10 +122,17 @@ public class ServiceMultiplierItemProvider extends IdentifiedObjectItemProvider 
     protected void addUsagePointPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ServiceMultiplier_UsagePoint_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ServiceMultiplier_UsagePoint_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ServiceMultiplier_UsagePoint_feature",
                                 "_UI_ServiceMultiplier_type" ),
-                        CimPackage.eINSTANCE.getServiceMultiplier_UsagePoint(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getServiceMultiplier_UsagePoint(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

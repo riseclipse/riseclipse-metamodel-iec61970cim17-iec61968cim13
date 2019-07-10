@@ -74,13 +74,19 @@ public class DynamicsFunctionBlockItemProvider extends IdentifiedObjectItemProvi
      * @generated
      */
     protected void addEnabledPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_DynamicsFunctionBlock_enabled_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_DynamicsFunctionBlock_enabled_feature",
-                        "_UI_DynamicsFunctionBlock_type" ),
-                CimPackage.eINSTANCE.getDynamicsFunctionBlock_Enabled(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_DynamicsFunctionBlock_enabled_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_DynamicsFunctionBlock_enabled_feature",
+                                "_UI_DynamicsFunctionBlock_type" ),
+                        CimPackage.eINSTANCE.getDynamicsFunctionBlock_Enabled(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

@@ -75,13 +75,19 @@ public class InspectionDataSetItemProvider extends ProcedureDataSetItemProvider 
      * @generated
      */
     protected void addLocationConditionPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_InspectionDataSet_locationCondition_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_InspectionDataSet_locationCondition_feature",
-                        "_UI_InspectionDataSet_type" ),
-                CimPackage.eINSTANCE.getInspectionDataSet_LocationCondition(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_InspectionDataSet_locationCondition_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_InspectionDataSet_locationCondition_feature", "_UI_InspectionDataSet_type" ),
+                        CimPackage.eINSTANCE.getInspectionDataSet_LocationCondition(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,10 +99,16 @@ public class InspectionDataSetItemProvider extends ProcedureDataSetItemProvider 
     protected void addAccordingToSchedulesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_InspectionDataSet_AccordingToSchedules_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_InspectionDataSet_AccordingToSchedules_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_InspectionDataSet_AccordingToSchedules_feature", "_UI_InspectionDataSet_type" ),
-                        CimPackage.eINSTANCE.getInspectionDataSet_AccordingToSchedules(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getInspectionDataSet_AccordingToSchedules(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -166,8 +178,8 @@ public class InspectionDataSetItemProvider extends ProcedureDataSetItemProvider 
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

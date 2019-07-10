@@ -78,13 +78,19 @@ public class BasicIntervalScheduleItemProvider extends IdentifiedObjectItemProvi
      * @generated
      */
     protected void addStartTimePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_BasicIntervalSchedule_startTime_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_BasicIntervalSchedule_startTime_feature",
-                        "_UI_BasicIntervalSchedule_type" ),
-                CimPackage.eINSTANCE.getBasicIntervalSchedule_StartTime(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_BasicIntervalSchedule_startTime_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_BasicIntervalSchedule_startTime_feature",
+                                "_UI_BasicIntervalSchedule_type" ),
+                        CimPackage.eINSTANCE.getBasicIntervalSchedule_StartTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,12 +101,18 @@ public class BasicIntervalScheduleItemProvider extends IdentifiedObjectItemProvi
      */
     protected void addValue1MultiplierPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_BasicIntervalSchedule_value1Multiplier_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_BasicIntervalSchedule_value1Multiplier_feature",
                         "_UI_BasicIntervalSchedule_type" ),
-                CimPackage.eINSTANCE.getBasicIntervalSchedule_Value1Multiplier(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getBasicIntervalSchedule_Value1Multiplier(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -110,13 +122,19 @@ public class BasicIntervalScheduleItemProvider extends IdentifiedObjectItemProvi
      * @generated
      */
     protected void addValue1UnitPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_BasicIntervalSchedule_value1Unit_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_BasicIntervalSchedule_value1Unit_feature",
-                        "_UI_BasicIntervalSchedule_type" ),
-                CimPackage.eINSTANCE.getBasicIntervalSchedule_Value1Unit(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_BasicIntervalSchedule_value1Unit_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_BasicIntervalSchedule_value1Unit_feature",
+                                "_UI_BasicIntervalSchedule_type" ),
+                        CimPackage.eINSTANCE.getBasicIntervalSchedule_Value1Unit(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -127,12 +145,18 @@ public class BasicIntervalScheduleItemProvider extends IdentifiedObjectItemProvi
      */
     protected void addValue2MultiplierPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_BasicIntervalSchedule_value2Multiplier_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_BasicIntervalSchedule_value2Multiplier_feature",
                         "_UI_BasicIntervalSchedule_type" ),
-                CimPackage.eINSTANCE.getBasicIntervalSchedule_Value2Multiplier(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getBasicIntervalSchedule_Value2Multiplier(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -142,13 +166,19 @@ public class BasicIntervalScheduleItemProvider extends IdentifiedObjectItemProvi
      * @generated
      */
     protected void addValue2UnitPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_BasicIntervalSchedule_value2Unit_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_BasicIntervalSchedule_value2Unit_feature",
-                        "_UI_BasicIntervalSchedule_type" ),
-                CimPackage.eINSTANCE.getBasicIntervalSchedule_Value2Unit(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_BasicIntervalSchedule_value2Unit_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_BasicIntervalSchedule_value2Unit_feature",
+                                "_UI_BasicIntervalSchedule_type" ),
+                        CimPackage.eINSTANCE.getBasicIntervalSchedule_Value2Unit(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

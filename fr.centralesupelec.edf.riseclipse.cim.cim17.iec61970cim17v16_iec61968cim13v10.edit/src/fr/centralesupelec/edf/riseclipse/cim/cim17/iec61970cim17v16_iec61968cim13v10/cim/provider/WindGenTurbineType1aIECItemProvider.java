@@ -73,11 +73,17 @@ public class WindGenTurbineType1aIECItemProvider extends WindTurbineType1or2IECI
      */
     protected void addWindAeroConstIECPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindGenTurbineType1aIEC_WindAeroConstIEC_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_WindGenTurbineType1aIEC_WindAeroConstIEC_feature",
                         "_UI_WindGenTurbineType1aIEC_type" ),
-                CimPackage.eINSTANCE.getWindGenTurbineType1aIEC_WindAeroConstIEC(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getWindGenTurbineType1aIEC_WindAeroConstIEC(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -115,7 +121,6 @@ public class WindGenTurbineType1aIECItemProvider extends WindTurbineType1or2IECI
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

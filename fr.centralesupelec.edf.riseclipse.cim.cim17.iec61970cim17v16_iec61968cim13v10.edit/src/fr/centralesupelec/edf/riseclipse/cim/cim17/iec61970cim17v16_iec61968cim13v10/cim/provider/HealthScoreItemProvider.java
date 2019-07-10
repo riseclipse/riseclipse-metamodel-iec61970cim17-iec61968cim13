@@ -74,10 +74,17 @@ public class HealthScoreItemProvider extends AggregateScoreItemProvider {
     protected void addAssetRiskScorePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_HealthScore_AssetRiskScore_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_HealthScore_AssetRiskScore_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_HealthScore_AssetRiskScore_feature",
                                 "_UI_HealthScore_type" ),
-                        CimPackage.eINSTANCE.getHealthScore_AssetRiskScore(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getHealthScore_AssetRiskScore(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class HealthScoreItemProvider extends AggregateScoreItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

@@ -81,13 +81,19 @@ public class TransformerMeshImpedanceItemProvider extends IdentifiedObjectItemPr
      * @generated
      */
     protected void addRPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TransformerMeshImpedance_r_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TransformerMeshImpedance_r_feature",
-                        "_UI_TransformerMeshImpedance_type" ),
-                CimPackage.eINSTANCE.getTransformerMeshImpedance_R(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerMeshImpedance_r_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_TransformerMeshImpedance_r_feature",
+                                "_UI_TransformerMeshImpedance_type" ),
+                        CimPackage.eINSTANCE.getTransformerMeshImpedance_R(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -97,13 +103,19 @@ public class TransformerMeshImpedanceItemProvider extends IdentifiedObjectItemPr
      * @generated
      */
     protected void addR0PropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TransformerMeshImpedance_r0_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TransformerMeshImpedance_r0_feature",
-                        "_UI_TransformerMeshImpedance_type" ),
-                CimPackage.eINSTANCE.getTransformerMeshImpedance_R0(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerMeshImpedance_r0_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_TransformerMeshImpedance_r0_feature",
+                                "_UI_TransformerMeshImpedance_type" ),
+                        CimPackage.eINSTANCE.getTransformerMeshImpedance_R0(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -113,13 +125,19 @@ public class TransformerMeshImpedanceItemProvider extends IdentifiedObjectItemPr
      * @generated
      */
     protected void addXPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TransformerMeshImpedance_x_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TransformerMeshImpedance_x_feature",
-                        "_UI_TransformerMeshImpedance_type" ),
-                CimPackage.eINSTANCE.getTransformerMeshImpedance_X(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerMeshImpedance_x_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_TransformerMeshImpedance_x_feature",
+                                "_UI_TransformerMeshImpedance_type" ),
+                        CimPackage.eINSTANCE.getTransformerMeshImpedance_X(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -129,13 +147,19 @@ public class TransformerMeshImpedanceItemProvider extends IdentifiedObjectItemPr
      * @generated
      */
     protected void addX0PropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TransformerMeshImpedance_x0_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TransformerMeshImpedance_x0_feature",
-                        "_UI_TransformerMeshImpedance_type" ),
-                CimPackage.eINSTANCE.getTransformerMeshImpedance_X0(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerMeshImpedance_x0_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_TransformerMeshImpedance_x0_feature",
+                                "_UI_TransformerMeshImpedance_type" ),
+                        CimPackage.eINSTANCE.getTransformerMeshImpedance_X0(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -146,11 +170,17 @@ public class TransformerMeshImpedanceItemProvider extends IdentifiedObjectItemPr
      */
     protected void addToTransformerEndPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_TransformerMeshImpedance_ToTransformerEnd_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_TransformerMeshImpedance_ToTransformerEnd_feature", "_UI_TransformerMeshImpedance_type" ),
-                CimPackage.eINSTANCE.getTransformerMeshImpedance_ToTransformerEnd(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getTransformerMeshImpedance_ToTransformerEnd(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -161,14 +191,20 @@ public class TransformerMeshImpedanceItemProvider extends IdentifiedObjectItemPr
      * @generated
      */
     protected void addFromTransformerEndInfoPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TransformerMeshImpedance_FromTransformerEndInfo_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_TransformerMeshImpedance_FromTransformerEndInfo_feature",
-                        "_UI_TransformerMeshImpedance_type" ),
-                CimPackage.eINSTANCE.getTransformerMeshImpedance_FromTransformerEndInfo(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerMeshImpedance_FromTransformerEndInfo_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_TransformerMeshImpedance_FromTransformerEndInfo_feature",
+                                "_UI_TransformerMeshImpedance_type" ),
+                        CimPackage.eINSTANCE.getTransformerMeshImpedance_FromTransformerEndInfo(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -180,12 +216,18 @@ public class TransformerMeshImpedanceItemProvider extends IdentifiedObjectItemPr
     protected void addFromTransformerEndPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TransformerMeshImpedance_FromTransformerEnd_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerMeshImpedance_FromTransformerEnd_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_TransformerMeshImpedance_FromTransformerEnd_feature",
                                 "_UI_TransformerMeshImpedance_type" ),
-                        CimPackage.eINSTANCE.getTransformerMeshImpedance_FromTransformerEnd(), true, false, true, null,
-                        null, null ) );
+                        CimPackage.eINSTANCE.getTransformerMeshImpedance_FromTransformerEnd(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -197,12 +239,18 @@ public class TransformerMeshImpedanceItemProvider extends IdentifiedObjectItemPr
     protected void addToTransformerEndInfosPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TransformerMeshImpedance_ToTransformerEndInfos_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerMeshImpedance_ToTransformerEndInfos_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_TransformerMeshImpedance_ToTransformerEndInfos_feature",
                                 "_UI_TransformerMeshImpedance_type" ),
-                        CimPackage.eINSTANCE.getTransformerMeshImpedance_ToTransformerEndInfos(), true, false, true,
-                        null, null, null ) );
+                        CimPackage.eINSTANCE.getTransformerMeshImpedance_ToTransformerEndInfos(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

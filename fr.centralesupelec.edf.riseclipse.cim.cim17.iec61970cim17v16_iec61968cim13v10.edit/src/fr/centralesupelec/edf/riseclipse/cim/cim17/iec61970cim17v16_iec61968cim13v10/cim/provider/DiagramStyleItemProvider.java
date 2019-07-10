@@ -74,10 +74,17 @@ public class DiagramStyleItemProvider extends IdentifiedObjectItemProvider {
     protected void addDiagramPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiagramStyle_Diagram_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiagramStyle_Diagram_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiagramStyle_Diagram_feature",
                                 "_UI_DiagramStyle_type" ),
-                        CimPackage.eINSTANCE.getDiagramStyle_Diagram(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getDiagramStyle_Diagram(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class DiagramStyleItemProvider extends IdentifiedObjectItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

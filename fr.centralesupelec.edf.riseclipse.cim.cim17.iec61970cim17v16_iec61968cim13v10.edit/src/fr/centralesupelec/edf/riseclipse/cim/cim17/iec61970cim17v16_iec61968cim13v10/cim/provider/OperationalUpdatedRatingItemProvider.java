@@ -76,12 +76,18 @@ public class OperationalUpdatedRatingItemProvider extends OperationalRestriction
      */
     protected void addChangeTypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_OperationalUpdatedRating_changeType_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_OperationalUpdatedRating_changeType_feature",
                         "_UI_OperationalUpdatedRating_type" ),
-                CimPackage.eINSTANCE.getOperationalUpdatedRating_ChangeType(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getOperationalUpdatedRating_ChangeType(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -92,11 +98,17 @@ public class OperationalUpdatedRatingItemProvider extends OperationalRestriction
      */
     protected void addPlannedOutagePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_OperationalUpdatedRating_PlannedOutage_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_OperationalUpdatedRating_PlannedOutage_feature",
                         "_UI_OperationalUpdatedRating_type" ),
-                CimPackage.eINSTANCE.getOperationalUpdatedRating_PlannedOutage(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getOperationalUpdatedRating_PlannedOutage(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -166,8 +178,8 @@ public class OperationalUpdatedRatingItemProvider extends OperationalRestriction
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

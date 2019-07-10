@@ -85,11 +85,17 @@ public class RegulatingControlItemProvider extends PowerSystemResourceItemProvid
     protected void addDiscretePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RegulatingControl_discrete_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RegulatingControl_discrete_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RegulatingControl_discrete_feature",
                                 "_UI_RegulatingControl_type" ),
-                        CimPackage.eINSTANCE.getRegulatingControl_Discrete(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getRegulatingControl_Discrete(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -101,11 +107,17 @@ public class RegulatingControlItemProvider extends PowerSystemResourceItemProvid
     protected void addEnabledPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RegulatingControl_enabled_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RegulatingControl_enabled_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RegulatingControl_enabled_feature",
                                 "_UI_RegulatingControl_type" ),
-                        CimPackage.eINSTANCE.getRegulatingControl_Enabled(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getRegulatingControl_Enabled(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -117,11 +129,17 @@ public class RegulatingControlItemProvider extends PowerSystemResourceItemProvid
     protected void addModePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RegulatingControl_mode_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RegulatingControl_mode_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RegulatingControl_mode_feature",
                                 "_UI_RegulatingControl_type" ),
-                        CimPackage.eINSTANCE.getRegulatingControl_Mode(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getRegulatingControl_Mode(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -131,13 +149,19 @@ public class RegulatingControlItemProvider extends PowerSystemResourceItemProvid
      * @generated
      */
     protected void addMonitoredPhasePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_RegulatingControl_monitoredPhase_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_RegulatingControl_monitoredPhase_feature",
-                        "_UI_RegulatingControl_type" ),
-                CimPackage.eINSTANCE.getRegulatingControl_MonitoredPhase(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_RegulatingControl_monitoredPhase_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_RegulatingControl_monitoredPhase_feature",
+                                "_UI_RegulatingControl_type" ),
+                        CimPackage.eINSTANCE.getRegulatingControl_MonitoredPhase(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -147,13 +171,19 @@ public class RegulatingControlItemProvider extends PowerSystemResourceItemProvid
      * @generated
      */
     protected void addTargetDeadbandPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_RegulatingControl_targetDeadband_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_RegulatingControl_targetDeadband_feature",
-                        "_UI_RegulatingControl_type" ),
-                CimPackage.eINSTANCE.getRegulatingControl_TargetDeadband(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_RegulatingControl_targetDeadband_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_RegulatingControl_targetDeadband_feature",
+                                "_UI_RegulatingControl_type" ),
+                        CimPackage.eINSTANCE.getRegulatingControl_TargetDeadband(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -165,11 +195,17 @@ public class RegulatingControlItemProvider extends PowerSystemResourceItemProvid
     protected void addTargetValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RegulatingControl_targetValue_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RegulatingControl_targetValue_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RegulatingControl_targetValue_feature",
                                 "_UI_RegulatingControl_type" ),
-                        CimPackage.eINSTANCE.getRegulatingControl_TargetValue(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getRegulatingControl_TargetValue(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -180,12 +216,18 @@ public class RegulatingControlItemProvider extends PowerSystemResourceItemProvid
      */
     protected void addTargetValueUnitMultiplierPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_RegulatingControl_targetValueUnitMultiplier_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_RegulatingControl_targetValueUnitMultiplier_feature", "_UI_RegulatingControl_type" ),
-                CimPackage.eINSTANCE.getRegulatingControl_TargetValueUnitMultiplier(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getRegulatingControl_TargetValueUnitMultiplier(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -195,12 +237,19 @@ public class RegulatingControlItemProvider extends PowerSystemResourceItemProvid
      * @generated
      */
     protected void addRegulatingCondEqPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_RegulatingControl_RegulatingCondEq_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_RegulatingControl_RegulatingCondEq_feature",
-                        "_UI_RegulatingControl_type" ),
-                CimPackage.eINSTANCE.getRegulatingControl_RegulatingCondEq(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_RegulatingControl_RegulatingCondEq_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_RegulatingControl_RegulatingCondEq_feature", "_UI_RegulatingControl_type" ),
+                        CimPackage.eINSTANCE.getRegulatingControl_RegulatingCondEq(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -212,10 +261,17 @@ public class RegulatingControlItemProvider extends PowerSystemResourceItemProvid
     protected void addTerminalPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RegulatingControl_Terminal_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RegulatingControl_Terminal_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RegulatingControl_Terminal_feature",
                                 "_UI_RegulatingControl_type" ),
-                        CimPackage.eINSTANCE.getRegulatingControl_Terminal(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getRegulatingControl_Terminal(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -225,12 +281,19 @@ public class RegulatingControlItemProvider extends PowerSystemResourceItemProvid
      * @generated
      */
     protected void addRegulationSchedulePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_RegulatingControl_RegulationSchedule_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_RegulatingControl_RegulationSchedule_feature",
-                        "_UI_RegulatingControl_type" ),
-                CimPackage.eINSTANCE.getRegulatingControl_RegulationSchedule(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_RegulatingControl_RegulationSchedule_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_RegulatingControl_RegulationSchedule_feature", "_UI_RegulatingControl_type" ),
+                        CimPackage.eINSTANCE.getRegulatingControl_RegulationSchedule(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

@@ -75,10 +75,17 @@ public class AnalogLimitSetItemProvider extends LimitSetItemProvider {
     protected void addMeasurementsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AnalogLimitSet_Measurements_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AnalogLimitSet_Measurements_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AnalogLimitSet_Measurements_feature",
                                 "_UI_AnalogLimitSet_type" ),
-                        CimPackage.eINSTANCE.getAnalogLimitSet_Measurements(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAnalogLimitSet_Measurements(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -90,10 +97,17 @@ public class AnalogLimitSetItemProvider extends LimitSetItemProvider {
     protected void addLimitsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AnalogLimitSet_Limits_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AnalogLimitSet_Limits_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AnalogLimitSet_Limits_feature",
                                 "_UI_AnalogLimitSet_type" ),
-                        CimPackage.eINSTANCE.getAnalogLimitSet_Limits(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAnalogLimitSet_Limits(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -130,7 +144,6 @@ public class AnalogLimitSetItemProvider extends LimitSetItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

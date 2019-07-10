@@ -87,11 +87,17 @@ public class SwitchInfoItemProvider extends AssetInfoItemProvider {
     protected void addBreakingCapacityPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SwitchInfo_breakingCapacity_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchInfo_breakingCapacity_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SwitchInfo_breakingCapacity_feature",
                                 "_UI_SwitchInfo_type" ),
-                        CimPackage.eINSTANCE.getSwitchInfo_BreakingCapacity(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSwitchInfo_BreakingCapacity(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -103,11 +109,17 @@ public class SwitchInfoItemProvider extends AssetInfoItemProvider {
     protected void addGasWeightPerTankPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SwitchInfo_gasWeightPerTank_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchInfo_gasWeightPerTank_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SwitchInfo_gasWeightPerTank_feature",
                                 "_UI_SwitchInfo_type" ),
-                        CimPackage.eINSTANCE.getSwitchInfo_GasWeightPerTank(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSwitchInfo_GasWeightPerTank(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -119,11 +131,17 @@ public class SwitchInfoItemProvider extends AssetInfoItemProvider {
     protected void addIsSinglePhasePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SwitchInfo_isSinglePhase_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchInfo_isSinglePhase_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SwitchInfo_isSinglePhase_feature",
                                 "_UI_SwitchInfo_type" ),
-                        CimPackage.eINSTANCE.getSwitchInfo_IsSinglePhase(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSwitchInfo_IsSinglePhase(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -135,11 +153,17 @@ public class SwitchInfoItemProvider extends AssetInfoItemProvider {
     protected void addIsUngangedPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SwitchInfo_isUnganged_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchInfo_isUnganged_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SwitchInfo_isUnganged_feature",
                                 "_UI_SwitchInfo_type" ),
-                        CimPackage.eINSTANCE.getSwitchInfo_IsUnganged(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSwitchInfo_IsUnganged(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -151,11 +175,17 @@ public class SwitchInfoItemProvider extends AssetInfoItemProvider {
     protected void addLowPressureAlarmPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SwitchInfo_lowPressureAlarm_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchInfo_lowPressureAlarm_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SwitchInfo_lowPressureAlarm_feature",
                                 "_UI_SwitchInfo_type" ),
-                        CimPackage.eINSTANCE.getSwitchInfo_LowPressureAlarm(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSwitchInfo_LowPressureAlarm(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -167,11 +197,17 @@ public class SwitchInfoItemProvider extends AssetInfoItemProvider {
     protected void addLowPressureLockOutPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SwitchInfo_lowPressureLockOut_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchInfo_lowPressureLockOut_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SwitchInfo_lowPressureLockOut_feature",
                                 "_UI_SwitchInfo_type" ),
-                        CimPackage.eINSTANCE.getSwitchInfo_LowPressureLockOut(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSwitchInfo_LowPressureLockOut(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -183,11 +219,17 @@ public class SwitchInfoItemProvider extends AssetInfoItemProvider {
     protected void addOilVolumePerTankPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SwitchInfo_oilVolumePerTank_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchInfo_oilVolumePerTank_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SwitchInfo_oilVolumePerTank_feature",
                                 "_UI_SwitchInfo_type" ),
-                        CimPackage.eINSTANCE.getSwitchInfo_OilVolumePerTank(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSwitchInfo_OilVolumePerTank(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -199,11 +241,17 @@ public class SwitchInfoItemProvider extends AssetInfoItemProvider {
     protected void addRatedCurrentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SwitchInfo_ratedCurrent_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchInfo_ratedCurrent_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SwitchInfo_ratedCurrent_feature",
                                 "_UI_SwitchInfo_type" ),
-                        CimPackage.eINSTANCE.getSwitchInfo_RatedCurrent(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSwitchInfo_RatedCurrent(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -215,11 +263,17 @@ public class SwitchInfoItemProvider extends AssetInfoItemProvider {
     protected void addRatedFrequencyPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SwitchInfo_ratedFrequency_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchInfo_ratedFrequency_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SwitchInfo_ratedFrequency_feature",
                                 "_UI_SwitchInfo_type" ),
-                        CimPackage.eINSTANCE.getSwitchInfo_RatedFrequency(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSwitchInfo_RatedFrequency(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -229,13 +283,19 @@ public class SwitchInfoItemProvider extends AssetInfoItemProvider {
      * @generated
      */
     protected void addRatedImpulseWithstandVoltagePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SwitchInfo_ratedImpulseWithstandVoltage_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SwitchInfo_ratedImpulseWithstandVoltage_feature",
-                        "_UI_SwitchInfo_type" ),
-                CimPackage.eINSTANCE.getSwitchInfo_RatedImpulseWithstandVoltage(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchInfo_ratedImpulseWithstandVoltage_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_SwitchInfo_ratedImpulseWithstandVoltage_feature", "_UI_SwitchInfo_type" ),
+                        CimPackage.eINSTANCE.getSwitchInfo_RatedImpulseWithstandVoltage(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -247,11 +307,17 @@ public class SwitchInfoItemProvider extends AssetInfoItemProvider {
     protected void addRatedInterruptingTimePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SwitchInfo_ratedInterruptingTime_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchInfo_ratedInterruptingTime_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SwitchInfo_ratedInterruptingTime_feature",
                                 "_UI_SwitchInfo_type" ),
-                        CimPackage.eINSTANCE.getSwitchInfo_RatedInterruptingTime(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSwitchInfo_RatedInterruptingTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -263,11 +329,17 @@ public class SwitchInfoItemProvider extends AssetInfoItemProvider {
     protected void addRatedVoltagePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SwitchInfo_ratedVoltage_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchInfo_ratedVoltage_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SwitchInfo_ratedVoltage_feature",
                                 "_UI_SwitchInfo_type" ),
-                        CimPackage.eINSTANCE.getSwitchInfo_RatedVoltage(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSwitchInfo_RatedVoltage(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

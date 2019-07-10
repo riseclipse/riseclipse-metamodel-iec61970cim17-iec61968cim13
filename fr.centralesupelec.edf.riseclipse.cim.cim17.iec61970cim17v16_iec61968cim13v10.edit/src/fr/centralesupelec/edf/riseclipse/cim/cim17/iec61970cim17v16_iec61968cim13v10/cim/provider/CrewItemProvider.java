@@ -81,10 +81,17 @@ public class CrewItemProvider extends IdentifiedObjectItemProvider {
     protected void addWorkTasksPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Crew_WorkTasks_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Crew_WorkTasks_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Crew_WorkTasks_feature",
                                 "_UI_Crew_type" ),
-                        CimPackage.eINSTANCE.getCrew_WorkTasks(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCrew_WorkTasks(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -96,10 +103,17 @@ public class CrewItemProvider extends IdentifiedObjectItemProvider {
     protected void addWorkAssetsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Crew_WorkAssets_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Crew_WorkAssets_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Crew_WorkAssets_feature",
                                 "_UI_Crew_type" ),
-                        CimPackage.eINSTANCE.getCrew_WorkAssets(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCrew_WorkAssets(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,10 +125,17 @@ public class CrewItemProvider extends IdentifiedObjectItemProvider {
     protected void addCrewMembersPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Crew_CrewMembers_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Crew_CrewMembers_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Crew_CrewMembers_feature",
                                 "_UI_Crew_type" ),
-                        CimPackage.eINSTANCE.getCrew_CrewMembers(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCrew_CrewMembers(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -126,9 +147,16 @@ public class CrewItemProvider extends IdentifiedObjectItemProvider {
     protected void addCrewTypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Crew_CrewType_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Crew_CrewType_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Crew_CrewType_feature", "_UI_Crew_type" ),
-                        CimPackage.eINSTANCE.getCrew_CrewType(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCrew_CrewType(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -215,8 +243,8 @@ public class CrewItemProvider extends IdentifiedObjectItemProvider {
     protected void collectNewChildDescriptors( Collection< Object > newChildDescriptors, Object object ) {
         super.collectNewChildDescriptors( newChildDescriptors, object );
 
-        newChildDescriptors.add(
-                createChildParameter( CimPackage.eINSTANCE.getCrew_Status(), CimFactory.eINSTANCE.createStatus() ) );
+        newChildDescriptors.add( createChildParameter( CimPackage.eINSTANCE.getCrew_Status(),
+                CimFactory.eINSTANCE.createStatus() ) );
     }
 
 }

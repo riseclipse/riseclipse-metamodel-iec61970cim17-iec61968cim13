@@ -81,11 +81,17 @@ public class ControlAreaItemProvider extends PowerSystemResourceItemProvider {
     protected void addNetInterchangePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ControlArea_netInterchange_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ControlArea_netInterchange_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ControlArea_netInterchange_feature",
                                 "_UI_ControlArea_type" ),
-                        CimPackage.eINSTANCE.getControlArea_NetInterchange(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getControlArea_NetInterchange(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -97,11 +103,17 @@ public class ControlAreaItemProvider extends PowerSystemResourceItemProvider {
     protected void addPTolerancePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ControlArea_pTolerance_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ControlArea_pTolerance_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ControlArea_pTolerance_feature",
                                 "_UI_ControlArea_type" ),
-                        CimPackage.eINSTANCE.getControlArea_PTolerance(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getControlArea_PTolerance(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -113,11 +125,17 @@ public class ControlAreaItemProvider extends PowerSystemResourceItemProvider {
     protected void addTypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ControlArea_type_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ControlArea_type_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ControlArea_type_feature",
                                 "_UI_ControlArea_type" ),
-                        CimPackage.eINSTANCE.getControlArea_Type(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getControlArea_Type(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -129,10 +147,17 @@ public class ControlAreaItemProvider extends PowerSystemResourceItemProvider {
     protected void addEnergyAreaPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ControlArea_EnergyArea_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ControlArea_EnergyArea_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ControlArea_EnergyArea_feature",
                                 "_UI_ControlArea_type" ),
-                        CimPackage.eINSTANCE.getControlArea_EnergyArea(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getControlArea_EnergyArea(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -144,10 +169,17 @@ public class ControlAreaItemProvider extends PowerSystemResourceItemProvider {
     protected void addTieFlowPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ControlArea_TieFlow_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ControlArea_TieFlow_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ControlArea_TieFlow_feature",
                                 "_UI_ControlArea_type" ),
-                        CimPackage.eINSTANCE.getControlArea_TieFlow(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getControlArea_TieFlow(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -157,13 +189,19 @@ public class ControlAreaItemProvider extends PowerSystemResourceItemProvider {
      * @generated
      */
     protected void addControlAreaGeneratingUnitPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ControlArea_ControlAreaGeneratingUnit_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ControlArea_ControlAreaGeneratingUnit_feature",
-                        "_UI_ControlArea_type" ),
-                CimPackage.eINSTANCE.getControlArea_ControlAreaGeneratingUnit(), true, false, true, null, null,
-                null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ControlArea_ControlAreaGeneratingUnit_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ControlArea_ControlAreaGeneratingUnit_feature", "_UI_ControlArea_type" ),
+                        CimPackage.eINSTANCE.getControlArea_ControlAreaGeneratingUnit(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

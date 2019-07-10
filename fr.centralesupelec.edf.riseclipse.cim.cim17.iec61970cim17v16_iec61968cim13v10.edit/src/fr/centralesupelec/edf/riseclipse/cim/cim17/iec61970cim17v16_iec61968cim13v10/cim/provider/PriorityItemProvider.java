@@ -87,11 +87,17 @@ public class PriorityItemProvider extends ItemProviderAdapter implements IEditin
     protected void addJustificationPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Priority_justification_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Priority_justification_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Priority_justification_feature",
                                 "_UI_Priority_type" ),
-                        CimPackage.eINSTANCE.getPriority_Justification(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPriority_Justification(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -103,11 +109,17 @@ public class PriorityItemProvider extends ItemProviderAdapter implements IEditin
     protected void addRankPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Priority_rank_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Priority_rank_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Priority_rank_feature",
                                 "_UI_Priority_type" ),
-                        CimPackage.eINSTANCE.getPriority_Rank(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPriority_Rank(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -119,11 +131,17 @@ public class PriorityItemProvider extends ItemProviderAdapter implements IEditin
     protected void addTypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Priority_type_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Priority_type_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Priority_type_feature",
                                 "_UI_Priority_type" ),
-                        CimPackage.eINSTANCE.getPriority_Type(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPriority_Type(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

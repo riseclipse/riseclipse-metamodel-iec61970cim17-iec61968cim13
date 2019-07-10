@@ -80,11 +80,17 @@ public class AnalogValueItemProvider extends MeasurementValueItemProvider {
     protected void addValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AnalogValue_value_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AnalogValue_value_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AnalogValue_value_feature",
                                 "_UI_AnalogValue_type" ),
-                        CimPackage.eINSTANCE.getAnalogValue_Value(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAnalogValue_Value(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -96,10 +102,17 @@ public class AnalogValueItemProvider extends MeasurementValueItemProvider {
     protected void addAnalogPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AnalogValue_Analog_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AnalogValue_Analog_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AnalogValue_Analog_feature",
                                 "_UI_AnalogValue_type" ),
-                        CimPackage.eINSTANCE.getAnalogValue_Analog(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAnalogValue_Analog(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,10 +124,17 @@ public class AnalogValueItemProvider extends MeasurementValueItemProvider {
     protected void addAnalogControlPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AnalogValue_AnalogControl_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AnalogValue_AnalogControl_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AnalogValue_AnalogControl_feature",
                                 "_UI_AnalogValue_type" ),
-                        CimPackage.eINSTANCE.getAnalogValue_AnalogControl(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAnalogValue_AnalogControl(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -126,10 +146,16 @@ public class AnalogValueItemProvider extends MeasurementValueItemProvider {
     protected void addAltGeneratingUnitPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AnalogValue_AltGeneratingUnit_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AnalogValue_AltGeneratingUnit_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AnalogValue_AltGeneratingUnit_feature",
                                 "_UI_AnalogValue_type" ),
-                        CimPackage.eINSTANCE.getAnalogValue_AltGeneratingUnit(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getAnalogValue_AltGeneratingUnit(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -142,10 +168,17 @@ public class AnalogValueItemProvider extends MeasurementValueItemProvider {
     protected void addAltTieMeasPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AnalogValue_AltTieMeas_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AnalogValue_AltTieMeas_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AnalogValue_AltTieMeas_feature",
                                 "_UI_AnalogValue_type" ),
-                        CimPackage.eINSTANCE.getAnalogValue_AltTieMeas(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAnalogValue_AltTieMeas(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

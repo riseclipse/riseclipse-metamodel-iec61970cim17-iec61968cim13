@@ -96,7 +96,6 @@ public class NuclearGeneratingUnitItemProvider extends GeneratingUnitItemProvide
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

@@ -73,11 +73,18 @@ public class IrregularIntervalScheduleItemProvider extends BasicIntervalSchedule
      */
     protected void addTimePointsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_IrregularIntervalSchedule_TimePoints_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_IrregularIntervalSchedule_TimePoints_feature",
                         "_UI_IrregularIntervalSchedule_type" ),
-                CimPackage.eINSTANCE.getIrregularIntervalSchedule_TimePoints(), true, false, true, null, null, null ) );
+                CimPackage.eINSTANCE.getIrregularIntervalSchedule_TimePoints(),
+                true,
+                false,
+                true,
+                null,
+                null,
+                null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class IrregularIntervalScheduleItemProvider extends BasicIntervalSchedule
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

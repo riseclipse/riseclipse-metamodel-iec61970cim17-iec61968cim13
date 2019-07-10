@@ -78,11 +78,17 @@ public class DiscreteValueItemProvider extends MeasurementValueItemProvider {
     protected void addValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiscreteValue_value_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiscreteValue_value_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiscreteValue_value_feature",
                                 "_UI_DiscreteValue_type" ),
-                        CimPackage.eINSTANCE.getDiscreteValue_Value(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiscreteValue_Value(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,10 +100,17 @@ public class DiscreteValueItemProvider extends MeasurementValueItemProvider {
     protected void addCommandPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiscreteValue_Command_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiscreteValue_Command_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiscreteValue_Command_feature",
                                 "_UI_DiscreteValue_type" ),
-                        CimPackage.eINSTANCE.getDiscreteValue_Command(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getDiscreteValue_Command(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -109,10 +122,17 @@ public class DiscreteValueItemProvider extends MeasurementValueItemProvider {
     protected void addDiscretePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiscreteValue_Discrete_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiscreteValue_Discrete_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiscreteValue_Discrete_feature",
                                 "_UI_DiscreteValue_type" ),
-                        CimPackage.eINSTANCE.getDiscreteValue_Discrete(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getDiscreteValue_Discrete(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

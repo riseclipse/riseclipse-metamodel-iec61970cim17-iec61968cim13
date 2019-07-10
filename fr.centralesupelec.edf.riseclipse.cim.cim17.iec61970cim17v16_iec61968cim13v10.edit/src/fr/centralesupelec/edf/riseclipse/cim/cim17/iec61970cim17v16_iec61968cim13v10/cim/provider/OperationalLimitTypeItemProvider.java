@@ -77,12 +77,18 @@ public class OperationalLimitTypeItemProvider extends IdentifiedObjectItemProvid
      */
     protected void addAcceptableDurationPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_OperationalLimitType_acceptableDuration_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_OperationalLimitType_acceptableDuration_feature",
                         "_UI_OperationalLimitType_type" ),
-                CimPackage.eINSTANCE.getOperationalLimitType_AcceptableDuration(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getOperationalLimitType_AcceptableDuration(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -92,13 +98,19 @@ public class OperationalLimitTypeItemProvider extends IdentifiedObjectItemProvid
      * @generated
      */
     protected void addDirectionPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_OperationalLimitType_direction_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_OperationalLimitType_direction_feature",
-                        "_UI_OperationalLimitType_type" ),
-                CimPackage.eINSTANCE.getOperationalLimitType_Direction(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_OperationalLimitType_direction_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_OperationalLimitType_direction_feature",
+                                "_UI_OperationalLimitType_type" ),
+                        CimPackage.eINSTANCE.getOperationalLimitType_Direction(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -110,10 +122,16 @@ public class OperationalLimitTypeItemProvider extends IdentifiedObjectItemProvid
     protected void addOperationalLimitPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OperationalLimitType_OperationalLimit_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OperationalLimitType_OperationalLimit_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_OperationalLimitType_OperationalLimit_feature", "_UI_OperationalLimitType_type" ),
-                        CimPackage.eINSTANCE.getOperationalLimitType_OperationalLimit(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getOperationalLimitType_OperationalLimit(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 

@@ -80,12 +80,18 @@ public class HydroGeneratingUnitItemProvider extends GeneratingUnitItemProvider 
      */
     protected void addEnergyConversionCapabilityPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_HydroGeneratingUnit_energyConversionCapability_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_HydroGeneratingUnit_energyConversionCapability_feature", "_UI_HydroGeneratingUnit_type" ),
-                CimPackage.eINSTANCE.getHydroGeneratingUnit_EnergyConversionCapability(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getHydroGeneratingUnit_EnergyConversionCapability(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -97,11 +103,17 @@ public class HydroGeneratingUnitItemProvider extends GeneratingUnitItemProvider 
     protected void addHydroUnitWaterCostPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_HydroGeneratingUnit_hydroUnitWaterCost_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_HydroGeneratingUnit_hydroUnitWaterCost_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_HydroGeneratingUnit_hydroUnitWaterCost_feature", "_UI_HydroGeneratingUnit_type" ),
-                        CimPackage.eINSTANCE.getHydroGeneratingUnit_HydroUnitWaterCost(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getHydroGeneratingUnit_HydroUnitWaterCost(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,12 +123,19 @@ public class HydroGeneratingUnitItemProvider extends GeneratingUnitItemProvider 
      * @generated
      */
     protected void addHydroPowerPlantPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_HydroGeneratingUnit_HydroPowerPlant_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_HydroGeneratingUnit_HydroPowerPlant_feature",
-                        "_UI_HydroGeneratingUnit_type" ),
-                CimPackage.eINSTANCE.getHydroGeneratingUnit_HydroPowerPlant(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_HydroGeneratingUnit_HydroPowerPlant_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_HydroGeneratingUnit_HydroPowerPlant_feature", "_UI_HydroGeneratingUnit_type" ),
+                        CimPackage.eINSTANCE.getHydroGeneratingUnit_HydroPowerPlant(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -128,10 +147,16 @@ public class HydroGeneratingUnitItemProvider extends GeneratingUnitItemProvider 
     protected void addPenstockLossCurvePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_HydroGeneratingUnit_PenstockLossCurve_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_HydroGeneratingUnit_PenstockLossCurve_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_HydroGeneratingUnit_PenstockLossCurve_feature", "_UI_HydroGeneratingUnit_type" ),
-                        CimPackage.eINSTANCE.getHydroGeneratingUnit_PenstockLossCurve(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getHydroGeneratingUnit_PenstockLossCurve(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -142,14 +167,20 @@ public class HydroGeneratingUnitItemProvider extends GeneratingUnitItemProvider 
      * @generated
      */
     protected void addHydroGeneratingEfficiencyCurvesPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_HydroGeneratingUnit_HydroGeneratingEfficiencyCurves_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_HydroGeneratingUnit_HydroGeneratingEfficiencyCurves_feature",
-                        "_UI_HydroGeneratingUnit_type" ),
-                CimPackage.eINSTANCE.getHydroGeneratingUnit_HydroGeneratingEfficiencyCurves(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_HydroGeneratingUnit_HydroGeneratingEfficiencyCurves_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_HydroGeneratingUnit_HydroGeneratingEfficiencyCurves_feature",
+                                "_UI_HydroGeneratingUnit_type" ),
+                        CimPackage.eINSTANCE.getHydroGeneratingUnit_HydroGeneratingEfficiencyCurves(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -159,12 +190,19 @@ public class HydroGeneratingUnitItemProvider extends GeneratingUnitItemProvider 
      * @generated
      */
     protected void addTailbayLossCurvePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_HydroGeneratingUnit_TailbayLossCurve_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_HydroGeneratingUnit_TailbayLossCurve_feature",
-                        "_UI_HydroGeneratingUnit_type" ),
-                CimPackage.eINSTANCE.getHydroGeneratingUnit_TailbayLossCurve(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_HydroGeneratingUnit_TailbayLossCurve_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_HydroGeneratingUnit_TailbayLossCurve_feature", "_UI_HydroGeneratingUnit_type" ),
+                        CimPackage.eINSTANCE.getHydroGeneratingUnit_TailbayLossCurve(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

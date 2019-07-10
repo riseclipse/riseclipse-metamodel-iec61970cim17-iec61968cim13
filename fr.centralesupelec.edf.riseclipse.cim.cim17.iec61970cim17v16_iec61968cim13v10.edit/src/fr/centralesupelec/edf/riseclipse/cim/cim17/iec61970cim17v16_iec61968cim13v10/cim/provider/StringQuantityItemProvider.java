@@ -88,11 +88,17 @@ public class StringQuantityItemProvider extends ItemProviderAdapter implements I
     protected void addMultiplierPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_StringQuantity_multiplier_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_StringQuantity_multiplier_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_StringQuantity_multiplier_feature",
                                 "_UI_StringQuantity_type" ),
-                        CimPackage.eINSTANCE.getStringQuantity_Multiplier(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getStringQuantity_Multiplier(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -104,11 +110,17 @@ public class StringQuantityItemProvider extends ItemProviderAdapter implements I
     protected void addUnitPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_StringQuantity_unit_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_StringQuantity_unit_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_StringQuantity_unit_feature",
                                 "_UI_StringQuantity_type" ),
-                        CimPackage.eINSTANCE.getStringQuantity_Unit(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getStringQuantity_Unit(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -120,11 +132,17 @@ public class StringQuantityItemProvider extends ItemProviderAdapter implements I
     protected void addValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_StringQuantity_value_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_StringQuantity_value_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_StringQuantity_value_feature",
                                 "_UI_StringQuantity_type" ),
-                        CimPackage.eINSTANCE.getStringQuantity_Value(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getStringQuantity_Value(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

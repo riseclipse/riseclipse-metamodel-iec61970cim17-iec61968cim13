@@ -81,11 +81,17 @@ public class WorkItemProvider extends BaseWorkItemProvider {
     protected void addRequestDateTimePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Work_requestDateTime_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Work_requestDateTime_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Work_requestDateTime_feature",
                                 "_UI_Work_type" ),
-                        CimPackage.eINSTANCE.getWork_RequestDateTime(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWork_RequestDateTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -97,11 +103,17 @@ public class WorkItemProvider extends BaseWorkItemProvider {
     protected void addWorkOrderNumberPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Work_workOrderNumber_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Work_workOrderNumber_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Work_workOrderNumber_feature",
                                 "_UI_Work_type" ),
-                        CimPackage.eINSTANCE.getWork_WorkOrderNumber(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWork_WorkOrderNumber(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -113,10 +125,17 @@ public class WorkItemProvider extends BaseWorkItemProvider {
     protected void addIncidentsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Work_Incidents_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Work_Incidents_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Work_Incidents_feature",
                                 "_UI_Work_type" ),
-                        CimPackage.eINSTANCE.getWork_Incidents(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getWork_Incidents(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -128,10 +147,17 @@ public class WorkItemProvider extends BaseWorkItemProvider {
     protected void addWorkTasksPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Work_WorkTasks_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Work_WorkTasks_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Work_WorkTasks_feature",
                                 "_UI_Work_type" ),
-                        CimPackage.eINSTANCE.getWork_WorkTasks(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getWork_WorkTasks(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -143,10 +169,17 @@ public class WorkItemProvider extends BaseWorkItemProvider {
     protected void addCustomersPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Work_Customers_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Work_Customers_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Work_Customers_feature",
                                 "_UI_Work_type" ),
-                        CimPackage.eINSTANCE.getWork_Customers(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getWork_Customers(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -158,10 +191,17 @@ public class WorkItemProvider extends BaseWorkItemProvider {
     protected void addAppointmentsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Work_Appointments_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Work_Appointments_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Work_Appointments_feature",
                                 "_UI_Work_type" ),
-                        CimPackage.eINSTANCE.getWork_Appointments(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getWork_Appointments(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -231,8 +271,8 @@ public class WorkItemProvider extends BaseWorkItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

@@ -75,11 +75,17 @@ public class TopologicalIslandItemProvider extends IdentifiedObjectItemProvider 
     protected void addAngleRefTopologicalNodePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TopologicalIsland_AngleRefTopologicalNode_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TopologicalIsland_AngleRefTopologicalNode_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_TopologicalIsland_AngleRefTopologicalNode_feature", "_UI_TopologicalIsland_type" ),
-                        CimPackage.eINSTANCE.getTopologicalIsland_AngleRefTopologicalNode(), true, false, true, null,
-                        null, null ) );
+                        CimPackage.eINSTANCE.getTopologicalIsland_AngleRefTopologicalNode(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -89,12 +95,19 @@ public class TopologicalIslandItemProvider extends IdentifiedObjectItemProvider 
      * @generated
      */
     protected void addTopologicalNodesPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TopologicalIsland_TopologicalNodes_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TopologicalIsland_TopologicalNodes_feature",
-                        "_UI_TopologicalIsland_type" ),
-                CimPackage.eINSTANCE.getTopologicalIsland_TopologicalNodes(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TopologicalIsland_TopologicalNodes_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_TopologicalIsland_TopologicalNodes_feature", "_UI_TopologicalIsland_type" ),
+                        CimPackage.eINSTANCE.getTopologicalIsland_TopologicalNodes(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -131,7 +144,6 @@ public class TopologicalIslandItemProvider extends IdentifiedObjectItemProvider 
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

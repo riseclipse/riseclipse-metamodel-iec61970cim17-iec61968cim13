@@ -78,10 +78,17 @@ public class MaterialItemItemProvider extends IdentifiedObjectItemProvider {
     protected void addWorkTaskPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_MaterialItem_WorkTask_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_MaterialItem_WorkTask_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_MaterialItem_WorkTask_feature",
                                 "_UI_MaterialItem_type" ),
-                        CimPackage.eINSTANCE.getMaterialItem_WorkTask(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getMaterialItem_WorkTask(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

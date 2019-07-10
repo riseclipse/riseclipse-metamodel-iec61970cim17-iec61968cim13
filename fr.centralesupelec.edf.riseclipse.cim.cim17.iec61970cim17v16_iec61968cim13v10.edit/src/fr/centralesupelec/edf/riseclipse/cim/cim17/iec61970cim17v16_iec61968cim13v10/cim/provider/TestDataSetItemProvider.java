@@ -78,11 +78,17 @@ public class TestDataSetItemProvider extends ProcedureDataSetItemProvider {
     protected void addConclusionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TestDataSet_conclusion_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TestDataSet_conclusion_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TestDataSet_conclusion_feature",
                                 "_UI_TestDataSet_type" ),
-                        CimPackage.eINSTANCE.getTestDataSet_Conclusion(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTestDataSet_Conclusion(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,11 +100,17 @@ public class TestDataSetItemProvider extends ProcedureDataSetItemProvider {
     protected void addSpecimenIDPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TestDataSet_specimenID_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TestDataSet_specimenID_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TestDataSet_specimenID_feature",
                                 "_UI_TestDataSet_type" ),
-                        CimPackage.eINSTANCE.getTestDataSet_SpecimenID(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTestDataSet_SpecimenID(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -108,13 +120,19 @@ public class TestDataSetItemProvider extends ProcedureDataSetItemProvider {
      * @generated
      */
     protected void addSpecimenToLabDateTimePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TestDataSet_specimenToLabDateTime_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TestDataSet_specimenToLabDateTime_feature",
-                        "_UI_TestDataSet_type" ),
-                CimPackage.eINSTANCE.getTestDataSet_SpecimenToLabDateTime(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TestDataSet_specimenToLabDateTime_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_TestDataSet_specimenToLabDateTime_feature", "_UI_TestDataSet_type" ),
+                        CimPackage.eINSTANCE.getTestDataSet_SpecimenToLabDateTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -185,8 +203,8 @@ public class TestDataSetItemProvider extends ProcedureDataSetItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

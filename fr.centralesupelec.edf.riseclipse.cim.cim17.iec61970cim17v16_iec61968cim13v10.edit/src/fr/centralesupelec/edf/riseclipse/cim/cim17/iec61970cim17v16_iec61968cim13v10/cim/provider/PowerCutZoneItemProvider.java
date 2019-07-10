@@ -78,11 +78,17 @@ public class PowerCutZoneItemProvider extends PowerSystemResourceItemProvider {
     protected void addCutLevel1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PowerCutZone_cutLevel1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PowerCutZone_cutLevel1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PowerCutZone_cutLevel1_feature",
                                 "_UI_PowerCutZone_type" ),
-                        CimPackage.eINSTANCE.getPowerCutZone_CutLevel1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPowerCutZone_CutLevel1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,11 +100,17 @@ public class PowerCutZoneItemProvider extends PowerSystemResourceItemProvider {
     protected void addCutLevel2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PowerCutZone_cutLevel2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PowerCutZone_cutLevel2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PowerCutZone_cutLevel2_feature",
                                 "_UI_PowerCutZone_type" ),
-                        CimPackage.eINSTANCE.getPowerCutZone_CutLevel2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPowerCutZone_CutLevel2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -110,10 +122,17 @@ public class PowerCutZoneItemProvider extends PowerSystemResourceItemProvider {
     protected void addEnergyConsumersPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PowerCutZone_EnergyConsumers_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PowerCutZone_EnergyConsumers_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PowerCutZone_EnergyConsumers_feature",
                                 "_UI_PowerCutZone_type" ),
-                        CimPackage.eINSTANCE.getPowerCutZone_EnergyConsumers(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getPowerCutZone_EnergyConsumers(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

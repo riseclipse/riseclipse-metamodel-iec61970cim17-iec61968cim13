@@ -76,11 +76,17 @@ public class ToolItemProvider extends WorkAssetItemProvider {
     protected void addLastCalibrationDatePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Tool_lastCalibrationDate_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Tool_lastCalibrationDate_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Tool_lastCalibrationDate_feature",
                                 "_UI_Tool_type" ),
-                        CimPackage.eINSTANCE.getTool_LastCalibrationDate(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTool_LastCalibrationDate(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

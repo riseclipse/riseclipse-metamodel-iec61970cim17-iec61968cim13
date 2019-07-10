@@ -77,11 +77,17 @@ public class HeatRateCurveItemProvider extends CurveItemProvider {
     protected void addIsNetGrossPPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_HeatRateCurve_isNetGrossP_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_HeatRateCurve_isNetGrossP_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_HeatRateCurve_isNetGrossP_feature",
                                 "_UI_HeatRateCurve_type" ),
-                        CimPackage.eINSTANCE.getHeatRateCurve_IsNetGrossP(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getHeatRateCurve_IsNetGrossP(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -91,12 +97,19 @@ public class HeatRateCurveItemProvider extends CurveItemProvider {
      * @generated
      */
     protected void addThermalGeneratingUnitPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_HeatRateCurve_ThermalGeneratingUnit_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_HeatRateCurve_ThermalGeneratingUnit_feature",
-                        "_UI_HeatRateCurve_type" ),
-                CimPackage.eINSTANCE.getHeatRateCurve_ThermalGeneratingUnit(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_HeatRateCurve_ThermalGeneratingUnit_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_HeatRateCurve_ThermalGeneratingUnit_feature", "_UI_HeatRateCurve_type" ),
+                        CimPackage.eINSTANCE.getHeatRateCurve_ThermalGeneratingUnit(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

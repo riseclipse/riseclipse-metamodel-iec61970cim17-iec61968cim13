@@ -85,13 +85,19 @@ public class LaborelecStandardItemProvider extends ItemProviderAdapter implement
      * @generated
      */
     protected void addStandardEditionPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_LaborelecStandard_standardEdition_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_LaborelecStandard_standardEdition_feature",
-                        "_UI_LaborelecStandard_type" ),
-                CimPackage.eINSTANCE.getLaborelecStandard_StandardEdition(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_LaborelecStandard_standardEdition_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_LaborelecStandard_standardEdition_feature", "_UI_LaborelecStandard_type" ),
+                        CimPackage.eINSTANCE.getLaborelecStandard_StandardEdition(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -101,13 +107,19 @@ public class LaborelecStandardItemProvider extends ItemProviderAdapter implement
      * @generated
      */
     protected void addStandardNumberPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_LaborelecStandard_standardNumber_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_LaborelecStandard_standardNumber_feature",
-                        "_UI_LaborelecStandard_type" ),
-                CimPackage.eINSTANCE.getLaborelecStandard_StandardNumber(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_LaborelecStandard_standardNumber_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_LaborelecStandard_standardNumber_feature",
+                                "_UI_LaborelecStandard_type" ),
+                        CimPackage.eINSTANCE.getLaborelecStandard_StandardNumber(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

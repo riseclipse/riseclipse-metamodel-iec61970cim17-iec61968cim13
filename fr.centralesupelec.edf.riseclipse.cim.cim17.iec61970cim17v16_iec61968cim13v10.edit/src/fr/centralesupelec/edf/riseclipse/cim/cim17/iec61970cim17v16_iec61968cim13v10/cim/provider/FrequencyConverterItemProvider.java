@@ -80,11 +80,17 @@ public class FrequencyConverterItemProvider extends RegulatingCondEqItemProvider
     protected void addFrequencyPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FrequencyConverter_frequency_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FrequencyConverter_frequency_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FrequencyConverter_frequency_feature",
                                 "_UI_FrequencyConverter_type" ),
-                        CimPackage.eINSTANCE.getFrequencyConverter_Frequency(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFrequencyConverter_Frequency(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -96,11 +102,17 @@ public class FrequencyConverterItemProvider extends RegulatingCondEqItemProvider
     protected void addMaxPPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FrequencyConverter_maxP_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FrequencyConverter_maxP_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FrequencyConverter_maxP_feature",
                                 "_UI_FrequencyConverter_type" ),
-                        CimPackage.eINSTANCE.getFrequencyConverter_MaxP(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFrequencyConverter_MaxP(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -112,11 +124,17 @@ public class FrequencyConverterItemProvider extends RegulatingCondEqItemProvider
     protected void addMaxUPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FrequencyConverter_maxU_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FrequencyConverter_maxU_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FrequencyConverter_maxU_feature",
                                 "_UI_FrequencyConverter_type" ),
-                        CimPackage.eINSTANCE.getFrequencyConverter_MaxU(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFrequencyConverter_MaxU(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -128,11 +146,17 @@ public class FrequencyConverterItemProvider extends RegulatingCondEqItemProvider
     protected void addMinPPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FrequencyConverter_minP_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FrequencyConverter_minP_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FrequencyConverter_minP_feature",
                                 "_UI_FrequencyConverter_type" ),
-                        CimPackage.eINSTANCE.getFrequencyConverter_MinP(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFrequencyConverter_MinP(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -144,11 +168,17 @@ public class FrequencyConverterItemProvider extends RegulatingCondEqItemProvider
     protected void addMinUPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FrequencyConverter_minU_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FrequencyConverter_minU_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FrequencyConverter_minU_feature",
                                 "_UI_FrequencyConverter_type" ),
-                        CimPackage.eINSTANCE.getFrequencyConverter_MinU(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFrequencyConverter_MinU(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

@@ -75,10 +75,16 @@ public class VoltageControlZoneItemProvider extends PowerSystemResourceItemProvi
     protected void addRegulationSchedulePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_VoltageControlZone_RegulationSchedule_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_VoltageControlZone_RegulationSchedule_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_VoltageControlZone_RegulationSchedule_feature", "_UI_VoltageControlZone_type" ),
-                        CimPackage.eINSTANCE.getVoltageControlZone_RegulationSchedule(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getVoltageControlZone_RegulationSchedule(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -89,12 +95,19 @@ public class VoltageControlZoneItemProvider extends PowerSystemResourceItemProvi
      * @generated
      */
     protected void addBusbarSectionPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_VoltageControlZone_BusbarSection_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_VoltageControlZone_BusbarSection_feature",
-                        "_UI_VoltageControlZone_type" ),
-                CimPackage.eINSTANCE.getVoltageControlZone_BusbarSection(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_VoltageControlZone_BusbarSection_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_VoltageControlZone_BusbarSection_feature",
+                                "_UI_VoltageControlZone_type" ),
+                        CimPackage.eINSTANCE.getVoltageControlZone_BusbarSection(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -131,7 +144,6 @@ public class VoltageControlZoneItemProvider extends PowerSystemResourceItemProvi
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

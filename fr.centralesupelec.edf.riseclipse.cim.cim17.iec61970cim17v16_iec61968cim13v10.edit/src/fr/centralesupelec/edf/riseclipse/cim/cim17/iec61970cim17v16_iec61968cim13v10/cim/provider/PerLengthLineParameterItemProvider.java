@@ -73,11 +73,17 @@ public class PerLengthLineParameterItemProvider extends IdentifiedObjectItemProv
      */
     protected void addWireAssemblyInfoPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_PerLengthLineParameter_WireAssemblyInfo_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_PerLengthLineParameter_WireAssemblyInfo_feature",
                         "_UI_PerLengthLineParameter_type" ),
-                CimPackage.eINSTANCE.getPerLengthLineParameter_WireAssemblyInfo(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getPerLengthLineParameter_WireAssemblyInfo(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -115,7 +121,6 @@ public class PerLengthLineParameterItemProvider extends IdentifiedObjectItemProv
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

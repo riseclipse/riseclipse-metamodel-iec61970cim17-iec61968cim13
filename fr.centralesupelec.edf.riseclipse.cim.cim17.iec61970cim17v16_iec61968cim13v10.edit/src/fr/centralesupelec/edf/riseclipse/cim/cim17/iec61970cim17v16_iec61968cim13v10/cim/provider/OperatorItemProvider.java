@@ -75,10 +75,17 @@ public class OperatorItemProvider extends OperationPersonRoleItemProvider {
     protected void addIncidentsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Operator_Incidents_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Operator_Incidents_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Operator_Incidents_feature",
                                 "_UI_Operator_type" ),
-                        CimPackage.eINSTANCE.getOperator_Incidents(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getOperator_Incidents(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -90,10 +97,17 @@ public class OperatorItemProvider extends OperationPersonRoleItemProvider {
     protected void addSwitchingStepsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Operator_SwitchingSteps_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Operator_SwitchingSteps_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Operator_SwitchingSteps_feature",
                                 "_UI_Operator_type" ),
-                        CimPackage.eINSTANCE.getOperator_SwitchingSteps(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getOperator_SwitchingSteps(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -130,7 +144,6 @@ public class OperatorItemProvider extends OperationPersonRoleItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

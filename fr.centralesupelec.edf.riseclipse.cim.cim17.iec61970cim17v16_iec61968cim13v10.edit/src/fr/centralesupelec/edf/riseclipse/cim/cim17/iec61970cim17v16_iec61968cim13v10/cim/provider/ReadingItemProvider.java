@@ -78,11 +78,17 @@ public class ReadingItemProvider extends BaseReadingItemProvider {
     protected void addReasonPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Reading_reason_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Reading_reason_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Reading_reason_feature",
                                 "_UI_Reading_type" ),
-                        CimPackage.eINSTANCE.getReading_Reason(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getReading_Reason(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,10 +100,17 @@ public class ReadingItemProvider extends BaseReadingItemProvider {
     protected void addMeterReadingsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Reading_MeterReadings_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Reading_MeterReadings_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Reading_MeterReadings_feature",
                                 "_UI_Reading_type" ),
-                        CimPackage.eINSTANCE.getReading_MeterReadings(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getReading_MeterReadings(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -109,10 +122,17 @@ public class ReadingItemProvider extends BaseReadingItemProvider {
     protected void addReadingTypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Reading_ReadingType_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Reading_ReadingType_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Reading_ReadingType_feature",
                                 "_UI_Reading_type" ),
-                        CimPackage.eINSTANCE.getReading_ReadingType(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getReading_ReadingType(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

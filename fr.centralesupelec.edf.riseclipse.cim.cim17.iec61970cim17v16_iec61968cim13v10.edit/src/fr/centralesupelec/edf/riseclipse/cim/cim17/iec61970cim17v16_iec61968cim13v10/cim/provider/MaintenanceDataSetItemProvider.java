@@ -76,13 +76,19 @@ public class MaintenanceDataSetItemProvider extends ProcedureDataSetItemProvider
      * @generated
      */
     protected void addConditionAfterPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_MaintenanceDataSet_conditionAfter_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_MaintenanceDataSet_conditionAfter_feature",
-                        "_UI_MaintenanceDataSet_type" ),
-                CimPackage.eINSTANCE.getMaintenanceDataSet_ConditionAfter(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_MaintenanceDataSet_conditionAfter_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_MaintenanceDataSet_conditionAfter_feature", "_UI_MaintenanceDataSet_type" ),
+                        CimPackage.eINSTANCE.getMaintenanceDataSet_ConditionAfter(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -92,13 +98,19 @@ public class MaintenanceDataSetItemProvider extends ProcedureDataSetItemProvider
      * @generated
      */
     protected void addConditionBeforePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_MaintenanceDataSet_conditionBefore_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_MaintenanceDataSet_conditionBefore_feature",
-                        "_UI_MaintenanceDataSet_type" ),
-                CimPackage.eINSTANCE.getMaintenanceDataSet_ConditionBefore(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_MaintenanceDataSet_conditionBefore_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_MaintenanceDataSet_conditionBefore_feature", "_UI_MaintenanceDataSet_type" ),
+                        CimPackage.eINSTANCE.getMaintenanceDataSet_ConditionBefore(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -110,11 +122,17 @@ public class MaintenanceDataSetItemProvider extends ProcedureDataSetItemProvider
     protected void addMaintCodePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_MaintenanceDataSet_maintCode_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_MaintenanceDataSet_maintCode_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_MaintenanceDataSet_maintCode_feature",
                                 "_UI_MaintenanceDataSet_type" ),
-                        CimPackage.eINSTANCE.getMaintenanceDataSet_MaintCode(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getMaintenanceDataSet_MaintCode(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -185,8 +203,8 @@ public class MaintenanceDataSetItemProvider extends ProcedureDataSetItemProvider
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

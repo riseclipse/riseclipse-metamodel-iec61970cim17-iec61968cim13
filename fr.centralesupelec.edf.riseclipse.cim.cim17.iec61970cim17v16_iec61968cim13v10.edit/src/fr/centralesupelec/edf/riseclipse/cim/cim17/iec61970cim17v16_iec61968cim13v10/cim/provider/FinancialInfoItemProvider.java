@@ -89,11 +89,17 @@ public class FinancialInfoItemProvider extends IdentifiedObjectItemProvider {
     protected void addAccountPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FinancialInfo_account_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FinancialInfo_account_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FinancialInfo_account_feature",
                                 "_UI_FinancialInfo_type" ),
-                        CimPackage.eINSTANCE.getFinancialInfo_Account(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFinancialInfo_Account(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -105,11 +111,17 @@ public class FinancialInfoItemProvider extends IdentifiedObjectItemProvider {
     protected void addActualPurchaseCostPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FinancialInfo_actualPurchaseCost_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FinancialInfo_actualPurchaseCost_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FinancialInfo_actualPurchaseCost_feature",
                                 "_UI_FinancialInfo_type" ),
-                        CimPackage.eINSTANCE.getFinancialInfo_ActualPurchaseCost(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFinancialInfo_ActualPurchaseCost(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -121,11 +133,17 @@ public class FinancialInfoItemProvider extends IdentifiedObjectItemProvider {
     protected void addCostDescriptionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FinancialInfo_costDescription_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FinancialInfo_costDescription_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FinancialInfo_costDescription_feature",
                                 "_UI_FinancialInfo_type" ),
-                        CimPackage.eINSTANCE.getFinancialInfo_CostDescription(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFinancialInfo_CostDescription(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -137,11 +155,17 @@ public class FinancialInfoItemProvider extends IdentifiedObjectItemProvider {
     protected void addCostTypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FinancialInfo_costType_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FinancialInfo_costType_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FinancialInfo_costType_feature",
                                 "_UI_FinancialInfo_type" ),
-                        CimPackage.eINSTANCE.getFinancialInfo_CostType(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFinancialInfo_CostType(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -153,11 +177,17 @@ public class FinancialInfoItemProvider extends IdentifiedObjectItemProvider {
     protected void addFinancialValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FinancialInfo_financialValue_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FinancialInfo_financialValue_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FinancialInfo_financialValue_feature",
                                 "_UI_FinancialInfo_type" ),
-                        CimPackage.eINSTANCE.getFinancialInfo_FinancialValue(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFinancialInfo_FinancialValue(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -167,13 +197,19 @@ public class FinancialInfoItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addPlantTransferDateTimePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_FinancialInfo_plantTransferDateTime_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_FinancialInfo_plantTransferDateTime_feature",
-                        "_UI_FinancialInfo_type" ),
-                CimPackage.eINSTANCE.getFinancialInfo_PlantTransferDateTime(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_FinancialInfo_plantTransferDateTime_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_FinancialInfo_plantTransferDateTime_feature", "_UI_FinancialInfo_type" ),
+                        CimPackage.eINSTANCE.getFinancialInfo_PlantTransferDateTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -185,11 +221,17 @@ public class FinancialInfoItemProvider extends IdentifiedObjectItemProvider {
     protected void addPurchaseDateTimePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FinancialInfo_purchaseDateTime_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FinancialInfo_purchaseDateTime_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FinancialInfo_purchaseDateTime_feature",
                                 "_UI_FinancialInfo_type" ),
-                        CimPackage.eINSTANCE.getFinancialInfo_PurchaseDateTime(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFinancialInfo_PurchaseDateTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -199,13 +241,19 @@ public class FinancialInfoItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addPurchaseOrderNumberPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_FinancialInfo_purchaseOrderNumber_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_FinancialInfo_purchaseOrderNumber_feature",
-                        "_UI_FinancialInfo_type" ),
-                CimPackage.eINSTANCE.getFinancialInfo_PurchaseOrderNumber(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_FinancialInfo_purchaseOrderNumber_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_FinancialInfo_purchaseOrderNumber_feature", "_UI_FinancialInfo_type" ),
+                        CimPackage.eINSTANCE.getFinancialInfo_PurchaseOrderNumber(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -217,11 +265,17 @@ public class FinancialInfoItemProvider extends IdentifiedObjectItemProvider {
     protected void addValueDateTimePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FinancialInfo_valueDateTime_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FinancialInfo_valueDateTime_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FinancialInfo_valueDateTime_feature",
                                 "_UI_FinancialInfo_type" ),
-                        CimPackage.eINSTANCE.getFinancialInfo_ValueDateTime(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFinancialInfo_ValueDateTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -231,13 +285,19 @@ public class FinancialInfoItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addWarrantyEndDateTimePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_FinancialInfo_warrantyEndDateTime_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_FinancialInfo_warrantyEndDateTime_feature",
-                        "_UI_FinancialInfo_type" ),
-                CimPackage.eINSTANCE.getFinancialInfo_WarrantyEndDateTime(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_FinancialInfo_warrantyEndDateTime_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_FinancialInfo_warrantyEndDateTime_feature", "_UI_FinancialInfo_type" ),
+                        CimPackage.eINSTANCE.getFinancialInfo_WarrantyEndDateTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -249,10 +309,17 @@ public class FinancialInfoItemProvider extends IdentifiedObjectItemProvider {
     protected void addAssetPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FinancialInfo_Asset_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FinancialInfo_Asset_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FinancialInfo_Asset_feature",
                                 "_UI_FinancialInfo_type" ),
-                        CimPackage.eINSTANCE.getFinancialInfo_Asset(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getFinancialInfo_Asset(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

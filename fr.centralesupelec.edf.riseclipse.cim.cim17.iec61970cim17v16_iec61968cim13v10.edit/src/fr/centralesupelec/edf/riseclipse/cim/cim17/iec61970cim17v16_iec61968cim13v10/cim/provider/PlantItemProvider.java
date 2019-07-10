@@ -96,7 +96,6 @@ public class PlantItemProvider extends EquipmentContainerItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

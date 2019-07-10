@@ -80,12 +80,18 @@ public class ConsumptionTariffIntervalItemProvider extends CimObjectWithIDItemPr
      */
     protected void addSequenceNumberPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ConsumptionTariffInterval_sequenceNumber_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ConsumptionTariffInterval_sequenceNumber_feature",
                         "_UI_ConsumptionTariffInterval_type" ),
-                CimPackage.eINSTANCE.getConsumptionTariffInterval_SequenceNumber(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getConsumptionTariffInterval_SequenceNumber(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -96,12 +102,18 @@ public class ConsumptionTariffIntervalItemProvider extends CimObjectWithIDItemPr
      */
     protected void addStartValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ConsumptionTariffInterval_startValue_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ConsumptionTariffInterval_startValue_feature",
                         "_UI_ConsumptionTariffInterval_type" ),
-                CimPackage.eINSTANCE.getConsumptionTariffInterval_StartValue(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getConsumptionTariffInterval_StartValue(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -112,11 +124,17 @@ public class ConsumptionTariffIntervalItemProvider extends CimObjectWithIDItemPr
      */
     protected void addTariffProfilesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ConsumptionTariffInterval_TariffProfiles_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ConsumptionTariffInterval_TariffProfiles_feature",
                         "_UI_ConsumptionTariffInterval_type" ),
-                CimPackage.eINSTANCE.getConsumptionTariffInterval_TariffProfiles(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getConsumptionTariffInterval_TariffProfiles(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -127,12 +145,19 @@ public class ConsumptionTariffIntervalItemProvider extends CimObjectWithIDItemPr
      * @generated
      */
     protected void addChargesPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ConsumptionTariffInterval_Charges_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ConsumptionTariffInterval_Charges_feature",
-                        "_UI_ConsumptionTariffInterval_type" ),
-                CimPackage.eINSTANCE.getConsumptionTariffInterval_Charges(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ConsumptionTariffInterval_Charges_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ConsumptionTariffInterval_Charges_feature", "_UI_ConsumptionTariffInterval_type" ),
+                        CimPackage.eINSTANCE.getConsumptionTariffInterval_Charges(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -144,12 +169,18 @@ public class ConsumptionTariffIntervalItemProvider extends CimObjectWithIDItemPr
     protected void addTouTariffIntervalsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ConsumptionTariffInterval_TouTariffIntervals_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ConsumptionTariffInterval_TouTariffIntervals_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_ConsumptionTariffInterval_TouTariffIntervals_feature",
                                 "_UI_ConsumptionTariffInterval_type" ),
-                        CimPackage.eINSTANCE.getConsumptionTariffInterval_TouTariffIntervals(), true, false, true, null,
-                        null, null ) );
+                        CimPackage.eINSTANCE.getConsumptionTariffInterval_TouTariffIntervals(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -160,11 +191,17 @@ public class ConsumptionTariffIntervalItemProvider extends CimObjectWithIDItemPr
      */
     protected void addReadingTypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ConsumptionTariffInterval_ReadingType_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ConsumptionTariffInterval_ReadingType_feature",
                         "_UI_ConsumptionTariffInterval_type" ),
-                CimPackage.eINSTANCE.getConsumptionTariffInterval_ReadingType(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getConsumptionTariffInterval_ReadingType(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 

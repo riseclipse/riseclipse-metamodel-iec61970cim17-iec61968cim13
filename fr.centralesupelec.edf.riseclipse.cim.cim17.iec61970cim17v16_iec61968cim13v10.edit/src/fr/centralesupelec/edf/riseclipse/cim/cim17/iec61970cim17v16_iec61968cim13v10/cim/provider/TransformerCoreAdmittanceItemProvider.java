@@ -79,13 +79,19 @@ public class TransformerCoreAdmittanceItemProvider extends IdentifiedObjectItemP
      * @generated
      */
     protected void addBPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TransformerCoreAdmittance_b_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TransformerCoreAdmittance_b_feature",
-                        "_UI_TransformerCoreAdmittance_type" ),
-                CimPackage.eINSTANCE.getTransformerCoreAdmittance_B(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerCoreAdmittance_b_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_TransformerCoreAdmittance_b_feature",
+                                "_UI_TransformerCoreAdmittance_type" ),
+                        CimPackage.eINSTANCE.getTransformerCoreAdmittance_B(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,13 +101,19 @@ public class TransformerCoreAdmittanceItemProvider extends IdentifiedObjectItemP
      * @generated
      */
     protected void addB0PropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TransformerCoreAdmittance_b0_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TransformerCoreAdmittance_b0_feature",
-                        "_UI_TransformerCoreAdmittance_type" ),
-                CimPackage.eINSTANCE.getTransformerCoreAdmittance_B0(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerCoreAdmittance_b0_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_TransformerCoreAdmittance_b0_feature",
+                                "_UI_TransformerCoreAdmittance_type" ),
+                        CimPackage.eINSTANCE.getTransformerCoreAdmittance_B0(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,13 +123,19 @@ public class TransformerCoreAdmittanceItemProvider extends IdentifiedObjectItemP
      * @generated
      */
     protected void addGPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TransformerCoreAdmittance_g_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TransformerCoreAdmittance_g_feature",
-                        "_UI_TransformerCoreAdmittance_type" ),
-                CimPackage.eINSTANCE.getTransformerCoreAdmittance_G(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerCoreAdmittance_g_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_TransformerCoreAdmittance_g_feature",
+                                "_UI_TransformerCoreAdmittance_type" ),
+                        CimPackage.eINSTANCE.getTransformerCoreAdmittance_G(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -127,13 +145,19 @@ public class TransformerCoreAdmittanceItemProvider extends IdentifiedObjectItemP
      * @generated
      */
     protected void addG0PropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TransformerCoreAdmittance_g0_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TransformerCoreAdmittance_g0_feature",
-                        "_UI_TransformerCoreAdmittance_type" ),
-                CimPackage.eINSTANCE.getTransformerCoreAdmittance_G0(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerCoreAdmittance_g0_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_TransformerCoreAdmittance_g0_feature",
+                                "_UI_TransformerCoreAdmittance_type" ),
+                        CimPackage.eINSTANCE.getTransformerCoreAdmittance_G0(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -144,11 +168,17 @@ public class TransformerCoreAdmittanceItemProvider extends IdentifiedObjectItemP
      */
     protected void addTransformerEndPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_TransformerCoreAdmittance_TransformerEnd_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_TransformerCoreAdmittance_TransformerEnd_feature",
                         "_UI_TransformerCoreAdmittance_type" ),
-                CimPackage.eINSTANCE.getTransformerCoreAdmittance_TransformerEnd(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getTransformerCoreAdmittance_TransformerEnd(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -161,12 +191,18 @@ public class TransformerCoreAdmittanceItemProvider extends IdentifiedObjectItemP
     protected void addTransformerEndInfoPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TransformerCoreAdmittance_TransformerEndInfo_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerCoreAdmittance_TransformerEndInfo_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_TransformerCoreAdmittance_TransformerEndInfo_feature",
                                 "_UI_TransformerCoreAdmittance_type" ),
-                        CimPackage.eINSTANCE.getTransformerCoreAdmittance_TransformerEndInfo(), true, false, true, null,
-                        null, null ) );
+                        CimPackage.eINSTANCE.getTransformerCoreAdmittance_TransformerEndInfo(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

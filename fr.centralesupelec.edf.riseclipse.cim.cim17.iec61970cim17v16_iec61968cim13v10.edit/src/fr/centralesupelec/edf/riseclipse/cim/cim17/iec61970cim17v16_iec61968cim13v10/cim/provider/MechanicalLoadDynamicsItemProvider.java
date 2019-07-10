@@ -73,14 +73,20 @@ public class MechanicalLoadDynamicsItemProvider extends DynamicsFunctionBlockIte
      * @generated
      */
     protected void addAsynchronousMachineDynamicsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_MechanicalLoadDynamics_AsynchronousMachineDynamics_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_MechanicalLoadDynamics_AsynchronousMachineDynamics_feature",
-                        "_UI_MechanicalLoadDynamics_type" ),
-                CimPackage.eINSTANCE.getMechanicalLoadDynamics_AsynchronousMachineDynamics(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_MechanicalLoadDynamics_AsynchronousMachineDynamics_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_MechanicalLoadDynamics_AsynchronousMachineDynamics_feature",
+                                "_UI_MechanicalLoadDynamics_type" ),
+                        CimPackage.eINSTANCE.getMechanicalLoadDynamics_AsynchronousMachineDynamics(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -90,14 +96,20 @@ public class MechanicalLoadDynamicsItemProvider extends DynamicsFunctionBlockIte
      * @generated
      */
     protected void addSynchronousMachineDynamicsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_MechanicalLoadDynamics_SynchronousMachineDynamics_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_MechanicalLoadDynamics_SynchronousMachineDynamics_feature",
-                        "_UI_MechanicalLoadDynamics_type" ),
-                CimPackage.eINSTANCE.getMechanicalLoadDynamics_SynchronousMachineDynamics(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_MechanicalLoadDynamics_SynchronousMachineDynamics_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_MechanicalLoadDynamics_SynchronousMachineDynamics_feature",
+                                "_UI_MechanicalLoadDynamics_type" ),
+                        CimPackage.eINSTANCE.getMechanicalLoadDynamics_SynchronousMachineDynamics(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -134,7 +146,6 @@ public class MechanicalLoadDynamicsItemProvider extends DynamicsFunctionBlockIte
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

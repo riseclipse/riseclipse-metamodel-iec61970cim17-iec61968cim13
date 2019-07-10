@@ -76,12 +76,18 @@ public class CalculationMethodHierarchyItemProvider extends IdentifiedObjectItem
     protected void addMeasurementValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CalculationMethodHierarchy_MeasurementValue_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CalculationMethodHierarchy_MeasurementValue_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_CalculationMethodHierarchy_MeasurementValue_feature",
                                 "_UI_CalculationMethodHierarchy_type" ),
-                        CimPackage.eINSTANCE.getCalculationMethodHierarchy_MeasurementValue(), true, false, true, null,
-                        null, null ) );
+                        CimPackage.eINSTANCE.getCalculationMethodHierarchy_MeasurementValue(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -91,14 +97,20 @@ public class CalculationMethodHierarchyItemProvider extends IdentifiedObjectItem
      * @generated
      */
     protected void addCalculationMethodOrderPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CalculationMethodHierarchy_CalculationMethodOrder_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_CalculationMethodHierarchy_CalculationMethodOrder_feature",
-                        "_UI_CalculationMethodHierarchy_type" ),
-                CimPackage.eINSTANCE.getCalculationMethodHierarchy_CalculationMethodOrder(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CalculationMethodHierarchy_CalculationMethodOrder_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_CalculationMethodHierarchy_CalculationMethodOrder_feature",
+                                "_UI_CalculationMethodHierarchy_type" ),
+                        CimPackage.eINSTANCE.getCalculationMethodHierarchy_CalculationMethodOrder(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -109,11 +121,17 @@ public class CalculationMethodHierarchyItemProvider extends IdentifiedObjectItem
      */
     protected void addMeasurementPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_CalculationMethodHierarchy_Measurement_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_CalculationMethodHierarchy_Measurement_feature",
                         "_UI_CalculationMethodHierarchy_type" ),
-                CimPackage.eINSTANCE.getCalculationMethodHierarchy_Measurement(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getCalculationMethodHierarchy_Measurement(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -151,7 +169,6 @@ public class CalculationMethodHierarchyItemProvider extends IdentifiedObjectItem
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

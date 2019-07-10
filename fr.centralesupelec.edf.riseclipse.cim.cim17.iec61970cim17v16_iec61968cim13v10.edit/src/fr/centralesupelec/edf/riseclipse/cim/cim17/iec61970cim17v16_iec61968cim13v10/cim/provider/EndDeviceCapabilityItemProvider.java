@@ -100,13 +100,19 @@ public class EndDeviceCapabilityItemProvider extends ItemProviderAdapter impleme
      * @generated
      */
     protected void addAutonomousDstPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_EndDeviceCapability_autonomousDst_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceCapability_autonomousDst_feature",
-                        "_UI_EndDeviceCapability_type" ),
-                CimPackage.eINSTANCE.getEndDeviceCapability_AutonomousDst(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceCapability_autonomousDst_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_EndDeviceCapability_autonomousDst_feature", "_UI_EndDeviceCapability_type" ),
+                        CimPackage.eINSTANCE.getEndDeviceCapability_AutonomousDst(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -116,13 +122,19 @@ public class EndDeviceCapabilityItemProvider extends ItemProviderAdapter impleme
      * @generated
      */
     protected void addCommunicationPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_EndDeviceCapability_communication_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceCapability_communication_feature",
-                        "_UI_EndDeviceCapability_type" ),
-                CimPackage.eINSTANCE.getEndDeviceCapability_Communication(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceCapability_communication_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_EndDeviceCapability_communication_feature", "_UI_EndDeviceCapability_type" ),
+                        CimPackage.eINSTANCE.getEndDeviceCapability_Communication(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -134,11 +146,17 @@ public class EndDeviceCapabilityItemProvider extends ItemProviderAdapter impleme
     protected void addConnectDisconnectPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EndDeviceCapability_connectDisconnect_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceCapability_connectDisconnect_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_EndDeviceCapability_connectDisconnect_feature", "_UI_EndDeviceCapability_type" ),
-                        CimPackage.eINSTANCE.getEndDeviceCapability_ConnectDisconnect(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEndDeviceCapability_ConnectDisconnect(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -148,13 +166,19 @@ public class EndDeviceCapabilityItemProvider extends ItemProviderAdapter impleme
      * @generated
      */
     protected void addDemandResponsePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_EndDeviceCapability_demandResponse_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceCapability_demandResponse_feature",
-                        "_UI_EndDeviceCapability_type" ),
-                CimPackage.eINSTANCE.getEndDeviceCapability_DemandResponse(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceCapability_demandResponse_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_EndDeviceCapability_demandResponse_feature", "_UI_EndDeviceCapability_type" ),
+                        CimPackage.eINSTANCE.getEndDeviceCapability_DemandResponse(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -166,11 +190,17 @@ public class EndDeviceCapabilityItemProvider extends ItemProviderAdapter impleme
     protected void addElectricMeteringPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EndDeviceCapability_electricMetering_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceCapability_electricMetering_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_EndDeviceCapability_electricMetering_feature", "_UI_EndDeviceCapability_type" ),
-                        CimPackage.eINSTANCE.getEndDeviceCapability_ElectricMetering(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEndDeviceCapability_ElectricMetering(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -180,13 +210,19 @@ public class EndDeviceCapabilityItemProvider extends ItemProviderAdapter impleme
      * @generated
      */
     protected void addGasMeteringPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_EndDeviceCapability_gasMetering_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceCapability_gasMetering_feature",
-                        "_UI_EndDeviceCapability_type" ),
-                CimPackage.eINSTANCE.getEndDeviceCapability_GasMetering(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceCapability_gasMetering_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceCapability_gasMetering_feature",
+                                "_UI_EndDeviceCapability_type" ),
+                        CimPackage.eINSTANCE.getEndDeviceCapability_GasMetering(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -196,13 +232,19 @@ public class EndDeviceCapabilityItemProvider extends ItemProviderAdapter impleme
      * @generated
      */
     protected void addMetrologyPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_EndDeviceCapability_metrology_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceCapability_metrology_feature",
-                        "_UI_EndDeviceCapability_type" ),
-                CimPackage.eINSTANCE.getEndDeviceCapability_Metrology(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceCapability_metrology_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceCapability_metrology_feature",
+                                "_UI_EndDeviceCapability_type" ),
+                        CimPackage.eINSTANCE.getEndDeviceCapability_Metrology(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -212,13 +254,19 @@ public class EndDeviceCapabilityItemProvider extends ItemProviderAdapter impleme
      * @generated
      */
     protected void addOnRequestReadPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_EndDeviceCapability_onRequestRead_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceCapability_onRequestRead_feature",
-                        "_UI_EndDeviceCapability_type" ),
-                CimPackage.eINSTANCE.getEndDeviceCapability_OnRequestRead(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceCapability_onRequestRead_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_EndDeviceCapability_onRequestRead_feature", "_UI_EndDeviceCapability_type" ),
+                        CimPackage.eINSTANCE.getEndDeviceCapability_OnRequestRead(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -228,13 +276,19 @@ public class EndDeviceCapabilityItemProvider extends ItemProviderAdapter impleme
      * @generated
      */
     protected void addOutageHistoryPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_EndDeviceCapability_outageHistory_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceCapability_outageHistory_feature",
-                        "_UI_EndDeviceCapability_type" ),
-                CimPackage.eINSTANCE.getEndDeviceCapability_OutageHistory(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceCapability_outageHistory_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_EndDeviceCapability_outageHistory_feature", "_UI_EndDeviceCapability_type" ),
+                        CimPackage.eINSTANCE.getEndDeviceCapability_OutageHistory(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -245,12 +299,18 @@ public class EndDeviceCapabilityItemProvider extends ItemProviderAdapter impleme
      */
     protected void addPressureCompensationPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_EndDeviceCapability_pressureCompensation_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceCapability_pressureCompensation_feature",
                         "_UI_EndDeviceCapability_type" ),
-                CimPackage.eINSTANCE.getEndDeviceCapability_PressureCompensation(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getEndDeviceCapability_PressureCompensation(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -260,13 +320,19 @@ public class EndDeviceCapabilityItemProvider extends ItemProviderAdapter impleme
      * @generated
      */
     protected void addPricingInfoPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_EndDeviceCapability_pricingInfo_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceCapability_pricingInfo_feature",
-                        "_UI_EndDeviceCapability_type" ),
-                CimPackage.eINSTANCE.getEndDeviceCapability_PricingInfo(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceCapability_pricingInfo_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceCapability_pricingInfo_feature",
+                                "_UI_EndDeviceCapability_type" ),
+                        CimPackage.eINSTANCE.getEndDeviceCapability_PricingInfo(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -276,13 +342,19 @@ public class EndDeviceCapabilityItemProvider extends ItemProviderAdapter impleme
      * @generated
      */
     protected void addPulseOutputPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_EndDeviceCapability_pulseOutput_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceCapability_pulseOutput_feature",
-                        "_UI_EndDeviceCapability_type" ),
-                CimPackage.eINSTANCE.getEndDeviceCapability_PulseOutput(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceCapability_pulseOutput_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceCapability_pulseOutput_feature",
+                                "_UI_EndDeviceCapability_type" ),
+                        CimPackage.eINSTANCE.getEndDeviceCapability_PulseOutput(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -294,11 +366,17 @@ public class EndDeviceCapabilityItemProvider extends ItemProviderAdapter impleme
     protected void addRelaysProgrammingPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EndDeviceCapability_relaysProgramming_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceCapability_relaysProgramming_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_EndDeviceCapability_relaysProgramming_feature", "_UI_EndDeviceCapability_type" ),
-                        CimPackage.eINSTANCE.getEndDeviceCapability_RelaysProgramming(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEndDeviceCapability_RelaysProgramming(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -308,13 +386,19 @@ public class EndDeviceCapabilityItemProvider extends ItemProviderAdapter impleme
      * @generated
      */
     protected void addReverseFlowPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_EndDeviceCapability_reverseFlow_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceCapability_reverseFlow_feature",
-                        "_UI_EndDeviceCapability_type" ),
-                CimPackage.eINSTANCE.getEndDeviceCapability_ReverseFlow(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceCapability_reverseFlow_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceCapability_reverseFlow_feature",
+                                "_UI_EndDeviceCapability_type" ),
+                        CimPackage.eINSTANCE.getEndDeviceCapability_ReverseFlow(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -324,14 +408,20 @@ public class EndDeviceCapabilityItemProvider extends ItemProviderAdapter impleme
      * @generated
      */
     protected void addSuperCompressibilityCompensationPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_EndDeviceCapability_superCompressibilityCompensation_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_EndDeviceCapability_superCompressibilityCompensation_feature",
-                        "_UI_EndDeviceCapability_type" ),
-                CimPackage.eINSTANCE.getEndDeviceCapability_SuperCompressibilityCompensation(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceCapability_superCompressibilityCompensation_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_EndDeviceCapability_superCompressibilityCompensation_feature",
+                                "_UI_EndDeviceCapability_type" ),
+                        CimPackage.eINSTANCE.getEndDeviceCapability_SuperCompressibilityCompensation(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -342,12 +432,18 @@ public class EndDeviceCapabilityItemProvider extends ItemProviderAdapter impleme
      */
     protected void addTemperatureCompensationPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_EndDeviceCapability_temperatureCompensation_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_EndDeviceCapability_temperatureCompensation_feature", "_UI_EndDeviceCapability_type" ),
-                CimPackage.eINSTANCE.getEndDeviceCapability_TemperatureCompensation(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getEndDeviceCapability_TemperatureCompensation(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -357,13 +453,19 @@ public class EndDeviceCapabilityItemProvider extends ItemProviderAdapter impleme
      * @generated
      */
     protected void addTextMessagePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_EndDeviceCapability_textMessage_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceCapability_textMessage_feature",
-                        "_UI_EndDeviceCapability_type" ),
-                CimPackage.eINSTANCE.getEndDeviceCapability_TextMessage(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceCapability_textMessage_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceCapability_textMessage_feature",
+                                "_UI_EndDeviceCapability_type" ),
+                        CimPackage.eINSTANCE.getEndDeviceCapability_TextMessage(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -373,13 +475,19 @@ public class EndDeviceCapabilityItemProvider extends ItemProviderAdapter impleme
      * @generated
      */
     protected void addWaterMeteringPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_EndDeviceCapability_waterMetering_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceCapability_waterMetering_feature",
-                        "_UI_EndDeviceCapability_type" ),
-                CimPackage.eINSTANCE.getEndDeviceCapability_WaterMetering(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceCapability_waterMetering_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_EndDeviceCapability_waterMetering_feature", "_UI_EndDeviceCapability_type" ),
+                        CimPackage.eINSTANCE.getEndDeviceCapability_WaterMetering(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

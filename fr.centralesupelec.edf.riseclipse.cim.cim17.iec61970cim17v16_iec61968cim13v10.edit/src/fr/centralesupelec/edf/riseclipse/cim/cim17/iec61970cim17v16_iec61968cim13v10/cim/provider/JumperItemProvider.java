@@ -74,10 +74,17 @@ public class JumperItemProvider extends SwitchItemProvider {
     protected void addJumperActionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Jumper_JumperAction_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Jumper_JumperAction_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Jumper_JumperAction_feature",
                                 "_UI_Jumper_type" ),
-                        CimPackage.eINSTANCE.getJumper_JumperAction(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getJumper_JumperAction(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class JumperItemProvider extends SwitchItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

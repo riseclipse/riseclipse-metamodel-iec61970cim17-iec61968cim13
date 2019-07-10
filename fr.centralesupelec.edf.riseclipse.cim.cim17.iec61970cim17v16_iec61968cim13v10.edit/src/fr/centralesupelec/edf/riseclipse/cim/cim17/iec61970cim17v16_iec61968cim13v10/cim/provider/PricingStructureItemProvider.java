@@ -86,11 +86,17 @@ public class PricingStructureItemProvider extends DocumentItemProvider {
     protected void addCodePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PricingStructure_code_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PricingStructure_code_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PricingStructure_code_feature",
                                 "_UI_PricingStructure_type" ),
-                        CimPackage.eINSTANCE.getPricingStructure_Code(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPricingStructure_Code(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -100,13 +106,19 @@ public class PricingStructureItemProvider extends DocumentItemProvider {
      * @generated
      */
     protected void addDailyCeilingUsagePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PricingStructure_dailyCeilingUsage_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PricingStructure_dailyCeilingUsage_feature",
-                        "_UI_PricingStructure_type" ),
-                CimPackage.eINSTANCE.getPricingStructure_DailyCeilingUsage(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PricingStructure_dailyCeilingUsage_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PricingStructure_dailyCeilingUsage_feature", "_UI_PricingStructure_type" ),
+                        CimPackage.eINSTANCE.getPricingStructure_DailyCeilingUsage(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -116,13 +128,19 @@ public class PricingStructureItemProvider extends DocumentItemProvider {
      * @generated
      */
     protected void addDailyEstimatedUsagePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PricingStructure_dailyEstimatedUsage_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PricingStructure_dailyEstimatedUsage_feature",
-                        "_UI_PricingStructure_type" ),
-                CimPackage.eINSTANCE.getPricingStructure_DailyEstimatedUsage(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PricingStructure_dailyEstimatedUsage_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PricingStructure_dailyEstimatedUsage_feature", "_UI_PricingStructure_type" ),
+                        CimPackage.eINSTANCE.getPricingStructure_DailyEstimatedUsage(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -132,13 +150,19 @@ public class PricingStructureItemProvider extends DocumentItemProvider {
      * @generated
      */
     protected void addDailyFloorUsagePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PricingStructure_dailyFloorUsage_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PricingStructure_dailyFloorUsage_feature",
-                        "_UI_PricingStructure_type" ),
-                CimPackage.eINSTANCE.getPricingStructure_DailyFloorUsage(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PricingStructure_dailyFloorUsage_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_PricingStructure_dailyFloorUsage_feature",
+                                "_UI_PricingStructure_type" ),
+                        CimPackage.eINSTANCE.getPricingStructure_DailyFloorUsage(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -150,11 +174,17 @@ public class PricingStructureItemProvider extends DocumentItemProvider {
     protected void addRevenueKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PricingStructure_revenueKind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PricingStructure_revenueKind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PricingStructure_revenueKind_feature",
                                 "_UI_PricingStructure_type" ),
-                        CimPackage.eINSTANCE.getPricingStructure_RevenueKind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPricingStructure_RevenueKind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -166,11 +196,17 @@ public class PricingStructureItemProvider extends DocumentItemProvider {
     protected void addTaxExemptionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PricingStructure_taxExemption_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PricingStructure_taxExemption_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PricingStructure_taxExemption_feature",
                                 "_UI_PricingStructure_type" ),
-                        CimPackage.eINSTANCE.getPricingStructure_TaxExemption(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPricingStructure_TaxExemption(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -182,10 +218,17 @@ public class PricingStructureItemProvider extends DocumentItemProvider {
     protected void addUsagePointsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PricingStructure_UsagePoints_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PricingStructure_UsagePoints_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PricingStructure_UsagePoints_feature",
                                 "_UI_PricingStructure_type" ),
-                        CimPackage.eINSTANCE.getPricingStructure_UsagePoints(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getPricingStructure_UsagePoints(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -195,12 +238,19 @@ public class PricingStructureItemProvider extends DocumentItemProvider {
      * @generated
      */
     protected void addServiceCategoryPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PricingStructure_ServiceCategory_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PricingStructure_ServiceCategory_feature",
-                        "_UI_PricingStructure_type" ),
-                CimPackage.eINSTANCE.getPricingStructure_ServiceCategory(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PricingStructure_ServiceCategory_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_PricingStructure_ServiceCategory_feature",
+                                "_UI_PricingStructure_type" ),
+                        CimPackage.eINSTANCE.getPricingStructure_ServiceCategory(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -212,10 +262,17 @@ public class PricingStructureItemProvider extends DocumentItemProvider {
     protected void addTariffsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PricingStructure_Tariffs_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PricingStructure_Tariffs_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PricingStructure_Tariffs_feature",
                                 "_UI_PricingStructure_type" ),
-                        CimPackage.eINSTANCE.getPricingStructure_Tariffs(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getPricingStructure_Tariffs(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -225,12 +282,19 @@ public class PricingStructureItemProvider extends DocumentItemProvider {
      * @generated
      */
     protected void addCustomerAgreementsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PricingStructure_CustomerAgreements_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PricingStructure_CustomerAgreements_feature",
-                        "_UI_PricingStructure_type" ),
-                CimPackage.eINSTANCE.getPricingStructure_CustomerAgreements(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PricingStructure_CustomerAgreements_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PricingStructure_CustomerAgreements_feature", "_UI_PricingStructure_type" ),
+                        CimPackage.eINSTANCE.getPricingStructure_CustomerAgreements(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -242,10 +306,16 @@ public class PricingStructureItemProvider extends DocumentItemProvider {
     protected void addTransactionsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PricingStructure_Transactions_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PricingStructure_Transactions_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PricingStructure_Transactions_feature",
                                 "_UI_PricingStructure_type" ),
-                        CimPackage.eINSTANCE.getPricingStructure_Transactions(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getPricingStructure_Transactions(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -320,8 +390,8 @@ public class PricingStructureItemProvider extends DocumentItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

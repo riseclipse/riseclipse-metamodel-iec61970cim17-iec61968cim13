@@ -87,12 +87,18 @@ public class UKMinistryOfDefenceStandardItemProvider extends ItemProviderAdapter
     protected void addStandardEditionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_UKMinistryOfDefenceStandard_standardEdition_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_UKMinistryOfDefenceStandard_standardEdition_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_UKMinistryOfDefenceStandard_standardEdition_feature",
                                 "_UI_UKMinistryOfDefenceStandard_type" ),
-                        CimPackage.eINSTANCE.getUKMinistryOfDefenceStandard_StandardEdition(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getUKMinistryOfDefenceStandard_StandardEdition(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -104,12 +110,18 @@ public class UKMinistryOfDefenceStandardItemProvider extends ItemProviderAdapter
     protected void addStandardNumberPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_UKMinistryOfDefenceStandard_standardNumber_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_UKMinistryOfDefenceStandard_standardNumber_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_UKMinistryOfDefenceStandard_standardNumber_feature",
                                 "_UI_UKMinistryOfDefenceStandard_type" ),
-                        CimPackage.eINSTANCE.getUKMinistryOfDefenceStandard_StandardNumber(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getUKMinistryOfDefenceStandard_StandardNumber(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

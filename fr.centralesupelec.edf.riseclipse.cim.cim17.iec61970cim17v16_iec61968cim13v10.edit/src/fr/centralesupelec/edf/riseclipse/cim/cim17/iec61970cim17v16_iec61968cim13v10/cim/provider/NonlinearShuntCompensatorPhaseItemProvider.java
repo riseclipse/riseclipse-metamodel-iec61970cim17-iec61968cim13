@@ -72,14 +72,20 @@ public class NonlinearShuntCompensatorPhaseItemProvider extends ShuntCompensator
      * @generated
      */
     protected void addNonlinearShuntCompensatorPhasePointsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_NonlinearShuntCompensatorPhase_NonlinearShuntCompensatorPhasePoints_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_NonlinearShuntCompensatorPhase_NonlinearShuntCompensatorPhasePoints_feature",
-                        "_UI_NonlinearShuntCompensatorPhase_type" ),
-                CimPackage.eINSTANCE.getNonlinearShuntCompensatorPhase_NonlinearShuntCompensatorPhasePoints(), true,
-                false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_NonlinearShuntCompensatorPhase_NonlinearShuntCompensatorPhasePoints_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_NonlinearShuntCompensatorPhase_NonlinearShuntCompensatorPhasePoints_feature",
+                                "_UI_NonlinearShuntCompensatorPhase_type" ),
+                        CimPackage.eINSTANCE.getNonlinearShuntCompensatorPhase_NonlinearShuntCompensatorPhasePoints(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -116,7 +122,6 @@ public class NonlinearShuntCompensatorPhaseItemProvider extends ShuntCompensator
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

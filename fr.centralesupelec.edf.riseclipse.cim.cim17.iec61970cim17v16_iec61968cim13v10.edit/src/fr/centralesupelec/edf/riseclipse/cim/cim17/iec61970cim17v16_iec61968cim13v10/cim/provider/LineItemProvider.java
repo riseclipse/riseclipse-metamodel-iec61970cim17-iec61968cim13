@@ -74,9 +74,16 @@ public class LineItemProvider extends EquipmentContainerItemProvider {
     protected void addRegionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Line_Region_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Line_Region_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Line_Region_feature", "_UI_Line_type" ),
-                        CimPackage.eINSTANCE.getLine_Region(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getLine_Region(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -113,7 +120,6 @@ public class LineItemProvider extends EquipmentContainerItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

@@ -74,10 +74,17 @@ public class GeographicalRegionItemProvider extends IdentifiedObjectItemProvider
     protected void addRegionsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GeographicalRegion_Regions_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GeographicalRegion_Regions_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GeographicalRegion_Regions_feature",
                                 "_UI_GeographicalRegion_type" ),
-                        CimPackage.eINSTANCE.getGeographicalRegion_Regions(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getGeographicalRegion_Regions(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class GeographicalRegionItemProvider extends IdentifiedObjectItemProvider
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

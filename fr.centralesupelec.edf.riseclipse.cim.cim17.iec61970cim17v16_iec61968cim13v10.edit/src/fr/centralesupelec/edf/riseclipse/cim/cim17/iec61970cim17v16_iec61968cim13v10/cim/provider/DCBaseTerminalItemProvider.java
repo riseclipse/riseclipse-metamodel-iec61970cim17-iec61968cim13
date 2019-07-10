@@ -75,10 +75,17 @@ public class DCBaseTerminalItemProvider extends ACDCTerminalItemProvider {
     protected void addDCNodePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DCBaseTerminal_DCNode_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DCBaseTerminal_DCNode_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DCBaseTerminal_DCNode_feature",
                                 "_UI_DCBaseTerminal_type" ),
-                        CimPackage.eINSTANCE.getDCBaseTerminal_DCNode(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getDCBaseTerminal_DCNode(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -90,10 +97,16 @@ public class DCBaseTerminalItemProvider extends ACDCTerminalItemProvider {
     protected void addDCTopologicalNodePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DCBaseTerminal_DCTopologicalNode_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DCBaseTerminal_DCTopologicalNode_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DCBaseTerminal_DCTopologicalNode_feature",
                                 "_UI_DCBaseTerminal_type" ),
-                        CimPackage.eINSTANCE.getDCBaseTerminal_DCTopologicalNode(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getDCBaseTerminal_DCTopologicalNode(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -131,7 +144,6 @@ public class DCBaseTerminalItemProvider extends ACDCTerminalItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

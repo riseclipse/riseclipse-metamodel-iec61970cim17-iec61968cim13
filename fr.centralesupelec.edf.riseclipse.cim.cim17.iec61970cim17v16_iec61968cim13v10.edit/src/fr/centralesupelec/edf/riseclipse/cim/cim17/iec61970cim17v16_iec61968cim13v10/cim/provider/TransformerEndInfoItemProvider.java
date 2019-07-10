@@ -92,13 +92,19 @@ public class TransformerEndInfoItemProvider extends AssetInfoItemProvider {
      * @generated
      */
     protected void addConnectionKindPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TransformerEndInfo_connectionKind_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TransformerEndInfo_connectionKind_feature",
-                        "_UI_TransformerEndInfo_type" ),
-                CimPackage.eINSTANCE.getTransformerEndInfo_ConnectionKind(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerEndInfo_connectionKind_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_TransformerEndInfo_connectionKind_feature", "_UI_TransformerEndInfo_type" ),
+                        CimPackage.eINSTANCE.getTransformerEndInfo_ConnectionKind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -108,13 +114,19 @@ public class TransformerEndInfoItemProvider extends AssetInfoItemProvider {
      * @generated
      */
     protected void addEmergencySPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TransformerEndInfo_emergencyS_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TransformerEndInfo_emergencyS_feature",
-                        "_UI_TransformerEndInfo_type" ),
-                CimPackage.eINSTANCE.getTransformerEndInfo_EmergencyS(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerEndInfo_emergencyS_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_TransformerEndInfo_emergencyS_feature",
+                                "_UI_TransformerEndInfo_type" ),
+                        CimPackage.eINSTANCE.getTransformerEndInfo_EmergencyS(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -126,11 +138,17 @@ public class TransformerEndInfoItemProvider extends AssetInfoItemProvider {
     protected void addEndNumberPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TransformerEndInfo_endNumber_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerEndInfo_endNumber_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TransformerEndInfo_endNumber_feature",
                                 "_UI_TransformerEndInfo_type" ),
-                        CimPackage.eINSTANCE.getTransformerEndInfo_EndNumber(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTransformerEndInfo_EndNumber(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -140,13 +158,19 @@ public class TransformerEndInfoItemProvider extends AssetInfoItemProvider {
      * @generated
      */
     protected void addInsulationUPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TransformerEndInfo_insulationU_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TransformerEndInfo_insulationU_feature",
-                        "_UI_TransformerEndInfo_type" ),
-                CimPackage.eINSTANCE.getTransformerEndInfo_InsulationU(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerEndInfo_insulationU_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_TransformerEndInfo_insulationU_feature",
+                                "_UI_TransformerEndInfo_type" ),
+                        CimPackage.eINSTANCE.getTransformerEndInfo_InsulationU(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -156,13 +180,19 @@ public class TransformerEndInfoItemProvider extends AssetInfoItemProvider {
      * @generated
      */
     protected void addPhaseAngleClockPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TransformerEndInfo_phaseAngleClock_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TransformerEndInfo_phaseAngleClock_feature",
-                        "_UI_TransformerEndInfo_type" ),
-                CimPackage.eINSTANCE.getTransformerEndInfo_PhaseAngleClock(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerEndInfo_phaseAngleClock_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_TransformerEndInfo_phaseAngleClock_feature", "_UI_TransformerEndInfo_type" ),
+                        CimPackage.eINSTANCE.getTransformerEndInfo_PhaseAngleClock(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -174,11 +204,17 @@ public class TransformerEndInfoItemProvider extends AssetInfoItemProvider {
     protected void addRPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TransformerEndInfo_r_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerEndInfo_r_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TransformerEndInfo_r_feature",
                                 "_UI_TransformerEndInfo_type" ),
-                        CimPackage.eINSTANCE.getTransformerEndInfo_R(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTransformerEndInfo_R(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -190,11 +226,17 @@ public class TransformerEndInfoItemProvider extends AssetInfoItemProvider {
     protected void addRatedSPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TransformerEndInfo_ratedS_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerEndInfo_ratedS_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TransformerEndInfo_ratedS_feature",
                                 "_UI_TransformerEndInfo_type" ),
-                        CimPackage.eINSTANCE.getTransformerEndInfo_RatedS(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTransformerEndInfo_RatedS(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -206,11 +248,17 @@ public class TransformerEndInfoItemProvider extends AssetInfoItemProvider {
     protected void addRatedUPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TransformerEndInfo_ratedU_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerEndInfo_ratedU_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TransformerEndInfo_ratedU_feature",
                                 "_UI_TransformerEndInfo_type" ),
-                        CimPackage.eINSTANCE.getTransformerEndInfo_RatedU(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTransformerEndInfo_RatedU(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -220,13 +268,19 @@ public class TransformerEndInfoItemProvider extends AssetInfoItemProvider {
      * @generated
      */
     protected void addShortTermSPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TransformerEndInfo_shortTermS_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TransformerEndInfo_shortTermS_feature",
-                        "_UI_TransformerEndInfo_type" ),
-                CimPackage.eINSTANCE.getTransformerEndInfo_ShortTermS(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerEndInfo_shortTermS_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_TransformerEndInfo_shortTermS_feature",
+                                "_UI_TransformerEndInfo_type" ),
+                        CimPackage.eINSTANCE.getTransformerEndInfo_ShortTermS(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -237,12 +291,18 @@ public class TransformerEndInfoItemProvider extends AssetInfoItemProvider {
      */
     protected void addGroundedEndShortCircuitTestsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_TransformerEndInfo_GroundedEndShortCircuitTests_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_TransformerEndInfo_GroundedEndShortCircuitTests_feature", "_UI_TransformerEndInfo_type" ),
-                CimPackage.eINSTANCE.getTransformerEndInfo_GroundedEndShortCircuitTests(), true, false, true, null,
-                null, null ) );
+                CimPackage.eINSTANCE.getTransformerEndInfo_GroundedEndShortCircuitTests(),
+                true,
+                false,
+                true,
+                null,
+                null,
+                null ) );
     }
 
     /**
@@ -253,11 +313,17 @@ public class TransformerEndInfoItemProvider extends AssetInfoItemProvider {
      */
     protected void addEnergisedEndNoLoadTestsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_TransformerEndInfo_EnergisedEndNoLoadTests_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_TransformerEndInfo_EnergisedEndNoLoadTests_feature", "_UI_TransformerEndInfo_type" ),
-                CimPackage.eINSTANCE.getTransformerEndInfo_EnergisedEndNoLoadTests(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getTransformerEndInfo_EnergisedEndNoLoadTests(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -269,11 +335,17 @@ public class TransformerEndInfoItemProvider extends AssetInfoItemProvider {
      */
     protected void addTransformerStarImpedancePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_TransformerEndInfo_TransformerStarImpedance_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_TransformerEndInfo_TransformerStarImpedance_feature", "_UI_TransformerEndInfo_type" ),
-                CimPackage.eINSTANCE.getTransformerEndInfo_TransformerStarImpedance(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getTransformerEndInfo_TransformerStarImpedance(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -285,11 +357,17 @@ public class TransformerEndInfoItemProvider extends AssetInfoItemProvider {
      */
     protected void addOpenEndOpenCircuitTestsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_TransformerEndInfo_OpenEndOpenCircuitTests_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_TransformerEndInfo_OpenEndOpenCircuitTests_feature", "_UI_TransformerEndInfo_type" ),
-                CimPackage.eINSTANCE.getTransformerEndInfo_OpenEndOpenCircuitTests(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getTransformerEndInfo_OpenEndOpenCircuitTests(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -300,12 +378,19 @@ public class TransformerEndInfoItemProvider extends AssetInfoItemProvider {
      * @generated
      */
     protected void addToMeshImpedancesPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TransformerEndInfo_ToMeshImpedances_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TransformerEndInfo_ToMeshImpedances_feature",
-                        "_UI_TransformerEndInfo_type" ),
-                CimPackage.eINSTANCE.getTransformerEndInfo_ToMeshImpedances(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerEndInfo_ToMeshImpedances_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_TransformerEndInfo_ToMeshImpedances_feature", "_UI_TransformerEndInfo_type" ),
+                        CimPackage.eINSTANCE.getTransformerEndInfo_ToMeshImpedances(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -316,12 +401,18 @@ public class TransformerEndInfoItemProvider extends AssetInfoItemProvider {
      */
     protected void addEnergisedEndShortCircuitTestsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_TransformerEndInfo_EnergisedEndShortCircuitTests_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_TransformerEndInfo_EnergisedEndShortCircuitTests_feature", "_UI_TransformerEndInfo_type" ),
-                CimPackage.eINSTANCE.getTransformerEndInfo_EnergisedEndShortCircuitTests(), true, false, true, null,
-                null, null ) );
+                CimPackage.eINSTANCE.getTransformerEndInfo_EnergisedEndShortCircuitTests(),
+                true,
+                false,
+                true,
+                null,
+                null,
+                null ) );
     }
 
     /**
@@ -332,12 +423,18 @@ public class TransformerEndInfoItemProvider extends AssetInfoItemProvider {
      */
     protected void addEnergisedEndOpenCircuitTestsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_TransformerEndInfo_EnergisedEndOpenCircuitTests_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_TransformerEndInfo_EnergisedEndOpenCircuitTests_feature", "_UI_TransformerEndInfo_type" ),
-                CimPackage.eINSTANCE.getTransformerEndInfo_EnergisedEndOpenCircuitTests(), true, false, true, null,
-                null, null ) );
+                CimPackage.eINSTANCE.getTransformerEndInfo_EnergisedEndOpenCircuitTests(),
+                true,
+                false,
+                true,
+                null,
+                null,
+                null ) );
     }
 
     /**
@@ -349,10 +446,16 @@ public class TransformerEndInfoItemProvider extends AssetInfoItemProvider {
     protected void addTransformerTankInfoPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TransformerEndInfo_TransformerTankInfo_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerEndInfo_TransformerTankInfo_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_TransformerEndInfo_TransformerTankInfo_feature", "_UI_TransformerEndInfo_type" ),
-                        CimPackage.eINSTANCE.getTransformerEndInfo_TransformerTankInfo(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getTransformerEndInfo_TransformerTankInfo(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -363,12 +466,19 @@ public class TransformerEndInfoItemProvider extends AssetInfoItemProvider {
      * @generated
      */
     protected void addCoreAdmittancePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TransformerEndInfo_CoreAdmittance_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TransformerEndInfo_CoreAdmittance_feature",
-                        "_UI_TransformerEndInfo_type" ),
-                CimPackage.eINSTANCE.getTransformerEndInfo_CoreAdmittance(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerEndInfo_CoreAdmittance_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_TransformerEndInfo_CoreAdmittance_feature", "_UI_TransformerEndInfo_type" ),
+                        CimPackage.eINSTANCE.getTransformerEndInfo_CoreAdmittance(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -380,10 +490,16 @@ public class TransformerEndInfoItemProvider extends AssetInfoItemProvider {
     protected void addFromMeshImpedancesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TransformerEndInfo_FromMeshImpedances_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerEndInfo_FromMeshImpedances_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_TransformerEndInfo_FromMeshImpedances_feature", "_UI_TransformerEndInfo_type" ),
-                        CimPackage.eINSTANCE.getTransformerEndInfo_FromMeshImpedances(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getTransformerEndInfo_FromMeshImpedances(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 

@@ -79,14 +79,20 @@ public class ExcitationSystemDynamicsItemProvider extends DynamicsFunctionBlockI
      * @generated
      */
     protected void addPowerSystemStabilizerDynamicsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ExcitationSystemDynamics_PowerSystemStabilizerDynamics_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_ExcitationSystemDynamics_PowerSystemStabilizerDynamics_feature",
-                        "_UI_ExcitationSystemDynamics_type" ),
-                CimPackage.eINSTANCE.getExcitationSystemDynamics_PowerSystemStabilizerDynamics(), true, false, true,
-                null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ExcitationSystemDynamics_PowerSystemStabilizerDynamics_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ExcitationSystemDynamics_PowerSystemStabilizerDynamics_feature",
+                                "_UI_ExcitationSystemDynamics_type" ),
+                        CimPackage.eINSTANCE.getExcitationSystemDynamics_PowerSystemStabilizerDynamics(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -96,14 +102,20 @@ public class ExcitationSystemDynamicsItemProvider extends DynamicsFunctionBlockI
      * @generated
      */
     protected void addUnderexcitationLimiterDynamicsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ExcitationSystemDynamics_UnderexcitationLimiterDynamics_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_ExcitationSystemDynamics_UnderexcitationLimiterDynamics_feature",
-                        "_UI_ExcitationSystemDynamics_type" ),
-                CimPackage.eINSTANCE.getExcitationSystemDynamics_UnderexcitationLimiterDynamics(), true, false, true,
-                null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ExcitationSystemDynamics_UnderexcitationLimiterDynamics_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ExcitationSystemDynamics_UnderexcitationLimiterDynamics_feature",
+                                "_UI_ExcitationSystemDynamics_type" ),
+                        CimPackage.eINSTANCE.getExcitationSystemDynamics_UnderexcitationLimiterDynamics(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -113,14 +125,20 @@ public class ExcitationSystemDynamicsItemProvider extends DynamicsFunctionBlockI
      * @generated
      */
     protected void addPFVArControllerType1DynamicsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ExcitationSystemDynamics_PFVArControllerType1Dynamics_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_ExcitationSystemDynamics_PFVArControllerType1Dynamics_feature",
-                        "_UI_ExcitationSystemDynamics_type" ),
-                CimPackage.eINSTANCE.getExcitationSystemDynamics_PFVArControllerType1Dynamics(), true, false, true,
-                null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ExcitationSystemDynamics_PFVArControllerType1Dynamics_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ExcitationSystemDynamics_PFVArControllerType1Dynamics_feature",
+                                "_UI_ExcitationSystemDynamics_type" ),
+                        CimPackage.eINSTANCE.getExcitationSystemDynamics_PFVArControllerType1Dynamics(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -130,14 +148,20 @@ public class ExcitationSystemDynamicsItemProvider extends DynamicsFunctionBlockI
      * @generated
      */
     protected void addDiscontinuousExcitationControlDynamicsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ExcitationSystemDynamics_DiscontinuousExcitationControlDynamics_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_ExcitationSystemDynamics_DiscontinuousExcitationControlDynamics_feature",
-                        "_UI_ExcitationSystemDynamics_type" ),
-                CimPackage.eINSTANCE.getExcitationSystemDynamics_DiscontinuousExcitationControlDynamics(), true, false,
-                true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ExcitationSystemDynamics_DiscontinuousExcitationControlDynamics_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ExcitationSystemDynamics_DiscontinuousExcitationControlDynamics_feature",
+                                "_UI_ExcitationSystemDynamics_type" ),
+                        CimPackage.eINSTANCE.getExcitationSystemDynamics_DiscontinuousExcitationControlDynamics(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -147,14 +171,20 @@ public class ExcitationSystemDynamicsItemProvider extends DynamicsFunctionBlockI
      * @generated
      */
     protected void addPFVArControllerType2DynamicsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ExcitationSystemDynamics_PFVArControllerType2Dynamics_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_ExcitationSystemDynamics_PFVArControllerType2Dynamics_feature",
-                        "_UI_ExcitationSystemDynamics_type" ),
-                CimPackage.eINSTANCE.getExcitationSystemDynamics_PFVArControllerType2Dynamics(), true, false, true,
-                null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ExcitationSystemDynamics_PFVArControllerType2Dynamics_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ExcitationSystemDynamics_PFVArControllerType2Dynamics_feature",
+                                "_UI_ExcitationSystemDynamics_type" ),
+                        CimPackage.eINSTANCE.getExcitationSystemDynamics_PFVArControllerType2Dynamics(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -164,14 +194,20 @@ public class ExcitationSystemDynamicsItemProvider extends DynamicsFunctionBlockI
      * @generated
      */
     protected void addSynchronousMachineDynamicsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ExcitationSystemDynamics_SynchronousMachineDynamics_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_ExcitationSystemDynamics_SynchronousMachineDynamics_feature",
-                        "_UI_ExcitationSystemDynamics_type" ),
-                CimPackage.eINSTANCE.getExcitationSystemDynamics_SynchronousMachineDynamics(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ExcitationSystemDynamics_SynchronousMachineDynamics_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ExcitationSystemDynamics_SynchronousMachineDynamics_feature",
+                                "_UI_ExcitationSystemDynamics_type" ),
+                        CimPackage.eINSTANCE.getExcitationSystemDynamics_SynchronousMachineDynamics(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -181,14 +217,20 @@ public class ExcitationSystemDynamicsItemProvider extends DynamicsFunctionBlockI
      * @generated
      */
     protected void addVoltageCompensatorDynamicsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ExcitationSystemDynamics_VoltageCompensatorDynamics_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_ExcitationSystemDynamics_VoltageCompensatorDynamics_feature",
-                        "_UI_ExcitationSystemDynamics_type" ),
-                CimPackage.eINSTANCE.getExcitationSystemDynamics_VoltageCompensatorDynamics(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ExcitationSystemDynamics_VoltageCompensatorDynamics_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ExcitationSystemDynamics_VoltageCompensatorDynamics_feature",
+                                "_UI_ExcitationSystemDynamics_type" ),
+                        CimPackage.eINSTANCE.getExcitationSystemDynamics_VoltageCompensatorDynamics(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -198,14 +240,20 @@ public class ExcitationSystemDynamicsItemProvider extends DynamicsFunctionBlockI
      * @generated
      */
     protected void addOverexcitationLimiterDynamicsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ExcitationSystemDynamics_OverexcitationLimiterDynamics_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_ExcitationSystemDynamics_OverexcitationLimiterDynamics_feature",
-                        "_UI_ExcitationSystemDynamics_type" ),
-                CimPackage.eINSTANCE.getExcitationSystemDynamics_OverexcitationLimiterDynamics(), true, false, true,
-                null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ExcitationSystemDynamics_OverexcitationLimiterDynamics_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ExcitationSystemDynamics_OverexcitationLimiterDynamics_feature",
+                                "_UI_ExcitationSystemDynamics_type" ),
+                        CimPackage.eINSTANCE.getExcitationSystemDynamics_OverexcitationLimiterDynamics(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -242,7 +290,6 @@ public class ExcitationSystemDynamicsItemProvider extends DynamicsFunctionBlockI
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

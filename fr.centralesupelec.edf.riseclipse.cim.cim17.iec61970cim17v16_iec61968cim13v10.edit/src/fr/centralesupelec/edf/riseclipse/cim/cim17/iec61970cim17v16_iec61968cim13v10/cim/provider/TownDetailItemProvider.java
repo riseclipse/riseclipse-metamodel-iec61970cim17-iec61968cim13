@@ -89,11 +89,17 @@ public class TownDetailItemProvider extends ItemProviderAdapter implements IEdit
     protected void addCodePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TownDetail_code_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TownDetail_code_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TownDetail_code_feature",
                                 "_UI_TownDetail_type" ),
-                        CimPackage.eINSTANCE.getTownDetail_Code(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTownDetail_Code(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -105,11 +111,17 @@ public class TownDetailItemProvider extends ItemProviderAdapter implements IEdit
     protected void addCountryPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TownDetail_country_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TownDetail_country_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TownDetail_country_feature",
                                 "_UI_TownDetail_type" ),
-                        CimPackage.eINSTANCE.getTownDetail_Country(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTownDetail_Country(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -121,11 +133,17 @@ public class TownDetailItemProvider extends ItemProviderAdapter implements IEdit
     protected void addNamePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TownDetail_name_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TownDetail_name_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TownDetail_name_feature",
                                 "_UI_TownDetail_type" ),
-                        CimPackage.eINSTANCE.getTownDetail_Name(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTownDetail_Name(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -137,11 +155,17 @@ public class TownDetailItemProvider extends ItemProviderAdapter implements IEdit
     protected void addSectionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TownDetail_section_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TownDetail_section_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TownDetail_section_feature",
                                 "_UI_TownDetail_type" ),
-                        CimPackage.eINSTANCE.getTownDetail_Section(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTownDetail_Section(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -153,11 +177,17 @@ public class TownDetailItemProvider extends ItemProviderAdapter implements IEdit
     protected void addStateOrProvincePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TownDetail_stateOrProvince_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TownDetail_stateOrProvince_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TownDetail_stateOrProvince_feature",
                                 "_UI_TownDetail_type" ),
-                        CimPackage.eINSTANCE.getTownDetail_StateOrProvince(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTownDetail_StateOrProvince(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

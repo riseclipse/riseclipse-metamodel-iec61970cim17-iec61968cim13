@@ -77,11 +77,17 @@ public class PSREventItemProvider extends ActivityRecordItemProvider {
     protected void addKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PSREvent_kind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PSREvent_kind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PSREvent_kind_feature",
                                 "_UI_PSREvent_type" ),
-                        CimPackage.eINSTANCE.getPSREvent_Kind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPSREvent_Kind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,10 +99,17 @@ public class PSREventItemProvider extends ActivityRecordItemProvider {
     protected void addPowerSystemResourcePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PSREvent_PowerSystemResource_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PSREvent_PowerSystemResource_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PSREvent_PowerSystemResource_feature",
                                 "_UI_PSREvent_type" ),
-                        CimPackage.eINSTANCE.getPSREvent_PowerSystemResource(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getPSREvent_PowerSystemResource(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

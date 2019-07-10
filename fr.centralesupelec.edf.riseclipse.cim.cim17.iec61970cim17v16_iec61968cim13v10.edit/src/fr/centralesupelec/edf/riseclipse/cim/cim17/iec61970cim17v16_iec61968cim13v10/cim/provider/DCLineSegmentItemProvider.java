@@ -80,11 +80,17 @@ public class DCLineSegmentItemProvider extends DCConductingEquipmentItemProvider
     protected void addCapacitancePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DCLineSegment_capacitance_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DCLineSegment_capacitance_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DCLineSegment_capacitance_feature",
                                 "_UI_DCLineSegment_type" ),
-                        CimPackage.eINSTANCE.getDCLineSegment_Capacitance(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDCLineSegment_Capacitance(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -96,11 +102,17 @@ public class DCLineSegmentItemProvider extends DCConductingEquipmentItemProvider
     protected void addInductancePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DCLineSegment_inductance_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DCLineSegment_inductance_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DCLineSegment_inductance_feature",
                                 "_UI_DCLineSegment_type" ),
-                        CimPackage.eINSTANCE.getDCLineSegment_Inductance(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDCLineSegment_Inductance(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -112,11 +124,17 @@ public class DCLineSegmentItemProvider extends DCConductingEquipmentItemProvider
     protected void addLengthPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DCLineSegment_length_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DCLineSegment_length_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DCLineSegment_length_feature",
                                 "_UI_DCLineSegment_type" ),
-                        CimPackage.eINSTANCE.getDCLineSegment_Length(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDCLineSegment_Length(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -128,11 +146,17 @@ public class DCLineSegmentItemProvider extends DCConductingEquipmentItemProvider
     protected void addResistancePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DCLineSegment_resistance_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DCLineSegment_resistance_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DCLineSegment_resistance_feature",
                                 "_UI_DCLineSegment_type" ),
-                        CimPackage.eINSTANCE.getDCLineSegment_Resistance(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDCLineSegment_Resistance(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -144,10 +168,16 @@ public class DCLineSegmentItemProvider extends DCConductingEquipmentItemProvider
     protected void addPerLengthParameterPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DCLineSegment_PerLengthParameter_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DCLineSegment_PerLengthParameter_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DCLineSegment_PerLengthParameter_feature",
                                 "_UI_DCLineSegment_type" ),
-                        CimPackage.eINSTANCE.getDCLineSegment_PerLengthParameter(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getDCLineSegment_PerLengthParameter(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 

@@ -78,11 +78,17 @@ public class ClearanceActionItemProvider extends SwitchingStepItemProvider {
     protected void addKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ClearanceAction_kind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ClearanceAction_kind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ClearanceAction_kind_feature",
                                 "_UI_ClearanceAction_type" ),
-                        CimPackage.eINSTANCE.getClearanceAction_Kind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getClearanceAction_Kind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -92,12 +98,19 @@ public class ClearanceActionItemProvider extends SwitchingStepItemProvider {
      * @generated
      */
     protected void addSwitchingStepGroupPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ClearanceAction_SwitchingStepGroup_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ClearanceAction_SwitchingStepGroup_feature",
-                        "_UI_ClearanceAction_type" ),
-                CimPackage.eINSTANCE.getClearanceAction_SwitchingStepGroup(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ClearanceAction_SwitchingStepGroup_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ClearanceAction_SwitchingStepGroup_feature", "_UI_ClearanceAction_type" ),
+                        CimPackage.eINSTANCE.getClearanceAction_SwitchingStepGroup(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -109,10 +122,17 @@ public class ClearanceActionItemProvider extends SwitchingStepItemProvider {
     protected void addClearancePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ClearanceAction_Clearance_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ClearanceAction_Clearance_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ClearanceAction_Clearance_feature",
                                 "_UI_ClearanceAction_type" ),
-                        CimPackage.eINSTANCE.getClearanceAction_Clearance(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getClearanceAction_Clearance(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

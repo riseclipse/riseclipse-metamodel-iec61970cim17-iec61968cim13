@@ -82,11 +82,17 @@ public class SafetyDocumentItemProvider extends DocumentItemProvider {
     protected void addIssuedDateTimePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SafetyDocument_issuedDateTime_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SafetyDocument_issuedDateTime_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SafetyDocument_issuedDateTime_feature",
                                 "_UI_SafetyDocument_type" ),
-                        CimPackage.eINSTANCE.getSafetyDocument_IssuedDateTime(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSafetyDocument_IssuedDateTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -98,11 +104,17 @@ public class SafetyDocumentItemProvider extends DocumentItemProvider {
     protected void addReleasedDateTimePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SafetyDocument_releasedDateTime_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SafetyDocument_releasedDateTime_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SafetyDocument_releasedDateTime_feature",
                                 "_UI_SafetyDocument_type" ),
-                        CimPackage.eINSTANCE.getSafetyDocument_ReleasedDateTime(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSafetyDocument_ReleasedDateTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,10 +126,17 @@ public class SafetyDocumentItemProvider extends DocumentItemProvider {
     protected void addSwitchingPlanPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SafetyDocument_SwitchingPlan_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SafetyDocument_SwitchingPlan_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SafetyDocument_SwitchingPlan_feature",
                                 "_UI_SafetyDocument_type" ),
-                        CimPackage.eINSTANCE.getSafetyDocument_SwitchingPlan(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSafetyDocument_SwitchingPlan(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -127,12 +146,19 @@ public class SafetyDocumentItemProvider extends DocumentItemProvider {
      * @generated
      */
     protected void addIssuedBySupervisorPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SafetyDocument_IssuedBySupervisor_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SafetyDocument_IssuedBySupervisor_feature",
-                        "_UI_SafetyDocument_type" ),
-                CimPackage.eINSTANCE.getSafetyDocument_IssuedBySupervisor(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SafetyDocument_IssuedBySupervisor_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_SafetyDocument_IssuedBySupervisor_feature", "_UI_SafetyDocument_type" ),
+                        CimPackage.eINSTANCE.getSafetyDocument_IssuedBySupervisor(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -142,12 +168,19 @@ public class SafetyDocumentItemProvider extends DocumentItemProvider {
      * @generated
      */
     protected void addReleasedBySupervisorPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SafetyDocument_ReleasedBySupervisor_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SafetyDocument_ReleasedBySupervisor_feature",
-                        "_UI_SafetyDocument_type" ),
-                CimPackage.eINSTANCE.getSafetyDocument_ReleasedBySupervisor(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SafetyDocument_ReleasedBySupervisor_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_SafetyDocument_ReleasedBySupervisor_feature", "_UI_SafetyDocument_type" ),
+                        CimPackage.eINSTANCE.getSafetyDocument_ReleasedBySupervisor(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -157,12 +190,19 @@ public class SafetyDocumentItemProvider extends DocumentItemProvider {
      * @generated
      */
     protected void addReleasedToSupervisorPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SafetyDocument_ReleasedToSupervisor_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SafetyDocument_ReleasedToSupervisor_feature",
-                        "_UI_SafetyDocument_type" ),
-                CimPackage.eINSTANCE.getSafetyDocument_ReleasedToSupervisor(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SafetyDocument_ReleasedToSupervisor_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_SafetyDocument_ReleasedToSupervisor_feature", "_UI_SafetyDocument_type" ),
+                        CimPackage.eINSTANCE.getSafetyDocument_ReleasedToSupervisor(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -172,12 +212,19 @@ public class SafetyDocumentItemProvider extends DocumentItemProvider {
      * @generated
      */
     protected void addIssuedToSupervisorPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SafetyDocument_IssuedToSupervisor_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SafetyDocument_IssuedToSupervisor_feature",
-                        "_UI_SafetyDocument_type" ),
-                CimPackage.eINSTANCE.getSafetyDocument_IssuedToSupervisor(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SafetyDocument_IssuedToSupervisor_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_SafetyDocument_IssuedToSupervisor_feature", "_UI_SafetyDocument_type" ),
+                        CimPackage.eINSTANCE.getSafetyDocument_IssuedToSupervisor(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -247,8 +294,8 @@ public class SafetyDocumentItemProvider extends DocumentItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

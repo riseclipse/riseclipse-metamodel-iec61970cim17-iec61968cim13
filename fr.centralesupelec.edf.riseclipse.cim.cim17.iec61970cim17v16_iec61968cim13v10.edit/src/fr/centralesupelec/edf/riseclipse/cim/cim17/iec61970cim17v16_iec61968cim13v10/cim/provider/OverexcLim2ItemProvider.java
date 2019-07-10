@@ -79,11 +79,17 @@ public class OverexcLim2ItemProvider extends OverexcitationLimiterDynamicsItemPr
     protected void addIfdlimPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OverexcLim2_ifdlim_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OverexcLim2_ifdlim_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_OverexcLim2_ifdlim_feature",
                                 "_UI_OverexcLim2_type" ),
-                        CimPackage.eINSTANCE.getOverexcLim2_Ifdlim(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOverexcLim2_Ifdlim(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,11 +101,17 @@ public class OverexcLim2ItemProvider extends OverexcitationLimiterDynamicsItemPr
     protected void addKoiPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OverexcLim2_koi_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OverexcLim2_koi_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_OverexcLim2_koi_feature",
                                 "_UI_OverexcLim2_type" ),
-                        CimPackage.eINSTANCE.getOverexcLim2_Koi(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOverexcLim2_Koi(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,11 +123,17 @@ public class OverexcLim2ItemProvider extends OverexcitationLimiterDynamicsItemPr
     protected void addVoimaxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OverexcLim2_voimax_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OverexcLim2_voimax_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_OverexcLim2_voimax_feature",
                                 "_UI_OverexcLim2_type" ),
-                        CimPackage.eINSTANCE.getOverexcLim2_Voimax(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOverexcLim2_Voimax(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -127,11 +145,17 @@ public class OverexcLim2ItemProvider extends OverexcitationLimiterDynamicsItemPr
     protected void addVoiminPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OverexcLim2_voimin_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OverexcLim2_voimin_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_OverexcLim2_voimin_feature",
                                 "_UI_OverexcLim2_type" ),
-                        CimPackage.eINSTANCE.getOverexcLim2_Voimin(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOverexcLim2_Voimin(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

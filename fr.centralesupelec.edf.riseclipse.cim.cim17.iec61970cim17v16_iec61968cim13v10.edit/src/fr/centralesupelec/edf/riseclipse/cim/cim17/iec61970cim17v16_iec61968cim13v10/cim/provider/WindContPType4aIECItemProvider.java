@@ -79,11 +79,17 @@ public class WindContPType4aIECItemProvider extends IdentifiedObjectItemProvider
     protected void addDpmaxp4aPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContPType4aIEC_dpmaxp4a_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPType4aIEC_dpmaxp4a_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContPType4aIEC_dpmaxp4a_feature",
                                 "_UI_WindContPType4aIEC_type" ),
-                        CimPackage.eINSTANCE.getWindContPType4aIEC_Dpmaxp4a(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContPType4aIEC_Dpmaxp4a(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,11 +101,17 @@ public class WindContPType4aIECItemProvider extends IdentifiedObjectItemProvider
     protected void addTpordp4aPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContPType4aIEC_tpordp4a_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPType4aIEC_tpordp4a_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContPType4aIEC_tpordp4a_feature",
                                 "_UI_WindContPType4aIEC_type" ),
-                        CimPackage.eINSTANCE.getWindContPType4aIEC_Tpordp4a(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContPType4aIEC_Tpordp4a(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,11 +123,17 @@ public class WindContPType4aIECItemProvider extends IdentifiedObjectItemProvider
     protected void addTufiltp4aPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContPType4aIEC_tufiltp4a_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPType4aIEC_tufiltp4a_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindContPType4aIEC_tufiltp4a_feature",
                                 "_UI_WindContPType4aIEC_type" ),
-                        CimPackage.eINSTANCE.getWindContPType4aIEC_Tufiltp4a(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindContPType4aIEC_Tufiltp4a(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -127,11 +145,17 @@ public class WindContPType4aIECItemProvider extends IdentifiedObjectItemProvider
     protected void addWindTurbineType4aIECPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindContPType4aIEC_WindTurbineType4aIEC_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindContPType4aIEC_WindTurbineType4aIEC_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_WindContPType4aIEC_WindTurbineType4aIEC_feature", "_UI_WindContPType4aIEC_type" ),
-                        CimPackage.eINSTANCE.getWindContPType4aIEC_WindTurbineType4aIEC(), true, false, true, null,
-                        null, null ) );
+                        CimPackage.eINSTANCE.getWindContPType4aIEC_WindTurbineType4aIEC(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

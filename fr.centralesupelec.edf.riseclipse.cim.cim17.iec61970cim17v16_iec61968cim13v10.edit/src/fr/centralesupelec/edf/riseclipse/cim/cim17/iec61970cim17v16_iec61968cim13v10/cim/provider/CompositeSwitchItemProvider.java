@@ -75,13 +75,19 @@ public class CompositeSwitchItemProvider extends EquipmentItemProvider {
      * @generated
      */
     protected void addCompositeSwitchTypePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CompositeSwitch_compositeSwitchType_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CompositeSwitch_compositeSwitchType_feature",
-                        "_UI_CompositeSwitch_type" ),
-                CimPackage.eINSTANCE.getCompositeSwitch_CompositeSwitchType(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CompositeSwitch_compositeSwitchType_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_CompositeSwitch_compositeSwitchType_feature", "_UI_CompositeSwitch_type" ),
+                        CimPackage.eINSTANCE.getCompositeSwitch_CompositeSwitchType(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,10 +99,17 @@ public class CompositeSwitchItemProvider extends EquipmentItemProvider {
     protected void addSwitchesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CompositeSwitch_Switches_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CompositeSwitch_Switches_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CompositeSwitch_Switches_feature",
                                 "_UI_CompositeSwitch_type" ),
-                        CimPackage.eINSTANCE.getCompositeSwitch_Switches(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCompositeSwitch_Switches(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

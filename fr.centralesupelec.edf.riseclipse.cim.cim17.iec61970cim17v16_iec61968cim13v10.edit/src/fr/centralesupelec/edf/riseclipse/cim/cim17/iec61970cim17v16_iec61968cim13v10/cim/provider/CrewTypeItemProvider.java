@@ -74,10 +74,17 @@ public class CrewTypeItemProvider extends IdentifiedObjectItemProvider {
     protected void addCrewsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CrewType_Crews_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CrewType_Crews_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CrewType_Crews_feature",
                                 "_UI_CrewType_type" ),
-                        CimPackage.eINSTANCE.getCrewType_Crews(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCrewType_Crews(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class CrewTypeItemProvider extends IdentifiedObjectItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

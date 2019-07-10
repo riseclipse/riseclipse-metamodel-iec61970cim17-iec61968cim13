@@ -80,12 +80,18 @@ public class AsynchronousMachineTimeConstantReactanceItemProvider extends Asynch
     protected void addTpoPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AsynchronousMachineTimeConstantReactance_tpo_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AsynchronousMachineTimeConstantReactance_tpo_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_AsynchronousMachineTimeConstantReactance_tpo_feature",
                                 "_UI_AsynchronousMachineTimeConstantReactance_type" ),
-                        CimPackage.eINSTANCE.getAsynchronousMachineTimeConstantReactance_Tpo(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAsynchronousMachineTimeConstantReactance_Tpo(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -97,12 +103,18 @@ public class AsynchronousMachineTimeConstantReactanceItemProvider extends Asynch
     protected void addTppoPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AsynchronousMachineTimeConstantReactance_tppo_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AsynchronousMachineTimeConstantReactance_tppo_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_AsynchronousMachineTimeConstantReactance_tppo_feature",
                                 "_UI_AsynchronousMachineTimeConstantReactance_type" ),
-                        CimPackage.eINSTANCE.getAsynchronousMachineTimeConstantReactance_Tppo(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAsynchronousMachineTimeConstantReactance_Tppo(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,12 +126,18 @@ public class AsynchronousMachineTimeConstantReactanceItemProvider extends Asynch
     protected void addXpPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AsynchronousMachineTimeConstantReactance_xp_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AsynchronousMachineTimeConstantReactance_xp_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_AsynchronousMachineTimeConstantReactance_xp_feature",
                                 "_UI_AsynchronousMachineTimeConstantReactance_type" ),
-                        CimPackage.eINSTANCE.getAsynchronousMachineTimeConstantReactance_Xp(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAsynchronousMachineTimeConstantReactance_Xp(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -131,12 +149,18 @@ public class AsynchronousMachineTimeConstantReactanceItemProvider extends Asynch
     protected void addXppPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AsynchronousMachineTimeConstantReactance_xpp_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AsynchronousMachineTimeConstantReactance_xpp_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_AsynchronousMachineTimeConstantReactance_xpp_feature",
                                 "_UI_AsynchronousMachineTimeConstantReactance_type" ),
-                        CimPackage.eINSTANCE.getAsynchronousMachineTimeConstantReactance_Xpp(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAsynchronousMachineTimeConstantReactance_Xpp(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -148,12 +172,18 @@ public class AsynchronousMachineTimeConstantReactanceItemProvider extends Asynch
     protected void addXsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AsynchronousMachineTimeConstantReactance_xs_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AsynchronousMachineTimeConstantReactance_xs_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_AsynchronousMachineTimeConstantReactance_xs_feature",
                                 "_UI_AsynchronousMachineTimeConstantReactance_type" ),
-                        CimPackage.eINSTANCE.getAsynchronousMachineTimeConstantReactance_Xs(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAsynchronousMachineTimeConstantReactance_Xs(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

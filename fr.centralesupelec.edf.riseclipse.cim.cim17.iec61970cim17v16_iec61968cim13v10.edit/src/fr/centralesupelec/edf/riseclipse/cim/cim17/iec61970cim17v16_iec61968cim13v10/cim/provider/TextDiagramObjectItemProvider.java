@@ -76,11 +76,17 @@ public class TextDiagramObjectItemProvider extends DiagramObjectItemProvider {
     protected void addTextPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TextDiagramObject_text_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TextDiagramObject_text_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TextDiagramObject_text_feature",
                                 "_UI_TextDiagramObject_type" ),
-                        CimPackage.eINSTANCE.getTextDiagramObject_Text(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTextDiagramObject_Text(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

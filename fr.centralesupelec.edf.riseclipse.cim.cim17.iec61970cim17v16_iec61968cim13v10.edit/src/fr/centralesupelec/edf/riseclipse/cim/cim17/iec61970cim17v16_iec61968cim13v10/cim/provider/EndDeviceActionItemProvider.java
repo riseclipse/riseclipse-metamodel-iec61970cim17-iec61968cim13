@@ -80,11 +80,17 @@ public class EndDeviceActionItemProvider extends CimObjectWithIDItemProvider {
     protected void addCommandPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EndDeviceAction_command_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceAction_command_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceAction_command_feature",
                                 "_UI_EndDeviceAction_type" ),
-                        CimPackage.eINSTANCE.getEndDeviceAction_Command(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEndDeviceAction_Command(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -96,11 +102,17 @@ public class EndDeviceActionItemProvider extends CimObjectWithIDItemProvider {
     protected void addDurationPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EndDeviceAction_duration_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceAction_duration_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceAction_duration_feature",
                                 "_UI_EndDeviceAction_type" ),
-                        CimPackage.eINSTANCE.getEndDeviceAction_Duration(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEndDeviceAction_Duration(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -110,13 +122,19 @@ public class EndDeviceActionItemProvider extends CimObjectWithIDItemProvider {
      * @generated
      */
     protected void addDurationIndefinitePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_EndDeviceAction_durationIndefinite_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceAction_durationIndefinite_feature",
-                        "_UI_EndDeviceAction_type" ),
-                CimPackage.eINSTANCE.getEndDeviceAction_DurationIndefinite(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceAction_durationIndefinite_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_EndDeviceAction_durationIndefinite_feature", "_UI_EndDeviceAction_type" ),
+                        CimPackage.eINSTANCE.getEndDeviceAction_DurationIndefinite(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -128,11 +146,17 @@ public class EndDeviceActionItemProvider extends CimObjectWithIDItemProvider {
     protected void addStartDateTimePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EndDeviceAction_startDateTime_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceAction_startDateTime_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceAction_startDateTime_feature",
                                 "_UI_EndDeviceAction_type" ),
-                        CimPackage.eINSTANCE.getEndDeviceAction_StartDateTime(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEndDeviceAction_StartDateTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -142,12 +166,19 @@ public class EndDeviceActionItemProvider extends CimObjectWithIDItemProvider {
      * @generated
      */
     protected void addEndDeviceControlPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_EndDeviceAction_EndDeviceControl_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceAction_EndDeviceControl_feature",
-                        "_UI_EndDeviceAction_type" ),
-                CimPackage.eINSTANCE.getEndDeviceAction_EndDeviceControl(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_EndDeviceAction_EndDeviceControl_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_EndDeviceAction_EndDeviceControl_feature",
+                                "_UI_EndDeviceAction_type" ),
+                        CimPackage.eINSTANCE.getEndDeviceAction_EndDeviceControl(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

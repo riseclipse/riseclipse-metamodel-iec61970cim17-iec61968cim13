@@ -82,11 +82,17 @@ public class ISOUpperLayerItemProvider extends TCPAccessPointItemProvider {
     protected void addAeInvokePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ISOUpperLayer_aeInvoke_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ISOUpperLayer_aeInvoke_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ISOUpperLayer_aeInvoke_feature",
                                 "_UI_ISOUpperLayer_type" ),
-                        CimPackage.eINSTANCE.getISOUpperLayer_AeInvoke(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getISOUpperLayer_AeInvoke(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -98,11 +104,17 @@ public class ISOUpperLayerItemProvider extends TCPAccessPointItemProvider {
     protected void addAeQualPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ISOUpperLayer_aeQual_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ISOUpperLayer_aeQual_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ISOUpperLayer_aeQual_feature",
                                 "_UI_ISOUpperLayer_type" ),
-                        CimPackage.eINSTANCE.getISOUpperLayer_AeQual(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getISOUpperLayer_AeQual(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,11 +126,17 @@ public class ISOUpperLayerItemProvider extends TCPAccessPointItemProvider {
     protected void addApInvokePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ISOUpperLayer_apInvoke_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ISOUpperLayer_apInvoke_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ISOUpperLayer_apInvoke_feature",
                                 "_UI_ISOUpperLayer_type" ),
-                        CimPackage.eINSTANCE.getISOUpperLayer_ApInvoke(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getISOUpperLayer_ApInvoke(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -130,11 +148,17 @@ public class ISOUpperLayerItemProvider extends TCPAccessPointItemProvider {
     protected void addApTitlePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ISOUpperLayer_apTitle_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ISOUpperLayer_apTitle_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ISOUpperLayer_apTitle_feature",
                                 "_UI_ISOUpperLayer_type" ),
-                        CimPackage.eINSTANCE.getISOUpperLayer_ApTitle(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getISOUpperLayer_ApTitle(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -146,11 +170,17 @@ public class ISOUpperLayerItemProvider extends TCPAccessPointItemProvider {
     protected void addOsiPselPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ISOUpperLayer_osiPsel_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ISOUpperLayer_osiPsel_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ISOUpperLayer_osiPsel_feature",
                                 "_UI_ISOUpperLayer_type" ),
-                        CimPackage.eINSTANCE.getISOUpperLayer_OsiPsel(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getISOUpperLayer_OsiPsel(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -162,11 +192,17 @@ public class ISOUpperLayerItemProvider extends TCPAccessPointItemProvider {
     protected void addOsiSselPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ISOUpperLayer_osiSsel_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ISOUpperLayer_osiSsel_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ISOUpperLayer_osiSsel_feature",
                                 "_UI_ISOUpperLayer_type" ),
-                        CimPackage.eINSTANCE.getISOUpperLayer_OsiSsel(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getISOUpperLayer_OsiSsel(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -178,11 +214,17 @@ public class ISOUpperLayerItemProvider extends TCPAccessPointItemProvider {
     protected void addOsiTselPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ISOUpperLayer_osiTsel_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ISOUpperLayer_osiTsel_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ISOUpperLayer_osiTsel_feature",
                                 "_UI_ISOUpperLayer_type" ),
-                        CimPackage.eINSTANCE.getISOUpperLayer_OsiTsel(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getISOUpperLayer_OsiTsel(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

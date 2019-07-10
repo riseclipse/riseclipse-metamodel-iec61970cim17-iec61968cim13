@@ -73,14 +73,20 @@ public class VoltageCompensatorDynamicsItemProvider extends DynamicsFunctionBloc
      * @generated
      */
     protected void addExcitationSystemDynamicsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_VoltageCompensatorDynamics_ExcitationSystemDynamics_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_VoltageCompensatorDynamics_ExcitationSystemDynamics_feature",
-                        "_UI_VoltageCompensatorDynamics_type" ),
-                CimPackage.eINSTANCE.getVoltageCompensatorDynamics_ExcitationSystemDynamics(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_VoltageCompensatorDynamics_ExcitationSystemDynamics_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_VoltageCompensatorDynamics_ExcitationSystemDynamics_feature",
+                                "_UI_VoltageCompensatorDynamics_type" ),
+                        CimPackage.eINSTANCE.getVoltageCompensatorDynamics_ExcitationSystemDynamics(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -92,12 +98,18 @@ public class VoltageCompensatorDynamicsItemProvider extends DynamicsFunctionBloc
     protected void addRemoteInputSignalPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_VoltageCompensatorDynamics_RemoteInputSignal_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_VoltageCompensatorDynamics_RemoteInputSignal_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_VoltageCompensatorDynamics_RemoteInputSignal_feature",
                                 "_UI_VoltageCompensatorDynamics_type" ),
-                        CimPackage.eINSTANCE.getVoltageCompensatorDynamics_RemoteInputSignal(), true, false, true, null,
-                        null, null ) );
+                        CimPackage.eINSTANCE.getVoltageCompensatorDynamics_RemoteInputSignal(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -134,7 +146,6 @@ public class VoltageCompensatorDynamicsItemProvider extends DynamicsFunctionBloc
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

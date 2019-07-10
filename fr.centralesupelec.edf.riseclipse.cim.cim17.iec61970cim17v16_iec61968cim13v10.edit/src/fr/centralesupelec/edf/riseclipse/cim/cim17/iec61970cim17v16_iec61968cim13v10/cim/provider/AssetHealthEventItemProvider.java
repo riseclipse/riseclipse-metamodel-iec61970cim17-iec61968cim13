@@ -77,13 +77,19 @@ public class AssetHealthEventItemProvider extends ActivityRecordItemProvider {
      * @generated
      */
     protected void addActionRecommendationPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_AssetHealthEvent_actionRecommendation_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_AssetHealthEvent_actionRecommendation_feature",
-                        "_UI_AssetHealthEvent_type" ),
-                CimPackage.eINSTANCE.getAssetHealthEvent_ActionRecommendation(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_AssetHealthEvent_actionRecommendation_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_AssetHealthEvent_actionRecommendation_feature", "_UI_AssetHealthEvent_type" ),
+                        CimPackage.eINSTANCE.getAssetHealthEvent_ActionRecommendation(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,13 +99,19 @@ public class AssetHealthEventItemProvider extends ActivityRecordItemProvider {
      * @generated
      */
     protected void addActionTimelinePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_AssetHealthEvent_actionTimeline_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_AssetHealthEvent_actionTimeline_feature",
-                        "_UI_AssetHealthEvent_type" ),
-                CimPackage.eINSTANCE.getAssetHealthEvent_ActionTimeline(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_AssetHealthEvent_actionTimeline_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_AssetHealthEvent_actionTimeline_feature",
+                                "_UI_AssetHealthEvent_type" ),
+                        CimPackage.eINSTANCE.getAssetHealthEvent_ActionTimeline(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -109,13 +121,19 @@ public class AssetHealthEventItemProvider extends ActivityRecordItemProvider {
      * @generated
      */
     protected void addEffectiveDateTimePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_AssetHealthEvent_effectiveDateTime_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_AssetHealthEvent_effectiveDateTime_feature",
-                        "_UI_AssetHealthEvent_type" ),
-                CimPackage.eINSTANCE.getAssetHealthEvent_EffectiveDateTime(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_AssetHealthEvent_effectiveDateTime_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_AssetHealthEvent_effectiveDateTime_feature", "_UI_AssetHealthEvent_type" ),
+                        CimPackage.eINSTANCE.getAssetHealthEvent_EffectiveDateTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -127,10 +145,17 @@ public class AssetHealthEventItemProvider extends ActivityRecordItemProvider {
     protected void addAnalyticPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AssetHealthEvent_Analytic_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AssetHealthEvent_Analytic_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AssetHealthEvent_Analytic_feature",
                                 "_UI_AssetHealthEvent_type" ),
-                        CimPackage.eINSTANCE.getAssetHealthEvent_Analytic(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAssetHealthEvent_Analytic(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

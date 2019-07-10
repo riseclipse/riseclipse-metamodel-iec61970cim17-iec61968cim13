@@ -88,11 +88,17 @@ public class SteamTurbineItemProvider extends PrimeMoverItemProvider {
     protected void addCrossoverTCPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SteamTurbine_crossoverTC_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SteamTurbine_crossoverTC_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SteamTurbine_crossoverTC_feature",
                                 "_UI_SteamTurbine_type" ),
-                        CimPackage.eINSTANCE.getSteamTurbine_CrossoverTC(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSteamTurbine_CrossoverTC(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -104,11 +110,17 @@ public class SteamTurbineItemProvider extends PrimeMoverItemProvider {
     protected void addReheater1TCPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SteamTurbine_reheater1TC_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SteamTurbine_reheater1TC_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SteamTurbine_reheater1TC_feature",
                                 "_UI_SteamTurbine_type" ),
-                        CimPackage.eINSTANCE.getSteamTurbine_Reheater1TC(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSteamTurbine_Reheater1TC(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -120,11 +132,17 @@ public class SteamTurbineItemProvider extends PrimeMoverItemProvider {
     protected void addReheater2TCPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SteamTurbine_reheater2TC_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SteamTurbine_reheater2TC_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SteamTurbine_reheater2TC_feature",
                                 "_UI_SteamTurbine_type" ),
-                        CimPackage.eINSTANCE.getSteamTurbine_Reheater2TC(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSteamTurbine_Reheater2TC(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -136,11 +154,17 @@ public class SteamTurbineItemProvider extends PrimeMoverItemProvider {
     protected void addShaft1PowerHPPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SteamTurbine_shaft1PowerHP_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SteamTurbine_shaft1PowerHP_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SteamTurbine_shaft1PowerHP_feature",
                                 "_UI_SteamTurbine_type" ),
-                        CimPackage.eINSTANCE.getSteamTurbine_Shaft1PowerHP(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSteamTurbine_Shaft1PowerHP(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -152,11 +176,17 @@ public class SteamTurbineItemProvider extends PrimeMoverItemProvider {
     protected void addShaft1PowerIPPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SteamTurbine_shaft1PowerIP_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SteamTurbine_shaft1PowerIP_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SteamTurbine_shaft1PowerIP_feature",
                                 "_UI_SteamTurbine_type" ),
-                        CimPackage.eINSTANCE.getSteamTurbine_Shaft1PowerIP(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSteamTurbine_Shaft1PowerIP(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -168,11 +198,17 @@ public class SteamTurbineItemProvider extends PrimeMoverItemProvider {
     protected void addShaft1PowerLP1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SteamTurbine_shaft1PowerLP1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SteamTurbine_shaft1PowerLP1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SteamTurbine_shaft1PowerLP1_feature",
                                 "_UI_SteamTurbine_type" ),
-                        CimPackage.eINSTANCE.getSteamTurbine_Shaft1PowerLP1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSteamTurbine_Shaft1PowerLP1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -184,11 +220,17 @@ public class SteamTurbineItemProvider extends PrimeMoverItemProvider {
     protected void addShaft1PowerLP2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SteamTurbine_shaft1PowerLP2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SteamTurbine_shaft1PowerLP2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SteamTurbine_shaft1PowerLP2_feature",
                                 "_UI_SteamTurbine_type" ),
-                        CimPackage.eINSTANCE.getSteamTurbine_Shaft1PowerLP2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSteamTurbine_Shaft1PowerLP2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -200,11 +242,17 @@ public class SteamTurbineItemProvider extends PrimeMoverItemProvider {
     protected void addShaft2PowerHPPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SteamTurbine_shaft2PowerHP_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SteamTurbine_shaft2PowerHP_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SteamTurbine_shaft2PowerHP_feature",
                                 "_UI_SteamTurbine_type" ),
-                        CimPackage.eINSTANCE.getSteamTurbine_Shaft2PowerHP(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSteamTurbine_Shaft2PowerHP(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -216,11 +264,17 @@ public class SteamTurbineItemProvider extends PrimeMoverItemProvider {
     protected void addShaft2PowerIPPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SteamTurbine_shaft2PowerIP_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SteamTurbine_shaft2PowerIP_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SteamTurbine_shaft2PowerIP_feature",
                                 "_UI_SteamTurbine_type" ),
-                        CimPackage.eINSTANCE.getSteamTurbine_Shaft2PowerIP(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSteamTurbine_Shaft2PowerIP(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -232,11 +286,17 @@ public class SteamTurbineItemProvider extends PrimeMoverItemProvider {
     protected void addShaft2PowerLP1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SteamTurbine_shaft2PowerLP1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SteamTurbine_shaft2PowerLP1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SteamTurbine_shaft2PowerLP1_feature",
                                 "_UI_SteamTurbine_type" ),
-                        CimPackage.eINSTANCE.getSteamTurbine_Shaft2PowerLP1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSteamTurbine_Shaft2PowerLP1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -248,11 +308,17 @@ public class SteamTurbineItemProvider extends PrimeMoverItemProvider {
     protected void addShaft2PowerLP2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SteamTurbine_shaft2PowerLP2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SteamTurbine_shaft2PowerLP2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SteamTurbine_shaft2PowerLP2_feature",
                                 "_UI_SteamTurbine_type" ),
-                        CimPackage.eINSTANCE.getSteamTurbine_Shaft2PowerLP2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSteamTurbine_Shaft2PowerLP2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -264,11 +330,17 @@ public class SteamTurbineItemProvider extends PrimeMoverItemProvider {
     protected void addSteamChestTCPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SteamTurbine_steamChestTC_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SteamTurbine_steamChestTC_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SteamTurbine_steamChestTC_feature",
                                 "_UI_SteamTurbine_type" ),
-                        CimPackage.eINSTANCE.getSteamTurbine_SteamChestTC(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSteamTurbine_SteamChestTC(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -280,10 +352,17 @@ public class SteamTurbineItemProvider extends PrimeMoverItemProvider {
     protected void addSteamSupplysPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SteamTurbine_SteamSupplys_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SteamTurbine_SteamSupplys_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SteamTurbine_SteamSupplys_feature",
                                 "_UI_SteamTurbine_type" ),
-                        CimPackage.eINSTANCE.getSteamTurbine_SteamSupplys(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSteamTurbine_SteamSupplys(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

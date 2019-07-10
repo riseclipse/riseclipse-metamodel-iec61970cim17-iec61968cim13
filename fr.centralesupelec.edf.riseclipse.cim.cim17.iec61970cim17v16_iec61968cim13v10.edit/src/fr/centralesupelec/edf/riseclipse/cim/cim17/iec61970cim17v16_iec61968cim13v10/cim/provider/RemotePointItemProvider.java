@@ -74,10 +74,17 @@ public class RemotePointItemProvider extends IdentifiedObjectItemProvider {
     protected void addRemoteUnitPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RemotePoint_RemoteUnit_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RemotePoint_RemoteUnit_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RemotePoint_RemoteUnit_feature",
                                 "_UI_RemotePoint_type" ),
-                        CimPackage.eINSTANCE.getRemotePoint_RemoteUnit(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getRemotePoint_RemoteUnit(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class RemotePointItemProvider extends IdentifiedObjectItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

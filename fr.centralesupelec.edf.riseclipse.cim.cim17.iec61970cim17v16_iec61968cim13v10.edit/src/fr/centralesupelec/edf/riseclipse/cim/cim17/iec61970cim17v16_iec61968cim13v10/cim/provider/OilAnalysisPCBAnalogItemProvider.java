@@ -76,11 +76,17 @@ public class OilAnalysisPCBAnalogItemProvider extends AssetAnalogItemProvider {
     protected void addKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OilAnalysisPCBAnalog_kind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OilAnalysisPCBAnalog_kind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_OilAnalysisPCBAnalog_kind_feature",
                                 "_UI_OilAnalysisPCBAnalog_type" ),
-                        CimPackage.eINSTANCE.getOilAnalysisPCBAnalog_Kind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOilAnalysisPCBAnalog_Kind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

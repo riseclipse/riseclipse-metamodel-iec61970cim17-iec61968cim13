@@ -81,11 +81,17 @@ public class AppointmentItemProvider extends IdentifiedObjectItemProvider {
     protected void addCallAheadPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Appointment_callAhead_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Appointment_callAhead_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Appointment_callAhead_feature",
                                 "_UI_Appointment_type" ),
-                        CimPackage.eINSTANCE.getAppointment_CallAhead(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAppointment_CallAhead(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -97,10 +103,17 @@ public class AppointmentItemProvider extends IdentifiedObjectItemProvider {
     protected void addPersonsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Appointment_Persons_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Appointment_Persons_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Appointment_Persons_feature",
                                 "_UI_Appointment_type" ),
-                        CimPackage.eINSTANCE.getAppointment_Persons(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAppointment_Persons(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -112,10 +125,17 @@ public class AppointmentItemProvider extends IdentifiedObjectItemProvider {
     protected void addWorksPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Appointment_Works_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Appointment_Works_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Appointment_Works_feature",
                                 "_UI_Appointment_type" ),
-                        CimPackage.eINSTANCE.getAppointment_Works(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAppointment_Works(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

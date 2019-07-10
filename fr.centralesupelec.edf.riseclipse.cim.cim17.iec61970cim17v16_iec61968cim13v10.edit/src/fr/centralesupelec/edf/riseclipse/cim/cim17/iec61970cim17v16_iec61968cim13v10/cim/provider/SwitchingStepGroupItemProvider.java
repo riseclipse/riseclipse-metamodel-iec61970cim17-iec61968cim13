@@ -84,13 +84,19 @@ public class SwitchingStepGroupItemProvider extends DocumentItemProvider {
      * @generated
      */
     protected void addIsFreeSequencePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SwitchingStepGroup_isFreeSequence_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SwitchingStepGroup_isFreeSequence_feature",
-                        "_UI_SwitchingStepGroup_type" ),
-                CimPackage.eINSTANCE.getSwitchingStepGroup_IsFreeSequence(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchingStepGroup_isFreeSequence_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_SwitchingStepGroup_isFreeSequence_feature", "_UI_SwitchingStepGroup_type" ),
+                        CimPackage.eINSTANCE.getSwitchingStepGroup_IsFreeSequence(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -100,13 +106,19 @@ public class SwitchingStepGroupItemProvider extends DocumentItemProvider {
      * @generated
      */
     protected void addSequenceNumberPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SwitchingStepGroup_sequenceNumber_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SwitchingStepGroup_sequenceNumber_feature",
-                        "_UI_SwitchingStepGroup_type" ),
-                CimPackage.eINSTANCE.getSwitchingStepGroup_SequenceNumber(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchingStepGroup_sequenceNumber_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_SwitchingStepGroup_sequenceNumber_feature", "_UI_SwitchingStepGroup_type" ),
+                        CimPackage.eINSTANCE.getSwitchingStepGroup_SequenceNumber(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -116,12 +128,19 @@ public class SwitchingStepGroupItemProvider extends DocumentItemProvider {
      * @generated
      */
     protected void addGenericActionsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SwitchingStepGroup_GenericActions_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SwitchingStepGroup_GenericActions_feature",
-                        "_UI_SwitchingStepGroup_type" ),
-                CimPackage.eINSTANCE.getSwitchingStepGroup_GenericActions(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchingStepGroup_GenericActions_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_SwitchingStepGroup_GenericActions_feature", "_UI_SwitchingStepGroup_type" ),
+                        CimPackage.eINSTANCE.getSwitchingStepGroup_GenericActions(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -133,10 +152,16 @@ public class SwitchingStepGroupItemProvider extends DocumentItemProvider {
     protected void addEnergySourceActionsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SwitchingStepGroup_EnergySourceActions_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchingStepGroup_EnergySourceActions_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_SwitchingStepGroup_EnergySourceActions_feature", "_UI_SwitchingStepGroup_type" ),
-                        CimPackage.eINSTANCE.getSwitchingStepGroup_EnergySourceActions(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getSwitchingStepGroup_EnergySourceActions(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -147,12 +172,19 @@ public class SwitchingStepGroupItemProvider extends DocumentItemProvider {
      * @generated
      */
     protected void addGroundActionsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SwitchingStepGroup_GroundActions_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SwitchingStepGroup_GroundActions_feature",
-                        "_UI_SwitchingStepGroup_type" ),
-                CimPackage.eINSTANCE.getSwitchingStepGroup_GroundActions(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchingStepGroup_GroundActions_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_SwitchingStepGroup_GroundActions_feature",
+                                "_UI_SwitchingStepGroup_type" ),
+                        CimPackage.eINSTANCE.getSwitchingStepGroup_GroundActions(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -162,12 +194,19 @@ public class SwitchingStepGroupItemProvider extends DocumentItemProvider {
      * @generated
      */
     protected void addSwitchingPlanPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SwitchingStepGroup_SwitchingPlan_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SwitchingStepGroup_SwitchingPlan_feature",
-                        "_UI_SwitchingStepGroup_type" ),
-                CimPackage.eINSTANCE.getSwitchingStepGroup_SwitchingPlan(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchingStepGroup_SwitchingPlan_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_SwitchingStepGroup_SwitchingPlan_feature",
+                                "_UI_SwitchingStepGroup_type" ),
+                        CimPackage.eINSTANCE.getSwitchingStepGroup_SwitchingPlan(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -177,12 +216,19 @@ public class SwitchingStepGroupItemProvider extends DocumentItemProvider {
      * @generated
      */
     protected void addJumperActionsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SwitchingStepGroup_JumperActions_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SwitchingStepGroup_JumperActions_feature",
-                        "_UI_SwitchingStepGroup_type" ),
-                CimPackage.eINSTANCE.getSwitchingStepGroup_JumperActions(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchingStepGroup_JumperActions_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_SwitchingStepGroup_JumperActions_feature",
+                                "_UI_SwitchingStepGroup_type" ),
+                        CimPackage.eINSTANCE.getSwitchingStepGroup_JumperActions(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -192,12 +238,19 @@ public class SwitchingStepGroupItemProvider extends DocumentItemProvider {
      * @generated
      */
     protected void addTagActionsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SwitchingStepGroup_TagActions_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SwitchingStepGroup_TagActions_feature",
-                        "_UI_SwitchingStepGroup_type" ),
-                CimPackage.eINSTANCE.getSwitchingStepGroup_TagActions(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchingStepGroup_TagActions_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_SwitchingStepGroup_TagActions_feature",
+                                "_UI_SwitchingStepGroup_type" ),
+                        CimPackage.eINSTANCE.getSwitchingStepGroup_TagActions(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -207,12 +260,19 @@ public class SwitchingStepGroupItemProvider extends DocumentItemProvider {
      * @generated
      */
     protected void addClearanceActionsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SwitchingStepGroup_ClearanceActions_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SwitchingStepGroup_ClearanceActions_feature",
-                        "_UI_SwitchingStepGroup_type" ),
-                CimPackage.eINSTANCE.getSwitchingStepGroup_ClearanceActions(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchingStepGroup_ClearanceActions_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_SwitchingStepGroup_ClearanceActions_feature", "_UI_SwitchingStepGroup_type" ),
+                        CimPackage.eINSTANCE.getSwitchingStepGroup_ClearanceActions(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -222,12 +282,19 @@ public class SwitchingStepGroupItemProvider extends DocumentItemProvider {
      * @generated
      */
     protected void addCutActionsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SwitchingStepGroup_CutActions_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SwitchingStepGroup_CutActions_feature",
-                        "_UI_SwitchingStepGroup_type" ),
-                CimPackage.eINSTANCE.getSwitchingStepGroup_CutActions(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchingStepGroup_CutActions_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_SwitchingStepGroup_CutActions_feature",
+                                "_UI_SwitchingStepGroup_type" ),
+                        CimPackage.eINSTANCE.getSwitchingStepGroup_CutActions(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -237,12 +304,19 @@ public class SwitchingStepGroupItemProvider extends DocumentItemProvider {
      * @generated
      */
     protected void addSwitchActionsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SwitchingStepGroup_SwitchActions_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SwitchingStepGroup_SwitchActions_feature",
-                        "_UI_SwitchingStepGroup_type" ),
-                CimPackage.eINSTANCE.getSwitchingStepGroup_SwitchActions(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SwitchingStepGroup_SwitchActions_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_SwitchingStepGroup_SwitchActions_feature",
+                                "_UI_SwitchingStepGroup_type" ),
+                        CimPackage.eINSTANCE.getSwitchingStepGroup_SwitchActions(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -312,8 +386,8 @@ public class SwitchingStepGroupItemProvider extends DocumentItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

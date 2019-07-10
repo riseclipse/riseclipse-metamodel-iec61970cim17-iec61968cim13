@@ -87,11 +87,17 @@ public class SwitchItemProvider extends ConductingEquipmentItemProvider {
     protected void addNormalOpenPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Switch_normalOpen_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Switch_normalOpen_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Switch_normalOpen_feature",
                                 "_UI_Switch_type" ),
-                        CimPackage.eINSTANCE.getSwitch_NormalOpen(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSwitch_NormalOpen(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -103,10 +109,16 @@ public class SwitchItemProvider extends ConductingEquipmentItemProvider {
     protected void addOpenPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Switch_open_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Switch_open_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Switch_open_feature", "_UI_Switch_type" ),
-                        CimPackage.eINSTANCE.getSwitch_Open(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSwitch_Open(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -118,11 +130,17 @@ public class SwitchItemProvider extends ConductingEquipmentItemProvider {
     protected void addRatedCurrentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Switch_ratedCurrent_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Switch_ratedCurrent_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Switch_ratedCurrent_feature",
                                 "_UI_Switch_type" ),
-                        CimPackage.eINSTANCE.getSwitch_RatedCurrent(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSwitch_RatedCurrent(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -134,11 +152,17 @@ public class SwitchItemProvider extends ConductingEquipmentItemProvider {
     protected void addRetainedPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Switch_retained_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Switch_retained_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Switch_retained_feature",
                                 "_UI_Switch_type" ),
-                        CimPackage.eINSTANCE.getSwitch_Retained(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSwitch_Retained(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -150,11 +174,17 @@ public class SwitchItemProvider extends ConductingEquipmentItemProvider {
     protected void addSwitchOnCountPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Switch_switchOnCount_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Switch_switchOnCount_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Switch_switchOnCount_feature",
                                 "_UI_Switch_type" ),
-                        CimPackage.eINSTANCE.getSwitch_SwitchOnCount(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSwitch_SwitchOnCount(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -166,11 +196,17 @@ public class SwitchItemProvider extends ConductingEquipmentItemProvider {
     protected void addSwitchOnDatePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Switch_switchOnDate_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Switch_switchOnDate_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Switch_switchOnDate_feature",
                                 "_UI_Switch_type" ),
-                        CimPackage.eINSTANCE.getSwitch_SwitchOnDate(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSwitch_SwitchOnDate(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -182,10 +218,17 @@ public class SwitchItemProvider extends ConductingEquipmentItemProvider {
     protected void addSwitchSchedulesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Switch_SwitchSchedules_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Switch_SwitchSchedules_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Switch_SwitchSchedules_feature",
                                 "_UI_Switch_type" ),
-                        CimPackage.eINSTANCE.getSwitch_SwitchSchedules(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSwitch_SwitchSchedules(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -197,10 +240,17 @@ public class SwitchItemProvider extends ConductingEquipmentItemProvider {
     protected void addCompositeSwitchPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Switch_CompositeSwitch_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Switch_CompositeSwitch_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Switch_CompositeSwitch_feature",
                                 "_UI_Switch_type" ),
-                        CimPackage.eINSTANCE.getSwitch_CompositeSwitch(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSwitch_CompositeSwitch(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -212,10 +262,17 @@ public class SwitchItemProvider extends ConductingEquipmentItemProvider {
     protected void addOutagePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Switch_Outage_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Switch_Outage_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Switch_Outage_feature",
                                 "_UI_Switch_type" ),
-                        CimPackage.eINSTANCE.getSwitch_Outage(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSwitch_Outage(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -227,10 +284,17 @@ public class SwitchItemProvider extends ConductingEquipmentItemProvider {
     protected void addSwitchActionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Switch_SwitchAction_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Switch_SwitchAction_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Switch_SwitchAction_feature",
                                 "_UI_Switch_type" ),
-                        CimPackage.eINSTANCE.getSwitch_SwitchAction(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSwitch_SwitchAction(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -240,12 +304,19 @@ public class SwitchItemProvider extends ConductingEquipmentItemProvider {
      * @generated
      */
     protected void addConnectDisconnectFunctionsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_Switch_ConnectDisconnectFunctions_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_Switch_ConnectDisconnectFunctions_feature",
-                        "_UI_Switch_type" ),
-                CimPackage.eINSTANCE.getSwitch_ConnectDisconnectFunctions(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_Switch_ConnectDisconnectFunctions_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_Switch_ConnectDisconnectFunctions_feature", "_UI_Switch_type" ),
+                        CimPackage.eINSTANCE.getSwitch_ConnectDisconnectFunctions(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -257,10 +328,17 @@ public class SwitchItemProvider extends ConductingEquipmentItemProvider {
     protected void addSwitchPhasePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Switch_SwitchPhase_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Switch_SwitchPhase_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Switch_SwitchPhase_feature",
                                 "_UI_Switch_type" ),
-                        CimPackage.eINSTANCE.getSwitch_SwitchPhase(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSwitch_SwitchPhase(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

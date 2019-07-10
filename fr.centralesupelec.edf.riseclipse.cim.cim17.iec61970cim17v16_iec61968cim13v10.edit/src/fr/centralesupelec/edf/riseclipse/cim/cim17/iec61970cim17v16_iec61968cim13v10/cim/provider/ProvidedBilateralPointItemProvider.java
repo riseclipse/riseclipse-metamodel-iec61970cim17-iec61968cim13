@@ -73,12 +73,19 @@ public class ProvidedBilateralPointItemProvider extends IdentifiedObjectItemProv
      * @generated
      */
     protected void addIOPointPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ProvidedBilateralPoint_IOPoint_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ProvidedBilateralPoint_IOPoint_feature",
-                        "_UI_ProvidedBilateralPoint_type" ),
-                CimPackage.eINSTANCE.getProvidedBilateralPoint_IOPoint(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ProvidedBilateralPoint_IOPoint_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_ProvidedBilateralPoint_IOPoint_feature",
+                                "_UI_ProvidedBilateralPoint_type" ),
+                        CimPackage.eINSTANCE.getProvidedBilateralPoint_IOPoint(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -90,12 +97,18 @@ public class ProvidedBilateralPointItemProvider extends IdentifiedObjectItemProv
     protected void addBilateralExchangeActorPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ProvidedBilateralPoint_BilateralExchangeActor_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ProvidedBilateralPoint_BilateralExchangeActor_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_ProvidedBilateralPoint_BilateralExchangeActor_feature",
                                 "_UI_ProvidedBilateralPoint_type" ),
-                        CimPackage.eINSTANCE.getProvidedBilateralPoint_BilateralExchangeActor(), true, false, true,
-                        null, null, null ) );
+                        CimPackage.eINSTANCE.getProvidedBilateralPoint_BilateralExchangeActor(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -132,7 +145,6 @@ public class ProvidedBilateralPointItemProvider extends IdentifiedObjectItemProv
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

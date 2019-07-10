@@ -73,12 +73,19 @@ public class TransformerTankItemProvider extends EquipmentItemProvider {
      * @generated
      */
     protected void addPowerTransformerPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TransformerTank_PowerTransformer_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TransformerTank_PowerTransformer_feature",
-                        "_UI_TransformerTank_type" ),
-                CimPackage.eINSTANCE.getTransformerTank_PowerTransformer(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerTank_PowerTransformer_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_TransformerTank_PowerTransformer_feature",
+                                "_UI_TransformerTank_type" ),
+                        CimPackage.eINSTANCE.getTransformerTank_PowerTransformer(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -88,12 +95,19 @@ public class TransformerTankItemProvider extends EquipmentItemProvider {
      * @generated
      */
     protected void addTransformerTankEndsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TransformerTank_TransformerTankEnds_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TransformerTank_TransformerTankEnds_feature",
-                        "_UI_TransformerTank_type" ),
-                CimPackage.eINSTANCE.getTransformerTank_TransformerTankEnds(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TransformerTank_TransformerTankEnds_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_TransformerTank_TransformerTankEnds_feature", "_UI_TransformerTank_type" ),
+                        CimPackage.eINSTANCE.getTransformerTank_TransformerTankEnds(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -130,7 +144,6 @@ public class TransformerTankItemProvider extends EquipmentItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

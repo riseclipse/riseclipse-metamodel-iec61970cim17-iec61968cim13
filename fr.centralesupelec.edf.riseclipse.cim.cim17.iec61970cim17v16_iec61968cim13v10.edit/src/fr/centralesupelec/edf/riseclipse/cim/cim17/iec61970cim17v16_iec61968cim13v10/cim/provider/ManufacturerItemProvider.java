@@ -74,10 +74,16 @@ public class ManufacturerItemProvider extends OrganisationRoleItemProvider {
     protected void addProductAssetModelsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Manufacturer_ProductAssetModels_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Manufacturer_ProductAssetModels_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Manufacturer_ProductAssetModels_feature",
                                 "_UI_Manufacturer_type" ),
-                        CimPackage.eINSTANCE.getManufacturer_ProductAssetModels(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getManufacturer_ProductAssetModels(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -115,7 +121,6 @@ public class ManufacturerItemProvider extends OrganisationRoleItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

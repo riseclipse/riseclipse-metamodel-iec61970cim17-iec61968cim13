@@ -96,7 +96,6 @@ public class PhaseTapChangerSymmetricalItemProvider extends PhaseTapChangerNonLi
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

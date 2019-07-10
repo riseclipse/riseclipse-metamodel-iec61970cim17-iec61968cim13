@@ -107,13 +107,19 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
      * @generated
      */
     protected void addAVRToManualLagPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SynchronousMachine_aVRToManualLag_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_aVRToManualLag_feature",
-                        "_UI_SynchronousMachine_type" ),
-                CimPackage.eINSTANCE.getSynchronousMachine_AVRToManualLag(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_aVRToManualLag_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_SynchronousMachine_aVRToManualLag_feature", "_UI_SynchronousMachine_type" ),
+                        CimPackage.eINSTANCE.getSynchronousMachine_AVRToManualLag(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -123,13 +129,19 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
      * @generated
      */
     protected void addAVRToManualLeadPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SynchronousMachine_aVRToManualLead_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_aVRToManualLead_feature",
-                        "_UI_SynchronousMachine_type" ),
-                CimPackage.eINSTANCE.getSynchronousMachine_AVRToManualLead(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_aVRToManualLead_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_SynchronousMachine_aVRToManualLead_feature", "_UI_SynchronousMachine_type" ),
+                        CimPackage.eINSTANCE.getSynchronousMachine_AVRToManualLead(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -141,11 +153,17 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
     protected void addBaseQPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SynchronousMachine_baseQ_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_baseQ_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_baseQ_feature",
                                 "_UI_SynchronousMachine_type" ),
-                        CimPackage.eINSTANCE.getSynchronousMachine_BaseQ(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSynchronousMachine_BaseQ(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -155,13 +173,19 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
      * @generated
      */
     protected void addCondenserPPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SynchronousMachine_condenserP_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_condenserP_feature",
-                        "_UI_SynchronousMachine_type" ),
-                CimPackage.eINSTANCE.getSynchronousMachine_CondenserP(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_condenserP_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_condenserP_feature",
+                                "_UI_SynchronousMachine_type" ),
+                        CimPackage.eINSTANCE.getSynchronousMachine_CondenserP(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -171,13 +195,19 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
      * @generated
      */
     protected void addCoolantConditionPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SynchronousMachine_coolantCondition_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_coolantCondition_feature",
-                        "_UI_SynchronousMachine_type" ),
-                CimPackage.eINSTANCE.getSynchronousMachine_CoolantCondition(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_coolantCondition_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_SynchronousMachine_coolantCondition_feature", "_UI_SynchronousMachine_type" ),
+                        CimPackage.eINSTANCE.getSynchronousMachine_CoolantCondition(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -187,13 +217,19 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
      * @generated
      */
     protected void addCoolantTypePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SynchronousMachine_coolantType_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_coolantType_feature",
-                        "_UI_SynchronousMachine_type" ),
-                CimPackage.eINSTANCE.getSynchronousMachine_CoolantType(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_coolantType_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_coolantType_feature",
+                                "_UI_SynchronousMachine_type" ),
+                        CimPackage.eINSTANCE.getSynchronousMachine_CoolantType(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -205,11 +241,17 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
     protected void addEarthingPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SynchronousMachine_earthing_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_earthing_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_earthing_feature",
                                 "_UI_SynchronousMachine_type" ),
-                        CimPackage.eINSTANCE.getSynchronousMachine_Earthing(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSynchronousMachine_Earthing(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -221,11 +263,17 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
     protected void addEarthingStarPointRPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SynchronousMachine_earthingStarPointR_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_earthingStarPointR_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_SynchronousMachine_earthingStarPointR_feature", "_UI_SynchronousMachine_type" ),
-                        CimPackage.eINSTANCE.getSynchronousMachine_EarthingStarPointR(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSynchronousMachine_EarthingStarPointR(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -237,11 +285,17 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
     protected void addEarthingStarPointXPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SynchronousMachine_earthingStarPointX_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_earthingStarPointX_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_SynchronousMachine_earthingStarPointX_feature", "_UI_SynchronousMachine_type" ),
-                        CimPackage.eINSTANCE.getSynchronousMachine_EarthingStarPointX(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSynchronousMachine_EarthingStarPointX(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -253,11 +307,17 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
     protected void addIkkPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SynchronousMachine_ikk_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_ikk_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_ikk_feature",
                                 "_UI_SynchronousMachine_type" ),
-                        CimPackage.eINSTANCE.getSynchronousMachine_Ikk(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSynchronousMachine_Ikk(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -267,13 +327,19 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
      * @generated
      */
     protected void addManualToAVRPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SynchronousMachine_manualToAVR_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_manualToAVR_feature",
-                        "_UI_SynchronousMachine_type" ),
-                CimPackage.eINSTANCE.getSynchronousMachine_ManualToAVR(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_manualToAVR_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_manualToAVR_feature",
+                                "_UI_SynchronousMachine_type" ),
+                        CimPackage.eINSTANCE.getSynchronousMachine_ManualToAVR(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -285,11 +351,17 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
     protected void addMaxQPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SynchronousMachine_maxQ_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_maxQ_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_maxQ_feature",
                                 "_UI_SynchronousMachine_type" ),
-                        CimPackage.eINSTANCE.getSynchronousMachine_MaxQ(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSynchronousMachine_MaxQ(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -301,11 +373,17 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
     protected void addMaxUPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SynchronousMachine_maxU_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_maxU_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_maxU_feature",
                                 "_UI_SynchronousMachine_type" ),
-                        CimPackage.eINSTANCE.getSynchronousMachine_MaxU(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSynchronousMachine_MaxU(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -317,11 +395,17 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
     protected void addMinQPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SynchronousMachine_minQ_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_minQ_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_minQ_feature",
                                 "_UI_SynchronousMachine_type" ),
-                        CimPackage.eINSTANCE.getSynchronousMachine_MinQ(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSynchronousMachine_MinQ(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -333,11 +417,17 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
     protected void addMinUPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SynchronousMachine_minU_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_minU_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_minU_feature",
                                 "_UI_SynchronousMachine_type" ),
-                        CimPackage.eINSTANCE.getSynchronousMachine_MinU(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSynchronousMachine_MinU(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -349,11 +439,17 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
     protected void addMuPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SynchronousMachine_mu_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_mu_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_mu_feature",
                                 "_UI_SynchronousMachine_type" ),
-                        CimPackage.eINSTANCE.getSynchronousMachine_Mu(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSynchronousMachine_Mu(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -363,13 +459,19 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
      * @generated
      */
     protected void addOperatingModePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SynchronousMachine_operatingMode_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_operatingMode_feature",
-                        "_UI_SynchronousMachine_type" ),
-                CimPackage.eINSTANCE.getSynchronousMachine_OperatingMode(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_operatingMode_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_operatingMode_feature",
+                                "_UI_SynchronousMachine_type" ),
+                        CimPackage.eINSTANCE.getSynchronousMachine_OperatingMode(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -381,11 +483,17 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
     protected void addQPercentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SynchronousMachine_qPercent_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_qPercent_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_qPercent_feature",
                                 "_UI_SynchronousMachine_type" ),
-                        CimPackage.eINSTANCE.getSynchronousMachine_QPercent(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSynchronousMachine_QPercent(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -397,11 +505,17 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
     protected void addRPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SynchronousMachine_r_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_r_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_r_feature",
                                 "_UI_SynchronousMachine_type" ),
-                        CimPackage.eINSTANCE.getSynchronousMachine_R(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSynchronousMachine_R(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -413,11 +527,17 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
     protected void addR0PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SynchronousMachine_r0_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_r0_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_r0_feature",
                                 "_UI_SynchronousMachine_type" ),
-                        CimPackage.eINSTANCE.getSynchronousMachine_R0(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSynchronousMachine_R0(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -429,11 +549,17 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
     protected void addR2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SynchronousMachine_r2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_r2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_r2_feature",
                                 "_UI_SynchronousMachine_type" ),
-                        CimPackage.eINSTANCE.getSynchronousMachine_R2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSynchronousMachine_R2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -443,13 +569,19 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
      * @generated
      */
     protected void addReferencePriorityPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SynchronousMachine_referencePriority_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_referencePriority_feature",
-                        "_UI_SynchronousMachine_type" ),
-                CimPackage.eINSTANCE.getSynchronousMachine_ReferencePriority(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_referencePriority_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_SynchronousMachine_referencePriority_feature", "_UI_SynchronousMachine_type" ),
+                        CimPackage.eINSTANCE.getSynchronousMachine_ReferencePriority(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -461,11 +593,17 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
     protected void addSatDirectSubtransXPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SynchronousMachine_satDirectSubtransX_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_satDirectSubtransX_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_SynchronousMachine_satDirectSubtransX_feature", "_UI_SynchronousMachine_type" ),
-                        CimPackage.eINSTANCE.getSynchronousMachine_SatDirectSubtransX(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSynchronousMachine_SatDirectSubtransX(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -475,13 +613,19 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
      * @generated
      */
     protected void addSatDirectSyncXPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SynchronousMachine_satDirectSyncX_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_satDirectSyncX_feature",
-                        "_UI_SynchronousMachine_type" ),
-                CimPackage.eINSTANCE.getSynchronousMachine_SatDirectSyncX(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_satDirectSyncX_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_SynchronousMachine_satDirectSyncX_feature", "_UI_SynchronousMachine_type" ),
+                        CimPackage.eINSTANCE.getSynchronousMachine_SatDirectSyncX(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -491,13 +635,19 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
      * @generated
      */
     protected void addSatDirectTransXPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SynchronousMachine_satDirectTransX_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_satDirectTransX_feature",
-                        "_UI_SynchronousMachine_type" ),
-                CimPackage.eINSTANCE.getSynchronousMachine_SatDirectTransX(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_satDirectTransX_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_SynchronousMachine_satDirectTransX_feature", "_UI_SynchronousMachine_type" ),
+                        CimPackage.eINSTANCE.getSynchronousMachine_SatDirectTransX(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -509,11 +659,17 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
     protected void addShortCircuitRotorTypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SynchronousMachine_shortCircuitRotorType_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_shortCircuitRotorType_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_SynchronousMachine_shortCircuitRotorType_feature", "_UI_SynchronousMachine_type" ),
-                        CimPackage.eINSTANCE.getSynchronousMachine_ShortCircuitRotorType(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSynchronousMachine_ShortCircuitRotorType(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -525,11 +681,17 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
     protected void addTypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SynchronousMachine_type_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_type_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_type_feature",
                                 "_UI_SynchronousMachine_type" ),
-                        CimPackage.eINSTANCE.getSynchronousMachine_Type(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSynchronousMachine_Type(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -540,12 +702,18 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
      */
     protected void addVoltageRegulationRangePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_SynchronousMachine_voltageRegulationRange_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_SynchronousMachine_voltageRegulationRange_feature", "_UI_SynchronousMachine_type" ),
-                CimPackage.eINSTANCE.getSynchronousMachine_VoltageRegulationRange(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getSynchronousMachine_VoltageRegulationRange(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -557,11 +725,17 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
     protected void addX0PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SynchronousMachine_x0_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_x0_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_x0_feature",
                                 "_UI_SynchronousMachine_type" ),
-                        CimPackage.eINSTANCE.getSynchronousMachine_X0(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSynchronousMachine_X0(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -573,11 +747,17 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
     protected void addX2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SynchronousMachine_x2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_x2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_x2_feature",
                                 "_UI_SynchronousMachine_type" ),
-                        CimPackage.eINSTANCE.getSynchronousMachine_X2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSynchronousMachine_X2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -588,11 +768,17 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
      */
     protected void addReactiveCapabilityCurvesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_SynchronousMachine_ReactiveCapabilityCurves_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_SynchronousMachine_ReactiveCapabilityCurves_feature", "_UI_SynchronousMachine_type" ),
-                CimPackage.eINSTANCE.getSynchronousMachine_ReactiveCapabilityCurves(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getSynchronousMachine_ReactiveCapabilityCurves(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -604,11 +790,17 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
      */
     protected void addSynchronousMachineDynamicsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_SynchronousMachine_SynchronousMachineDynamics_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_SynchronousMachine_SynchronousMachineDynamics_feature", "_UI_SynchronousMachine_type" ),
-                CimPackage.eINSTANCE.getSynchronousMachine_SynchronousMachineDynamics(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getSynchronousMachine_SynchronousMachineDynamics(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -619,12 +811,19 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
      * @generated
      */
     protected void addPrimeMoversPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SynchronousMachine_PrimeMovers_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_PrimeMovers_feature",
-                        "_UI_SynchronousMachine_type" ),
-                CimPackage.eINSTANCE.getSynchronousMachine_PrimeMovers(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_PrimeMovers_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_SynchronousMachine_PrimeMovers_feature",
+                                "_UI_SynchronousMachine_type" ),
+                        CimPackage.eINSTANCE.getSynchronousMachine_PrimeMovers(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -634,14 +833,20 @@ public class SynchronousMachineItemProvider extends RotatingMachineItemProvider 
      * @generated
      */
     protected void addInitialReactiveCapabilityCurvePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SynchronousMachine_InitialReactiveCapabilityCurve_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_SynchronousMachine_InitialReactiveCapabilityCurve_feature",
-                        "_UI_SynchronousMachine_type" ),
-                CimPackage.eINSTANCE.getSynchronousMachine_InitialReactiveCapabilityCurve(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachine_InitialReactiveCapabilityCurve_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_SynchronousMachine_InitialReactiveCapabilityCurve_feature",
+                                "_UI_SynchronousMachine_type" ),
+                        CimPackage.eINSTANCE.getSynchronousMachine_InitialReactiveCapabilityCurve(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

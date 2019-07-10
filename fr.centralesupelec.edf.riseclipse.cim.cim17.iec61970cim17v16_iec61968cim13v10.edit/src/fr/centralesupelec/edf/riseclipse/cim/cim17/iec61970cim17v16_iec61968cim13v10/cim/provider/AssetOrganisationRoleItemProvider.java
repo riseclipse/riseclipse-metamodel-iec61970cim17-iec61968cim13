@@ -74,10 +74,17 @@ public class AssetOrganisationRoleItemProvider extends OrganisationRoleItemProvi
     protected void addAssetsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AssetOrganisationRole_Assets_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AssetOrganisationRole_Assets_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AssetOrganisationRole_Assets_feature",
                                 "_UI_AssetOrganisationRole_type" ),
-                        CimPackage.eINSTANCE.getAssetOrganisationRole_Assets(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAssetOrganisationRole_Assets(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class AssetOrganisationRoleItemProvider extends OrganisationRoleItemProvi
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

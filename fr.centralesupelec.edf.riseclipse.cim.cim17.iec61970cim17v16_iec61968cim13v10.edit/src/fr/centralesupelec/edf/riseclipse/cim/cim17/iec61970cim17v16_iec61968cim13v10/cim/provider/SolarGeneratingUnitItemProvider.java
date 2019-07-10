@@ -96,7 +96,6 @@ public class SolarGeneratingUnitItemProvider extends GeneratingUnitItemProvider 
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

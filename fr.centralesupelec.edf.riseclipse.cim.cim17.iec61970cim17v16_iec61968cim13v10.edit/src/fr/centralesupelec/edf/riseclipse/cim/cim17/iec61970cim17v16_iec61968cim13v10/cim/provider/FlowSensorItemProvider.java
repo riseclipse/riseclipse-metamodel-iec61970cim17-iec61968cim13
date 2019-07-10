@@ -96,7 +96,6 @@ public class FlowSensorItemProvider extends ConductingEquipmentItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

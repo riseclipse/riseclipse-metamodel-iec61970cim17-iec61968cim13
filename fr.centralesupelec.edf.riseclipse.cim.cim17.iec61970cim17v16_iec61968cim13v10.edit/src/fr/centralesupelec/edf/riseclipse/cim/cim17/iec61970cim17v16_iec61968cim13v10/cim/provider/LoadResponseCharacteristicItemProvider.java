@@ -86,12 +86,18 @@ public class LoadResponseCharacteristicItemProvider extends IdentifiedObjectItem
      */
     protected void addExponentModelPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_LoadResponseCharacteristic_exponentModel_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_LoadResponseCharacteristic_exponentModel_feature",
                         "_UI_LoadResponseCharacteristic_type" ),
-                CimPackage.eINSTANCE.getLoadResponseCharacteristic_ExponentModel(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getLoadResponseCharacteristic_ExponentModel(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -103,12 +109,18 @@ public class LoadResponseCharacteristicItemProvider extends IdentifiedObjectItem
     protected void addPConstantCurrentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadResponseCharacteristic_pConstantCurrent_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadResponseCharacteristic_pConstantCurrent_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_LoadResponseCharacteristic_pConstantCurrent_feature",
                                 "_UI_LoadResponseCharacteristic_type" ),
-                        CimPackage.eINSTANCE.getLoadResponseCharacteristic_PConstantCurrent(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadResponseCharacteristic_PConstantCurrent(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -120,12 +132,18 @@ public class LoadResponseCharacteristicItemProvider extends IdentifiedObjectItem
     protected void addPConstantImpedancePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadResponseCharacteristic_pConstantImpedance_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadResponseCharacteristic_pConstantImpedance_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_LoadResponseCharacteristic_pConstantImpedance_feature",
                                 "_UI_LoadResponseCharacteristic_type" ),
-                        CimPackage.eINSTANCE.getLoadResponseCharacteristic_PConstantImpedance(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadResponseCharacteristic_PConstantImpedance(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -137,12 +155,18 @@ public class LoadResponseCharacteristicItemProvider extends IdentifiedObjectItem
     protected void addPConstantPowerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadResponseCharacteristic_pConstantPower_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadResponseCharacteristic_pConstantPower_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_LoadResponseCharacteristic_pConstantPower_feature",
                                 "_UI_LoadResponseCharacteristic_type" ),
-                        CimPackage.eINSTANCE.getLoadResponseCharacteristic_PConstantPower(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadResponseCharacteristic_PConstantPower(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -154,12 +178,18 @@ public class LoadResponseCharacteristicItemProvider extends IdentifiedObjectItem
     protected void addPFrequencyExponentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadResponseCharacteristic_pFrequencyExponent_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadResponseCharacteristic_pFrequencyExponent_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_LoadResponseCharacteristic_pFrequencyExponent_feature",
                                 "_UI_LoadResponseCharacteristic_type" ),
-                        CimPackage.eINSTANCE.getLoadResponseCharacteristic_PFrequencyExponent(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadResponseCharacteristic_PFrequencyExponent(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -171,12 +201,18 @@ public class LoadResponseCharacteristicItemProvider extends IdentifiedObjectItem
     protected void addPVoltageExponentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadResponseCharacteristic_pVoltageExponent_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadResponseCharacteristic_pVoltageExponent_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_LoadResponseCharacteristic_pVoltageExponent_feature",
                                 "_UI_LoadResponseCharacteristic_type" ),
-                        CimPackage.eINSTANCE.getLoadResponseCharacteristic_PVoltageExponent(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadResponseCharacteristic_PVoltageExponent(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -188,12 +224,18 @@ public class LoadResponseCharacteristicItemProvider extends IdentifiedObjectItem
     protected void addQConstantCurrentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadResponseCharacteristic_qConstantCurrent_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadResponseCharacteristic_qConstantCurrent_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_LoadResponseCharacteristic_qConstantCurrent_feature",
                                 "_UI_LoadResponseCharacteristic_type" ),
-                        CimPackage.eINSTANCE.getLoadResponseCharacteristic_QConstantCurrent(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadResponseCharacteristic_QConstantCurrent(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -205,12 +247,18 @@ public class LoadResponseCharacteristicItemProvider extends IdentifiedObjectItem
     protected void addQConstantImpedancePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadResponseCharacteristic_qConstantImpedance_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadResponseCharacteristic_qConstantImpedance_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_LoadResponseCharacteristic_qConstantImpedance_feature",
                                 "_UI_LoadResponseCharacteristic_type" ),
-                        CimPackage.eINSTANCE.getLoadResponseCharacteristic_QConstantImpedance(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadResponseCharacteristic_QConstantImpedance(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -222,12 +270,18 @@ public class LoadResponseCharacteristicItemProvider extends IdentifiedObjectItem
     protected void addQConstantPowerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadResponseCharacteristic_qConstantPower_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadResponseCharacteristic_qConstantPower_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_LoadResponseCharacteristic_qConstantPower_feature",
                                 "_UI_LoadResponseCharacteristic_type" ),
-                        CimPackage.eINSTANCE.getLoadResponseCharacteristic_QConstantPower(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadResponseCharacteristic_QConstantPower(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -239,12 +293,18 @@ public class LoadResponseCharacteristicItemProvider extends IdentifiedObjectItem
     protected void addQFrequencyExponentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadResponseCharacteristic_qFrequencyExponent_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadResponseCharacteristic_qFrequencyExponent_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_LoadResponseCharacteristic_qFrequencyExponent_feature",
                                 "_UI_LoadResponseCharacteristic_type" ),
-                        CimPackage.eINSTANCE.getLoadResponseCharacteristic_QFrequencyExponent(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadResponseCharacteristic_QFrequencyExponent(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -256,12 +316,18 @@ public class LoadResponseCharacteristicItemProvider extends IdentifiedObjectItem
     protected void addQVoltageExponentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadResponseCharacteristic_qVoltageExponent_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadResponseCharacteristic_qVoltageExponent_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_LoadResponseCharacteristic_qVoltageExponent_feature",
                                 "_UI_LoadResponseCharacteristic_type" ),
-                        CimPackage.eINSTANCE.getLoadResponseCharacteristic_QVoltageExponent(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadResponseCharacteristic_QVoltageExponent(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -273,12 +339,18 @@ public class LoadResponseCharacteristicItemProvider extends IdentifiedObjectItem
     protected void addEnergyConsumerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadResponseCharacteristic_EnergyConsumer_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadResponseCharacteristic_EnergyConsumer_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_LoadResponseCharacteristic_EnergyConsumer_feature",
                                 "_UI_LoadResponseCharacteristic_type" ),
-                        CimPackage.eINSTANCE.getLoadResponseCharacteristic_EnergyConsumer(), true, false, true, null,
-                        null, null ) );
+                        CimPackage.eINSTANCE.getLoadResponseCharacteristic_EnergyConsumer(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

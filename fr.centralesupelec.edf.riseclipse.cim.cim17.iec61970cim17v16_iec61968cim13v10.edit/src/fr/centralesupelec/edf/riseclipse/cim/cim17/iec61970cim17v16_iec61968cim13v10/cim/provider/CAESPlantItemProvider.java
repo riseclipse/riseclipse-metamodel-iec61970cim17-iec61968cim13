@@ -79,11 +79,17 @@ public class CAESPlantItemProvider extends PowerSystemResourceItemProvider {
     protected void addEnergyStorageCapacityPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CAESPlant_energyStorageCapacity_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CAESPlant_energyStorageCapacity_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CAESPlant_energyStorageCapacity_feature",
                                 "_UI_CAESPlant_type" ),
-                        CimPackage.eINSTANCE.getCAESPlant_EnergyStorageCapacity(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCAESPlant_EnergyStorageCapacity(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,11 +101,17 @@ public class CAESPlantItemProvider extends PowerSystemResourceItemProvider {
     protected void addRatedCapacityPPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CAESPlant_ratedCapacityP_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CAESPlant_ratedCapacityP_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CAESPlant_ratedCapacityP_feature",
                                 "_UI_CAESPlant_type" ),
-                        CimPackage.eINSTANCE.getCAESPlant_RatedCapacityP(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCAESPlant_RatedCapacityP(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,10 +123,17 @@ public class CAESPlantItemProvider extends PowerSystemResourceItemProvider {
     protected void addAirCompressorPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CAESPlant_AirCompressor_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CAESPlant_AirCompressor_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CAESPlant_AirCompressor_feature",
                                 "_UI_CAESPlant_type" ),
-                        CimPackage.eINSTANCE.getCAESPlant_AirCompressor(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCAESPlant_AirCompressor(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -126,10 +145,16 @@ public class CAESPlantItemProvider extends PowerSystemResourceItemProvider {
     protected void addThermalGeneratingUnitPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CAESPlant_ThermalGeneratingUnit_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CAESPlant_ThermalGeneratingUnit_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CAESPlant_ThermalGeneratingUnit_feature",
                                 "_UI_CAESPlant_type" ),
-                        CimPackage.eINSTANCE.getCAESPlant_ThermalGeneratingUnit(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getCAESPlant_ThermalGeneratingUnit(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 

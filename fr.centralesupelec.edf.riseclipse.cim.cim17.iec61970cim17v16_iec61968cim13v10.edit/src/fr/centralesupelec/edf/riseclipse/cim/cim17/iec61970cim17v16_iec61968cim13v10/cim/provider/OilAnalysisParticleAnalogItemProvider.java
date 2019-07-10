@@ -76,11 +76,17 @@ public class OilAnalysisParticleAnalogItemProvider extends AssetAnalogItemProvid
     protected void addKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OilAnalysisParticleAnalog_kind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OilAnalysisParticleAnalog_kind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_OilAnalysisParticleAnalog_kind_feature",
                                 "_UI_OilAnalysisParticleAnalog_type" ),
-                        CimPackage.eINSTANCE.getOilAnalysisParticleAnalog_Kind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOilAnalysisParticleAnalog_Kind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

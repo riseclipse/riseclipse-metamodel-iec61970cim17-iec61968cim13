@@ -76,11 +76,17 @@ public class BasePowerItemProvider extends IdentifiedObjectItemProvider {
     protected void addBasePowerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_BasePower_basePower_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_BasePower_basePower_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_BasePower_basePower_feature",
                                 "_UI_BasePower_type" ),
-                        CimPackage.eINSTANCE.getBasePower_BasePower(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getBasePower_BasePower(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

@@ -76,11 +76,17 @@ public class GroundingImpedanceItemProvider extends EarthFaultCompensatorItemPro
     protected void addXPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GroundingImpedance_x_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GroundingImpedance_x_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GroundingImpedance_x_feature",
                                 "_UI_GroundingImpedance_type" ),
-                        CimPackage.eINSTANCE.getGroundingImpedance_X(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGroundingImpedance_X(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

@@ -74,10 +74,17 @@ public class LimitItemProvider extends IdentifiedObjectItemProvider {
     protected void addProceduresPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Limit_Procedures_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Limit_Procedures_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Limit_Procedures_feature",
                                 "_UI_Limit_type" ),
-                        CimPackage.eINSTANCE.getLimit_Procedures(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getLimit_Procedures(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class LimitItemProvider extends IdentifiedObjectItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

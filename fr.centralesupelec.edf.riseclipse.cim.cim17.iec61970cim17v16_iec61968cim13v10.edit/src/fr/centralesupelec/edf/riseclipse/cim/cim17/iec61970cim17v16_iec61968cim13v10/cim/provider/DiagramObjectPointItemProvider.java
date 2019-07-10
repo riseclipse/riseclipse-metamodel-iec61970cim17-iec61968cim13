@@ -79,13 +79,19 @@ public class DiagramObjectPointItemProvider extends CimObjectWithIDItemProvider 
      * @generated
      */
     protected void addSequenceNumberPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_DiagramObjectPoint_sequenceNumber_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_DiagramObjectPoint_sequenceNumber_feature",
-                        "_UI_DiagramObjectPoint_type" ),
-                CimPackage.eINSTANCE.getDiagramObjectPoint_SequenceNumber(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_DiagramObjectPoint_sequenceNumber_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_DiagramObjectPoint_sequenceNumber_feature", "_UI_DiagramObjectPoint_type" ),
+                        CimPackage.eINSTANCE.getDiagramObjectPoint_SequenceNumber(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -97,11 +103,17 @@ public class DiagramObjectPointItemProvider extends CimObjectWithIDItemProvider 
     protected void addXPositionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiagramObjectPoint_xPosition_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiagramObjectPoint_xPosition_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiagramObjectPoint_xPosition_feature",
                                 "_UI_DiagramObjectPoint_type" ),
-                        CimPackage.eINSTANCE.getDiagramObjectPoint_XPosition(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiagramObjectPoint_XPosition(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -113,11 +125,17 @@ public class DiagramObjectPointItemProvider extends CimObjectWithIDItemProvider 
     protected void addYPositionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiagramObjectPoint_yPosition_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiagramObjectPoint_yPosition_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiagramObjectPoint_yPosition_feature",
                                 "_UI_DiagramObjectPoint_type" ),
-                        CimPackage.eINSTANCE.getDiagramObjectPoint_YPosition(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiagramObjectPoint_YPosition(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -129,11 +147,17 @@ public class DiagramObjectPointItemProvider extends CimObjectWithIDItemProvider 
     protected void addZPositionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiagramObjectPoint_zPosition_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiagramObjectPoint_zPosition_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiagramObjectPoint_zPosition_feature",
                                 "_UI_DiagramObjectPoint_type" ),
-                        CimPackage.eINSTANCE.getDiagramObjectPoint_ZPosition(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiagramObjectPoint_ZPosition(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -143,12 +167,19 @@ public class DiagramObjectPointItemProvider extends CimObjectWithIDItemProvider 
      * @generated
      */
     protected void addDiagramObjectPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_DiagramObjectPoint_DiagramObject_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_DiagramObjectPoint_DiagramObject_feature",
-                        "_UI_DiagramObjectPoint_type" ),
-                CimPackage.eINSTANCE.getDiagramObjectPoint_DiagramObject(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_DiagramObjectPoint_DiagramObject_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_DiagramObjectPoint_DiagramObject_feature",
+                                "_UI_DiagramObjectPoint_type" ),
+                        CimPackage.eINSTANCE.getDiagramObjectPoint_DiagramObject(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -159,11 +190,17 @@ public class DiagramObjectPointItemProvider extends CimObjectWithIDItemProvider 
      */
     protected void addDiagramObjectGluePointPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_DiagramObjectPoint_DiagramObjectGluePoint_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_DiagramObjectPoint_DiagramObjectGluePoint_feature", "_UI_DiagramObjectPoint_type" ),
-                CimPackage.eINSTANCE.getDiagramObjectPoint_DiagramObjectGluePoint(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getDiagramObjectPoint_DiagramObjectGluePoint(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 

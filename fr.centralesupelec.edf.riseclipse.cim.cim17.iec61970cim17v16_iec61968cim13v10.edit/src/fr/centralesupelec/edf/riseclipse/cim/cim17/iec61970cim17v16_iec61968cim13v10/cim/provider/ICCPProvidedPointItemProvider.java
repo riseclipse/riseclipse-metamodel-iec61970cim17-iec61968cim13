@@ -77,13 +77,19 @@ public class ICCPProvidedPointItemProvider extends ProvidedBilateralPointItemPro
      * @generated
      */
     protected void addAccessPriviledgePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ICCPProvidedPoint_accessPriviledge_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ICCPProvidedPoint_accessPriviledge_feature",
-                        "_UI_ICCPProvidedPoint_type" ),
-                CimPackage.eINSTANCE.getICCPProvidedPoint_AccessPriviledge(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ICCPProvidedPoint_accessPriviledge_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ICCPProvidedPoint_accessPriviledge_feature", "_UI_ICCPProvidedPoint_type" ),
+                        CimPackage.eINSTANCE.getICCPProvidedPoint_AccessPriviledge(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,13 +99,19 @@ public class ICCPProvidedPointItemProvider extends ProvidedBilateralPointItemPro
      * @generated
      */
     protected void addPointQualityPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ICCPProvidedPoint_pointQuality_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ICCPProvidedPoint_pointQuality_feature",
-                        "_UI_ICCPProvidedPoint_type" ),
-                CimPackage.eINSTANCE.getICCPProvidedPoint_PointQuality(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ICCPProvidedPoint_pointQuality_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_ICCPProvidedPoint_pointQuality_feature",
+                                "_UI_ICCPProvidedPoint_type" ),
+                        CimPackage.eINSTANCE.getICCPProvidedPoint_PointQuality(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,11 +123,17 @@ public class ICCPProvidedPointItemProvider extends ProvidedBilateralPointItemPro
     protected void addPointTypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ICCPProvidedPoint_pointType_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ICCPProvidedPoint_pointType_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ICCPProvidedPoint_pointType_feature",
                                 "_UI_ICCPProvidedPoint_type" ),
-                        CimPackage.eINSTANCE.getICCPProvidedPoint_PointType(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getICCPProvidedPoint_PointType(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -127,11 +145,17 @@ public class ICCPProvidedPointItemProvider extends ProvidedBilateralPointItemPro
     protected void addScopePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ICCPProvidedPoint_scope_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ICCPProvidedPoint_scope_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ICCPProvidedPoint_scope_feature",
                                 "_UI_ICCPProvidedPoint_type" ),
-                        CimPackage.eINSTANCE.getICCPProvidedPoint_Scope(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getICCPProvidedPoint_Scope(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

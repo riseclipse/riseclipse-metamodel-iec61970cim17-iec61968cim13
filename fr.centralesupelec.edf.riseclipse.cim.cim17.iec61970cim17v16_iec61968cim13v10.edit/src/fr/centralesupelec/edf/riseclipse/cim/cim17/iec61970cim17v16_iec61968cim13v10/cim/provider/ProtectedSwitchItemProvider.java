@@ -76,13 +76,19 @@ public class ProtectedSwitchItemProvider extends SwitchItemProvider {
      * @generated
      */
     protected void addBreakingCapacityPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ProtectedSwitch_breakingCapacity_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ProtectedSwitch_breakingCapacity_feature",
-                        "_UI_ProtectedSwitch_type" ),
-                CimPackage.eINSTANCE.getProtectedSwitch_BreakingCapacity(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ProtectedSwitch_breakingCapacity_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_ProtectedSwitch_breakingCapacity_feature",
+                                "_UI_ProtectedSwitch_type" ),
+                        CimPackage.eINSTANCE.getProtectedSwitch_BreakingCapacity(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -92,12 +98,19 @@ public class ProtectedSwitchItemProvider extends SwitchItemProvider {
      * @generated
      */
     protected void addRecloseSequencesPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ProtectedSwitch_RecloseSequences_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ProtectedSwitch_RecloseSequences_feature",
-                        "_UI_ProtectedSwitch_type" ),
-                CimPackage.eINSTANCE.getProtectedSwitch_RecloseSequences(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ProtectedSwitch_RecloseSequences_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_ProtectedSwitch_RecloseSequences_feature",
+                                "_UI_ProtectedSwitch_type" ),
+                        CimPackage.eINSTANCE.getProtectedSwitch_RecloseSequences(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -108,11 +121,17 @@ public class ProtectedSwitchItemProvider extends SwitchItemProvider {
      */
     protected void addOperatedByProtectionEquipmentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ProtectedSwitch_OperatedByProtectionEquipment_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_ProtectedSwitch_OperatedByProtectionEquipment_feature", "_UI_ProtectedSwitch_type" ),
-                CimPackage.eINSTANCE.getProtectedSwitch_OperatedByProtectionEquipment(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getProtectedSwitch_OperatedByProtectionEquipment(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 

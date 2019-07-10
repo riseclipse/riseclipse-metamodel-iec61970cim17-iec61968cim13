@@ -74,12 +74,18 @@ public class ObjectReverseModificationItemProvider extends ChangeSetMemberItemPr
     protected void addObjectModificationPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ObjectReverseModification_ObjectModification_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ObjectReverseModification_ObjectModification_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_ObjectReverseModification_ObjectModification_feature",
                                 "_UI_ObjectReverseModification_type" ),
-                        CimPackage.eINSTANCE.getObjectReverseModification_ObjectModification(), true, false, true, null,
-                        null, null ) );
+                        CimPackage.eINSTANCE.getObjectReverseModification_ObjectModification(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -116,7 +122,6 @@ public class ObjectReverseModificationItemProvider extends ChangeSetMemberItemPr
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

@@ -87,13 +87,19 @@ public class PanDemandResponseItemProvider extends EndDeviceActionItemProvider {
      * @generated
      */
     protected void addAvgLoadAdjustmentPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PanDemandResponse_avgLoadAdjustment_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PanDemandResponse_avgLoadAdjustment_feature",
-                        "_UI_PanDemandResponse_type" ),
-                CimPackage.eINSTANCE.getPanDemandResponse_AvgLoadAdjustment(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PanDemandResponse_avgLoadAdjustment_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PanDemandResponse_avgLoadAdjustment_feature", "_UI_PanDemandResponse_type" ),
+                        CimPackage.eINSTANCE.getPanDemandResponse_AvgLoadAdjustment(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -103,13 +109,19 @@ public class PanDemandResponseItemProvider extends EndDeviceActionItemProvider {
      * @generated
      */
     protected void addCancelControlModePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PanDemandResponse_cancelControlMode_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PanDemandResponse_cancelControlMode_feature",
-                        "_UI_PanDemandResponse_type" ),
-                CimPackage.eINSTANCE.getPanDemandResponse_CancelControlMode(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PanDemandResponse_cancelControlMode_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PanDemandResponse_cancelControlMode_feature", "_UI_PanDemandResponse_type" ),
+                        CimPackage.eINSTANCE.getPanDemandResponse_CancelControlMode(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -119,13 +131,19 @@ public class PanDemandResponseItemProvider extends EndDeviceActionItemProvider {
      * @generated
      */
     protected void addCancelDateTimePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PanDemandResponse_cancelDateTime_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PanDemandResponse_cancelDateTime_feature",
-                        "_UI_PanDemandResponse_type" ),
-                CimPackage.eINSTANCE.getPanDemandResponse_CancelDateTime(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PanDemandResponse_cancelDateTime_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_PanDemandResponse_cancelDateTime_feature",
+                                "_UI_PanDemandResponse_type" ),
+                        CimPackage.eINSTANCE.getPanDemandResponse_CancelDateTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -137,11 +155,17 @@ public class PanDemandResponseItemProvider extends EndDeviceActionItemProvider {
     protected void addCancelNowPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PanDemandResponse_cancelNow_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PanDemandResponse_cancelNow_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PanDemandResponse_cancelNow_feature",
                                 "_UI_PanDemandResponse_type" ),
-                        CimPackage.eINSTANCE.getPanDemandResponse_CancelNow(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPanDemandResponse_CancelNow(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -151,13 +175,19 @@ public class PanDemandResponseItemProvider extends EndDeviceActionItemProvider {
      * @generated
      */
     protected void addCoolingOffsetPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PanDemandResponse_coolingOffset_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PanDemandResponse_coolingOffset_feature",
-                        "_UI_PanDemandResponse_type" ),
-                CimPackage.eINSTANCE.getPanDemandResponse_CoolingOffset(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PanDemandResponse_coolingOffset_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_PanDemandResponse_coolingOffset_feature",
+                                "_UI_PanDemandResponse_type" ),
+                        CimPackage.eINSTANCE.getPanDemandResponse_CoolingOffset(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -167,13 +197,19 @@ public class PanDemandResponseItemProvider extends EndDeviceActionItemProvider {
      * @generated
      */
     protected void addCoolingSetpointPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PanDemandResponse_coolingSetpoint_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PanDemandResponse_coolingSetpoint_feature",
-                        "_UI_PanDemandResponse_type" ),
-                CimPackage.eINSTANCE.getPanDemandResponse_CoolingSetpoint(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PanDemandResponse_coolingSetpoint_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PanDemandResponse_coolingSetpoint_feature", "_UI_PanDemandResponse_type" ),
+                        CimPackage.eINSTANCE.getPanDemandResponse_CoolingSetpoint(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -183,13 +219,19 @@ public class PanDemandResponseItemProvider extends EndDeviceActionItemProvider {
      * @generated
      */
     protected void addCriticalityLevelPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PanDemandResponse_criticalityLevel_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PanDemandResponse_criticalityLevel_feature",
-                        "_UI_PanDemandResponse_type" ),
-                CimPackage.eINSTANCE.getPanDemandResponse_CriticalityLevel(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PanDemandResponse_criticalityLevel_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PanDemandResponse_criticalityLevel_feature", "_UI_PanDemandResponse_type" ),
+                        CimPackage.eINSTANCE.getPanDemandResponse_CriticalityLevel(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -201,11 +243,17 @@ public class PanDemandResponseItemProvider extends EndDeviceActionItemProvider {
     protected void addDutyCyclePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PanDemandResponse_dutyCycle_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PanDemandResponse_dutyCycle_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PanDemandResponse_dutyCycle_feature",
                                 "_UI_PanDemandResponse_type" ),
-                        CimPackage.eINSTANCE.getPanDemandResponse_DutyCycle(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPanDemandResponse_DutyCycle(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -215,13 +263,19 @@ public class PanDemandResponseItemProvider extends EndDeviceActionItemProvider {
      * @generated
      */
     protected void addEnrollmentGroupPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PanDemandResponse_enrollmentGroup_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PanDemandResponse_enrollmentGroup_feature",
-                        "_UI_PanDemandResponse_type" ),
-                CimPackage.eINSTANCE.getPanDemandResponse_EnrollmentGroup(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PanDemandResponse_enrollmentGroup_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PanDemandResponse_enrollmentGroup_feature", "_UI_PanDemandResponse_type" ),
+                        CimPackage.eINSTANCE.getPanDemandResponse_EnrollmentGroup(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -231,13 +285,19 @@ public class PanDemandResponseItemProvider extends EndDeviceActionItemProvider {
      * @generated
      */
     protected void addHeatingOffsetPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PanDemandResponse_heatingOffset_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PanDemandResponse_heatingOffset_feature",
-                        "_UI_PanDemandResponse_type" ),
-                CimPackage.eINSTANCE.getPanDemandResponse_HeatingOffset(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PanDemandResponse_heatingOffset_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_PanDemandResponse_heatingOffset_feature",
+                                "_UI_PanDemandResponse_type" ),
+                        CimPackage.eINSTANCE.getPanDemandResponse_HeatingOffset(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -247,13 +307,19 @@ public class PanDemandResponseItemProvider extends EndDeviceActionItemProvider {
      * @generated
      */
     protected void addHeatingSetpointPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PanDemandResponse_heatingSetpoint_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PanDemandResponse_heatingSetpoint_feature",
-                        "_UI_PanDemandResponse_type" ),
-                CimPackage.eINSTANCE.getPanDemandResponse_HeatingSetpoint(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PanDemandResponse_heatingSetpoint_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PanDemandResponse_heatingSetpoint_feature", "_UI_PanDemandResponse_type" ),
+                        CimPackage.eINSTANCE.getPanDemandResponse_HeatingSetpoint(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

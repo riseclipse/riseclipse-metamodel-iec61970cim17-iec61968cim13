@@ -78,11 +78,17 @@ public class PowerElectronicsUnitItemProvider extends EquipmentItemProvider {
     protected void addMaxPPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PowerElectronicsUnit_maxP_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PowerElectronicsUnit_maxP_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PowerElectronicsUnit_maxP_feature",
                                 "_UI_PowerElectronicsUnit_type" ),
-                        CimPackage.eINSTANCE.getPowerElectronicsUnit_MaxP(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPowerElectronicsUnit_MaxP(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,11 +100,17 @@ public class PowerElectronicsUnitItemProvider extends EquipmentItemProvider {
     protected void addMinPPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PowerElectronicsUnit_minP_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PowerElectronicsUnit_minP_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PowerElectronicsUnit_minP_feature",
                                 "_UI_PowerElectronicsUnit_type" ),
-                        CimPackage.eINSTANCE.getPowerElectronicsUnit_MinP(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPowerElectronicsUnit_MinP(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -108,14 +120,20 @@ public class PowerElectronicsUnitItemProvider extends EquipmentItemProvider {
      * @generated
      */
     protected void addPowerElectronicsConnectionPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PowerElectronicsUnit_PowerElectronicsConnection_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_PowerElectronicsUnit_PowerElectronicsConnection_feature",
-                        "_UI_PowerElectronicsUnit_type" ),
-                CimPackage.eINSTANCE.getPowerElectronicsUnit_PowerElectronicsConnection(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PowerElectronicsUnit_PowerElectronicsConnection_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PowerElectronicsUnit_PowerElectronicsConnection_feature",
+                                "_UI_PowerElectronicsUnit_type" ),
+                        CimPackage.eINSTANCE.getPowerElectronicsUnit_PowerElectronicsConnection(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

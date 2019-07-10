@@ -101,11 +101,17 @@ public class FossilSteamSupplyItemProvider extends SteamSupplyItemProvider {
     protected void addAuxPowerVersusFrequencyPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FossilSteamSupply_auxPowerVersusFrequency_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FossilSteamSupply_auxPowerVersusFrequency_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_FossilSteamSupply_auxPowerVersusFrequency_feature", "_UI_FossilSteamSupply_type" ),
-                        CimPackage.eINSTANCE.getFossilSteamSupply_AuxPowerVersusFrequency(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFossilSteamSupply_AuxPowerVersusFrequency(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -117,11 +123,17 @@ public class FossilSteamSupplyItemProvider extends SteamSupplyItemProvider {
     protected void addAuxPowerVersusVoltagePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FossilSteamSupply_auxPowerVersusVoltage_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FossilSteamSupply_auxPowerVersusVoltage_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_FossilSteamSupply_auxPowerVersusVoltage_feature", "_UI_FossilSteamSupply_type" ),
-                        CimPackage.eINSTANCE.getFossilSteamSupply_AuxPowerVersusVoltage(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFossilSteamSupply_AuxPowerVersusVoltage(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -131,13 +143,19 @@ public class FossilSteamSupplyItemProvider extends SteamSupplyItemProvider {
      * @generated
      */
     protected void addBoilerControlModePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_FossilSteamSupply_boilerControlMode_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_FossilSteamSupply_boilerControlMode_feature",
-                        "_UI_FossilSteamSupply_type" ),
-                CimPackage.eINSTANCE.getFossilSteamSupply_BoilerControlMode(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_FossilSteamSupply_boilerControlMode_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_FossilSteamSupply_boilerControlMode_feature", "_UI_FossilSteamSupply_type" ),
+                        CimPackage.eINSTANCE.getFossilSteamSupply_BoilerControlMode(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -147,13 +165,19 @@ public class FossilSteamSupplyItemProvider extends SteamSupplyItemProvider {
      * @generated
      */
     protected void addControlErrorBiasPPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_FossilSteamSupply_controlErrorBiasP_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_FossilSteamSupply_controlErrorBiasP_feature",
-                        "_UI_FossilSteamSupply_type" ),
-                CimPackage.eINSTANCE.getFossilSteamSupply_ControlErrorBiasP(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_FossilSteamSupply_controlErrorBiasP_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_FossilSteamSupply_controlErrorBiasP_feature", "_UI_FossilSteamSupply_type" ),
+                        CimPackage.eINSTANCE.getFossilSteamSupply_ControlErrorBiasP(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -165,11 +189,17 @@ public class FossilSteamSupplyItemProvider extends SteamSupplyItemProvider {
     protected void addControlICPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FossilSteamSupply_controlIC_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FossilSteamSupply_controlIC_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FossilSteamSupply_controlIC_feature",
                                 "_UI_FossilSteamSupply_type" ),
-                        CimPackage.eINSTANCE.getFossilSteamSupply_ControlIC(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFossilSteamSupply_ControlIC(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -181,11 +211,17 @@ public class FossilSteamSupplyItemProvider extends SteamSupplyItemProvider {
     protected void addControlPCPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FossilSteamSupply_controlPC_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FossilSteamSupply_controlPC_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FossilSteamSupply_controlPC_feature",
                                 "_UI_FossilSteamSupply_type" ),
-                        CimPackage.eINSTANCE.getFossilSteamSupply_ControlPC(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFossilSteamSupply_ControlPC(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -197,11 +233,17 @@ public class FossilSteamSupplyItemProvider extends SteamSupplyItemProvider {
     protected void addControlPEBPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FossilSteamSupply_controlPEB_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FossilSteamSupply_controlPEB_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FossilSteamSupply_controlPEB_feature",
                                 "_UI_FossilSteamSupply_type" ),
-                        CimPackage.eINSTANCE.getFossilSteamSupply_ControlPEB(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFossilSteamSupply_ControlPEB(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -213,11 +255,17 @@ public class FossilSteamSupplyItemProvider extends SteamSupplyItemProvider {
     protected void addControlPEDPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FossilSteamSupply_controlPED_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FossilSteamSupply_controlPED_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FossilSteamSupply_controlPED_feature",
                                 "_UI_FossilSteamSupply_type" ),
-                        CimPackage.eINSTANCE.getFossilSteamSupply_ControlPED(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFossilSteamSupply_ControlPED(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -229,11 +277,17 @@ public class FossilSteamSupplyItemProvider extends SteamSupplyItemProvider {
     protected void addControlTCPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FossilSteamSupply_controlTC_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FossilSteamSupply_controlTC_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FossilSteamSupply_controlTC_feature",
                                 "_UI_FossilSteamSupply_type" ),
-                        CimPackage.eINSTANCE.getFossilSteamSupply_ControlTC(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFossilSteamSupply_ControlTC(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -245,11 +299,17 @@ public class FossilSteamSupplyItemProvider extends SteamSupplyItemProvider {
     protected void addFeedWaterIGPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FossilSteamSupply_feedWaterIG_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FossilSteamSupply_feedWaterIG_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FossilSteamSupply_feedWaterIG_feature",
                                 "_UI_FossilSteamSupply_type" ),
-                        CimPackage.eINSTANCE.getFossilSteamSupply_FeedWaterIG(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFossilSteamSupply_FeedWaterIG(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -261,11 +321,17 @@ public class FossilSteamSupplyItemProvider extends SteamSupplyItemProvider {
     protected void addFeedWaterPGPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FossilSteamSupply_feedWaterPG_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FossilSteamSupply_feedWaterPG_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FossilSteamSupply_feedWaterPG_feature",
                                 "_UI_FossilSteamSupply_type" ),
-                        CimPackage.eINSTANCE.getFossilSteamSupply_FeedWaterPG(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFossilSteamSupply_FeedWaterPG(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -277,11 +343,17 @@ public class FossilSteamSupplyItemProvider extends SteamSupplyItemProvider {
     protected void addFeedWaterTCPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FossilSteamSupply_feedWaterTC_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FossilSteamSupply_feedWaterTC_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FossilSteamSupply_feedWaterTC_feature",
                                 "_UI_FossilSteamSupply_type" ),
-                        CimPackage.eINSTANCE.getFossilSteamSupply_FeedWaterTC(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFossilSteamSupply_FeedWaterTC(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -291,13 +363,19 @@ public class FossilSteamSupplyItemProvider extends SteamSupplyItemProvider {
      * @generated
      */
     protected void addFuelDemandLimitPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_FossilSteamSupply_fuelDemandLimit_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_FossilSteamSupply_fuelDemandLimit_feature",
-                        "_UI_FossilSteamSupply_type" ),
-                CimPackage.eINSTANCE.getFossilSteamSupply_FuelDemandLimit(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_FossilSteamSupply_fuelDemandLimit_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_FossilSteamSupply_fuelDemandLimit_feature", "_UI_FossilSteamSupply_type" ),
+                        CimPackage.eINSTANCE.getFossilSteamSupply_FuelDemandLimit(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -307,13 +385,19 @@ public class FossilSteamSupplyItemProvider extends SteamSupplyItemProvider {
      * @generated
      */
     protected void addFuelSupplyDelayPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_FossilSteamSupply_fuelSupplyDelay_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_FossilSteamSupply_fuelSupplyDelay_feature",
-                        "_UI_FossilSteamSupply_type" ),
-                CimPackage.eINSTANCE.getFossilSteamSupply_FuelSupplyDelay(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_FossilSteamSupply_fuelSupplyDelay_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_FossilSteamSupply_fuelSupplyDelay_feature", "_UI_FossilSteamSupply_type" ),
+                        CimPackage.eINSTANCE.getFossilSteamSupply_FuelSupplyDelay(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -323,13 +407,19 @@ public class FossilSteamSupplyItemProvider extends SteamSupplyItemProvider {
      * @generated
      */
     protected void addFuelSupplyTCPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_FossilSteamSupply_fuelSupplyTC_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_FossilSteamSupply_fuelSupplyTC_feature",
-                        "_UI_FossilSteamSupply_type" ),
-                CimPackage.eINSTANCE.getFossilSteamSupply_FuelSupplyTC(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_FossilSteamSupply_fuelSupplyTC_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_FossilSteamSupply_fuelSupplyTC_feature",
+                                "_UI_FossilSteamSupply_type" ),
+                        CimPackage.eINSTANCE.getFossilSteamSupply_FuelSupplyTC(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -339,13 +429,19 @@ public class FossilSteamSupplyItemProvider extends SteamSupplyItemProvider {
      * @generated
      */
     protected void addMaxErrorRatePPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_FossilSteamSupply_maxErrorRateP_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_FossilSteamSupply_maxErrorRateP_feature",
-                        "_UI_FossilSteamSupply_type" ),
-                CimPackage.eINSTANCE.getFossilSteamSupply_MaxErrorRateP(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_FossilSteamSupply_maxErrorRateP_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_FossilSteamSupply_maxErrorRateP_feature",
+                                "_UI_FossilSteamSupply_type" ),
+                        CimPackage.eINSTANCE.getFossilSteamSupply_MaxErrorRateP(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -355,13 +451,19 @@ public class FossilSteamSupplyItemProvider extends SteamSupplyItemProvider {
      * @generated
      */
     protected void addMechPowerSensorLagPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_FossilSteamSupply_mechPowerSensorLag_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_FossilSteamSupply_mechPowerSensorLag_feature",
-                        "_UI_FossilSteamSupply_type" ),
-                CimPackage.eINSTANCE.getFossilSteamSupply_MechPowerSensorLag(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_FossilSteamSupply_mechPowerSensorLag_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_FossilSteamSupply_mechPowerSensorLag_feature", "_UI_FossilSteamSupply_type" ),
+                        CimPackage.eINSTANCE.getFossilSteamSupply_MechPowerSensorLag(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -371,13 +473,19 @@ public class FossilSteamSupplyItemProvider extends SteamSupplyItemProvider {
      * @generated
      */
     protected void addMinErrorRatePPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_FossilSteamSupply_minErrorRateP_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_FossilSteamSupply_minErrorRateP_feature",
-                        "_UI_FossilSteamSupply_type" ),
-                CimPackage.eINSTANCE.getFossilSteamSupply_MinErrorRateP(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_FossilSteamSupply_minErrorRateP_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_FossilSteamSupply_minErrorRateP_feature",
+                                "_UI_FossilSteamSupply_type" ),
+                        CimPackage.eINSTANCE.getFossilSteamSupply_MinErrorRateP(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -387,13 +495,19 @@ public class FossilSteamSupplyItemProvider extends SteamSupplyItemProvider {
      * @generated
      */
     protected void addPressureCtrlDGPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_FossilSteamSupply_pressureCtrlDG_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_FossilSteamSupply_pressureCtrlDG_feature",
-                        "_UI_FossilSteamSupply_type" ),
-                CimPackage.eINSTANCE.getFossilSteamSupply_PressureCtrlDG(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_FossilSteamSupply_pressureCtrlDG_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_FossilSteamSupply_pressureCtrlDG_feature",
+                                "_UI_FossilSteamSupply_type" ),
+                        CimPackage.eINSTANCE.getFossilSteamSupply_PressureCtrlDG(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -403,13 +517,19 @@ public class FossilSteamSupplyItemProvider extends SteamSupplyItemProvider {
      * @generated
      */
     protected void addPressureCtrlIGPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_FossilSteamSupply_pressureCtrlIG_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_FossilSteamSupply_pressureCtrlIG_feature",
-                        "_UI_FossilSteamSupply_type" ),
-                CimPackage.eINSTANCE.getFossilSteamSupply_PressureCtrlIG(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_FossilSteamSupply_pressureCtrlIG_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_FossilSteamSupply_pressureCtrlIG_feature",
+                                "_UI_FossilSteamSupply_type" ),
+                        CimPackage.eINSTANCE.getFossilSteamSupply_PressureCtrlIG(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -419,13 +539,19 @@ public class FossilSteamSupplyItemProvider extends SteamSupplyItemProvider {
      * @generated
      */
     protected void addPressureCtrlPGPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_FossilSteamSupply_pressureCtrlPG_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_FossilSteamSupply_pressureCtrlPG_feature",
-                        "_UI_FossilSteamSupply_type" ),
-                CimPackage.eINSTANCE.getFossilSteamSupply_PressureCtrlPG(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_FossilSteamSupply_pressureCtrlPG_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_FossilSteamSupply_pressureCtrlPG_feature",
+                                "_UI_FossilSteamSupply_type" ),
+                        CimPackage.eINSTANCE.getFossilSteamSupply_PressureCtrlPG(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -435,13 +561,19 @@ public class FossilSteamSupplyItemProvider extends SteamSupplyItemProvider {
      * @generated
      */
     protected void addPressureFeedbackPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_FossilSteamSupply_pressureFeedback_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_FossilSteamSupply_pressureFeedback_feature",
-                        "_UI_FossilSteamSupply_type" ),
-                CimPackage.eINSTANCE.getFossilSteamSupply_PressureFeedback(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_FossilSteamSupply_pressureFeedback_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_FossilSteamSupply_pressureFeedback_feature", "_UI_FossilSteamSupply_type" ),
+                        CimPackage.eINSTANCE.getFossilSteamSupply_PressureFeedback(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -453,11 +585,17 @@ public class FossilSteamSupplyItemProvider extends SteamSupplyItemProvider {
     protected void addSuperHeater1CapacityPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FossilSteamSupply_superHeater1Capacity_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FossilSteamSupply_superHeater1Capacity_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_FossilSteamSupply_superHeater1Capacity_feature", "_UI_FossilSteamSupply_type" ),
-                        CimPackage.eINSTANCE.getFossilSteamSupply_SuperHeater1Capacity(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFossilSteamSupply_SuperHeater1Capacity(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -469,11 +607,17 @@ public class FossilSteamSupplyItemProvider extends SteamSupplyItemProvider {
     protected void addSuperHeater2CapacityPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FossilSteamSupply_superHeater2Capacity_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FossilSteamSupply_superHeater2Capacity_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_FossilSteamSupply_superHeater2Capacity_feature", "_UI_FossilSteamSupply_type" ),
-                        CimPackage.eINSTANCE.getFossilSteamSupply_SuperHeater2Capacity(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFossilSteamSupply_SuperHeater2Capacity(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -483,13 +627,19 @@ public class FossilSteamSupplyItemProvider extends SteamSupplyItemProvider {
      * @generated
      */
     protected void addSuperHeaterPipePDPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_FossilSteamSupply_superHeaterPipePD_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_FossilSteamSupply_superHeaterPipePD_feature",
-                        "_UI_FossilSteamSupply_type" ),
-                CimPackage.eINSTANCE.getFossilSteamSupply_SuperHeaterPipePD(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_FossilSteamSupply_superHeaterPipePD_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_FossilSteamSupply_superHeaterPipePD_feature", "_UI_FossilSteamSupply_type" ),
+                        CimPackage.eINSTANCE.getFossilSteamSupply_SuperHeaterPipePD(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -499,13 +649,19 @@ public class FossilSteamSupplyItemProvider extends SteamSupplyItemProvider {
      * @generated
      */
     protected void addThrottlePressureSPPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_FossilSteamSupply_throttlePressureSP_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_FossilSteamSupply_throttlePressureSP_feature",
-                        "_UI_FossilSteamSupply_type" ),
-                CimPackage.eINSTANCE.getFossilSteamSupply_ThrottlePressureSP(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_FossilSteamSupply_throttlePressureSP_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_FossilSteamSupply_throttlePressureSP_feature", "_UI_FossilSteamSupply_type" ),
+                        CimPackage.eINSTANCE.getFossilSteamSupply_ThrottlePressureSP(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

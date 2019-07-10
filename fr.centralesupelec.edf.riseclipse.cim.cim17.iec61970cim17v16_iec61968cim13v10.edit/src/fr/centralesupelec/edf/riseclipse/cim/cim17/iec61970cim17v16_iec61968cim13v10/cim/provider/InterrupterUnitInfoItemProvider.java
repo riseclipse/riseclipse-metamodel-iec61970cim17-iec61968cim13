@@ -76,11 +76,17 @@ public class InterrupterUnitInfoItemProvider extends AssetInfoItemProvider {
     protected void addInterruptingMediumPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_InterrupterUnitInfo_interruptingMedium_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_InterrupterUnitInfo_interruptingMedium_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_InterrupterUnitInfo_interruptingMedium_feature", "_UI_InterrupterUnitInfo_type" ),
-                        CimPackage.eINSTANCE.getInterrupterUnitInfo_InterruptingMedium(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getInterrupterUnitInfo_InterruptingMedium(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

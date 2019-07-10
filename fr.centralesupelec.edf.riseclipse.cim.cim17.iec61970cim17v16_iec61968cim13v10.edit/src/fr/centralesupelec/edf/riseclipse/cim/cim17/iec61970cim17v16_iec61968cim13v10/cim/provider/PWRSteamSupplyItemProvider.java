@@ -95,11 +95,17 @@ public class PWRSteamSupplyItemProvider extends SteamSupplyItemProvider {
     protected void addColdLegFBLagTCPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PWRSteamSupply_coldLegFBLagTC_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PWRSteamSupply_coldLegFBLagTC_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PWRSteamSupply_coldLegFBLagTC_feature",
                                 "_UI_PWRSteamSupply_type" ),
-                        CimPackage.eINSTANCE.getPWRSteamSupply_ColdLegFBLagTC(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPWRSteamSupply_ColdLegFBLagTC(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,11 +117,17 @@ public class PWRSteamSupplyItemProvider extends SteamSupplyItemProvider {
     protected void addColdLegFBLeadTC1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PWRSteamSupply_coldLegFBLeadTC1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PWRSteamSupply_coldLegFBLeadTC1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PWRSteamSupply_coldLegFBLeadTC1_feature",
                                 "_UI_PWRSteamSupply_type" ),
-                        CimPackage.eINSTANCE.getPWRSteamSupply_ColdLegFBLeadTC1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPWRSteamSupply_ColdLegFBLeadTC1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -127,11 +139,17 @@ public class PWRSteamSupplyItemProvider extends SteamSupplyItemProvider {
     protected void addColdLegFBLeadTC2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PWRSteamSupply_coldLegFBLeadTC2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PWRSteamSupply_coldLegFBLeadTC2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PWRSteamSupply_coldLegFBLeadTC2_feature",
                                 "_UI_PWRSteamSupply_type" ),
-                        CimPackage.eINSTANCE.getPWRSteamSupply_ColdLegFBLeadTC2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPWRSteamSupply_ColdLegFBLeadTC2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -143,11 +161,17 @@ public class PWRSteamSupplyItemProvider extends SteamSupplyItemProvider {
     protected void addColdLegFG1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PWRSteamSupply_coldLegFG1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PWRSteamSupply_coldLegFG1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PWRSteamSupply_coldLegFG1_feature",
                                 "_UI_PWRSteamSupply_type" ),
-                        CimPackage.eINSTANCE.getPWRSteamSupply_ColdLegFG1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPWRSteamSupply_ColdLegFG1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -159,11 +183,17 @@ public class PWRSteamSupplyItemProvider extends SteamSupplyItemProvider {
     protected void addColdLegFG2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PWRSteamSupply_coldLegFG2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PWRSteamSupply_coldLegFG2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PWRSteamSupply_coldLegFG2_feature",
                                 "_UI_PWRSteamSupply_type" ),
-                        CimPackage.eINSTANCE.getPWRSteamSupply_ColdLegFG2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPWRSteamSupply_ColdLegFG2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -175,11 +205,17 @@ public class PWRSteamSupplyItemProvider extends SteamSupplyItemProvider {
     protected void addColdLegLagTCPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PWRSteamSupply_coldLegLagTC_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PWRSteamSupply_coldLegLagTC_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PWRSteamSupply_coldLegLagTC_feature",
                                 "_UI_PWRSteamSupply_type" ),
-                        CimPackage.eINSTANCE.getPWRSteamSupply_ColdLegLagTC(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPWRSteamSupply_ColdLegLagTC(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -191,11 +227,17 @@ public class PWRSteamSupplyItemProvider extends SteamSupplyItemProvider {
     protected void addCoreHTLagTC1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PWRSteamSupply_coreHTLagTC1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PWRSteamSupply_coreHTLagTC1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PWRSteamSupply_coreHTLagTC1_feature",
                                 "_UI_PWRSteamSupply_type" ),
-                        CimPackage.eINSTANCE.getPWRSteamSupply_CoreHTLagTC1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPWRSteamSupply_CoreHTLagTC1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -207,11 +249,17 @@ public class PWRSteamSupplyItemProvider extends SteamSupplyItemProvider {
     protected void addCoreHTLagTC2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PWRSteamSupply_coreHTLagTC2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PWRSteamSupply_coreHTLagTC2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PWRSteamSupply_coreHTLagTC2_feature",
                                 "_UI_PWRSteamSupply_type" ),
-                        CimPackage.eINSTANCE.getPWRSteamSupply_CoreHTLagTC2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPWRSteamSupply_CoreHTLagTC2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -221,13 +269,19 @@ public class PWRSteamSupplyItemProvider extends SteamSupplyItemProvider {
      * @generated
      */
     protected void addCoreNeutronicsEffTCPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PWRSteamSupply_coreNeutronicsEffTC_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PWRSteamSupply_coreNeutronicsEffTC_feature",
-                        "_UI_PWRSteamSupply_type" ),
-                CimPackage.eINSTANCE.getPWRSteamSupply_CoreNeutronicsEffTC(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PWRSteamSupply_coreNeutronicsEffTC_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PWRSteamSupply_coreNeutronicsEffTC_feature", "_UI_PWRSteamSupply_type" ),
+                        CimPackage.eINSTANCE.getPWRSteamSupply_CoreNeutronicsEffTC(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -239,11 +293,17 @@ public class PWRSteamSupplyItemProvider extends SteamSupplyItemProvider {
     protected void addCoreNeutronicsHTPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PWRSteamSupply_coreNeutronicsHT_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PWRSteamSupply_coreNeutronicsHT_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PWRSteamSupply_coreNeutronicsHT_feature",
                                 "_UI_PWRSteamSupply_type" ),
-                        CimPackage.eINSTANCE.getPWRSteamSupply_CoreNeutronicsHT(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPWRSteamSupply_CoreNeutronicsHT(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -255,11 +315,17 @@ public class PWRSteamSupplyItemProvider extends SteamSupplyItemProvider {
     protected void addFeedbackFactorPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PWRSteamSupply_feedbackFactor_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PWRSteamSupply_feedbackFactor_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PWRSteamSupply_feedbackFactor_feature",
                                 "_UI_PWRSteamSupply_type" ),
-                        CimPackage.eINSTANCE.getPWRSteamSupply_FeedbackFactor(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPWRSteamSupply_FeedbackFactor(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -271,11 +337,17 @@ public class PWRSteamSupplyItemProvider extends SteamSupplyItemProvider {
     protected void addHotLegLagTCPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PWRSteamSupply_hotLegLagTC_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PWRSteamSupply_hotLegLagTC_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PWRSteamSupply_hotLegLagTC_feature",
                                 "_UI_PWRSteamSupply_type" ),
-                        CimPackage.eINSTANCE.getPWRSteamSupply_HotLegLagTC(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPWRSteamSupply_HotLegLagTC(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -287,11 +359,17 @@ public class PWRSteamSupplyItemProvider extends SteamSupplyItemProvider {
     protected void addHotLegSteamGainPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PWRSteamSupply_hotLegSteamGain_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PWRSteamSupply_hotLegSteamGain_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PWRSteamSupply_hotLegSteamGain_feature",
                                 "_UI_PWRSteamSupply_type" ),
-                        CimPackage.eINSTANCE.getPWRSteamSupply_HotLegSteamGain(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPWRSteamSupply_HotLegSteamGain(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -301,13 +379,19 @@ public class PWRSteamSupplyItemProvider extends SteamSupplyItemProvider {
      * @generated
      */
     protected void addHotLegToColdLegGainPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PWRSteamSupply_hotLegToColdLegGain_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PWRSteamSupply_hotLegToColdLegGain_feature",
-                        "_UI_PWRSteamSupply_type" ),
-                CimPackage.eINSTANCE.getPWRSteamSupply_HotLegToColdLegGain(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PWRSteamSupply_hotLegToColdLegGain_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PWRSteamSupply_hotLegToColdLegGain_feature", "_UI_PWRSteamSupply_type" ),
+                        CimPackage.eINSTANCE.getPWRSteamSupply_HotLegToColdLegGain(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -319,11 +403,17 @@ public class PWRSteamSupplyItemProvider extends SteamSupplyItemProvider {
     protected void addPressureCGPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PWRSteamSupply_pressureCG_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PWRSteamSupply_pressureCG_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PWRSteamSupply_pressureCG_feature",
                                 "_UI_PWRSteamSupply_type" ),
-                        CimPackage.eINSTANCE.getPWRSteamSupply_PressureCG(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPWRSteamSupply_PressureCG(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -335,11 +425,17 @@ public class PWRSteamSupplyItemProvider extends SteamSupplyItemProvider {
     protected void addSteamFlowFGPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PWRSteamSupply_steamFlowFG_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PWRSteamSupply_steamFlowFG_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PWRSteamSupply_steamFlowFG_feature",
                                 "_UI_PWRSteamSupply_type" ),
-                        CimPackage.eINSTANCE.getPWRSteamSupply_SteamFlowFG(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPWRSteamSupply_SteamFlowFG(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -349,13 +445,19 @@ public class PWRSteamSupplyItemProvider extends SteamSupplyItemProvider {
      * @generated
      */
     protected void addSteamPressureDropLagTCPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PWRSteamSupply_steamPressureDropLagTC_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PWRSteamSupply_steamPressureDropLagTC_feature",
-                        "_UI_PWRSteamSupply_type" ),
-                CimPackage.eINSTANCE.getPWRSteamSupply_SteamPressureDropLagTC(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PWRSteamSupply_steamPressureDropLagTC_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PWRSteamSupply_steamPressureDropLagTC_feature", "_UI_PWRSteamSupply_type" ),
+                        CimPackage.eINSTANCE.getPWRSteamSupply_SteamPressureDropLagTC(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -367,11 +469,17 @@ public class PWRSteamSupplyItemProvider extends SteamSupplyItemProvider {
     protected void addSteamPressureFGPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PWRSteamSupply_steamPressureFG_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PWRSteamSupply_steamPressureFG_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PWRSteamSupply_steamPressureFG_feature",
                                 "_UI_PWRSteamSupply_type" ),
-                        CimPackage.eINSTANCE.getPWRSteamSupply_SteamPressureFG(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPWRSteamSupply_SteamPressureFG(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -381,13 +489,19 @@ public class PWRSteamSupplyItemProvider extends SteamSupplyItemProvider {
      * @generated
      */
     protected void addThrottlePressureFactorPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PWRSteamSupply_throttlePressureFactor_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PWRSteamSupply_throttlePressureFactor_feature",
-                        "_UI_PWRSteamSupply_type" ),
-                CimPackage.eINSTANCE.getPWRSteamSupply_ThrottlePressureFactor(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PWRSteamSupply_throttlePressureFactor_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PWRSteamSupply_throttlePressureFactor_feature", "_UI_PWRSteamSupply_type" ),
+                        CimPackage.eINSTANCE.getPWRSteamSupply_ThrottlePressureFactor(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -397,13 +511,19 @@ public class PWRSteamSupplyItemProvider extends SteamSupplyItemProvider {
      * @generated
      */
     protected void addThrottlePressureSPPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PWRSteamSupply_throttlePressureSP_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PWRSteamSupply_throttlePressureSP_feature",
-                        "_UI_PWRSteamSupply_type" ),
-                CimPackage.eINSTANCE.getPWRSteamSupply_ThrottlePressureSP(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PWRSteamSupply_throttlePressureSP_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PWRSteamSupply_throttlePressureSP_feature", "_UI_PWRSteamSupply_type" ),
+                        CimPackage.eINSTANCE.getPWRSteamSupply_ThrottlePressureSP(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

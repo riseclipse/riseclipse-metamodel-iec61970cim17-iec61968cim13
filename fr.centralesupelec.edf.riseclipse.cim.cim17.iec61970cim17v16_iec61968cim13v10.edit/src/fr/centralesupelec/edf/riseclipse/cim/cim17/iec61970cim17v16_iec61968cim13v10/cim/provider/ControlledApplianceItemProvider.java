@@ -96,11 +96,17 @@ public class ControlledApplianceItemProvider extends ItemProviderAdapter impleme
     protected void addIsElectricVehiclePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ControlledAppliance_isElectricVehicle_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ControlledAppliance_isElectricVehicle_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_ControlledAppliance_isElectricVehicle_feature", "_UI_ControlledAppliance_type" ),
-                        CimPackage.eINSTANCE.getControlledAppliance_IsElectricVehicle(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getControlledAppliance_IsElectricVehicle(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -112,11 +118,17 @@ public class ControlledApplianceItemProvider extends ItemProviderAdapter impleme
     protected void addIsExteriorLightingPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ControlledAppliance_isExteriorLighting_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ControlledAppliance_isExteriorLighting_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_ControlledAppliance_isExteriorLighting_feature", "_UI_ControlledAppliance_type" ),
-                        CimPackage.eINSTANCE.getControlledAppliance_IsExteriorLighting(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getControlledAppliance_IsExteriorLighting(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -128,11 +140,17 @@ public class ControlledApplianceItemProvider extends ItemProviderAdapter impleme
     protected void addIsGenerationSystemPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ControlledAppliance_isGenerationSystem_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ControlledAppliance_isGenerationSystem_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_ControlledAppliance_isGenerationSystem_feature", "_UI_ControlledAppliance_type" ),
-                        CimPackage.eINSTANCE.getControlledAppliance_IsGenerationSystem(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getControlledAppliance_IsGenerationSystem(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -143,12 +161,18 @@ public class ControlledApplianceItemProvider extends ItemProviderAdapter impleme
      */
     protected void addIsHvacCompressorOrFurnacePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ControlledAppliance_isHvacCompressorOrFurnace_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_ControlledAppliance_isHvacCompressorOrFurnace_feature", "_UI_ControlledAppliance_type" ),
-                CimPackage.eINSTANCE.getControlledAppliance_IsHvacCompressorOrFurnace(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getControlledAppliance_IsHvacCompressorOrFurnace(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -160,11 +184,17 @@ public class ControlledApplianceItemProvider extends ItemProviderAdapter impleme
     protected void addIsInteriorLightingPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ControlledAppliance_isInteriorLighting_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ControlledAppliance_isInteriorLighting_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_ControlledAppliance_isInteriorLighting_feature", "_UI_ControlledAppliance_type" ),
-                        CimPackage.eINSTANCE.getControlledAppliance_IsInteriorLighting(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getControlledAppliance_IsInteriorLighting(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -176,11 +206,17 @@ public class ControlledApplianceItemProvider extends ItemProviderAdapter impleme
     protected void addIsIrrigationPumpPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ControlledAppliance_isIrrigationPump_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ControlledAppliance_isIrrigationPump_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_ControlledAppliance_isIrrigationPump_feature", "_UI_ControlledAppliance_type" ),
-                        CimPackage.eINSTANCE.getControlledAppliance_IsIrrigationPump(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getControlledAppliance_IsIrrigationPump(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -190,14 +226,20 @@ public class ControlledApplianceItemProvider extends ItemProviderAdapter impleme
      * @generated
      */
     protected void addIsManagedCommercialIndustrialLoadPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ControlledAppliance_isManagedCommercialIndustrialLoad_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_ControlledAppliance_isManagedCommercialIndustrialLoad_feature",
-                        "_UI_ControlledAppliance_type" ),
-                CimPackage.eINSTANCE.getControlledAppliance_IsManagedCommercialIndustrialLoad(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ControlledAppliance_isManagedCommercialIndustrialLoad_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ControlledAppliance_isManagedCommercialIndustrialLoad_feature",
+                                "_UI_ControlledAppliance_type" ),
+                        CimPackage.eINSTANCE.getControlledAppliance_IsManagedCommercialIndustrialLoad(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -208,12 +250,18 @@ public class ControlledApplianceItemProvider extends ItemProviderAdapter impleme
      */
     protected void addIsPoolPumpSpaJacuzziPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ControlledAppliance_isPoolPumpSpaJacuzzi_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ControlledAppliance_isPoolPumpSpaJacuzzi_feature",
                         "_UI_ControlledAppliance_type" ),
-                CimPackage.eINSTANCE.getControlledAppliance_IsPoolPumpSpaJacuzzi(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getControlledAppliance_IsPoolPumpSpaJacuzzi(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -225,11 +273,17 @@ public class ControlledApplianceItemProvider extends ItemProviderAdapter impleme
     protected void addIsSimpleMiscLoadPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ControlledAppliance_isSimpleMiscLoad_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ControlledAppliance_isSimpleMiscLoad_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_ControlledAppliance_isSimpleMiscLoad_feature", "_UI_ControlledAppliance_type" ),
-                        CimPackage.eINSTANCE.getControlledAppliance_IsSimpleMiscLoad(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getControlledAppliance_IsSimpleMiscLoad(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -241,11 +295,17 @@ public class ControlledApplianceItemProvider extends ItemProviderAdapter impleme
     protected void addIsSmartAppliancePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ControlledAppliance_isSmartAppliance_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ControlledAppliance_isSmartAppliance_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_ControlledAppliance_isSmartAppliance_feature", "_UI_ControlledAppliance_type" ),
-                        CimPackage.eINSTANCE.getControlledAppliance_IsSmartAppliance(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getControlledAppliance_IsSmartAppliance(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -256,12 +316,18 @@ public class ControlledApplianceItemProvider extends ItemProviderAdapter impleme
      */
     protected void addIsStripAndBaseboardHeaterPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ControlledAppliance_isStripAndBaseboardHeater_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_ControlledAppliance_isStripAndBaseboardHeater_feature", "_UI_ControlledAppliance_type" ),
-                CimPackage.eINSTANCE.getControlledAppliance_IsStripAndBaseboardHeater(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getControlledAppliance_IsStripAndBaseboardHeater(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -271,13 +337,19 @@ public class ControlledApplianceItemProvider extends ItemProviderAdapter impleme
      * @generated
      */
     protected void addIsWaterHeaterPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ControlledAppliance_isWaterHeater_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ControlledAppliance_isWaterHeater_feature",
-                        "_UI_ControlledAppliance_type" ),
-                CimPackage.eINSTANCE.getControlledAppliance_IsWaterHeater(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ControlledAppliance_isWaterHeater_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ControlledAppliance_isWaterHeater_feature", "_UI_ControlledAppliance_type" ),
+                        CimPackage.eINSTANCE.getControlledAppliance_IsWaterHeater(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

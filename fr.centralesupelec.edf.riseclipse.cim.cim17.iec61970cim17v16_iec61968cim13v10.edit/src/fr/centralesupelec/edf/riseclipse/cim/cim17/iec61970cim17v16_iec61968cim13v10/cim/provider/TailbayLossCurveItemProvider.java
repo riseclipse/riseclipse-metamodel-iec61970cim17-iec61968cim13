@@ -72,12 +72,19 @@ public class TailbayLossCurveItemProvider extends CurveItemProvider {
      * @generated
      */
     protected void addHydroGeneratingUnitPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TailbayLossCurve_HydroGeneratingUnit_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TailbayLossCurve_HydroGeneratingUnit_feature",
-                        "_UI_TailbayLossCurve_type" ),
-                CimPackage.eINSTANCE.getTailbayLossCurve_HydroGeneratingUnit(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TailbayLossCurve_HydroGeneratingUnit_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_TailbayLossCurve_HydroGeneratingUnit_feature", "_UI_TailbayLossCurve_type" ),
+                        CimPackage.eINSTANCE.getTailbayLossCurve_HydroGeneratingUnit(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class TailbayLossCurveItemProvider extends CurveItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

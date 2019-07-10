@@ -77,11 +77,17 @@ public class CoordinateSystemItemProvider extends IdentifiedObjectItemProvider {
     protected void addCrsUrnPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CoordinateSystem_crsUrn_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CoordinateSystem_crsUrn_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CoordinateSystem_crsUrn_feature",
                                 "_UI_CoordinateSystem_type" ),
-                        CimPackage.eINSTANCE.getCoordinateSystem_CrsUrn(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCoordinateSystem_CrsUrn(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,10 +99,17 @@ public class CoordinateSystemItemProvider extends IdentifiedObjectItemProvider {
     protected void addLocationsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CoordinateSystem_Locations_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CoordinateSystem_Locations_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CoordinateSystem_Locations_feature",
                                 "_UI_CoordinateSystem_type" ),
-                        CimPackage.eINSTANCE.getCoordinateSystem_Locations(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCoordinateSystem_Locations(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

@@ -74,10 +74,17 @@ public class PSRTypeItemProvider extends IdentifiedObjectItemProvider {
     protected void addPowerSystemResourcesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PSRType_PowerSystemResources_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PSRType_PowerSystemResources_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PSRType_PowerSystemResources_feature",
                                 "_UI_PSRType_type" ),
-                        CimPackage.eINSTANCE.getPSRType_PowerSystemResources(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getPSRType_PowerSystemResources(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class PSRTypeItemProvider extends IdentifiedObjectItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

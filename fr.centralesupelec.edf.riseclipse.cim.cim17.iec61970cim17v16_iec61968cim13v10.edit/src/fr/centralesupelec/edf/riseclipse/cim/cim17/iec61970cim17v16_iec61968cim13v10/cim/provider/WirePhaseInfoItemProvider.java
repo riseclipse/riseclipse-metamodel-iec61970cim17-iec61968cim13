@@ -79,11 +79,17 @@ public class WirePhaseInfoItemProvider extends CimObjectWithIDItemProvider {
     protected void addPhaseInfoPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WirePhaseInfo_phaseInfo_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WirePhaseInfo_phaseInfo_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WirePhaseInfo_phaseInfo_feature",
                                 "_UI_WirePhaseInfo_type" ),
-                        CimPackage.eINSTANCE.getWirePhaseInfo_PhaseInfo(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWirePhaseInfo_PhaseInfo(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,10 +101,17 @@ public class WirePhaseInfoItemProvider extends CimObjectWithIDItemProvider {
     protected void addWireInfoPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WirePhaseInfo_WireInfo_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WirePhaseInfo_WireInfo_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WirePhaseInfo_WireInfo_feature",
                                 "_UI_WirePhaseInfo_type" ),
-                        CimPackage.eINSTANCE.getWirePhaseInfo_WireInfo(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getWirePhaseInfo_WireInfo(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -110,10 +123,16 @@ public class WirePhaseInfoItemProvider extends CimObjectWithIDItemProvider {
     protected void addWireAssemblyInfoPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WirePhaseInfo_WireAssemblyInfo_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WirePhaseInfo_WireAssemblyInfo_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WirePhaseInfo_WireAssemblyInfo_feature",
                                 "_UI_WirePhaseInfo_type" ),
-                        CimPackage.eINSTANCE.getWirePhaseInfo_WireAssemblyInfo(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getWirePhaseInfo_WireAssemblyInfo(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -126,10 +145,17 @@ public class WirePhaseInfoItemProvider extends CimObjectWithIDItemProvider {
     protected void addWirePositionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WirePhaseInfo_WirePosition_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WirePhaseInfo_WirePosition_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WirePhaseInfo_WirePosition_feature",
                                 "_UI_WirePhaseInfo_type" ),
-                        CimPackage.eINSTANCE.getWirePhaseInfo_WirePosition(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getWirePhaseInfo_WirePosition(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

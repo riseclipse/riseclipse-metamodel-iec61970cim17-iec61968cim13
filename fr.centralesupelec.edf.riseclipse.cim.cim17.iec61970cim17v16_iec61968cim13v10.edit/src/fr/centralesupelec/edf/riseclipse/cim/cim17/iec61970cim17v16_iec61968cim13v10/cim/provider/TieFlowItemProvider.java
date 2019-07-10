@@ -79,11 +79,17 @@ public class TieFlowItemProvider extends IdentifiedObjectItemProvider {
     protected void addPositiveFlowInPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TieFlow_positiveFlowIn_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TieFlow_positiveFlowIn_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TieFlow_positiveFlowIn_feature",
                                 "_UI_TieFlow_type" ),
-                        CimPackage.eINSTANCE.getTieFlow_PositiveFlowIn(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTieFlow_PositiveFlowIn(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,10 +101,17 @@ public class TieFlowItemProvider extends IdentifiedObjectItemProvider {
     protected void addAltTieMeasPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TieFlow_AltTieMeas_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TieFlow_AltTieMeas_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TieFlow_AltTieMeas_feature",
                                 "_UI_TieFlow_type" ),
-                        CimPackage.eINSTANCE.getTieFlow_AltTieMeas(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTieFlow_AltTieMeas(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -110,10 +123,17 @@ public class TieFlowItemProvider extends IdentifiedObjectItemProvider {
     protected void addTerminalPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TieFlow_Terminal_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TieFlow_Terminal_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TieFlow_Terminal_feature",
                                 "_UI_TieFlow_type" ),
-                        CimPackage.eINSTANCE.getTieFlow_Terminal(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTieFlow_Terminal(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -125,10 +145,17 @@ public class TieFlowItemProvider extends IdentifiedObjectItemProvider {
     protected void addControlAreaPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TieFlow_ControlArea_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TieFlow_ControlArea_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TieFlow_ControlArea_feature",
                                 "_UI_TieFlow_type" ),
-                        CimPackage.eINSTANCE.getTieFlow_ControlArea(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTieFlow_ControlArea(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

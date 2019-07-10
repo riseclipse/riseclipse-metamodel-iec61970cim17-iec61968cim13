@@ -82,11 +82,17 @@ public class WindMechIECItemProvider extends IdentifiedObjectItemProvider {
     protected void addCdrtPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindMechIEC_cdrt_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindMechIEC_cdrt_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindMechIEC_cdrt_feature",
                                 "_UI_WindMechIEC_type" ),
-                        CimPackage.eINSTANCE.getWindMechIEC_Cdrt(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindMechIEC_Cdrt(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -98,11 +104,17 @@ public class WindMechIECItemProvider extends IdentifiedObjectItemProvider {
     protected void addHgenPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindMechIEC_hgen_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindMechIEC_hgen_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindMechIEC_hgen_feature",
                                 "_UI_WindMechIEC_type" ),
-                        CimPackage.eINSTANCE.getWindMechIEC_Hgen(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindMechIEC_Hgen(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,11 +126,17 @@ public class WindMechIECItemProvider extends IdentifiedObjectItemProvider {
     protected void addHwtrPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindMechIEC_hwtr_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindMechIEC_hwtr_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindMechIEC_hwtr_feature",
                                 "_UI_WindMechIEC_type" ),
-                        CimPackage.eINSTANCE.getWindMechIEC_Hwtr(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindMechIEC_Hwtr(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -130,11 +148,17 @@ public class WindMechIECItemProvider extends IdentifiedObjectItemProvider {
     protected void addKdrtPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindMechIEC_kdrt_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindMechIEC_kdrt_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindMechIEC_kdrt_feature",
                                 "_UI_WindMechIEC_type" ),
-                        CimPackage.eINSTANCE.getWindMechIEC_Kdrt(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindMechIEC_Kdrt(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -144,12 +168,19 @@ public class WindMechIECItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addWindTurbineType1or2IECPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindMechIEC_WindTurbineType1or2IEC_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_WindMechIEC_WindTurbineType1or2IEC_feature",
-                        "_UI_WindMechIEC_type" ),
-                CimPackage.eINSTANCE.getWindMechIEC_WindTurbineType1or2IEC(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindMechIEC_WindTurbineType1or2IEC_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_WindMechIEC_WindTurbineType1or2IEC_feature", "_UI_WindMechIEC_type" ),
+                        CimPackage.eINSTANCE.getWindMechIEC_WindTurbineType1or2IEC(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -161,10 +192,16 @@ public class WindMechIECItemProvider extends IdentifiedObjectItemProvider {
     protected void addWindTurbineType3IECPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindMechIEC_WindTurbineType3IEC_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindMechIEC_WindTurbineType3IEC_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindMechIEC_WindTurbineType3IEC_feature",
                                 "_UI_WindMechIEC_type" ),
-                        CimPackage.eINSTANCE.getWindMechIEC_WindTurbineType3IEC(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getWindMechIEC_WindTurbineType3IEC(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -177,10 +214,16 @@ public class WindMechIECItemProvider extends IdentifiedObjectItemProvider {
     protected void addWindTurbineType4bIECPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindMechIEC_WindTurbineType4bIEC_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindMechIEC_WindTurbineType4bIEC_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindMechIEC_WindTurbineType4bIEC_feature",
                                 "_UI_WindMechIEC_type" ),
-                        CimPackage.eINSTANCE.getWindMechIEC_WindTurbineType4bIEC(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getWindMechIEC_WindTurbineType4bIEC(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 

@@ -80,11 +80,17 @@ public class SealItemProvider extends IdentifiedObjectItemProvider {
     protected void addAppliedDateTimePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Seal_appliedDateTime_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Seal_appliedDateTime_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Seal_appliedDateTime_feature",
                                 "_UI_Seal_type" ),
-                        CimPackage.eINSTANCE.getSeal_AppliedDateTime(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSeal_AppliedDateTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -96,11 +102,17 @@ public class SealItemProvider extends IdentifiedObjectItemProvider {
     protected void addConditionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Seal_condition_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Seal_condition_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Seal_condition_feature",
                                 "_UI_Seal_type" ),
-                        CimPackage.eINSTANCE.getSeal_Condition(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSeal_Condition(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -112,10 +124,16 @@ public class SealItemProvider extends IdentifiedObjectItemProvider {
     protected void addKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Seal_kind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Seal_kind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Seal_kind_feature", "_UI_Seal_type" ),
-                        CimPackage.eINSTANCE.getSeal_Kind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSeal_Kind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -127,11 +145,17 @@ public class SealItemProvider extends IdentifiedObjectItemProvider {
     protected void addSealNumberPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Seal_sealNumber_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Seal_sealNumber_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Seal_sealNumber_feature",
                                 "_UI_Seal_type" ),
-                        CimPackage.eINSTANCE.getSeal_SealNumber(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSeal_SealNumber(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -143,10 +167,17 @@ public class SealItemProvider extends IdentifiedObjectItemProvider {
     protected void addAssetContainerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Seal_AssetContainer_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Seal_AssetContainer_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Seal_AssetContainer_feature",
                                 "_UI_Seal_type" ),
-                        CimPackage.eINSTANCE.getSeal_AssetContainer(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSeal_AssetContainer(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

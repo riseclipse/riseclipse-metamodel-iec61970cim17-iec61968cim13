@@ -82,11 +82,17 @@ public class WireSpacingItemProvider extends IdentifiedObjectItemProvider {
     protected void addIsCablePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireSpacing_isCable_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireSpacing_isCable_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireSpacing_isCable_feature",
                                 "_UI_WireSpacing_type" ),
-                        CimPackage.eINSTANCE.getWireSpacing_IsCable(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWireSpacing_IsCable(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -98,11 +104,17 @@ public class WireSpacingItemProvider extends IdentifiedObjectItemProvider {
     protected void addPhaseWireCountPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireSpacing_phaseWireCount_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireSpacing_phaseWireCount_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireSpacing_phaseWireCount_feature",
                                 "_UI_WireSpacing_type" ),
-                        CimPackage.eINSTANCE.getWireSpacing_PhaseWireCount(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWireSpacing_PhaseWireCount(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,11 +126,17 @@ public class WireSpacingItemProvider extends IdentifiedObjectItemProvider {
     protected void addPhaseWireSpacingPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireSpacing_phaseWireSpacing_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireSpacing_phaseWireSpacing_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireSpacing_phaseWireSpacing_feature",
                                 "_UI_WireSpacing_type" ),
-                        CimPackage.eINSTANCE.getWireSpacing_PhaseWireSpacing(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWireSpacing_PhaseWireSpacing(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -130,11 +148,17 @@ public class WireSpacingItemProvider extends IdentifiedObjectItemProvider {
     protected void addUsagePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireSpacing_usage_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireSpacing_usage_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireSpacing_usage_feature",
                                 "_UI_WireSpacing_type" ),
-                        CimPackage.eINSTANCE.getWireSpacing_Usage(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWireSpacing_Usage(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -146,10 +170,17 @@ public class WireSpacingItemProvider extends IdentifiedObjectItemProvider {
     protected void addStructuresPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireSpacing_Structures_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireSpacing_Structures_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireSpacing_Structures_feature",
                                 "_UI_WireSpacing_type" ),
-                        CimPackage.eINSTANCE.getWireSpacing_Structures(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getWireSpacing_Structures(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -161,10 +192,17 @@ public class WireSpacingItemProvider extends IdentifiedObjectItemProvider {
     protected void addDuctBankPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireSpacing_DuctBank_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireSpacing_DuctBank_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireSpacing_DuctBank_feature",
                                 "_UI_WireSpacing_type" ),
-                        CimPackage.eINSTANCE.getWireSpacing_DuctBank(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getWireSpacing_DuctBank(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -176,10 +214,17 @@ public class WireSpacingItemProvider extends IdentifiedObjectItemProvider {
     protected void addWirePositionsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireSpacing_WirePositions_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireSpacing_WirePositions_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireSpacing_WirePositions_feature",
                                 "_UI_WireSpacing_type" ),
-                        CimPackage.eINSTANCE.getWireSpacing_WirePositions(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getWireSpacing_WirePositions(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

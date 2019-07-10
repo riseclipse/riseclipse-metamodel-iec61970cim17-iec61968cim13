@@ -87,11 +87,17 @@ public class ExtensionItemItemProvider extends ItemProviderAdapter implements IE
     protected void addExtNamePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExtensionItem_extName_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExtensionItem_extName_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExtensionItem_extName_feature",
                                 "_UI_ExtensionItem_type" ),
-                        CimPackage.eINSTANCE.getExtensionItem_ExtName(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExtensionItem_ExtName(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -103,11 +109,17 @@ public class ExtensionItemItemProvider extends ItemProviderAdapter implements IE
     protected void addExtTypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExtensionItem_extType_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExtensionItem_extType_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExtensionItem_extType_feature",
                                 "_UI_ExtensionItem_type" ),
-                        CimPackage.eINSTANCE.getExtensionItem_ExtType(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExtensionItem_ExtType(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -119,11 +131,17 @@ public class ExtensionItemItemProvider extends ItemProviderAdapter implements IE
     protected void addExtValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExtensionItem_extValue_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExtensionItem_extValue_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExtensionItem_extValue_feature",
                                 "_UI_ExtensionItem_type" ),
-                        CimPackage.eINSTANCE.getExtensionItem_ExtValue(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExtensionItem_ExtValue(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

@@ -77,11 +77,17 @@ public class DiscExcContIEEEDEC3AItemProvider extends DiscontinuousExcitationCon
     protected void addTdrPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiscExcContIEEEDEC3A_tdr_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiscExcContIEEEDEC3A_tdr_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiscExcContIEEEDEC3A_tdr_feature",
                                 "_UI_DiscExcContIEEEDEC3A_type" ),
-                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC3A_Tdr(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC3A_Tdr(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,11 +99,17 @@ public class DiscExcContIEEEDEC3AItemProvider extends DiscontinuousExcitationCon
     protected void addVtminPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiscExcContIEEEDEC3A_vtmin_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiscExcContIEEEDEC3A_vtmin_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiscExcContIEEEDEC3A_vtmin_feature",
                                 "_UI_DiscExcContIEEEDEC3A_type" ),
-                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC3A_Vtmin(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC3A_Vtmin(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

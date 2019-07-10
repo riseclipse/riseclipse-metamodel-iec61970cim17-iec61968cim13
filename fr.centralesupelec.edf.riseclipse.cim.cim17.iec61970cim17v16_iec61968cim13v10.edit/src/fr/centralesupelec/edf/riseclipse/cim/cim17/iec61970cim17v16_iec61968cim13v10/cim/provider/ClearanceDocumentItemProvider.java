@@ -77,13 +77,19 @@ public class ClearanceDocumentItemProvider extends SafetyDocumentItemProvider {
      * @generated
      */
     protected void addMustBeDeenergisedPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ClearanceDocument_mustBeDeenergised_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ClearanceDocument_mustBeDeenergised_feature",
-                        "_UI_ClearanceDocument_type" ),
-                CimPackage.eINSTANCE.getClearanceDocument_MustBeDeenergised(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ClearanceDocument_mustBeDeenergised_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ClearanceDocument_mustBeDeenergised_feature", "_UI_ClearanceDocument_type" ),
+                        CimPackage.eINSTANCE.getClearanceDocument_MustBeDeenergised(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,13 +99,19 @@ public class ClearanceDocumentItemProvider extends SafetyDocumentItemProvider {
      * @generated
      */
     protected void addMustBeGroundedPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ClearanceDocument_mustBeGrounded_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ClearanceDocument_mustBeGrounded_feature",
-                        "_UI_ClearanceDocument_type" ),
-                CimPackage.eINSTANCE.getClearanceDocument_MustBeGrounded(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ClearanceDocument_mustBeGrounded_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_ClearanceDocument_mustBeGrounded_feature",
+                                "_UI_ClearanceDocument_type" ),
+                        CimPackage.eINSTANCE.getClearanceDocument_MustBeGrounded(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -109,12 +121,19 @@ public class ClearanceDocumentItemProvider extends SafetyDocumentItemProvider {
      * @generated
      */
     protected void addClearanceActionPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ClearanceDocument_ClearanceAction_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ClearanceDocument_ClearanceAction_feature",
-                        "_UI_ClearanceDocument_type" ),
-                CimPackage.eINSTANCE.getClearanceDocument_ClearanceAction(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ClearanceDocument_ClearanceAction_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ClearanceDocument_ClearanceAction_feature", "_UI_ClearanceDocument_type" ),
+                        CimPackage.eINSTANCE.getClearanceDocument_ClearanceAction(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -126,10 +145,17 @@ public class ClearanceDocumentItemProvider extends SafetyDocumentItemProvider {
     protected void addTaggedPSRsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ClearanceDocument_TaggedPSRs_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ClearanceDocument_TaggedPSRs_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ClearanceDocument_TaggedPSRs_feature",
                                 "_UI_ClearanceDocument_type" ),
-                        CimPackage.eINSTANCE.getClearanceDocument_TaggedPSRs(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getClearanceDocument_TaggedPSRs(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -199,8 +225,8 @@ public class ClearanceDocumentItemProvider extends SafetyDocumentItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

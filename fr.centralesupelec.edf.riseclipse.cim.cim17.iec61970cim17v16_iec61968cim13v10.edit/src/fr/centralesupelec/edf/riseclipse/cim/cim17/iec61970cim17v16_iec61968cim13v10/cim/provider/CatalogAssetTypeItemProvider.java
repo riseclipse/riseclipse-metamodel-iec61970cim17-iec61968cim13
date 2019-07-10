@@ -82,13 +82,19 @@ public class CatalogAssetTypeItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addEstimatedUnitCostPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CatalogAssetType_estimatedUnitCost_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CatalogAssetType_estimatedUnitCost_feature",
-                        "_UI_CatalogAssetType_type" ),
-                CimPackage.eINSTANCE.getCatalogAssetType_EstimatedUnitCost(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CatalogAssetType_estimatedUnitCost_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_CatalogAssetType_estimatedUnitCost_feature", "_UI_CatalogAssetType_type" ),
+                        CimPackage.eINSTANCE.getCatalogAssetType_EstimatedUnitCost(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -100,11 +106,17 @@ public class CatalogAssetTypeItemProvider extends IdentifiedObjectItemProvider {
     protected void addKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CatalogAssetType_kind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CatalogAssetType_kind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CatalogAssetType_kind_feature",
                                 "_UI_CatalogAssetType_type" ),
-                        CimPackage.eINSTANCE.getCatalogAssetType_Kind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCatalogAssetType_Kind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -116,11 +128,17 @@ public class CatalogAssetTypeItemProvider extends IdentifiedObjectItemProvider {
     protected void addStockItemPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CatalogAssetType_stockItem_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CatalogAssetType_stockItem_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CatalogAssetType_stockItem_feature",
                                 "_UI_CatalogAssetType_type" ),
-                        CimPackage.eINSTANCE.getCatalogAssetType_StockItem(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCatalogAssetType_StockItem(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -132,11 +150,17 @@ public class CatalogAssetTypeItemProvider extends IdentifiedObjectItemProvider {
     protected void addTypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CatalogAssetType_type_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CatalogAssetType_type_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CatalogAssetType_type_feature",
                                 "_UI_CatalogAssetType_type" ),
-                        CimPackage.eINSTANCE.getCatalogAssetType_Type(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCatalogAssetType_Type(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -148,10 +172,17 @@ public class CatalogAssetTypeItemProvider extends IdentifiedObjectItemProvider {
     protected void addAssetInfoPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CatalogAssetType_AssetInfo_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CatalogAssetType_AssetInfo_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CatalogAssetType_AssetInfo_feature",
                                 "_UI_CatalogAssetType_type" ),
-                        CimPackage.eINSTANCE.getCatalogAssetType_AssetInfo(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCatalogAssetType_AssetInfo(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -161,12 +192,19 @@ public class CatalogAssetTypeItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addProductAssetModelPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CatalogAssetType_ProductAssetModel_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CatalogAssetType_ProductAssetModel_feature",
-                        "_UI_CatalogAssetType_type" ),
-                CimPackage.eINSTANCE.getCatalogAssetType_ProductAssetModel(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CatalogAssetType_ProductAssetModel_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_CatalogAssetType_ProductAssetModel_feature", "_UI_CatalogAssetType_type" ),
+                        CimPackage.eINSTANCE.getCatalogAssetType_ProductAssetModel(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

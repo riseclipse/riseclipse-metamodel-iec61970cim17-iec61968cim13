@@ -73,11 +73,17 @@ public class MeasurementValueSourceItemProvider extends IdentifiedObjectItemProv
      */
     protected void addMeasurementValuesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_MeasurementValueSource_MeasurementValues_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_MeasurementValueSource_MeasurementValues_feature",
                         "_UI_MeasurementValueSource_type" ),
-                CimPackage.eINSTANCE.getMeasurementValueSource_MeasurementValues(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getMeasurementValueSource_MeasurementValues(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -115,7 +121,6 @@ public class MeasurementValueSourceItemProvider extends IdentifiedObjectItemProv
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

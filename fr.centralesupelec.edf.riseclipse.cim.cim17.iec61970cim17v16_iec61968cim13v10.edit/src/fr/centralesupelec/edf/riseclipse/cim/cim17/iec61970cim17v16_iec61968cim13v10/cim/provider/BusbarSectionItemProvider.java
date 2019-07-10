@@ -77,11 +77,17 @@ public class BusbarSectionItemProvider extends ConnectorItemProvider {
     protected void addIpMaxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_BusbarSection_ipMax_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_BusbarSection_ipMax_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_BusbarSection_ipMax_feature",
                                 "_UI_BusbarSection_type" ),
-                        CimPackage.eINSTANCE.getBusbarSection_IpMax(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getBusbarSection_IpMax(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,10 +99,16 @@ public class BusbarSectionItemProvider extends ConnectorItemProvider {
     protected void addVoltageControlZonePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_BusbarSection_VoltageControlZone_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_BusbarSection_VoltageControlZone_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_BusbarSection_VoltageControlZone_feature",
                                 "_UI_BusbarSection_type" ),
-                        CimPackage.eINSTANCE.getBusbarSection_VoltageControlZone(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getBusbarSection_VoltageControlZone(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 

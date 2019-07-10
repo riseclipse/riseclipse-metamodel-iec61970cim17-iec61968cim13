@@ -72,14 +72,20 @@ public class HydroGeneratingEfficiencyCurveItemProvider extends CurveItemProvide
      * @generated
      */
     protected void addHydroGeneratingUnitPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_HydroGeneratingEfficiencyCurve_HydroGeneratingUnit_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_HydroGeneratingEfficiencyCurve_HydroGeneratingUnit_feature",
-                        "_UI_HydroGeneratingEfficiencyCurve_type" ),
-                CimPackage.eINSTANCE.getHydroGeneratingEfficiencyCurve_HydroGeneratingUnit(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_HydroGeneratingEfficiencyCurve_HydroGeneratingUnit_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_HydroGeneratingEfficiencyCurve_HydroGeneratingUnit_feature",
+                                "_UI_HydroGeneratingEfficiencyCurve_type" ),
+                        CimPackage.eINSTANCE.getHydroGeneratingEfficiencyCurve_HydroGeneratingUnit(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -116,7 +122,6 @@ public class HydroGeneratingEfficiencyCurveItemProvider extends CurveItemProvide
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

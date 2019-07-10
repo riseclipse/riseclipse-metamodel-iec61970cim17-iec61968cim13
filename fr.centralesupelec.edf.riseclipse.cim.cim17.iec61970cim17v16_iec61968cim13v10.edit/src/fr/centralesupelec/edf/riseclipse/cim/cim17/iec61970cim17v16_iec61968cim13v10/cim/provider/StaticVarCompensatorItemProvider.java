@@ -81,11 +81,17 @@ public class StaticVarCompensatorItemProvider extends RegulatingCondEqItemProvid
     protected void addCapacitiveRatingPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_StaticVarCompensator_capacitiveRating_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_StaticVarCompensator_capacitiveRating_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_StaticVarCompensator_capacitiveRating_feature", "_UI_StaticVarCompensator_type" ),
-                        CimPackage.eINSTANCE.getStaticVarCompensator_CapacitiveRating(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getStaticVarCompensator_CapacitiveRating(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -97,11 +103,17 @@ public class StaticVarCompensatorItemProvider extends RegulatingCondEqItemProvid
     protected void addInductiveRatingPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_StaticVarCompensator_inductiveRating_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_StaticVarCompensator_inductiveRating_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_StaticVarCompensator_inductiveRating_feature", "_UI_StaticVarCompensator_type" ),
-                        CimPackage.eINSTANCE.getStaticVarCompensator_InductiveRating(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getStaticVarCompensator_InductiveRating(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -113,11 +125,17 @@ public class StaticVarCompensatorItemProvider extends RegulatingCondEqItemProvid
     protected void addQPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_StaticVarCompensator_q_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_StaticVarCompensator_q_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_StaticVarCompensator_q_feature",
                                 "_UI_StaticVarCompensator_type" ),
-                        CimPackage.eINSTANCE.getStaticVarCompensator_Q(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getStaticVarCompensator_Q(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -129,11 +147,17 @@ public class StaticVarCompensatorItemProvider extends RegulatingCondEqItemProvid
     protected void addSlopePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_StaticVarCompensator_slope_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_StaticVarCompensator_slope_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_StaticVarCompensator_slope_feature",
                                 "_UI_StaticVarCompensator_type" ),
-                        CimPackage.eINSTANCE.getStaticVarCompensator_Slope(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getStaticVarCompensator_Slope(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -145,11 +169,17 @@ public class StaticVarCompensatorItemProvider extends RegulatingCondEqItemProvid
     protected void addSVCControlModePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_StaticVarCompensator_sVCControlMode_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_StaticVarCompensator_sVCControlMode_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_StaticVarCompensator_sVCControlMode_feature", "_UI_StaticVarCompensator_type" ),
-                        CimPackage.eINSTANCE.getStaticVarCompensator_SVCControlMode(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getStaticVarCompensator_SVCControlMode(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -161,11 +191,17 @@ public class StaticVarCompensatorItemProvider extends RegulatingCondEqItemProvid
     protected void addVoltageSetPointPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_StaticVarCompensator_voltageSetPoint_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_StaticVarCompensator_voltageSetPoint_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_StaticVarCompensator_voltageSetPoint_feature", "_UI_StaticVarCompensator_type" ),
-                        CimPackage.eINSTANCE.getStaticVarCompensator_VoltageSetPoint(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getStaticVarCompensator_VoltageSetPoint(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

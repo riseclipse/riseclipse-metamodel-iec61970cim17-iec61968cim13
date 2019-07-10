@@ -79,11 +79,17 @@ public class ShuntCompensatorPhaseItemProvider extends PowerSystemResourceItemPr
     protected void addMaximumSectionsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ShuntCompensatorPhase_maximumSections_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ShuntCompensatorPhase_maximumSections_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_ShuntCompensatorPhase_maximumSections_feature", "_UI_ShuntCompensatorPhase_type" ),
-                        CimPackage.eINSTANCE.getShuntCompensatorPhase_MaximumSections(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getShuntCompensatorPhase_MaximumSections(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,11 +101,17 @@ public class ShuntCompensatorPhaseItemProvider extends PowerSystemResourceItemPr
     protected void addNormalSectionsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ShuntCompensatorPhase_normalSections_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ShuntCompensatorPhase_normalSections_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_ShuntCompensatorPhase_normalSections_feature", "_UI_ShuntCompensatorPhase_type" ),
-                        CimPackage.eINSTANCE.getShuntCompensatorPhase_NormalSections(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getShuntCompensatorPhase_NormalSections(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -109,13 +121,19 @@ public class ShuntCompensatorPhaseItemProvider extends PowerSystemResourceItemPr
      * @generated
      */
     protected void addPhasePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ShuntCompensatorPhase_phase_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ShuntCompensatorPhase_phase_feature",
-                        "_UI_ShuntCompensatorPhase_type" ),
-                CimPackage.eINSTANCE.getShuntCompensatorPhase_Phase(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ShuntCompensatorPhase_phase_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_ShuntCompensatorPhase_phase_feature",
+                                "_UI_ShuntCompensatorPhase_type" ),
+                        CimPackage.eINSTANCE.getShuntCompensatorPhase_Phase(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -126,11 +144,17 @@ public class ShuntCompensatorPhaseItemProvider extends PowerSystemResourceItemPr
      */
     protected void addShuntCompensatorPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ShuntCompensatorPhase_ShuntCompensator_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ShuntCompensatorPhase_ShuntCompensator_feature",
                         "_UI_ShuntCompensatorPhase_type" ),
-                CimPackage.eINSTANCE.getShuntCompensatorPhase_ShuntCompensator(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getShuntCompensatorPhase_ShuntCompensator(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 

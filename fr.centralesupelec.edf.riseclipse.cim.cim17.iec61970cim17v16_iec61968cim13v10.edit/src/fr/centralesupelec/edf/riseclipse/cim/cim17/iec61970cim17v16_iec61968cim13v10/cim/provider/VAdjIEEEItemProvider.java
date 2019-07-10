@@ -81,11 +81,17 @@ public class VAdjIEEEItemProvider extends VoltageAdjusterDynamicsItemProvider {
     protected void addAdjslewPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_VAdjIEEE_adjslew_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_VAdjIEEE_adjslew_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_VAdjIEEE_adjslew_feature",
                                 "_UI_VAdjIEEE_type" ),
-                        CimPackage.eINSTANCE.getVAdjIEEE_Adjslew(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getVAdjIEEE_Adjslew(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -97,11 +103,17 @@ public class VAdjIEEEItemProvider extends VoltageAdjusterDynamicsItemProvider {
     protected void addTaoffPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_VAdjIEEE_taoff_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_VAdjIEEE_taoff_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_VAdjIEEE_taoff_feature",
                                 "_UI_VAdjIEEE_type" ),
-                        CimPackage.eINSTANCE.getVAdjIEEE_Taoff(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getVAdjIEEE_Taoff(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -113,11 +125,17 @@ public class VAdjIEEEItemProvider extends VoltageAdjusterDynamicsItemProvider {
     protected void addTaonPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_VAdjIEEE_taon_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_VAdjIEEE_taon_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_VAdjIEEE_taon_feature",
                                 "_UI_VAdjIEEE_type" ),
-                        CimPackage.eINSTANCE.getVAdjIEEE_Taon(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getVAdjIEEE_Taon(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -129,11 +147,17 @@ public class VAdjIEEEItemProvider extends VoltageAdjusterDynamicsItemProvider {
     protected void addVadjfPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_VAdjIEEE_vadjf_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_VAdjIEEE_vadjf_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_VAdjIEEE_vadjf_feature",
                                 "_UI_VAdjIEEE_type" ),
-                        CimPackage.eINSTANCE.getVAdjIEEE_Vadjf(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getVAdjIEEE_Vadjf(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -145,11 +169,17 @@ public class VAdjIEEEItemProvider extends VoltageAdjusterDynamicsItemProvider {
     protected void addVadjmaxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_VAdjIEEE_vadjmax_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_VAdjIEEE_vadjmax_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_VAdjIEEE_vadjmax_feature",
                                 "_UI_VAdjIEEE_type" ),
-                        CimPackage.eINSTANCE.getVAdjIEEE_Vadjmax(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getVAdjIEEE_Vadjmax(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -161,11 +191,17 @@ public class VAdjIEEEItemProvider extends VoltageAdjusterDynamicsItemProvider {
     protected void addVadjminPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_VAdjIEEE_vadjmin_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_VAdjIEEE_vadjmin_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_VAdjIEEE_vadjmin_feature",
                                 "_UI_VAdjIEEE_type" ),
-                        CimPackage.eINSTANCE.getVAdjIEEE_Vadjmin(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getVAdjIEEE_Vadjmin(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

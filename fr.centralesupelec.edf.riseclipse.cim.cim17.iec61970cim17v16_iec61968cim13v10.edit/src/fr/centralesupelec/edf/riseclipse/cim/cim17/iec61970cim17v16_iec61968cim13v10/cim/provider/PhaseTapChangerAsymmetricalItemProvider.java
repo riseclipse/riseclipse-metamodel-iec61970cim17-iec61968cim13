@@ -74,14 +74,20 @@ public class PhaseTapChangerAsymmetricalItemProvider extends PhaseTapChangerNonL
      * @generated
      */
     protected void addWindingConnectionAnglePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PhaseTapChangerAsymmetrical_windingConnectionAngle_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_PhaseTapChangerAsymmetrical_windingConnectionAngle_feature",
-                        "_UI_PhaseTapChangerAsymmetrical_type" ),
-                CimPackage.eINSTANCE.getPhaseTapChangerAsymmetrical_WindingConnectionAngle(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PhaseTapChangerAsymmetrical_windingConnectionAngle_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PhaseTapChangerAsymmetrical_windingConnectionAngle_feature",
+                                "_UI_PhaseTapChangerAsymmetrical_type" ),
+                        CimPackage.eINSTANCE.getPhaseTapChangerAsymmetrical_WindingConnectionAngle(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

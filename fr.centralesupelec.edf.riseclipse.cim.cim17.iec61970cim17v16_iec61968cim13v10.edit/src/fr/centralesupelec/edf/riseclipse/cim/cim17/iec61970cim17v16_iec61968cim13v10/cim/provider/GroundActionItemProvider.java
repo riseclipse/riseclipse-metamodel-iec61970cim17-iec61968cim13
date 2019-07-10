@@ -80,11 +80,17 @@ public class GroundActionItemProvider extends SwitchingStepItemProvider {
     protected void addKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GroundAction_kind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GroundAction_kind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GroundAction_kind_feature",
                                 "_UI_GroundAction_type" ),
-                        CimPackage.eINSTANCE.getGroundAction_Kind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGroundAction_Kind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -96,10 +102,17 @@ public class GroundActionItemProvider extends SwitchingStepItemProvider {
     protected void addGroundPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GroundAction_Ground_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GroundAction_Ground_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GroundAction_Ground_feature",
                                 "_UI_GroundAction_type" ),
-                        CimPackage.eINSTANCE.getGroundAction_Ground(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getGroundAction_Ground(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,10 +124,16 @@ public class GroundActionItemProvider extends SwitchingStepItemProvider {
     protected void addSwitchingStepGroupPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GroundAction_SwitchingStepGroup_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GroundAction_SwitchingStepGroup_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GroundAction_SwitchingStepGroup_feature",
                                 "_UI_GroundAction_type" ),
-                        CimPackage.eINSTANCE.getGroundAction_SwitchingStepGroup(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getGroundAction_SwitchingStepGroup(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -127,10 +146,16 @@ public class GroundActionItemProvider extends SwitchingStepItemProvider {
     protected void addAlongACLineSegmentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GroundAction_AlongACLineSegment_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GroundAction_AlongACLineSegment_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GroundAction_AlongACLineSegment_feature",
                                 "_UI_GroundAction_type" ),
-                        CimPackage.eINSTANCE.getGroundAction_AlongACLineSegment(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getGroundAction_AlongACLineSegment(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -143,10 +168,16 @@ public class GroundActionItemProvider extends SwitchingStepItemProvider {
     protected void addGroundedEquipmentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GroundAction_GroundedEquipment_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GroundAction_GroundedEquipment_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GroundAction_GroundedEquipment_feature",
                                 "_UI_GroundAction_type" ),
-                        CimPackage.eINSTANCE.getGroundAction_GroundedEquipment(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getGroundAction_GroundedEquipment(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 

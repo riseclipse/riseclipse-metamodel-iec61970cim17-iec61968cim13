@@ -74,10 +74,17 @@ public class DCLineItemProvider extends DCEquipmentContainerItemProvider {
     protected void addRegionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DCLine_Region_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DCLine_Region_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DCLine_Region_feature",
                                 "_UI_DCLine_type" ),
-                        CimPackage.eINSTANCE.getDCLine_Region(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getDCLine_Region(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class DCLineItemProvider extends DCEquipmentContainerItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

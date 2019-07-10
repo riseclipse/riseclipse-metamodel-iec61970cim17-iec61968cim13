@@ -72,12 +72,19 @@ public class MerchantAgreementItemProvider extends AgreementItemProvider {
      * @generated
      */
     protected void addMerchantAccountsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_MerchantAgreement_MerchantAccounts_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_MerchantAgreement_MerchantAccounts_feature",
-                        "_UI_MerchantAgreement_type" ),
-                CimPackage.eINSTANCE.getMerchantAgreement_MerchantAccounts(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_MerchantAgreement_MerchantAccounts_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_MerchantAgreement_MerchantAccounts_feature", "_UI_MerchantAgreement_type" ),
+                        CimPackage.eINSTANCE.getMerchantAgreement_MerchantAccounts(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class MerchantAgreementItemProvider extends AgreementItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**
@@ -140,8 +146,8 @@ public class MerchantAgreementItemProvider extends AgreementItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

@@ -90,11 +90,17 @@ public class LineDetailItemProvider extends ItemProviderAdapter implements IEdit
     protected void addAmountPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LineDetail_amount_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LineDetail_amount_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LineDetail_amount_feature",
                                 "_UI_LineDetail_type" ),
-                        CimPackage.eINSTANCE.getLineDetail_Amount(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLineDetail_Amount(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -106,11 +112,17 @@ public class LineDetailItemProvider extends ItemProviderAdapter implements IEdit
     protected void addDateTimePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LineDetail_dateTime_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LineDetail_dateTime_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LineDetail_dateTime_feature",
                                 "_UI_LineDetail_type" ),
-                        CimPackage.eINSTANCE.getLineDetail_DateTime(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLineDetail_DateTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -122,11 +134,17 @@ public class LineDetailItemProvider extends ItemProviderAdapter implements IEdit
     protected void addNotePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LineDetail_note_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LineDetail_note_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LineDetail_note_feature",
                                 "_UI_LineDetail_type" ),
-                        CimPackage.eINSTANCE.getLineDetail_Note(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLineDetail_Note(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -138,11 +156,17 @@ public class LineDetailItemProvider extends ItemProviderAdapter implements IEdit
     protected void addRoundingPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LineDetail_rounding_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LineDetail_rounding_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LineDetail_rounding_feature",
                                 "_UI_LineDetail_type" ),
-                        CimPackage.eINSTANCE.getLineDetail_Rounding(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLineDetail_Rounding(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

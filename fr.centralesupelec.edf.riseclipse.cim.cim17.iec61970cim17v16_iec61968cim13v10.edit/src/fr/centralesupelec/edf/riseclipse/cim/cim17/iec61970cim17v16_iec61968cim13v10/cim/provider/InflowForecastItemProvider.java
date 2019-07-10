@@ -74,10 +74,17 @@ public class InflowForecastItemProvider extends RegularIntervalScheduleItemProvi
     protected void addReservoirPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_InflowForecast_Reservoir_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_InflowForecast_Reservoir_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_InflowForecast_Reservoir_feature",
                                 "_UI_InflowForecast_type" ),
-                        CimPackage.eINSTANCE.getInflowForecast_Reservoir(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getInflowForecast_Reservoir(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class InflowForecastItemProvider extends RegularIntervalScheduleItemProvi
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

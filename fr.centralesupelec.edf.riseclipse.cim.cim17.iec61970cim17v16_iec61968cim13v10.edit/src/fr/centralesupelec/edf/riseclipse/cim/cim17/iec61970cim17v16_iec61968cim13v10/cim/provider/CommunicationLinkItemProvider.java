@@ -75,10 +75,16 @@ public class CommunicationLinkItemProvider extends PowerSystemResourceItemProvid
     protected void addRemoteUnitsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CommunicationLink_RemoteUnits_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CommunicationLink_RemoteUnits_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CommunicationLink_RemoteUnits_feature",
                                 "_UI_CommunicationLink_type" ),
-                        CimPackage.eINSTANCE.getCommunicationLink_RemoteUnits(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getCommunicationLink_RemoteUnits(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -91,11 +97,17 @@ public class CommunicationLinkItemProvider extends PowerSystemResourceItemProvid
     protected void addBilateralExchangeActorPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CommunicationLink_BilateralExchangeActor_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CommunicationLink_BilateralExchangeActor_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_CommunicationLink_BilateralExchangeActor_feature", "_UI_CommunicationLink_type" ),
-                        CimPackage.eINSTANCE.getCommunicationLink_BilateralExchangeActor(), true, false, true, null,
-                        null, null ) );
+                        CimPackage.eINSTANCE.getCommunicationLink_BilateralExchangeActor(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -132,7 +144,6 @@ public class CommunicationLinkItemProvider extends PowerSystemResourceItemProvid
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

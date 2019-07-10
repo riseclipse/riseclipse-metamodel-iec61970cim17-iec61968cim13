@@ -74,12 +74,18 @@ public class RatioTapChangerTablePointItemProvider extends TapChangerTablePointI
     protected void addRatioTapChangerTablePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RatioTapChangerTablePoint_RatioTapChangerTable_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RatioTapChangerTablePoint_RatioTapChangerTable_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_RatioTapChangerTablePoint_RatioTapChangerTable_feature",
                                 "_UI_RatioTapChangerTablePoint_type" ),
-                        CimPackage.eINSTANCE.getRatioTapChangerTablePoint_RatioTapChangerTable(), true, false, true,
-                        null, null, null ) );
+                        CimPackage.eINSTANCE.getRatioTapChangerTablePoint_RatioTapChangerTable(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -116,7 +122,6 @@ public class RatioTapChangerTablePointItemProvider extends TapChangerTablePointI
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

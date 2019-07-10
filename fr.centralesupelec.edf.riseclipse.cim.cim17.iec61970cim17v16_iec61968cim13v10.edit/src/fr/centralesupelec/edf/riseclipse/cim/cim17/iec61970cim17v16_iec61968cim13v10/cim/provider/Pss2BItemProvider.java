@@ -106,10 +106,16 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addAPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_a_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_a_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_a_feature", "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_A(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_A(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -121,11 +127,17 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addInputSignal1TypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_inputSignal1Type_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_inputSignal1Type_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_inputSignal1Type_feature",
                                 "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_InputSignal1Type(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_InputSignal1Type(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -137,11 +149,17 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addInputSignal2TypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_inputSignal2Type_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_inputSignal2Type_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_inputSignal2Type_feature",
                                 "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_InputSignal2Type(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_InputSignal2Type(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -153,10 +171,16 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addKs1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_ks1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_ks1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_ks1_feature", "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_Ks1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_Ks1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -168,10 +192,16 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addKs2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_ks2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_ks2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_ks2_feature", "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_Ks2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_Ks2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -183,10 +213,16 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addKs3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_ks3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_ks3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_ks3_feature", "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_Ks3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_Ks3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -198,10 +234,16 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addKs4PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_ks4_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_ks4_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_ks4_feature", "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_Ks4(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_Ks4(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -213,10 +255,16 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addMPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_m_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_m_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_m_feature", "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_M(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_M(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -228,10 +276,16 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addNPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_n_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_n_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_n_feature", "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_N(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_N(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -243,10 +297,16 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addT1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_t1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_t1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_t1_feature", "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_T1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_T1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -258,10 +318,16 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addT10PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_t10_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_t10_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_t10_feature", "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_T10(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_T10(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -273,10 +339,16 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addT11PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_t11_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_t11_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_t11_feature", "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_T11(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_T11(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -288,10 +360,16 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addT2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_t2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_t2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_t2_feature", "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_T2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_T2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -303,10 +381,16 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addT3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_t3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_t3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_t3_feature", "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_T3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_T3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -318,10 +402,16 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addT4PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_t4_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_t4_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_t4_feature", "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_T4(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_T4(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -333,10 +423,16 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addT6PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_t6_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_t6_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_t6_feature", "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_T6(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_T6(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -348,10 +444,16 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addT7PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_t7_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_t7_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_t7_feature", "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_T7(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_T7(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -363,10 +465,16 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addT8PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_t8_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_t8_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_t8_feature", "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_T8(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_T8(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -378,10 +486,16 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addT9PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_t9_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_t9_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_t9_feature", "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_T9(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_T9(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -393,10 +507,16 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addTaPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_ta_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_ta_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_ta_feature", "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_Ta(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_Ta(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -408,10 +528,16 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addTbPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_tb_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_tb_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_tb_feature", "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_Tb(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_Tb(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -423,10 +549,16 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addTw1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_tw1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_tw1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_tw1_feature", "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_Tw1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_Tw1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -438,10 +570,16 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addTw2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_tw2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_tw2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_tw2_feature", "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_Tw2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_Tw2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -453,10 +591,16 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addTw3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_tw3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_tw3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_tw3_feature", "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_Tw3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_Tw3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -468,10 +612,16 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addTw4PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_tw4_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_tw4_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_tw4_feature", "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_Tw4(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_Tw4(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -483,11 +633,17 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addVsi1maxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_vsi1max_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_vsi1max_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_vsi1max_feature",
                                 "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_Vsi1max(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_Vsi1max(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -499,11 +655,17 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addVsi1minPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_vsi1min_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_vsi1min_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_vsi1min_feature",
                                 "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_Vsi1min(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_Vsi1min(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -515,11 +677,17 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addVsi2maxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_vsi2max_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_vsi2max_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_vsi2max_feature",
                                 "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_Vsi2max(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_Vsi2max(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -531,11 +699,17 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addVsi2minPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_vsi2min_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_vsi2min_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_vsi2min_feature",
                                 "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_Vsi2min(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_Vsi2min(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -547,10 +721,16 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addVstmaxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_vstmax_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_vstmax_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_vstmax_feature", "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_Vstmax(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_Vstmax(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -562,10 +742,16 @@ public class Pss2BItemProvider extends PowerSystemStabilizerDynamicsItemProvider
     protected void addVstminPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Pss2B_vstmin_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Pss2B_vstmin_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Pss2B_vstmin_feature", "_UI_Pss2B_type" ),
-                        CimPackage.eINSTANCE.getPss2B_Vstmin(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPss2B_Vstmin(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

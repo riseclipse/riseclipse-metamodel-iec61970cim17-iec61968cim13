@@ -77,11 +77,17 @@ public class LineFaultItemProvider extends FaultItemProvider {
     protected void addLengthFromTerminal1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LineFault_lengthFromTerminal1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LineFault_lengthFromTerminal1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LineFault_lengthFromTerminal1_feature",
                                 "_UI_LineFault_type" ),
-                        CimPackage.eINSTANCE.getLineFault_LengthFromTerminal1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLineFault_LengthFromTerminal1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,10 +99,17 @@ public class LineFaultItemProvider extends FaultItemProvider {
     protected void addACLineSegmentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LineFault_ACLineSegment_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LineFault_ACLineSegment_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LineFault_ACLineSegment_feature",
                                 "_UI_LineFault_type" ),
-                        CimPackage.eINSTANCE.getLineFault_ACLineSegment(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getLineFault_ACLineSegment(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

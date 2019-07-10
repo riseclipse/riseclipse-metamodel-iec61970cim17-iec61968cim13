@@ -96,7 +96,6 @@ public class DCChopperItemProvider extends DCConductingEquipmentItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

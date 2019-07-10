@@ -72,12 +72,19 @@ public class ParentOrganizationItemProvider extends OrganisationItemProvider {
      * @generated
      */
     protected void addOrganisationPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ParentOrganization_Organisation_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ParentOrganization_Organisation_feature",
-                        "_UI_ParentOrganization_type" ),
-                CimPackage.eINSTANCE.getParentOrganization_Organisation(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ParentOrganization_Organisation_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_ParentOrganization_Organisation_feature",
+                                "_UI_ParentOrganization_type" ),
+                        CimPackage.eINSTANCE.getParentOrganization_Organisation(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class ParentOrganizationItemProvider extends OrganisationItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**
@@ -140,10 +146,10 @@ public class ParentOrganizationItemProvider extends OrganisationItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getOrganisation_Phone1()
-                || childFeature == CimPackage.eINSTANCE.getOrganisation_Phone2()
-                || childFeature == CimPackage.eINSTANCE.getOrganisation_PostalAddress()
-                || childFeature == CimPackage.eINSTANCE.getOrganisation_StreetAddress();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getOrganisation_Phone1() ||
+                childFeature == CimPackage.eINSTANCE.getOrganisation_Phone2() ||
+                childFeature == CimPackage.eINSTANCE.getOrganisation_PostalAddress() ||
+                childFeature == CimPackage.eINSTANCE.getOrganisation_StreetAddress();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

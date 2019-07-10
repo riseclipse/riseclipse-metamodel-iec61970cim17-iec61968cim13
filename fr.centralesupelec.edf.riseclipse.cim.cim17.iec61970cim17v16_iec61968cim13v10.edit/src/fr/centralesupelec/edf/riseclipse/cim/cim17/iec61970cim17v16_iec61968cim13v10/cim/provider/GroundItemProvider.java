@@ -74,10 +74,17 @@ public class GroundItemProvider extends ConductingEquipmentItemProvider {
     protected void addGroundActionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Ground_GroundAction_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Ground_GroundAction_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Ground_GroundAction_feature",
                                 "_UI_Ground_type" ),
-                        CimPackage.eINSTANCE.getGround_GroundAction(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getGround_GroundAction(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class GroundItemProvider extends ConductingEquipmentItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

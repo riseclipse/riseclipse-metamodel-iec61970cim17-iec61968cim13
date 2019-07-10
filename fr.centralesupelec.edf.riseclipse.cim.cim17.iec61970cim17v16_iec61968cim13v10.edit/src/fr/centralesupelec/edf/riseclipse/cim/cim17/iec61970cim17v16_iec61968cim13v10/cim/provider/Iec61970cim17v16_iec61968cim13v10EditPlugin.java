@@ -54,7 +54,8 @@ public final class Iec61970cim17v16_iec61968cim13v10EditPlugin extends EMFPlugin
      * @generated
      */
     public Iec61970cim17v16_iec61968cim13v10EditPlugin() {
-        super( new ResourceLocator[] {} );
+        super( new ResourceLocator[] {
+        } );
     }
 
     /**

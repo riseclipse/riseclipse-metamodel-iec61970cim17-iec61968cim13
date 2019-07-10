@@ -74,10 +74,17 @@ public class NonConformLoadItemProvider extends EnergyConsumerItemProvider {
     protected void addLoadGroupPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_NonConformLoad_LoadGroup_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_NonConformLoad_LoadGroup_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_NonConformLoad_LoadGroup_feature",
                                 "_UI_NonConformLoad_type" ),
-                        CimPackage.eINSTANCE.getNonConformLoad_LoadGroup(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getNonConformLoad_LoadGroup(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class NonConformLoadItemProvider extends EnergyConsumerItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

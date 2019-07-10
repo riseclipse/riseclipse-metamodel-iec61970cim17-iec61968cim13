@@ -81,11 +81,17 @@ public class MeterItemProvider extends EndDeviceItemProvider {
     protected void addFormNumberPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Meter_formNumber_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Meter_formNumber_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Meter_formNumber_feature",
                                 "_UI_Meter_type" ),
-                        CimPackage.eINSTANCE.getMeter_FormNumber(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getMeter_FormNumber(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -97,10 +103,17 @@ public class MeterItemProvider extends EndDeviceItemProvider {
     protected void addMeterReadingsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Meter_MeterReadings_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Meter_MeterReadings_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Meter_MeterReadings_feature",
                                 "_UI_Meter_type" ),
-                        CimPackage.eINSTANCE.getMeter_MeterReadings(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getMeter_MeterReadings(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -112,10 +125,17 @@ public class MeterItemProvider extends EndDeviceItemProvider {
     protected void addMeterMultipliersPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Meter_MeterMultipliers_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Meter_MeterMultipliers_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Meter_MeterMultipliers_feature",
                                 "_UI_Meter_type" ),
-                        CimPackage.eINSTANCE.getMeter_MeterMultipliers(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getMeter_MeterMultipliers(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -127,10 +147,16 @@ public class MeterItemProvider extends EndDeviceItemProvider {
     protected void addMeterReplacementWorkTasksPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Meter_MeterReplacementWorkTasks_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Meter_MeterReplacementWorkTasks_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Meter_MeterReplacementWorkTasks_feature",
                                 "_UI_Meter_type" ),
-                        CimPackage.eINSTANCE.getMeter_MeterReplacementWorkTasks(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getMeter_MeterReplacementWorkTasks(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -143,10 +169,17 @@ public class MeterItemProvider extends EndDeviceItemProvider {
     protected void addVendingTransactionsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Meter_VendingTransactions_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Meter_VendingTransactions_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Meter_VendingTransactions_feature",
                                 "_UI_Meter_type" ),
-                        CimPackage.eINSTANCE.getMeter_VendingTransactions(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getMeter_VendingTransactions(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -158,10 +191,17 @@ public class MeterItemProvider extends EndDeviceItemProvider {
     protected void addMeterServiceWorkTasksPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Meter_MeterServiceWorkTasks_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Meter_MeterServiceWorkTasks_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Meter_MeterServiceWorkTasks_feature",
                                 "_UI_Meter_type" ),
-                        CimPackage.eINSTANCE.getMeter_MeterServiceWorkTasks(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getMeter_MeterServiceWorkTasks(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

@@ -90,11 +90,17 @@ public class TerminalItemProvider extends ACDCTerminalItemProvider {
     protected void addPhasesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Terminal_phases_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Terminal_phases_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Terminal_phases_feature",
                                 "_UI_Terminal_type" ),
-                        CimPackage.eINSTANCE.getTerminal_Phases(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTerminal_Phases(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -106,10 +112,17 @@ public class TerminalItemProvider extends ACDCTerminalItemProvider {
     protected void addTopologicalNodePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Terminal_TopologicalNode_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Terminal_TopologicalNode_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Terminal_TopologicalNode_feature",
                                 "_UI_Terminal_type" ),
-                        CimPackage.eINSTANCE.getTerminal_TopologicalNode(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTerminal_TopologicalNode(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -121,10 +134,16 @@ public class TerminalItemProvider extends ACDCTerminalItemProvider {
     protected void addHasFirstMutualCouplingPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Terminal_HasFirstMutualCoupling_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Terminal_HasFirstMutualCoupling_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Terminal_HasFirstMutualCoupling_feature",
                                 "_UI_Terminal_type" ),
-                        CimPackage.eINSTANCE.getTerminal_HasFirstMutualCoupling(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getTerminal_HasFirstMutualCoupling(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -137,10 +156,17 @@ public class TerminalItemProvider extends ACDCTerminalItemProvider {
     protected void addConverterDCSidesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Terminal_ConverterDCSides_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Terminal_ConverterDCSides_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Terminal_ConverterDCSides_feature",
                                 "_UI_Terminal_type" ),
-                        CimPackage.eINSTANCE.getTerminal_ConverterDCSides(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTerminal_ConverterDCSides(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -152,10 +178,16 @@ public class TerminalItemProvider extends ACDCTerminalItemProvider {
     protected void addHasSecondMutualCouplingPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Terminal_HasSecondMutualCoupling_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Terminal_HasSecondMutualCoupling_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Terminal_HasSecondMutualCoupling_feature",
                                 "_UI_Terminal_type" ),
-                        CimPackage.eINSTANCE.getTerminal_HasSecondMutualCoupling(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getTerminal_HasSecondMutualCoupling(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -168,10 +200,17 @@ public class TerminalItemProvider extends ACDCTerminalItemProvider {
     protected void addBranchGroupTerminalPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Terminal_BranchGroupTerminal_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Terminal_BranchGroupTerminal_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Terminal_BranchGroupTerminal_feature",
                                 "_UI_Terminal_type" ),
-                        CimPackage.eINSTANCE.getTerminal_BranchGroupTerminal(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTerminal_BranchGroupTerminal(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -183,10 +222,17 @@ public class TerminalItemProvider extends ACDCTerminalItemProvider {
     protected void addConductingEquipmentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Terminal_ConductingEquipment_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Terminal_ConductingEquipment_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Terminal_ConductingEquipment_feature",
                                 "_UI_Terminal_type" ),
-                        CimPackage.eINSTANCE.getTerminal_ConductingEquipment(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTerminal_ConductingEquipment(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -198,10 +244,17 @@ public class TerminalItemProvider extends ACDCTerminalItemProvider {
     protected void addConnectivityNodePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Terminal_ConnectivityNode_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Terminal_ConnectivityNode_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Terminal_ConnectivityNode_feature",
                                 "_UI_Terminal_type" ),
-                        CimPackage.eINSTANCE.getTerminal_ConnectivityNode(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTerminal_ConnectivityNode(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -213,10 +266,17 @@ public class TerminalItemProvider extends ACDCTerminalItemProvider {
     protected void addRegulatingControlPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Terminal_RegulatingControl_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Terminal_RegulatingControl_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Terminal_RegulatingControl_feature",
                                 "_UI_Terminal_type" ),
-                        CimPackage.eINSTANCE.getTerminal_RegulatingControl(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTerminal_RegulatingControl(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -228,10 +288,17 @@ public class TerminalItemProvider extends ACDCTerminalItemProvider {
     protected void addRemoteInputSignalPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Terminal_RemoteInputSignal_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Terminal_RemoteInputSignal_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Terminal_RemoteInputSignal_feature",
                                 "_UI_Terminal_type" ),
-                        CimPackage.eINSTANCE.getTerminal_RemoteInputSignal(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTerminal_RemoteInputSignal(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -243,10 +310,17 @@ public class TerminalItemProvider extends ACDCTerminalItemProvider {
     protected void addSvPowerFlowPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Terminal_SvPowerFlow_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Terminal_SvPowerFlow_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Terminal_SvPowerFlow_feature",
                                 "_UI_Terminal_type" ),
-                        CimPackage.eINSTANCE.getTerminal_SvPowerFlow(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTerminal_SvPowerFlow(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -258,10 +332,17 @@ public class TerminalItemProvider extends ACDCTerminalItemProvider {
     protected void addTransformerEndPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Terminal_TransformerEnd_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Terminal_TransformerEnd_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Terminal_TransformerEnd_feature",
                                 "_UI_Terminal_type" ),
-                        CimPackage.eINSTANCE.getTerminal_TransformerEnd(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTerminal_TransformerEnd(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -273,10 +354,17 @@ public class TerminalItemProvider extends ACDCTerminalItemProvider {
     protected void addAuxiliaryEquipmentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Terminal_AuxiliaryEquipment_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Terminal_AuxiliaryEquipment_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Terminal_AuxiliaryEquipment_feature",
                                 "_UI_Terminal_type" ),
-                        CimPackage.eINSTANCE.getTerminal_AuxiliaryEquipment(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTerminal_AuxiliaryEquipment(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -288,10 +376,17 @@ public class TerminalItemProvider extends ACDCTerminalItemProvider {
     protected void addTieFlowPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Terminal_TieFlow_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Terminal_TieFlow_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Terminal_TieFlow_feature",
                                 "_UI_Terminal_type" ),
-                        CimPackage.eINSTANCE.getTerminal_TieFlow(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTerminal_TieFlow(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -303,10 +398,17 @@ public class TerminalItemProvider extends ACDCTerminalItemProvider {
     protected void addEquipmentFaultsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Terminal_EquipmentFaults_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Terminal_EquipmentFaults_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Terminal_EquipmentFaults_feature",
                                 "_UI_Terminal_type" ),
-                        CimPackage.eINSTANCE.getTerminal_EquipmentFaults(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTerminal_EquipmentFaults(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

@@ -77,12 +77,18 @@ public class ICCPInformationMessageItemProvider extends IdentifiedObjectItemProv
      */
     protected void addLocalReferencePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ICCPInformationMessage_localReference_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ICCPInformationMessage_localReference_feature",
                         "_UI_ICCPInformationMessage_type" ),
-                CimPackage.eINSTANCE.getICCPInformationMessage_LocalReference(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getICCPInformationMessage_LocalReference(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -92,13 +98,19 @@ public class ICCPInformationMessageItemProvider extends IdentifiedObjectItemProv
      * @generated
      */
     protected void addScopePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ICCPInformationMessage_scope_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ICCPInformationMessage_scope_feature",
-                        "_UI_ICCPInformationMessage_type" ),
-                CimPackage.eINSTANCE.getICCPInformationMessage_Scope(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ICCPInformationMessage_scope_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_ICCPInformationMessage_scope_feature",
+                                "_UI_ICCPInformationMessage_type" ),
+                        CimPackage.eINSTANCE.getICCPInformationMessage_Scope(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -109,11 +121,17 @@ public class ICCPInformationMessageItemProvider extends IdentifiedObjectItemProv
      */
     protected void addTASE2BilateralTablePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ICCPInformationMessage_TASE2BilateralTable_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_ICCPInformationMessage_TASE2BilateralTable_feature", "_UI_ICCPInformationMessage_type" ),
-                CimPackage.eINSTANCE.getICCPInformationMessage_TASE2BilateralTable(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getICCPInformationMessage_TASE2BilateralTable(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 

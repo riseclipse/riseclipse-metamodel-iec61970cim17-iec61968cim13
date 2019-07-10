@@ -72,12 +72,19 @@ public class HydroPumpOpScheduleItemProvider extends RegularIntervalScheduleItem
      * @generated
      */
     protected void addHydroPumpPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_HydroPumpOpSchedule_HydroPump_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_HydroPumpOpSchedule_HydroPump_feature",
-                        "_UI_HydroPumpOpSchedule_type" ),
-                CimPackage.eINSTANCE.getHydroPumpOpSchedule_HydroPump(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_HydroPumpOpSchedule_HydroPump_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_HydroPumpOpSchedule_HydroPump_feature",
+                                "_UI_HydroPumpOpSchedule_type" ),
+                        CimPackage.eINSTANCE.getHydroPumpOpSchedule_HydroPump(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class HydroPumpOpScheduleItemProvider extends RegularIntervalScheduleItem
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

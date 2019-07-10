@@ -78,12 +78,18 @@ public class PerLengthDCLineParameterItemProvider extends PerLengthLineParameter
      */
     protected void addCapacitancePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_PerLengthDCLineParameter_capacitance_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_PerLengthDCLineParameter_capacitance_feature",
                         "_UI_PerLengthDCLineParameter_type" ),
-                CimPackage.eINSTANCE.getPerLengthDCLineParameter_Capacitance(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getPerLengthDCLineParameter_Capacitance(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -94,12 +100,18 @@ public class PerLengthDCLineParameterItemProvider extends PerLengthLineParameter
      */
     protected void addInductancePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_PerLengthDCLineParameter_inductance_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_PerLengthDCLineParameter_inductance_feature",
                         "_UI_PerLengthDCLineParameter_type" ),
-                CimPackage.eINSTANCE.getPerLengthDCLineParameter_Inductance(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getPerLengthDCLineParameter_Inductance(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -110,12 +122,18 @@ public class PerLengthDCLineParameterItemProvider extends PerLengthLineParameter
      */
     protected void addResistancePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_PerLengthDCLineParameter_resistance_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_PerLengthDCLineParameter_resistance_feature",
                         "_UI_PerLengthDCLineParameter_type" ),
-                CimPackage.eINSTANCE.getPerLengthDCLineParameter_Resistance(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getPerLengthDCLineParameter_Resistance(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -126,11 +144,17 @@ public class PerLengthDCLineParameterItemProvider extends PerLengthLineParameter
      */
     protected void addDCLineSegmentsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_PerLengthDCLineParameter_DCLineSegments_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_PerLengthDCLineParameter_DCLineSegments_feature",
                         "_UI_PerLengthDCLineParameter_type" ),
-                CimPackage.eINSTANCE.getPerLengthDCLineParameter_DCLineSegments(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getPerLengthDCLineParameter_DCLineSegments(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 

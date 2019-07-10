@@ -76,13 +76,19 @@ public class TargetLevelScheduleItemProvider extends CurveItemProvider {
      * @generated
      */
     protected void addHighLevelLimitPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TargetLevelSchedule_highLevelLimit_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TargetLevelSchedule_highLevelLimit_feature",
-                        "_UI_TargetLevelSchedule_type" ),
-                CimPackage.eINSTANCE.getTargetLevelSchedule_HighLevelLimit(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TargetLevelSchedule_highLevelLimit_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_TargetLevelSchedule_highLevelLimit_feature", "_UI_TargetLevelSchedule_type" ),
+                        CimPackage.eINSTANCE.getTargetLevelSchedule_HighLevelLimit(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -92,13 +98,19 @@ public class TargetLevelScheduleItemProvider extends CurveItemProvider {
      * @generated
      */
     protected void addLowLevelLimitPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TargetLevelSchedule_lowLevelLimit_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TargetLevelSchedule_lowLevelLimit_feature",
-                        "_UI_TargetLevelSchedule_type" ),
-                CimPackage.eINSTANCE.getTargetLevelSchedule_LowLevelLimit(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TargetLevelSchedule_lowLevelLimit_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_TargetLevelSchedule_lowLevelLimit_feature", "_UI_TargetLevelSchedule_type" ),
+                        CimPackage.eINSTANCE.getTargetLevelSchedule_LowLevelLimit(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -108,12 +120,19 @@ public class TargetLevelScheduleItemProvider extends CurveItemProvider {
      * @generated
      */
     protected void addReservoirPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_TargetLevelSchedule_Reservoir_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_TargetLevelSchedule_Reservoir_feature",
-                        "_UI_TargetLevelSchedule_type" ),
-                CimPackage.eINSTANCE.getTargetLevelSchedule_Reservoir(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_TargetLevelSchedule_Reservoir_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_TargetLevelSchedule_Reservoir_feature",
+                                "_UI_TargetLevelSchedule_type" ),
+                        CimPackage.eINSTANCE.getTargetLevelSchedule_Reservoir(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

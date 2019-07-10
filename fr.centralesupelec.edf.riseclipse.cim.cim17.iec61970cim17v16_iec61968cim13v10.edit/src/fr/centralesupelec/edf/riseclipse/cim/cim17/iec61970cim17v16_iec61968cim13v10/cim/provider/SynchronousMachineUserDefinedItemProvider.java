@@ -77,12 +77,18 @@ public class SynchronousMachineUserDefinedItemProvider extends SynchronousMachin
     protected void addProprietaryPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_SynchronousMachineUserDefined_proprietary_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachineUserDefined_proprietary_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_SynchronousMachineUserDefined_proprietary_feature",
                                 "_UI_SynchronousMachineUserDefined_type" ),
-                        CimPackage.eINSTANCE.getSynchronousMachineUserDefined_Proprietary(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getSynchronousMachineUserDefined_Proprietary(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -92,14 +98,20 @@ public class SynchronousMachineUserDefinedItemProvider extends SynchronousMachin
      * @generated
      */
     protected void addProprietaryParameterDynamicsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_SynchronousMachineUserDefined_ProprietaryParameterDynamics_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_SynchronousMachineUserDefined_ProprietaryParameterDynamics_feature",
-                        "_UI_SynchronousMachineUserDefined_type" ),
-                CimPackage.eINSTANCE.getSynchronousMachineUserDefined_ProprietaryParameterDynamics(), true, false, true,
-                null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_SynchronousMachineUserDefined_ProprietaryParameterDynamics_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_SynchronousMachineUserDefined_ProprietaryParameterDynamics_feature",
+                                "_UI_SynchronousMachineUserDefined_type" ),
+                        CimPackage.eINSTANCE.getSynchronousMachineUserDefined_ProprietaryParameterDynamics(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

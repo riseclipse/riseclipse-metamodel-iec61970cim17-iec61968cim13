@@ -82,11 +82,17 @@ public class UserAttributeItemProvider extends CimObjectWithIDItemProvider {
     protected void addNamePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_UserAttribute_name_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_UserAttribute_name_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_UserAttribute_name_feature",
                                 "_UI_UserAttribute_type" ),
-                        CimPackage.eINSTANCE.getUserAttribute_Name(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getUserAttribute_Name(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -98,11 +104,17 @@ public class UserAttributeItemProvider extends CimObjectWithIDItemProvider {
     protected void addSequenceNumberPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_UserAttribute_sequenceNumber_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_UserAttribute_sequenceNumber_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_UserAttribute_sequenceNumber_feature",
                                 "_UI_UserAttribute_type" ),
-                        CimPackage.eINSTANCE.getUserAttribute_SequenceNumber(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getUserAttribute_SequenceNumber(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,10 +126,17 @@ public class UserAttributeItemProvider extends CimObjectWithIDItemProvider {
     protected void addTransactionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_UserAttribute_Transaction_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_UserAttribute_Transaction_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_UserAttribute_Transaction_feature",
                                 "_UI_UserAttribute_type" ),
-                        CimPackage.eINSTANCE.getUserAttribute_Transaction(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getUserAttribute_Transaction(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -129,10 +148,16 @@ public class UserAttributeItemProvider extends CimObjectWithIDItemProvider {
     protected void addProcedureDataSetsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_UserAttribute_ProcedureDataSets_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_UserAttribute_ProcedureDataSets_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_UserAttribute_ProcedureDataSets_feature",
                                 "_UI_UserAttribute_type" ),
-                        CimPackage.eINSTANCE.getUserAttribute_ProcedureDataSets(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getUserAttribute_ProcedureDataSets(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 

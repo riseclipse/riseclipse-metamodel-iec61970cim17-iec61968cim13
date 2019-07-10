@@ -75,12 +75,18 @@ public class WindTurbineType1or2DynamicsItemProvider extends DynamicsFunctionBlo
     protected void addRemoteInputSignalPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindTurbineType1or2Dynamics_RemoteInputSignal_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindTurbineType1or2Dynamics_RemoteInputSignal_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_WindTurbineType1or2Dynamics_RemoteInputSignal_feature",
                                 "_UI_WindTurbineType1or2Dynamics_type" ),
-                        CimPackage.eINSTANCE.getWindTurbineType1or2Dynamics_RemoteInputSignal(), true, false, true,
-                        null, null, null ) );
+                        CimPackage.eINSTANCE.getWindTurbineType1or2Dynamics_RemoteInputSignal(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -90,14 +96,20 @@ public class WindTurbineType1or2DynamicsItemProvider extends DynamicsFunctionBlo
      * @generated
      */
     protected void addAsynchronousMachineDynamicsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindTurbineType1or2Dynamics_AsynchronousMachineDynamics_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_WindTurbineType1or2Dynamics_AsynchronousMachineDynamics_feature",
-                        "_UI_WindTurbineType1or2Dynamics_type" ),
-                CimPackage.eINSTANCE.getWindTurbineType1or2Dynamics_AsynchronousMachineDynamics(), true, false, true,
-                null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindTurbineType1or2Dynamics_AsynchronousMachineDynamics_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_WindTurbineType1or2Dynamics_AsynchronousMachineDynamics_feature",
+                                "_UI_WindTurbineType1or2Dynamics_type" ),
+                        CimPackage.eINSTANCE.getWindTurbineType1or2Dynamics_AsynchronousMachineDynamics(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -134,7 +146,6 @@ public class WindTurbineType1or2DynamicsItemProvider extends DynamicsFunctionBlo
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

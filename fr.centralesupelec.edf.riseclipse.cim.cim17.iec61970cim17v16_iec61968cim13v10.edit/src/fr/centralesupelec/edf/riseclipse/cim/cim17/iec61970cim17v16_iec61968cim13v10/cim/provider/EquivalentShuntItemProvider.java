@@ -77,11 +77,17 @@ public class EquivalentShuntItemProvider extends EquivalentEquipmentItemProvider
     protected void addBPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EquivalentShunt_b_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EquivalentShunt_b_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EquivalentShunt_b_feature",
                                 "_UI_EquivalentShunt_type" ),
-                        CimPackage.eINSTANCE.getEquivalentShunt_B(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEquivalentShunt_B(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,11 +99,17 @@ public class EquivalentShuntItemProvider extends EquivalentEquipmentItemProvider
     protected void addGPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EquivalentShunt_g_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EquivalentShunt_g_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EquivalentShunt_g_feature",
                                 "_UI_EquivalentShunt_type" ),
-                        CimPackage.eINSTANCE.getEquivalentShunt_G(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEquivalentShunt_G(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

@@ -77,11 +77,17 @@ public class ClampItemProvider extends ConductingEquipmentItemProvider {
     protected void addLengthFromTerminal1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Clamp_lengthFromTerminal1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Clamp_lengthFromTerminal1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Clamp_lengthFromTerminal1_feature",
                                 "_UI_Clamp_type" ),
-                        CimPackage.eINSTANCE.getClamp_LengthFromTerminal1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getClamp_LengthFromTerminal1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,10 +99,17 @@ public class ClampItemProvider extends ConductingEquipmentItemProvider {
     protected void addACLineSegmentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Clamp_ACLineSegment_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Clamp_ACLineSegment_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Clamp_ACLineSegment_feature",
                                 "_UI_Clamp_type" ),
-                        CimPackage.eINSTANCE.getClamp_ACLineSegment(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getClamp_ACLineSegment(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

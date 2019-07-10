@@ -79,11 +79,17 @@ public class OutageAreaItemProvider extends OutageItemProvider {
     protected void addEarliestReportedTimePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OutageArea_earliestReportedTime_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OutageArea_earliestReportedTime_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_OutageArea_earliestReportedTime_feature",
                                 "_UI_OutageArea_type" ),
-                        CimPackage.eINSTANCE.getOutageArea_EarliestReportedTime(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOutageArea_EarliestReportedTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,11 +101,17 @@ public class OutageAreaItemProvider extends OutageItemProvider {
     protected void addMetersServedPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OutageArea_metersServed_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OutageArea_metersServed_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_OutageArea_metersServed_feature",
                                 "_UI_OutageArea_type" ),
-                        CimPackage.eINSTANCE.getOutageArea_MetersServed(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOutageArea_MetersServed(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,11 +123,17 @@ public class OutageAreaItemProvider extends OutageItemProvider {
     protected void addOutageAreaKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OutageArea_outageAreaKind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OutageArea_outageAreaKind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_OutageArea_outageAreaKind_feature",
                                 "_UI_OutageArea_type" ),
-                        CimPackage.eINSTANCE.getOutageArea_OutageAreaKind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOutageArea_OutageAreaKind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -127,10 +145,17 @@ public class OutageAreaItemProvider extends OutageItemProvider {
     protected void addOutagePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OutageArea_Outage_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OutageArea_Outage_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_OutageArea_Outage_feature",
                                 "_UI_OutageArea_type" ),
-                        CimPackage.eINSTANCE.getOutageArea_Outage(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getOutageArea_Outage(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -201,10 +226,10 @@ public class OutageAreaItemProvider extends OutageItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status()
-                || childFeature == CimPackage.eINSTANCE.getOutage_ActualPeriod()
-                || childFeature == CimPackage.eINSTANCE.getOutage_EstimatedPeriod();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status() ||
+                childFeature == CimPackage.eINSTANCE.getOutage_ActualPeriod() ||
+                childFeature == CimPackage.eINSTANCE.getOutage_EstimatedPeriod();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

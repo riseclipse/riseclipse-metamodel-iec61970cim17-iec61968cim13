@@ -78,11 +78,17 @@ public class AccumulatorValueItemProvider extends MeasurementValueItemProvider {
     protected void addValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AccumulatorValue_value_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AccumulatorValue_value_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AccumulatorValue_value_feature",
                                 "_UI_AccumulatorValue_type" ),
-                        CimPackage.eINSTANCE.getAccumulatorValue_Value(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAccumulatorValue_Value(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,10 +100,17 @@ public class AccumulatorValueItemProvider extends MeasurementValueItemProvider {
     protected void addAccumulatorPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AccumulatorValue_Accumulator_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AccumulatorValue_Accumulator_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AccumulatorValue_Accumulator_feature",
                                 "_UI_AccumulatorValue_type" ),
-                        CimPackage.eINSTANCE.getAccumulatorValue_Accumulator(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAccumulatorValue_Accumulator(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -107,12 +120,19 @@ public class AccumulatorValueItemProvider extends MeasurementValueItemProvider {
      * @generated
      */
     protected void addAccumulatorResetPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_AccumulatorValue_AccumulatorReset_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_AccumulatorValue_AccumulatorReset_feature",
-                        "_UI_AccumulatorValue_type" ),
-                CimPackage.eINSTANCE.getAccumulatorValue_AccumulatorReset(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_AccumulatorValue_AccumulatorReset_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_AccumulatorValue_AccumulatorReset_feature", "_UI_AccumulatorValue_type" ),
+                        CimPackage.eINSTANCE.getAccumulatorValue_AccumulatorReset(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

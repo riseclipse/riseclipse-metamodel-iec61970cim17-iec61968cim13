@@ -83,11 +83,17 @@ public class ReceiptItemProvider extends IdentifiedObjectItemProvider {
     protected void addIsBankablePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Receipt_isBankable_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Receipt_isBankable_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Receipt_isBankable_feature",
                                 "_UI_Receipt_type" ),
-                        CimPackage.eINSTANCE.getReceipt_IsBankable(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getReceipt_IsBankable(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -99,10 +105,17 @@ public class ReceiptItemProvider extends IdentifiedObjectItemProvider {
     protected void addTendersPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Receipt_Tenders_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Receipt_Tenders_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Receipt_Tenders_feature",
                                 "_UI_Receipt_type" ),
-                        CimPackage.eINSTANCE.getReceipt_Tenders(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getReceipt_Tenders(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,10 +127,17 @@ public class ReceiptItemProvider extends IdentifiedObjectItemProvider {
     protected void addTransactionsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Receipt_Transactions_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Receipt_Transactions_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Receipt_Transactions_feature",
                                 "_UI_Receipt_type" ),
-                        CimPackage.eINSTANCE.getReceipt_Transactions(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getReceipt_Transactions(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -129,10 +149,17 @@ public class ReceiptItemProvider extends IdentifiedObjectItemProvider {
     protected void addVendorShiftPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Receipt_VendorShift_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Receipt_VendorShift_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Receipt_VendorShift_feature",
                                 "_UI_Receipt_type" ),
-                        CimPackage.eINSTANCE.getReceipt_VendorShift(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getReceipt_VendorShift(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -144,10 +171,17 @@ public class ReceiptItemProvider extends IdentifiedObjectItemProvider {
     protected void addCashierShiftPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Receipt_CashierShift_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Receipt_CashierShift_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Receipt_CashierShift_feature",
                                 "_UI_Receipt_type" ),
-                        CimPackage.eINSTANCE.getReceipt_CashierShift(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getReceipt_CashierShift(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

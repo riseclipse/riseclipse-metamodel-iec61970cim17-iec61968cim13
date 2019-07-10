@@ -87,11 +87,17 @@ public class DateIntervalItemProvider extends ItemProviderAdapter implements IEd
     protected void addEndPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DateInterval_end_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DateInterval_end_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DateInterval_end_feature",
                                 "_UI_DateInterval_type" ),
-                        CimPackage.eINSTANCE.getDateInterval_End(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDateInterval_End(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -103,11 +109,17 @@ public class DateIntervalItemProvider extends ItemProviderAdapter implements IEd
     protected void addStartPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DateInterval_start_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DateInterval_start_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DateInterval_start_feature",
                                 "_UI_DateInterval_type" ),
-                        CimPackage.eINSTANCE.getDateInterval_Start(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDateInterval_Start(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

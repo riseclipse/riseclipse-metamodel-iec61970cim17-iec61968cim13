@@ -96,7 +96,6 @@ public class DCBusbarItemProvider extends DCConductingEquipmentItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

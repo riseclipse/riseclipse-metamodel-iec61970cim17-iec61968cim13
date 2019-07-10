@@ -78,12 +78,18 @@ public class PhaseTapChangerNonLinearItemProvider extends PhaseTapChangerItemPro
     protected void addVoltageStepIncrementPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PhaseTapChangerNonLinear_voltageStepIncrement_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PhaseTapChangerNonLinear_voltageStepIncrement_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_PhaseTapChangerNonLinear_voltageStepIncrement_feature",
                                 "_UI_PhaseTapChangerNonLinear_type" ),
-                        CimPackage.eINSTANCE.getPhaseTapChangerNonLinear_VoltageStepIncrement(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPhaseTapChangerNonLinear_VoltageStepIncrement(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,13 +99,19 @@ public class PhaseTapChangerNonLinearItemProvider extends PhaseTapChangerItemPro
      * @generated
      */
     protected void addXMaxPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PhaseTapChangerNonLinear_xMax_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PhaseTapChangerNonLinear_xMax_feature",
-                        "_UI_PhaseTapChangerNonLinear_type" ),
-                CimPackage.eINSTANCE.getPhaseTapChangerNonLinear_XMax(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PhaseTapChangerNonLinear_xMax_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_PhaseTapChangerNonLinear_xMax_feature",
+                                "_UI_PhaseTapChangerNonLinear_type" ),
+                        CimPackage.eINSTANCE.getPhaseTapChangerNonLinear_XMax(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -109,13 +121,19 @@ public class PhaseTapChangerNonLinearItemProvider extends PhaseTapChangerItemPro
      * @generated
      */
     protected void addXMinPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PhaseTapChangerNonLinear_xMin_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PhaseTapChangerNonLinear_xMin_feature",
-                        "_UI_PhaseTapChangerNonLinear_type" ),
-                CimPackage.eINSTANCE.getPhaseTapChangerNonLinear_XMin(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PhaseTapChangerNonLinear_xMin_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_PhaseTapChangerNonLinear_xMin_feature",
+                                "_UI_PhaseTapChangerNonLinear_type" ),
+                        CimPackage.eINSTANCE.getPhaseTapChangerNonLinear_XMin(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

@@ -74,10 +74,17 @@ public class WorkAssetItemProvider extends AssetItemProvider {
     protected void addCrewPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WorkAsset_Crew_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WorkAsset_Crew_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WorkAsset_Crew_feature",
                                 "_UI_WorkAsset_type" ),
-                        CimPackage.eINSTANCE.getWorkAsset_Crew(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getWorkAsset_Crew(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,7 +121,6 @@ public class WorkAssetItemProvider extends AssetItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

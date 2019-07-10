@@ -78,11 +78,17 @@ public class VehicleItemProvider extends WorkAssetItemProvider {
     protected void addOdometerReadDateTimePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Vehicle_odometerReadDateTime_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Vehicle_odometerReadDateTime_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Vehicle_odometerReadDateTime_feature",
                                 "_UI_Vehicle_type" ),
-                        CimPackage.eINSTANCE.getVehicle_OdometerReadDateTime(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getVehicle_OdometerReadDateTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,11 +100,17 @@ public class VehicleItemProvider extends WorkAssetItemProvider {
     protected void addOdometerReadingPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Vehicle_odometerReading_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Vehicle_odometerReading_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Vehicle_odometerReading_feature",
                                 "_UI_Vehicle_type" ),
-                        CimPackage.eINSTANCE.getVehicle_OdometerReading(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getVehicle_OdometerReading(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -110,11 +122,17 @@ public class VehicleItemProvider extends WorkAssetItemProvider {
     protected void addUsageKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Vehicle_usageKind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Vehicle_usageKind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Vehicle_usageKind_feature",
                                 "_UI_Vehicle_type" ),
-                        CimPackage.eINSTANCE.getVehicle_UsageKind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getVehicle_UsageKind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

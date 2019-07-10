@@ -80,11 +80,17 @@ public class AssetFunctionItemProvider extends IdentifiedObjectItemProvider {
     protected void addConfigIDPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AssetFunction_configID_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AssetFunction_configID_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AssetFunction_configID_feature",
                                 "_UI_AssetFunction_type" ),
-                        CimPackage.eINSTANCE.getAssetFunction_ConfigID(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAssetFunction_ConfigID(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -96,11 +102,17 @@ public class AssetFunctionItemProvider extends IdentifiedObjectItemProvider {
     protected void addFirmwareIDPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AssetFunction_firmwareID_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AssetFunction_firmwareID_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AssetFunction_firmwareID_feature",
                                 "_UI_AssetFunction_type" ),
-                        CimPackage.eINSTANCE.getAssetFunction_FirmwareID(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAssetFunction_FirmwareID(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -112,11 +124,17 @@ public class AssetFunctionItemProvider extends IdentifiedObjectItemProvider {
     protected void addHardwareIDPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AssetFunction_hardwareID_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AssetFunction_hardwareID_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AssetFunction_hardwareID_feature",
                                 "_UI_AssetFunction_type" ),
-                        CimPackage.eINSTANCE.getAssetFunction_HardwareID(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAssetFunction_HardwareID(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -128,11 +146,17 @@ public class AssetFunctionItemProvider extends IdentifiedObjectItemProvider {
     protected void addPasswordPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AssetFunction_password_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AssetFunction_password_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AssetFunction_password_feature",
                                 "_UI_AssetFunction_type" ),
-                        CimPackage.eINSTANCE.getAssetFunction_Password(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAssetFunction_Password(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -144,11 +168,17 @@ public class AssetFunctionItemProvider extends IdentifiedObjectItemProvider {
     protected void addProgramIDPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AssetFunction_programID_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AssetFunction_programID_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_AssetFunction_programID_feature",
                                 "_UI_AssetFunction_type" ),
-                        CimPackage.eINSTANCE.getAssetFunction_ProgramID(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAssetFunction_ProgramID(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

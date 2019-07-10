@@ -86,13 +86,19 @@ public class ThermalGeneratingUnitItemProvider extends GeneratingUnitItemProvide
      * @generated
      */
     protected void addOMCostPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ThermalGeneratingUnit_oMCost_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ThermalGeneratingUnit_oMCost_feature",
-                        "_UI_ThermalGeneratingUnit_type" ),
-                CimPackage.eINSTANCE.getThermalGeneratingUnit_OMCost(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ThermalGeneratingUnit_oMCost_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_ThermalGeneratingUnit_oMCost_feature",
+                                "_UI_ThermalGeneratingUnit_type" ),
+                        CimPackage.eINSTANCE.getThermalGeneratingUnit_OMCost(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -102,12 +108,19 @@ public class ThermalGeneratingUnitItemProvider extends GeneratingUnitItemProvide
      * @generated
      */
     protected void addStartupModelPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ThermalGeneratingUnit_StartupModel_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ThermalGeneratingUnit_StartupModel_feature",
-                        "_UI_ThermalGeneratingUnit_type" ),
-                CimPackage.eINSTANCE.getThermalGeneratingUnit_StartupModel(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ThermalGeneratingUnit_StartupModel_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ThermalGeneratingUnit_StartupModel_feature", "_UI_ThermalGeneratingUnit_type" ),
+                        CimPackage.eINSTANCE.getThermalGeneratingUnit_StartupModel(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -119,12 +132,18 @@ public class ThermalGeneratingUnitItemProvider extends GeneratingUnitItemProvide
     protected void addIncrementalHeatRateCurvePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ThermalGeneratingUnit_IncrementalHeatRateCurve_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ThermalGeneratingUnit_IncrementalHeatRateCurve_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_ThermalGeneratingUnit_IncrementalHeatRateCurve_feature",
                                 "_UI_ThermalGeneratingUnit_type" ),
-                        CimPackage.eINSTANCE.getThermalGeneratingUnit_IncrementalHeatRateCurve(), true, false, true,
-                        null, null, null ) );
+                        CimPackage.eINSTANCE.getThermalGeneratingUnit_IncrementalHeatRateCurve(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -134,12 +153,19 @@ public class ThermalGeneratingUnitItemProvider extends GeneratingUnitItemProvide
      * @generated
      */
     protected void addEmissionCurvesPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ThermalGeneratingUnit_EmissionCurves_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ThermalGeneratingUnit_EmissionCurves_feature",
-                        "_UI_ThermalGeneratingUnit_type" ),
-                CimPackage.eINSTANCE.getThermalGeneratingUnit_EmissionCurves(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ThermalGeneratingUnit_EmissionCurves_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ThermalGeneratingUnit_EmissionCurves_feature", "_UI_ThermalGeneratingUnit_type" ),
+                        CimPackage.eINSTANCE.getThermalGeneratingUnit_EmissionCurves(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -150,11 +176,17 @@ public class ThermalGeneratingUnitItemProvider extends GeneratingUnitItemProvide
      */
     protected void addFuelAllocationSchedulesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ThermalGeneratingUnit_FuelAllocationSchedules_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_ThermalGeneratingUnit_FuelAllocationSchedules_feature", "_UI_ThermalGeneratingUnit_type" ),
-                CimPackage.eINSTANCE.getThermalGeneratingUnit_FuelAllocationSchedules(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getThermalGeneratingUnit_FuelAllocationSchedules(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -166,11 +198,17 @@ public class ThermalGeneratingUnitItemProvider extends GeneratingUnitItemProvide
      */
     protected void addCombinedCyclePlantPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ThermalGeneratingUnit_CombinedCyclePlant_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ThermalGeneratingUnit_CombinedCyclePlant_feature",
                         "_UI_ThermalGeneratingUnit_type" ),
-                CimPackage.eINSTANCE.getThermalGeneratingUnit_CombinedCyclePlant(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getThermalGeneratingUnit_CombinedCyclePlant(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -181,12 +219,19 @@ public class ThermalGeneratingUnitItemProvider extends GeneratingUnitItemProvide
      * @generated
      */
     protected void addShutdownCurvePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ThermalGeneratingUnit_ShutdownCurve_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ThermalGeneratingUnit_ShutdownCurve_feature",
-                        "_UI_ThermalGeneratingUnit_type" ),
-                CimPackage.eINSTANCE.getThermalGeneratingUnit_ShutdownCurve(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ThermalGeneratingUnit_ShutdownCurve_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ThermalGeneratingUnit_ShutdownCurve_feature", "_UI_ThermalGeneratingUnit_type" ),
+                        CimPackage.eINSTANCE.getThermalGeneratingUnit_ShutdownCurve(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -196,12 +241,19 @@ public class ThermalGeneratingUnitItemProvider extends GeneratingUnitItemProvide
      * @generated
      */
     protected void addHeatRateCurvePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ThermalGeneratingUnit_HeatRateCurve_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ThermalGeneratingUnit_HeatRateCurve_feature",
-                        "_UI_ThermalGeneratingUnit_type" ),
-                CimPackage.eINSTANCE.getThermalGeneratingUnit_HeatRateCurve(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ThermalGeneratingUnit_HeatRateCurve_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ThermalGeneratingUnit_HeatRateCurve_feature", "_UI_ThermalGeneratingUnit_type" ),
+                        CimPackage.eINSTANCE.getThermalGeneratingUnit_HeatRateCurve(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -211,12 +263,19 @@ public class ThermalGeneratingUnitItemProvider extends GeneratingUnitItemProvide
      * @generated
      */
     protected void addFossilFuelsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ThermalGeneratingUnit_FossilFuels_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ThermalGeneratingUnit_FossilFuels_feature",
-                        "_UI_ThermalGeneratingUnit_type" ),
-                CimPackage.eINSTANCE.getThermalGeneratingUnit_FossilFuels(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ThermalGeneratingUnit_FossilFuels_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ThermalGeneratingUnit_FossilFuels_feature", "_UI_ThermalGeneratingUnit_type" ),
+                        CimPackage.eINSTANCE.getThermalGeneratingUnit_FossilFuels(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -226,12 +285,19 @@ public class ThermalGeneratingUnitItemProvider extends GeneratingUnitItemProvide
      * @generated
      */
     protected void addHeatInputCurvePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ThermalGeneratingUnit_HeatInputCurve_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ThermalGeneratingUnit_HeatInputCurve_feature",
-                        "_UI_ThermalGeneratingUnit_type" ),
-                CimPackage.eINSTANCE.getThermalGeneratingUnit_HeatInputCurve(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ThermalGeneratingUnit_HeatInputCurve_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ThermalGeneratingUnit_HeatInputCurve_feature", "_UI_ThermalGeneratingUnit_type" ),
+                        CimPackage.eINSTANCE.getThermalGeneratingUnit_HeatInputCurve(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -241,12 +307,19 @@ public class ThermalGeneratingUnitItemProvider extends GeneratingUnitItemProvide
      * @generated
      */
     protected void addCAESPlantPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ThermalGeneratingUnit_CAESPlant_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ThermalGeneratingUnit_CAESPlant_feature",
-                        "_UI_ThermalGeneratingUnit_type" ),
-                CimPackage.eINSTANCE.getThermalGeneratingUnit_CAESPlant(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ThermalGeneratingUnit_CAESPlant_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_ThermalGeneratingUnit_CAESPlant_feature",
+                                "_UI_ThermalGeneratingUnit_type" ),
+                        CimPackage.eINSTANCE.getThermalGeneratingUnit_CAESPlant(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -257,11 +330,17 @@ public class ThermalGeneratingUnitItemProvider extends GeneratingUnitItemProvide
      */
     protected void addEmmissionAccountsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ThermalGeneratingUnit_EmmissionAccounts_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ThermalGeneratingUnit_EmmissionAccounts_feature",
                         "_UI_ThermalGeneratingUnit_type" ),
-                CimPackage.eINSTANCE.getThermalGeneratingUnit_EmmissionAccounts(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getThermalGeneratingUnit_EmmissionAccounts(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -273,11 +352,17 @@ public class ThermalGeneratingUnitItemProvider extends GeneratingUnitItemProvide
      */
     protected void addCogenerationPlantPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ThermalGeneratingUnit_CogenerationPlant_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ThermalGeneratingUnit_CogenerationPlant_feature",
                         "_UI_ThermalGeneratingUnit_type" ),
-                CimPackage.eINSTANCE.getThermalGeneratingUnit_CogenerationPlant(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getThermalGeneratingUnit_CogenerationPlant(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
