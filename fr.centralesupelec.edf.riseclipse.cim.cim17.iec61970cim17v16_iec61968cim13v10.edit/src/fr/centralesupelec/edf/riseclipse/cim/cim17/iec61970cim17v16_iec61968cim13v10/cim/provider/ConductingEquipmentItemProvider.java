@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -74,10 +79,17 @@ public class ConductingEquipmentItemProvider extends EquipmentItemProvider {
     protected void addSvStatusPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ConductingEquipment_SvStatus_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ConductingEquipment_SvStatus_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ConductingEquipment_SvStatus_feature",
                                 "_UI_ConductingEquipment_type" ),
-                        CimPackage.eINSTANCE.getConductingEquipment_SvStatus(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getConductingEquipment_SvStatus(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -87,12 +99,19 @@ public class ConductingEquipmentItemProvider extends EquipmentItemProvider {
      * @generated
      */
     protected void addTerminalsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ConductingEquipment_Terminals_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ConductingEquipment_Terminals_feature",
-                        "_UI_ConductingEquipment_type" ),
-                CimPackage.eINSTANCE.getConductingEquipment_Terminals(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ConductingEquipment_Terminals_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_ConductingEquipment_Terminals_feature",
+                                "_UI_ConductingEquipment_type" ),
+                        CimPackage.eINSTANCE.getConductingEquipment_Terminals(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -102,12 +121,19 @@ public class ConductingEquipmentItemProvider extends EquipmentItemProvider {
      * @generated
      */
     protected void addJumpingActionPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ConductingEquipment_JumpingAction_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ConductingEquipment_JumpingAction_feature",
-                        "_UI_ConductingEquipment_type" ),
-                CimPackage.eINSTANCE.getConductingEquipment_JumpingAction(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ConductingEquipment_JumpingAction_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ConductingEquipment_JumpingAction_feature", "_UI_ConductingEquipment_type" ),
+                        CimPackage.eINSTANCE.getConductingEquipment_JumpingAction(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -118,11 +144,17 @@ public class ConductingEquipmentItemProvider extends EquipmentItemProvider {
      */
     protected void addProtectionEquipmentsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ConductingEquipment_ProtectionEquipments_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ConductingEquipment_ProtectionEquipments_feature",
                         "_UI_ConductingEquipment_type" ),
-                CimPackage.eINSTANCE.getConductingEquipment_ProtectionEquipments(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getConductingEquipment_ProtectionEquipments(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -133,12 +165,19 @@ public class ConductingEquipmentItemProvider extends EquipmentItemProvider {
      * @generated
      */
     protected void addBaseVoltagePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ConductingEquipment_BaseVoltage_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ConductingEquipment_BaseVoltage_feature",
-                        "_UI_ConductingEquipment_type" ),
-                CimPackage.eINSTANCE.getConductingEquipment_BaseVoltage(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ConductingEquipment_BaseVoltage_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_ConductingEquipment_BaseVoltage_feature",
+                                "_UI_ConductingEquipment_type" ),
+                        CimPackage.eINSTANCE.getConductingEquipment_BaseVoltage(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -148,12 +187,19 @@ public class ConductingEquipmentItemProvider extends EquipmentItemProvider {
      * @generated
      */
     protected void addGroundingActionPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ConductingEquipment_GroundingAction_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ConductingEquipment_GroundingAction_feature",
-                        "_UI_ConductingEquipment_type" ),
-                CimPackage.eINSTANCE.getConductingEquipment_GroundingAction(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ConductingEquipment_GroundingAction_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ConductingEquipment_GroundingAction_feature", "_UI_ConductingEquipment_type" ),
+                        CimPackage.eINSTANCE.getConductingEquipment_GroundingAction(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -190,7 +236,6 @@ public class ConductingEquipmentItemProvider extends EquipmentItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -78,13 +83,19 @@ public class FailureEventItemProvider extends ActivityRecordItemProvider {
      * @generated
      */
     protected void addBreakerFailureReasonPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_FailureEvent_breakerFailureReason_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_FailureEvent_breakerFailureReason_feature",
-                        "_UI_FailureEvent_type" ),
-                CimPackage.eINSTANCE.getFailureEvent_BreakerFailureReason(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_FailureEvent_breakerFailureReason_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_FailureEvent_breakerFailureReason_feature", "_UI_FailureEvent_type" ),
+                        CimPackage.eINSTANCE.getFailureEvent_BreakerFailureReason(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -96,11 +107,17 @@ public class FailureEventItemProvider extends ActivityRecordItemProvider {
     protected void addCorporateCodePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FailureEvent_corporateCode_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FailureEvent_corporateCode_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FailureEvent_corporateCode_feature",
                                 "_UI_FailureEvent_type" ),
-                        CimPackage.eINSTANCE.getFailureEvent_CorporateCode(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFailureEvent_CorporateCode(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -110,13 +127,19 @@ public class FailureEventItemProvider extends ActivityRecordItemProvider {
      * @generated
      */
     protected void addFailureClassificationPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_FailureEvent_failureClassification_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_FailureEvent_failureClassification_feature",
-                        "_UI_FailureEvent_type" ),
-                CimPackage.eINSTANCE.getFailureEvent_FailureClassification(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_FailureEvent_failureClassification_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_FailureEvent_failureClassification_feature", "_UI_FailureEvent_type" ),
+                        CimPackage.eINSTANCE.getFailureEvent_FailureClassification(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -128,11 +151,17 @@ public class FailureEventItemProvider extends ActivityRecordItemProvider {
     protected void addFailureDateTimePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FailureEvent_failureDateTime_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FailureEvent_failureDateTime_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FailureEvent_failureDateTime_feature",
                                 "_UI_FailureEvent_type" ),
-                        CimPackage.eINSTANCE.getFailureEvent_FailureDateTime(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFailureEvent_FailureDateTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -142,13 +171,19 @@ public class FailureEventItemProvider extends ActivityRecordItemProvider {
      * @generated
      */
     protected void addFailureIsolationMethodPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_FailureEvent_failureIsolationMethod_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_FailureEvent_failureIsolationMethod_feature",
-                        "_UI_FailureEvent_type" ),
-                CimPackage.eINSTANCE.getFailureEvent_FailureIsolationMethod(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_FailureEvent_failureIsolationMethod_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_FailureEvent_failureIsolationMethod_feature", "_UI_FailureEvent_type" ),
+                        CimPackage.eINSTANCE.getFailureEvent_FailureIsolationMethod(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -160,11 +195,17 @@ public class FailureEventItemProvider extends ActivityRecordItemProvider {
     protected void addFailureModePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FailureEvent_failureMode_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FailureEvent_failureMode_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FailureEvent_failureMode_feature",
                                 "_UI_FailureEvent_type" ),
-                        CimPackage.eINSTANCE.getFailureEvent_FailureMode(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFailureEvent_FailureMode(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -176,11 +217,17 @@ public class FailureEventItemProvider extends ActivityRecordItemProvider {
     protected void addFaultLocatingMethodPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FailureEvent_faultLocatingMethod_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FailureEvent_faultLocatingMethod_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FailureEvent_faultLocatingMethod_feature",
                                 "_UI_FailureEvent_type" ),
-                        CimPackage.eINSTANCE.getFailureEvent_FaultLocatingMethod(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFailureEvent_FaultLocatingMethod(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -192,11 +239,17 @@ public class FailureEventItemProvider extends ActivityRecordItemProvider {
     protected void addLocationPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FailureEvent_location_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FailureEvent_location_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FailureEvent_location_feature",
                                 "_UI_FailureEvent_type" ),
-                        CimPackage.eINSTANCE.getFailureEvent_Location(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFailureEvent_Location(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -208,11 +261,17 @@ public class FailureEventItemProvider extends ActivityRecordItemProvider {
     protected void addRootCausePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FailureEvent_rootCause_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FailureEvent_rootCause_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FailureEvent_rootCause_feature",
                                 "_UI_FailureEvent_type" ),
-                        CimPackage.eINSTANCE.getFailureEvent_RootCause(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFailureEvent_RootCause(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -222,13 +281,19 @@ public class FailureEventItemProvider extends ActivityRecordItemProvider {
      * @generated
      */
     protected void addTransformerFailureReasonPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_FailureEvent_transformerFailureReason_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_FailureEvent_transformerFailureReason_feature",
-                        "_UI_FailureEvent_type" ),
-                CimPackage.eINSTANCE.getFailureEvent_TransformerFailureReason(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_FailureEvent_transformerFailureReason_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_FailureEvent_transformerFailureReason_feature", "_UI_FailureEvent_type" ),
+                        CimPackage.eINSTANCE.getFailureEvent_TransformerFailureReason(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

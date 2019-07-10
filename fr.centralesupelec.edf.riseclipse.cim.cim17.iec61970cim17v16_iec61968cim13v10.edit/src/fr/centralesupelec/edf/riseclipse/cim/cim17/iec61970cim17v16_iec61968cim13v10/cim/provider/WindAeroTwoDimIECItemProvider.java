@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -78,11 +83,17 @@ public class WindAeroTwoDimIECItemProvider extends IdentifiedObjectItemProvider 
     protected void addDpomegaPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindAeroTwoDimIEC_dpomega_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindAeroTwoDimIEC_dpomega_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindAeroTwoDimIEC_dpomega_feature",
                                 "_UI_WindAeroTwoDimIEC_type" ),
-                        CimPackage.eINSTANCE.getWindAeroTwoDimIEC_Dpomega(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindAeroTwoDimIEC_Dpomega(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,11 +105,17 @@ public class WindAeroTwoDimIECItemProvider extends IdentifiedObjectItemProvider 
     protected void addDpthetaPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindAeroTwoDimIEC_dptheta_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindAeroTwoDimIEC_dptheta_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindAeroTwoDimIEC_dptheta_feature",
                                 "_UI_WindAeroTwoDimIEC_type" ),
-                        CimPackage.eINSTANCE.getWindAeroTwoDimIEC_Dptheta(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindAeroTwoDimIEC_Dptheta(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -110,11 +127,17 @@ public class WindAeroTwoDimIECItemProvider extends IdentifiedObjectItemProvider 
     protected void addDpv1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindAeroTwoDimIEC_dpv1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindAeroTwoDimIEC_dpv1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindAeroTwoDimIEC_dpv1_feature",
                                 "_UI_WindAeroTwoDimIEC_type" ),
-                        CimPackage.eINSTANCE.getWindAeroTwoDimIEC_Dpv1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindAeroTwoDimIEC_Dpv1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -126,11 +149,17 @@ public class WindAeroTwoDimIECItemProvider extends IdentifiedObjectItemProvider 
     protected void addOmegazeroPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindAeroTwoDimIEC_omegazero_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindAeroTwoDimIEC_omegazero_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindAeroTwoDimIEC_omegazero_feature",
                                 "_UI_WindAeroTwoDimIEC_type" ),
-                        CimPackage.eINSTANCE.getWindAeroTwoDimIEC_Omegazero(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindAeroTwoDimIEC_Omegazero(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -142,11 +171,17 @@ public class WindAeroTwoDimIECItemProvider extends IdentifiedObjectItemProvider 
     protected void addPavailPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindAeroTwoDimIEC_pavail_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindAeroTwoDimIEC_pavail_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindAeroTwoDimIEC_pavail_feature",
                                 "_UI_WindAeroTwoDimIEC_type" ),
-                        CimPackage.eINSTANCE.getWindAeroTwoDimIEC_Pavail(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindAeroTwoDimIEC_Pavail(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -158,11 +193,17 @@ public class WindAeroTwoDimIECItemProvider extends IdentifiedObjectItemProvider 
     protected void addThetav2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindAeroTwoDimIEC_thetav2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindAeroTwoDimIEC_thetav2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindAeroTwoDimIEC_thetav2_feature",
                                 "_UI_WindAeroTwoDimIEC_type" ),
-                        CimPackage.eINSTANCE.getWindAeroTwoDimIEC_Thetav2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindAeroTwoDimIEC_Thetav2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -174,11 +215,17 @@ public class WindAeroTwoDimIECItemProvider extends IdentifiedObjectItemProvider 
     protected void addThetazeroPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindAeroTwoDimIEC_thetazero_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindAeroTwoDimIEC_thetazero_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindAeroTwoDimIEC_thetazero_feature",
                                 "_UI_WindAeroTwoDimIEC_type" ),
-                        CimPackage.eINSTANCE.getWindAeroTwoDimIEC_Thetazero(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindAeroTwoDimIEC_Thetazero(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -188,13 +235,19 @@ public class WindAeroTwoDimIECItemProvider extends IdentifiedObjectItemProvider 
      * @generated
      */
     protected void addWindTurbineType3IECPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindAeroTwoDimIEC_WindTurbineType3IEC_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_WindAeroTwoDimIEC_WindTurbineType3IEC_feature",
-                        "_UI_WindAeroTwoDimIEC_type" ),
-                CimPackage.eINSTANCE.getWindAeroTwoDimIEC_WindTurbineType3IEC(), true, false, true, null, null,
-                null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindAeroTwoDimIEC_WindTurbineType3IEC_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_WindAeroTwoDimIEC_WindTurbineType3IEC_feature", "_UI_WindAeroTwoDimIEC_type" ),
+                        CimPackage.eINSTANCE.getWindAeroTwoDimIEC_WindTurbineType3IEC(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

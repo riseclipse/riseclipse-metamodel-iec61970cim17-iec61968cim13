@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -89,12 +94,18 @@ public class WindPlantReactiveControlIECItemProvider extends IdentifiedObjectIte
      */
     protected void addDxrefmaxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindPlantReactiveControlIEC_dxrefmax_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_WindPlantReactiveControlIEC_dxrefmax_feature",
                         "_UI_WindPlantReactiveControlIEC_type" ),
-                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Dxrefmax(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Dxrefmax(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -105,12 +116,18 @@ public class WindPlantReactiveControlIECItemProvider extends IdentifiedObjectIte
      */
     protected void addDxrefminPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindPlantReactiveControlIEC_dxrefmin_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_WindPlantReactiveControlIEC_dxrefmin_feature",
                         "_UI_WindPlantReactiveControlIEC_type" ),
-                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Dxrefmin(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Dxrefmin(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -121,12 +138,18 @@ public class WindPlantReactiveControlIECItemProvider extends IdentifiedObjectIte
      */
     protected void addKiwpxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindPlantReactiveControlIEC_kiwpx_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_WindPlantReactiveControlIEC_kiwpx_feature",
                         "_UI_WindPlantReactiveControlIEC_type" ),
-                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Kiwpx(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Kiwpx(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -137,12 +160,18 @@ public class WindPlantReactiveControlIECItemProvider extends IdentifiedObjectIte
      */
     protected void addKiwpxmaxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindPlantReactiveControlIEC_kiwpxmax_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_WindPlantReactiveControlIEC_kiwpxmax_feature",
                         "_UI_WindPlantReactiveControlIEC_type" ),
-                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Kiwpxmax(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Kiwpxmax(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -153,12 +182,18 @@ public class WindPlantReactiveControlIECItemProvider extends IdentifiedObjectIte
      */
     protected void addKiwpxminPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindPlantReactiveControlIEC_kiwpxmin_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_WindPlantReactiveControlIEC_kiwpxmin_feature",
                         "_UI_WindPlantReactiveControlIEC_type" ),
-                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Kiwpxmin(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Kiwpxmin(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -169,12 +204,18 @@ public class WindPlantReactiveControlIECItemProvider extends IdentifiedObjectIte
      */
     protected void addKpwpxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindPlantReactiveControlIEC_kpwpx_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_WindPlantReactiveControlIEC_kpwpx_feature",
                         "_UI_WindPlantReactiveControlIEC_type" ),
-                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Kpwpx(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Kpwpx(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -185,12 +226,18 @@ public class WindPlantReactiveControlIECItemProvider extends IdentifiedObjectIte
      */
     protected void addKwpqrefPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindPlantReactiveControlIEC_kwpqref_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_WindPlantReactiveControlIEC_kwpqref_feature",
                         "_UI_WindPlantReactiveControlIEC_type" ),
-                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Kwpqref(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Kwpqref(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -201,12 +248,18 @@ public class WindPlantReactiveControlIECItemProvider extends IdentifiedObjectIte
      */
     protected void addKwpquPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindPlantReactiveControlIEC_kwpqu_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_WindPlantReactiveControlIEC_kwpqu_feature",
                         "_UI_WindPlantReactiveControlIEC_type" ),
-                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Kwpqu(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Kwpqu(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -217,12 +270,18 @@ public class WindPlantReactiveControlIECItemProvider extends IdentifiedObjectIte
      */
     protected void addTuqfiltPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindPlantReactiveControlIEC_tuqfilt_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_WindPlantReactiveControlIEC_tuqfilt_feature",
                         "_UI_WindPlantReactiveControlIEC_type" ),
-                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Tuqfilt(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Tuqfilt(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -233,12 +292,18 @@ public class WindPlantReactiveControlIECItemProvider extends IdentifiedObjectIte
      */
     protected void addTwppfiltqPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindPlantReactiveControlIEC_twppfiltq_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_WindPlantReactiveControlIEC_twppfiltq_feature",
                         "_UI_WindPlantReactiveControlIEC_type" ),
-                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Twppfiltq(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Twppfiltq(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -249,12 +314,18 @@ public class WindPlantReactiveControlIECItemProvider extends IdentifiedObjectIte
      */
     protected void addTwpqfiltqPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindPlantReactiveControlIEC_twpqfiltq_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_WindPlantReactiveControlIEC_twpqfiltq_feature",
                         "_UI_WindPlantReactiveControlIEC_type" ),
-                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Twpqfiltq(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Twpqfiltq(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -265,12 +336,18 @@ public class WindPlantReactiveControlIECItemProvider extends IdentifiedObjectIte
      */
     protected void addTwpufiltqPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindPlantReactiveControlIEC_twpufiltq_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_WindPlantReactiveControlIEC_twpufiltq_feature",
                         "_UI_WindPlantReactiveControlIEC_type" ),
-                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Twpufiltq(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Twpufiltq(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -282,11 +359,17 @@ public class WindPlantReactiveControlIECItemProvider extends IdentifiedObjectIte
     protected void addTxftPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindPlantReactiveControlIEC_txft_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindPlantReactiveControlIEC_txft_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindPlantReactiveControlIEC_txft_feature",
                                 "_UI_WindPlantReactiveControlIEC_type" ),
-                        CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Txft(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Txft(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -298,11 +381,17 @@ public class WindPlantReactiveControlIECItemProvider extends IdentifiedObjectIte
     protected void addTxfvPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindPlantReactiveControlIEC_txfv_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindPlantReactiveControlIEC_txfv_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindPlantReactiveControlIEC_txfv_feature",
                                 "_UI_WindPlantReactiveControlIEC_type" ),
-                        CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Txfv(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Txfv(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -313,12 +402,18 @@ public class WindPlantReactiveControlIECItemProvider extends IdentifiedObjectIte
      */
     protected void addUwpqdipPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindPlantReactiveControlIEC_uwpqdip_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_WindPlantReactiveControlIEC_uwpqdip_feature",
                         "_UI_WindPlantReactiveControlIEC_type" ),
-                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Uwpqdip(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Uwpqdip(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -328,14 +423,20 @@ public class WindPlantReactiveControlIECItemProvider extends IdentifiedObjectIte
      * @generated
      */
     protected void addWindPlantQcontrolModesTypePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindPlantReactiveControlIEC_windPlantQcontrolModesType_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_WindPlantReactiveControlIEC_windPlantQcontrolModesType_feature",
-                        "_UI_WindPlantReactiveControlIEC_type" ),
-                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_WindPlantQcontrolModesType(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindPlantReactiveControlIEC_windPlantQcontrolModesType_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_WindPlantReactiveControlIEC_windPlantQcontrolModesType_feature",
+                                "_UI_WindPlantReactiveControlIEC_type" ),
+                        CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_WindPlantQcontrolModesType(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -346,12 +447,18 @@ public class WindPlantReactiveControlIECItemProvider extends IdentifiedObjectIte
      */
     protected void addXrefmaxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindPlantReactiveControlIEC_xrefmax_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_WindPlantReactiveControlIEC_xrefmax_feature",
                         "_UI_WindPlantReactiveControlIEC_type" ),
-                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Xrefmax(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Xrefmax(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -362,12 +469,18 @@ public class WindPlantReactiveControlIECItemProvider extends IdentifiedObjectIte
      */
     protected void addXrefminPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindPlantReactiveControlIEC_xrefmin_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_WindPlantReactiveControlIEC_xrefmin_feature",
                         "_UI_WindPlantReactiveControlIEC_type" ),
-                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Xrefmin(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_Xrefmin(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -378,11 +491,17 @@ public class WindPlantReactiveControlIECItemProvider extends IdentifiedObjectIte
      */
     protected void addWindPlantIECPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindPlantReactiveControlIEC_WindPlantIEC_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_WindPlantReactiveControlIEC_WindPlantIEC_feature",
                         "_UI_WindPlantReactiveControlIEC_type" ),
-                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_WindPlantIEC(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_WindPlantIEC(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -393,14 +512,20 @@ public class WindPlantReactiveControlIECItemProvider extends IdentifiedObjectIte
      * @generated
      */
     protected void addWindDynamicsLookupTablePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindPlantReactiveControlIEC_WindDynamicsLookupTable_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_WindPlantReactiveControlIEC_WindDynamicsLookupTable_feature",
-                        "_UI_WindPlantReactiveControlIEC_type" ),
-                CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_WindDynamicsLookupTable(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindPlantReactiveControlIEC_WindDynamicsLookupTable_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_WindPlantReactiveControlIEC_WindDynamicsLookupTable_feature",
+                                "_UI_WindPlantReactiveControlIEC_type" ),
+                        CimPackage.eINSTANCE.getWindPlantReactiveControlIEC_WindDynamicsLookupTable(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

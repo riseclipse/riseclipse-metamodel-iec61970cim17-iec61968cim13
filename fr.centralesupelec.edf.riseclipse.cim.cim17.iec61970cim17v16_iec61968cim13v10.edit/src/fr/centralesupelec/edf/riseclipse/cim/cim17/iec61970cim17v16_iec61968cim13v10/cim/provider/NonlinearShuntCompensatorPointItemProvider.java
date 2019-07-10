@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -76,11 +81,17 @@ public class NonlinearShuntCompensatorPointItemProvider extends CimObjectWithIDI
     protected void addBPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_NonlinearShuntCompensatorPoint_b_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_NonlinearShuntCompensatorPoint_b_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_NonlinearShuntCompensatorPoint_b_feature",
                                 "_UI_NonlinearShuntCompensatorPoint_type" ),
-                        CimPackage.eINSTANCE.getNonlinearShuntCompensatorPoint_B(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getNonlinearShuntCompensatorPoint_B(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -91,12 +102,18 @@ public class NonlinearShuntCompensatorPointItemProvider extends CimObjectWithIDI
      */
     protected void addB0PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_NonlinearShuntCompensatorPoint_b0_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_NonlinearShuntCompensatorPoint_b0_feature",
                         "_UI_NonlinearShuntCompensatorPoint_type" ),
-                CimPackage.eINSTANCE.getNonlinearShuntCompensatorPoint_B0(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getNonlinearShuntCompensatorPoint_B0(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -108,11 +125,17 @@ public class NonlinearShuntCompensatorPointItemProvider extends CimObjectWithIDI
     protected void addGPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_NonlinearShuntCompensatorPoint_g_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_NonlinearShuntCompensatorPoint_g_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_NonlinearShuntCompensatorPoint_g_feature",
                                 "_UI_NonlinearShuntCompensatorPoint_type" ),
-                        CimPackage.eINSTANCE.getNonlinearShuntCompensatorPoint_G(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getNonlinearShuntCompensatorPoint_G(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -123,12 +146,18 @@ public class NonlinearShuntCompensatorPointItemProvider extends CimObjectWithIDI
      */
     protected void addG0PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_NonlinearShuntCompensatorPoint_g0_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_NonlinearShuntCompensatorPoint_g0_feature",
                         "_UI_NonlinearShuntCompensatorPoint_type" ),
-                CimPackage.eINSTANCE.getNonlinearShuntCompensatorPoint_G0(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getNonlinearShuntCompensatorPoint_G0(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -140,12 +169,18 @@ public class NonlinearShuntCompensatorPointItemProvider extends CimObjectWithIDI
     protected void addSectionNumberPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_NonlinearShuntCompensatorPoint_sectionNumber_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_NonlinearShuntCompensatorPoint_sectionNumber_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_NonlinearShuntCompensatorPoint_sectionNumber_feature",
                                 "_UI_NonlinearShuntCompensatorPoint_type" ),
-                        CimPackage.eINSTANCE.getNonlinearShuntCompensatorPoint_SectionNumber(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getNonlinearShuntCompensatorPoint_SectionNumber(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -155,14 +190,20 @@ public class NonlinearShuntCompensatorPointItemProvider extends CimObjectWithIDI
      * @generated
      */
     protected void addNonlinearShuntCompensatorPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_NonlinearShuntCompensatorPoint_NonlinearShuntCompensator_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_NonlinearShuntCompensatorPoint_NonlinearShuntCompensator_feature",
-                        "_UI_NonlinearShuntCompensatorPoint_type" ),
-                CimPackage.eINSTANCE.getNonlinearShuntCompensatorPoint_NonlinearShuntCompensator(), true, false, true,
-                null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_NonlinearShuntCompensatorPoint_NonlinearShuntCompensator_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_NonlinearShuntCompensatorPoint_NonlinearShuntCompensator_feature",
+                                "_UI_NonlinearShuntCompensatorPoint_type" ),
+                        CimPackage.eINSTANCE.getNonlinearShuntCompensatorPoint_NonlinearShuntCompensator(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

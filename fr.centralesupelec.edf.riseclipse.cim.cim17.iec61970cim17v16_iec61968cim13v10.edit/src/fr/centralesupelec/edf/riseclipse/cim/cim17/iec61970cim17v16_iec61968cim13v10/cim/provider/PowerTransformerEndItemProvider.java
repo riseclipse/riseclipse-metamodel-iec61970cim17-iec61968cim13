@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -83,11 +88,17 @@ public class PowerTransformerEndItemProvider extends TransformerEndItemProvider 
     protected void addBPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PowerTransformerEnd_b_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PowerTransformerEnd_b_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PowerTransformerEnd_b_feature",
                                 "_UI_PowerTransformerEnd_type" ),
-                        CimPackage.eINSTANCE.getPowerTransformerEnd_B(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPowerTransformerEnd_B(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -99,11 +110,17 @@ public class PowerTransformerEndItemProvider extends TransformerEndItemProvider 
     protected void addB0PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PowerTransformerEnd_b0_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PowerTransformerEnd_b0_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PowerTransformerEnd_b0_feature",
                                 "_UI_PowerTransformerEnd_type" ),
-                        CimPackage.eINSTANCE.getPowerTransformerEnd_B0(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPowerTransformerEnd_B0(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -113,13 +130,19 @@ public class PowerTransformerEndItemProvider extends TransformerEndItemProvider 
      * @generated
      */
     protected void addConnectionKindPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PowerTransformerEnd_connectionKind_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PowerTransformerEnd_connectionKind_feature",
-                        "_UI_PowerTransformerEnd_type" ),
-                CimPackage.eINSTANCE.getPowerTransformerEnd_ConnectionKind(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PowerTransformerEnd_connectionKind_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PowerTransformerEnd_connectionKind_feature", "_UI_PowerTransformerEnd_type" ),
+                        CimPackage.eINSTANCE.getPowerTransformerEnd_ConnectionKind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -131,11 +154,17 @@ public class PowerTransformerEndItemProvider extends TransformerEndItemProvider 
     protected void addGPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PowerTransformerEnd_g_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PowerTransformerEnd_g_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PowerTransformerEnd_g_feature",
                                 "_UI_PowerTransformerEnd_type" ),
-                        CimPackage.eINSTANCE.getPowerTransformerEnd_G(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPowerTransformerEnd_G(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -147,11 +176,17 @@ public class PowerTransformerEndItemProvider extends TransformerEndItemProvider 
     protected void addG0PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PowerTransformerEnd_g0_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PowerTransformerEnd_g0_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PowerTransformerEnd_g0_feature",
                                 "_UI_PowerTransformerEnd_type" ),
-                        CimPackage.eINSTANCE.getPowerTransformerEnd_G0(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPowerTransformerEnd_G0(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -161,13 +196,19 @@ public class PowerTransformerEndItemProvider extends TransformerEndItemProvider 
      * @generated
      */
     protected void addPhaseAngleClockPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PowerTransformerEnd_phaseAngleClock_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PowerTransformerEnd_phaseAngleClock_feature",
-                        "_UI_PowerTransformerEnd_type" ),
-                CimPackage.eINSTANCE.getPowerTransformerEnd_PhaseAngleClock(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PowerTransformerEnd_phaseAngleClock_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PowerTransformerEnd_phaseAngleClock_feature", "_UI_PowerTransformerEnd_type" ),
+                        CimPackage.eINSTANCE.getPowerTransformerEnd_PhaseAngleClock(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -179,11 +220,17 @@ public class PowerTransformerEndItemProvider extends TransformerEndItemProvider 
     protected void addRPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PowerTransformerEnd_r_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PowerTransformerEnd_r_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PowerTransformerEnd_r_feature",
                                 "_UI_PowerTransformerEnd_type" ),
-                        CimPackage.eINSTANCE.getPowerTransformerEnd_R(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPowerTransformerEnd_R(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -195,11 +242,17 @@ public class PowerTransformerEndItemProvider extends TransformerEndItemProvider 
     protected void addR0PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PowerTransformerEnd_r0_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PowerTransformerEnd_r0_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PowerTransformerEnd_r0_feature",
                                 "_UI_PowerTransformerEnd_type" ),
-                        CimPackage.eINSTANCE.getPowerTransformerEnd_R0(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPowerTransformerEnd_R0(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -211,11 +264,17 @@ public class PowerTransformerEndItemProvider extends TransformerEndItemProvider 
     protected void addRatedSPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PowerTransformerEnd_ratedS_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PowerTransformerEnd_ratedS_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PowerTransformerEnd_ratedS_feature",
                                 "_UI_PowerTransformerEnd_type" ),
-                        CimPackage.eINSTANCE.getPowerTransformerEnd_RatedS(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPowerTransformerEnd_RatedS(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -227,11 +286,17 @@ public class PowerTransformerEndItemProvider extends TransformerEndItemProvider 
     protected void addRatedUPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PowerTransformerEnd_ratedU_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PowerTransformerEnd_ratedU_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PowerTransformerEnd_ratedU_feature",
                                 "_UI_PowerTransformerEnd_type" ),
-                        CimPackage.eINSTANCE.getPowerTransformerEnd_RatedU(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPowerTransformerEnd_RatedU(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -243,11 +308,17 @@ public class PowerTransformerEndItemProvider extends TransformerEndItemProvider 
     protected void addXPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PowerTransformerEnd_x_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PowerTransformerEnd_x_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PowerTransformerEnd_x_feature",
                                 "_UI_PowerTransformerEnd_type" ),
-                        CimPackage.eINSTANCE.getPowerTransformerEnd_X(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPowerTransformerEnd_X(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -259,11 +330,17 @@ public class PowerTransformerEndItemProvider extends TransformerEndItemProvider 
     protected void addX0PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PowerTransformerEnd_x0_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PowerTransformerEnd_x0_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PowerTransformerEnd_x0_feature",
                                 "_UI_PowerTransformerEnd_type" ),
-                        CimPackage.eINSTANCE.getPowerTransformerEnd_X0(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPowerTransformerEnd_X0(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -273,12 +350,19 @@ public class PowerTransformerEndItemProvider extends TransformerEndItemProvider 
      * @generated
      */
     protected void addPowerTransformerPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PowerTransformerEnd_PowerTransformer_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PowerTransformerEnd_PowerTransformer_feature",
-                        "_UI_PowerTransformerEnd_type" ),
-                CimPackage.eINSTANCE.getPowerTransformerEnd_PowerTransformer(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PowerTransformerEnd_PowerTransformer_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PowerTransformerEnd_PowerTransformer_feature", "_UI_PowerTransformerEnd_type" ),
+                        CimPackage.eINSTANCE.getPowerTransformerEnd_PowerTransformer(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

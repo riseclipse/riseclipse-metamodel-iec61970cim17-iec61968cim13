@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -83,11 +88,17 @@ public class EnergySourceItemProvider extends EnergyConnectionItemProvider {
     protected void addActivePowerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EnergySource_activePower_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EnergySource_activePower_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EnergySource_activePower_feature",
                                 "_UI_EnergySource_type" ),
-                        CimPackage.eINSTANCE.getEnergySource_ActivePower(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEnergySource_ActivePower(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -99,11 +110,17 @@ public class EnergySourceItemProvider extends EnergyConnectionItemProvider {
     protected void addNominalVoltagePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EnergySource_nominalVoltage_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EnergySource_nominalVoltage_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EnergySource_nominalVoltage_feature",
                                 "_UI_EnergySource_type" ),
-                        CimPackage.eINSTANCE.getEnergySource_NominalVoltage(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEnergySource_NominalVoltage(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -115,11 +132,17 @@ public class EnergySourceItemProvider extends EnergyConnectionItemProvider {
     protected void addRPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EnergySource_r_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EnergySource_r_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EnergySource_r_feature",
                                 "_UI_EnergySource_type" ),
-                        CimPackage.eINSTANCE.getEnergySource_R(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEnergySource_R(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -131,11 +154,17 @@ public class EnergySourceItemProvider extends EnergyConnectionItemProvider {
     protected void addR0PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EnergySource_r0_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EnergySource_r0_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EnergySource_r0_feature",
                                 "_UI_EnergySource_type" ),
-                        CimPackage.eINSTANCE.getEnergySource_R0(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEnergySource_R0(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -147,11 +176,17 @@ public class EnergySourceItemProvider extends EnergyConnectionItemProvider {
     protected void addReactivePowerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EnergySource_reactivePower_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EnergySource_reactivePower_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EnergySource_reactivePower_feature",
                                 "_UI_EnergySource_type" ),
-                        CimPackage.eINSTANCE.getEnergySource_ReactivePower(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEnergySource_ReactivePower(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -163,11 +198,17 @@ public class EnergySourceItemProvider extends EnergyConnectionItemProvider {
     protected void addRnPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EnergySource_rn_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EnergySource_rn_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EnergySource_rn_feature",
                                 "_UI_EnergySource_type" ),
-                        CimPackage.eINSTANCE.getEnergySource_Rn(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEnergySource_Rn(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -179,11 +220,17 @@ public class EnergySourceItemProvider extends EnergyConnectionItemProvider {
     protected void addVoltageAnglePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EnergySource_voltageAngle_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EnergySource_voltageAngle_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EnergySource_voltageAngle_feature",
                                 "_UI_EnergySource_type" ),
-                        CimPackage.eINSTANCE.getEnergySource_VoltageAngle(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEnergySource_VoltageAngle(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -195,11 +242,17 @@ public class EnergySourceItemProvider extends EnergyConnectionItemProvider {
     protected void addVoltageMagnitudePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EnergySource_voltageMagnitude_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EnergySource_voltageMagnitude_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EnergySource_voltageMagnitude_feature",
                                 "_UI_EnergySource_type" ),
-                        CimPackage.eINSTANCE.getEnergySource_VoltageMagnitude(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEnergySource_VoltageMagnitude(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -211,11 +264,17 @@ public class EnergySourceItemProvider extends EnergyConnectionItemProvider {
     protected void addXPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EnergySource_x_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EnergySource_x_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EnergySource_x_feature",
                                 "_UI_EnergySource_type" ),
-                        CimPackage.eINSTANCE.getEnergySource_X(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEnergySource_X(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -227,11 +286,17 @@ public class EnergySourceItemProvider extends EnergyConnectionItemProvider {
     protected void addX0PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EnergySource_x0_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EnergySource_x0_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EnergySource_x0_feature",
                                 "_UI_EnergySource_type" ),
-                        CimPackage.eINSTANCE.getEnergySource_X0(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEnergySource_X0(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -243,11 +308,17 @@ public class EnergySourceItemProvider extends EnergyConnectionItemProvider {
     protected void addXnPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EnergySource_xn_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EnergySource_xn_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EnergySource_xn_feature",
                                 "_UI_EnergySource_type" ),
-                        CimPackage.eINSTANCE.getEnergySource_Xn(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getEnergySource_Xn(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -259,10 +330,16 @@ public class EnergySourceItemProvider extends EnergyConnectionItemProvider {
     protected void addEnergySourcePhasePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EnergySource_EnergySourcePhase_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EnergySource_EnergySourcePhase_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EnergySource_EnergySourcePhase_feature",
                                 "_UI_EnergySource_type" ),
-                        CimPackage.eINSTANCE.getEnergySource_EnergySourcePhase(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getEnergySource_EnergySourcePhase(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -275,10 +352,16 @@ public class EnergySourceItemProvider extends EnergyConnectionItemProvider {
     protected void addEnergySourceActionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_EnergySource_EnergySourceAction_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_EnergySource_EnergySourceAction_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_EnergySource_EnergySourceAction_feature",
                                 "_UI_EnergySource_type" ),
-                        CimPackage.eINSTANCE.getEnergySource_EnergySourceAction(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getEnergySource_EnergySourceAction(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 

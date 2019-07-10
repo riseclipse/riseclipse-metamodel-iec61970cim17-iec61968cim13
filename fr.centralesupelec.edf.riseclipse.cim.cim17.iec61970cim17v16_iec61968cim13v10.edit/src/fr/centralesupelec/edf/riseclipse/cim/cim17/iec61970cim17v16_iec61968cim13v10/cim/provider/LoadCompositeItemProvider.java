@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -81,11 +86,17 @@ public class LoadCompositeItemProvider extends LoadDynamicsItemProvider {
     protected void addEpfdPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadComposite_epfd_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadComposite_epfd_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadComposite_epfd_feature",
                                 "_UI_LoadComposite_type" ),
-                        CimPackage.eINSTANCE.getLoadComposite_Epfd(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadComposite_Epfd(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -97,11 +108,17 @@ public class LoadCompositeItemProvider extends LoadDynamicsItemProvider {
     protected void addEpfsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadComposite_epfs_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadComposite_epfs_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadComposite_epfs_feature",
                                 "_UI_LoadComposite_type" ),
-                        CimPackage.eINSTANCE.getLoadComposite_Epfs(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadComposite_Epfs(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -113,11 +130,17 @@ public class LoadCompositeItemProvider extends LoadDynamicsItemProvider {
     protected void addEpvdPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadComposite_epvd_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadComposite_epvd_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadComposite_epvd_feature",
                                 "_UI_LoadComposite_type" ),
-                        CimPackage.eINSTANCE.getLoadComposite_Epvd(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadComposite_Epvd(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -129,11 +152,17 @@ public class LoadCompositeItemProvider extends LoadDynamicsItemProvider {
     protected void addEpvsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadComposite_epvs_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadComposite_epvs_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadComposite_epvs_feature",
                                 "_UI_LoadComposite_type" ),
-                        CimPackage.eINSTANCE.getLoadComposite_Epvs(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadComposite_Epvs(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -145,11 +174,17 @@ public class LoadCompositeItemProvider extends LoadDynamicsItemProvider {
     protected void addEqfdPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadComposite_eqfd_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadComposite_eqfd_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadComposite_eqfd_feature",
                                 "_UI_LoadComposite_type" ),
-                        CimPackage.eINSTANCE.getLoadComposite_Eqfd(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadComposite_Eqfd(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -161,11 +196,17 @@ public class LoadCompositeItemProvider extends LoadDynamicsItemProvider {
     protected void addEqfsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadComposite_eqfs_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadComposite_eqfs_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadComposite_eqfs_feature",
                                 "_UI_LoadComposite_type" ),
-                        CimPackage.eINSTANCE.getLoadComposite_Eqfs(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadComposite_Eqfs(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -177,11 +218,17 @@ public class LoadCompositeItemProvider extends LoadDynamicsItemProvider {
     protected void addEqvdPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadComposite_eqvd_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadComposite_eqvd_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadComposite_eqvd_feature",
                                 "_UI_LoadComposite_type" ),
-                        CimPackage.eINSTANCE.getLoadComposite_Eqvd(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadComposite_Eqvd(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -193,11 +240,17 @@ public class LoadCompositeItemProvider extends LoadDynamicsItemProvider {
     protected void addEqvsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadComposite_eqvs_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadComposite_eqvs_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadComposite_eqvs_feature",
                                 "_UI_LoadComposite_type" ),
-                        CimPackage.eINSTANCE.getLoadComposite_Eqvs(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadComposite_Eqvs(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -209,11 +262,17 @@ public class LoadCompositeItemProvider extends LoadDynamicsItemProvider {
     protected void addHPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadComposite_h_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadComposite_h_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadComposite_h_feature",
                                 "_UI_LoadComposite_type" ),
-                        CimPackage.eINSTANCE.getLoadComposite_H(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadComposite_H(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -225,11 +284,17 @@ public class LoadCompositeItemProvider extends LoadDynamicsItemProvider {
     protected void addLfracPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadComposite_lfrac_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadComposite_lfrac_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadComposite_lfrac_feature",
                                 "_UI_LoadComposite_type" ),
-                        CimPackage.eINSTANCE.getLoadComposite_Lfrac(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadComposite_Lfrac(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -241,11 +306,17 @@ public class LoadCompositeItemProvider extends LoadDynamicsItemProvider {
     protected void addPfracPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadComposite_pfrac_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadComposite_pfrac_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadComposite_pfrac_feature",
                                 "_UI_LoadComposite_type" ),
-                        CimPackage.eINSTANCE.getLoadComposite_Pfrac(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadComposite_Pfrac(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

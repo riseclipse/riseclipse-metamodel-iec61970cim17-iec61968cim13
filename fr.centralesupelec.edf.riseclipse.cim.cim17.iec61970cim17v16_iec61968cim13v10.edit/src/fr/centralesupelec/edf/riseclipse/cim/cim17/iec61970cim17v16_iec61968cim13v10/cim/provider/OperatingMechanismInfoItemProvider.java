@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -76,13 +81,19 @@ public class OperatingMechanismInfoItemProvider extends AssetInfoItemProvider {
      * @generated
      */
     protected void addCloseAmpsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_OperatingMechanismInfo_closeAmps_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_OperatingMechanismInfo_closeAmps_feature",
-                        "_UI_OperatingMechanismInfo_type" ),
-                CimPackage.eINSTANCE.getOperatingMechanismInfo_CloseAmps(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_OperatingMechanismInfo_closeAmps_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_OperatingMechanismInfo_closeAmps_feature",
+                                "_UI_OperatingMechanismInfo_type" ),
+                        CimPackage.eINSTANCE.getOperatingMechanismInfo_CloseAmps(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,11 +105,17 @@ public class OperatingMechanismInfoItemProvider extends AssetInfoItemProvider {
     protected void addCloseVoltagePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OperatingMechanismInfo_closeVoltage_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OperatingMechanismInfo_closeVoltage_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_OperatingMechanismInfo_closeVoltage_feature", "_UI_OperatingMechanismInfo_type" ),
-                        CimPackage.eINSTANCE.getOperatingMechanismInfo_CloseVoltage(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOperatingMechanismInfo_CloseVoltage(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -110,11 +127,17 @@ public class OperatingMechanismInfoItemProvider extends AssetInfoItemProvider {
     protected void addMechanismKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OperatingMechanismInfo_mechanismKind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OperatingMechanismInfo_mechanismKind_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_OperatingMechanismInfo_mechanismKind_feature", "_UI_OperatingMechanismInfo_type" ),
-                        CimPackage.eINSTANCE.getOperatingMechanismInfo_MechanismKind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOperatingMechanismInfo_MechanismKind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -125,12 +148,18 @@ public class OperatingMechanismInfoItemProvider extends AssetInfoItemProvider {
      */
     protected void addMotorRunCurrentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_OperatingMechanismInfo_motorRunCurrent_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_OperatingMechanismInfo_motorRunCurrent_feature",
                         "_UI_OperatingMechanismInfo_type" ),
-                CimPackage.eINSTANCE.getOperatingMechanismInfo_MotorRunCurrent(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getOperatingMechanismInfo_MotorRunCurrent(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -141,12 +170,18 @@ public class OperatingMechanismInfoItemProvider extends AssetInfoItemProvider {
      */
     protected void addMotorStartCurrentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_OperatingMechanismInfo_motorStartCurrent_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_OperatingMechanismInfo_motorStartCurrent_feature",
                         "_UI_OperatingMechanismInfo_type" ),
-                CimPackage.eINSTANCE.getOperatingMechanismInfo_MotorStartCurrent(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getOperatingMechanismInfo_MotorStartCurrent(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -158,11 +193,17 @@ public class OperatingMechanismInfoItemProvider extends AssetInfoItemProvider {
     protected void addMotorVoltagePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OperatingMechanismInfo_motorVoltage_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OperatingMechanismInfo_motorVoltage_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_OperatingMechanismInfo_motorVoltage_feature", "_UI_OperatingMechanismInfo_type" ),
-                        CimPackage.eINSTANCE.getOperatingMechanismInfo_MotorVoltage(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOperatingMechanismInfo_MotorVoltage(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -172,13 +213,19 @@ public class OperatingMechanismInfoItemProvider extends AssetInfoItemProvider {
      * @generated
      */
     protected void addTripAmpsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_OperatingMechanismInfo_tripAmps_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_OperatingMechanismInfo_tripAmps_feature",
-                        "_UI_OperatingMechanismInfo_type" ),
-                CimPackage.eINSTANCE.getOperatingMechanismInfo_TripAmps(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_OperatingMechanismInfo_tripAmps_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_OperatingMechanismInfo_tripAmps_feature",
+                                "_UI_OperatingMechanismInfo_type" ),
+                        CimPackage.eINSTANCE.getOperatingMechanismInfo_TripAmps(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -190,11 +237,17 @@ public class OperatingMechanismInfoItemProvider extends AssetInfoItemProvider {
     protected void addTripVoltagePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_OperatingMechanismInfo_tripVoltage_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_OperatingMechanismInfo_tripVoltage_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_OperatingMechanismInfo_tripVoltage_feature", "_UI_OperatingMechanismInfo_type" ),
-                        CimPackage.eINSTANCE.getOperatingMechanismInfo_TripVoltage(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOperatingMechanismInfo_TripVoltage(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

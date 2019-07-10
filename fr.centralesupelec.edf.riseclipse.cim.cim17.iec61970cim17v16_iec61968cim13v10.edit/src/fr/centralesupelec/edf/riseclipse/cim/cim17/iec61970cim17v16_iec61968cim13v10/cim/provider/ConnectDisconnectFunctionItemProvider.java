@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimFactory;
@@ -80,12 +85,18 @@ public class ConnectDisconnectFunctionItemProvider extends EndDeviceFunctionItem
      */
     protected void addEventCountPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ConnectDisconnectFunction_eventCount_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ConnectDisconnectFunction_eventCount_feature",
                         "_UI_ConnectDisconnectFunction_type" ),
-                CimPackage.eINSTANCE.getConnectDisconnectFunction_EventCount(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getConnectDisconnectFunction_EventCount(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -96,12 +107,18 @@ public class ConnectDisconnectFunctionItemProvider extends EndDeviceFunctionItem
      */
     protected void addIsConnectedPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ConnectDisconnectFunction_isConnected_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ConnectDisconnectFunction_isConnected_feature",
                         "_UI_ConnectDisconnectFunction_type" ),
-                CimPackage.eINSTANCE.getConnectDisconnectFunction_IsConnected(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getConnectDisconnectFunction_IsConnected(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -112,12 +129,18 @@ public class ConnectDisconnectFunctionItemProvider extends EndDeviceFunctionItem
      */
     protected void addIsDelayedDisconPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ConnectDisconnectFunction_isDelayedDiscon_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_ConnectDisconnectFunction_isDelayedDiscon_feature", "_UI_ConnectDisconnectFunction_type" ),
-                CimPackage.eINSTANCE.getConnectDisconnectFunction_IsDelayedDiscon(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getConnectDisconnectFunction_IsDelayedDiscon(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -129,12 +152,18 @@ public class ConnectDisconnectFunctionItemProvider extends EndDeviceFunctionItem
     protected void addIsLocalAutoDisconOpPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ConnectDisconnectFunction_isLocalAutoDisconOp_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ConnectDisconnectFunction_isLocalAutoDisconOp_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_ConnectDisconnectFunction_isLocalAutoDisconOp_feature",
                                 "_UI_ConnectDisconnectFunction_type" ),
-                        CimPackage.eINSTANCE.getConnectDisconnectFunction_IsLocalAutoDisconOp(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getConnectDisconnectFunction_IsLocalAutoDisconOp(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -146,12 +175,18 @@ public class ConnectDisconnectFunctionItemProvider extends EndDeviceFunctionItem
     protected void addIsLocalAutoReconOpPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ConnectDisconnectFunction_isLocalAutoReconOp_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ConnectDisconnectFunction_isLocalAutoReconOp_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_ConnectDisconnectFunction_isLocalAutoReconOp_feature",
                                 "_UI_ConnectDisconnectFunction_type" ),
-                        CimPackage.eINSTANCE.getConnectDisconnectFunction_IsLocalAutoReconOp(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getConnectDisconnectFunction_IsLocalAutoReconOp(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -163,12 +198,18 @@ public class ConnectDisconnectFunctionItemProvider extends EndDeviceFunctionItem
     protected void addIsRemoteAutoDisconOpPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ConnectDisconnectFunction_isRemoteAutoDisconOp_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ConnectDisconnectFunction_isRemoteAutoDisconOp_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_ConnectDisconnectFunction_isRemoteAutoDisconOp_feature",
                                 "_UI_ConnectDisconnectFunction_type" ),
-                        CimPackage.eINSTANCE.getConnectDisconnectFunction_IsRemoteAutoDisconOp(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getConnectDisconnectFunction_IsRemoteAutoDisconOp(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -180,12 +221,18 @@ public class ConnectDisconnectFunctionItemProvider extends EndDeviceFunctionItem
     protected void addIsRemoteAutoReconOpPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ConnectDisconnectFunction_isRemoteAutoReconOp_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ConnectDisconnectFunction_isRemoteAutoReconOp_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_ConnectDisconnectFunction_isRemoteAutoReconOp_feature",
                                 "_UI_ConnectDisconnectFunction_type" ),
-                        CimPackage.eINSTANCE.getConnectDisconnectFunction_IsRemoteAutoReconOp(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getConnectDisconnectFunction_IsRemoteAutoReconOp(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -196,11 +243,18 @@ public class ConnectDisconnectFunctionItemProvider extends EndDeviceFunctionItem
      */
     protected void addSwitchesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ConnectDisconnectFunction_Switches_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ConnectDisconnectFunction_Switches_feature",
                         "_UI_ConnectDisconnectFunction_type" ),
-                CimPackage.eINSTANCE.getConnectDisconnectFunction_Switches(), true, false, true, null, null, null ) );
+                CimPackage.eINSTANCE.getConnectDisconnectFunction_Switches(),
+                true,
+                false,
+                true,
+                null,
+                null,
+                null ) );
     }
 
     /**

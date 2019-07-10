@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimFactory;
@@ -97,11 +102,17 @@ public class OutageItemProvider extends DocumentItemProvider {
     protected void addCancelledDateTimePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Outage_cancelledDateTime_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Outage_cancelledDateTime_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Outage_cancelledDateTime_feature",
                                 "_UI_Outage_type" ),
-                        CimPackage.eINSTANCE.getOutage_CancelledDateTime(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOutage_CancelledDateTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -113,11 +124,17 @@ public class OutageItemProvider extends DocumentItemProvider {
     protected void addCausePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Outage_cause_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Outage_cause_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Outage_cause_feature",
                                 "_UI_Outage_type" ),
-                        CimPackage.eINSTANCE.getOutage_Cause(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOutage_Cause(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -129,11 +146,17 @@ public class OutageItemProvider extends DocumentItemProvider {
     protected void addCauseKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Outage_causeKind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Outage_causeKind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Outage_causeKind_feature",
                                 "_UI_Outage_type" ),
-                        CimPackage.eINSTANCE.getOutage_CauseKind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOutage_CauseKind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -145,11 +168,17 @@ public class OutageItemProvider extends DocumentItemProvider {
     protected void addCommunityDescriptorPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Outage_communityDescriptor_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Outage_communityDescriptor_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Outage_communityDescriptor_feature",
                                 "_UI_Outage_type" ),
-                        CimPackage.eINSTANCE.getOutage_CommunityDescriptor(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOutage_CommunityDescriptor(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -161,11 +190,17 @@ public class OutageItemProvider extends DocumentItemProvider {
     protected void addCustomersRestoredPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Outage_customersRestored_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Outage_customersRestored_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Outage_customersRestored_feature",
                                 "_UI_Outage_type" ),
-                        CimPackage.eINSTANCE.getOutage_CustomersRestored(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOutage_CustomersRestored(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -177,11 +212,17 @@ public class OutageItemProvider extends DocumentItemProvider {
     protected void addIsPlannedPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Outage_isPlanned_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Outage_isPlanned_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Outage_isPlanned_feature",
                                 "_UI_Outage_type" ),
-                        CimPackage.eINSTANCE.getOutage_IsPlanned(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOutage_IsPlanned(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -193,11 +234,17 @@ public class OutageItemProvider extends DocumentItemProvider {
     protected void addMetersAffectedPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Outage_metersAffected_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Outage_metersAffected_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Outage_metersAffected_feature",
                                 "_UI_Outage_type" ),
-                        CimPackage.eINSTANCE.getOutage_MetersAffected(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOutage_MetersAffected(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -209,11 +256,17 @@ public class OutageItemProvider extends DocumentItemProvider {
     protected void addOriginalCustomersServedPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Outage_originalCustomersServed_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Outage_originalCustomersServed_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Outage_originalCustomersServed_feature",
                                 "_UI_Outage_type" ),
-                        CimPackage.eINSTANCE.getOutage_OriginalCustomersServed(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOutage_OriginalCustomersServed(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -225,11 +278,17 @@ public class OutageItemProvider extends DocumentItemProvider {
     protected void addOriginalMetersAffectedPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Outage_originalMetersAffected_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Outage_originalMetersAffected_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Outage_originalMetersAffected_feature",
                                 "_UI_Outage_type" ),
-                        CimPackage.eINSTANCE.getOutage_OriginalMetersAffected(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOutage_OriginalMetersAffected(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -241,11 +300,17 @@ public class OutageItemProvider extends DocumentItemProvider {
     protected void addOutageKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Outage_outageKind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Outage_outageKind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Outage_outageKind_feature",
                                 "_UI_Outage_type" ),
-                        CimPackage.eINSTANCE.getOutage_OutageKind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOutage_OutageKind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -257,11 +322,17 @@ public class OutageItemProvider extends DocumentItemProvider {
     protected void addStartTimePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Outage_startTime_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Outage_startTime_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Outage_startTime_feature",
                                 "_UI_Outage_type" ),
-                        CimPackage.eINSTANCE.getOutage_StartTime(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOutage_StartTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -273,11 +344,17 @@ public class OutageItemProvider extends DocumentItemProvider {
     protected void addStatusKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Outage_statusKind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Outage_statusKind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Outage_statusKind_feature",
                                 "_UI_Outage_type" ),
-                        CimPackage.eINSTANCE.getOutage_StatusKind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOutage_StatusKind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -289,11 +366,17 @@ public class OutageItemProvider extends DocumentItemProvider {
     protected void addUtilityDisclaimerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Outage_utilityDisclaimer_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Outage_utilityDisclaimer_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Outage_utilityDisclaimer_feature",
                                 "_UI_Outage_type" ),
-                        CimPackage.eINSTANCE.getOutage_UtilityDisclaimer(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getOutage_UtilityDisclaimer(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -305,10 +388,17 @@ public class OutageItemProvider extends DocumentItemProvider {
     protected void addOpenedSwitchesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Outage_OpenedSwitches_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Outage_OpenedSwitches_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Outage_OpenedSwitches_feature",
                                 "_UI_Outage_type" ),
-                        CimPackage.eINSTANCE.getOutage_OpenedSwitches(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getOutage_OpenedSwitches(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -320,10 +410,17 @@ public class OutageItemProvider extends DocumentItemProvider {
     protected void addSwitchingPlansPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Outage_SwitchingPlans_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Outage_SwitchingPlans_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Outage_SwitchingPlans_feature",
                                 "_UI_Outage_type" ),
-                        CimPackage.eINSTANCE.getOutage_SwitchingPlans(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getOutage_SwitchingPlans(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -335,10 +432,16 @@ public class OutageItemProvider extends DocumentItemProvider {
     protected void addEstimatedRestorationTimePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Outage_EstimatedRestorationTime_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Outage_EstimatedRestorationTime_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Outage_EstimatedRestorationTime_feature",
                                 "_UI_Outage_type" ),
-                        CimPackage.eINSTANCE.getOutage_EstimatedRestorationTime(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getOutage_EstimatedRestorationTime(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -351,10 +454,17 @@ public class OutageItemProvider extends DocumentItemProvider {
     protected void addUpdatedRatingsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Outage_UpdatedRatings_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Outage_UpdatedRatings_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Outage_UpdatedRatings_feature",
                                 "_UI_Outage_type" ),
-                        CimPackage.eINSTANCE.getOutage_UpdatedRatings(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getOutage_UpdatedRatings(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -366,10 +476,17 @@ public class OutageItemProvider extends DocumentItemProvider {
     protected void addOutageAreaPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Outage_OutageArea_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Outage_OutageArea_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Outage_OutageArea_feature",
                                 "_UI_Outage_type" ),
-                        CimPackage.eINSTANCE.getOutage_OutageArea(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getOutage_OutageArea(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -381,10 +498,17 @@ public class OutageItemProvider extends DocumentItemProvider {
     protected void addUsagePointsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Outage_UsagePoints_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Outage_UsagePoints_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Outage_UsagePoints_feature",
                                 "_UI_Outage_type" ),
-                        CimPackage.eINSTANCE.getOutage_UsagePoints(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getOutage_UsagePoints(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -396,10 +520,17 @@ public class OutageItemProvider extends DocumentItemProvider {
     protected void addPlannedSwitchActionsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Outage_PlannedSwitchActions_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Outage_PlannedSwitchActions_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Outage_PlannedSwitchActions_feature",
                                 "_UI_Outage_type" ),
-                        CimPackage.eINSTANCE.getOutage_PlannedSwitchActions(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getOutage_PlannedSwitchActions(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -411,10 +542,17 @@ public class OutageItemProvider extends DocumentItemProvider {
     protected void addIncidentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Outage_Incident_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Outage_Incident_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Outage_Incident_feature",
                                 "_UI_Outage_type" ),
-                        CimPackage.eINSTANCE.getOutage_Incident(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getOutage_Incident(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -426,10 +564,17 @@ public class OutageItemProvider extends DocumentItemProvider {
     protected void addEquipmentsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Outage_Equipments_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Outage_Equipments_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Outage_Equipments_feature",
                                 "_UI_Outage_type" ),
-                        CimPackage.eINSTANCE.getOutage_Equipments(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getOutage_Equipments(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -441,10 +586,17 @@ public class OutageItemProvider extends DocumentItemProvider {
     protected void addFaultsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Outage_Faults_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Outage_Faults_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Outage_Faults_feature",
                                 "_UI_Outage_type" ),
-                        CimPackage.eINSTANCE.getOutage_Faults(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getOutage_Faults(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -456,10 +608,17 @@ public class OutageItemProvider extends DocumentItemProvider {
     protected void addOutageSchedulePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Outage_OutageSchedule_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Outage_OutageSchedule_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Outage_OutageSchedule_feature",
                                 "_UI_Outage_type" ),
-                        CimPackage.eINSTANCE.getOutage_OutageSchedule(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getOutage_OutageSchedule(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -586,10 +745,10 @@ public class OutageItemProvider extends DocumentItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status()
-                || childFeature == CimPackage.eINSTANCE.getOutage_ActualPeriod()
-                || childFeature == CimPackage.eINSTANCE.getOutage_EstimatedPeriod();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status() ||
+                childFeature == CimPackage.eINSTANCE.getOutage_ActualPeriod() ||
+                childFeature == CimPackage.eINSTANCE.getOutage_EstimatedPeriod();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

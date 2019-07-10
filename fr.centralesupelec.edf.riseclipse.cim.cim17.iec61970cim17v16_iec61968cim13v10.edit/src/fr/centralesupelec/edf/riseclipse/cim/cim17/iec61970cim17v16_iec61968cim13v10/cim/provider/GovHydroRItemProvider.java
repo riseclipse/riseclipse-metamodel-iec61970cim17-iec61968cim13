@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -112,11 +117,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addAtPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_at_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_at_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_at_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_At(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_At(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -128,11 +139,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addDb1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_db1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_db1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_db1_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_Db1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_Db1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -144,11 +161,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addDb2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_db2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_db2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_db2_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_Db2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_Db2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -160,11 +183,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addDturbPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_dturb_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_dturb_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_dturb_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_Dturb(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_Dturb(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -176,11 +205,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addEpsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_eps_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_eps_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_eps_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_Eps(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_Eps(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -192,11 +227,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addGmaxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_gmax_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_gmax_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_gmax_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_Gmax(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_Gmax(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -208,11 +249,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addGminPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_gmin_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_gmin_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_gmin_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_Gmin(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_Gmin(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -224,11 +271,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addGv1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_gv1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_gv1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_gv1_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_Gv1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_Gv1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -240,11 +293,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addGv2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_gv2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_gv2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_gv2_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_Gv2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_Gv2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -256,11 +315,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addGv3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_gv3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_gv3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_gv3_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_Gv3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_Gv3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -272,11 +337,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addGv4PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_gv4_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_gv4_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_gv4_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_Gv4(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_Gv4(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -288,11 +359,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addGv5PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_gv5_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_gv5_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_gv5_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_Gv5(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_Gv5(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -304,11 +381,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addGv6PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_gv6_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_gv6_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_gv6_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_Gv6(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_Gv6(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -320,11 +403,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addH0PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_h0_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_h0_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_h0_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_H0(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_H0(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -336,11 +425,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addInputSignalPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_inputSignal_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_inputSignal_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_inputSignal_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_InputSignal(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_InputSignal(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -352,11 +447,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addKgPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_kg_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_kg_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_kg_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_Kg(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_Kg(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -368,11 +469,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addKiPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_ki_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_ki_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_ki_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_Ki(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_Ki(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -384,11 +491,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addMwbasePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_mwbase_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_mwbase_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_mwbase_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_Mwbase(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_Mwbase(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -400,11 +513,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addPgv1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_pgv1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_pgv1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_pgv1_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_Pgv1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_Pgv1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -416,11 +535,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addPgv2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_pgv2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_pgv2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_pgv2_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_Pgv2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_Pgv2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -432,11 +557,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addPgv3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_pgv3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_pgv3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_pgv3_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_Pgv3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_Pgv3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -448,11 +579,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addPgv4PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_pgv4_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_pgv4_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_pgv4_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_Pgv4(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_Pgv4(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -464,11 +601,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addPgv5PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_pgv5_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_pgv5_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_pgv5_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_Pgv5(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_Pgv5(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -480,11 +623,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addPgv6PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_pgv6_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_pgv6_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_pgv6_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_Pgv6(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_Pgv6(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -496,11 +645,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addPmaxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_pmax_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_pmax_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_pmax_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_Pmax(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_Pmax(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -512,11 +667,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addPminPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_pmin_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_pmin_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_pmin_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_Pmin(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_Pmin(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -528,11 +689,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addQnlPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_qnl_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_qnl_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_qnl_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_Qnl(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_Qnl(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -544,11 +711,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addRPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_r_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_r_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_r_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_R(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_R(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -560,11 +733,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addT1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_t1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_t1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_t1_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_T1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_T1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -576,11 +755,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addT2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_t2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_t2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_t2_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_T2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_T2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -592,11 +777,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addT3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_t3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_t3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_t3_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_T3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_T3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -608,11 +799,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addT4PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_t4_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_t4_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_t4_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_T4(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_T4(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -624,11 +821,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addT5PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_t5_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_t5_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_t5_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_T5(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_T5(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -640,11 +843,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addT6PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_t6_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_t6_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_t6_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_T6(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_T6(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -656,11 +865,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addT7PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_t7_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_t7_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_t7_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_T7(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_T7(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -672,11 +887,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addT8PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_t8_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_t8_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_t8_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_T8(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_T8(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -688,11 +909,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addTdPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_td_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_td_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_td_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_Td(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_Td(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -704,11 +931,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addTpPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_tp_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_tp_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_tp_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_Tp(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_Tp(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -720,11 +953,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addTtPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_tt_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_tt_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_tt_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_Tt(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_Tt(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -736,11 +975,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addTwPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_tw_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_tw_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_tw_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_Tw(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_Tw(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -752,11 +997,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addVelclPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_velcl_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_velcl_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_velcl_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_Velcl(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_Velcl(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -768,11 +1019,17 @@ public class GovHydroRItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addVelopPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovHydroR_velop_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovHydroR_velop_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovHydroR_velop_feature",
                                 "_UI_GovHydroR_type" ),
-                        CimPackage.eINSTANCE.getGovHydroR_Velop(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovHydroR_Velop(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

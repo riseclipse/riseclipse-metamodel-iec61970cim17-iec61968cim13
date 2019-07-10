@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -72,10 +77,17 @@ public class IntervalBlockItemProvider extends CimObjectWithIDItemProvider {
     protected void addMeterReadingPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_IntervalBlock_MeterReading_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_IntervalBlock_MeterReading_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_IntervalBlock_MeterReading_feature",
                                 "_UI_IntervalBlock_type" ),
-                        CimPackage.eINSTANCE.getIntervalBlock_MeterReading(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getIntervalBlock_MeterReading(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -87,10 +99,16 @@ public class IntervalBlockItemProvider extends CimObjectWithIDItemProvider {
     protected void addPendingCalculationPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_IntervalBlock_PendingCalculation_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_IntervalBlock_PendingCalculation_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_IntervalBlock_PendingCalculation_feature",
                                 "_UI_IntervalBlock_type" ),
-                        CimPackage.eINSTANCE.getIntervalBlock_PendingCalculation(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getIntervalBlock_PendingCalculation(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -103,10 +121,16 @@ public class IntervalBlockItemProvider extends CimObjectWithIDItemProvider {
     protected void addIntervalReadingsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_IntervalBlock_IntervalReadings_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_IntervalBlock_IntervalReadings_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_IntervalBlock_IntervalReadings_feature",
                                 "_UI_IntervalBlock_type" ),
-                        CimPackage.eINSTANCE.getIntervalBlock_IntervalReadings(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getIntervalBlock_IntervalReadings(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -119,10 +143,17 @@ public class IntervalBlockItemProvider extends CimObjectWithIDItemProvider {
     protected void addReadingTypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_IntervalBlock_ReadingType_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_IntervalBlock_ReadingType_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_IntervalBlock_ReadingType_feature",
                                 "_UI_IntervalBlock_type" ),
-                        CimPackage.eINSTANCE.getIntervalBlock_ReadingType(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getIntervalBlock_ReadingType(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -159,7 +190,6 @@ public class IntervalBlockItemProvider extends CimObjectWithIDItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

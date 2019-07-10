@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -75,11 +80,17 @@ public class DiscreteItemProvider extends MeasurementItemProvider {
     protected void addMaxValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Discrete_maxValue_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Discrete_maxValue_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Discrete_maxValue_feature",
                                 "_UI_Discrete_type" ),
-                        CimPackage.eINSTANCE.getDiscrete_MaxValue(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiscrete_MaxValue(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -91,11 +102,17 @@ public class DiscreteItemProvider extends MeasurementItemProvider {
     protected void addMinValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Discrete_minValue_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Discrete_minValue_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Discrete_minValue_feature",
                                 "_UI_Discrete_type" ),
-                        CimPackage.eINSTANCE.getDiscrete_MinValue(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiscrete_MinValue(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -107,11 +124,17 @@ public class DiscreteItemProvider extends MeasurementItemProvider {
     protected void addNormalValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Discrete_normalValue_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Discrete_normalValue_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Discrete_normalValue_feature",
                                 "_UI_Discrete_type" ),
-                        CimPackage.eINSTANCE.getDiscrete_NormalValue(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiscrete_NormalValue(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -123,10 +146,17 @@ public class DiscreteItemProvider extends MeasurementItemProvider {
     protected void addValueAliasSetPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Discrete_ValueAliasSet_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Discrete_ValueAliasSet_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Discrete_ValueAliasSet_feature",
                                 "_UI_Discrete_type" ),
-                        CimPackage.eINSTANCE.getDiscrete_ValueAliasSet(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getDiscrete_ValueAliasSet(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -138,10 +168,17 @@ public class DiscreteItemProvider extends MeasurementItemProvider {
     protected void addDiscreteValuesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Discrete_DiscreteValues_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Discrete_DiscreteValues_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Discrete_DiscreteValues_feature",
                                 "_UI_Discrete_type" ),
-                        CimPackage.eINSTANCE.getDiscrete_DiscreteValues(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getDiscrete_DiscreteValues(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

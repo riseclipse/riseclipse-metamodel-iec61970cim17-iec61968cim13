@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -71,10 +76,17 @@ public class PersonRoleItemProvider extends IdentifiedObjectItemProvider {
     protected void addPersonPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PersonRole_Person_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PersonRole_Person_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PersonRole_Person_feature",
                                 "_UI_PersonRole_type" ),
-                        CimPackage.eINSTANCE.getPersonRole_Person(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getPersonRole_Person(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -86,10 +98,17 @@ public class PersonRoleItemProvider extends IdentifiedObjectItemProvider {
     protected void addAppointmentsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PersonRole_Appointments_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PersonRole_Appointments_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PersonRole_Appointments_feature",
                                 "_UI_PersonRole_type" ),
-                        CimPackage.eINSTANCE.getPersonRole_Appointments(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getPersonRole_Appointments(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -101,10 +120,16 @@ public class PersonRoleItemProvider extends IdentifiedObjectItemProvider {
     protected void addConfigurationEventsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PersonRole_ConfigurationEvents_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PersonRole_ConfigurationEvents_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PersonRole_ConfigurationEvents_feature",
                                 "_UI_PersonRole_type" ),
-                        CimPackage.eINSTANCE.getPersonRole_ConfigurationEvents(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getPersonRole_ConfigurationEvents(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -142,7 +167,6 @@ public class PersonRoleItemProvider extends IdentifiedObjectItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

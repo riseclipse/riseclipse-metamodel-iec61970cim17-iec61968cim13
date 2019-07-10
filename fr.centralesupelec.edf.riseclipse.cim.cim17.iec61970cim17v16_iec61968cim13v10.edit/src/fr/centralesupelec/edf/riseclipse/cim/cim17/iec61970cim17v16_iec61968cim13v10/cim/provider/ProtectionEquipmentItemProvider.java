@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -76,13 +81,19 @@ public class ProtectionEquipmentItemProvider extends EquipmentItemProvider {
      * @generated
      */
     protected void addHighLimitPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ProtectionEquipment_highLimit_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ProtectionEquipment_highLimit_feature",
-                        "_UI_ProtectionEquipment_type" ),
-                CimPackage.eINSTANCE.getProtectionEquipment_HighLimit(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ProtectionEquipment_highLimit_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_ProtectionEquipment_highLimit_feature",
+                                "_UI_ProtectionEquipment_type" ),
+                        CimPackage.eINSTANCE.getProtectionEquipment_HighLimit(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -92,13 +103,19 @@ public class ProtectionEquipmentItemProvider extends EquipmentItemProvider {
      * @generated
      */
     protected void addLowLimitPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ProtectionEquipment_lowLimit_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ProtectionEquipment_lowLimit_feature",
-                        "_UI_ProtectionEquipment_type" ),
-                CimPackage.eINSTANCE.getProtectionEquipment_LowLimit(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ProtectionEquipment_lowLimit_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_ProtectionEquipment_lowLimit_feature",
+                                "_UI_ProtectionEquipment_type" ),
+                        CimPackage.eINSTANCE.getProtectionEquipment_LowLimit(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -110,11 +127,17 @@ public class ProtectionEquipmentItemProvider extends EquipmentItemProvider {
     protected void addPowerDirectionFlagPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ProtectionEquipment_powerDirectionFlag_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ProtectionEquipment_powerDirectionFlag_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_ProtectionEquipment_powerDirectionFlag_feature", "_UI_ProtectionEquipment_type" ),
-                        CimPackage.eINSTANCE.getProtectionEquipment_PowerDirectionFlag(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getProtectionEquipment_PowerDirectionFlag(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -124,13 +147,19 @@ public class ProtectionEquipmentItemProvider extends EquipmentItemProvider {
      * @generated
      */
     protected void addRelayDelayTimePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ProtectionEquipment_relayDelayTime_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ProtectionEquipment_relayDelayTime_feature",
-                        "_UI_ProtectionEquipment_type" ),
-                CimPackage.eINSTANCE.getProtectionEquipment_RelayDelayTime(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ProtectionEquipment_relayDelayTime_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ProtectionEquipment_relayDelayTime_feature", "_UI_ProtectionEquipment_type" ),
+                        CimPackage.eINSTANCE.getProtectionEquipment_RelayDelayTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -140,13 +169,19 @@ public class ProtectionEquipmentItemProvider extends EquipmentItemProvider {
      * @generated
      */
     protected void addUnitMultiplierPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ProtectionEquipment_unitMultiplier_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ProtectionEquipment_unitMultiplier_feature",
-                        "_UI_ProtectionEquipment_type" ),
-                CimPackage.eINSTANCE.getProtectionEquipment_UnitMultiplier(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ProtectionEquipment_unitMultiplier_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ProtectionEquipment_unitMultiplier_feature", "_UI_ProtectionEquipment_type" ),
+                        CimPackage.eINSTANCE.getProtectionEquipment_UnitMultiplier(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -156,13 +191,19 @@ public class ProtectionEquipmentItemProvider extends EquipmentItemProvider {
      * @generated
      */
     protected void addUnitSymbolPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ProtectionEquipment_unitSymbol_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ProtectionEquipment_unitSymbol_feature",
-                        "_UI_ProtectionEquipment_type" ),
-                CimPackage.eINSTANCE.getProtectionEquipment_UnitSymbol(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ProtectionEquipment_unitSymbol_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_ProtectionEquipment_unitSymbol_feature",
+                                "_UI_ProtectionEquipment_type" ),
+                        CimPackage.eINSTANCE.getProtectionEquipment_UnitSymbol(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -174,10 +215,16 @@ public class ProtectionEquipmentItemProvider extends EquipmentItemProvider {
     protected void addProtectedSwitchesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ProtectionEquipment_ProtectedSwitches_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ProtectionEquipment_ProtectedSwitches_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_ProtectionEquipment_ProtectedSwitches_feature", "_UI_ProtectionEquipment_type" ),
-                        CimPackage.eINSTANCE.getProtectionEquipment_ProtectedSwitches(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getProtectionEquipment_ProtectedSwitches(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -189,11 +236,17 @@ public class ProtectionEquipmentItemProvider extends EquipmentItemProvider {
      */
     protected void addConductingEquipmentsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ProtectionEquipment_ConductingEquipments_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ProtectionEquipment_ConductingEquipments_feature",
                         "_UI_ProtectionEquipment_type" ),
-                CimPackage.eINSTANCE.getProtectionEquipment_ConductingEquipments(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getProtectionEquipment_ConductingEquipments(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 

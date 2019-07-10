@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -79,10 +84,17 @@ public class PowerSystemResourceItemProvider extends IdentifiedObjectItemProvide
     protected void addControlsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PowerSystemResource_Controls_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PowerSystemResource_Controls_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PowerSystemResource_Controls_feature",
                                 "_UI_PowerSystemResource_type" ),
-                        CimPackage.eINSTANCE.getPowerSystemResource_Controls(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getPowerSystemResource_Controls(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -92,12 +104,19 @@ public class PowerSystemResourceItemProvider extends IdentifiedObjectItemProvide
      * @generated
      */
     protected void addAssetDatasheetPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PowerSystemResource_AssetDatasheet_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PowerSystemResource_AssetDatasheet_feature",
-                        "_UI_PowerSystemResource_type" ),
-                CimPackage.eINSTANCE.getPowerSystemResource_AssetDatasheet(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PowerSystemResource_AssetDatasheet_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PowerSystemResource_AssetDatasheet_feature", "_UI_PowerSystemResource_type" ),
+                        CimPackage.eINSTANCE.getPowerSystemResource_AssetDatasheet(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -107,12 +126,19 @@ public class PowerSystemResourceItemProvider extends IdentifiedObjectItemProvide
      * @generated
      */
     protected void addReportingGroupPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PowerSystemResource_ReportingGroup_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PowerSystemResource_ReportingGroup_feature",
-                        "_UI_PowerSystemResource_type" ),
-                CimPackage.eINSTANCE.getPowerSystemResource_ReportingGroup(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PowerSystemResource_ReportingGroup_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PowerSystemResource_ReportingGroup_feature", "_UI_PowerSystemResource_type" ),
+                        CimPackage.eINSTANCE.getPowerSystemResource_ReportingGroup(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -124,10 +150,17 @@ public class PowerSystemResourceItemProvider extends IdentifiedObjectItemProvide
     protected void addAssetsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PowerSystemResource_Assets_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PowerSystemResource_Assets_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PowerSystemResource_Assets_feature",
                                 "_UI_PowerSystemResource_type" ),
-                        CimPackage.eINSTANCE.getPowerSystemResource_Assets(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getPowerSystemResource_Assets(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -137,12 +170,19 @@ public class PowerSystemResourceItemProvider extends IdentifiedObjectItemProvide
      * @generated
      */
     protected void addOperationalTagsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PowerSystemResource_OperationalTags_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PowerSystemResource_OperationalTags_feature",
-                        "_UI_PowerSystemResource_type" ),
-                CimPackage.eINSTANCE.getPowerSystemResource_OperationalTags(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PowerSystemResource_OperationalTags_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PowerSystemResource_OperationalTags_feature", "_UI_PowerSystemResource_type" ),
+                        CimPackage.eINSTANCE.getPowerSystemResource_OperationalTags(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -152,12 +192,19 @@ public class PowerSystemResourceItemProvider extends IdentifiedObjectItemProvide
      * @generated
      */
     protected void addOperatingSharePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PowerSystemResource_OperatingShare_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PowerSystemResource_OperatingShare_feature",
-                        "_UI_PowerSystemResource_type" ),
-                CimPackage.eINSTANCE.getPowerSystemResource_OperatingShare(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PowerSystemResource_OperatingShare_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PowerSystemResource_OperatingShare_feature", "_UI_PowerSystemResource_type" ),
+                        CimPackage.eINSTANCE.getPowerSystemResource_OperatingShare(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -167,12 +214,19 @@ public class PowerSystemResourceItemProvider extends IdentifiedObjectItemProvide
      * @generated
      */
     protected void addClearancesPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PowerSystemResource_Clearances_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PowerSystemResource_Clearances_feature",
-                        "_UI_PowerSystemResource_type" ),
-                CimPackage.eINSTANCE.getPowerSystemResource_Clearances(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PowerSystemResource_Clearances_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_PowerSystemResource_Clearances_feature",
+                                "_UI_PowerSystemResource_type" ),
+                        CimPackage.eINSTANCE.getPowerSystemResource_Clearances(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -184,10 +238,17 @@ public class PowerSystemResourceItemProvider extends IdentifiedObjectItemProvide
     protected void addLocationPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PowerSystemResource_Location_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PowerSystemResource_Location_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PowerSystemResource_Location_feature",
                                 "_UI_PowerSystemResource_type" ),
-                        CimPackage.eINSTANCE.getPowerSystemResource_Location(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getPowerSystemResource_Location(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -199,10 +260,17 @@ public class PowerSystemResourceItemProvider extends IdentifiedObjectItemProvide
     protected void addPSRTypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PowerSystemResource_PSRType_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PowerSystemResource_PSRType_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PowerSystemResource_PSRType_feature",
                                 "_UI_PowerSystemResource_type" ),
-                        CimPackage.eINSTANCE.getPowerSystemResource_PSRType(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getPowerSystemResource_PSRType(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -212,12 +280,19 @@ public class PowerSystemResourceItemProvider extends IdentifiedObjectItemProvide
      * @generated
      */
     protected void addMeasurementsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PowerSystemResource_Measurements_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PowerSystemResource_Measurements_feature",
-                        "_UI_PowerSystemResource_type" ),
-                CimPackage.eINSTANCE.getPowerSystemResource_Measurements(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PowerSystemResource_Measurements_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_PowerSystemResource_Measurements_feature",
+                                "_UI_PowerSystemResource_type" ),
+                        CimPackage.eINSTANCE.getPowerSystemResource_Measurements(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -227,12 +302,19 @@ public class PowerSystemResourceItemProvider extends IdentifiedObjectItemProvide
      * @generated
      */
     protected void addPSREventsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PowerSystemResource_PSREvents_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PowerSystemResource_PSREvents_feature",
-                        "_UI_PowerSystemResource_type" ),
-                CimPackage.eINSTANCE.getPowerSystemResource_PSREvents(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PowerSystemResource_PSREvents_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_PowerSystemResource_PSREvents_feature",
+                                "_UI_PowerSystemResource_type" ),
+                        CimPackage.eINSTANCE.getPowerSystemResource_PSREvents(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -269,7 +351,6 @@ public class PowerSystemResourceItemProvider extends IdentifiedObjectItemProvide
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

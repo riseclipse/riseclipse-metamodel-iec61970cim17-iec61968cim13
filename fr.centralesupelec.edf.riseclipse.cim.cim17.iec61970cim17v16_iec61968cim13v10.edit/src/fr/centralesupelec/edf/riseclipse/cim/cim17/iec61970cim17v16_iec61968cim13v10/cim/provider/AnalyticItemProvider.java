@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.Analytic;
@@ -78,11 +83,17 @@ public class AnalyticItemProvider extends DocumentItemProvider {
     protected void addBestValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Analytic_bestValue_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Analytic_bestValue_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Analytic_bestValue_feature",
                                 "_UI_Analytic_type" ),
-                        CimPackage.eINSTANCE.getAnalytic_BestValue(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAnalytic_BestValue(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,11 +105,17 @@ public class AnalyticItemProvider extends DocumentItemProvider {
     protected void addKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Analytic_kind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Analytic_kind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Analytic_kind_feature",
                                 "_UI_Analytic_type" ),
-                        CimPackage.eINSTANCE.getAnalytic_Kind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAnalytic_Kind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -110,11 +127,17 @@ public class AnalyticItemProvider extends DocumentItemProvider {
     protected void addScaleKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Analytic_scaleKind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Analytic_scaleKind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Analytic_scaleKind_feature",
                                 "_UI_Analytic_type" ),
-                        CimPackage.eINSTANCE.getAnalytic_ScaleKind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAnalytic_ScaleKind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -126,11 +149,17 @@ public class AnalyticItemProvider extends DocumentItemProvider {
     protected void addWorstValuePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Analytic_worstValue_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Analytic_worstValue_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Analytic_worstValue_feature",
                                 "_UI_Analytic_type" ),
-                        CimPackage.eINSTANCE.getAnalytic_WorstValue(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAnalytic_WorstValue(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -142,10 +171,17 @@ public class AnalyticItemProvider extends DocumentItemProvider {
     protected void addAnalyticScorePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Analytic_AnalyticScore_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Analytic_AnalyticScore_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Analytic_AnalyticScore_feature",
                                 "_UI_Analytic_type" ),
-                        CimPackage.eINSTANCE.getAnalytic_AnalyticScore(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAnalytic_AnalyticScore(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -157,10 +193,17 @@ public class AnalyticItemProvider extends DocumentItemProvider {
     protected void addAssetHealthEventPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Analytic_AssetHealthEvent_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Analytic_AssetHealthEvent_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Analytic_AssetHealthEvent_feature",
                                 "_UI_Analytic_type" ),
-                        CimPackage.eINSTANCE.getAnalytic_AssetHealthEvent(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAnalytic_AssetHealthEvent(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -172,10 +215,17 @@ public class AnalyticItemProvider extends DocumentItemProvider {
     protected void addAssetGroupPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Analytic_AssetGroup_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Analytic_AssetGroup_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Analytic_AssetGroup_feature",
                                 "_UI_Analytic_type" ),
-                        CimPackage.eINSTANCE.getAnalytic_AssetGroup(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAnalytic_AssetGroup(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -187,10 +237,17 @@ public class AnalyticItemProvider extends DocumentItemProvider {
     protected void addAssetPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Analytic_Asset_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Analytic_Asset_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Analytic_Asset_feature",
                                 "_UI_Analytic_type" ),
-                        CimPackage.eINSTANCE.getAnalytic_Asset(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getAnalytic_Asset(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -262,8 +319,8 @@ public class AnalyticItemProvider extends DocumentItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

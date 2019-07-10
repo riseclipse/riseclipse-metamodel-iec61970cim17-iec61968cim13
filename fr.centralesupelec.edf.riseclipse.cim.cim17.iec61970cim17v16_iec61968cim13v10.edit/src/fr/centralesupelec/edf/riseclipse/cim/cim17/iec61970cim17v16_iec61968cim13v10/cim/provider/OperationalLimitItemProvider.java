@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -68,13 +73,19 @@ public class OperationalLimitItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addOperationalLimitTypePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_OperationalLimit_OperationalLimitType_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_OperationalLimit_OperationalLimitType_feature",
-                        "_UI_OperationalLimit_type" ),
-                CimPackage.eINSTANCE.getOperationalLimit_OperationalLimitType(), true, false, true, null, null,
-                null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_OperationalLimit_OperationalLimitType_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_OperationalLimit_OperationalLimitType_feature", "_UI_OperationalLimit_type" ),
+                        CimPackage.eINSTANCE.getOperationalLimit_OperationalLimitType(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -84,12 +95,19 @@ public class OperationalLimitItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addOperationalLimitSetPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_OperationalLimit_OperationalLimitSet_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_OperationalLimit_OperationalLimitSet_feature",
-                        "_UI_OperationalLimit_type" ),
-                CimPackage.eINSTANCE.getOperationalLimit_OperationalLimitSet(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_OperationalLimit_OperationalLimitSet_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_OperationalLimit_OperationalLimitSet_feature", "_UI_OperationalLimit_type" ),
+                        CimPackage.eINSTANCE.getOperationalLimit_OperationalLimitSet(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -126,7 +144,6 @@ public class OperationalLimitItemProvider extends IdentifiedObjectItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

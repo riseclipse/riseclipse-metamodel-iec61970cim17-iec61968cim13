@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -79,11 +84,17 @@ public class TroubleTicketItemProvider extends DocumentItemProvider {
     protected void addDateTimeOfReportPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TroubleTicket_dateTimeOfReport_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TroubleTicket_dateTimeOfReport_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TroubleTicket_dateTimeOfReport_feature",
                                 "_UI_TroubleTicket_type" ),
-                        CimPackage.eINSTANCE.getTroubleTicket_DateTimeOfReport(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTroubleTicket_DateTimeOfReport(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,11 +106,17 @@ public class TroubleTicketItemProvider extends DocumentItemProvider {
     protected void addFirstResponderPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TroubleTicket_firstResponder_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TroubleTicket_firstResponder_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TroubleTicket_firstResponder_feature",
                                 "_UI_TroubleTicket_type" ),
-                        CimPackage.eINSTANCE.getTroubleTicket_FirstResponder(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTroubleTicket_FirstResponder(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -111,11 +128,17 @@ public class TroubleTicketItemProvider extends DocumentItemProvider {
     protected void addReportingKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TroubleTicket_reportingKind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TroubleTicket_reportingKind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TroubleTicket_reportingKind_feature",
                                 "_UI_TroubleTicket_type" ),
-                        CimPackage.eINSTANCE.getTroubleTicket_ReportingKind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTroubleTicket_ReportingKind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -127,11 +150,17 @@ public class TroubleTicketItemProvider extends DocumentItemProvider {
     protected void addResolvedDateTimePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TroubleTicket_resolvedDateTime_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TroubleTicket_resolvedDateTime_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TroubleTicket_resolvedDateTime_feature",
                                 "_UI_TroubleTicket_type" ),
-                        CimPackage.eINSTANCE.getTroubleTicket_ResolvedDateTime(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTroubleTicket_ResolvedDateTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -143,11 +172,17 @@ public class TroubleTicketItemProvider extends DocumentItemProvider {
     protected void addTroubleCodePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TroubleTicket_troubleCode_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TroubleTicket_troubleCode_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TroubleTicket_troubleCode_feature",
                                 "_UI_TroubleTicket_type" ),
-                        CimPackage.eINSTANCE.getTroubleTicket_TroubleCode(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTroubleTicket_TroubleCode(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -159,10 +194,17 @@ public class TroubleTicketItemProvider extends DocumentItemProvider {
     protected void addCustomerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TroubleTicket_Customer_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TroubleTicket_Customer_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TroubleTicket_Customer_feature",
                                 "_UI_TroubleTicket_type" ),
-                        CimPackage.eINSTANCE.getTroubleTicket_Customer(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTroubleTicket_Customer(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -174,10 +216,17 @@ public class TroubleTicketItemProvider extends DocumentItemProvider {
     protected void addIncidentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TroubleTicket_Incident_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TroubleTicket_Incident_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TroubleTicket_Incident_feature",
                                 "_UI_TroubleTicket_type" ),
-                        CimPackage.eINSTANCE.getTroubleTicket_Incident(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTroubleTicket_Incident(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -189,10 +238,17 @@ public class TroubleTicketItemProvider extends DocumentItemProvider {
     protected void addNotificationPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TroubleTicket_Notification_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TroubleTicket_Notification_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TroubleTicket_Notification_feature",
                                 "_UI_TroubleTicket_type" ),
-                        CimPackage.eINSTANCE.getTroubleTicket_Notification(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTroubleTicket_Notification(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -204,10 +260,17 @@ public class TroubleTicketItemProvider extends DocumentItemProvider {
     protected void addHazardsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TroubleTicket_Hazards_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TroubleTicket_Hazards_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TroubleTicket_Hazards_feature",
                                 "_UI_TroubleTicket_type" ),
-                        CimPackage.eINSTANCE.getTroubleTicket_Hazards(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTroubleTicket_Hazards(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -280,8 +343,8 @@ public class TroubleTicketItemProvider extends DocumentItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -91,10 +96,16 @@ public class ExcAVR7ItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addA1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcAVR7_a1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcAVR7_a1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcAVR7_a1_feature", "_UI_ExcAVR7_type" ),
-                        CimPackage.eINSTANCE.getExcAVR7_A1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcAVR7_A1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -106,10 +117,16 @@ public class ExcAVR7ItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addA2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcAVR7_a2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcAVR7_a2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcAVR7_a2_feature", "_UI_ExcAVR7_type" ),
-                        CimPackage.eINSTANCE.getExcAVR7_A2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcAVR7_A2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -121,10 +138,16 @@ public class ExcAVR7ItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addA3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcAVR7_a3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcAVR7_a3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcAVR7_a3_feature", "_UI_ExcAVR7_type" ),
-                        CimPackage.eINSTANCE.getExcAVR7_A3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcAVR7_A3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -136,10 +159,16 @@ public class ExcAVR7ItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addA4PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcAVR7_a4_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcAVR7_a4_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcAVR7_a4_feature", "_UI_ExcAVR7_type" ),
-                        CimPackage.eINSTANCE.getExcAVR7_A4(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcAVR7_A4(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -151,10 +180,16 @@ public class ExcAVR7ItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addA5PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcAVR7_a5_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcAVR7_a5_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcAVR7_a5_feature", "_UI_ExcAVR7_type" ),
-                        CimPackage.eINSTANCE.getExcAVR7_A5(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcAVR7_A5(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -166,10 +201,16 @@ public class ExcAVR7ItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addA6PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcAVR7_a6_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcAVR7_a6_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcAVR7_a6_feature", "_UI_ExcAVR7_type" ),
-                        CimPackage.eINSTANCE.getExcAVR7_A6(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcAVR7_A6(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -181,10 +222,16 @@ public class ExcAVR7ItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addK1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcAVR7_k1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcAVR7_k1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcAVR7_k1_feature", "_UI_ExcAVR7_type" ),
-                        CimPackage.eINSTANCE.getExcAVR7_K1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcAVR7_K1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -196,10 +243,16 @@ public class ExcAVR7ItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addK3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcAVR7_k3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcAVR7_k3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcAVR7_k3_feature", "_UI_ExcAVR7_type" ),
-                        CimPackage.eINSTANCE.getExcAVR7_K3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcAVR7_K3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -211,10 +264,16 @@ public class ExcAVR7ItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addK5PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcAVR7_k5_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcAVR7_k5_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcAVR7_k5_feature", "_UI_ExcAVR7_type" ),
-                        CimPackage.eINSTANCE.getExcAVR7_K5(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcAVR7_K5(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -226,10 +285,16 @@ public class ExcAVR7ItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addT1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcAVR7_t1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcAVR7_t1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcAVR7_t1_feature", "_UI_ExcAVR7_type" ),
-                        CimPackage.eINSTANCE.getExcAVR7_T1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcAVR7_T1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -241,10 +306,16 @@ public class ExcAVR7ItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addT2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcAVR7_t2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcAVR7_t2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcAVR7_t2_feature", "_UI_ExcAVR7_type" ),
-                        CimPackage.eINSTANCE.getExcAVR7_T2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcAVR7_T2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -256,10 +327,16 @@ public class ExcAVR7ItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addT3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcAVR7_t3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcAVR7_t3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcAVR7_t3_feature", "_UI_ExcAVR7_type" ),
-                        CimPackage.eINSTANCE.getExcAVR7_T3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcAVR7_T3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -271,10 +348,16 @@ public class ExcAVR7ItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addT4PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcAVR7_t4_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcAVR7_t4_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcAVR7_t4_feature", "_UI_ExcAVR7_type" ),
-                        CimPackage.eINSTANCE.getExcAVR7_T4(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcAVR7_T4(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -286,10 +369,16 @@ public class ExcAVR7ItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addT5PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcAVR7_t5_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcAVR7_t5_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcAVR7_t5_feature", "_UI_ExcAVR7_type" ),
-                        CimPackage.eINSTANCE.getExcAVR7_T5(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcAVR7_T5(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -301,10 +390,16 @@ public class ExcAVR7ItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addT6PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcAVR7_t6_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcAVR7_t6_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcAVR7_t6_feature", "_UI_ExcAVR7_type" ),
-                        CimPackage.eINSTANCE.getExcAVR7_T6(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcAVR7_T6(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -316,11 +411,17 @@ public class ExcAVR7ItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addVmax1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcAVR7_vmax1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcAVR7_vmax1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcAVR7_vmax1_feature",
                                 "_UI_ExcAVR7_type" ),
-                        CimPackage.eINSTANCE.getExcAVR7_Vmax1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcAVR7_Vmax1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -332,11 +433,17 @@ public class ExcAVR7ItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addVmax3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcAVR7_vmax3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcAVR7_vmax3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcAVR7_vmax3_feature",
                                 "_UI_ExcAVR7_type" ),
-                        CimPackage.eINSTANCE.getExcAVR7_Vmax3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcAVR7_Vmax3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -348,11 +455,17 @@ public class ExcAVR7ItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addVmax5PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcAVR7_vmax5_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcAVR7_vmax5_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcAVR7_vmax5_feature",
                                 "_UI_ExcAVR7_type" ),
-                        CimPackage.eINSTANCE.getExcAVR7_Vmax5(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcAVR7_Vmax5(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -364,11 +477,17 @@ public class ExcAVR7ItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addVmin1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcAVR7_vmin1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcAVR7_vmin1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcAVR7_vmin1_feature",
                                 "_UI_ExcAVR7_type" ),
-                        CimPackage.eINSTANCE.getExcAVR7_Vmin1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcAVR7_Vmin1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -380,11 +499,17 @@ public class ExcAVR7ItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addVmin3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcAVR7_vmin3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcAVR7_vmin3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcAVR7_vmin3_feature",
                                 "_UI_ExcAVR7_type" ),
-                        CimPackage.eINSTANCE.getExcAVR7_Vmin3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcAVR7_Vmin3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -396,11 +521,17 @@ public class ExcAVR7ItemProvider extends ExcitationSystemDynamicsItemProvider {
     protected void addVmin5PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExcAVR7_vmin5_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExcAVR7_vmin5_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ExcAVR7_vmin5_feature",
                                 "_UI_ExcAVR7_type" ),
-                        CimPackage.eINSTANCE.getExcAVR7_Vmin5(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExcAVR7_Vmin5(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

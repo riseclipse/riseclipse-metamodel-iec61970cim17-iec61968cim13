@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -77,11 +82,17 @@ public class CurrentRelayItemProvider extends ProtectionEquipmentItemProvider {
     protected void addCurrentLimit1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CurrentRelay_currentLimit1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CurrentRelay_currentLimit1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CurrentRelay_currentLimit1_feature",
                                 "_UI_CurrentRelay_type" ),
-                        CimPackage.eINSTANCE.getCurrentRelay_CurrentLimit1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCurrentRelay_CurrentLimit1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,11 +104,17 @@ public class CurrentRelayItemProvider extends ProtectionEquipmentItemProvider {
     protected void addCurrentLimit2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CurrentRelay_currentLimit2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CurrentRelay_currentLimit2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CurrentRelay_currentLimit2_feature",
                                 "_UI_CurrentRelay_type" ),
-                        CimPackage.eINSTANCE.getCurrentRelay_CurrentLimit2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCurrentRelay_CurrentLimit2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -109,11 +126,17 @@ public class CurrentRelayItemProvider extends ProtectionEquipmentItemProvider {
     protected void addCurrentLimit3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CurrentRelay_currentLimit3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CurrentRelay_currentLimit3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CurrentRelay_currentLimit3_feature",
                                 "_UI_CurrentRelay_type" ),
-                        CimPackage.eINSTANCE.getCurrentRelay_CurrentLimit3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCurrentRelay_CurrentLimit3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -125,11 +148,17 @@ public class CurrentRelayItemProvider extends ProtectionEquipmentItemProvider {
     protected void addInverseTimeFlagPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CurrentRelay_inverseTimeFlag_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CurrentRelay_inverseTimeFlag_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CurrentRelay_inverseTimeFlag_feature",
                                 "_UI_CurrentRelay_type" ),
-                        CimPackage.eINSTANCE.getCurrentRelay_InverseTimeFlag(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCurrentRelay_InverseTimeFlag(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -141,11 +170,17 @@ public class CurrentRelayItemProvider extends ProtectionEquipmentItemProvider {
     protected void addTimeDelay1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CurrentRelay_timeDelay1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CurrentRelay_timeDelay1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CurrentRelay_timeDelay1_feature",
                                 "_UI_CurrentRelay_type" ),
-                        CimPackage.eINSTANCE.getCurrentRelay_TimeDelay1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCurrentRelay_TimeDelay1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -157,11 +192,17 @@ public class CurrentRelayItemProvider extends ProtectionEquipmentItemProvider {
     protected void addTimeDelay2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CurrentRelay_timeDelay2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CurrentRelay_timeDelay2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CurrentRelay_timeDelay2_feature",
                                 "_UI_CurrentRelay_type" ),
-                        CimPackage.eINSTANCE.getCurrentRelay_TimeDelay2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCurrentRelay_TimeDelay2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -173,11 +214,17 @@ public class CurrentRelayItemProvider extends ProtectionEquipmentItemProvider {
     protected void addTimeDelay3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CurrentRelay_timeDelay3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CurrentRelay_timeDelay3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CurrentRelay_timeDelay3_feature",
                                 "_UI_CurrentRelay_type" ),
-                        CimPackage.eINSTANCE.getCurrentRelay_TimeDelay3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCurrentRelay_TimeDelay3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

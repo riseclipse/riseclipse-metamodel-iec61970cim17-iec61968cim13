@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -74,13 +79,19 @@ public class DERGroupForecastItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addCapabilityKindPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_DERGroupForecast_capabilityKind_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_DERGroupForecast_capabilityKind_feature",
-                        "_UI_DERGroupForecast_type" ),
-                CimPackage.eINSTANCE.getDERGroupForecast_CapabilityKind(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_DERGroupForecast_capabilityKind_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_DERGroupForecast_capabilityKind_feature",
+                                "_UI_DERGroupForecast_type" ),
+                        CimPackage.eINSTANCE.getDERGroupForecast_CapabilityKind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -92,11 +103,17 @@ public class DERGroupForecastItemProvider extends IdentifiedObjectItemProvider {
     protected void addPredictionCreationDatePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DERGroupForecast_predictionCreationDate_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DERGroupForecast_predictionCreationDate_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_DERGroupForecast_predictionCreationDate_feature", "_UI_DERGroupForecast_type" ),
-                        CimPackage.eINSTANCE.getDERGroupForecast_PredictionCreationDate(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDERGroupForecast_PredictionCreationDate(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -108,11 +125,17 @@ public class DERGroupForecastItemProvider extends IdentifiedObjectItemProvider {
     protected void addPredictionIntervalKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DERGroupForecast_predictionIntervalKind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DERGroupForecast_predictionIntervalKind_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_DERGroupForecast_predictionIntervalKind_feature", "_UI_DERGroupForecast_type" ),
-                        CimPackage.eINSTANCE.getDERGroupForecast_PredictionIntervalKind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDERGroupForecast_PredictionIntervalKind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -122,13 +145,19 @@ public class DERGroupForecastItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addPredictionStartDatePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_DERGroupForecast_predictionStartDate_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_DERGroupForecast_predictionStartDate_feature",
-                        "_UI_DERGroupForecast_type" ),
-                CimPackage.eINSTANCE.getDERGroupForecast_PredictionStartDate(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_DERGroupForecast_predictionStartDate_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_DERGroupForecast_predictionStartDate_feature", "_UI_DERGroupForecast_type" ),
+                        CimPackage.eINSTANCE.getDERGroupForecast_PredictionStartDate(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -140,10 +169,17 @@ public class DERGroupForecastItemProvider extends IdentifiedObjectItemProvider {
     protected void addPredictionsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DERGroupForecast_Predictions_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DERGroupForecast_Predictions_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DERGroupForecast_Predictions_feature",
                                 "_UI_DERGroupForecast_type" ),
-                        CimPackage.eINSTANCE.getDERGroupForecast_Predictions(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getDERGroupForecast_Predictions(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -153,12 +189,19 @@ public class DERGroupForecastItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addEndDeviceGroupPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_DERGroupForecast_EndDeviceGroup_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_DERGroupForecast_EndDeviceGroup_feature",
-                        "_UI_DERGroupForecast_type" ),
-                CimPackage.eINSTANCE.getDERGroupForecast_EndDeviceGroup(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_DERGroupForecast_EndDeviceGroup_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_DERGroupForecast_EndDeviceGroup_feature",
+                                "_UI_DERGroupForecast_type" ),
+                        CimPackage.eINSTANCE.getDERGroupForecast_EndDeviceGroup(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

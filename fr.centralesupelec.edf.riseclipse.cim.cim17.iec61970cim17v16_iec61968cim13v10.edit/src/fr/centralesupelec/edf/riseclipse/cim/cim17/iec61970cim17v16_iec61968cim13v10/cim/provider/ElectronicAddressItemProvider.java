@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -87,11 +92,17 @@ public class ElectronicAddressItemProvider extends ItemProviderAdapter implement
     protected void addEmail1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ElectronicAddress_email1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ElectronicAddress_email1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ElectronicAddress_email1_feature",
                                 "_UI_ElectronicAddress_type" ),
-                        CimPackage.eINSTANCE.getElectronicAddress_Email1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getElectronicAddress_Email1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -103,11 +114,17 @@ public class ElectronicAddressItemProvider extends ItemProviderAdapter implement
     protected void addEmail2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ElectronicAddress_email2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ElectronicAddress_email2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ElectronicAddress_email2_feature",
                                 "_UI_ElectronicAddress_type" ),
-                        CimPackage.eINSTANCE.getElectronicAddress_Email2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getElectronicAddress_Email2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -119,11 +136,17 @@ public class ElectronicAddressItemProvider extends ItemProviderAdapter implement
     protected void addLanPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ElectronicAddress_lan_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ElectronicAddress_lan_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ElectronicAddress_lan_feature",
                                 "_UI_ElectronicAddress_type" ),
-                        CimPackage.eINSTANCE.getElectronicAddress_Lan(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getElectronicAddress_Lan(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -135,11 +158,17 @@ public class ElectronicAddressItemProvider extends ItemProviderAdapter implement
     protected void addMacPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ElectronicAddress_mac_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ElectronicAddress_mac_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ElectronicAddress_mac_feature",
                                 "_UI_ElectronicAddress_type" ),
-                        CimPackage.eINSTANCE.getElectronicAddress_Mac(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getElectronicAddress_Mac(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -151,11 +180,17 @@ public class ElectronicAddressItemProvider extends ItemProviderAdapter implement
     protected void addPasswordPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ElectronicAddress_password_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ElectronicAddress_password_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ElectronicAddress_password_feature",
                                 "_UI_ElectronicAddress_type" ),
-                        CimPackage.eINSTANCE.getElectronicAddress_Password(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getElectronicAddress_Password(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -167,11 +202,17 @@ public class ElectronicAddressItemProvider extends ItemProviderAdapter implement
     protected void addRadioPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ElectronicAddress_radio_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ElectronicAddress_radio_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ElectronicAddress_radio_feature",
                                 "_UI_ElectronicAddress_type" ),
-                        CimPackage.eINSTANCE.getElectronicAddress_Radio(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getElectronicAddress_Radio(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -183,11 +224,17 @@ public class ElectronicAddressItemProvider extends ItemProviderAdapter implement
     protected void addUserIDPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ElectronicAddress_userID_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ElectronicAddress_userID_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ElectronicAddress_userID_feature",
                                 "_UI_ElectronicAddress_type" ),
-                        CimPackage.eINSTANCE.getElectronicAddress_UserID(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getElectronicAddress_UserID(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -199,11 +246,17 @@ public class ElectronicAddressItemProvider extends ItemProviderAdapter implement
     protected void addWebPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ElectronicAddress_web_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ElectronicAddress_web_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ElectronicAddress_web_feature",
                                 "_UI_ElectronicAddress_type" ),
-                        CimPackage.eINSTANCE.getElectronicAddress_Web(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getElectronicAddress_Web(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

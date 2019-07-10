@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -77,11 +82,17 @@ public class WireSpacingItemProvider extends IdentifiedObjectItemProvider {
     protected void addIsCablePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireSpacing_isCable_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireSpacing_isCable_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireSpacing_isCable_feature",
                                 "_UI_WireSpacing_type" ),
-                        CimPackage.eINSTANCE.getWireSpacing_IsCable(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWireSpacing_IsCable(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,11 +104,17 @@ public class WireSpacingItemProvider extends IdentifiedObjectItemProvider {
     protected void addPhaseWireCountPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireSpacing_phaseWireCount_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireSpacing_phaseWireCount_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireSpacing_phaseWireCount_feature",
                                 "_UI_WireSpacing_type" ),
-                        CimPackage.eINSTANCE.getWireSpacing_PhaseWireCount(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWireSpacing_PhaseWireCount(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -109,11 +126,17 @@ public class WireSpacingItemProvider extends IdentifiedObjectItemProvider {
     protected void addPhaseWireSpacingPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireSpacing_phaseWireSpacing_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireSpacing_phaseWireSpacing_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireSpacing_phaseWireSpacing_feature",
                                 "_UI_WireSpacing_type" ),
-                        CimPackage.eINSTANCE.getWireSpacing_PhaseWireSpacing(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWireSpacing_PhaseWireSpacing(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -125,11 +148,17 @@ public class WireSpacingItemProvider extends IdentifiedObjectItemProvider {
     protected void addUsagePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireSpacing_usage_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireSpacing_usage_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireSpacing_usage_feature",
                                 "_UI_WireSpacing_type" ),
-                        CimPackage.eINSTANCE.getWireSpacing_Usage(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWireSpacing_Usage(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -141,10 +170,17 @@ public class WireSpacingItemProvider extends IdentifiedObjectItemProvider {
     protected void addStructuresPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireSpacing_Structures_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireSpacing_Structures_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireSpacing_Structures_feature",
                                 "_UI_WireSpacing_type" ),
-                        CimPackage.eINSTANCE.getWireSpacing_Structures(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getWireSpacing_Structures(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -156,10 +192,17 @@ public class WireSpacingItemProvider extends IdentifiedObjectItemProvider {
     protected void addDuctBankPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireSpacing_DuctBank_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireSpacing_DuctBank_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireSpacing_DuctBank_feature",
                                 "_UI_WireSpacing_type" ),
-                        CimPackage.eINSTANCE.getWireSpacing_DuctBank(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getWireSpacing_DuctBank(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -171,10 +214,17 @@ public class WireSpacingItemProvider extends IdentifiedObjectItemProvider {
     protected void addWirePositionsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WireSpacing_WirePositions_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WireSpacing_WirePositions_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WireSpacing_WirePositions_feature",
                                 "_UI_WireSpacing_type" ),
-                        CimPackage.eINSTANCE.getWireSpacing_WirePositions(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getWireSpacing_WirePositions(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

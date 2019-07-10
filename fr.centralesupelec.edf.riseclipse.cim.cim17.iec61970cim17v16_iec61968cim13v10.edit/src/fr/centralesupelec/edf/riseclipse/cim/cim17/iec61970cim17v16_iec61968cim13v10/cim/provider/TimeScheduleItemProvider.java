@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimFactory;
@@ -78,11 +83,17 @@ public class TimeScheduleItemProvider extends DocumentItemProvider {
     protected void addDisabledPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TimeSchedule_disabled_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TimeSchedule_disabled_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TimeSchedule_disabled_feature",
                                 "_UI_TimeSchedule_type" ),
-                        CimPackage.eINSTANCE.getTimeSchedule_Disabled(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTimeSchedule_Disabled(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,11 +105,17 @@ public class TimeScheduleItemProvider extends DocumentItemProvider {
     protected void addOffsetPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TimeSchedule_offset_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TimeSchedule_offset_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TimeSchedule_offset_feature",
                                 "_UI_TimeSchedule_type" ),
-                        CimPackage.eINSTANCE.getTimeSchedule_Offset(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTimeSchedule_Offset(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -110,11 +127,17 @@ public class TimeScheduleItemProvider extends DocumentItemProvider {
     protected void addRecurrencePatternPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TimeSchedule_recurrencePattern_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TimeSchedule_recurrencePattern_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TimeSchedule_recurrencePattern_feature",
                                 "_UI_TimeSchedule_type" ),
-                        CimPackage.eINSTANCE.getTimeSchedule_RecurrencePattern(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTimeSchedule_RecurrencePattern(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -126,11 +149,17 @@ public class TimeScheduleItemProvider extends DocumentItemProvider {
     protected void addRecurrencePeriodPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TimeSchedule_recurrencePeriod_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TimeSchedule_recurrencePeriod_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TimeSchedule_recurrencePeriod_feature",
                                 "_UI_TimeSchedule_type" ),
-                        CimPackage.eINSTANCE.getTimeSchedule_RecurrencePeriod(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTimeSchedule_RecurrencePeriod(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -142,10 +171,17 @@ public class TimeScheduleItemProvider extends DocumentItemProvider {
     protected void addTimePointsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TimeSchedule_TimePoints_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TimeSchedule_TimePoints_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TimeSchedule_TimePoints_feature",
                                 "_UI_TimeSchedule_type" ),
-                        CimPackage.eINSTANCE.getTimeSchedule_TimePoints(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getTimeSchedule_TimePoints(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -253,8 +289,8 @@ public class TimeScheduleItemProvider extends DocumentItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

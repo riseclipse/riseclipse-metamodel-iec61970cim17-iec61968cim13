@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimFactory;
@@ -93,11 +98,17 @@ public class ReadingTypeItemProvider extends IdentifiedObjectItemProvider {
     protected void addAccumulationPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ReadingType_accumulation_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ReadingType_accumulation_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ReadingType_accumulation_feature",
                                 "_UI_ReadingType_type" ),
-                        CimPackage.eINSTANCE.getReadingType_Accumulation(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getReadingType_Accumulation(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -109,11 +120,17 @@ public class ReadingTypeItemProvider extends IdentifiedObjectItemProvider {
     protected void addAggregatePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ReadingType_aggregate_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ReadingType_aggregate_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ReadingType_aggregate_feature",
                                 "_UI_ReadingType_type" ),
-                        CimPackage.eINSTANCE.getReadingType_Aggregate(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getReadingType_Aggregate(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -125,11 +142,17 @@ public class ReadingTypeItemProvider extends IdentifiedObjectItemProvider {
     protected void addCommodityPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ReadingType_commodity_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ReadingType_commodity_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ReadingType_commodity_feature",
                                 "_UI_ReadingType_type" ),
-                        CimPackage.eINSTANCE.getReadingType_Commodity(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getReadingType_Commodity(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -141,11 +164,17 @@ public class ReadingTypeItemProvider extends IdentifiedObjectItemProvider {
     protected void addConsumptionTierPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ReadingType_consumptionTier_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ReadingType_consumptionTier_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ReadingType_consumptionTier_feature",
                                 "_UI_ReadingType_type" ),
-                        CimPackage.eINSTANCE.getReadingType_ConsumptionTier(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getReadingType_ConsumptionTier(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -157,11 +186,17 @@ public class ReadingTypeItemProvider extends IdentifiedObjectItemProvider {
     protected void addCppPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ReadingType_cpp_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ReadingType_cpp_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ReadingType_cpp_feature",
                                 "_UI_ReadingType_type" ),
-                        CimPackage.eINSTANCE.getReadingType_Cpp(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getReadingType_Cpp(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -173,11 +208,17 @@ public class ReadingTypeItemProvider extends IdentifiedObjectItemProvider {
     protected void addCurrencyPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ReadingType_currency_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ReadingType_currency_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ReadingType_currency_feature",
                                 "_UI_ReadingType_type" ),
-                        CimPackage.eINSTANCE.getReadingType_Currency(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getReadingType_Currency(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -189,11 +230,17 @@ public class ReadingTypeItemProvider extends IdentifiedObjectItemProvider {
     protected void addFlowDirectionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ReadingType_flowDirection_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ReadingType_flowDirection_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ReadingType_flowDirection_feature",
                                 "_UI_ReadingType_type" ),
-                        CimPackage.eINSTANCE.getReadingType_FlowDirection(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getReadingType_FlowDirection(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -205,11 +252,17 @@ public class ReadingTypeItemProvider extends IdentifiedObjectItemProvider {
     protected void addMacroPeriodPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ReadingType_macroPeriod_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ReadingType_macroPeriod_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ReadingType_macroPeriod_feature",
                                 "_UI_ReadingType_type" ),
-                        CimPackage.eINSTANCE.getReadingType_MacroPeriod(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getReadingType_MacroPeriod(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -221,11 +274,17 @@ public class ReadingTypeItemProvider extends IdentifiedObjectItemProvider {
     protected void addMeasurementKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ReadingType_measurementKind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ReadingType_measurementKind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ReadingType_measurementKind_feature",
                                 "_UI_ReadingType_type" ),
-                        CimPackage.eINSTANCE.getReadingType_MeasurementKind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getReadingType_MeasurementKind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -237,11 +296,17 @@ public class ReadingTypeItemProvider extends IdentifiedObjectItemProvider {
     protected void addMeasuringPeriodPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ReadingType_measuringPeriod_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ReadingType_measuringPeriod_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ReadingType_measuringPeriod_feature",
                                 "_UI_ReadingType_type" ),
-                        CimPackage.eINSTANCE.getReadingType_MeasuringPeriod(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getReadingType_MeasuringPeriod(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -253,11 +318,17 @@ public class ReadingTypeItemProvider extends IdentifiedObjectItemProvider {
     protected void addMultiplierPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ReadingType_multiplier_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ReadingType_multiplier_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ReadingType_multiplier_feature",
                                 "_UI_ReadingType_type" ),
-                        CimPackage.eINSTANCE.getReadingType_Multiplier(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getReadingType_Multiplier(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -269,11 +340,17 @@ public class ReadingTypeItemProvider extends IdentifiedObjectItemProvider {
     protected void addPhasesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ReadingType_phases_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ReadingType_phases_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ReadingType_phases_feature",
                                 "_UI_ReadingType_type" ),
-                        CimPackage.eINSTANCE.getReadingType_Phases(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getReadingType_Phases(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -285,11 +362,17 @@ public class ReadingTypeItemProvider extends IdentifiedObjectItemProvider {
     protected void addTouPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ReadingType_tou_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ReadingType_tou_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ReadingType_tou_feature",
                                 "_UI_ReadingType_type" ),
-                        CimPackage.eINSTANCE.getReadingType_Tou(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getReadingType_Tou(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -301,11 +384,17 @@ public class ReadingTypeItemProvider extends IdentifiedObjectItemProvider {
     protected void addUnitPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ReadingType_unit_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ReadingType_unit_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ReadingType_unit_feature",
                                 "_UI_ReadingType_type" ),
-                        CimPackage.eINSTANCE.getReadingType_Unit(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getReadingType_Unit(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -317,10 +406,17 @@ public class ReadingTypeItemProvider extends IdentifiedObjectItemProvider {
     protected void addIntervalBlocksPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ReadingType_IntervalBlocks_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ReadingType_IntervalBlocks_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ReadingType_IntervalBlocks_feature",
                                 "_UI_ReadingType_type" ),
-                        CimPackage.eINSTANCE.getReadingType_IntervalBlocks(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getReadingType_IntervalBlocks(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -332,10 +428,17 @@ public class ReadingTypeItemProvider extends IdentifiedObjectItemProvider {
     protected void addChannelPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ReadingType_Channel_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ReadingType_Channel_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ReadingType_Channel_feature",
                                 "_UI_ReadingType_type" ),
-                        CimPackage.eINSTANCE.getReadingType_Channel(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getReadingType_Channel(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -345,13 +448,19 @@ public class ReadingTypeItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addConsumptionTariffIntervalsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ReadingType_ConsumptionTariffIntervals_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ReadingType_ConsumptionTariffIntervals_feature",
-                        "_UI_ReadingType_type" ),
-                CimPackage.eINSTANCE.getReadingType_ConsumptionTariffIntervals(), true, false, true, null, null,
-                null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ReadingType_ConsumptionTariffIntervals_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ReadingType_ConsumptionTariffIntervals_feature", "_UI_ReadingType_type" ),
+                        CimPackage.eINSTANCE.getReadingType_ConsumptionTariffIntervals(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -361,12 +470,19 @@ public class ReadingTypeItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addMetrologyRequirementsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ReadingType_MetrologyRequirements_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ReadingType_MetrologyRequirements_feature",
-                        "_UI_ReadingType_type" ),
-                CimPackage.eINSTANCE.getReadingType_MetrologyRequirements(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ReadingType_MetrologyRequirements_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ReadingType_MetrologyRequirements_feature", "_UI_ReadingType_type" ),
+                        CimPackage.eINSTANCE.getReadingType_MetrologyRequirements(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -378,10 +494,16 @@ public class ReadingTypeItemProvider extends IdentifiedObjectItemProvider {
     protected void addPendingCalculationPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ReadingType_PendingCalculation_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ReadingType_PendingCalculation_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ReadingType_PendingCalculation_feature",
                                 "_UI_ReadingType_type" ),
-                        CimPackage.eINSTANCE.getReadingType_PendingCalculation(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getReadingType_PendingCalculation(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -394,10 +516,17 @@ public class ReadingTypeItemProvider extends IdentifiedObjectItemProvider {
     protected void addReadingsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ReadingType_Readings_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ReadingType_Readings_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ReadingType_Readings_feature",
                                 "_UI_ReadingType_type" ),
-                        CimPackage.eINSTANCE.getReadingType_Readings(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getReadingType_Readings(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

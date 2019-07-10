@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -83,11 +88,17 @@ public class CustomerAgreementItemProvider extends AgreementItemProvider {
     protected void addIsPrePayPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CustomerAgreement_isPrePay_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CustomerAgreement_isPrePay_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CustomerAgreement_isPrePay_feature",
                                 "_UI_CustomerAgreement_type" ),
-                        CimPackage.eINSTANCE.getCustomerAgreement_IsPrePay(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCustomerAgreement_IsPrePay(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -99,11 +110,17 @@ public class CustomerAgreementItemProvider extends AgreementItemProvider {
     protected void addLoadMgmtPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CustomerAgreement_loadMgmt_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CustomerAgreement_loadMgmt_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CustomerAgreement_loadMgmt_feature",
                                 "_UI_CustomerAgreement_type" ),
-                        CimPackage.eINSTANCE.getCustomerAgreement_LoadMgmt(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCustomerAgreement_LoadMgmt(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -113,13 +130,19 @@ public class CustomerAgreementItemProvider extends AgreementItemProvider {
      * @generated
      */
     protected void addShutOffDateTimePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CustomerAgreement_shutOffDateTime_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CustomerAgreement_shutOffDateTime_feature",
-                        "_UI_CustomerAgreement_type" ),
-                CimPackage.eINSTANCE.getCustomerAgreement_ShutOffDateTime(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CustomerAgreement_shutOffDateTime_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_CustomerAgreement_shutOffDateTime_feature", "_UI_CustomerAgreement_type" ),
+                        CimPackage.eINSTANCE.getCustomerAgreement_ShutOffDateTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -129,12 +152,19 @@ public class CustomerAgreementItemProvider extends AgreementItemProvider {
      * @generated
      */
     protected void addPricingStructuresPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CustomerAgreement_PricingStructures_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CustomerAgreement_PricingStructures_feature",
-                        "_UI_CustomerAgreement_type" ),
-                CimPackage.eINSTANCE.getCustomerAgreement_PricingStructures(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CustomerAgreement_PricingStructures_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_CustomerAgreement_PricingStructures_feature", "_UI_CustomerAgreement_type" ),
+                        CimPackage.eINSTANCE.getCustomerAgreement_PricingStructures(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -144,12 +174,19 @@ public class CustomerAgreementItemProvider extends AgreementItemProvider {
      * @generated
      */
     protected void addMeterReadingsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CustomerAgreement_MeterReadings_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CustomerAgreement_MeterReadings_feature",
-                        "_UI_CustomerAgreement_type" ),
-                CimPackage.eINSTANCE.getCustomerAgreement_MeterReadings(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CustomerAgreement_MeterReadings_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_CustomerAgreement_MeterReadings_feature",
+                                "_UI_CustomerAgreement_type" ),
+                        CimPackage.eINSTANCE.getCustomerAgreement_MeterReadings(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -159,13 +196,19 @@ public class CustomerAgreementItemProvider extends AgreementItemProvider {
      * @generated
      */
     protected void addAuxiliaryAgreementsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CustomerAgreement_AuxiliaryAgreements_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CustomerAgreement_AuxiliaryAgreements_feature",
-                        "_UI_CustomerAgreement_type" ),
-                CimPackage.eINSTANCE.getCustomerAgreement_AuxiliaryAgreements(), true, false, true, null, null,
-                null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CustomerAgreement_AuxiliaryAgreements_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_CustomerAgreement_AuxiliaryAgreements_feature", "_UI_CustomerAgreement_type" ),
+                        CimPackage.eINSTANCE.getCustomerAgreement_AuxiliaryAgreements(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -177,10 +220,17 @@ public class CustomerAgreementItemProvider extends AgreementItemProvider {
     protected void addCustomerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CustomerAgreement_Customer_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CustomerAgreement_Customer_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CustomerAgreement_Customer_feature",
                                 "_UI_CustomerAgreement_type" ),
-                        CimPackage.eINSTANCE.getCustomerAgreement_Customer(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCustomerAgreement_Customer(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -192,10 +242,16 @@ public class CustomerAgreementItemProvider extends AgreementItemProvider {
     protected void addUsagePointsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CustomerAgreement_UsagePoints_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CustomerAgreement_UsagePoints_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CustomerAgreement_UsagePoints_feature",
                                 "_UI_CustomerAgreement_type" ),
-                        CimPackage.eINSTANCE.getCustomerAgreement_UsagePoints(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getCustomerAgreement_UsagePoints(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -206,12 +262,19 @@ public class CustomerAgreementItemProvider extends AgreementItemProvider {
      * @generated
      */
     protected void addCustomerAccountPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CustomerAgreement_CustomerAccount_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CustomerAgreement_CustomerAccount_feature",
-                        "_UI_CustomerAgreement_type" ),
-                CimPackage.eINSTANCE.getCustomerAgreement_CustomerAccount(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CustomerAgreement_CustomerAccount_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_CustomerAgreement_CustomerAccount_feature", "_UI_CustomerAgreement_type" ),
+                        CimPackage.eINSTANCE.getCustomerAgreement_CustomerAccount(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -221,12 +284,19 @@ public class CustomerAgreementItemProvider extends AgreementItemProvider {
      * @generated
      */
     protected void addServiceSupplierPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CustomerAgreement_ServiceSupplier_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CustomerAgreement_ServiceSupplier_feature",
-                        "_UI_CustomerAgreement_type" ),
-                CimPackage.eINSTANCE.getCustomerAgreement_ServiceSupplier(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CustomerAgreement_ServiceSupplier_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_CustomerAgreement_ServiceSupplier_feature", "_UI_CustomerAgreement_type" ),
+                        CimPackage.eINSTANCE.getCustomerAgreement_ServiceSupplier(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -238,11 +308,17 @@ public class CustomerAgreementItemProvider extends AgreementItemProvider {
     protected void addDemandResponseProgramsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CustomerAgreement_DemandResponsePrograms_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CustomerAgreement_DemandResponsePrograms_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_CustomerAgreement_DemandResponsePrograms_feature", "_UI_CustomerAgreement_type" ),
-                        CimPackage.eINSTANCE.getCustomerAgreement_DemandResponsePrograms(), true, false, true, null,
-                        null, null ) );
+                        CimPackage.eINSTANCE.getCustomerAgreement_DemandResponsePrograms(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -252,12 +328,19 @@ public class CustomerAgreementItemProvider extends AgreementItemProvider {
      * @generated
      */
     protected void addServiceLocationsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CustomerAgreement_ServiceLocations_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CustomerAgreement_ServiceLocations_feature",
-                        "_UI_CustomerAgreement_type" ),
-                CimPackage.eINSTANCE.getCustomerAgreement_ServiceLocations(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CustomerAgreement_ServiceLocations_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_CustomerAgreement_ServiceLocations_feature", "_UI_CustomerAgreement_type" ),
+                        CimPackage.eINSTANCE.getCustomerAgreement_ServiceLocations(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -267,12 +350,19 @@ public class CustomerAgreementItemProvider extends AgreementItemProvider {
      * @generated
      */
     protected void addServiceCategoryPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CustomerAgreement_ServiceCategory_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CustomerAgreement_ServiceCategory_feature",
-                        "_UI_CustomerAgreement_type" ),
-                CimPackage.eINSTANCE.getCustomerAgreement_ServiceCategory(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CustomerAgreement_ServiceCategory_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_CustomerAgreement_ServiceCategory_feature", "_UI_CustomerAgreement_type" ),
+                        CimPackage.eINSTANCE.getCustomerAgreement_ServiceCategory(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -343,8 +433,8 @@ public class CustomerAgreementItemProvider extends AgreementItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

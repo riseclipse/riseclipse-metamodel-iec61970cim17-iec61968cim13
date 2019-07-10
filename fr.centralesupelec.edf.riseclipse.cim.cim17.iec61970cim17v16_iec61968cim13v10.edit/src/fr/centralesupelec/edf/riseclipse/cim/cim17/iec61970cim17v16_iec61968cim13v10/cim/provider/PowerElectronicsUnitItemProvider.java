@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -73,11 +78,17 @@ public class PowerElectronicsUnitItemProvider extends EquipmentItemProvider {
     protected void addMaxPPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PowerElectronicsUnit_maxP_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PowerElectronicsUnit_maxP_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PowerElectronicsUnit_maxP_feature",
                                 "_UI_PowerElectronicsUnit_type" ),
-                        CimPackage.eINSTANCE.getPowerElectronicsUnit_MaxP(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPowerElectronicsUnit_MaxP(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -89,11 +100,17 @@ public class PowerElectronicsUnitItemProvider extends EquipmentItemProvider {
     protected void addMinPPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PowerElectronicsUnit_minP_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PowerElectronicsUnit_minP_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PowerElectronicsUnit_minP_feature",
                                 "_UI_PowerElectronicsUnit_type" ),
-                        CimPackage.eINSTANCE.getPowerElectronicsUnit_MinP(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPowerElectronicsUnit_MinP(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -103,14 +120,20 @@ public class PowerElectronicsUnitItemProvider extends EquipmentItemProvider {
      * @generated
      */
     protected void addPowerElectronicsConnectionPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PowerElectronicsUnit_PowerElectronicsConnection_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_PowerElectronicsUnit_PowerElectronicsConnection_feature",
-                        "_UI_PowerElectronicsUnit_type" ),
-                CimPackage.eINSTANCE.getPowerElectronicsUnit_PowerElectronicsConnection(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PowerElectronicsUnit_PowerElectronicsConnection_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PowerElectronicsUnit_PowerElectronicsConnection_feature",
+                                "_UI_PowerElectronicsUnit_type" ),
+                        CimPackage.eINSTANCE.getPowerElectronicsUnit_PowerElectronicsConnection(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

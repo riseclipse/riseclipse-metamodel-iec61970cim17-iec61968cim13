@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -81,11 +86,17 @@ public class GovGAST4ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addBpPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovGAST4_bp_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovGAST4_bp_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovGAST4_bp_feature",
                                 "_UI_GovGAST4_type" ),
-                        CimPackage.eINSTANCE.getGovGAST4_Bp(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovGAST4_Bp(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -97,11 +108,17 @@ public class GovGAST4ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addKtmPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovGAST4_ktm_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovGAST4_ktm_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovGAST4_ktm_feature",
                                 "_UI_GovGAST4_type" ),
-                        CimPackage.eINSTANCE.getGovGAST4_Ktm(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovGAST4_Ktm(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -113,11 +130,17 @@ public class GovGAST4ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addMnefPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovGAST4_mnef_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovGAST4_mnef_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovGAST4_mnef_feature",
                                 "_UI_GovGAST4_type" ),
-                        CimPackage.eINSTANCE.getGovGAST4_Mnef(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovGAST4_Mnef(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -129,11 +152,17 @@ public class GovGAST4ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addMxefPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovGAST4_mxef_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovGAST4_mxef_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovGAST4_mxef_feature",
                                 "_UI_GovGAST4_type" ),
-                        CimPackage.eINSTANCE.getGovGAST4_Mxef(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovGAST4_Mxef(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -145,11 +174,17 @@ public class GovGAST4ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addRymnPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovGAST4_rymn_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovGAST4_rymn_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovGAST4_rymn_feature",
                                 "_UI_GovGAST4_type" ),
-                        CimPackage.eINSTANCE.getGovGAST4_Rymn(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovGAST4_Rymn(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -161,11 +196,17 @@ public class GovGAST4ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addRymxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovGAST4_rymx_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovGAST4_rymx_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovGAST4_rymx_feature",
                                 "_UI_GovGAST4_type" ),
-                        CimPackage.eINSTANCE.getGovGAST4_Rymx(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovGAST4_Rymx(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -177,11 +218,17 @@ public class GovGAST4ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addTaPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovGAST4_ta_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovGAST4_ta_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovGAST4_ta_feature",
                                 "_UI_GovGAST4_type" ),
-                        CimPackage.eINSTANCE.getGovGAST4_Ta(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovGAST4_Ta(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -193,11 +240,17 @@ public class GovGAST4ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addTcPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovGAST4_tc_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovGAST4_tc_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovGAST4_tc_feature",
                                 "_UI_GovGAST4_type" ),
-                        CimPackage.eINSTANCE.getGovGAST4_Tc(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovGAST4_Tc(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -209,11 +262,17 @@ public class GovGAST4ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addTcmPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovGAST4_tcm_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovGAST4_tcm_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovGAST4_tcm_feature",
                                 "_UI_GovGAST4_type" ),
-                        CimPackage.eINSTANCE.getGovGAST4_Tcm(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovGAST4_Tcm(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -225,11 +284,17 @@ public class GovGAST4ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addTmPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovGAST4_tm_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovGAST4_tm_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovGAST4_tm_feature",
                                 "_UI_GovGAST4_type" ),
-                        CimPackage.eINSTANCE.getGovGAST4_Tm(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovGAST4_Tm(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -241,11 +306,17 @@ public class GovGAST4ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addTvPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovGAST4_tv_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovGAST4_tv_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovGAST4_tv_feature",
                                 "_UI_GovGAST4_type" ),
-                        CimPackage.eINSTANCE.getGovGAST4_Tv(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovGAST4_Tv(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

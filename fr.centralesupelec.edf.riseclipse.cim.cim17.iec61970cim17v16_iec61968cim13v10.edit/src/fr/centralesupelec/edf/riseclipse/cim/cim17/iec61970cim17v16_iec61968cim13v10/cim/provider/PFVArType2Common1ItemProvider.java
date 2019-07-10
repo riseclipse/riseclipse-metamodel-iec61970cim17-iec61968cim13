@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -75,11 +80,17 @@ public class PFVArType2Common1ItemProvider extends PFVArControllerType2DynamicsI
     protected void addJPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PFVArType2Common1_j_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PFVArType2Common1_j_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PFVArType2Common1_j_feature",
                                 "_UI_PFVArType2Common1_type" ),
-                        CimPackage.eINSTANCE.getPFVArType2Common1_J(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPFVArType2Common1_J(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -91,11 +102,17 @@ public class PFVArType2Common1ItemProvider extends PFVArControllerType2DynamicsI
     protected void addKiPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PFVArType2Common1_ki_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PFVArType2Common1_ki_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PFVArType2Common1_ki_feature",
                                 "_UI_PFVArType2Common1_type" ),
-                        CimPackage.eINSTANCE.getPFVArType2Common1_Ki(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPFVArType2Common1_Ki(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -107,11 +124,17 @@ public class PFVArType2Common1ItemProvider extends PFVArControllerType2DynamicsI
     protected void addKpPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PFVArType2Common1_kp_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PFVArType2Common1_kp_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PFVArType2Common1_kp_feature",
                                 "_UI_PFVArType2Common1_type" ),
-                        CimPackage.eINSTANCE.getPFVArType2Common1_Kp(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPFVArType2Common1_Kp(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -123,11 +146,17 @@ public class PFVArType2Common1ItemProvider extends PFVArControllerType2DynamicsI
     protected void addMaxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PFVArType2Common1_max_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PFVArType2Common1_max_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PFVArType2Common1_max_feature",
                                 "_UI_PFVArType2Common1_type" ),
-                        CimPackage.eINSTANCE.getPFVArType2Common1_Max(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPFVArType2Common1_Max(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -139,11 +168,17 @@ public class PFVArType2Common1ItemProvider extends PFVArControllerType2DynamicsI
     protected void addRefPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PFVArType2Common1_ref_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PFVArType2Common1_ref_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PFVArType2Common1_ref_feature",
                                 "_UI_PFVArType2Common1_type" ),
-                        CimPackage.eINSTANCE.getPFVArType2Common1_Ref(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPFVArType2Common1_Ref(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

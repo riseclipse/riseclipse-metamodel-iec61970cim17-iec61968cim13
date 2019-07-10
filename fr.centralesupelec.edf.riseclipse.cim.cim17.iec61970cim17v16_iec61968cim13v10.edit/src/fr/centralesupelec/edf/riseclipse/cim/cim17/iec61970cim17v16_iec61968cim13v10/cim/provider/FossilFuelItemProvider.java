@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -82,11 +87,17 @@ public class FossilFuelItemProvider extends IdentifiedObjectItemProvider {
     protected void addFossilFuelTypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FossilFuel_fossilFuelType_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FossilFuel_fossilFuelType_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FossilFuel_fossilFuelType_feature",
                                 "_UI_FossilFuel_type" ),
-                        CimPackage.eINSTANCE.getFossilFuel_FossilFuelType(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFossilFuel_FossilFuelType(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -98,11 +109,17 @@ public class FossilFuelItemProvider extends IdentifiedObjectItemProvider {
     protected void addFuelCostPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FossilFuel_fuelCost_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FossilFuel_fuelCost_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FossilFuel_fuelCost_feature",
                                 "_UI_FossilFuel_type" ),
-                        CimPackage.eINSTANCE.getFossilFuel_FuelCost(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFossilFuel_FuelCost(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,11 +131,17 @@ public class FossilFuelItemProvider extends IdentifiedObjectItemProvider {
     protected void addFuelDispatchCostPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FossilFuel_fuelDispatchCost_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FossilFuel_fuelDispatchCost_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FossilFuel_fuelDispatchCost_feature",
                                 "_UI_FossilFuel_type" ),
-                        CimPackage.eINSTANCE.getFossilFuel_FuelDispatchCost(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFossilFuel_FuelDispatchCost(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -130,11 +153,17 @@ public class FossilFuelItemProvider extends IdentifiedObjectItemProvider {
     protected void addFuelEffFactorPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FossilFuel_fuelEffFactor_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FossilFuel_fuelEffFactor_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FossilFuel_fuelEffFactor_feature",
                                 "_UI_FossilFuel_type" ),
-                        CimPackage.eINSTANCE.getFossilFuel_FuelEffFactor(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFossilFuel_FuelEffFactor(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -146,11 +175,17 @@ public class FossilFuelItemProvider extends IdentifiedObjectItemProvider {
     protected void addFuelHandlingCostPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FossilFuel_fuelHandlingCost_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FossilFuel_fuelHandlingCost_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FossilFuel_fuelHandlingCost_feature",
                                 "_UI_FossilFuel_type" ),
-                        CimPackage.eINSTANCE.getFossilFuel_FuelHandlingCost(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFossilFuel_FuelHandlingCost(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -162,11 +197,17 @@ public class FossilFuelItemProvider extends IdentifiedObjectItemProvider {
     protected void addFuelHeatContentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FossilFuel_fuelHeatContent_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FossilFuel_fuelHeatContent_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FossilFuel_fuelHeatContent_feature",
                                 "_UI_FossilFuel_type" ),
-                        CimPackage.eINSTANCE.getFossilFuel_FuelHeatContent(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFossilFuel_FuelHeatContent(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -178,11 +219,17 @@ public class FossilFuelItemProvider extends IdentifiedObjectItemProvider {
     protected void addFuelMixturePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FossilFuel_fuelMixture_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FossilFuel_fuelMixture_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FossilFuel_fuelMixture_feature",
                                 "_UI_FossilFuel_type" ),
-                        CimPackage.eINSTANCE.getFossilFuel_FuelMixture(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFossilFuel_FuelMixture(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -194,11 +241,17 @@ public class FossilFuelItemProvider extends IdentifiedObjectItemProvider {
     protected void addFuelSulfurPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FossilFuel_fuelSulfur_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FossilFuel_fuelSulfur_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FossilFuel_fuelSulfur_feature",
                                 "_UI_FossilFuel_type" ),
-                        CimPackage.eINSTANCE.getFossilFuel_FuelSulfur(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFossilFuel_FuelSulfur(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -210,11 +263,17 @@ public class FossilFuelItemProvider extends IdentifiedObjectItemProvider {
     protected void addHighBreakpointPPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FossilFuel_highBreakpointP_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FossilFuel_highBreakpointP_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FossilFuel_highBreakpointP_feature",
                                 "_UI_FossilFuel_type" ),
-                        CimPackage.eINSTANCE.getFossilFuel_HighBreakpointP(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFossilFuel_HighBreakpointP(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -226,11 +285,17 @@ public class FossilFuelItemProvider extends IdentifiedObjectItemProvider {
     protected void addLowBreakpointPPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FossilFuel_lowBreakpointP_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FossilFuel_lowBreakpointP_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FossilFuel_lowBreakpointP_feature",
                                 "_UI_FossilFuel_type" ),
-                        CimPackage.eINSTANCE.getFossilFuel_LowBreakpointP(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getFossilFuel_LowBreakpointP(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -242,10 +307,16 @@ public class FossilFuelItemProvider extends IdentifiedObjectItemProvider {
     protected void addThermalGeneratingUnitPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_FossilFuel_ThermalGeneratingUnit_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_FossilFuel_ThermalGeneratingUnit_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_FossilFuel_ThermalGeneratingUnit_feature",
                                 "_UI_FossilFuel_type" ),
-                        CimPackage.eINSTANCE.getFossilFuel_ThermalGeneratingUnit(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getFossilFuel_ThermalGeneratingUnit(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -256,12 +327,19 @@ public class FossilFuelItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addFuelAllocationSchedulesPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_FossilFuel_FuelAllocationSchedules_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_FossilFuel_FuelAllocationSchedules_feature",
-                        "_UI_FossilFuel_type" ),
-                CimPackage.eINSTANCE.getFossilFuel_FuelAllocationSchedules(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_FossilFuel_FuelAllocationSchedules_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_FossilFuel_FuelAllocationSchedules_feature", "_UI_FossilFuel_type" ),
+                        CimPackage.eINSTANCE.getFossilFuel_FuelAllocationSchedules(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

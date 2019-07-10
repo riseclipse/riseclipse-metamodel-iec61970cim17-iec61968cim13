@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -74,12 +79,18 @@ public class ReactiveCapabilityCurveItemProvider extends CurveItemProvider {
      */
     protected void addCoolantTemperaturePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ReactiveCapabilityCurve_coolantTemperature_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_ReactiveCapabilityCurve_coolantTemperature_feature", "_UI_ReactiveCapabilityCurve_type" ),
-                CimPackage.eINSTANCE.getReactiveCapabilityCurve_CoolantTemperature(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getReactiveCapabilityCurve_CoolantTemperature(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -90,12 +101,18 @@ public class ReactiveCapabilityCurveItemProvider extends CurveItemProvider {
      */
     protected void addHydrogenPressurePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ReactiveCapabilityCurve_hydrogenPressure_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ReactiveCapabilityCurve_hydrogenPressure_feature",
                         "_UI_ReactiveCapabilityCurve_type" ),
-                CimPackage.eINSTANCE.getReactiveCapabilityCurve_HydrogenPressure(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getReactiveCapabilityCurve_HydrogenPressure(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -106,11 +123,17 @@ public class ReactiveCapabilityCurveItemProvider extends CurveItemProvider {
      */
     protected void addEquivalentInjectionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ReactiveCapabilityCurve_EquivalentInjection_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_ReactiveCapabilityCurve_EquivalentInjection_feature", "_UI_ReactiveCapabilityCurve_type" ),
-                CimPackage.eINSTANCE.getReactiveCapabilityCurve_EquivalentInjection(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getReactiveCapabilityCurve_EquivalentInjection(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -121,14 +144,20 @@ public class ReactiveCapabilityCurveItemProvider extends CurveItemProvider {
      * @generated
      */
     protected void addInitiallyUsedBySynchronousMachinesPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ReactiveCapabilityCurve_InitiallyUsedBySynchronousMachines_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_ReactiveCapabilityCurve_InitiallyUsedBySynchronousMachines_feature",
-                        "_UI_ReactiveCapabilityCurve_type" ),
-                CimPackage.eINSTANCE.getReactiveCapabilityCurve_InitiallyUsedBySynchronousMachines(), true, false, true,
-                null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ReactiveCapabilityCurve_InitiallyUsedBySynchronousMachines_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ReactiveCapabilityCurve_InitiallyUsedBySynchronousMachines_feature",
+                                "_UI_ReactiveCapabilityCurve_type" ),
+                        CimPackage.eINSTANCE.getReactiveCapabilityCurve_InitiallyUsedBySynchronousMachines(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -139,11 +168,17 @@ public class ReactiveCapabilityCurveItemProvider extends CurveItemProvider {
      */
     protected void addSynchronousMachinesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ReactiveCapabilityCurve_SynchronousMachines_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_ReactiveCapabilityCurve_SynchronousMachines_feature", "_UI_ReactiveCapabilityCurve_type" ),
-                CimPackage.eINSTANCE.getReactiveCapabilityCurve_SynchronousMachines(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getReactiveCapabilityCurve_SynchronousMachines(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 

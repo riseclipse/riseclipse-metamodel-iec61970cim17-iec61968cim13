@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -77,14 +82,20 @@ public class PowerTransformerItemProvider extends ConductingEquipmentItemProvide
      * @generated
      */
     protected void addBeforeShCircuitHighestOperatingCurrentPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PowerTransformer_beforeShCircuitHighestOperatingCurrent_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_PowerTransformer_beforeShCircuitHighestOperatingCurrent_feature",
-                        "_UI_PowerTransformer_type" ),
-                CimPackage.eINSTANCE.getPowerTransformer_BeforeShCircuitHighestOperatingCurrent(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PowerTransformer_beforeShCircuitHighestOperatingCurrent_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PowerTransformer_beforeShCircuitHighestOperatingCurrent_feature",
+                                "_UI_PowerTransformer_type" ),
+                        CimPackage.eINSTANCE.getPowerTransformer_BeforeShCircuitHighestOperatingCurrent(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -94,14 +105,20 @@ public class PowerTransformerItemProvider extends ConductingEquipmentItemProvide
      * @generated
      */
     protected void addBeforeShCircuitHighestOperatingVoltagePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PowerTransformer_beforeShCircuitHighestOperatingVoltage_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_PowerTransformer_beforeShCircuitHighestOperatingVoltage_feature",
-                        "_UI_PowerTransformer_type" ),
-                CimPackage.eINSTANCE.getPowerTransformer_BeforeShCircuitHighestOperatingVoltage(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PowerTransformer_beforeShCircuitHighestOperatingVoltage_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PowerTransformer_beforeShCircuitHighestOperatingVoltage_feature",
+                                "_UI_PowerTransformer_type" ),
+                        CimPackage.eINSTANCE.getPowerTransformer_BeforeShCircuitHighestOperatingVoltage(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -113,11 +130,17 @@ public class PowerTransformerItemProvider extends ConductingEquipmentItemProvide
     protected void addBeforeShortCircuitAnglePfPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PowerTransformer_beforeShortCircuitAnglePf_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PowerTransformer_beforeShortCircuitAnglePf_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_PowerTransformer_beforeShortCircuitAnglePf_feature", "_UI_PowerTransformer_type" ),
-                        CimPackage.eINSTANCE.getPowerTransformer_BeforeShortCircuitAnglePf(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPowerTransformer_BeforeShortCircuitAnglePf(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -127,13 +150,19 @@ public class PowerTransformerItemProvider extends ConductingEquipmentItemProvide
      * @generated
      */
     protected void addHighSideMinOperatingUPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PowerTransformer_highSideMinOperatingU_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PowerTransformer_highSideMinOperatingU_feature",
-                        "_UI_PowerTransformer_type" ),
-                CimPackage.eINSTANCE.getPowerTransformer_HighSideMinOperatingU(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PowerTransformer_highSideMinOperatingU_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PowerTransformer_highSideMinOperatingU_feature", "_UI_PowerTransformer_type" ),
+                        CimPackage.eINSTANCE.getPowerTransformer_HighSideMinOperatingU(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -143,13 +172,19 @@ public class PowerTransformerItemProvider extends ConductingEquipmentItemProvide
      * @generated
      */
     protected void addIsPartOfGeneratorUnitPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PowerTransformer_isPartOfGeneratorUnit_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PowerTransformer_isPartOfGeneratorUnit_feature",
-                        "_UI_PowerTransformer_type" ),
-                CimPackage.eINSTANCE.getPowerTransformer_IsPartOfGeneratorUnit(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PowerTransformer_isPartOfGeneratorUnit_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PowerTransformer_isPartOfGeneratorUnit_feature", "_UI_PowerTransformer_type" ),
+                        CimPackage.eINSTANCE.getPowerTransformer_IsPartOfGeneratorUnit(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -160,12 +195,18 @@ public class PowerTransformerItemProvider extends ConductingEquipmentItemProvide
      */
     protected void addOperationalValuesConsideredPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_PowerTransformer_operationalValuesConsidered_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_PowerTransformer_operationalValuesConsidered_feature", "_UI_PowerTransformer_type" ),
-                CimPackage.eINSTANCE.getPowerTransformer_OperationalValuesConsidered(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getPowerTransformer_OperationalValuesConsidered(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -177,11 +218,17 @@ public class PowerTransformerItemProvider extends ConductingEquipmentItemProvide
     protected void addVectorGroupPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_PowerTransformer_vectorGroup_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_PowerTransformer_vectorGroup_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_PowerTransformer_vectorGroup_feature",
                                 "_UI_PowerTransformer_type" ),
-                        CimPackage.eINSTANCE.getPowerTransformer_VectorGroup(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getPowerTransformer_VectorGroup(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -191,12 +238,19 @@ public class PowerTransformerItemProvider extends ConductingEquipmentItemProvide
      * @generated
      */
     protected void addPowerTransformerEndPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PowerTransformer_PowerTransformerEnd_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PowerTransformer_PowerTransformerEnd_feature",
-                        "_UI_PowerTransformer_type" ),
-                CimPackage.eINSTANCE.getPowerTransformer_PowerTransformerEnd(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PowerTransformer_PowerTransformerEnd_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PowerTransformer_PowerTransformerEnd_feature", "_UI_PowerTransformer_type" ),
+                        CimPackage.eINSTANCE.getPowerTransformer_PowerTransformerEnd(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -206,12 +260,19 @@ public class PowerTransformerItemProvider extends ConductingEquipmentItemProvide
      * @generated
      */
     protected void addTransformerTanksPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_PowerTransformer_TransformerTanks_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_PowerTransformer_TransformerTanks_feature",
-                        "_UI_PowerTransformer_type" ),
-                CimPackage.eINSTANCE.getPowerTransformer_TransformerTanks(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_PowerTransformer_TransformerTanks_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_PowerTransformer_TransformerTanks_feature", "_UI_PowerTransformer_type" ),
+                        CimPackage.eINSTANCE.getPowerTransformer_TransformerTanks(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

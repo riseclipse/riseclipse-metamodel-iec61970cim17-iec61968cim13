@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -82,11 +87,17 @@ public class TurbLCFB1ItemProvider extends TurbineLoadControllerDynamicsItemProv
     protected void addDbPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TurbLCFB1_db_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TurbLCFB1_db_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TurbLCFB1_db_feature",
                                 "_UI_TurbLCFB1_type" ),
-                        CimPackage.eINSTANCE.getTurbLCFB1_Db(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTurbLCFB1_Db(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -98,11 +109,17 @@ public class TurbLCFB1ItemProvider extends TurbineLoadControllerDynamicsItemProv
     protected void addEmaxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TurbLCFB1_emax_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TurbLCFB1_emax_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TurbLCFB1_emax_feature",
                                 "_UI_TurbLCFB1_type" ),
-                        CimPackage.eINSTANCE.getTurbLCFB1_Emax(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTurbLCFB1_Emax(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,11 +131,17 @@ public class TurbLCFB1ItemProvider extends TurbineLoadControllerDynamicsItemProv
     protected void addFbPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TurbLCFB1_fb_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TurbLCFB1_fb_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TurbLCFB1_fb_feature",
                                 "_UI_TurbLCFB1_type" ),
-                        CimPackage.eINSTANCE.getTurbLCFB1_Fb(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTurbLCFB1_Fb(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -130,11 +153,17 @@ public class TurbLCFB1ItemProvider extends TurbineLoadControllerDynamicsItemProv
     protected void addFbfPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TurbLCFB1_fbf_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TurbLCFB1_fbf_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TurbLCFB1_fbf_feature",
                                 "_UI_TurbLCFB1_type" ),
-                        CimPackage.eINSTANCE.getTurbLCFB1_Fbf(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTurbLCFB1_Fbf(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -146,11 +175,17 @@ public class TurbLCFB1ItemProvider extends TurbineLoadControllerDynamicsItemProv
     protected void addIrmaxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TurbLCFB1_irmax_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TurbLCFB1_irmax_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TurbLCFB1_irmax_feature",
                                 "_UI_TurbLCFB1_type" ),
-                        CimPackage.eINSTANCE.getTurbLCFB1_Irmax(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTurbLCFB1_Irmax(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -162,11 +197,17 @@ public class TurbLCFB1ItemProvider extends TurbineLoadControllerDynamicsItemProv
     protected void addKiPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TurbLCFB1_ki_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TurbLCFB1_ki_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TurbLCFB1_ki_feature",
                                 "_UI_TurbLCFB1_type" ),
-                        CimPackage.eINSTANCE.getTurbLCFB1_Ki(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTurbLCFB1_Ki(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -178,11 +219,17 @@ public class TurbLCFB1ItemProvider extends TurbineLoadControllerDynamicsItemProv
     protected void addKpPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TurbLCFB1_kp_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TurbLCFB1_kp_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TurbLCFB1_kp_feature",
                                 "_UI_TurbLCFB1_type" ),
-                        CimPackage.eINSTANCE.getTurbLCFB1_Kp(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTurbLCFB1_Kp(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -194,11 +241,17 @@ public class TurbLCFB1ItemProvider extends TurbineLoadControllerDynamicsItemProv
     protected void addMwbasePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TurbLCFB1_mwbase_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TurbLCFB1_mwbase_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TurbLCFB1_mwbase_feature",
                                 "_UI_TurbLCFB1_type" ),
-                        CimPackage.eINSTANCE.getTurbLCFB1_Mwbase(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTurbLCFB1_Mwbase(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -210,11 +263,17 @@ public class TurbLCFB1ItemProvider extends TurbineLoadControllerDynamicsItemProv
     protected void addPbfPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TurbLCFB1_pbf_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TurbLCFB1_pbf_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TurbLCFB1_pbf_feature",
                                 "_UI_TurbLCFB1_type" ),
-                        CimPackage.eINSTANCE.getTurbLCFB1_Pbf(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTurbLCFB1_Pbf(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -226,11 +285,17 @@ public class TurbLCFB1ItemProvider extends TurbineLoadControllerDynamicsItemProv
     protected void addPmwsetPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TurbLCFB1_pmwset_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TurbLCFB1_pmwset_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TurbLCFB1_pmwset_feature",
                                 "_UI_TurbLCFB1_type" ),
-                        CimPackage.eINSTANCE.getTurbLCFB1_Pmwset(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTurbLCFB1_Pmwset(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -242,11 +307,17 @@ public class TurbLCFB1ItemProvider extends TurbineLoadControllerDynamicsItemProv
     protected void addSpeedReferenceGovernorPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TurbLCFB1_speedReferenceGovernor_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TurbLCFB1_speedReferenceGovernor_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TurbLCFB1_speedReferenceGovernor_feature",
                                 "_UI_TurbLCFB1_type" ),
-                        CimPackage.eINSTANCE.getTurbLCFB1_SpeedReferenceGovernor(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTurbLCFB1_SpeedReferenceGovernor(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -258,11 +329,17 @@ public class TurbLCFB1ItemProvider extends TurbineLoadControllerDynamicsItemProv
     protected void addTpelecPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_TurbLCFB1_tpelec_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_TurbLCFB1_tpelec_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_TurbLCFB1_tpelec_feature",
                                 "_UI_TurbLCFB1_type" ),
-                        CimPackage.eINSTANCE.getTurbLCFB1_Tpelec(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getTurbLCFB1_Tpelec(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

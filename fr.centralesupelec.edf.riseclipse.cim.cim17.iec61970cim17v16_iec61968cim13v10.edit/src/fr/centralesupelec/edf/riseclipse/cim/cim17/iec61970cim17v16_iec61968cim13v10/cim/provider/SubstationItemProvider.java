@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -72,10 +77,17 @@ public class SubstationItemProvider extends EquipmentContainerItemProvider {
     protected void addRegionPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Substation_Region_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Substation_Region_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Substation_Region_feature",
                                 "_UI_Substation_type" ),
-                        CimPackage.eINSTANCE.getSubstation_Region(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSubstation_Region(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -87,10 +99,17 @@ public class SubstationItemProvider extends EquipmentContainerItemProvider {
     protected void addDCConverterUnitPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Substation_DCConverterUnit_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Substation_DCConverterUnit_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Substation_DCConverterUnit_feature",
                                 "_UI_Substation_type" ),
-                        CimPackage.eINSTANCE.getSubstation_DCConverterUnit(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSubstation_DCConverterUnit(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -102,10 +121,17 @@ public class SubstationItemProvider extends EquipmentContainerItemProvider {
     protected void addVoltageLevelsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Substation_VoltageLevels_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Substation_VoltageLevels_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Substation_VoltageLevels_feature",
                                 "_UI_Substation_type" ),
-                        CimPackage.eINSTANCE.getSubstation_VoltageLevels(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSubstation_VoltageLevels(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -117,10 +143,17 @@ public class SubstationItemProvider extends EquipmentContainerItemProvider {
     protected void addBaysPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Substation_Bays_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Substation_Bays_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Substation_Bays_feature",
                                 "_UI_Substation_type" ),
-                        CimPackage.eINSTANCE.getSubstation_Bays(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getSubstation_Bays(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -157,7 +190,6 @@ public class SubstationItemProvider extends EquipmentContainerItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

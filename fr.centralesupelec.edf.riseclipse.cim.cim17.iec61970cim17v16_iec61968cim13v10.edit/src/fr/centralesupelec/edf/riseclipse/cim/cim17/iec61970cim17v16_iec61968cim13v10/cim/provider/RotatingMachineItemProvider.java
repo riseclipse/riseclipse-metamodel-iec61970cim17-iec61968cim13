@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -77,11 +82,17 @@ public class RotatingMachineItemProvider extends RegulatingCondEqItemProvider {
     protected void addPPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RotatingMachine_p_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RotatingMachine_p_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RotatingMachine_p_feature",
                                 "_UI_RotatingMachine_type" ),
-                        CimPackage.eINSTANCE.getRotatingMachine_P(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getRotatingMachine_P(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,11 +104,17 @@ public class RotatingMachineItemProvider extends RegulatingCondEqItemProvider {
     protected void addQPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RotatingMachine_q_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RotatingMachine_q_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RotatingMachine_q_feature",
                                 "_UI_RotatingMachine_type" ),
-                        CimPackage.eINSTANCE.getRotatingMachine_Q(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getRotatingMachine_Q(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -107,13 +124,19 @@ public class RotatingMachineItemProvider extends RegulatingCondEqItemProvider {
      * @generated
      */
     protected void addRatedPowerFactorPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_RotatingMachine_ratedPowerFactor_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_RotatingMachine_ratedPowerFactor_feature",
-                        "_UI_RotatingMachine_type" ),
-                CimPackage.eINSTANCE.getRotatingMachine_RatedPowerFactor(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_RotatingMachine_ratedPowerFactor_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_RotatingMachine_ratedPowerFactor_feature",
+                                "_UI_RotatingMachine_type" ),
+                        CimPackage.eINSTANCE.getRotatingMachine_RatedPowerFactor(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -125,11 +148,17 @@ public class RotatingMachineItemProvider extends RegulatingCondEqItemProvider {
     protected void addRatedSPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RotatingMachine_ratedS_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RotatingMachine_ratedS_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RotatingMachine_ratedS_feature",
                                 "_UI_RotatingMachine_type" ),
-                        CimPackage.eINSTANCE.getRotatingMachine_RatedS(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getRotatingMachine_RatedS(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -141,11 +170,17 @@ public class RotatingMachineItemProvider extends RegulatingCondEqItemProvider {
     protected void addRatedUPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RotatingMachine_ratedU_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RotatingMachine_ratedU_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RotatingMachine_ratedU_feature",
                                 "_UI_RotatingMachine_type" ),
-                        CimPackage.eINSTANCE.getRotatingMachine_RatedU(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getRotatingMachine_RatedU(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -157,10 +192,16 @@ public class RotatingMachineItemProvider extends RegulatingCondEqItemProvider {
     protected void addGeneratingUnitPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RotatingMachine_GeneratingUnit_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RotatingMachine_GeneratingUnit_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RotatingMachine_GeneratingUnit_feature",
                                 "_UI_RotatingMachine_type" ),
-                        CimPackage.eINSTANCE.getRotatingMachine_GeneratingUnit(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getRotatingMachine_GeneratingUnit(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -173,10 +214,17 @@ public class RotatingMachineItemProvider extends RegulatingCondEqItemProvider {
     protected void addHydroPumpPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RotatingMachine_HydroPump_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RotatingMachine_HydroPump_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RotatingMachine_HydroPump_feature",
                                 "_UI_RotatingMachine_type" ),
-                        CimPackage.eINSTANCE.getRotatingMachine_HydroPump(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getRotatingMachine_HydroPump(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

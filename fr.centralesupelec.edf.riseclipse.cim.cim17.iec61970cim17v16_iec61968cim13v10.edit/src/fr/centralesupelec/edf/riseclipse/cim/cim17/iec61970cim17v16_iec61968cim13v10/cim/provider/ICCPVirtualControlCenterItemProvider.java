@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -81,11 +86,17 @@ public class ICCPVirtualControlCenterItemProvider extends BilateralExchangeActor
     protected void addCallingPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ICCPVirtualControlCenter_calling_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ICCPVirtualControlCenter_calling_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ICCPVirtualControlCenter_calling_feature",
                                 "_UI_ICCPVirtualControlCenter_type" ),
-                        CimPackage.eINSTANCE.getICCPVirtualControlCenter_Calling(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getICCPVirtualControlCenter_Calling(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -96,12 +107,18 @@ public class ICCPVirtualControlCenterItemProvider extends BilateralExchangeActor
      */
     protected void addClientAndServerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ICCPVirtualControlCenter_clientAndServer_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ICCPVirtualControlCenter_clientAndServer_feature",
                         "_UI_ICCPVirtualControlCenter_type" ),
-                CimPackage.eINSTANCE.getICCPVirtualControlCenter_ClientAndServer(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getICCPVirtualControlCenter_ClientAndServer(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -113,12 +130,18 @@ public class ICCPVirtualControlCenterItemProvider extends BilateralExchangeActor
     protected void addMinimumUpdateIntervalPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ICCPVirtualControlCenter_minimumUpdateInterval_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ICCPVirtualControlCenter_minimumUpdateInterval_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_ICCPVirtualControlCenter_minimumUpdateInterval_feature",
                                 "_UI_ICCPVirtualControlCenter_type" ),
-                        CimPackage.eINSTANCE.getICCPVirtualControlCenter_MinimumUpdateInterval(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getICCPVirtualControlCenter_MinimumUpdateInterval(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -129,12 +152,18 @@ public class ICCPVirtualControlCenterItemProvider extends BilateralExchangeActor
      */
     protected void addNameOfLocalICCPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ICCPVirtualControlCenter_nameOfLocalICC_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ICCPVirtualControlCenter_nameOfLocalICC_feature",
                         "_UI_ICCPVirtualControlCenter_type" ),
-                CimPackage.eINSTANCE.getICCPVirtualControlCenter_NameOfLocalICC(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getICCPVirtualControlCenter_NameOfLocalICC(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -145,12 +174,18 @@ public class ICCPVirtualControlCenterItemProvider extends BilateralExchangeActor
      */
     protected void addSupportForBlock1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ICCPVirtualControlCenter_supportForBlock1_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_ICCPVirtualControlCenter_supportForBlock1_feature", "_UI_ICCPVirtualControlCenter_type" ),
-                CimPackage.eINSTANCE.getICCPVirtualControlCenter_SupportForBlock1(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getICCPVirtualControlCenter_SupportForBlock1(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -161,12 +196,18 @@ public class ICCPVirtualControlCenterItemProvider extends BilateralExchangeActor
      */
     protected void addSupportForBlock2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ICCPVirtualControlCenter_supportForBlock2_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_ICCPVirtualControlCenter_supportForBlock2_feature", "_UI_ICCPVirtualControlCenter_type" ),
-                CimPackage.eINSTANCE.getICCPVirtualControlCenter_SupportForBlock2(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getICCPVirtualControlCenter_SupportForBlock2(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -177,12 +218,18 @@ public class ICCPVirtualControlCenterItemProvider extends BilateralExchangeActor
      */
     protected void addSupportForBlock3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ICCPVirtualControlCenter_supportForBlock3_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_ICCPVirtualControlCenter_supportForBlock3_feature", "_UI_ICCPVirtualControlCenter_type" ),
-                CimPackage.eINSTANCE.getICCPVirtualControlCenter_SupportForBlock3(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getICCPVirtualControlCenter_SupportForBlock3(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -193,12 +240,18 @@ public class ICCPVirtualControlCenterItemProvider extends BilateralExchangeActor
      */
     protected void addSupportForBlock4PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ICCPVirtualControlCenter_supportForBlock4_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_ICCPVirtualControlCenter_supportForBlock4_feature", "_UI_ICCPVirtualControlCenter_type" ),
-                CimPackage.eINSTANCE.getICCPVirtualControlCenter_SupportForBlock4(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getICCPVirtualControlCenter_SupportForBlock4(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -209,12 +262,18 @@ public class ICCPVirtualControlCenterItemProvider extends BilateralExchangeActor
      */
     protected void addSupportForBlock5PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ICCPVirtualControlCenter_supportForBlock5_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_ICCPVirtualControlCenter_supportForBlock5_feature", "_UI_ICCPVirtualControlCenter_type" ),
-                CimPackage.eINSTANCE.getICCPVirtualControlCenter_SupportForBlock5(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getICCPVirtualControlCenter_SupportForBlock5(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -224,14 +283,20 @@ public class ICCPVirtualControlCenterItemProvider extends BilateralExchangeActor
      * @generated
      */
     protected void addSupportForDepriciatedBlock8PropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ICCPVirtualControlCenter_supportForDepriciatedBlock8_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_ICCPVirtualControlCenter_supportForDepriciatedBlock8_feature",
-                        "_UI_ICCPVirtualControlCenter_type" ),
-                CimPackage.eINSTANCE.getICCPVirtualControlCenter_SupportForDepriciatedBlock8(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ICCPVirtualControlCenter_supportForDepriciatedBlock8_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ICCPVirtualControlCenter_supportForDepriciatedBlock8_feature",
+                                "_UI_ICCPVirtualControlCenter_type" ),
+                        CimPackage.eINSTANCE.getICCPVirtualControlCenter_SupportForDepriciatedBlock8(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -241,14 +306,20 @@ public class ICCPVirtualControlCenterItemProvider extends BilateralExchangeActor
      * @generated
      */
     protected void addTransportSecurityRequirementPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ICCPVirtualControlCenter_TransportSecurityRequirement_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_ICCPVirtualControlCenter_TransportSecurityRequirement_feature",
-                        "_UI_ICCPVirtualControlCenter_type" ),
-                CimPackage.eINSTANCE.getICCPVirtualControlCenter_TransportSecurityRequirement(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ICCPVirtualControlCenter_TransportSecurityRequirement_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ICCPVirtualControlCenter_TransportSecurityRequirement_feature",
+                                "_UI_ICCPVirtualControlCenter_type" ),
+                        CimPackage.eINSTANCE.getICCPVirtualControlCenter_TransportSecurityRequirement(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

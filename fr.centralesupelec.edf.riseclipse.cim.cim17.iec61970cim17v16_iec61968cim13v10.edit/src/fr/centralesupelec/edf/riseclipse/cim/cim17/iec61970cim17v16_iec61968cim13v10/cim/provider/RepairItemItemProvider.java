@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -73,11 +78,17 @@ public class RepairItemItemProvider extends CimObjectWithIDItemProvider {
     protected void addBreakerRepairItemPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RepairItem_breakerRepairItem_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RepairItem_breakerRepairItem_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RepairItem_breakerRepairItem_feature",
                                 "_UI_RepairItem_type" ),
-                        CimPackage.eINSTANCE.getRepairItem_BreakerRepairItem(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getRepairItem_BreakerRepairItem(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -89,11 +100,17 @@ public class RepairItemItemProvider extends CimObjectWithIDItemProvider {
     protected void addTransformerRepairItemPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RepairItem_transformerRepairItem_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RepairItem_transformerRepairItem_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RepairItem_transformerRepairItem_feature",
                                 "_UI_RepairItem_type" ),
-                        CimPackage.eINSTANCE.getRepairItem_TransformerRepairItem(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getRepairItem_TransformerRepairItem(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -105,10 +122,17 @@ public class RepairItemItemProvider extends CimObjectWithIDItemProvider {
     protected void addRepairWorkTaskPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_RepairItem_RepairWorkTask_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_RepairItem_RepairWorkTask_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_RepairItem_RepairWorkTask_feature",
                                 "_UI_RepairItem_type" ),
-                        CimPackage.eINSTANCE.getRepairItem_RepairWorkTask(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getRepairItem_RepairWorkTask(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

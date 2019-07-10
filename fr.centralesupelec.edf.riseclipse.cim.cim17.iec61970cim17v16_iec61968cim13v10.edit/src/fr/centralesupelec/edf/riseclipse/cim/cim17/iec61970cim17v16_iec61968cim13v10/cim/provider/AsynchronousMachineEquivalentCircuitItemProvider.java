@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.AsynchronousMachineEquivalentCircuit;
@@ -74,12 +79,18 @@ public class AsynchronousMachineEquivalentCircuitItemProvider extends Asynchrono
      */
     protected void addRr1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_AsynchronousMachineEquivalentCircuit_rr1_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_AsynchronousMachineEquivalentCircuit_rr1_feature",
                         "_UI_AsynchronousMachineEquivalentCircuit_type" ),
-                CimPackage.eINSTANCE.getAsynchronousMachineEquivalentCircuit_Rr1(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getAsynchronousMachineEquivalentCircuit_Rr1(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -90,12 +101,18 @@ public class AsynchronousMachineEquivalentCircuitItemProvider extends Asynchrono
      */
     protected void addRr2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_AsynchronousMachineEquivalentCircuit_rr2_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_AsynchronousMachineEquivalentCircuit_rr2_feature",
                         "_UI_AsynchronousMachineEquivalentCircuit_type" ),
-                CimPackage.eINSTANCE.getAsynchronousMachineEquivalentCircuit_Rr2(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getAsynchronousMachineEquivalentCircuit_Rr2(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -107,12 +124,18 @@ public class AsynchronousMachineEquivalentCircuitItemProvider extends Asynchrono
     protected void addXlr1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AsynchronousMachineEquivalentCircuit_xlr1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AsynchronousMachineEquivalentCircuit_xlr1_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_AsynchronousMachineEquivalentCircuit_xlr1_feature",
                                 "_UI_AsynchronousMachineEquivalentCircuit_type" ),
-                        CimPackage.eINSTANCE.getAsynchronousMachineEquivalentCircuit_Xlr1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAsynchronousMachineEquivalentCircuit_Xlr1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -124,12 +147,18 @@ public class AsynchronousMachineEquivalentCircuitItemProvider extends Asynchrono
     protected void addXlr2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_AsynchronousMachineEquivalentCircuit_xlr2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_AsynchronousMachineEquivalentCircuit_xlr2_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_AsynchronousMachineEquivalentCircuit_xlr2_feature",
                                 "_UI_AsynchronousMachineEquivalentCircuit_type" ),
-                        CimPackage.eINSTANCE.getAsynchronousMachineEquivalentCircuit_Xlr2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getAsynchronousMachineEquivalentCircuit_Xlr2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -140,12 +169,18 @@ public class AsynchronousMachineEquivalentCircuitItemProvider extends Asynchrono
      */
     protected void addXmPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_AsynchronousMachineEquivalentCircuit_xm_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_AsynchronousMachineEquivalentCircuit_xm_feature",
                         "_UI_AsynchronousMachineEquivalentCircuit_type" ),
-                CimPackage.eINSTANCE.getAsynchronousMachineEquivalentCircuit_Xm(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getAsynchronousMachineEquivalentCircuit_Xm(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**

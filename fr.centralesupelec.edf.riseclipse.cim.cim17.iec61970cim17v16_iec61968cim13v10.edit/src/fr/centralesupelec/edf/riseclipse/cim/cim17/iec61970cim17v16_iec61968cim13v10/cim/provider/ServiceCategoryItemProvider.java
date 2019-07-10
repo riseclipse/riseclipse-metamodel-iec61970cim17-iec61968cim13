@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -75,11 +80,17 @@ public class ServiceCategoryItemProvider extends IdentifiedObjectItemProvider {
     protected void addKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ServiceCategory_kind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ServiceCategory_kind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ServiceCategory_kind_feature",
                                 "_UI_ServiceCategory_type" ),
-                        CimPackage.eINSTANCE.getServiceCategory_Kind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getServiceCategory_Kind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -89,12 +100,19 @@ public class ServiceCategoryItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addPricingStructuresPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ServiceCategory_PricingStructures_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ServiceCategory_PricingStructures_feature",
-                        "_UI_ServiceCategory_type" ),
-                CimPackage.eINSTANCE.getServiceCategory_PricingStructures(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ServiceCategory_PricingStructures_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ServiceCategory_PricingStructures_feature", "_UI_ServiceCategory_type" ),
+                        CimPackage.eINSTANCE.getServiceCategory_PricingStructures(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -104,12 +122,19 @@ public class ServiceCategoryItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addCustomerAgreementsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ServiceCategory_CustomerAgreements_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ServiceCategory_CustomerAgreements_feature",
-                        "_UI_ServiceCategory_type" ),
-                CimPackage.eINSTANCE.getServiceCategory_CustomerAgreements(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ServiceCategory_CustomerAgreements_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ServiceCategory_CustomerAgreements_feature", "_UI_ServiceCategory_type" ),
+                        CimPackage.eINSTANCE.getServiceCategory_CustomerAgreements(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -119,12 +144,19 @@ public class ServiceCategoryItemProvider extends IdentifiedObjectItemProvider {
      * @generated
      */
     protected void addConfigurationEventsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ServiceCategory_ConfigurationEvents_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ServiceCategory_ConfigurationEvents_feature",
-                        "_UI_ServiceCategory_type" ),
-                CimPackage.eINSTANCE.getServiceCategory_ConfigurationEvents(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ServiceCategory_ConfigurationEvents_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ServiceCategory_ConfigurationEvents_feature", "_UI_ServiceCategory_type" ),
+                        CimPackage.eINSTANCE.getServiceCategory_ConfigurationEvents(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -136,10 +168,17 @@ public class ServiceCategoryItemProvider extends IdentifiedObjectItemProvider {
     protected void addUsagePointsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ServiceCategory_UsagePoints_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ServiceCategory_UsagePoints_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ServiceCategory_UsagePoints_feature",
                                 "_UI_ServiceCategory_type" ),
-                        CimPackage.eINSTANCE.getServiceCategory_UsagePoints(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getServiceCategory_UsagePoints(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -82,11 +87,17 @@ public class VsConverterItemProvider extends ACDCConverterItemProvider {
     protected void addDeltaPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_VsConverter_delta_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_VsConverter_delta_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_VsConverter_delta_feature",
                                 "_UI_VsConverter_type" ),
-                        CimPackage.eINSTANCE.getVsConverter_Delta(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getVsConverter_Delta(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -98,11 +109,17 @@ public class VsConverterItemProvider extends ACDCConverterItemProvider {
     protected void addDroopPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_VsConverter_droop_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_VsConverter_droop_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_VsConverter_droop_feature",
                                 "_UI_VsConverter_type" ),
-                        CimPackage.eINSTANCE.getVsConverter_Droop(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getVsConverter_Droop(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,11 +131,17 @@ public class VsConverterItemProvider extends ACDCConverterItemProvider {
     protected void addDroopCompensationPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_VsConverter_droopCompensation_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_VsConverter_droopCompensation_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_VsConverter_droopCompensation_feature",
                                 "_UI_VsConverter_type" ),
-                        CimPackage.eINSTANCE.getVsConverter_DroopCompensation(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getVsConverter_DroopCompensation(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -130,11 +153,17 @@ public class VsConverterItemProvider extends ACDCConverterItemProvider {
     protected void addMaxModulationIndexPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_VsConverter_maxModulationIndex_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_VsConverter_maxModulationIndex_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_VsConverter_maxModulationIndex_feature",
                                 "_UI_VsConverter_type" ),
-                        CimPackage.eINSTANCE.getVsConverter_MaxModulationIndex(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getVsConverter_MaxModulationIndex(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -146,11 +175,17 @@ public class VsConverterItemProvider extends ACDCConverterItemProvider {
     protected void addMaxValveCurrentPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_VsConverter_maxValveCurrent_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_VsConverter_maxValveCurrent_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_VsConverter_maxValveCurrent_feature",
                                 "_UI_VsConverter_type" ),
-                        CimPackage.eINSTANCE.getVsConverter_MaxValveCurrent(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getVsConverter_MaxValveCurrent(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -162,11 +197,17 @@ public class VsConverterItemProvider extends ACDCConverterItemProvider {
     protected void addPPccControlPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_VsConverter_pPccControl_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_VsConverter_pPccControl_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_VsConverter_pPccControl_feature",
                                 "_UI_VsConverter_type" ),
-                        CimPackage.eINSTANCE.getVsConverter_PPccControl(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getVsConverter_PPccControl(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -178,11 +219,17 @@ public class VsConverterItemProvider extends ACDCConverterItemProvider {
     protected void addQPccControlPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_VsConverter_qPccControl_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_VsConverter_qPccControl_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_VsConverter_qPccControl_feature",
                                 "_UI_VsConverter_type" ),
-                        CimPackage.eINSTANCE.getVsConverter_QPccControl(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getVsConverter_QPccControl(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -194,11 +241,17 @@ public class VsConverterItemProvider extends ACDCConverterItemProvider {
     protected void addQSharePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_VsConverter_qShare_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_VsConverter_qShare_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_VsConverter_qShare_feature",
                                 "_UI_VsConverter_type" ),
-                        CimPackage.eINSTANCE.getVsConverter_QShare(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getVsConverter_QShare(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -210,11 +263,17 @@ public class VsConverterItemProvider extends ACDCConverterItemProvider {
     protected void addTargetQpccPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_VsConverter_targetQpcc_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_VsConverter_targetQpcc_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_VsConverter_targetQpcc_feature",
                                 "_UI_VsConverter_type" ),
-                        CimPackage.eINSTANCE.getVsConverter_TargetQpcc(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getVsConverter_TargetQpcc(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -226,11 +285,17 @@ public class VsConverterItemProvider extends ACDCConverterItemProvider {
     protected void addTargetUpccPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_VsConverter_targetUpcc_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_VsConverter_targetUpcc_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_VsConverter_targetUpcc_feature",
                                 "_UI_VsConverter_type" ),
-                        CimPackage.eINSTANCE.getVsConverter_TargetUpcc(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getVsConverter_TargetUpcc(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -242,11 +307,17 @@ public class VsConverterItemProvider extends ACDCConverterItemProvider {
     protected void addUvPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_VsConverter_uv_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_VsConverter_uv_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_VsConverter_uv_feature",
                                 "_UI_VsConverter_type" ),
-                        CimPackage.eINSTANCE.getVsConverter_Uv(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getVsConverter_Uv(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -258,10 +329,17 @@ public class VsConverterItemProvider extends ACDCConverterItemProvider {
     protected void addCapabilityCurvePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_VsConverter_CapabilityCurve_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_VsConverter_CapabilityCurve_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_VsConverter_CapabilityCurve_feature",
                                 "_UI_VsConverter_type" ),
-                        CimPackage.eINSTANCE.getVsConverter_CapabilityCurve(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getVsConverter_CapabilityCurve(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

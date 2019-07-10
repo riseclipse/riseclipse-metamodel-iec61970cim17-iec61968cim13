@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -81,13 +86,19 @@ public class HydroPowerPlantItemProvider extends PowerSystemResourceItemProvider
      * @generated
      */
     protected void addDischargeTravelDelayPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_HydroPowerPlant_dischargeTravelDelay_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_HydroPowerPlant_dischargeTravelDelay_feature",
-                        "_UI_HydroPowerPlant_type" ),
-                CimPackage.eINSTANCE.getHydroPowerPlant_DischargeTravelDelay(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_HydroPowerPlant_dischargeTravelDelay_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_HydroPowerPlant_dischargeTravelDelay_feature", "_UI_HydroPowerPlant_type" ),
+                        CimPackage.eINSTANCE.getHydroPowerPlant_DischargeTravelDelay(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -99,11 +110,17 @@ public class HydroPowerPlantItemProvider extends PowerSystemResourceItemProvider
     protected void addGenRatedPPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_HydroPowerPlant_genRatedP_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_HydroPowerPlant_genRatedP_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_HydroPowerPlant_genRatedP_feature",
                                 "_UI_HydroPowerPlant_type" ),
-                        CimPackage.eINSTANCE.getHydroPowerPlant_GenRatedP(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getHydroPowerPlant_GenRatedP(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -113,13 +130,19 @@ public class HydroPowerPlantItemProvider extends PowerSystemResourceItemProvider
      * @generated
      */
     protected void addHydroPlantStorageTypePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_HydroPowerPlant_hydroPlantStorageType_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_HydroPowerPlant_hydroPlantStorageType_feature",
-                        "_UI_HydroPowerPlant_type" ),
-                CimPackage.eINSTANCE.getHydroPowerPlant_HydroPlantStorageType(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_HydroPowerPlant_hydroPlantStorageType_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_HydroPowerPlant_hydroPlantStorageType_feature", "_UI_HydroPowerPlant_type" ),
+                        CimPackage.eINSTANCE.getHydroPowerPlant_HydroPlantStorageType(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -131,11 +154,17 @@ public class HydroPowerPlantItemProvider extends PowerSystemResourceItemProvider
     protected void addPenstockTypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_HydroPowerPlant_penstockType_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_HydroPowerPlant_penstockType_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_HydroPowerPlant_penstockType_feature",
                                 "_UI_HydroPowerPlant_type" ),
-                        CimPackage.eINSTANCE.getHydroPowerPlant_PenstockType(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getHydroPowerPlant_PenstockType(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -145,13 +174,19 @@ public class HydroPowerPlantItemProvider extends PowerSystemResourceItemProvider
      * @generated
      */
     protected void addPlantDischargeCapacityPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_HydroPowerPlant_plantDischargeCapacity_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_HydroPowerPlant_plantDischargeCapacity_feature",
-                        "_UI_HydroPowerPlant_type" ),
-                CimPackage.eINSTANCE.getHydroPowerPlant_PlantDischargeCapacity(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_HydroPowerPlant_plantDischargeCapacity_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_HydroPowerPlant_plantDischargeCapacity_feature", "_UI_HydroPowerPlant_type" ),
+                        CimPackage.eINSTANCE.getHydroPowerPlant_PlantDischargeCapacity(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -163,11 +198,17 @@ public class HydroPowerPlantItemProvider extends PowerSystemResourceItemProvider
     protected void addPlantRatedHeadPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_HydroPowerPlant_plantRatedHead_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_HydroPowerPlant_plantRatedHead_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_HydroPowerPlant_plantRatedHead_feature",
                                 "_UI_HydroPowerPlant_type" ),
-                        CimPackage.eINSTANCE.getHydroPowerPlant_PlantRatedHead(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getHydroPowerPlant_PlantRatedHead(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -179,11 +220,17 @@ public class HydroPowerPlantItemProvider extends PowerSystemResourceItemProvider
     protected void addPumpRatedPPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_HydroPowerPlant_pumpRatedP_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_HydroPowerPlant_pumpRatedP_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_HydroPowerPlant_pumpRatedP_feature",
                                 "_UI_HydroPowerPlant_type" ),
-                        CimPackage.eINSTANCE.getHydroPowerPlant_PumpRatedP(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getHydroPowerPlant_PumpRatedP(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -195,11 +242,17 @@ public class HydroPowerPlantItemProvider extends PowerSystemResourceItemProvider
     protected void addSurgeTankCodePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_HydroPowerPlant_surgeTankCode_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_HydroPowerPlant_surgeTankCode_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_HydroPowerPlant_surgeTankCode_feature",
                                 "_UI_HydroPowerPlant_type" ),
-                        CimPackage.eINSTANCE.getHydroPowerPlant_SurgeTankCode(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getHydroPowerPlant_SurgeTankCode(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -209,13 +262,19 @@ public class HydroPowerPlantItemProvider extends PowerSystemResourceItemProvider
      * @generated
      */
     protected void addSurgeTankCrestLevelPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_HydroPowerPlant_surgeTankCrestLevel_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_HydroPowerPlant_surgeTankCrestLevel_feature",
-                        "_UI_HydroPowerPlant_type" ),
-                CimPackage.eINSTANCE.getHydroPowerPlant_SurgeTankCrestLevel(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_HydroPowerPlant_surgeTankCrestLevel_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_HydroPowerPlant_surgeTankCrestLevel_feature", "_UI_HydroPowerPlant_type" ),
+                        CimPackage.eINSTANCE.getHydroPowerPlant_SurgeTankCrestLevel(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -225,12 +284,19 @@ public class HydroPowerPlantItemProvider extends PowerSystemResourceItemProvider
      * @generated
      */
     protected void addHydroGeneratingUnitsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_HydroPowerPlant_HydroGeneratingUnits_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_HydroPowerPlant_HydroGeneratingUnits_feature",
-                        "_UI_HydroPowerPlant_type" ),
-                CimPackage.eINSTANCE.getHydroPowerPlant_HydroGeneratingUnits(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_HydroPowerPlant_HydroGeneratingUnits_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_HydroPowerPlant_HydroGeneratingUnits_feature", "_UI_HydroPowerPlant_type" ),
+                        CimPackage.eINSTANCE.getHydroPowerPlant_HydroGeneratingUnits(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -242,10 +308,17 @@ public class HydroPowerPlantItemProvider extends PowerSystemResourceItemProvider
     protected void addReservoirPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_HydroPowerPlant_Reservoir_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_HydroPowerPlant_Reservoir_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_HydroPowerPlant_Reservoir_feature",
                                 "_UI_HydroPowerPlant_type" ),
-                        CimPackage.eINSTANCE.getHydroPowerPlant_Reservoir(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getHydroPowerPlant_Reservoir(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -256,12 +329,18 @@ public class HydroPowerPlantItemProvider extends PowerSystemResourceItemProvider
      */
     protected void addGenSourcePumpDischargeReservoirPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_HydroPowerPlant_GenSourcePumpDischargeReservoir_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_HydroPowerPlant_GenSourcePumpDischargeReservoir_feature", "_UI_HydroPowerPlant_type" ),
-                CimPackage.eINSTANCE.getHydroPowerPlant_GenSourcePumpDischargeReservoir(), true, false, true, null,
-                null, null ) );
+                CimPackage.eINSTANCE.getHydroPowerPlant_GenSourcePumpDischargeReservoir(),
+                true,
+                false,
+                true,
+                null,
+                null,
+                null ) );
     }
 
     /**
@@ -273,10 +352,17 @@ public class HydroPowerPlantItemProvider extends PowerSystemResourceItemProvider
     protected void addHydroPumpsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_HydroPowerPlant_HydroPumps_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_HydroPowerPlant_HydroPumps_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_HydroPowerPlant_HydroPumps_feature",
                                 "_UI_HydroPowerPlant_type" ),
-                        CimPackage.eINSTANCE.getHydroPowerPlant_HydroPumps(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getHydroPowerPlant_HydroPumps(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

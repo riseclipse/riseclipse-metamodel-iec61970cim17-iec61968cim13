@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -83,11 +88,17 @@ public class DiagnosisDataSetItemProvider extends ProcedureDataSetItemProvider {
     protected void addEffectPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiagnosisDataSet_effect_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiagnosisDataSet_effect_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiagnosisDataSet_effect_feature",
                                 "_UI_DiagnosisDataSet_type" ),
-                        CimPackage.eINSTANCE.getDiagnosisDataSet_Effect(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiagnosisDataSet_Effect(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -99,11 +110,17 @@ public class DiagnosisDataSetItemProvider extends ProcedureDataSetItemProvider {
     protected void addFailureModePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiagnosisDataSet_failureMode_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiagnosisDataSet_failureMode_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiagnosisDataSet_failureMode_feature",
                                 "_UI_DiagnosisDataSet_type" ),
-                        CimPackage.eINSTANCE.getDiagnosisDataSet_FailureMode(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiagnosisDataSet_FailureMode(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -115,11 +132,17 @@ public class DiagnosisDataSetItemProvider extends ProcedureDataSetItemProvider {
     protected void addFinalCausePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiagnosisDataSet_finalCause_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiagnosisDataSet_finalCause_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiagnosisDataSet_finalCause_feature",
                                 "_UI_DiagnosisDataSet_type" ),
-                        CimPackage.eINSTANCE.getDiagnosisDataSet_FinalCause(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiagnosisDataSet_FinalCause(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -131,11 +154,17 @@ public class DiagnosisDataSetItemProvider extends ProcedureDataSetItemProvider {
     protected void addFinalCodePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiagnosisDataSet_finalCode_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiagnosisDataSet_finalCode_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiagnosisDataSet_finalCode_feature",
                                 "_UI_DiagnosisDataSet_type" ),
-                        CimPackage.eINSTANCE.getDiagnosisDataSet_FinalCode(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiagnosisDataSet_FinalCode(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -147,11 +176,17 @@ public class DiagnosisDataSetItemProvider extends ProcedureDataSetItemProvider {
     protected void addFinalOriginPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiagnosisDataSet_finalOrigin_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiagnosisDataSet_finalOrigin_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiagnosisDataSet_finalOrigin_feature",
                                 "_UI_DiagnosisDataSet_type" ),
-                        CimPackage.eINSTANCE.getDiagnosisDataSet_FinalOrigin(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiagnosisDataSet_FinalOrigin(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -163,11 +198,17 @@ public class DiagnosisDataSetItemProvider extends ProcedureDataSetItemProvider {
     protected void addFinalRemarkPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiagnosisDataSet_finalRemark_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiagnosisDataSet_finalRemark_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiagnosisDataSet_finalRemark_feature",
                                 "_UI_DiagnosisDataSet_type" ),
-                        CimPackage.eINSTANCE.getDiagnosisDataSet_FinalRemark(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiagnosisDataSet_FinalRemark(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -179,11 +220,17 @@ public class DiagnosisDataSetItemProvider extends ProcedureDataSetItemProvider {
     protected void addPhaseCodePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiagnosisDataSet_phaseCode_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiagnosisDataSet_phaseCode_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiagnosisDataSet_phaseCode_feature",
                                 "_UI_DiagnosisDataSet_type" ),
-                        CimPackage.eINSTANCE.getDiagnosisDataSet_PhaseCode(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiagnosisDataSet_PhaseCode(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -193,13 +240,19 @@ public class DiagnosisDataSetItemProvider extends ProcedureDataSetItemProvider {
      * @generated
      */
     protected void addPreliminaryCodePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_DiagnosisDataSet_preliminaryCode_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_DiagnosisDataSet_preliminaryCode_feature",
-                        "_UI_DiagnosisDataSet_type" ),
-                CimPackage.eINSTANCE.getDiagnosisDataSet_PreliminaryCode(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_DiagnosisDataSet_preliminaryCode_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_DiagnosisDataSet_preliminaryCode_feature",
+                                "_UI_DiagnosisDataSet_type" ),
+                        CimPackage.eINSTANCE.getDiagnosisDataSet_PreliminaryCode(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -209,13 +262,19 @@ public class DiagnosisDataSetItemProvider extends ProcedureDataSetItemProvider {
      * @generated
      */
     protected void addPreliminaryDateTimePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_DiagnosisDataSet_preliminaryDateTime_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_DiagnosisDataSet_preliminaryDateTime_feature",
-                        "_UI_DiagnosisDataSet_type" ),
-                CimPackage.eINSTANCE.getDiagnosisDataSet_PreliminaryDateTime(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_DiagnosisDataSet_preliminaryDateTime_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_DiagnosisDataSet_preliminaryDateTime_feature", "_UI_DiagnosisDataSet_type" ),
+                        CimPackage.eINSTANCE.getDiagnosisDataSet_PreliminaryDateTime(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -225,13 +284,19 @@ public class DiagnosisDataSetItemProvider extends ProcedureDataSetItemProvider {
      * @generated
      */
     protected void addPreliminaryRemarkPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_DiagnosisDataSet_preliminaryRemark_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_DiagnosisDataSet_preliminaryRemark_feature",
-                        "_UI_DiagnosisDataSet_type" ),
-                CimPackage.eINSTANCE.getDiagnosisDataSet_PreliminaryRemark(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_DiagnosisDataSet_preliminaryRemark_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_DiagnosisDataSet_preliminaryRemark_feature", "_UI_DiagnosisDataSet_type" ),
+                        CimPackage.eINSTANCE.getDiagnosisDataSet_PreliminaryRemark(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -243,11 +308,17 @@ public class DiagnosisDataSetItemProvider extends ProcedureDataSetItemProvider {
     protected void addRootCausePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiagnosisDataSet_rootCause_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiagnosisDataSet_rootCause_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiagnosisDataSet_rootCause_feature",
                                 "_UI_DiagnosisDataSet_type" ),
-                        CimPackage.eINSTANCE.getDiagnosisDataSet_RootCause(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiagnosisDataSet_RootCause(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -259,11 +330,17 @@ public class DiagnosisDataSetItemProvider extends ProcedureDataSetItemProvider {
     protected void addRootOriginPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiagnosisDataSet_rootOrigin_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiagnosisDataSet_rootOrigin_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiagnosisDataSet_rootOrigin_feature",
                                 "_UI_DiagnosisDataSet_type" ),
-                        CimPackage.eINSTANCE.getDiagnosisDataSet_RootOrigin(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiagnosisDataSet_RootOrigin(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -275,11 +352,17 @@ public class DiagnosisDataSetItemProvider extends ProcedureDataSetItemProvider {
     protected void addRootRemarkPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiagnosisDataSet_rootRemark_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiagnosisDataSet_rootRemark_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiagnosisDataSet_rootRemark_feature",
                                 "_UI_DiagnosisDataSet_type" ),
-                        CimPackage.eINSTANCE.getDiagnosisDataSet_RootRemark(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiagnosisDataSet_RootRemark(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -360,8 +443,8 @@ public class DiagnosisDataSetItemProvider extends ProcedureDataSetItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

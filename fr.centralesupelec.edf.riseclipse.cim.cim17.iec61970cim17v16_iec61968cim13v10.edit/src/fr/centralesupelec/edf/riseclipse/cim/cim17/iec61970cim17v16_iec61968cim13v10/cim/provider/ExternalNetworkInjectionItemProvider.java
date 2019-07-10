@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -87,12 +92,18 @@ public class ExternalNetworkInjectionItemProvider extends RegulatingCondEqItemPr
      */
     protected void addGovernorSCDPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ExternalNetworkInjection_governorSCD_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ExternalNetworkInjection_governorSCD_feature",
                         "_UI_ExternalNetworkInjection_type" ),
-                CimPackage.eINSTANCE.getExternalNetworkInjection_GovernorSCD(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getExternalNetworkInjection_GovernorSCD(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -104,11 +115,17 @@ public class ExternalNetworkInjectionItemProvider extends RegulatingCondEqItemPr
     protected void addIkSecondPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ExternalNetworkInjection_ikSecond_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ExternalNetworkInjection_ikSecond_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_ExternalNetworkInjection_ikSecond_feature", "_UI_ExternalNetworkInjection_type" ),
-                        CimPackage.eINSTANCE.getExternalNetworkInjection_IkSecond(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getExternalNetworkInjection_IkSecond(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -118,14 +135,20 @@ public class ExternalNetworkInjectionItemProvider extends RegulatingCondEqItemPr
      * @generated
      */
     protected void addMaxInitialSymShCCurrentPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ExternalNetworkInjection_maxInitialSymShCCurrent_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_ExternalNetworkInjection_maxInitialSymShCCurrent_feature",
-                        "_UI_ExternalNetworkInjection_type" ),
-                CimPackage.eINSTANCE.getExternalNetworkInjection_MaxInitialSymShCCurrent(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ExternalNetworkInjection_maxInitialSymShCCurrent_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ExternalNetworkInjection_maxInitialSymShCCurrent_feature",
+                                "_UI_ExternalNetworkInjection_type" ),
+                        CimPackage.eINSTANCE.getExternalNetworkInjection_MaxInitialSymShCCurrent(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -135,13 +158,19 @@ public class ExternalNetworkInjectionItemProvider extends RegulatingCondEqItemPr
      * @generated
      */
     protected void addMaxPPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ExternalNetworkInjection_maxP_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ExternalNetworkInjection_maxP_feature",
-                        "_UI_ExternalNetworkInjection_type" ),
-                CimPackage.eINSTANCE.getExternalNetworkInjection_MaxP(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ExternalNetworkInjection_maxP_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_ExternalNetworkInjection_maxP_feature",
+                                "_UI_ExternalNetworkInjection_type" ),
+                        CimPackage.eINSTANCE.getExternalNetworkInjection_MaxP(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -151,13 +180,19 @@ public class ExternalNetworkInjectionItemProvider extends RegulatingCondEqItemPr
      * @generated
      */
     protected void addMaxQPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ExternalNetworkInjection_maxQ_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ExternalNetworkInjection_maxQ_feature",
-                        "_UI_ExternalNetworkInjection_type" ),
-                CimPackage.eINSTANCE.getExternalNetworkInjection_MaxQ(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ExternalNetworkInjection_maxQ_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_ExternalNetworkInjection_maxQ_feature",
+                                "_UI_ExternalNetworkInjection_type" ),
+                        CimPackage.eINSTANCE.getExternalNetworkInjection_MaxQ(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -168,12 +203,18 @@ public class ExternalNetworkInjectionItemProvider extends RegulatingCondEqItemPr
      */
     protected void addMaxR0ToX0RatioPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ExternalNetworkInjection_maxR0ToX0Ratio_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ExternalNetworkInjection_maxR0ToX0Ratio_feature",
                         "_UI_ExternalNetworkInjection_type" ),
-                CimPackage.eINSTANCE.getExternalNetworkInjection_MaxR0ToX0Ratio(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getExternalNetworkInjection_MaxR0ToX0Ratio(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -184,12 +225,18 @@ public class ExternalNetworkInjectionItemProvider extends RegulatingCondEqItemPr
      */
     protected void addMaxR1ToX1RatioPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ExternalNetworkInjection_maxR1ToX1Ratio_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ExternalNetworkInjection_maxR1ToX1Ratio_feature",
                         "_UI_ExternalNetworkInjection_type" ),
-                CimPackage.eINSTANCE.getExternalNetworkInjection_MaxR1ToX1Ratio(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getExternalNetworkInjection_MaxR1ToX1Ratio(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -200,12 +247,18 @@ public class ExternalNetworkInjectionItemProvider extends RegulatingCondEqItemPr
      */
     protected void addMaxZ0ToZ1RatioPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ExternalNetworkInjection_maxZ0ToZ1Ratio_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ExternalNetworkInjection_maxZ0ToZ1Ratio_feature",
                         "_UI_ExternalNetworkInjection_type" ),
-                CimPackage.eINSTANCE.getExternalNetworkInjection_MaxZ0ToZ1Ratio(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getExternalNetworkInjection_MaxZ0ToZ1Ratio(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -215,14 +268,20 @@ public class ExternalNetworkInjectionItemProvider extends RegulatingCondEqItemPr
      * @generated
      */
     protected void addMinInitialSymShCCurrentPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ExternalNetworkInjection_minInitialSymShCCurrent_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_ExternalNetworkInjection_minInitialSymShCCurrent_feature",
-                        "_UI_ExternalNetworkInjection_type" ),
-                CimPackage.eINSTANCE.getExternalNetworkInjection_MinInitialSymShCCurrent(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ExternalNetworkInjection_minInitialSymShCCurrent_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_ExternalNetworkInjection_minInitialSymShCCurrent_feature",
+                                "_UI_ExternalNetworkInjection_type" ),
+                        CimPackage.eINSTANCE.getExternalNetworkInjection_MinInitialSymShCCurrent(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -232,13 +291,19 @@ public class ExternalNetworkInjectionItemProvider extends RegulatingCondEqItemPr
      * @generated
      */
     protected void addMinPPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ExternalNetworkInjection_minP_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ExternalNetworkInjection_minP_feature",
-                        "_UI_ExternalNetworkInjection_type" ),
-                CimPackage.eINSTANCE.getExternalNetworkInjection_MinP(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ExternalNetworkInjection_minP_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_ExternalNetworkInjection_minP_feature",
+                                "_UI_ExternalNetworkInjection_type" ),
+                        CimPackage.eINSTANCE.getExternalNetworkInjection_MinP(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -248,13 +313,19 @@ public class ExternalNetworkInjectionItemProvider extends RegulatingCondEqItemPr
      * @generated
      */
     protected void addMinQPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ExternalNetworkInjection_minQ_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ExternalNetworkInjection_minQ_feature",
-                        "_UI_ExternalNetworkInjection_type" ),
-                CimPackage.eINSTANCE.getExternalNetworkInjection_MinQ(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ExternalNetworkInjection_minQ_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_ExternalNetworkInjection_minQ_feature",
+                                "_UI_ExternalNetworkInjection_type" ),
+                        CimPackage.eINSTANCE.getExternalNetworkInjection_MinQ(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -265,12 +336,18 @@ public class ExternalNetworkInjectionItemProvider extends RegulatingCondEqItemPr
      */
     protected void addMinR0ToX0RatioPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ExternalNetworkInjection_minR0ToX0Ratio_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ExternalNetworkInjection_minR0ToX0Ratio_feature",
                         "_UI_ExternalNetworkInjection_type" ),
-                CimPackage.eINSTANCE.getExternalNetworkInjection_MinR0ToX0Ratio(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getExternalNetworkInjection_MinR0ToX0Ratio(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -281,12 +358,18 @@ public class ExternalNetworkInjectionItemProvider extends RegulatingCondEqItemPr
      */
     protected void addMinR1ToX1RatioPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ExternalNetworkInjection_minR1ToX1Ratio_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ExternalNetworkInjection_minR1ToX1Ratio_feature",
                         "_UI_ExternalNetworkInjection_type" ),
-                CimPackage.eINSTANCE.getExternalNetworkInjection_MinR1ToX1Ratio(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getExternalNetworkInjection_MinR1ToX1Ratio(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -297,12 +380,18 @@ public class ExternalNetworkInjectionItemProvider extends RegulatingCondEqItemPr
      */
     protected void addMinZ0ToZ1RatioPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ExternalNetworkInjection_minZ0ToZ1Ratio_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ExternalNetworkInjection_minZ0ToZ1Ratio_feature",
                         "_UI_ExternalNetworkInjection_type" ),
-                CimPackage.eINSTANCE.getExternalNetworkInjection_MinZ0ToZ1Ratio(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getExternalNetworkInjection_MinZ0ToZ1Ratio(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -312,13 +401,19 @@ public class ExternalNetworkInjectionItemProvider extends RegulatingCondEqItemPr
      * @generated
      */
     protected void addPPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ExternalNetworkInjection_p_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ExternalNetworkInjection_p_feature",
-                        "_UI_ExternalNetworkInjection_type" ),
-                CimPackage.eINSTANCE.getExternalNetworkInjection_P(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ExternalNetworkInjection_p_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_ExternalNetworkInjection_p_feature",
+                                "_UI_ExternalNetworkInjection_type" ),
+                        CimPackage.eINSTANCE.getExternalNetworkInjection_P(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -328,13 +423,19 @@ public class ExternalNetworkInjectionItemProvider extends RegulatingCondEqItemPr
      * @generated
      */
     protected void addQPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_ExternalNetworkInjection_q_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_ExternalNetworkInjection_q_feature",
-                        "_UI_ExternalNetworkInjection_type" ),
-                CimPackage.eINSTANCE.getExternalNetworkInjection_Q(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_ExternalNetworkInjection_q_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_ExternalNetworkInjection_q_feature",
+                                "_UI_ExternalNetworkInjection_type" ),
+                        CimPackage.eINSTANCE.getExternalNetworkInjection_Q(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -345,12 +446,18 @@ public class ExternalNetworkInjectionItemProvider extends RegulatingCondEqItemPr
      */
     protected void addReferencePriorityPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ExternalNetworkInjection_referencePriority_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_ExternalNetworkInjection_referencePriority_feature", "_UI_ExternalNetworkInjection_type" ),
-                CimPackage.eINSTANCE.getExternalNetworkInjection_ReferencePriority(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getExternalNetworkInjection_ReferencePriority(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -361,12 +468,18 @@ public class ExternalNetworkInjectionItemProvider extends RegulatingCondEqItemPr
      */
     protected void addVoltageFactorPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_ExternalNetworkInjection_voltageFactor_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_ExternalNetworkInjection_voltageFactor_feature",
                         "_UI_ExternalNetworkInjection_type" ),
-                CimPackage.eINSTANCE.getExternalNetworkInjection_VoltageFactor(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getExternalNetworkInjection_VoltageFactor(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**

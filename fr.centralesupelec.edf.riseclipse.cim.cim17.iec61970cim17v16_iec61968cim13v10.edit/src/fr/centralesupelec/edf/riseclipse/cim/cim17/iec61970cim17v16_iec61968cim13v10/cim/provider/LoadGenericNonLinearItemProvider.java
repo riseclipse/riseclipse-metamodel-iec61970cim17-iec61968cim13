@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -79,11 +84,17 @@ public class LoadGenericNonLinearItemProvider extends LoadDynamicsItemProvider {
     protected void addBsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadGenericNonLinear_bs_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadGenericNonLinear_bs_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadGenericNonLinear_bs_feature",
                                 "_UI_LoadGenericNonLinear_type" ),
-                        CimPackage.eINSTANCE.getLoadGenericNonLinear_Bs(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadGenericNonLinear_Bs(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -95,11 +106,17 @@ public class LoadGenericNonLinearItemProvider extends LoadDynamicsItemProvider {
     protected void addBtPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadGenericNonLinear_bt_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadGenericNonLinear_bt_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadGenericNonLinear_bt_feature",
                                 "_UI_LoadGenericNonLinear_type" ),
-                        CimPackage.eINSTANCE.getLoadGenericNonLinear_Bt(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadGenericNonLinear_Bt(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -109,14 +126,20 @@ public class LoadGenericNonLinearItemProvider extends LoadDynamicsItemProvider {
      * @generated
      */
     protected void addGenericNonLinearLoadModelTypePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_LoadGenericNonLinear_genericNonLinearLoadModelType_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_LoadGenericNonLinear_genericNonLinearLoadModelType_feature",
-                        "_UI_LoadGenericNonLinear_type" ),
-                CimPackage.eINSTANCE.getLoadGenericNonLinear_GenericNonLinearLoadModelType(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_LoadGenericNonLinear_genericNonLinearLoadModelType_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_LoadGenericNonLinear_genericNonLinearLoadModelType_feature",
+                                "_UI_LoadGenericNonLinear_type" ),
+                        CimPackage.eINSTANCE.getLoadGenericNonLinear_GenericNonLinearLoadModelType(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -128,11 +151,17 @@ public class LoadGenericNonLinearItemProvider extends LoadDynamicsItemProvider {
     protected void addLsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadGenericNonLinear_ls_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadGenericNonLinear_ls_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadGenericNonLinear_ls_feature",
                                 "_UI_LoadGenericNonLinear_type" ),
-                        CimPackage.eINSTANCE.getLoadGenericNonLinear_Ls(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadGenericNonLinear_Ls(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -144,11 +173,17 @@ public class LoadGenericNonLinearItemProvider extends LoadDynamicsItemProvider {
     protected void addLtPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadGenericNonLinear_lt_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadGenericNonLinear_lt_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadGenericNonLinear_lt_feature",
                                 "_UI_LoadGenericNonLinear_type" ),
-                        CimPackage.eINSTANCE.getLoadGenericNonLinear_Lt(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadGenericNonLinear_Lt(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -160,11 +195,17 @@ public class LoadGenericNonLinearItemProvider extends LoadDynamicsItemProvider {
     protected void addPtPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadGenericNonLinear_pt_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadGenericNonLinear_pt_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadGenericNonLinear_pt_feature",
                                 "_UI_LoadGenericNonLinear_type" ),
-                        CimPackage.eINSTANCE.getLoadGenericNonLinear_Pt(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadGenericNonLinear_Pt(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -176,11 +217,17 @@ public class LoadGenericNonLinearItemProvider extends LoadDynamicsItemProvider {
     protected void addQtPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadGenericNonLinear_qt_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadGenericNonLinear_qt_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadGenericNonLinear_qt_feature",
                                 "_UI_LoadGenericNonLinear_type" ),
-                        CimPackage.eINSTANCE.getLoadGenericNonLinear_Qt(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadGenericNonLinear_Qt(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -192,11 +239,17 @@ public class LoadGenericNonLinearItemProvider extends LoadDynamicsItemProvider {
     protected void addTpPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadGenericNonLinear_tp_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadGenericNonLinear_tp_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadGenericNonLinear_tp_feature",
                                 "_UI_LoadGenericNonLinear_type" ),
-                        CimPackage.eINSTANCE.getLoadGenericNonLinear_Tp(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadGenericNonLinear_Tp(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -208,11 +261,17 @@ public class LoadGenericNonLinearItemProvider extends LoadDynamicsItemProvider {
     protected void addTqPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadGenericNonLinear_tq_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadGenericNonLinear_tq_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadGenericNonLinear_tq_feature",
                                 "_UI_LoadGenericNonLinear_type" ),
-                        CimPackage.eINSTANCE.getLoadGenericNonLinear_Tq(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadGenericNonLinear_Tq(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -88,11 +93,17 @@ public class DiscExcContIEEEDEC1AItemProvider extends DiscontinuousExcitationCon
     protected void addEscPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiscExcContIEEEDEC1A_esc_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiscExcContIEEEDEC1A_esc_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiscExcContIEEEDEC1A_esc_feature",
                                 "_UI_DiscExcContIEEEDEC1A_type" ),
-                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Esc(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Esc(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -104,11 +115,17 @@ public class DiscExcContIEEEDEC1AItemProvider extends DiscontinuousExcitationCon
     protected void addKanPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiscExcContIEEEDEC1A_kan_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiscExcContIEEEDEC1A_kan_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiscExcContIEEEDEC1A_kan_feature",
                                 "_UI_DiscExcContIEEEDEC1A_type" ),
-                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Kan(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Kan(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -120,11 +137,17 @@ public class DiscExcContIEEEDEC1AItemProvider extends DiscontinuousExcitationCon
     protected void addKetlPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiscExcContIEEEDEC1A_ketl_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiscExcContIEEEDEC1A_ketl_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiscExcContIEEEDEC1A_ketl_feature",
                                 "_UI_DiscExcContIEEEDEC1A_type" ),
-                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Ketl(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Ketl(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -136,11 +159,17 @@ public class DiscExcContIEEEDEC1AItemProvider extends DiscontinuousExcitationCon
     protected void addTanPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiscExcContIEEEDEC1A_tan_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiscExcContIEEEDEC1A_tan_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiscExcContIEEEDEC1A_tan_feature",
                                 "_UI_DiscExcContIEEEDEC1A_type" ),
-                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Tan(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Tan(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -152,11 +181,17 @@ public class DiscExcContIEEEDEC1AItemProvider extends DiscontinuousExcitationCon
     protected void addTdPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiscExcContIEEEDEC1A_td_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiscExcContIEEEDEC1A_td_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiscExcContIEEEDEC1A_td_feature",
                                 "_UI_DiscExcContIEEEDEC1A_type" ),
-                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Td(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Td(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -168,11 +203,17 @@ public class DiscExcContIEEEDEC1AItemProvider extends DiscontinuousExcitationCon
     protected void addTl1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiscExcContIEEEDEC1A_tl1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiscExcContIEEEDEC1A_tl1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiscExcContIEEEDEC1A_tl1_feature",
                                 "_UI_DiscExcContIEEEDEC1A_type" ),
-                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Tl1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Tl1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -184,11 +225,17 @@ public class DiscExcContIEEEDEC1AItemProvider extends DiscontinuousExcitationCon
     protected void addTl2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiscExcContIEEEDEC1A_tl2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiscExcContIEEEDEC1A_tl2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiscExcContIEEEDEC1A_tl2_feature",
                                 "_UI_DiscExcContIEEEDEC1A_type" ),
-                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Tl2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Tl2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -200,11 +247,17 @@ public class DiscExcContIEEEDEC1AItemProvider extends DiscontinuousExcitationCon
     protected void addTw5PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiscExcContIEEEDEC1A_tw5_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiscExcContIEEEDEC1A_tw5_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiscExcContIEEEDEC1A_tw5_feature",
                                 "_UI_DiscExcContIEEEDEC1A_type" ),
-                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Tw5(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Tw5(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -216,11 +269,17 @@ public class DiscExcContIEEEDEC1AItemProvider extends DiscontinuousExcitationCon
     protected void addValPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiscExcContIEEEDEC1A_val_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiscExcContIEEEDEC1A_val_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiscExcContIEEEDEC1A_val_feature",
                                 "_UI_DiscExcContIEEEDEC1A_type" ),
-                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Val(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Val(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -230,13 +289,19 @@ public class DiscExcContIEEEDEC1AItemProvider extends DiscontinuousExcitationCon
      * @generated
      */
     protected void addVanmaxPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_DiscExcContIEEEDEC1A_vanmax_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_DiscExcContIEEEDEC1A_vanmax_feature",
-                        "_UI_DiscExcContIEEEDEC1A_type" ),
-                CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Vanmax(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_DiscExcContIEEEDEC1A_vanmax_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_DiscExcContIEEEDEC1A_vanmax_feature",
+                                "_UI_DiscExcContIEEEDEC1A_type" ),
+                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Vanmax(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -248,11 +313,17 @@ public class DiscExcContIEEEDEC1AItemProvider extends DiscontinuousExcitationCon
     protected void addVomaxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiscExcContIEEEDEC1A_vomax_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiscExcContIEEEDEC1A_vomax_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiscExcContIEEEDEC1A_vomax_feature",
                                 "_UI_DiscExcContIEEEDEC1A_type" ),
-                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Vomax(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Vomax(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -264,11 +335,17 @@ public class DiscExcContIEEEDEC1AItemProvider extends DiscontinuousExcitationCon
     protected void addVominPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiscExcContIEEEDEC1A_vomin_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiscExcContIEEEDEC1A_vomin_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiscExcContIEEEDEC1A_vomin_feature",
                                 "_UI_DiscExcContIEEEDEC1A_type" ),
-                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Vomin(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Vomin(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -280,11 +357,17 @@ public class DiscExcContIEEEDEC1AItemProvider extends DiscontinuousExcitationCon
     protected void addVsmaxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiscExcContIEEEDEC1A_vsmax_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiscExcContIEEEDEC1A_vsmax_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiscExcContIEEEDEC1A_vsmax_feature",
                                 "_UI_DiscExcContIEEEDEC1A_type" ),
-                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Vsmax(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Vsmax(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -296,11 +379,17 @@ public class DiscExcContIEEEDEC1AItemProvider extends DiscontinuousExcitationCon
     protected void addVsminPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiscExcContIEEEDEC1A_vsmin_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiscExcContIEEEDEC1A_vsmin_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiscExcContIEEEDEC1A_vsmin_feature",
                                 "_UI_DiscExcContIEEEDEC1A_type" ),
-                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Vsmin(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Vsmin(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -312,11 +401,17 @@ public class DiscExcContIEEEDEC1AItemProvider extends DiscontinuousExcitationCon
     protected void addVtcPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiscExcContIEEEDEC1A_vtc_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiscExcContIEEEDEC1A_vtc_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiscExcContIEEEDEC1A_vtc_feature",
                                 "_UI_DiscExcContIEEEDEC1A_type" ),
-                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Vtc(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Vtc(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -328,11 +423,17 @@ public class DiscExcContIEEEDEC1AItemProvider extends DiscontinuousExcitationCon
     protected void addVtlmtPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiscExcContIEEEDEC1A_vtlmt_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiscExcContIEEEDEC1A_vtlmt_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiscExcContIEEEDEC1A_vtlmt_feature",
                                 "_UI_DiscExcContIEEEDEC1A_type" ),
-                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Vtlmt(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Vtlmt(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -344,11 +445,17 @@ public class DiscExcContIEEEDEC1AItemProvider extends DiscontinuousExcitationCon
     protected void addVtmPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiscExcContIEEEDEC1A_vtm_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiscExcContIEEEDEC1A_vtm_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiscExcContIEEEDEC1A_vtm_feature",
                                 "_UI_DiscExcContIEEEDEC1A_type" ),
-                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Vtm(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Vtm(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -360,11 +467,17 @@ public class DiscExcContIEEEDEC1AItemProvider extends DiscontinuousExcitationCon
     protected void addVtnPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DiscExcContIEEEDEC1A_vtn_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DiscExcContIEEEDEC1A_vtn_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_DiscExcContIEEEDEC1A_vtn_feature",
                                 "_UI_DiscExcContIEEEDEC1A_type" ),
-                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Vtn(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDiscExcContIEEEDEC1A_Vtn(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

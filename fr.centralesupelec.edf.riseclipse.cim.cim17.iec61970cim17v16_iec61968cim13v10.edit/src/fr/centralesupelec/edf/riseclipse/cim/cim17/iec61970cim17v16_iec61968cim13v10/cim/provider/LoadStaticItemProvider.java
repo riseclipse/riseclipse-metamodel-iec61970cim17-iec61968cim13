@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -88,11 +93,17 @@ public class LoadStaticItemProvider extends IdentifiedObjectItemProvider {
     protected void addEp1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadStatic_ep1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadStatic_ep1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadStatic_ep1_feature",
                                 "_UI_LoadStatic_type" ),
-                        CimPackage.eINSTANCE.getLoadStatic_Ep1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadStatic_Ep1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -104,11 +115,17 @@ public class LoadStaticItemProvider extends IdentifiedObjectItemProvider {
     protected void addEp2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadStatic_ep2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadStatic_ep2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadStatic_ep2_feature",
                                 "_UI_LoadStatic_type" ),
-                        CimPackage.eINSTANCE.getLoadStatic_Ep2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadStatic_Ep2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -120,11 +137,17 @@ public class LoadStaticItemProvider extends IdentifiedObjectItemProvider {
     protected void addEp3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadStatic_ep3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadStatic_ep3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadStatic_ep3_feature",
                                 "_UI_LoadStatic_type" ),
-                        CimPackage.eINSTANCE.getLoadStatic_Ep3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadStatic_Ep3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -136,11 +159,17 @@ public class LoadStaticItemProvider extends IdentifiedObjectItemProvider {
     protected void addEq1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadStatic_eq1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadStatic_eq1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadStatic_eq1_feature",
                                 "_UI_LoadStatic_type" ),
-                        CimPackage.eINSTANCE.getLoadStatic_Eq1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadStatic_Eq1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -152,11 +181,17 @@ public class LoadStaticItemProvider extends IdentifiedObjectItemProvider {
     protected void addEq2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadStatic_eq2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadStatic_eq2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadStatic_eq2_feature",
                                 "_UI_LoadStatic_type" ),
-                        CimPackage.eINSTANCE.getLoadStatic_Eq2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadStatic_Eq2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -168,11 +203,17 @@ public class LoadStaticItemProvider extends IdentifiedObjectItemProvider {
     protected void addEq3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadStatic_eq3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadStatic_eq3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadStatic_eq3_feature",
                                 "_UI_LoadStatic_type" ),
-                        CimPackage.eINSTANCE.getLoadStatic_Eq3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadStatic_Eq3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -184,11 +225,17 @@ public class LoadStaticItemProvider extends IdentifiedObjectItemProvider {
     protected void addKp1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadStatic_kp1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadStatic_kp1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadStatic_kp1_feature",
                                 "_UI_LoadStatic_type" ),
-                        CimPackage.eINSTANCE.getLoadStatic_Kp1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadStatic_Kp1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -200,11 +247,17 @@ public class LoadStaticItemProvider extends IdentifiedObjectItemProvider {
     protected void addKp2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadStatic_kp2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadStatic_kp2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadStatic_kp2_feature",
                                 "_UI_LoadStatic_type" ),
-                        CimPackage.eINSTANCE.getLoadStatic_Kp2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadStatic_Kp2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -216,11 +269,17 @@ public class LoadStaticItemProvider extends IdentifiedObjectItemProvider {
     protected void addKp3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadStatic_kp3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadStatic_kp3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadStatic_kp3_feature",
                                 "_UI_LoadStatic_type" ),
-                        CimPackage.eINSTANCE.getLoadStatic_Kp3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadStatic_Kp3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -232,11 +291,17 @@ public class LoadStaticItemProvider extends IdentifiedObjectItemProvider {
     protected void addKp4PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadStatic_kp4_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadStatic_kp4_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadStatic_kp4_feature",
                                 "_UI_LoadStatic_type" ),
-                        CimPackage.eINSTANCE.getLoadStatic_Kp4(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadStatic_Kp4(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -248,11 +313,17 @@ public class LoadStaticItemProvider extends IdentifiedObjectItemProvider {
     protected void addKpfPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadStatic_kpf_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadStatic_kpf_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadStatic_kpf_feature",
                                 "_UI_LoadStatic_type" ),
-                        CimPackage.eINSTANCE.getLoadStatic_Kpf(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadStatic_Kpf(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -264,11 +335,17 @@ public class LoadStaticItemProvider extends IdentifiedObjectItemProvider {
     protected void addKq1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadStatic_kq1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadStatic_kq1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadStatic_kq1_feature",
                                 "_UI_LoadStatic_type" ),
-                        CimPackage.eINSTANCE.getLoadStatic_Kq1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadStatic_Kq1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -280,11 +357,17 @@ public class LoadStaticItemProvider extends IdentifiedObjectItemProvider {
     protected void addKq2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadStatic_kq2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadStatic_kq2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadStatic_kq2_feature",
                                 "_UI_LoadStatic_type" ),
-                        CimPackage.eINSTANCE.getLoadStatic_Kq2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadStatic_Kq2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -296,11 +379,17 @@ public class LoadStaticItemProvider extends IdentifiedObjectItemProvider {
     protected void addKq3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadStatic_kq3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadStatic_kq3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadStatic_kq3_feature",
                                 "_UI_LoadStatic_type" ),
-                        CimPackage.eINSTANCE.getLoadStatic_Kq3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadStatic_Kq3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -312,11 +401,17 @@ public class LoadStaticItemProvider extends IdentifiedObjectItemProvider {
     protected void addKq4PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadStatic_kq4_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadStatic_kq4_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadStatic_kq4_feature",
                                 "_UI_LoadStatic_type" ),
-                        CimPackage.eINSTANCE.getLoadStatic_Kq4(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadStatic_Kq4(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -328,11 +423,17 @@ public class LoadStaticItemProvider extends IdentifiedObjectItemProvider {
     protected void addKqfPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadStatic_kqf_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadStatic_kqf_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadStatic_kqf_feature",
                                 "_UI_LoadStatic_type" ),
-                        CimPackage.eINSTANCE.getLoadStatic_Kqf(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadStatic_Kqf(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -344,11 +445,17 @@ public class LoadStaticItemProvider extends IdentifiedObjectItemProvider {
     protected void addStaticLoadModelTypePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadStatic_staticLoadModelType_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadStatic_staticLoadModelType_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadStatic_staticLoadModelType_feature",
                                 "_UI_LoadStatic_type" ),
-                        CimPackage.eINSTANCE.getLoadStatic_StaticLoadModelType(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getLoadStatic_StaticLoadModelType(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -360,10 +467,17 @@ public class LoadStaticItemProvider extends IdentifiedObjectItemProvider {
     protected void addLoadAggregatePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_LoadStatic_LoadAggregate_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_LoadStatic_LoadAggregate_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_LoadStatic_LoadAggregate_feature",
                                 "_UI_LoadStatic_type" ),
-                        CimPackage.eINSTANCE.getLoadStatic_LoadAggregate(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getLoadStatic_LoadAggregate(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

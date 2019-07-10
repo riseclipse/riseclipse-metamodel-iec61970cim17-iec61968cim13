@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -72,10 +77,16 @@ public class ValueAliasSetItemProvider extends IdentifiedObjectItemProvider {
     protected void addRaiseLowerCommandsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ValueAliasSet_RaiseLowerCommands_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ValueAliasSet_RaiseLowerCommands_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ValueAliasSet_RaiseLowerCommands_feature",
                                 "_UI_ValueAliasSet_type" ),
-                        CimPackage.eINSTANCE.getValueAliasSet_RaiseLowerCommands(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getValueAliasSet_RaiseLowerCommands(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
@@ -88,10 +99,17 @@ public class ValueAliasSetItemProvider extends IdentifiedObjectItemProvider {
     protected void addDiscretesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ValueAliasSet_Discretes_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ValueAliasSet_Discretes_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ValueAliasSet_Discretes_feature",
                                 "_UI_ValueAliasSet_type" ),
-                        CimPackage.eINSTANCE.getValueAliasSet_Discretes(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getValueAliasSet_Discretes(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -103,10 +121,17 @@ public class ValueAliasSetItemProvider extends IdentifiedObjectItemProvider {
     protected void addCommandsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ValueAliasSet_Commands_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ValueAliasSet_Commands_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ValueAliasSet_Commands_feature",
                                 "_UI_ValueAliasSet_type" ),
-                        CimPackage.eINSTANCE.getValueAliasSet_Commands(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getValueAliasSet_Commands(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -118,10 +143,17 @@ public class ValueAliasSetItemProvider extends IdentifiedObjectItemProvider {
     protected void addValuesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_ValueAliasSet_Values_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_ValueAliasSet_Values_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_ValueAliasSet_Values_feature",
                                 "_UI_ValueAliasSet_type" ),
-                        CimPackage.eINSTANCE.getValueAliasSet_Values(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getValueAliasSet_Values(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -158,7 +190,6 @@ public class ValueAliasSetItemProvider extends IdentifiedObjectItemProvider {
     @Override
     public void notifyChanged( Notification notification ) {
         updateChildren( notification );
-        super.notifyChanged( notification );
     }
 
     /**

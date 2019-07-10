@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -81,12 +86,18 @@ public class DispatchablePowerCapabilityItemProvider extends CimObjectWithIDItem
     protected void addCurrentActivePowerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DispatchablePowerCapability_currentActivePower_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DispatchablePowerCapability_currentActivePower_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_DispatchablePowerCapability_currentActivePower_feature",
                                 "_UI_DispatchablePowerCapability_type" ),
-                        CimPackage.eINSTANCE.getDispatchablePowerCapability_CurrentActivePower(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDispatchablePowerCapability_CurrentActivePower(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -96,14 +107,20 @@ public class DispatchablePowerCapabilityItemProvider extends CimObjectWithIDItem
      * @generated
      */
     protected void addCurrentApparentPowerPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_DispatchablePowerCapability_currentApparentPower_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_DispatchablePowerCapability_currentApparentPower_feature",
-                        "_UI_DispatchablePowerCapability_type" ),
-                CimPackage.eINSTANCE.getDispatchablePowerCapability_CurrentApparentPower(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_DispatchablePowerCapability_currentApparentPower_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_DispatchablePowerCapability_currentApparentPower_feature",
+                                "_UI_DispatchablePowerCapability_type" ),
+                        CimPackage.eINSTANCE.getDispatchablePowerCapability_CurrentApparentPower(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -113,14 +130,20 @@ public class DispatchablePowerCapabilityItemProvider extends CimObjectWithIDItem
      * @generated
      */
     protected void addCurrentReactivePowerPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_DispatchablePowerCapability_currentReactivePower_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_DispatchablePowerCapability_currentReactivePower_feature",
-                        "_UI_DispatchablePowerCapability_type" ),
-                CimPackage.eINSTANCE.getDispatchablePowerCapability_CurrentReactivePower(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_DispatchablePowerCapability_currentReactivePower_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_DispatchablePowerCapability_currentReactivePower_feature",
+                                "_UI_DispatchablePowerCapability_type" ),
+                        CimPackage.eINSTANCE.getDispatchablePowerCapability_CurrentReactivePower(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -132,12 +155,18 @@ public class DispatchablePowerCapabilityItemProvider extends CimObjectWithIDItem
     protected void addMaxActivePowerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DispatchablePowerCapability_maxActivePower_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DispatchablePowerCapability_maxActivePower_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_DispatchablePowerCapability_maxActivePower_feature",
                                 "_UI_DispatchablePowerCapability_type" ),
-                        CimPackage.eINSTANCE.getDispatchablePowerCapability_MaxActivePower(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDispatchablePowerCapability_MaxActivePower(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -149,12 +178,18 @@ public class DispatchablePowerCapabilityItemProvider extends CimObjectWithIDItem
     protected void addMaxApparentPowerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DispatchablePowerCapability_maxApparentPower_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DispatchablePowerCapability_maxApparentPower_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_DispatchablePowerCapability_maxApparentPower_feature",
                                 "_UI_DispatchablePowerCapability_type" ),
-                        CimPackage.eINSTANCE.getDispatchablePowerCapability_MaxApparentPower(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDispatchablePowerCapability_MaxApparentPower(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -166,12 +201,18 @@ public class DispatchablePowerCapabilityItemProvider extends CimObjectWithIDItem
     protected void addMaxReactivePowerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DispatchablePowerCapability_maxReactivePower_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DispatchablePowerCapability_maxReactivePower_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_DispatchablePowerCapability_maxReactivePower_feature",
                                 "_UI_DispatchablePowerCapability_type" ),
-                        CimPackage.eINSTANCE.getDispatchablePowerCapability_MaxReactivePower(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDispatchablePowerCapability_MaxReactivePower(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -183,12 +224,18 @@ public class DispatchablePowerCapabilityItemProvider extends CimObjectWithIDItem
     protected void addMinActivePowerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DispatchablePowerCapability_minActivePower_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DispatchablePowerCapability_minActivePower_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_DispatchablePowerCapability_minActivePower_feature",
                                 "_UI_DispatchablePowerCapability_type" ),
-                        CimPackage.eINSTANCE.getDispatchablePowerCapability_MinActivePower(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDispatchablePowerCapability_MinActivePower(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -200,12 +247,18 @@ public class DispatchablePowerCapabilityItemProvider extends CimObjectWithIDItem
     protected void addMinApparentPowerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DispatchablePowerCapability_minApparentPower_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DispatchablePowerCapability_minApparentPower_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_DispatchablePowerCapability_minApparentPower_feature",
                                 "_UI_DispatchablePowerCapability_type" ),
-                        CimPackage.eINSTANCE.getDispatchablePowerCapability_MinApparentPower(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDispatchablePowerCapability_MinApparentPower(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -217,12 +270,18 @@ public class DispatchablePowerCapabilityItemProvider extends CimObjectWithIDItem
     protected void addMinReactivePowerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DispatchablePowerCapability_minReactivePower_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DispatchablePowerCapability_minReactivePower_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_DispatchablePowerCapability_minReactivePower_feature",
                                 "_UI_DispatchablePowerCapability_type" ),
-                        CimPackage.eINSTANCE.getDispatchablePowerCapability_MinReactivePower(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getDispatchablePowerCapability_MinReactivePower(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -234,12 +293,18 @@ public class DispatchablePowerCapabilityItemProvider extends CimObjectWithIDItem
     protected void addEndDeviceGroupPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_DispatchablePowerCapability_EndDeviceGroup_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_DispatchablePowerCapability_EndDeviceGroup_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_DispatchablePowerCapability_EndDeviceGroup_feature",
                                 "_UI_DispatchablePowerCapability_type" ),
-                        CimPackage.eINSTANCE.getDispatchablePowerCapability_EndDeviceGroup(), true, false, true, null,
-                        null, null ) );
+                        CimPackage.eINSTANCE.getDispatchablePowerCapability_EndDeviceGroup(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -250,11 +315,17 @@ public class DispatchablePowerCapabilityItemProvider extends CimObjectWithIDItem
      */
     protected void addEndDevicePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_DispatchablePowerCapability_EndDevice_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_DispatchablePowerCapability_EndDevice_feature",
                         "_UI_DispatchablePowerCapability_type" ),
-                CimPackage.eINSTANCE.getDispatchablePowerCapability_EndDevice(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getDispatchablePowerCapability_EndDevice(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 

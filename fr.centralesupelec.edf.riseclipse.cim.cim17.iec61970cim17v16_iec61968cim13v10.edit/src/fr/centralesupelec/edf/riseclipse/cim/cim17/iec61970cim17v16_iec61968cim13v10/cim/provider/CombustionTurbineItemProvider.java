@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -81,11 +86,17 @@ public class CombustionTurbineItemProvider extends PrimeMoverItemProvider {
     protected void addAmbientTempPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CombustionTurbine_ambientTemp_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CombustionTurbine_ambientTemp_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CombustionTurbine_ambientTemp_feature",
                                 "_UI_CombustionTurbine_type" ),
-                        CimPackage.eINSTANCE.getCombustionTurbine_AmbientTemp(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCombustionTurbine_AmbientTemp(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -97,11 +108,17 @@ public class CombustionTurbineItemProvider extends PrimeMoverItemProvider {
     protected void addAuxPowerVersusFrequencyPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CombustionTurbine_auxPowerVersusFrequency_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CombustionTurbine_auxPowerVersusFrequency_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_CombustionTurbine_auxPowerVersusFrequency_feature", "_UI_CombustionTurbine_type" ),
-                        CimPackage.eINSTANCE.getCombustionTurbine_AuxPowerVersusFrequency(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCombustionTurbine_AuxPowerVersusFrequency(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -113,11 +130,17 @@ public class CombustionTurbineItemProvider extends PrimeMoverItemProvider {
     protected void addAuxPowerVersusVoltagePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CombustionTurbine_auxPowerVersusVoltage_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CombustionTurbine_auxPowerVersusVoltage_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_CombustionTurbine_auxPowerVersusVoltage_feature", "_UI_CombustionTurbine_type" ),
-                        CimPackage.eINSTANCE.getCombustionTurbine_AuxPowerVersusVoltage(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCombustionTurbine_AuxPowerVersusVoltage(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -128,12 +151,18 @@ public class CombustionTurbineItemProvider extends PrimeMoverItemProvider {
      */
     protected void addCapabilityVersusFrequencyPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_CombustionTurbine_capabilityVersusFrequency_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_CombustionTurbine_capabilityVersusFrequency_feature", "_UI_CombustionTurbine_type" ),
-                CimPackage.eINSTANCE.getCombustionTurbine_CapabilityVersusFrequency(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                CimPackage.eINSTANCE.getCombustionTurbine_CapabilityVersusFrequency(),
+                true,
+                false,
+                false,
+                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                null,
+                null ) );
     }
 
     /**
@@ -143,13 +172,19 @@ public class CombustionTurbineItemProvider extends PrimeMoverItemProvider {
      * @generated
      */
     protected void addHeatRecoveryFlagPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CombustionTurbine_heatRecoveryFlag_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CombustionTurbine_heatRecoveryFlag_feature",
-                        "_UI_CombustionTurbine_type" ),
-                CimPackage.eINSTANCE.getCombustionTurbine_HeatRecoveryFlag(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CombustionTurbine_heatRecoveryFlag_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_CombustionTurbine_heatRecoveryFlag_feature", "_UI_CombustionTurbine_type" ),
+                        CimPackage.eINSTANCE.getCombustionTurbine_HeatRecoveryFlag(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -161,11 +196,17 @@ public class CombustionTurbineItemProvider extends PrimeMoverItemProvider {
     protected void addPowerVariationByTempPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CombustionTurbine_powerVariationByTemp_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CombustionTurbine_powerVariationByTemp_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_CombustionTurbine_powerVariationByTemp_feature", "_UI_CombustionTurbine_type" ),
-                        CimPackage.eINSTANCE.getCombustionTurbine_PowerVariationByTemp(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCombustionTurbine_PowerVariationByTemp(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -175,13 +216,19 @@ public class CombustionTurbineItemProvider extends PrimeMoverItemProvider {
      * @generated
      */
     protected void addReferenceTempPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CombustionTurbine_referenceTemp_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CombustionTurbine_referenceTemp_feature",
-                        "_UI_CombustionTurbine_type" ),
-                CimPackage.eINSTANCE.getCombustionTurbine_ReferenceTemp(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CombustionTurbine_referenceTemp_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_CombustionTurbine_referenceTemp_feature",
+                                "_UI_CombustionTurbine_type" ),
+                        CimPackage.eINSTANCE.getCombustionTurbine_ReferenceTemp(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -191,13 +238,19 @@ public class CombustionTurbineItemProvider extends PrimeMoverItemProvider {
      * @generated
      */
     protected void addTimeConstantPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CombustionTurbine_timeConstant_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CombustionTurbine_timeConstant_feature",
-                        "_UI_CombustionTurbine_type" ),
-                CimPackage.eINSTANCE.getCombustionTurbine_TimeConstant(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CombustionTurbine_timeConstant_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_CombustionTurbine_timeConstant_feature",
+                                "_UI_CombustionTurbine_type" ),
+                        CimPackage.eINSTANCE.getCombustionTurbine_TimeConstant(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -209,11 +262,17 @@ public class CombustionTurbineItemProvider extends PrimeMoverItemProvider {
     protected void addCTTempActivePowerCurvePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CombustionTurbine_CTTempActivePowerCurve_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CombustionTurbine_CTTempActivePowerCurve_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_CombustionTurbine_CTTempActivePowerCurve_feature", "_UI_CombustionTurbine_type" ),
-                        CimPackage.eINSTANCE.getCombustionTurbine_CTTempActivePowerCurve(), true, false, true, null,
-                        null, null ) );
+                        CimPackage.eINSTANCE.getCombustionTurbine_CTTempActivePowerCurve(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -223,12 +282,19 @@ public class CombustionTurbineItemProvider extends PrimeMoverItemProvider {
      * @generated
      */
     protected void addHeatRecoveryBoilerPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CombustionTurbine_HeatRecoveryBoiler_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CombustionTurbine_HeatRecoveryBoiler_feature",
-                        "_UI_CombustionTurbine_type" ),
-                CimPackage.eINSTANCE.getCombustionTurbine_HeatRecoveryBoiler(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CombustionTurbine_HeatRecoveryBoiler_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_CombustionTurbine_HeatRecoveryBoiler_feature", "_UI_CombustionTurbine_type" ),
+                        CimPackage.eINSTANCE.getCombustionTurbine_HeatRecoveryBoiler(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -238,12 +304,19 @@ public class CombustionTurbineItemProvider extends PrimeMoverItemProvider {
      * @generated
      */
     protected void addAirCompressorPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CombustionTurbine_AirCompressor_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CombustionTurbine_AirCompressor_feature",
-                        "_UI_CombustionTurbine_type" ),
-                CimPackage.eINSTANCE.getCombustionTurbine_AirCompressor(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CombustionTurbine_AirCompressor_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_CombustionTurbine_AirCompressor_feature",
+                                "_UI_CombustionTurbine_type" ),
+                        CimPackage.eINSTANCE.getCombustionTurbine_AirCompressor(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

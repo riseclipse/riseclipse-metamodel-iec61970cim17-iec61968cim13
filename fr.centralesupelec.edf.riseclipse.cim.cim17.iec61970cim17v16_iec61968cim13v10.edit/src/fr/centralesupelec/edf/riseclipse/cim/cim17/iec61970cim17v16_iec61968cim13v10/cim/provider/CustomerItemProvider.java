@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimFactory;
@@ -83,11 +88,17 @@ public class CustomerItemProvider extends OrganisationRoleItemProvider {
     protected void addKindPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Customer_kind_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Customer_kind_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Customer_kind_feature",
                                 "_UI_Customer_type" ),
-                        CimPackage.eINSTANCE.getCustomer_Kind(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCustomer_Kind(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -99,11 +110,17 @@ public class CustomerItemProvider extends OrganisationRoleItemProvider {
     protected void addLocalePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Customer_locale_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Customer_locale_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Customer_locale_feature",
                                 "_UI_Customer_type" ),
-                        CimPackage.eINSTANCE.getCustomer_Locale(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCustomer_Locale(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -115,11 +132,17 @@ public class CustomerItemProvider extends OrganisationRoleItemProvider {
     protected void addPucNumberPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Customer_pucNumber_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Customer_pucNumber_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Customer_pucNumber_feature",
                                 "_UI_Customer_type" ),
-                        CimPackage.eINSTANCE.getCustomer_PucNumber(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCustomer_PucNumber(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -131,11 +154,17 @@ public class CustomerItemProvider extends OrganisationRoleItemProvider {
     protected void addSpecialNeedPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Customer_specialNeed_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Customer_specialNeed_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Customer_specialNeed_feature",
                                 "_UI_Customer_type" ),
-                        CimPackage.eINSTANCE.getCustomer_SpecialNeed(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCustomer_SpecialNeed(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -147,10 +176,17 @@ public class CustomerItemProvider extends OrganisationRoleItemProvider {
     protected void addCustomerAccountsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Customer_CustomerAccounts_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Customer_CustomerAccounts_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Customer_CustomerAccounts_feature",
                                 "_UI_Customer_type" ),
-                        CimPackage.eINSTANCE.getCustomer_CustomerAccounts(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCustomer_CustomerAccounts(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -162,10 +198,17 @@ public class CustomerItemProvider extends OrganisationRoleItemProvider {
     protected void addEndDevicesPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Customer_EndDevices_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Customer_EndDevices_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Customer_EndDevices_feature",
                                 "_UI_Customer_type" ),
-                        CimPackage.eINSTANCE.getCustomer_EndDevices(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCustomer_EndDevices(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -177,10 +220,17 @@ public class CustomerItemProvider extends OrganisationRoleItemProvider {
     protected void addWorksPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Customer_Works_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Customer_Works_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Customer_Works_feature",
                                 "_UI_Customer_type" ),
-                        CimPackage.eINSTANCE.getCustomer_Works(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCustomer_Works(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -192,10 +242,17 @@ public class CustomerItemProvider extends OrganisationRoleItemProvider {
     protected void addCustomerAgreementsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Customer_CustomerAgreements_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Customer_CustomerAgreements_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Customer_CustomerAgreements_feature",
                                 "_UI_Customer_type" ),
-                        CimPackage.eINSTANCE.getCustomer_CustomerAgreements(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCustomer_CustomerAgreements(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -207,10 +264,17 @@ public class CustomerItemProvider extends OrganisationRoleItemProvider {
     protected void addTroubleTicketsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Customer_TroubleTickets_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Customer_TroubleTickets_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Customer_TroubleTickets_feature",
                                 "_UI_Customer_type" ),
-                        CimPackage.eINSTANCE.getCustomer_TroubleTickets(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCustomer_TroubleTickets(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -222,10 +286,17 @@ public class CustomerItemProvider extends OrganisationRoleItemProvider {
     protected void addNotificationsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_Customer_Notifications_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_Customer_Notifications_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_Customer_Notifications_feature",
                                 "_UI_Customer_type" ),
-                        CimPackage.eINSTANCE.getCustomer_Notifications(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCustomer_Notifications(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**

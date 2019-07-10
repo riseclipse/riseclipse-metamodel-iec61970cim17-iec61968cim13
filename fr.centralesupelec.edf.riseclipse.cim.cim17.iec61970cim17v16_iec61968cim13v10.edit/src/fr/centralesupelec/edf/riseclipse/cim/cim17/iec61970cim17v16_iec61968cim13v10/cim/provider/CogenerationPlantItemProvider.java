@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -77,11 +82,17 @@ public class CogenerationPlantItemProvider extends PowerSystemResourceItemProvid
     protected void addCogenHPSendoutRatingPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CogenerationPlant_cogenHPSendoutRating_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CogenerationPlant_cogenHPSendoutRating_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_CogenerationPlant_cogenHPSendoutRating_feature", "_UI_CogenerationPlant_type" ),
-                        CimPackage.eINSTANCE.getCogenerationPlant_CogenHPSendoutRating(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCogenerationPlant_CogenHPSendoutRating(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -91,13 +102,19 @@ public class CogenerationPlantItemProvider extends PowerSystemResourceItemProvid
      * @generated
      */
     protected void addCogenHPSteamRatingPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CogenerationPlant_cogenHPSteamRating_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CogenerationPlant_cogenHPSteamRating_feature",
-                        "_UI_CogenerationPlant_type" ),
-                CimPackage.eINSTANCE.getCogenerationPlant_CogenHPSteamRating(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CogenerationPlant_cogenHPSteamRating_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_CogenerationPlant_cogenHPSteamRating_feature", "_UI_CogenerationPlant_type" ),
+                        CimPackage.eINSTANCE.getCogenerationPlant_CogenHPSteamRating(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -109,11 +126,17 @@ public class CogenerationPlantItemProvider extends PowerSystemResourceItemProvid
     protected void addCogenLPSendoutRatingPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CogenerationPlant_cogenLPSendoutRating_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CogenerationPlant_cogenLPSendoutRating_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_CogenerationPlant_cogenLPSendoutRating_feature", "_UI_CogenerationPlant_type" ),
-                        CimPackage.eINSTANCE.getCogenerationPlant_CogenLPSendoutRating(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCogenerationPlant_CogenLPSendoutRating(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -123,13 +146,19 @@ public class CogenerationPlantItemProvider extends PowerSystemResourceItemProvid
      * @generated
      */
     protected void addCogenLPSteamRatingPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CogenerationPlant_cogenLPSteamRating_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CogenerationPlant_cogenLPSteamRating_feature",
-                        "_UI_CogenerationPlant_type" ),
-                CimPackage.eINSTANCE.getCogenerationPlant_CogenLPSteamRating(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CogenerationPlant_cogenLPSteamRating_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_CogenerationPlant_cogenLPSteamRating_feature", "_UI_CogenerationPlant_type" ),
+                        CimPackage.eINSTANCE.getCogenerationPlant_CogenLPSteamRating(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -141,11 +170,17 @@ public class CogenerationPlantItemProvider extends PowerSystemResourceItemProvid
     protected void addRatedPPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CogenerationPlant_ratedP_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CogenerationPlant_ratedP_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CogenerationPlant_ratedP_feature",
                                 "_UI_CogenerationPlant_type" ),
-                        CimPackage.eINSTANCE.getCogenerationPlant_RatedP(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCogenerationPlant_RatedP(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -157,11 +192,17 @@ public class CogenerationPlantItemProvider extends PowerSystemResourceItemProvid
     protected void addThermalGeneratingUnitsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CogenerationPlant_ThermalGeneratingUnits_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CogenerationPlant_ThermalGeneratingUnits_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_CogenerationPlant_ThermalGeneratingUnits_feature", "_UI_CogenerationPlant_type" ),
-                        CimPackage.eINSTANCE.getCogenerationPlant_ThermalGeneratingUnits(), true, false, true, null,
-                        null, null ) );
+                        CimPackage.eINSTANCE.getCogenerationPlant_ThermalGeneratingUnits(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -173,10 +214,16 @@ public class CogenerationPlantItemProvider extends PowerSystemResourceItemProvid
     protected void addSteamSendoutSchedulePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CogenerationPlant_SteamSendoutSchedule_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CogenerationPlant_SteamSendoutSchedule_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_CogenerationPlant_SteamSendoutSchedule_feature", "_UI_CogenerationPlant_type" ),
-                        CimPackage.eINSTANCE.getCogenerationPlant_SteamSendoutSchedule(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getCogenerationPlant_SteamSendoutSchedule(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 

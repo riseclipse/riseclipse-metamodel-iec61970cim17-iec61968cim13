@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -77,11 +82,17 @@ public class CustomerAccountItemProvider extends DocumentItemProvider {
     protected void addBillingCyclePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CustomerAccount_billingCycle_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CustomerAccount_billingCycle_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CustomerAccount_billingCycle_feature",
                                 "_UI_CustomerAccount_type" ),
-                        CimPackage.eINSTANCE.getCustomerAccount_BillingCycle(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCustomerAccount_BillingCycle(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -93,11 +104,17 @@ public class CustomerAccountItemProvider extends DocumentItemProvider {
     protected void addBudgetBillPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CustomerAccount_budgetBill_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CustomerAccount_budgetBill_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CustomerAccount_budgetBill_feature",
                                 "_UI_CustomerAccount_type" ),
-                        CimPackage.eINSTANCE.getCustomerAccount_BudgetBill(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCustomerAccount_BudgetBill(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -109,11 +126,17 @@ public class CustomerAccountItemProvider extends DocumentItemProvider {
     protected void addLastBillAmountPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CustomerAccount_lastBillAmount_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CustomerAccount_lastBillAmount_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CustomerAccount_lastBillAmount_feature",
                                 "_UI_CustomerAccount_type" ),
-                        CimPackage.eINSTANCE.getCustomerAccount_LastBillAmount(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCustomerAccount_LastBillAmount(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -123,12 +146,19 @@ public class CustomerAccountItemProvider extends DocumentItemProvider {
      * @generated
      */
     protected void addAccountNotificationPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CustomerAccount_AccountNotification_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CustomerAccount_AccountNotification_feature",
-                        "_UI_CustomerAccount_type" ),
-                CimPackage.eINSTANCE.getCustomerAccount_AccountNotification(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CustomerAccount_AccountNotification_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_CustomerAccount_AccountNotification_feature", "_UI_CustomerAccount_type" ),
+                        CimPackage.eINSTANCE.getCustomerAccount_AccountNotification(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -140,10 +170,17 @@ public class CustomerAccountItemProvider extends DocumentItemProvider {
     protected void addCustomerPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CustomerAccount_Customer_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CustomerAccount_Customer_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CustomerAccount_Customer_feature",
                                 "_UI_CustomerAccount_type" ),
-                        CimPackage.eINSTANCE.getCustomerAccount_Customer(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCustomerAccount_Customer(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -153,12 +190,19 @@ public class CustomerAccountItemProvider extends DocumentItemProvider {
      * @generated
      */
     protected void addCustomerAgreementsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CustomerAccount_CustomerAgreements_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CustomerAccount_CustomerAgreements_feature",
-                        "_UI_CustomerAccount_type" ),
-                CimPackage.eINSTANCE.getCustomerAccount_CustomerAgreements(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CustomerAccount_CustomerAgreements_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_CustomerAccount_CustomerAgreements_feature", "_UI_CustomerAccount_type" ),
+                        CimPackage.eINSTANCE.getCustomerAccount_CustomerAgreements(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -168,12 +212,19 @@ public class CustomerAccountItemProvider extends DocumentItemProvider {
      * @generated
      */
     protected void addPaymentTransactionsPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_CustomerAccount_PaymentTransactions_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_CustomerAccount_PaymentTransactions_feature",
-                        "_UI_CustomerAccount_type" ),
-                CimPackage.eINSTANCE.getCustomerAccount_PaymentTransactions(), true, false, true, null, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_CustomerAccount_PaymentTransactions_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_CustomerAccount_PaymentTransactions_feature", "_UI_CustomerAccount_type" ),
+                        CimPackage.eINSTANCE.getCustomerAccount_PaymentTransactions(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -244,8 +295,8 @@ public class CustomerAccountItemProvider extends DocumentItemProvider {
         Object childFeature = feature;
         Object childObject = child;
 
-        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus()
-                || childFeature == CimPackage.eINSTANCE.getDocument_Status();
+        boolean qualify = childFeature == CimPackage.eINSTANCE.getDocument_DocStatus() ||
+                childFeature == CimPackage.eINSTANCE.getDocument_Status();
 
         if( qualify ) {
             return getString( "_UI_CreateChild_text2",

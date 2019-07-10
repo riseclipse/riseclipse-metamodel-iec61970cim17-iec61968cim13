@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -109,11 +114,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addDb1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_db1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_db1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_db1_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_Db1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_Db1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -125,11 +136,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addDb2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_db2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_db2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_db2_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_Db2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_Db2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -141,11 +158,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addEpsPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_eps_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_eps_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_eps_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_Eps(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_Eps(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -157,11 +180,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addGv1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_gv1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_gv1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_gv1_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_Gv1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_Gv1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -173,11 +202,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addGv2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_gv2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_gv2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_gv2_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_Gv2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_Gv2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -189,11 +224,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addGv3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_gv3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_gv3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_gv3_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_Gv3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_Gv3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -205,11 +246,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addGv4PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_gv4_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_gv4_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_gv4_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_Gv4(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_Gv4(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -221,11 +268,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addGv5PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_gv5_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_gv5_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_gv5_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_Gv5(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_Gv5(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -237,11 +290,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addGv6PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_gv6_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_gv6_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_gv6_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_Gv6(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_Gv6(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -253,11 +312,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addKPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_k_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_k_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_k_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_K(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_K(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -269,11 +334,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addK1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_k1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_k1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_k1_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_K1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_K1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -285,11 +356,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addK2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_k2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_k2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_k2_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_K2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_K2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -301,11 +378,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addK3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_k3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_k3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_k3_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_K3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_K3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -317,11 +400,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addK4PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_k4_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_k4_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_k4_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_K4(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_K4(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -333,11 +422,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addK5PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_k5_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_k5_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_k5_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_K5(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_K5(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -349,11 +444,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addK6PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_k6_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_k6_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_k6_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_K6(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_K6(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -365,11 +466,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addK7PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_k7_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_k7_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_k7_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_K7(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_K7(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -381,11 +488,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addK8PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_k8_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_k8_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_k8_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_K8(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_K8(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -397,11 +510,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addMwbasePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_mwbase_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_mwbase_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_mwbase_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_Mwbase(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_Mwbase(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -413,11 +532,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addPgv1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_pgv1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_pgv1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_pgv1_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_Pgv1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_Pgv1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -429,11 +554,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addPgv2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_pgv2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_pgv2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_pgv2_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_Pgv2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_Pgv2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -445,11 +576,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addPgv3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_pgv3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_pgv3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_pgv3_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_Pgv3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_Pgv3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -461,11 +598,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addPgv4PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_pgv4_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_pgv4_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_pgv4_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_Pgv4(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_Pgv4(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -477,11 +620,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addPgv5PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_pgv5_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_pgv5_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_pgv5_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_Pgv5(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_Pgv5(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -493,11 +642,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addPgv6PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_pgv6_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_pgv6_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_pgv6_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_Pgv6(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_Pgv6(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -509,11 +664,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addPmaxPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_pmax_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_pmax_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_pmax_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_Pmax(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_Pmax(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -525,11 +686,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addPminPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_pmin_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_pmin_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_pmin_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_Pmin(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_Pmin(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -541,11 +708,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addSdb1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_sdb1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_sdb1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_sdb1_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_Sdb1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_Sdb1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -557,11 +730,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addSdb2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_sdb2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_sdb2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_sdb2_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_Sdb2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_Sdb2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -573,11 +752,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addT1PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_t1_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_t1_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_t1_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_T1(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_T1(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -589,11 +774,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addT2PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_t2_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_t2_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_t2_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_T2(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_T2(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -605,11 +796,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addT3PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_t3_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_t3_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_t3_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_T3(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_T3(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -621,11 +818,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addT4PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_t4_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_t4_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_t4_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_T4(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_T4(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -637,11 +840,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addT5PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_t5_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_t5_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_t5_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_T5(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_T5(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -653,11 +862,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addT6PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_t6_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_t6_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_t6_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_T6(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_T6(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -669,11 +884,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addT7PropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_t7_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_t7_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_t7_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_T7(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_T7(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -685,11 +906,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addUcPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_uc_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_uc_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_uc_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_Uc(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_Uc(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -701,11 +928,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addUoPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_uo_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_uo_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_uo_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_Uo(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_Uo(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -717,11 +950,17 @@ public class GovSteam1ItemProvider extends TurbineGovernorDynamicsItemProvider {
     protected void addValvePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_GovSteam1_valve_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_GovSteam1_valve_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_GovSteam1_valve_feature",
                                 "_UI_GovSteam1_type" ),
-                        CimPackage.eINSTANCE.getGovSteam1_Valve(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getGovSteam1_Valve(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**

@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CimPackage;
@@ -81,13 +86,19 @@ public class WindDynamicsLookupTableItemProvider extends IdentifiedObjectItemPro
      * @generated
      */
     protected void addInputPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindDynamicsLookupTable_input_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_WindDynamicsLookupTable_input_feature",
-                        "_UI_WindDynamicsLookupTable_type" ),
-                CimPackage.eINSTANCE.getWindDynamicsLookupTable_Input(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindDynamicsLookupTable_input_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_WindDynamicsLookupTable_input_feature",
+                                "_UI_WindDynamicsLookupTable_type" ),
+                        CimPackage.eINSTANCE.getWindDynamicsLookupTable_Input(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -97,14 +108,20 @@ public class WindDynamicsLookupTableItemProvider extends IdentifiedObjectItemPro
      * @generated
      */
     protected void addLookupTableFunctionTypePropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindDynamicsLookupTable_lookupTableFunctionType_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_WindDynamicsLookupTable_lookupTableFunctionType_feature",
-                        "_UI_WindDynamicsLookupTable_type" ),
-                CimPackage.eINSTANCE.getWindDynamicsLookupTable_LookupTableFunctionType(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindDynamicsLookupTable_lookupTableFunctionType_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_WindDynamicsLookupTable_lookupTableFunctionType_feature",
+                                "_UI_WindDynamicsLookupTable_type" ),
+                        CimPackage.eINSTANCE.getWindDynamicsLookupTable_LookupTableFunctionType(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -114,13 +131,19 @@ public class WindDynamicsLookupTableItemProvider extends IdentifiedObjectItemPro
      * @generated
      */
     protected void addOutputPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindDynamicsLookupTable_output_feature" ),
-                getString( "_UI_PropertyDescriptor_description", "_UI_WindDynamicsLookupTable_output_feature",
-                        "_UI_WindDynamicsLookupTable_type" ),
-                CimPackage.eINSTANCE.getWindDynamicsLookupTable_Output(), true, false, false,
-                ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindDynamicsLookupTable_output_feature" ),
+                        getString( "_UI_PropertyDescriptor_description", "_UI_WindDynamicsLookupTable_output_feature",
+                                "_UI_WindDynamicsLookupTable_type" ),
+                        CimPackage.eINSTANCE.getWindDynamicsLookupTable_Output(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -132,11 +155,17 @@ public class WindDynamicsLookupTableItemProvider extends IdentifiedObjectItemPro
     protected void addSequencePropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindDynamicsLookupTable_sequence_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindDynamicsLookupTable_sequence_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_WindDynamicsLookupTable_sequence_feature",
                                 "_UI_WindDynamicsLookupTable_type" ),
-                        CimPackage.eINSTANCE.getWindDynamicsLookupTable_Sequence(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getWindDynamicsLookupTable_Sequence(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -146,14 +175,20 @@ public class WindDynamicsLookupTableItemProvider extends IdentifiedObjectItemPro
      * @generated
      */
     protected void addWindPlantFreqPcontrolIECPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindDynamicsLookupTable_WindPlantFreqPcontrolIEC_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_WindDynamicsLookupTable_WindPlantFreqPcontrolIEC_feature",
-                        "_UI_WindDynamicsLookupTable_type" ),
-                CimPackage.eINSTANCE.getWindDynamicsLookupTable_WindPlantFreqPcontrolIEC(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindDynamicsLookupTable_WindPlantFreqPcontrolIEC_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_WindDynamicsLookupTable_WindPlantFreqPcontrolIEC_feature",
+                                "_UI_WindDynamicsLookupTable_type" ),
+                        CimPackage.eINSTANCE.getWindDynamicsLookupTable_WindPlantFreqPcontrolIEC(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -164,11 +199,17 @@ public class WindDynamicsLookupTableItemProvider extends IdentifiedObjectItemPro
      */
     protected void addWindContRotorRIECPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindDynamicsLookupTable_WindContRotorRIEC_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_WindDynamicsLookupTable_WindContRotorRIEC_feature", "_UI_WindDynamicsLookupTable_type" ),
-                CimPackage.eINSTANCE.getWindDynamicsLookupTable_WindContRotorRIEC(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getWindDynamicsLookupTable_WindContRotorRIEC(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -179,14 +220,20 @@ public class WindDynamicsLookupTableItemProvider extends IdentifiedObjectItemPro
      * @generated
      */
     protected void addWindPlantReactiveControlIECPropertyDescriptor( Object object ) {
-        itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
-                getString( "_UI_WindDynamicsLookupTable_WindPlantReactiveControlIEC_feature" ),
-                getString( "_UI_PropertyDescriptor_description",
-                        "_UI_WindDynamicsLookupTable_WindPlantReactiveControlIEC_feature",
-                        "_UI_WindDynamicsLookupTable_type" ),
-                CimPackage.eINSTANCE.getWindDynamicsLookupTable_WindPlantReactiveControlIEC(), true, false, true, null,
-                null, null ) );
+        itemPropertyDescriptors.add(
+                createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                        getResourceLocator(),
+                        getString( "_UI_WindDynamicsLookupTable_WindPlantReactiveControlIEC_feature" ),
+                        getString( "_UI_PropertyDescriptor_description",
+                                "_UI_WindDynamicsLookupTable_WindPlantReactiveControlIEC_feature",
+                                "_UI_WindDynamicsLookupTable_type" ),
+                        CimPackage.eINSTANCE.getWindDynamicsLookupTable_WindPlantReactiveControlIEC(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -197,11 +244,17 @@ public class WindDynamicsLookupTableItemProvider extends IdentifiedObjectItemPro
      */
     protected void addWindContQPQULimIECPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindDynamicsLookupTable_WindContQPQULimIEC_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_WindDynamicsLookupTable_WindContQPQULimIEC_feature", "_UI_WindDynamicsLookupTable_type" ),
-                CimPackage.eINSTANCE.getWindDynamicsLookupTable_WindContQPQULimIEC(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getWindDynamicsLookupTable_WindContQPQULimIEC(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -213,11 +266,17 @@ public class WindDynamicsLookupTableItemProvider extends IdentifiedObjectItemPro
      */
     protected void addWindContCurrLimIECPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindDynamicsLookupTable_WindContCurrLimIEC_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_WindDynamicsLookupTable_WindContCurrLimIEC_feature", "_UI_WindDynamicsLookupTable_type" ),
-                CimPackage.eINSTANCE.getWindDynamicsLookupTable_WindContCurrLimIEC(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getWindDynamicsLookupTable_WindContCurrLimIEC(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -230,12 +289,18 @@ public class WindDynamicsLookupTableItemProvider extends IdentifiedObjectItemPro
     protected void addWindPitchContPowerIECPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_WindDynamicsLookupTable_WindPitchContPowerIEC_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_WindDynamicsLookupTable_WindPitchContPowerIEC_feature" ),
                         getString( "_UI_PropertyDescriptor_description",
                                 "_UI_WindDynamicsLookupTable_WindPitchContPowerIEC_feature",
                                 "_UI_WindDynamicsLookupTable_type" ),
-                        CimPackage.eINSTANCE.getWindDynamicsLookupTable_WindPitchContPowerIEC(), true, false, true,
-                        null, null, null ) );
+                        CimPackage.eINSTANCE.getWindDynamicsLookupTable_WindPitchContPowerIEC(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -246,11 +311,17 @@ public class WindDynamicsLookupTableItemProvider extends IdentifiedObjectItemPro
      */
     protected void addWindGenType3bIECPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindDynamicsLookupTable_WindGenType3bIEC_feature" ),
                 getString( "_UI_PropertyDescriptor_description", "_UI_WindDynamicsLookupTable_WindGenType3bIEC_feature",
                         "_UI_WindDynamicsLookupTable_type" ),
-                CimPackage.eINSTANCE.getWindDynamicsLookupTable_WindGenType3bIEC(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getWindDynamicsLookupTable_WindGenType3bIEC(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -262,11 +333,17 @@ public class WindDynamicsLookupTableItemProvider extends IdentifiedObjectItemPro
      */
     protected void addWindProtectionIECPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindDynamicsLookupTable_WindProtectionIEC_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_WindDynamicsLookupTable_WindProtectionIEC_feature", "_UI_WindDynamicsLookupTable_type" ),
-                CimPackage.eINSTANCE.getWindDynamicsLookupTable_WindProtectionIEC(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getWindDynamicsLookupTable_WindProtectionIEC(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 
@@ -278,11 +355,17 @@ public class WindDynamicsLookupTableItemProvider extends IdentifiedObjectItemPro
      */
     protected void addWindContPType3IECPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add( createItemPropertyDescriptor(
-                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(), getResourceLocator(),
+                ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
+                getResourceLocator(),
                 getString( "_UI_WindDynamicsLookupTable_WindContPType3IEC_feature" ),
                 getString( "_UI_PropertyDescriptor_description",
                         "_UI_WindDynamicsLookupTable_WindContPType3IEC_feature", "_UI_WindDynamicsLookupTable_type" ),
-                CimPackage.eINSTANCE.getWindDynamicsLookupTable_WindContPType3IEC(), true, false, true, null, null,
+                CimPackage.eINSTANCE.getWindDynamicsLookupTable_WindContPType3IEC(),
+                true,
+                false,
+                true,
+                null,
+                null,
                 null ) );
     }
 

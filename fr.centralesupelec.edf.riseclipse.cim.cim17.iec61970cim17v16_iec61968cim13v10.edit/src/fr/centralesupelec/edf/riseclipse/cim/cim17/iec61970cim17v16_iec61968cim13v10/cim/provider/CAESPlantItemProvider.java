@@ -1,18 +1,23 @@
-/**
- *  Copyright (c) 2016 CentraleSupélec & EDF.
- *  All rights reserved. This program and the accompanying materials
- *  are made available under the terms of the Eclipse Public License v1.0
- *  which accompanies this distribution, and is available at
- *  http://www.eclipse.org/legal/epl-v10.html
- * 
- *  This file is part of the RiseClipse tool
- *  
- *  Contributors:
- *      Computer Science Department, CentraleSupélec : initial implementation
- *  Contacts:
- *      Dominique.Marcadet@centralesupelec.fr
- * 
- */
+/*
+*************************************************************************
+**  Copyright (c) 2019 CentraleSupélec & EDF.
+**  All rights reserved. This program and the accompanying materials
+**  are made available under the terms of the Eclipse Public License v2.0
+**  which accompanies this distribution, and is available at
+**  https://www.eclipse.org/legal/epl-v20.html
+** 
+**  This file is part of the RiseClipse tool
+**  
+**  Contributors:
+**      Computer Science Department, CentraleSupélec
+**      EDF R&D
+**  Contacts:
+**      dominique.marcadet@centralesupelec.fr
+**      aurelie.dehouck-neveu@edf.fr
+**  Web site:
+**      http://wdi.supelec.fr/software/RiseClipse/
+*************************************************************************
+*/
 package fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.provider;
 
 import fr.centralesupelec.edf.riseclipse.cim.cim17.iec61970cim17v16_iec61968cim13v10.cim.CAESPlant;
@@ -74,11 +79,17 @@ public class CAESPlantItemProvider extends PowerSystemResourceItemProvider {
     protected void addEnergyStorageCapacityPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CAESPlant_energyStorageCapacity_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CAESPlant_energyStorageCapacity_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CAESPlant_energyStorageCapacity_feature",
                                 "_UI_CAESPlant_type" ),
-                        CimPackage.eINSTANCE.getCAESPlant_EnergyStorageCapacity(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCAESPlant_EnergyStorageCapacity(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -90,11 +101,17 @@ public class CAESPlantItemProvider extends PowerSystemResourceItemProvider {
     protected void addRatedCapacityPPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CAESPlant_ratedCapacityP_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CAESPlant_ratedCapacityP_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CAESPlant_ratedCapacityP_feature",
                                 "_UI_CAESPlant_type" ),
-                        CimPackage.eINSTANCE.getCAESPlant_RatedCapacityP(), true, false, false,
-                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null ) );
+                        CimPackage.eINSTANCE.getCAESPlant_RatedCapacityP(),
+                        true,
+                        false,
+                        false,
+                        ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                        null,
+                        null ) );
     }
 
     /**
@@ -106,10 +123,17 @@ public class CAESPlantItemProvider extends PowerSystemResourceItemProvider {
     protected void addAirCompressorPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CAESPlant_AirCompressor_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CAESPlant_AirCompressor_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CAESPlant_AirCompressor_feature",
                                 "_UI_CAESPlant_type" ),
-                        CimPackage.eINSTANCE.getCAESPlant_AirCompressor(), true, false, true, null, null, null ) );
+                        CimPackage.eINSTANCE.getCAESPlant_AirCompressor(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
+                        null ) );
     }
 
     /**
@@ -121,10 +145,16 @@ public class CAESPlantItemProvider extends PowerSystemResourceItemProvider {
     protected void addThermalGeneratingUnitPropertyDescriptor( Object object ) {
         itemPropertyDescriptors.add(
                 createItemPropertyDescriptor( ( ( ComposeableAdapterFactory ) adapterFactory ).getRootAdapterFactory(),
-                        getResourceLocator(), getString( "_UI_CAESPlant_ThermalGeneratingUnit_feature" ),
+                        getResourceLocator(),
+                        getString( "_UI_CAESPlant_ThermalGeneratingUnit_feature" ),
                         getString( "_UI_PropertyDescriptor_description", "_UI_CAESPlant_ThermalGeneratingUnit_feature",
                                 "_UI_CAESPlant_type" ),
-                        CimPackage.eINSTANCE.getCAESPlant_ThermalGeneratingUnit(), true, false, true, null, null,
+                        CimPackage.eINSTANCE.getCAESPlant_ThermalGeneratingUnit(),
+                        true,
+                        false,
+                        true,
+                        null,
+                        null,
                         null ) );
     }
 
